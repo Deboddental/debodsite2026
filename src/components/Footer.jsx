@@ -44,7 +44,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="bg-charcoal rounded-t-[3rem] pt-16 pb-8 px-6 md:px-12 lg:px-20 mt-0"
+      className="bg-charcoal rounded-t-[3rem] -mt-12 pt-28 pb-8 px-6 md:px-12 lg:px-20"
       role="contentinfo"
       aria-label="Pie de página Debod Dental Clinic"
     >
