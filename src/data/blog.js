@@ -12,7 +12,7 @@ export const blogPosts = [
     metaTitle: 'Bruxismo y estrés: protege tus dientes — Debod Dental Clinic Argüelles',
     metaDescription: '¿Aprietas o rechinas los dientes por la noche? El bruxismo puede causar desgaste severo y dolor mandibular. Descubre cómo tratarlo en Argüelles, Madrid.',
     excerpt: 'El bruxismo es cada vez más frecuente. El estrés hace que aprietes o rechines los dientes sin darte cuenta, causando desgaste, dolor y sensibilidad. Tiene solución cuando se detecta a tiempo.',
-    heroImageUrl: 'https://images.unsplash.com/photo-1620873498283-1e0bdfb5e61a?w=1400&q=85&auto=format&fit=crop',
+    heroImageUrl: '/Images/blog/webp/bruxismo-estres.webp',
     bodyMarkdown: `El **bruxismo** es un problema cada vez más frecuente. Muchas personas aprietan o rechinan los dientes sin darse cuenta, especialmente durante la noche, y el estrés suele ser uno de los principales responsables.
 
 Con el tiempo, este hábito puede provocar **desgaste dental, dolor mandibular, sensibilidad e incluso fracturas en los dientes**. La buena noticia es que el bruxismo tiene solución cuando se detecta a tiempo.
@@ -104,7 +104,7 @@ Si notas desgaste en los dientes, dolor en la mandíbula o sensibilidad al despe
     metaTitle: 'Diagnóstico dental en Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'Un diagnóstico dental preciso es el primer paso hacia el tratamiento correcto. Escáner 3D, radiografías digitales y análisis completo en Argüelles, Madrid.',
     excerpt: 'Un diagnóstico dental preciso es el primer paso para elegir el tratamiento correcto. En Debod Dental Clinic usamos escáner intraoral 3D y radiografías digitales para un análisis completo.',
-    heroImageUrl: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1400&q=85&auto=format&fit=crop',
+    heroImageUrl: '/Images/blog/webp/diagnostico-dental.webp',
     bodyMarkdown: `Un **diagnóstico dental completo y preciso** es la base de cualquier tratamiento exitoso. Sin un diagnóstico correcto, el tratamiento puede ser inadecuado, incompleto o incluso contraproducente.
 
 En **Debod Dental Clinic**, en **Argüelles, Madrid**, invertimos en las mejores herramientas diagnósticas para garantizar que cada decisión clínica esté respaldada por la información más precisa posible.
@@ -161,7 +161,7 @@ Creemos en la **odontología honesta**: te explicamos todo lo que necesitas sabe
     metaTitle: 'Encías retraídas en Argüelles, Madrid — Causas y tratamiento',
     metaDescription: '¿Tus dientes parecen más largos? La recesión gingival expone las raíces y puede causar sensibilidad y caries radicular. Conoce los tratamientos disponibles.',
     excerpt: '¿Has notado que tus dientes parecen más largos o sientes sensibilidad al tomar algo frío? La recesión gingival es más frecuente de lo que imaginas y tiene tratamiento.',
-    heroImageUrl: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1400&q=85&auto=format&fit=crop',
+    heroImageUrl: '/Images/blog/webp/encias-retraidas.webp',
     bodyMarkdown: `La **recesión gingival** es un problema mucho más frecuente de lo que imaginas. No solo afecta la estética de tu sonrisa —haciendo que los dientes parezcan más largos o "envejecidos"— sino que también expone las raíces dentales a la caries y la sensibilidad.
 
 ## ¿Qué es la recesión gingival?
@@ -221,7 +221,7 @@ Si ya tienes recesión gingival, te recomendamos una valoración en nuestra **Cl
     metaTitle: 'Limpieza dental profunda en Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'La limpieza dental profunda va más allá de la profilaxis estándar. Descubre cuándo la necesitas y en qué se diferencia de una limpieza convencional.',
     excerpt: 'No todas las limpiezas son iguales. La limpieza dental profunda actúa bajo las encías para tratar la periodontitis incipiente. Te explicamos cuándo y por qué la necesitas.',
-    heroImageUrl: 'https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=1400&q=85&auto=format&fit=crop',
+    heroImageUrl: '/Images/blog/webp/limpieza-dental.webp',
     bodyMarkdown: `Muchas personas confunden la **limpieza dental estándar** (profilaxis) con la **limpieza dental profunda** (destartraje subgingival). Son dos procedimientos diferentes con objetivos distintos.
 
 ## La diferencia clave
@@ -277,7 +277,7 @@ Se programa una **re-evaluación periodontal** a las 6-8 semanas para valorar la
     metaTitle: 'Detección cáncer oral en Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'El cáncer oral detectado a tiempo tiene una tasa de supervivencia superior al 80%. En Debod Dental Clinic realizamos exploración sistemática en cada revisión.',
     excerpt: 'El cáncer oral tiene muy buen pronóstico si se detecta a tiempo. En Debod Dental Clinic incluimos la exploración sistemática de la mucosa oral en cada revisión de control.',
-    heroImageUrl: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1400&q=85&auto=format&fit=crop',
+    heroImageUrl: '/Images/blog/webp/deteccion-cancer-oral.webp',
     bodyMarkdown: `El **cáncer oral** es uno de los tipos de cáncer con mayor mortalidad, no porque sea especialmente agresivo, sino porque con frecuencia se diagnostica en estadios avanzados cuando ya ha invadido estructuras vecinas.
 
 La detección precoz cambia radicalmente el pronóstico: **detectado en estadio I, la tasa de supervivencia a 5 años supera el 80%**. En estadio IV, cae al 20-30%.
@@ -335,7 +335,7 @@ Esta exploración forma parte de **todas nuestras revisiones**, sin coste adicio
     metaTitle: 'Carillas vs coronas dentales: diferencias y cuándo elegir cada una',
     metaDescription: '¿Carillas de porcelana o coronas dentales? Descubre las diferencias, ventajas e indicaciones de cada restauración para tomar la mejor decisión.',
     excerpt: 'Carillas o coronas: ¿cuál es la mejor opción para tu sonrisa? Aunque ambas mejoran la estética, tienen indicaciones muy diferentes. Te explicamos cuándo elegir cada una.',
-    heroImageUrl: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1400&q=85&auto=format&fit=crop',
+    heroImageUrl: '/Images/blog/webp/carillas-vs-coronas.webp',
     bodyMarkdown: `Una de las preguntas más frecuentes en la consulta de estética dental es: **¿necesito carillas o coronas?** Aunque ambas pueden mejorar significativamente la estética de tu sonrisa, tienen indicaciones muy diferentes y no son intercambiables.
 
 ## ¿Qué son las carillas dentales?
@@ -397,7 +397,7 @@ La decisión depende del estado del diente, la cantidad de tejido dental sano di
     metaTitle: 'Aftas bucales: causas, tratamiento y cuándo preocuparse — Debod Dental Clinic',
     metaDescription: 'Las aftas bucales son dolorosas pero en la mayoría de casos no graves. Descubre por qué aparecen, cómo aliviar el dolor y cuándo debes consultar al dentista.',
     excerpt: 'Las aftas bucales son una de las molestias orales más frecuentes. Dolorosas pero generalmente benignas. Te explicamos por qué aparecen y cuándo deberías consultar.',
-    heroImageUrl: 'https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=1400&q=85&auto=format&fit=crop',
+    heroImageUrl: '/Images/blog/webp/aftas-bucales.webp',
     bodyMarkdown: `Las **aftas bucales** —también conocidas como úlceras aftosas o "llagas"— son pequeñas úlceras dolorosas que aparecen en la mucosa oral: los labios por dentro, las mejillas, la lengua o el paladar blando.
 
 Son una de las lesiones orales más frecuentes: se estima que afectan al **20-30% de la población** en algún momento de su vida.
@@ -464,7 +464,7 @@ Una úlcera que no cura puede ser una señal de cáncer oral, que requiere diagn
     metaTitle: 'Dolor de muelas del juicio en Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'El dolor de muelas del juicio puede indicar pericoronaritis, caries o impactación. Conoce las causas y cuándo conviene extraerlas.',
     excerpt: 'El dolor de muelas del juicio es uno de los motivos de urgencia dental más frecuentes. Conoce las causas y cuándo conviene extraerlas.',
-    heroImageUrl: 'https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=1400&q=85&auto=format&fit=crop',
+    heroImageUrl: '/Images/blog/webp/dolor-muelas-juicio.webp',
     bodyMarkdown: `Las **muelas del juicio** o terceros molares son los últimos dientes en erupcionar, generalmente entre los 17 y 25 años. En muchos casos, su erupción no ocurre sin problemas: la mandíbula ya no tiene espacio suficiente para acomodarlos.
 
 ## ¿Por qué duelen las muelas del juicio?
@@ -514,7 +514,7 @@ En **Debod Dental Clinic**, en **Argüelles, Madrid**, atendemos urgencias y rea
     metaTitle: 'Ortodoncia invisible: mitos y resultados reales — Debod Dental Clinic Argüelles',
     metaDescription: '¿Es la ortodoncia invisible tan efectiva como los brackets? Desmontamos los mitos más frecuentes sobre Invisalign y la ortodoncia con alineadores.',
     excerpt: 'La ortodoncia invisible ha ganado mucha popularidad, pero también muchos mitos. ¿Es tan efectiva como los brackets? ¿Sirve para casos complejos? Desmontamos los mitos.',
-    heroImageUrl: 'https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=1400&q=85&auto=format&fit=crop',
+    heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
     bodyMarkdown: `La ortodoncia con alineadores transparentes —especialmente **Invisalign®**— ha transformado la forma en que millones de personas viven el tratamiento de ortodoncia. Pero con su popularidad han llegado también mitos y malentendidos que conviene aclarar.
 
 ## Mito 1: "La ortodoncia invisible solo sirve para casos simples"
