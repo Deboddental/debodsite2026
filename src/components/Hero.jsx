@@ -99,7 +99,7 @@ export default function Hero() {
         </p>
 
         {/* CTA Buttons */}
-        <div ref={ctaRef} className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-4 sm:mb-8">
+        <div ref={ctaRef} className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-10">
           <a
             href={WA_LINK}
             target="_blank"
@@ -118,7 +118,7 @@ export default function Hero() {
         </div>
 
         {/* Social Proof */}
-        <div ref={socialProofRef} className="flex items-center gap-4 sm:gap-6 flex-wrap">
+        <div ref={socialProofRef} className="flex items-center justify-center sm:justify-start gap-4 sm:gap-6 flex-wrap">
           <div className="flex items-center gap-1.5">
             <div className="flex">
               {[...Array(5)].map((_, i) => (

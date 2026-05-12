@@ -5,6 +5,10 @@ import { HelmetProvider } from 'react-helmet-async'
 import './index.css'
 import { router } from './router'
 
+if (typeof window !== 'undefined') {
+  window.dataLayer = window.dataLayer || []
+}
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HelmetProvider>

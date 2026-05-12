@@ -1,11 +1,20 @@
-import { Outlet, ScrollRestoration } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Outlet, ScrollRestoration, useLocation } from 'react-router-dom'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppWidget from '@/components/WhatsAppWidget'
+import { captureTrackingData } from '@/utils/tracking'
+
+function TrackingInit() {
+  const { pathname } = useLocation()
+  useEffect(() => { captureTrackingData() }, [pathname])
+  return null
+}
 
 export default function RootLayout() {
   return (
     <>
+      <TrackingInit />
       <Navbar />
       <ScrollRestoration />
       {/*

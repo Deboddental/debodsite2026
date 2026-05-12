@@ -102,15 +102,13 @@ export default function Navbar() {
         </div>
 
         {/* CTA */}
-        <a
-          href={WA_LINK}
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          to="/contacto/"
           className="hidden md:flex btn-magnetic items-center gap-2 bg-gold text-charcoal font-outfit font-semibold text-sm px-5 py-2.5 rounded-full shrink-0 hover:bg-gold-light transition-colors duration-300"
         >
           <Phone size={14} />
           Agenda tu cita
-        </a>
+        </Link>
 
         {/* Mobile hamburger */}
         <button
@@ -136,16 +134,14 @@ export default function Navbar() {
           ))}
           <div className="h-px bg-charcoal/10" />
           <Link to="/blog/" className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>Blog</Link>
-          <a
-            href={WA_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/contacto/"
             className="btn-magnetic flex items-center justify-center gap-2 bg-gold text-charcoal font-bold text-base px-6 py-3.5 rounded-3xl mt-2"
             onClick={() => setMobileOpen(false)}
           >
             <Phone size={16} />
-            Agendar Cita por WhatsApp
-          </a>
+            Agendar mi cita
+          </Link>
         </div>
       </div>
     </>

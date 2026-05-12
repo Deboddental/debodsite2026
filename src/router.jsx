@@ -8,6 +8,7 @@ import Ubicaciones from './pages/Ubicaciones'
 import Citas from './pages/Citas'
 import PoliticaPrivacidad from './pages/PoliticaPrivacidad'
 import Servicios from './pages/Servicios'
+import Contacto from './pages/Contacto'
 import NotFound from './pages/NotFound'
 import ServicePage from './pages/services/ServicePage'
 import TreatmentPage from './pages/treatments/TreatmentPage'
@@ -26,6 +27,7 @@ export const router = createBrowserRouter(
       <Route path="dental-lab/" element={<DentalLab />} />
       <Route path="financiacion/" element={<Financiacion />} />
       <Route path="politica-de-privacidad/" element={<PoliticaPrivacidad />} />
+      <Route path="contacto/" element={<Contacto />} />
 
       {/* Locations */}
       <Route path="ubicaciones/" element={<Ubicaciones />} />

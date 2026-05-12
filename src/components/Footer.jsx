@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { MapPin, Phone, Mail, ArrowUpRight } from 'lucide-react'
+import { MapPin, Phone, Mail, ArrowUpRight, Calendar } from 'lucide-react'
 
 const InstagramIcon = () => (
   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -59,15 +59,13 @@ export default function Footer() {
               Primera visita diagnóstica incluida · Argüelles, Madrid
             </p>
           </div>
-          <a
-            href={WA_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/contacto/"
             className="btn-magnetic flex items-center gap-2.5 bg-gold text-charcoal font-outfit font-bold text-sm px-7 py-3.5 rounded-full hover:bg-gold-light transition-colors duration-300 shrink-0"
           >
+            <Calendar size={15} />
             Agendar Cita Ahora
-            <ArrowUpRight size={16} />
-          </a>
+          </Link>
         </div>
 
         {/* Main Footer Grid */}
