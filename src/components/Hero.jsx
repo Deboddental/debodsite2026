@@ -1,8 +1,7 @@
 import { useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { MessageCircle, ArrowDown, Star } from 'lucide-react'
-
-const WA_LINK = 'https://wa.me/34689104714?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20pedir%20una%20cita%20en%20Debod%20Dental%20Clinic.%20%C2%BFPodr%C3%ADan%20ayudarme%3F'
 
 const HERO_VIDEO = '/hero/video hero doctores.webm'
 
@@ -100,15 +99,13 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <div ref={ctaRef} className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-10">
-          <a
-            href={WA_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/contacto/"
             className="btn-magnetic flex items-center justify-center gap-3 bg-gold text-charcoal font-outfit font-bold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-xl shadow-gold/30 hover:bg-gold-light transition-colors duration-300"
           >
             <MessageCircle size={18} />
-            Agendar Cita en WhatsApp
-          </a>
+            Agendar Cita
+          </Link>
           <a
             href="#tratamientos"
             className="btn-magnetic flex items-center justify-center gap-2 border-2 border-white/30 text-white font-outfit font-semibold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm"

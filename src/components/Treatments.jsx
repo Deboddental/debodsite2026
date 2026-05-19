@@ -60,44 +60,55 @@ export default function Treatments() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      gsap.from(labelRef.current, {
-        opacity: 0,
-        y: 20,
-        duration: 0.8,
-        scrollTrigger: { trigger: labelRef.current, start: 'top 85%' },
+      const mm = gsap.matchMedia()
+
+      mm.add('(max-width: 767px)', () => {
+        gsap.from(labelRef.current, {
+          opacity: 0, y: 12, duration: 0.45,
+          scrollTrigger: { trigger: labelRef.current, start: 'top 88%' },
+        })
+        cardsRef.current.forEach((card, i) => {
+          if (!card) return
+          const isLast = i === cardsRef.current.length - 1
+          if (!isLast) {
+            gsap.to(card, {
+              scale: 0.93, opacity: 0.5,
+              ease: 'power2.inOut',
+              scrollTrigger: {
+                trigger: cardsRef.current[i + 1],
+                start: 'top 85%', end: 'top 20%', scrub: 0.8,
+              },
+            })
+          }
+          gsap.from(card, {
+            opacity: 0, y: 40, duration: 0.55, ease: 'power3.out',
+            scrollTrigger: { trigger: card, start: 'top 90%' },
+          })
+        })
       })
 
-      // Sticky stacking: each card scales/blurs/fades as next enters
-      cardsRef.current.forEach((card, i) => {
-        if (!card) return
-        const isLast = i === cardsRef.current.length - 1
-
-        if (!isLast) {
-          // Animate outgoing card when next card scrolls in
-          gsap.to(card, {
-            scale: 0.9,
-            filter: 'blur(12px)',
-            opacity: 0.4,
-            ease: 'power2.inOut',
-            scrollTrigger: {
-              trigger: cardsRef.current[i + 1],
-              start: 'top 85%',
-              end: 'top 20%',
-              scrub: 0.8,
-            },
+      mm.add('(min-width: 768px)', () => {
+        gsap.from(labelRef.current, {
+          opacity: 0, y: 20, duration: 0.8,
+          scrollTrigger: { trigger: labelRef.current, start: 'top 85%' },
+        })
+        cardsRef.current.forEach((card, i) => {
+          if (!card) return
+          const isLast = i === cardsRef.current.length - 1
+          if (!isLast) {
+            gsap.to(card, {
+              scale: 0.9, filter: 'blur(12px)', opacity: 0.4,
+              ease: 'power2.inOut',
+              scrollTrigger: {
+                trigger: cardsRef.current[i + 1],
+                start: 'top 85%', end: 'top 20%', scrub: 0.8,
+              },
+            })
+          }
+          gsap.from(card, {
+            opacity: 0, y: 80, duration: 1, ease: 'power3.out',
+            scrollTrigger: { trigger: card, start: 'top 88%' },
           })
-        }
-
-        // Entrance of each card
-        gsap.from(card, {
-          opacity: 0,
-          y: 80,
-          duration: 1,
-          ease: 'power3.out',
-          scrollTrigger: {
-            trigger: card,
-            start: 'top 88%',
-          },
         })
       })
     }, sectionRef)

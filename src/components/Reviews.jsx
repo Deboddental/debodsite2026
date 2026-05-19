@@ -13,24 +13,33 @@ export default function Reviews() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      gsap.from(headRef.current.children, {
-        opacity: 0,
-        y: 30,
-        stagger: 0.12,
-        duration: 0.8,
-        ease: 'power3.out',
-        scrollTrigger: { trigger: headRef.current, start: 'top 80%' },
+      const mm = gsap.matchMedia()
+
+      mm.add('(max-width: 767px)', () => {
+        gsap.from(headRef.current.children, {
+          opacity: 0, y: 15, stagger: 0.06, duration: 0.45, ease: 'power3.out',
+          scrollTrigger: { trigger: headRef.current, start: 'top 85%' },
+        })
+        cardsRef.current.forEach((card, i) => {
+          if (!card) return
+          gsap.from(card, {
+            opacity: 0, y: 20, duration: 0.4, ease: 'power3.out', delay: (i % 3) * 0.05,
+            scrollTrigger: { trigger: card, start: 'top 90%' },
+          })
+        })
       })
 
-      cardsRef.current.forEach((card, i) => {
-        if (!card) return
-        gsap.from(card, {
-          opacity: 0,
-          y: 40,
-          duration: 0.7,
-          ease: 'power3.out',
-          delay: (i % 3) * 0.1,
-          scrollTrigger: { trigger: card, start: 'top 88%' },
+      mm.add('(min-width: 768px)', () => {
+        gsap.from(headRef.current.children, {
+          opacity: 0, y: 30, stagger: 0.12, duration: 0.8, ease: 'power3.out',
+          scrollTrigger: { trigger: headRef.current, start: 'top 80%' },
+        })
+        cardsRef.current.forEach((card, i) => {
+          if (!card) return
+          gsap.from(card, {
+            opacity: 0, y: 40, duration: 0.7, ease: 'power3.out', delay: (i % 3) * 0.1,
+            scrollTrigger: { trigger: card, start: 'top 88%' },
+          })
         })
       })
     }, sectionRef)

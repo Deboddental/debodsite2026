@@ -1,4 +1,4 @@
-import { useParams, Navigate } from 'react-router-dom'
+import { useParams, Navigate, Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { MessageCircle, Award } from 'lucide-react'
 import { teamMembers } from '../../data/team'
@@ -9,8 +9,6 @@ import CtaBand from '../../components/ui/CtaBand'
 import { doctorProfileSchema } from '../../data/seo'
 
 const BASE_URL = 'https://deboddentalclinic.com'
-const WA_BASE = 'https://wa.me/34919059095?text='
-
 export default function DoctorProfile() {
   const { doctorSlug } = useParams()
   const doctor = teamMembers.find((m) => m.slug === doctorSlug)
@@ -18,9 +16,6 @@ export default function DoctorProfile() {
   if (!doctor) return <Navigate to="/equipo/" replace />
 
   const canonical = `${BASE_URL}/equipo/${doctor.slug}/`
-  const waMessage = encodeURIComponent(
-    `Hola, me gustaría solicitar una consulta con ${doctor.name}.`
-  )
 
   return (
     <>
@@ -90,15 +85,13 @@ export default function DoctorProfile() {
                   ))}
                 </div>
 
-                <a
-                  href={`${WA_BASE}${waMessage}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 w-full py-3 bg-[#25D366] text-white rounded-full font-outfit font-semibold text-sm hover:bg-[#1ebe5a] transition-colors duration-300"
+                <Link
+                  to="/contacto/"
+                  className="flex items-center justify-center gap-2 w-full py-3 bg-gold text-charcoal rounded-full font-outfit font-semibold text-sm hover:bg-gold-light transition-colors duration-300"
                 >
                   <MessageCircle size={16} />
-                  Consultar por WhatsApp
-                </a>
+                  Agendar cita
+                </Link>
               </div>
             </div>
 

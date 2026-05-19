@@ -212,29 +212,31 @@ export default function ClinicalExpertise() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      gsap.from(headRef.current.children, {
-        opacity: 0,
-        y: 40,
-        stagger: 0.15,
-        duration: 0.9,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: headRef.current,
-          start: 'top 80%',
-        },
+      const mm = gsap.matchMedia()
+
+      mm.add('(max-width: 767px)', () => {
+        gsap.from(headRef.current.children, {
+          opacity: 0, y: 20, stagger: 0.07, duration: 0.5, ease: 'power3.out',
+          scrollTrigger: { trigger: headRef.current, start: 'top 85%' },
+        })
+        cardsRef.current.forEach((card, i) => {
+          gsap.from(card, {
+            opacity: 0, y: 30, duration: 0.45, ease: 'power3.out', delay: i * 0.06,
+            scrollTrigger: { trigger: card, start: 'top 88%' },
+          })
+        })
       })
 
-      cardsRef.current.forEach((card, i) => {
-        gsap.from(card, {
-          opacity: 0,
-          y: 60,
-          duration: 0.8,
-          ease: 'power3.out',
-          delay: i * 0.12,
-          scrollTrigger: {
-            trigger: card,
-            start: 'top 85%',
-          },
+      mm.add('(min-width: 768px)', () => {
+        gsap.from(headRef.current.children, {
+          opacity: 0, y: 40, stagger: 0.15, duration: 0.9, ease: 'power3.out',
+          scrollTrigger: { trigger: headRef.current, start: 'top 80%' },
+        })
+        cardsRef.current.forEach((card, i) => {
+          gsap.from(card, {
+            opacity: 0, y: 60, duration: 0.8, ease: 'power3.out', delay: i * 0.12,
+            scrollTrigger: { trigger: card, start: 'top 85%' },
+          })
         })
       })
     }, sectionRef)

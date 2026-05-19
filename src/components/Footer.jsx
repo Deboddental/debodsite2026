@@ -15,8 +15,6 @@ const FacebookIcon = () => (
   </svg>
 )
 
-const WA_LINK = 'https://wa.me/34689104714?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20pedir%20una%20cita%20en%20Debod%20Dental%20Clinic.%20%C2%BFPodr%C3%ADan%20ayudarme%3F'
-
 const serviceLinks = [
   { label: 'Cirugía Oral', href: '/cirujano-oral-arguelles-madrid-espana/' },
   { label: 'Implantes Dentales', href: '/dentista-de-implantes-arguelles-madrid-espana/' },
@@ -202,9 +200,6 @@ export default function Footer() {
             </Link>
             <Link to="/nosotros/" className="font-jakarta text-white/30 text-xs hover:text-white/60 transition-colors">
               Nosotros
-            </Link>
-            <Link to="/blog/" className="font-jakarta text-white/30 text-xs hover:text-white/60 transition-colors">
-              Blog
             </Link>
           </div>
         </div>

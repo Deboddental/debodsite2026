@@ -1,11 +1,10 @@
 import { useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Heart, Eye, Shield, Users } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
-
-const WA_LINK = 'https://wa.me/34689104714?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20pedir%20una%20cita%20en%20Debod%20Dental%20Clinic.%20%C2%BFPodr%C3%ADan%20ayudarme%3F'
 
 const values = [
   {
@@ -44,63 +43,52 @@ export default function Philosophy() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Clip-path reveal for manifesto lines
-      gsap.from(line1Ref.current, {
-        clipPath: 'inset(0 100% 0 0)',
-        opacity: 0,
-        duration: 1.2,
-        ease: 'power4.inOut',
-        scrollTrigger: {
-          trigger: line1Ref.current,
-          start: 'top 80%',
-        },
+      const mm = gsap.matchMedia()
+
+      mm.add('(max-width: 767px)', () => {
+        // Mobile: reemplazar clip-path por fade simple (clip-path es costoso en GPU mobile)
+        gsap.from([line1Ref.current, line2Ref.current], {
+          opacity: 0, y: 20, duration: 0.5, stagger: 0.08, ease: 'power3.out',
+          scrollTrigger: { trigger: line1Ref.current, start: 'top 85%' },
+        })
+        gsap.from(dividerRef.current, {
+          scaleX: 0, transformOrigin: 'left', duration: 0.55, ease: 'power3.out',
+          scrollTrigger: { trigger: dividerRef.current, start: 'top 88%' },
+        })
+        gsap.from(bioRef.current, {
+          opacity: 0, y: 15, duration: 0.45, ease: 'power3.out',
+          scrollTrigger: { trigger: bioRef.current, start: 'top 88%' },
+        })
+        valuesRef.current.forEach((card, i) => {
+          gsap.from(card, {
+            opacity: 0, y: 25, duration: 0.45, ease: 'power3.out', delay: i * 0.06,
+            scrollTrigger: { trigger: card, start: 'top 90%' },
+          })
+        })
       })
 
-      gsap.from(line2Ref.current, {
-        clipPath: 'inset(0 100% 0 0)',
-        opacity: 0,
-        duration: 1.4,
-        ease: 'power4.inOut',
-        delay: 0.2,
-        scrollTrigger: {
-          trigger: line2Ref.current,
-          start: 'top 80%',
-        },
-      })
-
-      gsap.from(dividerRef.current, {
-        scaleX: 0,
-        transformOrigin: 'left',
-        duration: 1,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: dividerRef.current,
-          start: 'top 85%',
-        },
-      })
-
-      gsap.from(bioRef.current, {
-        opacity: 0,
-        y: 30,
-        duration: 0.9,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: bioRef.current,
-          start: 'top 85%',
-        },
-      })
-
-      valuesRef.current.forEach((card, i) => {
-        gsap.from(card, {
-          opacity: 0,
-          y: 50,
-          duration: 0.8,
-          ease: 'power3.out',
-          delay: i * 0.1,
-          scrollTrigger: {
-            trigger: card,
-            start: 'top 88%',
-          },
+      mm.add('(min-width: 768px)', () => {
+        gsap.from(line1Ref.current, {
+          clipPath: 'inset(0 100% 0 0)', opacity: 0, duration: 1.2, ease: 'power4.inOut',
+          scrollTrigger: { trigger: line1Ref.current, start: 'top 80%' },
+        })
+        gsap.from(line2Ref.current, {
+          clipPath: 'inset(0 100% 0 0)', opacity: 0, duration: 1.4, ease: 'power4.inOut', delay: 0.2,
+          scrollTrigger: { trigger: line2Ref.current, start: 'top 80%' },
+        })
+        gsap.from(dividerRef.current, {
+          scaleX: 0, transformOrigin: 'left', duration: 1, ease: 'power3.out',
+          scrollTrigger: { trigger: dividerRef.current, start: 'top 85%' },
+        })
+        gsap.from(bioRef.current, {
+          opacity: 0, y: 30, duration: 0.9, ease: 'power3.out',
+          scrollTrigger: { trigger: bioRef.current, start: 'top 85%' },
+        })
+        valuesRef.current.forEach((card, i) => {
+          gsap.from(card, {
+            opacity: 0, y: 50, duration: 0.8, ease: 'power3.out', delay: i * 0.1,
+            scrollTrigger: { trigger: card, start: 'top 88%' },
+          })
         })
       })
     }, sectionRef)
@@ -203,14 +191,12 @@ export default function Philosophy() {
 
         {/* CTA */}
         <div className="text-center mt-14">
-          <a
-            href={WA_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/contacto/"
             className="btn-magnetic inline-flex items-center gap-2 bg-gold text-charcoal font-outfit font-bold text-sm px-8 py-4 rounded-full hover:bg-gold-light transition-colors duration-300"
           >
             Conoce a nuestro equipo → Agenda tu visita
-          </a>
+          </Link>
         </div>
       </div>
 

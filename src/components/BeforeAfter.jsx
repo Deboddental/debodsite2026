@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
+import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ArrowLeftRight } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
-
-const WA_LINK = 'https://wa.me/34689104714?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20pedir%20una%20cita%20en%20Debod%20Dental%20Clinic.%20%C2%BFPodr%C3%ADan%20ayudarme%3F'
 
 const cases = [
   {
@@ -112,27 +111,36 @@ export default function BeforeAfter() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      gsap.from(headRef.current.children, {
-        opacity: 0,
-        y: 40,
-        duration: 0.9,
-        stagger: 0.15,
-        ease: 'power3.out',
-        scrollTrigger: { trigger: headRef.current, start: 'top 80%' },
+      const mm = gsap.matchMedia()
+
+      mm.add('(max-width: 767px)', () => {
+        gsap.from(headRef.current.children, {
+          opacity: 0, y: 20, duration: 0.5, stagger: 0.07, ease: 'power3.out',
+          scrollTrigger: { trigger: headRef.current, start: 'top 85%' },
+        })
+        gsap.from(sliderRef.current, {
+          opacity: 0, y: 25, duration: 0.55, ease: 'power3.out',
+          scrollTrigger: { trigger: sliderRef.current, start: 'top 88%' },
+        })
+        gsap.from(infoRef.current, {
+          opacity: 0, y: 15, duration: 0.45, ease: 'power3.out',
+          scrollTrigger: { trigger: infoRef.current, start: 'top 92%' },
+        })
       })
-      gsap.from(sliderRef.current, {
-        opacity: 0,
-        y: 50,
-        duration: 1,
-        ease: 'power3.out',
-        scrollTrigger: { trigger: sliderRef.current, start: 'top 85%' },
-      })
-      gsap.from(infoRef.current, {
-        opacity: 0,
-        y: 25,
-        duration: 0.8,
-        ease: 'power3.out',
-        scrollTrigger: { trigger: infoRef.current, start: 'top 90%' },
+
+      mm.add('(min-width: 768px)', () => {
+        gsap.from(headRef.current.children, {
+          opacity: 0, y: 40, duration: 0.9, stagger: 0.15, ease: 'power3.out',
+          scrollTrigger: { trigger: headRef.current, start: 'top 80%' },
+        })
+        gsap.from(sliderRef.current, {
+          opacity: 0, y: 50, duration: 1, ease: 'power3.out',
+          scrollTrigger: { trigger: sliderRef.current, start: 'top 85%' },
+        })
+        gsap.from(infoRef.current, {
+          opacity: 0, y: 25, duration: 0.8, ease: 'power3.out',
+          scrollTrigger: { trigger: infoRef.current, start: 'top 90%' },
+        })
       })
     }, sectionRef)
     return () => ctx.revert()
@@ -180,14 +188,12 @@ export default function BeforeAfter() {
             <p className="font-jakarta text-gold text-xs mt-1 tracking-wide">{c.detail}</p>
           </div>
 
-          <a
-            href={WA_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/contacto/"
             className="btn-magnetic shrink-0 inline-flex items-center gap-2 bg-charcoal text-white font-outfit font-semibold text-sm px-7 py-3.5 rounded-full hover:bg-charcoal/80 transition-colors duration-300"
           >
             Quiero mi transformación →
-          </a>
+          </Link>
         </div>
 
       </div>
