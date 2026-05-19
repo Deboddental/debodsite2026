@@ -9,7 +9,9 @@
 
 html {
   scroll-behavior: smooth;
-  background: #1A1A1A; /* evita espacio blanco en overscroll top/bottom en iOS */
+  /* Fondo charcoal: cuando iOS hace rubber-band arriba o abajo muestra este color,
+     que coincide con el hero (arriba) y el footer (abajo) → sin flash blanco */
+  background: #1A1A1A;
 }
 
 body {
@@ -19,7 +21,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  overscroll-behavior: none; /* desactiva el rubber-band de iOS y el scroll bounce */
 }
 
 #root { width: 100%; }
