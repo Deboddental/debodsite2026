@@ -37,7 +37,8 @@ export default function Hero() {
   return (
     <section
       ref={containerRef}
-      className="relative w-full min-h-[100dvh] min-h-[640px] overflow-hidden flex flex-col -mt-20"
+      className="relative w-full overflow-hidden flex flex-col -mt-20"
+      style={{ height: '100dvh', minHeight: '600px' }}
       aria-label="Debod Dental Clinic — Clínica Dental Premium en Argüelles, Madrid"
     >
       {/* Background Video */}

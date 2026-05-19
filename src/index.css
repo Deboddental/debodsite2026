@@ -7,7 +7,10 @@
 /* ─── Global Reset ─────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  background: #1A1A1A; /* evita espacio blanco en overscroll top/bottom en iOS */
+}
 
 body {
   font-family: 'Outfit', sans-serif;
@@ -16,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  overscroll-behavior: none; /* desactiva el rubber-band de iOS y el scroll bounce */
 }
 
 #root { width: 100%; }
