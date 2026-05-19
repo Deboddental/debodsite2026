@@ -1,0 +1,30 @@
+{
+  "site": "https://deboddentalclinic.com",
+  "extractedAt": "2026-04-16T15:02:38.155Z",
+  "stats": {
+    "pagesCrawled": 62,
+    "uniqueImages": 53,
+    "uniqueLinks": 135,
+    "pagesWithIframes": 57,
+    "sitemapEntries": {
+      "posts": 9,
+      "pages": 46,
+      "categories": 4
+    }
+  },
+  "files": {
+    "robots.txt": "robots.txt",
+    "sitemap_index": "sitemap_index.xml",
+    "post_sitemap": "post-sitemap.xml",
+    "page_sitemap": "page-sitemap.xml (from server)",
+    "category_sitemap": "category-sitemap.xml",
+    "all_content_markdown": "all-content.md",
+    "per_page_markdown": "pages-markdown/ (62 files)",
+    "per_page_html": "pages-html/ (62 files)",
+    "images_list": "images.txt",
+    "images_catalog": "images-catalog.json",
+    "all_links": "all-links.txt",
+    "iframes": "iframes.json",
+    "pages_metadata": "pages-metadata.json"
+  }
+}
