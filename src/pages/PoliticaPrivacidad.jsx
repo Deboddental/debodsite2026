@@ -39,9 +39,9 @@ export default function PoliticaPrivacidad() {
             <p>En cumplimiento del Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), te informamos que el responsable del tratamiento de tus datos personales es:</p>
             <ul className="mt-3 space-y-1 text-sm">
               <li><strong>Razón social:</strong> Debod Dental Clinic S.L.</li>
-              <li><strong>Dirección:</strong> Calle de Quintana, 28, 28008 Madrid</li>
+              <li><strong>Dirección:</strong> C. de Ferraz, 24, Argüelles, 28008 Madrid</li>
               <li><strong>Email:</strong> info@deboddentalclinic.com</li>
-              <li><strong>Teléfono:</strong> +34 919 059 095</li>
+              <li><strong>Teléfono:</strong> +34 689 10 47 14</li>
             </ul>
           </section>
 

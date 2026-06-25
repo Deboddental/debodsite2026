@@ -11,7 +11,7 @@ const channels = [
     title: 'WhatsApp',
     desc: 'La forma más rápida. Te respondemos en minutos.',
     action: 'Escribir por WhatsApp',
-    href: 'https://wa.me/34919059095?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cita.',
+    href: 'https://wa.me/34689104714?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cita.',
     color: 'bg-[#25D366]',
   },
   {
@@ -19,7 +19,7 @@ const channels = [
     title: 'Teléfono',
     desc: 'Llámanos en horario de clínica: L–V de 9:00 a 21:00.',
     action: 'Llamar ahora',
-    href: 'tel:+34919059095',
+    href: 'tel:+34689104714',
     color: 'bg-gold',
   },
   {

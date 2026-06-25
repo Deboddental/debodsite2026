@@ -14,11 +14,11 @@ const localBusinessSchema = {
   name: 'Debod Dental Clinic',
   description: 'Clínica dental integral en Argüelles, Madrid. Odontología honesta con especialistas de primer nivel.',
   url: BASE_URL,
-  telephone: '+34919059095',
+  telephone: '+34689104714',
   email: 'info@deboddentalclinic.com',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Calle de Quintana, 28',
+    streetAddress: 'C. de Ferraz, 24',
     addressLocality: 'Madrid',
     postalCode: '28008',
     addressRegion: 'Comunidad de Madrid',
@@ -26,8 +26,8 @@ const localBusinessSchema = {
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 40.4286,
-    longitude: -3.7134,
+    latitude: 40.4249,
+    longitude: -3.7157,
   },
   openingHoursSpecification: [
     {
@@ -49,7 +49,7 @@ export default function Ubicaciones() {
         <title>Clínica Dental en Argüelles, Madrid — Cómo Llegar | Debod Dental</title>
         <meta
           name="description"
-          content="Debod Dental Clinic en Argüelles, Madrid. Calle de Quintana 28. Metro Argüelles (L3/L4) y Moncloa (L3/L6). Horario de lunes a viernes de 9:00 a 21:00."
+          content="Debod Dental Clinic en Argüelles, Madrid. C. de Ferraz, 24. Metro Argüelles (L3/L4) y Ventura Rodríguez (L3). Horario de lunes a viernes de 9:00 a 21:00."
         />
         <link rel="canonical" href={`${BASE_URL}/ubicaciones/`} />
         <meta property="og:title" content="Cómo Llegar — Debod Dental Clinic, Argüelles Madrid" />
@@ -87,8 +87,8 @@ export default function Ubicaciones() {
                   <MapPin size={22} className="text-gold flex-shrink-0 mt-0.5" />
                   <div>
                     <div className="font-outfit font-semibold text-charcoal">Dirección</div>
-                    <div className="font-jakarta text-slate-600">Calle de Quintana, 28</div>
-                    <div className="font-jakarta text-slate-600">28008 Madrid</div>
+                    <div className="font-jakarta text-slate-600">C. de Ferraz, 24</div>
+                    <div className="font-jakarta text-slate-600">Argüelles · 28008 Madrid</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
@@ -103,8 +103,8 @@ export default function Ubicaciones() {
                   <Phone size={22} className="text-gold flex-shrink-0 mt-0.5" />
                   <div>
                     <div className="font-outfit font-semibold text-charcoal">Teléfono</div>
-                    <a href="tel:+34919059095" className="font-jakarta text-slate-600 hover:text-gold transition-colors">
-                      +34 919 059 095
+                    <a href="tel:+34689104714" className="font-jakarta text-slate-600 hover:text-gold transition-colors">
+                      +34 689 10 47 14
                     </a>
                   </div>
                 </li>
@@ -123,9 +123,9 @@ export default function Ubicaciones() {
             <div className="bg-charcoal/5 rounded-2xl p-6">
               <h3 className="font-outfit font-semibold text-charcoal mb-3">Cómo llegar en metro</h3>
               <ul className="space-y-2 font-jakarta text-slate-600 text-sm">
-                <li>🚇 <strong>Argüelles</strong> — Líneas 3 y 4 (5 min a pie)</li>
-                <li>🚇 <strong>Moncloa</strong> — Líneas 3 y 6 (8 min a pie)</li>
-                <li>🚌 <strong>Autobús</strong> — Líneas 21, 74, 133</li>
+                <li>🚇 <strong>Ventura Rodríguez</strong> — Línea 3 (a pocos minutos)</li>
+                <li>🚇 <strong>Plaza de España</strong> — Líneas 3 y 10</li>
+                <li>🚇 <strong>Argüelles</strong> — Líneas 3, 4 y 6</li>
               </ul>
             </div>
 
@@ -141,7 +141,7 @@ export default function Ubicaciones() {
           <div className="rounded-3xl overflow-hidden shadow-xl h-[400px] lg:h-auto min-h-[400px]">
             <iframe
               title="Debod Dental Clinic — Mapa"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.6!2d-3.7160!3d40.4286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI1JzQyLjkiTiAzwrA0MiczNy43Ilc!5e0!3m2!1ses!2ses!4v1"
+              src="https://www.google.com/maps?q=C.+de+Ferraz,+24,+28008+Madrid&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
