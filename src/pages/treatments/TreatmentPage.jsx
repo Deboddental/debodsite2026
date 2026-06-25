@@ -7,8 +7,10 @@ import Breadcrumb from '../../components/ui/Breadcrumb'
 import MarkdownBody from '../../components/ui/MarkdownBody'
 import RelatedGrid from '../../components/ui/RelatedGrid'
 import CtaBand from '../../components/ui/CtaBand'
+import FAQ from '../../components/FAQ'
 import JsonLd from '../../components/ui/JsonLd'
 import { treatmentPageSchema } from '../../data/seo'
+import { treatmentFaqs } from '../../data/faqs'
 import { services } from '../../data/services'
 
 const BASE_URL = 'https://deboddentalclinic.com'
@@ -20,6 +22,7 @@ export default function TreatmentPage() {
   if (!treatment) return <Navigate to="/servicios/" replace />
 
   const canonical = `${BASE_URL}/tratamientos/${treatment.slug}/`
+  const faqs = treatmentFaqs[treatment.slug]
 
   // Find parent service for breadcrumb
   const parentService = services.find((s) => s.slug === treatment.specialty)
@@ -93,6 +96,13 @@ export default function TreatmentPage() {
 
       {treatment.relatedTreatments?.length > 0 && (
         <RelatedGrid items={treatment.relatedTreatments} />
+      )}
+
+      {faqs?.length > 0 && (
+        <FAQ
+          faqs={faqs}
+          subtitle={`Dudas habituales sobre ${treatment.title.toLowerCase()}.`}
+        />
       )}
 
       <CtaBand

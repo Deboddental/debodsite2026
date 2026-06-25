@@ -6,8 +6,10 @@ import Breadcrumb from '../../components/ui/Breadcrumb'
 import MarkdownBody from '../../components/ui/MarkdownBody'
 import RelatedGrid from '../../components/ui/RelatedGrid'
 import CtaBand from '../../components/ui/CtaBand'
+import FAQ from '../../components/FAQ'
 import JsonLd from '../../components/ui/JsonLd'
 import { servicePageSchema } from '../../data/seo'
+import { serviceFaqs } from '../../data/faqs'
 
 const BASE_URL = 'https://deboddentalclinic.com'
 
@@ -22,6 +24,7 @@ export default function ServicePage() {
   if (!service) return <Navigate to="/servicios/" replace />
 
   const canonical = `${BASE_URL}/${service.slug}/`
+  const faqs = serviceFaqs[service.slug]
 
   return (
     <>
@@ -65,6 +68,13 @@ export default function ServicePage() {
         <RelatedGrid
           items={service.relatedTreatments}
           title="Tratamientos disponibles"
+        />
+      )}
+
+      {faqs?.length > 0 && (
+        <FAQ
+          faqs={faqs}
+          subtitle={`Dudas habituales sobre ${service.subtitle?.toLowerCase() || service.title.toLowerCase()} en Argüelles, Madrid.`}
         />
       )}
 

@@ -16,6 +16,23 @@ export function breadcrumbSchema(items) {
   }
 }
 
+// FAQPage schema — AI assistants (ChatGPT, Perplexity, Gemini) and Google rich
+// results heavily favour Q&A markup, so any page with FAQs should emit this.
+export function faqSchema(faqs) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: f.answer,
+      },
+    })),
+  }
+}
+
 export function servicePageSchema(service) {
   return {
     '@context': 'https://schema.org',

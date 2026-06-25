@@ -5,8 +5,11 @@ import Philosophy from '../components/Philosophy'
 import Treatments from '../components/Treatments'
 import BeforeAfter from '../components/BeforeAfter'
 import Reviews from '../components/Reviews'
+import FAQ from '../components/FAQ'
+import CtaBand from '../components/ui/CtaBand'
 import JsonLd from '../components/ui/JsonLd'
 import { reviews } from '../data/reviews'
+import { homeFaqs } from '../data/faqs'
 import { homeReviewsSchema } from '../data/seo'
 
 const BASE_URL = 'https://deboddentalclinic.com'
@@ -35,6 +38,11 @@ export default function Home() {
       <Philosophy />
       <BeforeAfter />
       <Reviews />
+      <FAQ faqs={homeFaqs} />
+      <CtaBand
+        headline="Tu primera visita diagnóstica, incluida"
+        subtext="Reserva con nuestro equipo de especialistas y descubre la odontología honesta de Argüelles."
+      />
     </>
   )
 }
