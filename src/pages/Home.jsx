@@ -5,6 +5,7 @@ import Philosophy from '../components/Philosophy'
 import Treatments from '../components/Treatments'
 import BeforeAfter from '../components/BeforeAfter'
 import Reviews from '../components/Reviews'
+import TeamSection from '../components/TeamSection'
 import FAQ from '../components/FAQ'
 import CtaBand from '../components/ui/CtaBand'
 import JsonLd from '../components/ui/JsonLd'
@@ -37,6 +38,7 @@ export default function Home() {
       <Treatments />
       <Philosophy />
       <BeforeAfter />
+      <TeamSection />
       <Reviews />
       <FAQ faqs={homeFaqs} />
       <CtaBand
