@@ -62,7 +62,7 @@ export default function Ubicaciones() {
         subtitle="Dónde estamos"
         title="Argüelles, Madrid"
         description="En el corazón de uno de los barrios más tranquilos y accesibles de Madrid — a pasos del Parque del Oeste y el Templo de Debod."
-        imageUrl="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=85&auto=format&fit=crop"
+        imageUrl="/Images/clinica/dsc00131.webp"
       />
 
       <div className="max-w-5xl mx-auto">

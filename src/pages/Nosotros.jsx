@@ -47,7 +47,7 @@ export default function Nosotros() {
         subtitle="Nuestra historia"
         title="La clínica dental de Argüelles"
         description="Fundada con la convicción de que la odontología puede ser honesta, precisa y cercana — todo al mismo tiempo."
-        imageUrl="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1400&q=85&auto=format&fit=crop"
+        imageUrl="/Images/clinica/dsc00141.webp"
       />
 
       <div className="max-w-5xl mx-auto">

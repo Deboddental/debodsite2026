@@ -27,7 +27,7 @@ export default function TeamPage() {
         subtitle="El equipo"
         title="Especialistas comprometidos con tu salud"
         description="Un equipo multidisciplinar de odontólogos de primer nivel, unidos por la filosofía de la odontología honesta y la excelencia clínica."
-        imageUrl="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=1400&q=85&auto=format&fit=crop"
+        imageUrl="/Images/clinica/dsc00256.webp"
       />
 
       <div className="max-w-6xl mx-auto">

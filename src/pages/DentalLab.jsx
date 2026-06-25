@@ -40,7 +40,7 @@ export default function DentalLab() {
         subtitle="Laboratorio propio"
         title="Debod Dental Lab"
         description="El único laboratorio dental in-house de Argüelles. Fabricamos tus restauraciones con tecnología CAD/CAM y cerámica de alta estética, con control total en cada etapa."
-        imageUrl="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=1400&q=85&auto=format&fit=crop"
+        imageUrl="/Images/clinica/dsc00148.webp"
       />
 
       <div className="max-w-5xl mx-auto">

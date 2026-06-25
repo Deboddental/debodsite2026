@@ -123,7 +123,7 @@ export default function BlogIndex() {
         subtitle="Blog"
         title="Consejos de Salud Dental"
         description="Artículos escritos por nuestro equipo de especialistas para que cuides tu sonrisa con conocimiento y confianza."
-        imageUrl="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1400&q=85&auto=format&fit=crop"
+        imageUrl="/Images/clinica/dsc00259.webp"
       />
 
       <div className="max-w-6xl mx-auto">

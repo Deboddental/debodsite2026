@@ -26,7 +26,7 @@ export default function Servicios() {
         subtitle="Especialidades"
         title="Servicios Dentales"
         description="Un equipo multidisciplinar de especialistas para cubrir todas las necesidades de tu salud dental bajo el mismo techo."
-        imageUrl="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1400&q=85&auto=format&fit=crop"
+        imageUrl="/Images/clinica/dsc00147.webp"
       />
 
       <div className="max-w-6xl mx-auto">

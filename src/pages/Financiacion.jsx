@@ -85,7 +85,7 @@ export default function Financiacion() {
         subtitle="Sin barreras económicas"
         title="Financiación flexible para tu salud dental"
         description="Cuida tu salud dental hoy. Págalo a tu ritmo, desde 0% TAE para periodos cortos."
-        imageUrl="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1400&q=85&auto=format&fit=crop"
+        imageUrl="/Images/clinica/dsc00238.webp"
       />
 
       <div className="max-w-4xl mx-auto">

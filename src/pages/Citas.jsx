@@ -50,7 +50,7 @@ export default function Citas() {
         subtitle="Reserva tu consulta"
         title="Pide cita en Debod Dental"
         description="Primera consulta gratuita y sin compromiso. Elige el canal que más te convenga."
-        imageUrl="https://images.unsplash.com/photo-1629909615957-be38d48fbbe4?w=1400&q=85&auto=format&fit=crop"
+        imageUrl="/Images/clinica/dsc00253.webp"
       />
 
       <div className="max-w-4xl mx-auto">
