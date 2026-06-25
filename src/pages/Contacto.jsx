@@ -200,7 +200,7 @@ export default function Contacto() {
           name="description"
           content="Agenda tu cita en Debod Dental Clinic. Especialistas en Rehabilitación Oral, Implantología y Estética Dental en Argüelles, Madrid. Primera visita diagnóstica incluida."
         />
-        <link rel="canonical" href="https://www.deboddentalclinic.com/contacto/" />
+        <link rel="canonical" href="https://deboddentalclinic.com/contacto/" />
       </Helmet>
 
       {/* Hero */}

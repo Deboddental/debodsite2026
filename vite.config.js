@@ -1,10 +1,23 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import Sitemap from 'vite-plugin-sitemap'
 import { resolve } from 'path'
+import { getAllRoutes } from './scripts/routes.mjs'
+
+const allRoutes = getAllRoutes()
+console.log(`📄 Sitemap: ${allRoutes.length} routes`)
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    Sitemap({
+      hostname: 'https://deboddentalclinic.com',
+      dynamicRoutes: allRoutes,
+      readable: true,
+      generateRobotsTxt: false, // robots.txt is maintained by hand in public/
+    }),
+  ],
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),

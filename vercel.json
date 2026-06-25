@@ -1,4 +1,6 @@
 {
+  "buildCommand": "npm run build:prerender",
+  "trailingSlash": true,
   "rewrites": [
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ],
