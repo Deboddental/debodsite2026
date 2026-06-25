@@ -16,6 +16,7 @@ import BlogIndex from './pages/blog/BlogIndex'
 import BlogPost from './pages/blog/BlogPost'
 import TeamPage from './pages/team/TeamPage'
 import DoctorProfile from './pages/team/DoctorProfile'
+import Resenas from './pages/Resenas'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,6 +29,9 @@ export const router = createBrowserRouter(
       <Route path="financiacion/" element={<Financiacion />} />
       <Route path="politica-de-privacidad/" element={<PoliticaPrivacidad />} />
       <Route path="contacto/" element={<Contacto />} />
+
+      {/* Reviews */}
+      <Route path="resenas/" element={<Resenas />} />
 
       {/* Locations */}
       <Route path="ubicaciones/" element={<Ubicaciones />} />

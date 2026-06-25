@@ -117,6 +117,13 @@ export default function Navbar() {
           </div>
 
           <Link
+            to="/resenas/"
+            className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
+          >
+            Reseñas
+          </Link>
+
+          <Link
             to="/blog/"
             className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
           >
@@ -156,6 +163,7 @@ export default function Navbar() {
             </Link>
           ))}
           <div className="h-px bg-charcoal/10" />
+          <Link to="/resenas/" className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>Reseñas</Link>
           <Link to="/blog/" className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>Blog</Link>
           <Link
             to="/contacto/"

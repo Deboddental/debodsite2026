@@ -18,6 +18,7 @@ export const staticRoutes = [
   '/financiacion/',
   '/politica-de-privacidad/',
   '/contacto/',
+  '/resenas/',
   '/ubicaciones/',
   '/ubicaciones/citas-arguelles-madrid/',
   '/servicios/',
