@@ -34,17 +34,59 @@ function buildWhatsAppMessage(contact, phone) {
   return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
 }
 
+const ALLOWED_ORIGINS = [
+  'https://deboddentalclinic.com',
+  'https://www.deboddentalclinic.com',
+]
+
 export default async function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*')
+  const origin = req.headers.origin || ''
+  // Same-origin browser requests send no Origin header — allow those.
+  // Cross-origin requests are only allowed from the clinic's own domains.
+  // Vercel preview deploys (*.vercel.app) are also allowed for testing.
+  const isAllowed =
+    !origin ||
+    ALLOWED_ORIGINS.includes(origin) ||
+    /^https:\/\/[a-z0-9-]+\.vercel\.app$/.test(origin)
+
+  if (origin && isAllowed) res.setHeader('Access-Control-Allow-Origin', origin)
+  res.setHeader('Vary', 'Origin')
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS')
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
 
   if (req.method === 'OPTIONS') return res.status(204).end()
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' })
 
+  if (origin && !isAllowed) {
+    return res.status(403).json({ error: 'Origin not allowed' })
+  }
+
   try {
     const body = typeof req.body === 'string' ? JSON.parse(req.body) : (req.body || {})
     const { contact = {}, tracking = {}, event_id = '' } = body
+
+    // Reject oversized submissions (defends logs + CRM from abuse).
+    const rawLen =
+      typeof req.body === 'string'
+        ? req.body.length
+        : JSON.stringify(req.body || {}).length
+    if (rawLen > 10000) {
+      return res.status(413).json({ error: 'Payload too large' })
+    }
+
+    // Honeypot: a hidden field bots tend to fill. A NON-EMPTY value means bot.
+    // A missing field is fine (the client may not send one yet).
+    if (typeof contact.website === 'string' && contact.website.trim() !== '') {
+      // Pretend success so the bot gets no signal; do not post to CRM.
+      return res.status(200).json({ ok: true, webhookOk: false })
+    }
+
+    // Bound individual free-text fields before they reach the CRM.
+    const cap = (v, n) => (typeof v === 'string' ? v.slice(0, n) : v)
+    contact.firstName = cap(contact.firstName, 80)
+    contact.lastName  = cap(contact.lastName, 80)
+    contact.email     = cap(contact.email, 160)
+    contact.mensaje   = cap(contact.mensaje, 2000)
 
     if (!contact.firstName || !contact.phone) {
       return res.status(400).json({ error: 'Missing required fields: firstName, phone' })
@@ -104,14 +146,14 @@ export default async function handler(req, res) {
       device: tracking.device || '',
     }
 
-    // Backup en logs de Vercel — lead recuperable aunque el CRM esté caído
+    // Non-PII telemetry only. The CRM (GHL_WEBHOOK_URL) is the system of record
+    // for lead data — never persist patient PII to application logs (RGPD).
     console.log('[LEAD]', JSON.stringify({
-      ts:      new Date().toISOString(),
-      ip,
-      email:   contact.email,
-      phone,
-      servicio: contact.servicio,
-      payload,
+      ts:       new Date().toISOString(),
+      event_id,
+      servicio: contact.servicio || '',
+      hasEmail: Boolean(contact.email),
+      hasPhone: Boolean(contact.phone),
     }))
 
     let webhookOk = false
