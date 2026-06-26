@@ -2,6 +2,8 @@
 
 const BASE_URL = 'https://deboddentalclinic.com'
 const CLINIC_ID = `${BASE_URL}/#clinic`
+// Freshness signal for AI/search. Bump on meaningful content updates.
+const LAST_UPDATED = '2026-06-25'
 
 export function breadcrumbSchema(items) {
   return {
@@ -44,6 +46,9 @@ export function servicePageSchema(service) {
         name: service.metaTitle,
         description: service.metaDescription,
         inLanguage: 'es-ES',
+        dateModified: LAST_UPDATED,
+        lastReviewed: LAST_UPDATED,
+        reviewedBy: { '@id': CLINIC_ID },
         about: {
           '@type': 'MedicalSpecialty',
           name: service.title,
@@ -74,6 +79,7 @@ export function treatmentPageSchema(treatment) {
         procedureType: 'SurgicalProcedure',
         status: 'EventScheduled',
         performedBy: { '@id': CLINIC_ID },
+        dateModified: LAST_UPDATED,
         preparation: treatment.bodyMarkdown?.substring(0, 200),
       },
       breadcrumbSchema([

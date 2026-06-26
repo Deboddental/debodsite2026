@@ -105,6 +105,19 @@ server.listen(PORT, async () => {
     }
   }
 
+  // 404 page: render the NotFound route to dist/404.html so Vercel can serve it
+  // with a real HTTP 404 for unmatched paths (no SPA catch-all → no soft-404s).
+  try {
+    const page = await browser.newPage()
+    await page.goto(`http://localhost:${PORT}/__not-found-${Date.now()}`, { waitUntil: 'networkidle2', timeout: 30000 })
+    await new Promise((r) => setTimeout(r, 800))
+    writeFileSync(resolve(distDir, '404.html'), await page.content())
+    await page.close()
+    console.log('  ✅ 404.html rendered')
+  } catch (err) {
+    console.log(`  ❌ Failed: 404.html — ${err.message}`)
+  }
+
   await browser.close()
   server.close()
 

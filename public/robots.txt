@@ -16,5 +16,9 @@ User-agent: Claude-Web
 Allow: /
 User-agent: Google-Extended
 Allow: /
+User-agent: bingbot
+Allow: /
+User-agent: CCBot
+Allow: /
 
 Sitemap: https://deboddentalclinic.com/sitemap.xml
