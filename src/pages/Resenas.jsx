@@ -7,6 +7,7 @@ import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
 import CtaBand from '../components/ui/CtaBand'
 import VideoTestimonials from '../components/VideoTestimonials'
+import ElfsightReviews from '../components/ElfsightReviews'
 import JsonLd from '../components/ui/JsonLd'
 import { reviews, ratingSummary } from '../data/reviews'
 import { homeReviewsSchema, breadcrumbSchema } from '../data/seo'
@@ -131,6 +132,21 @@ export default function Resenas() {
             Ver todas las reseñas en Google
             <Star size={14} className="text-gold fill-gold" />
           </a>
+        </div>
+      </section>
+
+      {/* Todas las reseñas en vivo desde Google (Elfsight) */}
+      <section className="pb-16 px-6 md:px-12 lg:px-20" aria-label="Todas las reseñas de Google">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-8">
+            <span className="font-jakarta text-xs text-gold font-semibold tracking-widest uppercase mb-3 block">
+              Google Reviews
+            </span>
+            <h2 className="font-outfit font-bold text-3xl md:text-4xl text-charcoal tracking-tight">
+              Todas las opiniones de nuestros pacientes
+            </h2>
+          </div>
+          <ElfsightReviews />
         </div>
       </section>
 
