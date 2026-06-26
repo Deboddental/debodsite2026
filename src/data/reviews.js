@@ -22,9 +22,9 @@
 // Business Profile and kept in sync with the aggregateRating block in index.html.
 export const ratingSummary = {
   ratingValue: '4.9',
-  reviewCount: 197,
+  reviewCount: 350,
   source: 'Google Business Profile',
-  verifiedOn: '2026-06-25',
+  verifiedOn: '2026-06-26',
 }
 
 export const reviews = [

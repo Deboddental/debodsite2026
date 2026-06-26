@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Star, Quote } from 'lucide-react'
@@ -118,17 +119,15 @@ export default function Reviews() {
           ))}
         </div>
 
-        {/* Google CTA */}
+        {/* CTA → página de reseñas (widget con todas las opiniones de Google) */}
         <div className="text-center mt-12">
-          <a
-            href="https://www.google.com/search?q=Debod+Dental+Clinic+Argüelles+Madrid"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/resenas/"
             className="btn-magnetic inline-flex items-center gap-2 font-jakarta font-semibold text-sm text-charcoal border border-charcoal/20 px-6 py-3 rounded-full hover:bg-charcoal hover:text-white transition-all duration-300"
           >
-            Ver todas las reseñas en Google
+            Ver todas nuestras reseñas
             <Star size={14} className="text-gold fill-gold" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>
