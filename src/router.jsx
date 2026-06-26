@@ -17,6 +17,9 @@ import BlogPost from './pages/blog/BlogPost'
 import TeamPage from './pages/team/TeamPage'
 import DoctorProfile from './pages/team/DoctorProfile'
 import Resenas from './pages/Resenas'
+import BarrioPage from './pages/barrios/BarrioPage'
+import Tecnologia from './pages/Tecnologia'
+import AntesDespues from './pages/AntesDespues'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -32,6 +35,10 @@ export const router = createBrowserRouter(
 
       {/* Reviews */}
       <Route path="resenas/" element={<Resenas />} />
+
+      {/* Tech + before/after */}
+      <Route path="tecnologia/" element={<Tecnologia />} />
+      <Route path="antes-despues/" element={<AntesDespues />} />
 
       {/* Locations */}
       <Route path="ubicaciones/" element={<Ubicaciones />} />
@@ -50,6 +57,12 @@ export const router = createBrowserRouter(
       <Route path="ortodoncista-arguelles-madrid-espana/" element={<ServicePage />} />
       <Route path="periodoncista-arguelles-madrid-espana/" element={<ServicePage />} />
       <Route path="cirujano-oral-arguelles-madrid-espana/" element={<ServicePage />} />
+
+      {/* Local SEO — barrio landings (root-level slugs) */}
+      <Route path="dentista-moncloa-madrid/" element={<BarrioPage />} />
+      <Route path="dentista-chamberi-madrid/" element={<BarrioPage />} />
+      <Route path="dentista-centro-madrid/" element={<BarrioPage />} />
+      <Route path="dentista-plaza-espana-madrid/" element={<BarrioPage />} />
 
       {/* Treatments */}
       <Route path="tratamientos/:treatmentSlug/" element={<TreatmentPage />} />

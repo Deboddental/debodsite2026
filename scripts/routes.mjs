@@ -9,6 +9,7 @@ import { services } from '../src/data/services.js'
 import { treatments } from '../src/data/treatments.js'
 import { blogPosts } from '../src/data/blog.js'
 import { teamMembers } from '../src/data/team.js'
+import { barrios } from '../src/data/barrios.js'
 
 // Static, hand-maintained routes.
 export const staticRoutes = [
@@ -19,6 +20,8 @@ export const staticRoutes = [
   '/politica-de-privacidad/',
   '/contacto/',
   '/resenas/',
+  '/tecnologia/',
+  '/antes-despues/',
   '/ubicaciones/',
   '/ubicaciones/citas-arguelles-madrid/',
   '/servicios/',
@@ -32,7 +35,8 @@ export function getDynamicRoutes() {
   const treatmentRoutes = treatments.map((t) => `/tratamientos/${t.slug}/`)
   const blogRoutes = blogPosts.map((p) => `/blog/${p.category}/${p.slug}/`)
   const teamRoutes = teamMembers.map((m) => `/equipo/${m.slug}/`)
-  return [...serviceRoutes, ...treatmentRoutes, ...blogRoutes, ...teamRoutes]
+  const barrioRoutes = barrios.map((b) => `/${b.slug}/`) // root-level (matches canonical)
+  return [...serviceRoutes, ...treatmentRoutes, ...blogRoutes, ...teamRoutes, ...barrioRoutes]
 }
 
 // Full route list (static + dynamic), de-duplicated.

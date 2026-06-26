@@ -151,6 +151,29 @@ export default function Ubicaciones() {
             />
           </div>
         </div>
+
+        {/* Zonas que atendemos + más — enlace interno / SEO local */}
+        <div className="max-w-5xl mx-auto mt-16">
+          <h2 className="font-cormorant text-2xl font-semibold text-charcoal mb-5">Zonas que atendemos en Madrid</h2>
+          <div className="flex flex-wrap gap-3">
+            {[
+              ['Dentista en Moncloa', '/dentista-moncloa-madrid/'],
+              ['Dentista en Chamberí', '/dentista-chamberi-madrid/'],
+              ['Dentista en el Centro de Madrid', '/dentista-centro-madrid/'],
+              ['Dentista en Plaza de España', '/dentista-plaza-espana-madrid/'],
+              ['Nuestra tecnología', '/tecnologia/'],
+              ['Casos antes y después', '/antes-despues/'],
+            ].map(([label, href]) => (
+              <Link
+                key={href}
+                to={href}
+                className="font-jakarta text-sm text-charcoal/80 border border-charcoal/15 px-4 py-2 rounded-full hover:bg-charcoal hover:text-white transition-colors duration-200"
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+        </div>
       </section>
     </>
   )

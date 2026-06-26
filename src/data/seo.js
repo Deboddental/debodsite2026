@@ -92,6 +92,34 @@ export function treatmentPageSchema(treatment) {
   }
 }
 
+// Local-SEO landing for a Madrid neighbourhood. Reinforces the clinic as the
+// dentist serving that barrio (areaServed) without declaring a second business.
+export function barrioPageSchema(barrio) {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'MedicalWebPage',
+        '@id': `${BASE_URL}/${barrio.slug}/`,
+        url: `${BASE_URL}/${barrio.slug}/`,
+        name: barrio.metaTitle,
+        description: barrio.metaDescription,
+        inLanguage: 'es-ES',
+        dateModified: LAST_UPDATED,
+        about: { '@id': CLINIC_ID },
+        mainEntity: { '@id': CLINIC_ID },
+        isPartOf: { '@id': `${BASE_URL}/#website` },
+        areaServed: { '@type': 'Place', name: `${barrio.barrio}, Madrid` },
+      },
+      breadcrumbSchema([
+        { label: 'Inicio', href: '/' },
+        { label: 'Ubicaciones', href: '/ubicaciones/' },
+        { label: barrio.title, href: null },
+      ]),
+    ],
+  }
+}
+
 export function blogPostSchema(post) {
   return {
     '@context': 'https://schema.org',
