@@ -24,7 +24,7 @@ export const ratingSummary = {
   ratingValue: '4.9',
   reviewCount: 197,
   source: 'Google Business Profile',
-  verifiedOn: 'PENDIENTE-VERIFICAR',
+  verifiedOn: '2026-06-25',
 }
 
 export const reviews = [
