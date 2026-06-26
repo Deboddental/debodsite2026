@@ -6,6 +6,7 @@ import { Star, Quote } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
 import CtaBand from '../components/ui/CtaBand'
+import VideoTestimonials from '../components/VideoTestimonials'
 import JsonLd from '../components/ui/JsonLd'
 import { reviews } from '../data/reviews'
 import { homeReviewsSchema, breadcrumbSchema } from '../data/seo'
@@ -132,6 +133,8 @@ export default function Resenas() {
           </a>
         </div>
       </section>
+
+      <VideoTestimonials />
 
       <CtaBand
         headline="¿Quieres ser nuestro próximo caso de éxito?"

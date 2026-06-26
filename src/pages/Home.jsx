@@ -5,6 +5,7 @@ import Philosophy from '../components/Philosophy'
 import Treatments from '../components/Treatments'
 import BeforeAfter from '../components/BeforeAfter'
 import Reviews from '../components/Reviews'
+import VideoTestimonials from '../components/VideoTestimonials'
 import TeamSection from '../components/TeamSection'
 import FAQ from '../components/FAQ'
 import CtaBand from '../components/ui/CtaBand'
@@ -40,6 +41,7 @@ export default function Home() {
       <BeforeAfter />
       <TeamSection />
       <Reviews />
+      <VideoTestimonials />
       <FAQ faqs={homeFaqs} />
       <CtaBand
         headline="Tu primera visita diagnóstica, incluida"
