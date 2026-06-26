@@ -145,4 +145,18 @@ El laboratorio in-house de Debod Dental Clinic, bajo la dirección de Javier, ga
   },
 ]
 
+// ── Equipo al completo (sin ficha individual) ────────────────
+// Resto del equipo (especialista de periodoncia, laboratorio, higiene y
+// recepción) que se muestra en /equipo/ como grid de confianza (foto+nombre+rol).
+// Fotos reales en /public/Images/Equipo/*.webp.
+export const supportTeam = [
+  { name: 'Dra. Ana Molina', role: 'Periodoncia y Cirugía', group: 'Especialistas', photoUrl: '/Images/Equipo/dra-ana-molina.webp' },
+  { name: 'Vladimir Jejina', role: 'Ceramista · CAD/CAM', group: 'Debod Dental Lab', photoUrl: '/Images/Equipo/vladimir-jejina.webp' },
+  { name: 'Jazmín Dasilva', role: 'Ceramista', group: 'Debod Dental Lab', photoUrl: '/Images/Equipo/jazmin-dasilva.webp' },
+  { name: 'Luciana Sequera', role: 'Logística de Laboratorio', group: 'Debod Dental Lab', photoUrl: '/Images/Equipo/luciana-sequera.webp' },
+  { name: 'Sara Tucho', role: 'Higienista Dental', group: 'Higiene y atención', photoUrl: '/Images/Equipo/sara-tucho.webp' },
+  { name: 'Valentina Vanegas', role: 'Higienista Dental', group: 'Higiene y atención', photoUrl: '/Images/Equipo/valentina-vanegas.webp' },
+  { name: 'Saffa Allai', role: 'Recepción y Administración', group: 'Higiene y atención', photoUrl: '/Images/Equipo/saffa-allai.webp' },
+]
+
 export default teamMembers

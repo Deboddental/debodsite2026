@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { ArrowRight } from 'lucide-react'
-import { teamMembers } from '../../data/team'
+import { teamMembers, supportTeam } from '../../data/team'
 import PageHero from '../../components/ui/PageHero'
 import Breadcrumb from '../../components/ui/Breadcrumb'
 import CtaBand from '../../components/ui/CtaBand'
@@ -80,6 +80,61 @@ export default function TeamPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Equipo al completo — laboratorio, higiene y administración (sin ficha) */}
+      <section className="py-12 px-4 bg-charcoal/4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="font-jakarta text-xs text-gold font-semibold tracking-widest uppercase mb-3 block">
+              Nuestro equipo al completo
+            </span>
+            <h2 className="font-outfit font-bold text-3xl md:text-4xl text-charcoal tracking-tight mb-4">
+              Las personas detrás de cada sonrisa
+            </h2>
+            <p className="font-jakarta text-slate-500 text-sm md:text-base max-w-2xl mx-auto">
+              Además de nuestros especialistas, un equipo de laboratorio propio, higiene y
+              atención al paciente cuida cada detalle de tu tratamiento.
+            </p>
+          </div>
+
+          {['Especialistas', 'Debod Dental Lab', 'Higiene y atención'].map((group) => {
+            const people = supportTeam.filter((p) => p.group === group)
+            if (people.length === 0) return null
+            return (
+              <div key={group} className="mb-10 last:mb-0">
+                <h3 className="font-outfit font-semibold text-charcoal/70 text-sm uppercase tracking-wider mb-5 text-center">
+                  {group}
+                </h3>
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-center">
+                  {people.map((p) => (
+                    <div
+                      key={p.name}
+                      className="bg-white rounded-3xl overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300"
+                    >
+                      <div className="aspect-[3/4] overflow-hidden bg-slate-100">
+                        <img
+                          src={p.photoUrl}
+                          alt={`${p.name} — ${p.role}, Debod Dental Clinic`}
+                          className="w-full h-full object-cover object-top"
+                          loading="lazy"
+                          width="750"
+                          height="1000"
+                        />
+                      </div>
+                      <div className="p-4 text-center">
+                        <h4 className="font-outfit font-semibold text-charcoal text-base leading-tight mb-0.5">
+                          {p.name}
+                        </h4>
+                        <p className="font-jakarta text-slate-500 text-xs">{p.role}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )
+          })}
         </div>
       </section>
 
