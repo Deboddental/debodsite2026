@@ -3,6 +3,7 @@ import { Heart, Shield, Sparkles, Users } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
 import CtaBand from '../components/ui/CtaBand'
+import { ratingSummary } from '../data/reviews'
 
 const BASE_URL = 'https://deboddentalclinic.com'
 
@@ -105,7 +106,7 @@ export default function Nosotros() {
         <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
             { value: '+15', label: 'Años de experiencia' },
-            { value: '4.9', label: 'Valoración Google' },
+            { value: ratingSummary.ratingValue, label: 'Valoración Google' },
             { value: '2023', label: 'Apertura sede actual' },
             { value: '60m', label: 'Consulta sin prisas' },
           ].map(({ value, label }) => (

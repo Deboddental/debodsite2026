@@ -8,7 +8,7 @@ import Breadcrumb from '../components/ui/Breadcrumb'
 import CtaBand from '../components/ui/CtaBand'
 import VideoTestimonials from '../components/VideoTestimonials'
 import JsonLd from '../components/ui/JsonLd'
-import { reviews } from '../data/reviews'
+import { reviews, ratingSummary } from '../data/reviews'
 import { homeReviewsSchema, breadcrumbSchema } from '../data/seo'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -77,7 +77,7 @@ export default function Resenas() {
                 <Star key={i} size={24} className="text-gold fill-gold" />
               ))}
             </div>
-            <span className="font-outfit font-bold text-4xl text-charcoal">4,9</span>
+            <span className="font-outfit font-bold text-4xl text-charcoal">{ratingSummary.ratingValue.replace('.', ',')}</span>
           </div>
           <p className="font-jakarta text-slate">
             Valoración media basada en más de 190 reseñas verificadas en Google

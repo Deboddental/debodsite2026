@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Star, Quote } from 'lucide-react'
-import { reviews } from '../data/reviews'
+import { reviews, ratingSummary } from '../data/reviews'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -71,7 +71,7 @@ export default function Reviews() {
                 <Star key={i} size={22} className="text-gold fill-gold" />
               ))}
             </div>
-            <span className="font-outfit font-bold text-4xl text-charcoal">4.9</span>
+            <span className="font-outfit font-bold text-4xl text-charcoal">{ratingSummary.ratingValue}</span>
             <span className="font-jakarta text-slate text-sm">en Google</span>
           </div>
         </div>

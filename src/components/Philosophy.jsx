@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Heart, Eye, Shield, Users } from 'lucide-react'
+import { ratingSummary } from '../data/reviews'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -178,7 +179,7 @@ export default function Philosophy() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 pt-16 border-t border-white/8">
           {[
             { value: '+15', label: 'años de experiencia' },
-            { value: '4.9', label: 'en Google Reviews' },
+            { value: ratingSummary.ratingValue, label: 'en Google Reviews' },
             { value: '2023', label: 'Premio WhiteSmile' },
             { value: '60m', label: 'Financiación flexible' },
           ].map((stat, i) => (

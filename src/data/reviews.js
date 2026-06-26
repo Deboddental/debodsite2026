@@ -16,6 +16,17 @@
 //   treatment → tratamiento recibido, si se conoce (ej. "Implante Dental")
 // ─────────────────────────────────────────────────────────────────────────────
 
+// Source of truth for the headline rating shown across the site AND in the
+// JSON-LD AggregateRating in index.html. Keep both in sync (see index.html).
+// IMPORTANT: this figure MUST be verified against the clinic's real Google
+// Business Profile and kept in sync with the aggregateRating block in index.html.
+export const ratingSummary = {
+  ratingValue: '4.9',
+  reviewCount: 197,
+  source: 'Google Business Profile',
+  verifiedOn: 'PENDIENTE-VERIFICAR',
+}
+
 export const reviews = [
   {
     name: 'Yonathan B.',

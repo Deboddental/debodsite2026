@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { MessageCircle, ArrowDown, Star } from 'lucide-react'
+import { ratingSummary } from '../data/reviews'
 
 const HERO_VIDEO = '/hero/video hero doctores.webm'
 
@@ -123,7 +124,7 @@ export default function Hero() {
                 <Star key={i} size={13} className="text-gold fill-gold" />
               ))}
             </div>
-            <span className="font-jakarta text-white/80 text-xs sm:text-sm font-medium">4.9 Google Reviews</span>
+            <span className="font-jakarta text-white/80 text-xs sm:text-sm font-medium">{ratingSummary.ratingValue} Google Reviews</span>
           </div>
           <div className="h-4 w-px bg-white/20" />
           <span className="font-jakarta text-white/70 text-xs sm:text-sm">
