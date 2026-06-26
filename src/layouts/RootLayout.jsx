@@ -3,6 +3,7 @@ import { Outlet, ScrollRestoration, useLocation } from 'react-router-dom'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppWidget from '@/components/WhatsAppWidget'
+import ConsentBanner from '@/components/ConsentBanner'
 import { captureTrackingData } from '@/utils/tracking'
 
 function TrackingInit() {
@@ -26,6 +27,7 @@ export default function RootLayout() {
       </main>
       <Footer />
       <WhatsAppWidget />
+      <ConsentBanner />
     </>
   )
 }

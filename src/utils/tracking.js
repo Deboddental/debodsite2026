@@ -1,3 +1,5 @@
+import { hasConsent } from './consent'
+
 const FIRST_TOUCH_KEY = 'debod_first_touch'
 const LAST_TOUCH_KEY  = 'debod_last_touch'
 const PAGES_KEY       = 'debod_pages'
@@ -56,6 +58,7 @@ function makeSourceSummary(d) {
 }
 
 export function captureTrackingData() {
+  if (!hasConsent()) return
   try {
     const urlData  = readUrlParams()
     const visitData = {
@@ -89,6 +92,7 @@ export function captureTrackingData() {
 }
 
 export function getTrackingData() {
+  if (!hasConsent()) return { external_id: '' }
   try {
     const firstTouch = JSON.parse(localStorage.getItem(FIRST_TOUCH_KEY) || '{}')
     const lastTouch  = JSON.parse(localStorage.getItem(LAST_TOUCH_KEY)  || '{}')

@@ -88,6 +88,13 @@ function validateForm(formData) {
   return errors
 }
 
+async function sha256Hex(value) {
+  const v = String(value || '').trim().toLowerCase()
+  if (!v) return ''
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(v))
+  return Array.from(new Uint8Array(buf)).map((b) => b.toString(16).padStart(2, '0')).join('')
+}
+
 export default function Contacto() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -99,6 +106,8 @@ export default function Contacto() {
     otroServicio: '',
     comoNosConocio: '',
     mensaje: '',
+    consent: false,
+    website: '',
   })
   const [loading, setLoading]   = useState(false)
   const [submitted, setSubmitted] = useState(false)
@@ -119,6 +128,11 @@ export default function Contacto() {
       return
     }
 
+    if (!formData.consent) {
+      setError('Debes aceptar la política de privacidad para enviar el formulario.')
+      return
+    }
+
     setLoading(true)
     setError('')
 
@@ -134,6 +148,13 @@ export default function Contacto() {
         ? crypto.randomUUID()
         : `evt_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`
 
+    const [emailHash, phoneHash, fnHash, lnHash] = await Promise.all([
+      sha256Hex(formData.email),
+      sha256Hex(normalizedPhone),
+      sha256Hex(formData.firstName),
+      sha256Hex(formData.lastName),
+    ])
+
     // dataLayer push — independiente del backend
     if (typeof window !== 'undefined') {
       window.dataLayer = window.dataLayer || []
@@ -141,10 +162,10 @@ export default function Contacto() {
         event: 'generate_lead',
         event_id: eventId,
         user_data: {
-          email:          formData.email,
-          phone:          normalizedPhone,
-          first_name:     formData.firstName,
-          last_name:      formData.lastName,
+          em:             emailHash,   // hashed email
+          ph:             phoneHash,   // hashed phone
+          fn:             fnHash,      // hashed first name
+          ln:             lnHash,      // hashed last name
           external_id:    tracking.external_id,
           fbp:            tracking.fbp,
           fbc:            tracking.fbc,
@@ -359,6 +380,16 @@ export default function Contacto() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} noValidate className="space-y-5">
+                    <input
+                      type="text"
+                      name="website"
+                      value={formData.website || ''}
+                      onChange={handleChange}
+                      tabIndex={-1}
+                      autoComplete="off"
+                      aria-hidden="true"
+                      className="hidden"
+                    />
                     {/* Nombre + Apellido */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
@@ -522,12 +553,21 @@ export default function Contacto() {
                       )}
                     </button>
 
-                    <p className="font-jakarta text-white/30 text-xs text-center">
-                      Al enviar aceptas nuestra{' '}
-                      <Link to="/politica-de-privacidad/" className="text-white/50 hover:text-gold transition-colors underline">
-                        política de privacidad
-                      </Link>.
-                    </p>
+                    <label className="flex items-start gap-2.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        name="consent"
+                        checked={formData.consent}
+                        onChange={(e) => setFormData((prev) => ({ ...prev, consent: e.target.checked }))}
+                        className="mt-0.5 accent-gold"
+                      />
+                      <span className="font-jakarta text-white/40 text-xs">
+                        He leído y acepto la{' '}
+                        <Link to="/politica-de-privacidad/" className="text-white/60 hover:text-gold underline">
+                          política de privacidad
+                        </Link>{' '}y el tratamiento de mis datos para gestionar mi solicitud.
+                      </span>
+                    </label>
                   </form>
                 )}
               </div>
