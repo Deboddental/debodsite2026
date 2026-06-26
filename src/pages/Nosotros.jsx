@@ -105,7 +105,7 @@ export default function Nosotros() {
         <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
             { value: '+15', label: 'Años de experiencia' },
-            { value: '5.0', label: 'Valoración Google' },
+            { value: '4.9', label: 'Valoración Google' },
             { value: '2023', label: 'Apertura sede actual' },
             { value: '60m', label: 'Consulta sin prisas' },
           ].map(({ value, label }) => (

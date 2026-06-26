@@ -123,7 +123,7 @@ export default function Hero() {
                 <Star key={i} size={13} className="text-gold fill-gold" />
               ))}
             </div>
-            <span className="font-jakarta text-white/80 text-xs sm:text-sm font-medium">5.0 Google Reviews</span>
+            <span className="font-jakarta text-white/80 text-xs sm:text-sm font-medium">4.9 Google Reviews</span>
           </div>
           <div className="h-4 w-px bg-white/20" />
           <span className="font-jakarta text-white/70 text-xs sm:text-sm">

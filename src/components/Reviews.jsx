@@ -71,7 +71,7 @@ export default function Reviews() {
                 <Star key={i} size={22} className="text-gold fill-gold" />
               ))}
             </div>
-            <span className="font-outfit font-bold text-4xl text-charcoal">5.0</span>
+            <span className="font-outfit font-bold text-4xl text-charcoal">4.9</span>
             <span className="font-jakarta text-slate text-sm">en Google</span>
           </div>
         </div>

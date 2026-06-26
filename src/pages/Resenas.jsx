@@ -36,11 +36,11 @@ export default function Resenas() {
         <title>Reseñas y opiniones de pacientes — Debod Dental Clinic, Argüelles Madrid</title>
         <meta
           name="description"
-          content="Opiniones reales de pacientes de Debod Dental Clinic en Argüelles, Madrid. 5,0 estrellas en Google. Lee experiencias sobre implantes, ortodoncia invisible, diseño de sonrisa y rehabilitación oral."
+          content="Opiniones reales de pacientes de Debod Dental Clinic en Argüelles, Madrid. 4,9 estrellas en Google. Lee experiencias sobre implantes, ortodoncia invisible, diseño de sonrisa y rehabilitación oral."
         />
         <link rel="canonical" href={canonical} />
         <meta property="og:title" content="Reseñas de pacientes — Debod Dental Clinic" />
-        <meta property="og:description" content="Opiniones reales de pacientes de Debod Dental Clinic en Argüelles, Madrid. 5,0 estrellas en Google." />
+        <meta property="og:description" content="Opiniones reales de pacientes de Debod Dental Clinic en Argüelles, Madrid. 4,9 estrellas en Google." />
         <meta property="og:url" content={canonical} />
         <meta property="og:type" content="website" />
       </Helmet>
@@ -56,7 +56,7 @@ export default function Resenas() {
       <PageHero
         subtitle="Opiniones"
         title="Lo que dicen nuestros pacientes"
-        description="Más de 80 valoraciones y una media de 5,0 estrellas en Google. Estas son algunas de las experiencias reales de quienes ya confían en Debod Dental Clinic."
+        description="Más de 190 valoraciones y una media de 4,9 estrellas en Google. Estas son algunas de las experiencias reales de quienes ya confían en Debod Dental Clinic."
       />
 
       <div className="max-w-6xl mx-auto">
@@ -77,10 +77,10 @@ export default function Resenas() {
                 <Star key={i} size={24} className="text-gold fill-gold" />
               ))}
             </div>
-            <span className="font-outfit font-bold text-4xl text-charcoal">5,0</span>
+            <span className="font-outfit font-bold text-4xl text-charcoal">4,9</span>
           </div>
           <p className="font-jakarta text-slate">
-            Valoración media basada en más de 80 reseñas verificadas en Google
+            Valoración media basada en más de 190 reseñas verificadas en Google
           </p>
         </div>
       </section>
