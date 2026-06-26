@@ -68,10 +68,11 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="shrink-0 mr-auto">
           <img
-            src={scrolled ? '/Images/logo/Logo texto verde.png' : '/Images/logo/Logo texto.png'}
-            alt="Debod Dental Clinic"
-            className={`h-8 w-auto object-contain transition-all duration-500
-              ${scrolled ? '' : 'brightness-0 invert'}`}
+            src={scrolled ? '/logo-dark.webp' : '/logo-light.webp'}
+            alt="Debod Dental Clinic — Clínica dental en Argüelles, Madrid"
+            width="120"
+            height="48"
+            className="h-8 w-auto object-contain transition-all duration-500"
           />
         </Link>
 
