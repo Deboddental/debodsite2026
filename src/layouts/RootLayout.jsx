@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import WhatsAppWidget from '@/components/WhatsAppWidget'
 import ConsentBanner from '@/components/ConsentBanner'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import { captureTrackingData } from '@/utils/tracking'
 
 function TrackingInit() {
@@ -30,6 +31,7 @@ export default function RootLayout() {
       <WhatsAppWidget />
       <ConsentBanner />
       <Analytics />
+      <SpeedInsights />
     </>
   )
 }
