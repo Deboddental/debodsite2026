@@ -72,9 +72,11 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="inline-block mb-4">
               <img
-                src="/Images/logo/Logo texto.png"
-                alt="Debod Dental Clinic"
-                className="h-9 w-auto object-contain brightness-0 invert"
+                src="/logo-light.webp"
+                alt="Debod Dental Clinic — Clínica dental en Argüelles, Madrid"
+                width="135"
+                height="54"
+                className="h-9 w-auto object-contain"
               />
             </Link>
             <p className="font-jakarta text-white/50 text-sm leading-relaxed mb-6">
