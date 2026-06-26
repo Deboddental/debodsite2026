@@ -13,6 +13,12 @@ export const blogPosts = [
     metaDescription: '¿Aprietas o rechinas los dientes por la noche? El bruxismo puede causar desgaste severo y dolor mandibular. Descubre cómo tratarlo en Argüelles, Madrid.',
     excerpt: 'El bruxismo es cada vez más frecuente. El estrés hace que aprietes o rechines los dientes sin darte cuenta, causando desgaste, dolor y sensibilidad. Tiene solución cuando se detecta a tiempo.',
     heroImageUrl: '/Images/blog/webp/bruxismo-estres.webp',
+    authorSlug: 'dr-cesar-rodriguez',
+    faqs: [
+      { question: '¿El bruxismo tiene cura?', answer: 'El bruxismo se controla muy bien, sobre todo cuando se detecta a tiempo. Con una férula de descarga personalizada y el manejo del estrés se evita el desgaste y desaparecen las molestias. En casos con causa dental (mordida, restauraciones) se corrige el factor que lo provoca.' },
+      { question: '¿La férula de descarga molesta para dormir?', answer: 'No. Al fabricarse a medida en nuestro laboratorio propio, la férula se ajusta con precisión y la mayoría de pacientes se acostumbra en pocas noches. Es mucho más cómoda que un protector genérico de farmacia.' },
+      { question: '¿Cómo sé si rechino los dientes por la noche?', answer: 'Las señales más típicas son despertarte con dolor o tensión en la mandíbula, dolores de cabeza matutinos, sensibilidad dental o desgaste visible en los dientes. En una revisión podemos confirmarlo observando las facetas de desgaste.' },
+    ],
     bodyMarkdown: `El **bruxismo** es un problema cada vez más frecuente. Muchas personas aprietan o rechinan los dientes sin darse cuenta, especialmente durante la noche, y el estrés suele ser uno de los principales responsables.
 
 Con el tiempo, este hábito puede provocar **desgaste dental, dolor mandibular, sensibilidad e incluso fracturas en los dientes**. La buena noticia es que el bruxismo tiene solución cuando se detecta a tiempo.
@@ -56,7 +62,7 @@ Cuanto antes se detecte, **más fácil es evitar daños permanentes en los dient
 
 ### Férulas de descarga personalizadas
 
-La solución más habitual es el uso de una **férula de descarga personalizada**, fabricada a medida en nuestro laboratorio in-house. Se utiliza durante la noche para:
+La solución más habitual es el uso de una [férula de descarga personalizada](/tratamientos/tratamientos-protectores-bucales-en-arguelles-madrid/), fabricada a medida en nuestro laboratorio in-house. Se utiliza durante la noche para:
 
 - Evitar el desgaste dental
 - Relajar la musculatura mandibular
@@ -105,6 +111,12 @@ Si notas desgaste en los dientes, dolor en la mandíbula o sensibilidad al despe
     metaDescription: 'Un diagnóstico dental preciso es el primer paso hacia el tratamiento correcto. Escáner 3D, radiografías digitales y análisis completo en Argüelles, Madrid.',
     excerpt: 'Un diagnóstico dental preciso es el primer paso para elegir el tratamiento correcto. En Debod Dental Clinic usamos escáner intraoral 3D y radiografías digitales para un análisis completo.',
     heroImageUrl: '/Images/blog/webp/diagnostico-dental.webp',
+    authorSlug: 'dr-cesar-rodriguez',
+    faqs: [
+      { question: '¿Cuánto dura una primera visita de diagnóstico?', answer: 'La primera visita diagnóstica suele durar entre 30 y 45 minutos: incluye la historia clínica, la exploración completa, las pruebas necesarias (escáner o radiografía) y la explicación del plan de tratamiento con su presupuesto.' },
+      { question: '¿El escáner intraoral 3D sustituye a la radiografía?', answer: 'No, son complementarios. El escáner 3D registra la superficie de dientes y encías; la radiografía digital muestra lo que hay debajo (raíces, hueso, caries entre dientes). Combinarlos da el diagnóstico más completo.' },
+      { question: '¿La primera visita diagnóstica tiene coste?', answer: 'En Debod Dental Clinic la primera visita diagnóstica está incluida: valoramos tu caso y te explicamos las opciones sin compromiso.' },
+    ],
     bodyMarkdown: `Un **diagnóstico dental completo y preciso** es la base de cualquier tratamiento exitoso. Sin un diagnóstico correcto, el tratamiento puede ser inadecuado, incompleto o incluso contraproducente.
 
 En **Debod Dental Clinic**, en **Argüelles, Madrid**, invertimos en las mejores herramientas diagnósticas para garantizar que cada decisión clínica esté respaldada por la información más precisa posible.
@@ -113,7 +125,7 @@ En **Debod Dental Clinic**, en **Argüelles, Madrid**, invertimos en las mejores
 
 ### Escáner intraoral 3D
 
-El **escáner intraoral** sustituye a las incómodas impresiones con alginato. En pocos minutos obtenemos un modelo digital tridimensional de toda la boca con una precisión submilimétrica.
+El [escáner intraoral 3D](/tecnologia/) sustituye a las incómodas impresiones con alginato. En pocos minutos obtenemos un modelo digital tridimensional de toda la boca con una precisión submilimétrica.
 
 Este escáner es fundamental para:
 
@@ -162,6 +174,12 @@ Creemos en la **odontología honesta**: te explicamos todo lo que necesitas sabe
     metaDescription: '¿Tus dientes parecen más largos? La recesión gingival expone las raíces y puede causar sensibilidad y caries radicular. Conoce los tratamientos disponibles.',
     excerpt: '¿Has notado que tus dientes parecen más largos o sientes sensibilidad al tomar algo frío? La recesión gingival es más frecuente de lo que imaginas y tiene tratamiento.',
     heroImageUrl: '/Images/blog/webp/encias-retraidas.webp',
+    authorSlug: 'dra-mercedes-lopez',
+    faqs: [
+      { question: '¿Las encías retraídas vuelven a crecer solas?', answer: 'No. El tejido de la encía que se ha perdido no se regenera por sí solo. Lo que sí se puede es frenar la progresión y, cuando está indicado, recuperar el tejido mediante un injerto de encía que cubre la raíz expuesta.' },
+      { question: '¿Es doloroso el injerto de encía?', answer: 'Se realiza con anestesia local, así que durante el procedimiento no se siente dolor. El postoperatorio suele ser leve y se controla con la pauta que te indicamos; las técnicas mínimamente invasivas (túnel) acortan la recuperación.' },
+      { question: '¿Por qué se me retraen las encías?', answer: 'Las causas más frecuentes son la enfermedad periodontal, un cepillado demasiado fuerte o con cerdas duras, el bruxismo y la malposición dental. Identificar la causa es clave para que el tratamiento sea duradero.' },
+    ],
     bodyMarkdown: `La **recesión gingival** es un problema mucho más frecuente de lo que imaginas. No solo afecta la estética de tu sonrisa —haciendo que los dientes parezcan más largos o "envejecidos"— sino que también expone las raíces dentales a la caries y la sensibilidad.
 
 ## ¿Qué es la recesión gingival?
@@ -188,7 +206,7 @@ La recesión gingival ocurre cuando la encía se retrae por debajo del límite c
 
 ### Injerto de tejido conectivo subepitelial
 
-El tratamiento más efectivo para la recesión gingival. Se toma tejido del paladar y se coloca en la zona de recesión. Resultados predecibles con alta tasa de cubrimiento radicular.
+El [injerto de encía](/tratamientos/injerto-de-encia-arguelles-madrid-espana/) es el tratamiento más efectivo para la recesión gingival. Se toma tejido del paladar y se coloca en la zona de recesión. Resultados predecibles con alta tasa de cubrimiento radicular.
 
 ### Técnica de tunnel (túnel)
 
@@ -222,13 +240,19 @@ Si ya tienes recesión gingival, te recomendamos una valoración en nuestra **Cl
     metaDescription: 'La limpieza dental profunda va más allá de la profilaxis estándar. Descubre cuándo la necesitas y en qué se diferencia de una limpieza convencional.',
     excerpt: 'No todas las limpiezas son iguales. La limpieza dental profunda actúa bajo las encías para tratar la periodontitis incipiente. Te explicamos cuándo y por qué la necesitas.',
     heroImageUrl: '/Images/blog/webp/limpieza-dental.webp',
+    authorSlug: 'dra-mercedes-lopez',
+    faqs: [
+      { question: '¿En qué se diferencia de una limpieza normal?', answer: 'La limpieza estándar elimina el sarro por encima de la encía y es preventiva. La limpieza profunda (raspado y alisado radicular) actúa por debajo de la encía, en las bolsas periodontales, para tratar la periodontitis. Son procedimientos distintos con objetivos distintos.' },
+      { question: '¿Duele la limpieza dental profunda?', answer: 'Se realiza con anestesia local, por lo que es cómoda. Después puede haber algo de sensibilidad unos días, que se controla con facilidad. Es mucho menos molesta de lo que la mayoría imagina.' },
+      { question: '¿Cada cuánto necesito una limpieza profunda?', answer: 'Depende de tu estado periodontal. Tras el tratamiento inicial se programa una reevaluación y, si hay periodontitis, un mantenimiento periódico (a menudo cada 3-4 meses) para mantener las encías estables.' },
+    ],
     bodyMarkdown: `Muchas personas confunden la **limpieza dental estándar** (profilaxis) con la **limpieza dental profunda** (destartraje subgingival). Son dos procedimientos diferentes con objetivos distintos.
 
 ## La diferencia clave
 
 La **limpieza estándar** actúa por encima de la encía: elimina el sarro y la placa bacteriana visibles. Es un procedimiento de mantenimiento preventivo.
 
-La **limpieza profunda** actúa también **por debajo de la línea de la encía**, en las bolsas periodontales donde se acumula la bacteria responsable de la periodontitis.
+La **limpieza profunda** actúa también **por debajo de la línea de la encía**, en las bolsas periodontales donde se acumula la bacteria responsable de la [periodontitis](/periodoncista-arguelles-madrid-espana/).
 
 ## ¿Cuándo necesitas una limpieza profunda?
 
@@ -278,6 +302,12 @@ Se programa una **re-evaluación periodontal** a las 6-8 semanas para valorar la
     metaDescription: 'El cáncer oral detectado a tiempo tiene una tasa de supervivencia superior al 80%. En Debod Dental Clinic realizamos exploración sistemática en cada revisión.',
     excerpt: 'El cáncer oral tiene muy buen pronóstico si se detecta a tiempo. En Debod Dental Clinic incluimos la exploración sistemática de la mucosa oral en cada revisión de control.',
     heroImageUrl: '/Images/blog/webp/deteccion-cancer-oral.webp',
+    authorSlug: 'dr-cesar-rodriguez',
+    faqs: [
+      { question: '¿Cómo se detecta el cáncer oral en una revisión?', answer: 'Mediante una exploración visual y táctil sistemática de labios, lengua, encías, paladar, suelo de la boca y mejillas para identificar lesiones sospechosas de forma precoz. Es rápida, indolora y la incluimos en cada revisión sin coste adicional.' },
+      { question: '¿A qué señales debo estar atento?', answer: 'Llagas que no curan en 2-3 semanas, manchas blancas o rojas que no desaparecen, bultos o engrosamientos, o entumecimiento en la boca. Ante cualquiera de ellas conviene una valoración cuanto antes.' },
+      { question: '¿Cada cuánto debo revisarme?', answer: 'Una revisión al menos una vez al año, e idealmente dos. Si fumas o consumes alcohol con frecuencia (principales factores de riesgo), conviene un control más estrecho.' },
+    ],
     bodyMarkdown: `El **cáncer oral** es uno de los tipos de cáncer con mayor mortalidad, no porque sea especialmente agresivo, sino porque con frecuencia se diagnostica en estadios avanzados cuando ya ha invadido estructuras vecinas.
 
 La detección precoz cambia radicalmente el pronóstico: **detectado en estadio I, la tasa de supervivencia a 5 años supera el 80%**. En estadio IV, cae al 20-30%.
@@ -309,7 +339,7 @@ Consulta a tu dentista si notas:
 
 ## Cómo lo hacemos en Debod Dental Clinic
 
-En cada **revisión de control** en Debod Dental Clinic realizamos una **exploración sistemática** de toda la mucosa oral:
+En cada **revisión de control** en Debod Dental Clinic realizamos una [exploración sistemática](/tratamientos/deteccion-de-cancer-oral-arguelles-madrid-espana/) de toda la mucosa oral:
 
 - Labios (interior y exterior)
 - Encías y mucosa alveolar
@@ -336,11 +366,17 @@ Esta exploración forma parte de **todas nuestras revisiones**, sin coste adicio
     metaDescription: '¿Carillas de porcelana o coronas dentales? Descubre las diferencias, ventajas e indicaciones de cada restauración para tomar la mejor decisión.',
     excerpt: 'Carillas o coronas: ¿cuál es la mejor opción para tu sonrisa? Aunque ambas mejoran la estética, tienen indicaciones muy diferentes. Te explicamos cuándo elegir cada una.',
     heroImageUrl: '/Images/blog/webp/carillas-vs-coronas.webp',
+    authorSlug: 'dr-cesar-rodriguez',
+    faqs: [
+      { question: '¿Cuál dura más, las carillas o las coronas?', answer: 'Ambas tienen una vida media similar (10-20 años) con un buen cuidado. La diferencia no es la duración, sino la indicación: la carilla mejora la estética con un tallado mínimo; la corona restaura un diente muy dañado cubriéndolo por completo.' },
+      { question: '¿Las carillas estropean el diente?', answer: 'No. La carilla de porcelana requiere un tallado mínimo del esmalte (unos 0,5 mm). Trabajamos de forma conservadora para preservar el máximo de diente sano posible.' },
+      { question: '¿Qué pasa si mi diente está a medio camino entre las dos?', answer: 'Para esos casos existe el Vonlay: una restauración cerámica que cubre la cara de masticación y la frontal en una sola pieza, más conservadora que una corona. En la valoración te decimos cuál es la mejor opción para tu diente.' },
+    ],
     bodyMarkdown: `Una de las preguntas más frecuentes en la consulta de estética dental es: **¿necesito carillas o coronas?** Aunque ambas pueden mejorar significativamente la estética de tu sonrisa, tienen indicaciones muy diferentes y no son intercambiables.
 
 ## ¿Qué son las carillas dentales?
 
-Las **carillas de porcelana** son finas láminas de cerámica que se adhieren exclusivamente a la cara frontal visible del diente. Tienen un grosor de apenas 0,5-0,7 mm.
+Las [carillas de porcelana](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) son finas láminas de cerámica que se adhieren exclusivamente a la cara frontal visible del diente. Tienen un grosor de apenas 0,5-0,7 mm.
 
 Para colocarlas, se retira una pequeña cantidad de esmalte de la cara visible del diente (aproximadamente 0,5 mm), lo que hace el proceso **mínimamente invasivo**.
 
@@ -398,6 +434,12 @@ La decisión depende del estado del diente, la cantidad de tejido dental sano di
     metaDescription: 'Las aftas bucales son dolorosas pero en la mayoría de casos no graves. Descubre por qué aparecen, cómo aliviar el dolor y cuándo debes consultar al dentista.',
     excerpt: 'Las aftas bucales son una de las molestias orales más frecuentes. Dolorosas pero generalmente benignas. Te explicamos por qué aparecen y cuándo deberías consultar.',
     heroImageUrl: '/Images/blog/webp/aftas-bucales.webp',
+    authorSlug: 'dr-cesar-rodriguez',
+    faqs: [
+      { question: '¿Cuánto tarda en curarse un afta?', answer: 'La mayoría de las aftas (las menores, el 80% de los casos) se curan solas en 7-14 días sin dejar cicatriz. Si una llaga no cura en más de 2-3 semanas, debes consultar al dentista.' },
+      { question: '¿Cómo puedo aliviar el dolor de un afta?', answer: 'Ayudan los enjuagues con clorhexidina, los geles anestésicos tópicos y, en aftas grandes, los corticoides tópicos. Evita los alimentos irritantes (cítricos, picante) mientras cicatriza.' },
+      { question: '¿Las aftas son contagiosas o peligrosas?', answer: 'Las aftas comunes no son contagiosas ni graves. Sin embargo, una úlcera que no cura puede ser una señal de alarma: por eso, ante una llaga persistente conviene una valoración para descartar otras causas.' },
+    ],
     bodyMarkdown: `Las **aftas bucales** —también conocidas como úlceras aftosas o "llagas"— son pequeñas úlceras dolorosas que aparecen en la mucosa oral: los labios por dentro, las mejillas, la lengua o el paladar blando.
 
 Son una de las lesiones orales más frecuentes: se estima que afectan al **20-30% de la población** en algún momento de su vida.
@@ -448,7 +490,7 @@ La mayoría de las aftas **no requieren visita al dentista** y se curan solas. S
 - Se acompañan de fiebre o malestar general
 - Aparecen tras el inicio de un nuevo medicamento
 
-Una úlcera que no cura puede ser una señal de cáncer oral, que requiere diagnóstico urgente.`,
+Una úlcera que no cura puede ser una señal de [cáncer oral](/tratamientos/deteccion-de-cancer-oral-arguelles-madrid-espana/), que requiere diagnóstico urgente.`,
     relatedPosts: [
       { title: 'Bruxismo: el estrés daña tus dientes', slug: 'bruxismo-estres-dientes', category: 'salud-dental' },
       { title: 'Detección de cáncer oral en Argüelles, Madrid', slug: 'deteccion-de-cancer-oral-en-arguelles-madrid', category: 'servicios' },
@@ -465,6 +507,12 @@ Una úlcera que no cura puede ser una señal de cáncer oral, que requiere diagn
     metaDescription: 'El dolor de muelas del juicio puede indicar pericoronaritis, caries o impactación. Conoce las causas y cuándo conviene extraerlas.',
     excerpt: 'El dolor de muelas del juicio es uno de los motivos de urgencia dental más frecuentes. Conoce las causas y cuándo conviene extraerlas.',
     heroImageUrl: '/Images/blog/webp/dolor-muelas-juicio.webp',
+    authorSlug: 'dra-irene-de-los-mozos',
+    faqs: [
+      { question: '¿Siempre hay que extraer las muelas del juicio?', answer: 'No. Si han erupcionado en buena posición, se pueden limpiar correctamente y no dan problemas, se conservan. Se recomienda extraerlas cuando provocan dolor, infecciones de repetición (pericoronaritis), caries o dañan al diente vecino.' },
+      { question: '¿Es muy doloroso extraer una muela del juicio?', answer: 'La extracción se realiza con anestesia local, así que no se siente dolor durante el procedimiento. Después puede haber inflamación y molestias unos días, que se controlan con la pauta indicada.' },
+      { question: '¿Qué hago si tengo dolor fuerte ahora mismo?', answer: 'Si hay dolor intenso, hinchazón de la cara, fiebre o dificultad para tragar, busca atención dental urgente: atendemos urgencias el mismo día. Una infección no tratada puede agravarse.' },
+    ],
     bodyMarkdown: `Las **muelas del juicio** o terceros molares son los últimos dientes en erupcionar, generalmente entre los 17 y 25 años. En muchos casos, su erupción no ocurre sin problemas: la mandíbula ya no tiene espacio suficiente para acomodarlos.
 
 ## ¿Por qué duelen las muelas del juicio?
@@ -498,7 +546,7 @@ Sin embargo, se recomienda la extracción cuando:
 
 Si tienes dolor intenso, hinchazón importante de la cara, fiebre o dificultad para tragar, debes buscar atención dental urgente. Una infección periodontal no tratada puede extenderse a espacios profundos del cuello con consecuencias graves.
 
-En **Debod Dental Clinic**, en **Argüelles, Madrid**, atendemos urgencias y realizamos extracciones de muelas del juicio con la tecnología y la experiencia necesarias para garantizar tu comodidad.`,
+En **Debod Dental Clinic**, en **Argüelles, Madrid**, atendemos urgencias y realizamos [extracciones de muelas del juicio](/tratamientos/extraccion-de-muelas-del-juicio-arguelles-madrid-espana/) con la tecnología y la experiencia necesarias para garantizar tu comodidad.`,
     relatedPosts: [
       { title: 'Bruxismo: el estrés daña tus dientes', slug: 'bruxismo-estres-dientes', category: 'salud-dental' },
       { title: 'Aftas bucales: causas y tratamiento', slug: 'aftas-bucales-causas-y-tratamiento', category: 'salud-dental' },
@@ -515,6 +563,12 @@ En **Debod Dental Clinic**, en **Argüelles, Madrid**, atendemos urgencias y rea
     metaDescription: '¿Es la ortodoncia invisible tan efectiva como los brackets? Desmontamos los mitos más frecuentes sobre Invisalign y la ortodoncia con alineadores.',
     excerpt: 'La ortodoncia invisible ha ganado mucha popularidad, pero también muchos mitos. ¿Es tan efectiva como los brackets? ¿Sirve para casos complejos? Desmontamos los mitos.',
     heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
+    authorSlug: 'dr-victor-guerrero',
+    faqs: [
+      { question: '¿Invisalign® sirve para casos complejos?', answer: 'Sí. Los alineadores actuales tratan la gran mayoría de los casos, incluyendo apiñamientos severos, diastemas grandes y mordidas cruzadas o abiertas. La clave está en la experiencia del ortodoncista y en una buena planificación.' },
+      { question: '¿Cuántas horas al día hay que llevar los alineadores?', answer: 'Al menos 22 horas al día, retirándolos solo para comer y para la higiene. La colaboración del paciente es el factor que más influye en el resultado.' },
+      { question: '¿Hay que llevar retenedores después de Invisalign®?', answer: 'Sí, es obligatorio. Tras cualquier ortodoncia —con alineadores o con brackets— hay que usar retenedores para que los dientes no vuelvan a su posición original.' },
+    ],
     bodyMarkdown: `La ortodoncia con alineadores transparentes —especialmente **Invisalign®**— ha transformado la forma en que millones de personas viven el tratamiento de ortodoncia. Pero con su popularidad han llegado también mitos y malentendidos que conviene aclarar.
 
 ## Mito 1: "La ortodoncia invisible solo sirve para casos simples"
@@ -555,7 +609,7 @@ El factor más importante en el resultado no es el sistema, sino **la experienci
 - Hay menos visitas de urgencia por rotura de brackets.
 - El confort durante el tratamiento es mayor.
 
-En **Debod Dental Clinic**, somos especialistas en ortodoncia invisible. Realizamos un diagnóstico completo y te decimos con honestidad si eres buen candidato para Invisalign® o si otra alternativa se adapta mejor a tu caso.`,
+En **Debod Dental Clinic**, somos especialistas en [ortodoncia invisible](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/). Realizamos un diagnóstico completo y te decimos con honestidad si eres buen candidato para Invisalign® o si otra alternativa se adapta mejor a tu caso.`,
     relatedPosts: [
       { title: 'Carillas vs coronas dentales: ¿cuál necesitas?', slug: 'carillas-vs-coronas-dentales-diferencias', category: 'odontologia-estetica' },
       { title: 'Bruxismo: el estrés daña tus dientes', slug: 'bruxismo-estres-dientes', category: 'salud-dental' },

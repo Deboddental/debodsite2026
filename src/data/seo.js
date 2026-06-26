@@ -1,5 +1,7 @@
 // ── SEO / JSON-LD Factory Functions ─────────────────────────
 
+import { teamMembers } from './team.js'
+
 const BASE_URL = 'https://deboddentalclinic.com'
 const CLINIC_ID = `${BASE_URL}/#clinic`
 // Freshness signal for AI/search. Bump on meaningful content updates.
@@ -120,32 +122,49 @@ export function barrioPageSchema(barrio) {
   }
 }
 
+// Resolve the medical author/reviewer of a post (E-E-A-T for YMYL health content).
+const DEFAULT_AUTHOR_SLUG = 'dr-cesar-rodriguez'
+export function postAuthor(post) {
+  return (
+    teamMembers.find((m) => m.slug === post?.authorSlug) ||
+    teamMembers.find((m) => m.slug === DEFAULT_AUTHOR_SLUG) ||
+    teamMembers[0]
+  )
+}
+
 export function blogPostSchema(post) {
+  const doc = postAuthor(post)
+  const personNode = {
+    '@type': 'Person',
+    name: doc.name,
+    url: `${BASE_URL}/equipo/${doc.slug}/`,
+    jobTitle: doc.title,
+    worksFor: { '@id': CLINIC_ID },
+    ...(doc.colegiadoNum
+      ? { identifier: { '@type': 'PropertyValue', propertyID: 'Nº Colegiado (COEM)', value: doc.colegiadoNum } }
+      : {}),
+  }
+  const url = `${BASE_URL}/blog/${post.category}/${post.slug}/`
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
-        '@type': 'Article',
-        '@id': `${BASE_URL}/blog/${post.category}/${post.slug}/`,
+        '@type': 'BlogPosting',
+        '@id': url,
+        mainEntityOfPage: url,
         headline: post.title,
         description: post.metaDescription,
-        image: post.heroImageUrl,
-        url: `${BASE_URL}/blog/${post.category}/${post.slug}/`,
+        image: post.heroImageUrl ? `${BASE_URL}${post.heroImageUrl}` : `${BASE_URL}/og-image.jpg`,
+        url,
         datePublished: post.publishDate,
-        dateModified: post.publishDate,
-        author: {
-          '@type': 'Organization',
-          name: 'Debod Dental Clinic',
-          url: BASE_URL,
-        },
+        dateModified: post.dateModified || post.publishDate,
+        author: personNode,
+        reviewedBy: personNode,
         publisher: {
           '@type': 'Organization',
           '@id': CLINIC_ID,
           name: 'Debod Dental Clinic',
-          logo: {
-            '@type': 'ImageObject',
-            url: `${BASE_URL}/logo.png`,
-          },
+          logo: { '@type': 'ImageObject', url: `${BASE_URL}/logo.png` },
         },
         inLanguage: 'es-ES',
         isPartOf: { '@id': `${BASE_URL}/blog/` },
@@ -153,7 +172,7 @@ export function blogPostSchema(post) {
       breadcrumbSchema([
         { label: 'Inicio', href: '/' },
         { label: 'Blog', href: '/blog/' },
-        { label: post.categoryLabel || post.category, href: `/blog/` },
+        { label: post.categoryLabel || post.category, href: '/blog/' },
         { label: post.title, href: null },
       ]),
     ],
