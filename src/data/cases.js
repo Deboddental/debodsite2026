@@ -4,6 +4,30 @@
 
 export const beforeAfterCases = [
   {
+    slug: 'adoracion',
+    patient: 'Adoración',
+    treatment: 'Rehabilitación con Implantes',
+    detail: 'Implantología · Boca completa',
+    before: '/Images/antes despues/adoracion-antes.webp',
+    after: '/Images/antes despues/adoracion-despues.webp',
+  },
+  {
+    slug: 'alargamiento',
+    patient: 'Caso de Estética',
+    treatment: 'Alargamiento Coronario',
+    detail: 'Diseño de Sonrisa · Cirugía Gingival',
+    before: '/Images/antes despues/alargamiento-antes.webp',
+    after: '/Images/antes despues/alargamiento-despues.webp',
+  },
+  {
+    slug: 'injerto-encia',
+    patient: 'Caso de Periodoncia',
+    treatment: 'Injerto de Encía',
+    detail: 'Cirugía Gingival · Recesión gingival',
+    before: '/Images/antes despues/injerto-encia-antes.webp',
+    after: '/Images/antes despues/injerto-encia-despues.webp',
+  },
+  {
     slug: 'felix',
     patient: 'Félix',
     treatment: 'Diseño de Sonrisa',

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+/* Fonts are loaded via <link rel="stylesheet"> in index.html (early-discovered,
+   non-render-blocking like a CSS @import would be). See index.html <head>. */
 
 @tailwind base;
 @tailwind components;
