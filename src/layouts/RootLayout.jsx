@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppWidget from '@/components/WhatsAppWidget'
 import ConsentBanner from '@/components/ConsentBanner'
+import { Analytics } from '@vercel/analytics/react'
 import { captureTrackingData } from '@/utils/tracking'
 
 function TrackingInit() {
@@ -28,6 +29,7 @@ export default function RootLayout() {
       <Footer />
       <WhatsAppWidget />
       <ConsentBanner />
+      <Analytics />
     </>
   )
 }
