@@ -29,7 +29,7 @@ export default function DoctorProfile() {
         <meta property="og:title" content={`${doctor.name} — ${doctor.title}`} />
         <meta property="og:url" content={canonical} />
         <meta property="og:type" content="profile" />
-        {doctor.photoUrl && <meta property="og:image" content={doctor.photoUrl} />}
+        {doctor.photoUrl && <meta property="og:image" content={doctor.photoUrl.startsWith('http') ? doctor.photoUrl : `${BASE_URL}${doctor.photoUrl}`} />}
       </Helmet>
 
       <JsonLd schema={doctorProfileSchema(doctor)} />

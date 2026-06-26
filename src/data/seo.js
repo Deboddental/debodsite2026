@@ -217,7 +217,7 @@ export function doctorProfileSchema(doctor) {
         name: doctor.name,
         jobTitle: doctor.title,
         url: `${BASE_URL}/equipo/${doctor.slug}/`,
-        image: doctor.photoUrl,
+        image: doctor.photoUrl?.startsWith('http') ? doctor.photoUrl : `${BASE_URL}${doctor.photoUrl}`,
         ...(doctor.colegiadoNum ? { identifier: `Colegiado Nº ${doctor.colegiadoNum}` } : {}),
         worksFor: { '@id': CLINIC_ID },
         knowsAbout: doctor.specialties || [],

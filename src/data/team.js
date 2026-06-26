@@ -1,6 +1,7 @@
 // ── Team / Doctor Profiles ───────────────────────────────────
 // Source: site-extraction/pages-markdown/ (files 030, 033–035, 038)
-// Unsplash images replace outdated WordPress originals
+// Fotos REALES del equipo (jun 2026) en /public/Images/Equipo/*.webp
+// (generadas desde "FOTOS EQUIPO DEBOD" con scripts/convert-team-photos.mjs).
 
 export const teamMembers = [
   {
@@ -8,7 +9,7 @@ export const teamMembers = [
     name: 'Dr. Víctor Guerrero',
     title: 'Ortodoncia · Ortopedia Dentofacial',
     colegiadoNum: '28013382',
-    photoUrl: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=85&auto=format&fit=crop&crop=faces',
+    photoUrl: '/Images/Equipo/dr-victor-guerrero.webp',
     tags: ['Invisalign® Expert', 'Anclaje Esquelético', '+15 años exp.', 'Ponente Internacional'],
     bioMarkdown: `El Dr. Víctor Guerrero es un destacado especialista en ortodoncia y ortopedia dentofacial, reconocido por sus contribuciones a los campos de la ortodoncia invisible y el anclaje esquelético.
 
@@ -41,7 +42,7 @@ Colabora en programas de máster en ortodoncia en diversas instituciones de pres
     name: 'Dr. César Rodríguez',
     title: 'Prostodoncia · Rehabilitación Oral',
     colegiadoNum: '28015194',
-    photoUrl: 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&q=85&auto=format&fit=crop&crop=faces',
+    photoUrl: '/Images/Equipo/dr-cesar-rodriguez.webp',
     tags: ['UCM Madrid', 'Rehabilitación Oral', 'Docente UCM', 'Prostodoncista'],
     bioMarkdown: `El Dr. César Rodríguez es un distinguido prostodoncista con una **Maestría en Prótesis Facial y Oclusión** de la **Universidad Complutense de Madrid**.
 
@@ -66,7 +67,7 @@ Su dedicación a la excelencia en la prostodoncia y la educación resalta su com
     name: 'Dra. Irene de los Mozos',
     title: 'Endodoncia',
     colegiadoNum: '28011327',
-    photoUrl: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=85&auto=format&fit=crop&crop=faces',
+    photoUrl: '/Images/Equipo/dra-irene-de-los-mozos.webp',
     tags: ['Endodoncia', 'Microscopía Operatoria', 'Cirugía Apical'],
     bioMarkdown: `La Dra. Irene de los Mozos es especialista en **Endodoncia**, la disciplina dental dedicada al tratamiento de la pulpa dental y los tejidos periapicales.
 
@@ -90,7 +91,7 @@ La Dra. de los Mozos practica la **endodoncia mínimamente invasiva**: conservar
     name: 'Dra. Mercedes López',
     title: 'Periodoncia e Implantes',
     colegiadoNum: '28008795',
-    photoUrl: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600&q=85&auto=format&fit=crop&crop=faces',
+    photoUrl: '/Images/Equipo/dra-mercedes-lopez.webp',
     tags: ['Periodoncia', 'Implantología', 'Cirugía Plástica Periodontal'],
     bioMarkdown: `La Dra. Mercedes López es especialista en **Periodoncia e Implantología**, dos disciplinas profundamente interrelacionadas: una base periodontal sana es el prerequisito indispensable para cualquier implante de éxito.
 
@@ -117,7 +118,7 @@ Cree firmemente en que **el mantenimiento periodontal es tan importante como el 
     name: 'Javier Pimienta',
     title: 'Técnico en Prótesis Dental — Debod Dental Lab',
     colegiadoNum: null,
-    photoUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=85&auto=format&fit=crop&crop=faces',
+    photoUrl: '/Images/Equipo/javier-pimienta.webp',
     tags: ['Lab In-House', 'Cerámica Dental', 'CAD/CAM', 'Prótesis Digital'],
     bioMarkdown: `Javier Pimienta es el maestro cerámista y técnico en prótesis dental al frente del **Debod Dental Lab**, nuestro laboratorio dental in-house.
 
