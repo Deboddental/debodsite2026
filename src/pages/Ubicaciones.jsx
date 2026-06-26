@@ -14,7 +14,7 @@ const localBusinessSchema = {
   name: 'Debod Dental Clinic',
   description: 'Clínica dental integral en Argüelles, Madrid. Odontología honesta con especialistas de primer nivel.',
   url: BASE_URL,
-  telephone: '+34689104714',
+  telephone: '+34914476225',
   email: 'info@deboddentalclinic.com',
   address: {
     '@type': 'PostalAddress',
@@ -103,8 +103,8 @@ export default function Ubicaciones() {
                   <Phone size={22} className="text-gold flex-shrink-0 mt-0.5" />
                   <div>
                     <div className="font-outfit font-semibold text-charcoal">Teléfono</div>
-                    <a href="tel:+34689104714" className="font-jakarta text-slate-600 hover:text-gold transition-colors">
-                      +34 689 10 47 14
+                    <a href="tel:+34914476225" className="font-jakarta text-slate-600 hover:text-gold transition-colors">
+                      +34 914 47 62 25
                     </a>
                   </div>
                 </li>

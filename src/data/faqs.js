@@ -10,7 +10,7 @@ export const homeFaqs = [
   {
     question: '¿Dónde está Debod Dental Clinic?',
     answer:
-      'Estamos en C. de Ferraz, 24, en el barrio de Argüelles (Madrid, 28008), a pocos metros del Templo de Debod y con fácil acceso en metro (línea 3, Ventura Rodríguez). Puedes pedir cita en el +34 689 10 47 14.',
+      'Estamos en C. de Ferraz, 24, en el barrio de Argüelles (Madrid, 28008), a pocos metros del Templo de Debod y con fácil acceso en metro (línea 3, Ventura Rodríguez). Puedes pedir cita en el +34 914 47 62 25.',
   },
   {
     question: '¿Qué especialidades ofrece Debod Dental Clinic?',
@@ -45,7 +45,7 @@ export const homeFaqs = [
   {
     question: '¿Cómo pido cita?',
     answer:
-      'Puedes llamarnos o escribirnos por WhatsApp al +34 689 10 47 14, o rellenar el formulario de contacto de la web. Te confirmamos la cita y resolvemos cualquier duda antes de tu visita.',
+      'Puedes llamarnos al +34 914 47 62 25 o escribirnos por WhatsApp al +34 689 10 47 14, o rellenar el formulario de contacto de la web. Te confirmamos la cita y resolvemos cualquier duda antes de tu visita.',
   },
 ]
 

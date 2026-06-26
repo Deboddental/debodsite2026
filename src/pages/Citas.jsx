@@ -19,7 +19,7 @@ const channels = [
     title: 'Teléfono',
     desc: 'Llámanos en horario de clínica: L–V de 9:00 a 21:00.',
     action: 'Llamar ahora',
-    href: 'tel:+34689104714',
+    href: 'tel:+34914476225',
     color: 'bg-gold',
   },
   {

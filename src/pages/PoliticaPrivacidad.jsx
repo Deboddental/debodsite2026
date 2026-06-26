@@ -41,7 +41,7 @@ export default function PoliticaPrivacidad() {
               <li><strong>Razón social:</strong> Debod Dental Clinic S.L.</li>
               <li><strong>Dirección:</strong> C. de Ferraz, 24, Argüelles, 28008 Madrid</li>
               <li><strong>Email:</strong> info@deboddentalclinic.com</li>
-              <li><strong>Teléfono:</strong> +34 689 10 47 14</li>
+              <li><strong>Teléfono:</strong> +34 914 47 62 25</li>
             </ul>
           </section>
 

@@ -302,8 +302,8 @@ export default function Contacto() {
                     <div className="w-9 h-9 rounded-full bg-gold/10 border border-gold/20 flex items-center justify-center shrink-0">
                       <Phone size={15} className="text-gold" />
                     </div>
-                    <a href="tel:+34689104714" className="font-jakarta text-white/80 text-sm hover:text-gold transition-colors">
-                      +34 689 10 47 14
+                    <a href="tel:+34914476225" className="font-jakarta text-white/80 text-sm hover:text-gold transition-colors">
+                      +34 914 47 62 25
                     </a>
                   </div>
                   <div className="flex items-center gap-3.5">

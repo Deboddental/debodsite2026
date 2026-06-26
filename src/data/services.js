@@ -9,7 +9,7 @@ export const services = [
     subtitle: 'Odontología General',
     metaTitle: 'Dentista en Argüelles, Madrid — Debod Dental Clinic',
     metaDescription:
-      'Clínica dental de odontología general en Argüelles, Madrid. Revisiones, limpiezas, empastes y odontología preventiva de alta calidad. Pide cita: +34 689 10 47 14.',
+      'Clínica dental de odontología general en Argüelles, Madrid. Revisiones, limpiezas, empastes y odontología preventiva de alta calidad. Pide cita: +34 914 47 62 25.',
     heroImageUrl: '/Images/tratamientos/webp/rehabilitacion.webp',
     heroText:
       'En Debod Dental Clinic ofrecemos atención integral para tus necesidades generales de salud oral. Desde revisiones y limpiezas preventivas hasta empastes, detección precoz de caries y tratamiento de sensibilidad.',
