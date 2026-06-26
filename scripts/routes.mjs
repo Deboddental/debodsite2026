@@ -10,6 +10,7 @@ import { treatments } from '../src/data/treatments.js'
 import { blogPosts } from '../src/data/blog.js'
 import { teamMembers } from '../src/data/team.js'
 import { barrios } from '../src/data/barrios.js'
+import { enLandings } from '../src/data/enLandings.js'
 
 // Static, hand-maintained routes.
 export const staticRoutes = [
@@ -36,7 +37,8 @@ export function getDynamicRoutes() {
   const blogRoutes = blogPosts.map((p) => `/blog/${p.category}/${p.slug}/`)
   const teamRoutes = teamMembers.map((m) => `/equipo/${m.slug}/`)
   const barrioRoutes = barrios.map((b) => `/${b.slug}/`) // root-level (matches canonical)
-  return [...serviceRoutes, ...treatmentRoutes, ...blogRoutes, ...teamRoutes, ...barrioRoutes]
+  const enRoutes = enLandings.map((l) => `/en/${l.slug}/`)
+  return [...serviceRoutes, ...treatmentRoutes, ...blogRoutes, ...teamRoutes, ...barrioRoutes, ...enRoutes]
 }
 
 // Full route list (static + dynamic), de-duplicated.

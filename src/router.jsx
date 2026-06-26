@@ -20,6 +20,7 @@ import Resenas from './pages/Resenas'
 import BarrioPage from './pages/barrios/BarrioPage'
 import Tecnologia from './pages/Tecnologia'
 import AntesDespues from './pages/AntesDespues'
+import EnLandingPage from './pages/en/EnLandingPage'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -39,6 +40,9 @@ export const router = createBrowserRouter(
       {/* Tech + before/after */}
       <Route path="tecnologia/" element={<Tecnologia />} />
       <Route path="antes-despues/" element={<AntesDespues />} />
+
+      {/* English landings (dental tourism / expats) */}
+      <Route path="en/:enSlug/" element={<EnLandingPage />} />
 
       {/* Locations */}
       <Route path="ubicaciones/" element={<Ubicaciones />} />

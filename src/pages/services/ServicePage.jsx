@@ -32,6 +32,9 @@ export default function ServicePage() {
         <title>{service.metaTitle}</title>
         <meta name="description" content={service.metaDescription} />
         <link rel="canonical" href={canonical} />
+        {service.enAlternate && <link rel="alternate" hrefLang="es" href={canonical} />}
+        {service.enAlternate && <link rel="alternate" hrefLang="en" href={`${BASE_URL}${service.enAlternate}`} />}
+        {service.enAlternate && <link rel="alternate" hrefLang="x-default" href={canonical} />}
         <meta property="og:title" content={service.metaTitle} />
         <meta property="og:description" content={service.metaDescription} />
         <meta property="og:url" content={canonical} />

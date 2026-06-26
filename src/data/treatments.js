@@ -216,6 +216,7 @@ Tras el injerto, el nuevo hueso tarda entre **4 y 6 meses** en consolidarse ante
   // ── Estética ──────────────────────────────────────────────
   {
     slug: 'carillas-de-porcelana-arguelles-madrid-espana',
+    enAlternate: '/en/veneers-smile-design-madrid/',
     title: 'Carillas de Porcelana en Argüelles, Madrid',
     subtitle: 'TRATAMIENTOS',
     specialty: 'dentista-cosmetico-arguelles-madrid-espana',

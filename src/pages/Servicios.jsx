@@ -18,6 +18,9 @@ export default function Servicios() {
           content="Clínica dental integral en Argüelles, Madrid. Ortodoncia, implantes, endodoncia, periodoncia, odontopediatría, estética dental y cirugía oral. Equipo de especialistas."
         />
         <link rel="canonical" href={`${BASE_URL}/servicios/`} />
+        <link rel="alternate" hrefLang="es" href={`${BASE_URL}/servicios/`} />
+        <link rel="alternate" hrefLang="en" href={`${BASE_URL}/en/english-speaking-dentist-madrid/`} />
+        <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}/servicios/`} />
         <meta property="og:title" content="Servicios Dentales — Debod Dental Clinic" />
         <meta property="og:url" content={`${BASE_URL}/servicios/`} />
       </Helmet>

@@ -97,6 +97,7 @@ Creemos en la **odontología honesta y mínimamente invasiva**: conservamos la m
   },
   {
     slug: 'dentista-de-implantes-arguelles-madrid-espana',
+    enAlternate: '/en/dental-implants-madrid/',
     title: 'Dentista de Implantes en Argüelles, Madrid',
     subtitle: 'Implantología Dental',
     metaTitle: 'Implantes Dentales en Argüelles, Madrid — Debod Dental Clinic',

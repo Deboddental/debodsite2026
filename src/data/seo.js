@@ -122,6 +122,34 @@ export function barrioPageSchema(barrio) {
   }
 }
 
+// English landing page (dental tourism / expats). inLanguage en, references the
+// same clinic entity. Breadcrumb labels in English.
+export function enLandingSchema(landing) {
+  const url = `${BASE_URL}/en/${landing.slug}/`
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'MedicalWebPage',
+        '@id': url,
+        url,
+        name: landing.metaTitle,
+        description: landing.metaDescription,
+        inLanguage: 'en',
+        dateModified: LAST_UPDATED,
+        about: { '@id': CLINIC_ID },
+        mainEntity: { '@id': CLINIC_ID },
+        isPartOf: { '@id': `${BASE_URL}/#website` },
+        areaServed: { '@type': 'City', name: 'Madrid' },
+      },
+      breadcrumbSchema([
+        { label: 'Home', href: '/' },
+        { label: landing.title, href: null },
+      ]),
+    ],
+  }
+}
+
 // Resolve the medical author/reviewer of a post (E-E-A-T for YMYL health content).
 const DEFAULT_AUTHOR_SLUG = 'dr-cesar-rodriguez'
 export function postAuthor(post) {

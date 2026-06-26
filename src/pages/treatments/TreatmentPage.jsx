@@ -33,6 +33,9 @@ export default function TreatmentPage() {
         <title>{treatment.metaTitle}</title>
         <meta name="description" content={treatment.metaDescription} />
         <link rel="canonical" href={canonical} />
+        {treatment.enAlternate && <link rel="alternate" hrefLang="es" href={canonical} />}
+        {treatment.enAlternate && <link rel="alternate" hrefLang="en" href={`${BASE_URL}${treatment.enAlternate}`} />}
+        {treatment.enAlternate && <link rel="alternate" hrefLang="x-default" href={canonical} />}
         <meta property="og:title" content={treatment.metaTitle} />
         <meta property="og:description" content={treatment.metaDescription} />
         <meta property="og:url" content={canonical} />
