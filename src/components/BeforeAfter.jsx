@@ -3,19 +3,9 @@ import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ArrowLeftRight } from 'lucide-react'
+import { beforeAfterCases as cases } from '../data/cases'
 
 gsap.registerPlugin(ScrollTrigger)
-
-const cases = [
-  {
-    id: 1,
-    patient: 'Kleiber B.',
-    treatment: 'Rehabilitación Oral Completa',
-    detail: 'Carillas de Porcelana · Diseño de Sonrisa Digital',
-    before: '/Images/antes despues/Antes Debod Kleider.jpg',
-    after: '/Images/antes despues/Después Debod Kleider.jpg',
-  },
-]
 
 function Slider({ before, after }) {
   const containerRef = useRef(null)
@@ -146,7 +136,8 @@ export default function BeforeAfter() {
     return () => ctx.revert()
   }, [])
 
-  const c = cases[0]
+  const [active, setActive] = useState(0)
+  const c = cases[active]
 
   return (
     <section
@@ -174,7 +165,7 @@ export default function BeforeAfter() {
 
         {/* Slider */}
         <div ref={sliderRef}>
-          <Slider before={c.before} after={c.after} />
+          <Slider key={c.slug} before={c.before} after={c.after} />
         </div>
 
         {/* Case info */}
@@ -195,6 +186,33 @@ export default function BeforeAfter() {
             Quiero mi transformación →
           </Link>
         </div>
+
+        {/* Case selector — thumbnails of each result */}
+        {cases.length > 1 && (
+          <div className="mt-10 flex flex-wrap justify-center gap-3" role="tablist" aria-label="Más casos clínicos">
+            {cases.map((item, i) => (
+              <button
+                key={item.slug}
+                type="button"
+                role="tab"
+                aria-selected={i === active}
+                aria-label={`Ver caso de ${item.patient}`}
+                onClick={() => setActive(i)}
+                className={`relative w-16 h-16 rounded-2xl overflow-hidden border-2 transition-all duration-300 ${
+                  i === active ? 'border-gold scale-105 shadow-lg shadow-black/10' : 'border-transparent opacity-60 hover:opacity-100'
+                }`}
+              >
+                <img
+                  src={item.after}
+                  alt=""
+                  aria-hidden="true"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+              </button>
+            ))}
+          </div>
+        )}
 
       </div>
     </section>
