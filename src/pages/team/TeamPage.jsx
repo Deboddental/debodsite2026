@@ -42,43 +42,59 @@ export default function TeamPage() {
       <section className="py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {teamMembers.map((member) => (
-              <Link
-                key={member.slug}
-                to={`/equipo/${member.slug}/`}
-                className="group bg-white rounded-3xl overflow-hidden border border-slate-100 hover:border-gold hover:shadow-xl transition-all duration-300"
-              >
-                <div className="h-72 overflow-hidden bg-slate-100">
-                  <img
-                    src={member.photoUrl}
-                    alt={member.name}
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-6">
-                  <h2 className="font-outfit font-semibold text-charcoal text-xl mb-1 group-hover:text-gold transition-colors duration-200">
-                    {member.name}
-                  </h2>
-                  <p className="font-jakarta text-slate-500 text-sm mb-4">
-                    {member.title}
-                  </p>
-                  <div className="flex flex-wrap gap-1 mb-5">
-                    {member.tags.slice(0, 3).map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-2.5 py-1 bg-gold/10 text-gold text-xs font-outfit font-medium rounded-full"
-                      >
-                        {tag}
-                      </span>
-                    ))}
+            {teamMembers.map((member) => {
+              const inner = (
+                <>
+                  <div className="h-72 overflow-hidden bg-slate-100">
+                    <img
+                      src={member.photoUrl}
+                      alt={member.name}
+                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
                   </div>
-                  <span className="inline-flex items-center gap-1 text-gold text-sm font-medium group-hover:gap-2 transition-all duration-200">
-                    Ver perfil <ArrowRight size={14} />
-                  </span>
+                  <div className="p-6">
+                    <h2 className="font-outfit font-semibold text-charcoal text-xl mb-1 group-hover:text-gold transition-colors duration-200">
+                      {member.name}
+                    </h2>
+                    <p className="font-jakarta text-slate-500 text-sm mb-4">
+                      {member.title}
+                    </p>
+                    <div className="flex flex-wrap gap-1 mb-5">
+                      {member.tags.slice(0, 3).map((tag) => (
+                        <span
+                          key={tag}
+                          className="px-2.5 py-1 bg-gold/10 text-gold text-xs font-outfit font-medium rounded-full"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    {!member.noProfile && (
+                      <span className="inline-flex items-center gap-1 text-gold text-sm font-medium group-hover:gap-2 transition-all duration-200">
+                        Ver perfil <ArrowRight size={14} />
+                      </span>
+                    )}
+                  </div>
+                </>
+              )
+              return member.noProfile ? (
+                <div
+                  key={member.slug}
+                  className="group bg-white rounded-3xl overflow-hidden border border-slate-100 transition-all duration-300"
+                >
+                  {inner}
                 </div>
-              </Link>
-            ))}
+              ) : (
+                <Link
+                  key={member.slug}
+                  to={`/equipo/${member.slug}/`}
+                  className="group bg-white rounded-3xl overflow-hidden border border-slate-100 hover:border-gold hover:shadow-xl transition-all duration-300"
+                >
+                  {inner}
+                </Link>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -99,7 +115,7 @@ export default function TeamPage() {
             </p>
           </div>
 
-          {['Especialistas', 'Debod Dental Lab', 'Higiene y atención'].map((group) => {
+          {['Debod Dental Lab', 'Higiene y atención'].map((group) => {
             const people = supportTeam.filter((p) => p.group === group)
             if (people.length === 0) return null
             return (

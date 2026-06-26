@@ -114,6 +114,18 @@ Cree firmemente en que **el mantenimiento periodontal es tan importante como el 
     schemaType: 'Physician',
   },
   {
+    slug: 'dra-ana-molina',
+    name: 'Dra. Ana Molina',
+    title: 'Periodoncia y Cirugía',
+    colegiadoNum: null,
+    photoUrl: '/Images/Equipo/dra-ana-molina.webp',
+    tags: ['Periodoncia', 'Cirugía Oral', 'Implantología'],
+    bioMarkdown: null,
+    specialties: ['Periodoncia', 'Cirugía Oral', 'Implantología'],
+    schemaType: 'Physician',
+    noProfile: true,
+  },
+  {
     slug: 'javier-pimienta',
     name: 'Javier Pimienta',
     title: 'Técnico en Prótesis Dental — Debod Dental Lab',
@@ -150,7 +162,6 @@ El laboratorio in-house de Debod Dental Clinic, bajo la dirección de Javier, ga
 // recepción) que se muestra en /equipo/ como grid de confianza (foto+nombre+rol).
 // Fotos reales en /public/Images/Equipo/*.webp.
 export const supportTeam = [
-  { name: 'Dra. Ana Molina', role: 'Periodoncia y Cirugía', group: 'Especialistas', photoUrl: '/Images/Equipo/dra-ana-molina.webp' },
   { name: 'Vladimir Jejina', role: 'Ceramista · CAD/CAM', group: 'Debod Dental Lab', photoUrl: '/Images/Equipo/vladimir-jejina.webp' },
   { name: 'Jazmín Dasilva', role: 'Ceramista', group: 'Debod Dental Lab', photoUrl: '/Images/Equipo/jazmin-dasilva.webp' },
   { name: 'Luciana Sequera', role: 'Logística de Laboratorio', group: 'Debod Dental Lab', photoUrl: '/Images/Equipo/luciana-sequera.webp' },
