@@ -76,6 +76,18 @@ const inputBase =
 
 const labelBase = 'block font-jakarta text-white/60 text-xs font-semibold uppercase tracking-wider mb-2'
 
+function validateForm(formData) {
+  const errors = {}
+  if (!formData.firstName.trim()) errors.firstName = 'Introduce tu nombre.'
+  if (!formData.lastName.trim())  errors.lastName  = 'Introduce tu apellido.'
+  const email = formData.email.trim()
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
+    errors.email = 'Introduce un email válido.'
+  const digits = formData.telefono.replace(/\D/g, '')
+  if (digits.length < 6) errors.telefono = 'Introduce un teléfono válido.'
+  return errors
+}
+
 export default function Contacto() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -95,10 +107,18 @@ export default function Contacto() {
   function handleChange(e) {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
+    if (error) setError('')
   }
 
   async function handleSubmit(e) {
     e.preventDefault()
+
+    const validationErrors = validateForm(formData)
+    if (Object.keys(validationErrors).length > 0) {
+      setError('Revisa los campos marcados antes de enviar.')
+      return
+    }
+
     setLoading(true)
     setError('')
 
@@ -156,8 +176,9 @@ export default function Contacto() {
       })
     }
 
-    // POST /api/lead — graceful fallback si no existe aún
+    // POST /api/lead — solo mostramos éxito si la solicitud realmente funcionó
     let waUrl = buildWhatsAppUrl(formData, normalizedPhone)
+    let ok = false
     try {
       const res = await fetch('/api/lead', {
         method: 'POST',
@@ -180,14 +201,21 @@ export default function Contacto() {
         }),
       })
       if (res.ok) {
+        ok = true
         const data = await res.json().catch(() => ({}))
         if (data.whatsappUrl) waUrl = data.whatsappUrl
       }
     } catch {
-      // backend no disponible aún — fallback a WhatsApp directo
+      ok = false
     }
 
     setLoading(false)
+
+    if (!ok) {
+      setError('No pudimos enviar tu solicitud. Inténtalo de nuevo o escríbenos por WhatsApp.')
+      return
+    }
+
     setSubmitted(true)
     setTimeout(() => { window.open(waUrl, '_blank') }, 700)
   }
