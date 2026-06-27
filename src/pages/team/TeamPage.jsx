@@ -125,7 +125,7 @@ export default function TeamPage() {
                 <h3 className="font-outfit font-semibold text-charcoal/70 text-sm uppercase tracking-wider mb-5 text-center">
                   {group}
                 </h3>
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-center">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
                   {people.map((p) => (
                     <div
                       key={p.name}
