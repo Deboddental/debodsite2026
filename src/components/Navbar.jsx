@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { Link } from 'react-router-dom'
 import { Menu, X, ChevronDown, Phone } from 'lucide-react'
 import LanguageToggle from './LanguageToggle'
@@ -21,8 +22,6 @@ const SERVICES = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [servicesOpen, setServicesOpen] = useState(false)
-  const [tourismOpen, setTourismOpen] = useState(false)
   const navRef = useRef(null)
   const locale = useLocale()
 
@@ -104,69 +103,36 @@ export default function Navbar() {
             {t('nav.about', locale)}
           </Link>
 
-          {/* Services dropdown */}
-          <div
-            className="relative"
-            onMouseEnter={() => setServicesOpen(true)}
-            onMouseLeave={() => setServicesOpen(false)}
-          >
-            <button
-              className={`flex items-center gap-1 transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
-            >
-              {t('nav.services', locale)} <ChevronDown size={14} className={`transition-transform duration-300 ${servicesOpen ? 'rotate-180' : ''}`} />
-            </button>
-
-            {/* Dropdown — transparent pt-2 bridge closes the hover gap between trigger and menu */}
-            <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 w-56 transition-all duration-300 origin-top
-              ${servicesOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}>
-              <div className="rounded-3xl bg-white/80 backdrop-blur-2xl border border-white/60 shadow-2xl shadow-black/15 overflow-hidden">
-                <div className="p-2">
-                  {SERVICES.map((s) => (
-                    <Link
-                      key={s.slug}
-                      to={serviceHref(s.slug)}
-                      className="block px-4 py-2.5 rounded-2xl text-charcoal text-sm font-jakarta font-medium hover:bg-gold/10 hover:text-gold transition-all duration-200"
-                      onClick={() => setServicesOpen(false)}
-                    >
-                      {serviceLabel(s)}
-                    </Link>
-                  ))}
-                </div>
-              </div>
+          {/* Services dropdown (portaled — see NavDropdown) */}
+          <NavDropdown label={t('nav.services', locale)} scrolled={scrolled} width="w-56">
+            <div className="p-2">
+              {SERVICES.map((s) => (
+                <Link
+                  key={s.slug}
+                  to={serviceHref(s.slug)}
+                  className="block px-4 py-2.5 rounded-2xl text-charcoal text-sm font-jakarta font-medium hover:bg-gold/10 hover:text-gold transition-all duration-200"
+                >
+                  {serviceLabel(s)}
+                </Link>
+              ))}
             </div>
-          </div>
+          </NavDropdown>
 
           {/* Dental Tourism dropdown — EN landings for international patients */}
-          <div
-            className="relative"
-            onMouseEnter={() => setTourismOpen(true)}
-            onMouseLeave={() => setTourismOpen(false)}
-          >
-            <button
-              className={`flex items-center gap-1 transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
-            >
-              {t('nav.tourism', locale)} <ChevronDown size={14} className={`transition-transform duration-300 ${tourismOpen ? 'rotate-180' : ''}`} />
-            </button>
-
-            <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 w-72 transition-all duration-300 origin-top
-              ${tourismOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}>
-              <div className="rounded-3xl bg-white/80 backdrop-blur-2xl border border-white/60 shadow-2xl shadow-black/15 overflow-hidden">
-                <div className="p-2">
-                  {tourismLandings.map((l) => (
-                    <Link
-                      key={l.slug}
-                      to={`/en/${l.slug}/`}
-                      className="block px-4 py-2.5 rounded-2xl hover:bg-gold/10 transition-all duration-200 group"
-                      onClick={() => setTourismOpen(false)}
-                    >
-                      <span className="block text-charcoal text-sm font-jakarta font-medium group-hover:text-gold transition-colors duration-200">{l.navLabel}</span>
-                      <span className="block text-charcoal/50 text-xs font-jakarta">{l.navDesc}</span>
-                    </Link>
-                  ))}
-                </div>
-              </div>
+          <NavDropdown label={t('nav.tourism', locale)} scrolled={scrolled} width="w-72">
+            <div className="p-2">
+              {tourismLandings.map((l) => (
+                <Link
+                  key={l.slug}
+                  to={`/en/${l.slug}/`}
+                  className="block px-4 py-2.5 rounded-2xl hover:bg-gold/10 transition-all duration-200 group"
+                >
+                  <span className="block text-charcoal text-sm font-jakarta font-medium group-hover:text-gold transition-colors duration-200">{l.navLabel}</span>
+                  <span className="block text-charcoal/50 text-xs font-jakarta">{l.navDesc}</span>
+                </Link>
+              ))}
             </div>
-          </div>
+          </NavDropdown>
 
           <Link
             to={lp('/resenas/')}
@@ -246,5 +212,57 @@ export default function Navbar() {
         </div>
       </div>
     </>
+  )
+}
+
+// Hover dropdown whose panel is portaled to <body>. The navbar is centered with a
+// CSS transform and (when scrolled) carries its own backdrop-blur; both of those
+// neutralise a descendant's backdrop-filter, so a panel nested inside the <nav>
+// can never frost the page. Rendering the panel to <body> escapes those contexts,
+// so its blur samples the real page content. Position is taken from the trigger.
+function NavDropdown({ label, scrolled, width, children }) {
+  const [open, setOpen] = useState(false)
+  const [pos, setPos] = useState({ top: 0, left: 0 })
+  const triggerRef = useRef(null)
+  const timer = useRef(null)
+
+  const place = () => {
+    const r = triggerRef.current?.getBoundingClientRect()
+    if (r) setPos({ top: r.bottom, left: r.left + r.width / 2 })
+  }
+  const openNow = () => { clearTimeout(timer.current); place(); setOpen(true) }
+  const closeSoon = () => { clearTimeout(timer.current); timer.current = setTimeout(() => setOpen(false), 140) }
+  useEffect(() => () => clearTimeout(timer.current), [])
+
+  return (
+    <div ref={triggerRef} className="relative" onMouseEnter={openNow} onMouseLeave={closeSoon}>
+      <button
+        className={`flex items-center gap-1 transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
+      >
+        {label} <ChevronDown size={14} className={`transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
+      </button>
+
+      {typeof document !== 'undefined' && createPortal(
+        <div
+          style={{
+            position: 'fixed',
+            top: pos.top,
+            left: pos.left,
+            transform: `translateX(-50%) scale(${open ? 1 : 0.97})`,
+            transformOrigin: 'top center',
+          }}
+          className={`z-[60] ${width} pt-2 transition-all duration-300
+            ${open ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+          onMouseEnter={openNow}
+          onMouseLeave={closeSoon}
+          onClick={() => setOpen(false)}
+        >
+          <div className="rounded-3xl bg-white/80 backdrop-blur-2xl border border-white/60 shadow-2xl shadow-black/15 overflow-hidden">
+            {children}
+          </div>
+        </div>,
+        document.body
+      )}
+    </div>
   )
 }
