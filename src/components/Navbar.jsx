@@ -89,6 +89,13 @@ export default function Navbar() {
         {/* Desktop Links (full bar at lg+; md/tablet collapses to the hamburger to avoid crowding) */}
         <div className="hidden lg:flex items-center gap-6 font-jakarta text-sm font-medium">
           <Link
+            to={lp('/')}
+            className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
+          >
+            {t('nav.home', locale)}
+          </Link>
+
+          <Link
             to={lp('/nosotros/')}
             className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
           >
@@ -177,6 +184,7 @@ export default function Navbar() {
       <div className={`fixed inset-x-4 top-20 z-40 rounded-4xl glass shadow-2xl shadow-black/20 overflow-hidden transition-all duration-500 lg:hidden
         ${mobileOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-4 pointer-events-none'}`}>
         <div className="p-6 flex flex-col gap-4 font-outfit">
+          <Link to={lp('/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.home', locale)}</Link>
           <Link to={lp('/nosotros/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.about', locale)}</Link>
           <Link to={lp('/equipo/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.team', locale)}</Link>
           <div className="h-px bg-charcoal/10" />

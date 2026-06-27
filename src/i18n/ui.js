@@ -4,6 +4,7 @@
 
 export const ui = {
   // Navbar
+  'nav.home': { es: 'Inicio', en: 'Home' },
   'nav.about': { es: 'Nosotros', en: 'About' },
   'nav.team': { es: 'Equipo', en: 'Team' },
   'nav.services': { es: 'Servicios', en: 'Services' },
