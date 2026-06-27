@@ -21,6 +21,7 @@ import BarrioPage from './pages/barrios/BarrioPage'
 import Tecnologia from './pages/Tecnologia'
 import AntesDespues from './pages/AntesDespues'
 import EnLandingPage from './pages/en/EnLandingPage'
+import DentalTourismPage from './pages/DentalTourismPage'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -77,7 +78,16 @@ export const router = createBrowserRouter(
         <Route path="blog/:category/:postSlug/" element={<BlogPost />} />
         <Route path="team/" element={<TeamPage />} />
         <Route path="team/:doctorSlug/" element={<DoctorProfile />} />
-        {/* curated dental-tourism landings — keep LAST so explicit paths win */}
+        {/* Dental tourism (international patients) — rich landings under /en/ */}
+        <Route path="dental-tourism-madrid/" element={<DentalTourismPage />} />
+        <Route path="dental-implants-madrid/" element={<DentalTourismPage />} />
+        <Route path="all-on-4-madrid/" element={<DentalTourismPage />} />
+        <Route path="all-on-6-madrid/" element={<DentalTourismPage />} />
+        <Route path="cosmetic-dentistry-madrid/" element={<DentalTourismPage />} />
+        <Route path="porcelain-veneers-madrid/" element={<DentalTourismPage />} />
+        <Route path="veneers-smile-design-madrid/" element={<DentalTourismPage />} />
+        <Route path="english-speaking-dentist-madrid/" element={<DentalTourismPage />} />
+        {/* curated EN landings catch-all — keep LAST so explicit paths win */}
         <Route path=":enSlug/" element={<EnLandingPage />} />
       </Route>
 

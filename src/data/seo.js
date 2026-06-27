@@ -165,6 +165,44 @@ export function enLandingSchema(landing) {
   }
 }
 
+// Dental-tourism landing (international patients). Rich page: MedicalWebPage +
+// breadcrumb (Home → Dental Tourism → title) + FAQPage when the page has FAQs.
+export function dentalTourismSchema(landing) {
+  const HUB = '/en/dental-tourism-madrid/'
+  const url = `${BASE_URL}/en/${landing.slug}/`
+  const crumbs = landing.isHub
+    ? [
+        { label: 'Home', href: '/en/' },
+        { label: 'Dental Tourism', href: null },
+      ]
+    : [
+        { label: 'Home', href: '/en/' },
+        { label: 'Dental Tourism', href: HUB },
+        { label: landing.title, href: null },
+      ]
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'MedicalWebPage',
+        '@id': url,
+        url,
+        name: landing.metaTitle,
+        description: landing.metaDescription,
+        inLanguage: 'en',
+        dateModified: LAST_UPDATED,
+        about: { '@id': CLINIC_ID },
+        mainEntity: { '@id': CLINIC_ID },
+        isPartOf: { '@id': `${BASE_URL}/#website` },
+        audience: { '@type': 'Audience', audienceType: 'International and English-speaking patients' },
+        areaServed: { '@type': 'City', name: 'Madrid' },
+      },
+      breadcrumbSchema(crumbs),
+      ...(landing.faqs?.length ? [faqSchema(landing.faqs)] : []),
+    ],
+  }
+}
+
 // English hub home (/en/) — the entry point for international/expat patients.
 // inLanguage en, references the same clinic entity; Spanish home is the x-default.
 export function enHomeSchema() {

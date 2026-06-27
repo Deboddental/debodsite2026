@@ -11,6 +11,7 @@ import { blogPosts } from '../src/data/blog.js'
 import { teamMembers } from '../src/data/team.js'
 import { barrios } from '../src/data/barrios.js'
 import { enLandings } from '../src/data/enLandings.js'
+import { tourismLandings } from '../src/data/dentalTourism.js'
 import { enRoutesFromSlugs } from '../src/i18n/slugs.js'
 
 // Static, hand-maintained routes.
@@ -40,7 +41,8 @@ export function getDynamicRoutes() {
   const teamRoutes = teamMembers.map((m) => `/equipo/${m.slug}/`)
   const barrioRoutes = barrios.map((b) => `/${b.slug}/`) // root-level (matches canonical)
   const enRoutes = enLandings.map((l) => `/en/${l.slug}/`)
-  return [...serviceRoutes, ...treatmentRoutes, ...blogRoutes, ...teamRoutes, ...barrioRoutes, ...enRoutes]
+  const tourismRoutes = tourismLandings.map((l) => `/en/${l.slug}/`)
+  return [...serviceRoutes, ...treatmentRoutes, ...blogRoutes, ...teamRoutes, ...barrioRoutes, ...enRoutes, ...tourismRoutes]
 }
 
 // Full route list (static ES + dynamic ES + full EN mirror), de-duplicated.

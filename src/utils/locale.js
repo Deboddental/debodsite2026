@@ -13,6 +13,7 @@
 
 import { pagePairs } from '../i18n/slugs'
 import { enLandings } from '../data/enLandings'
+import { tourismLandings } from '../data/dentalTourism'
 
 export const EN_HOME = '/en/'
 export const ES_HOME = '/'
@@ -26,9 +27,10 @@ for (const [es, en] of pagePairs()) {
   enToEs[en] = es
 }
 
-// Curated landings: reverse-only so the toggle works from the landing, but the
-// ES page keeps its own mirror as the hreflang counterpart (no double alternate).
-for (const l of enLandings) {
+// Curated landings + dental-tourism pages: reverse-only so the toggle works from
+// the EN landing, but the ES page keeps its own mirror as the hreflang
+// counterpart (no double alternate).
+for (const l of [...enLandings, ...tourismLandings]) {
   const enPath = `/en/${l.slug}/`
   if (l.esAlternate && !enToEs[enPath]) enToEs[enPath] = l.esAlternate
 }

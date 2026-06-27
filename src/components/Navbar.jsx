@@ -5,6 +5,7 @@ import LanguageToggle from './LanguageToggle'
 import { useLocale } from '../hooks/useLocale'
 import { t } from '../i18n/ui'
 import { serviceSlugEn, staticPairs } from '../i18n/slugs'
+import { tourismLandings } from '../data/dentalTourism'
 
 const SERVICES = [
   { es: 'Dentista General', en: 'General Dentistry', slug: 'dentista-general-arguelles-madrid-espana' },
@@ -21,6 +22,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [servicesOpen, setServicesOpen] = useState(false)
+  const [tourismOpen, setTourismOpen] = useState(false)
   const navRef = useRef(null)
   const locale = useLocale()
 
@@ -134,6 +136,38 @@ export default function Navbar() {
             </div>
           </div>
 
+          {/* Dental Tourism dropdown — EN landings for international patients */}
+          <div
+            className="relative"
+            onMouseEnter={() => setTourismOpen(true)}
+            onMouseLeave={() => setTourismOpen(false)}
+          >
+            <button
+              className={`flex items-center gap-1 transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
+            >
+              {t('nav.tourism', locale)} <ChevronDown size={14} className={`transition-transform duration-300 ${tourismOpen ? 'rotate-180' : ''}`} />
+            </button>
+
+            <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 w-72 transition-all duration-300 origin-top
+              ${tourismOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}>
+              <div className="rounded-3xl glass shadow-2xl shadow-black/15 overflow-hidden">
+                <div className="p-2">
+                  {tourismLandings.map((l) => (
+                    <Link
+                      key={l.slug}
+                      to={`/en/${l.slug}/`}
+                      className="block px-4 py-2.5 rounded-2xl hover:bg-gold/10 transition-all duration-200 group"
+                      onClick={() => setTourismOpen(false)}
+                    >
+                      <span className="block text-charcoal text-sm font-jakarta font-medium group-hover:text-gold transition-colors duration-200">{l.navLabel}</span>
+                      <span className="block text-charcoal/50 text-xs font-jakarta">{l.navDesc}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
           <Link
             to={lp('/resenas/')}
             className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
@@ -184,6 +218,13 @@ export default function Navbar() {
           {SERVICES.map((s) => (
             <Link key={s.slug} to={serviceHref(s.slug)} className="text-charcoal/80 text-sm font-medium hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>
               {serviceLabel(s)}
+            </Link>
+          ))}
+          <div className="h-px bg-charcoal/10" />
+          <p className="text-slate text-xs font-jakarta uppercase tracking-widest">{t('nav.tourism', locale)}</p>
+          {tourismLandings.map((l) => (
+            <Link key={l.slug} to={`/en/${l.slug}/`} className="text-charcoal/80 text-sm font-medium hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>
+              {l.navLabel}
             </Link>
           ))}
           <div className="h-px bg-charcoal/10" />
