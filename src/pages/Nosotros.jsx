@@ -1,9 +1,9 @@
 import { Helmet } from 'react-helmet-async'
-import { Link } from 'react-router-dom'
-import { Heart, Shield, Sparkles, Users, ArrowRight } from 'lucide-react'
+import { Heart, Shield, Sparkles, Users } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
 import CtaBand from '../components/ui/CtaBand'
+import TeamRoster from '../components/TeamRoster'
 import { ratingSummary } from '../data/reviews'
 import { useLocale } from '../hooks/useLocale'
 import { enPathFor } from '../i18n/slugs'
@@ -145,16 +145,16 @@ export default function Nosotros() {
         </div>
       </section>
 
-      {/* Link to the full team — the navbar merged "Equipo" into "Nosotros" */}
-      <section className="bg-white pb-16 px-4 text-center">
-        <Link
-          to={locale === 'en' ? enPathFor('/equipo/') : '/equipo/'}
-          className="inline-flex items-center gap-2 font-jakarta font-semibold text-sm text-charcoal border border-charcoal/20 px-6 py-3 rounded-full hover:bg-charcoal hover:text-white transition-all duration-300"
-        >
-          {locale === 'en' ? 'Meet our specialist team' : 'Conoce a nuestro equipo de especialistas'}
-          <ArrowRight size={16} />
-        </Link>
+      {/* Full team — moved here from the former Equipo page (merged into Nosotros) */}
+      <section className="bg-white pt-16 px-4 text-center">
+        <span className="font-jakarta text-xs text-gold font-semibold tracking-widest uppercase mb-3 block">
+          {locale === 'en' ? 'The team' : 'El equipo'}
+        </span>
+        <h2 className="font-outfit font-bold text-3xl md:text-4xl text-charcoal tracking-tight">
+          {locale === 'en' ? 'Specialists committed to your health' : 'Especialistas comprometidos con tu salud'}
+        </h2>
       </section>
+      <TeamRoster />
 
       <CtaBand
         headline={locale === 'en' ? 'Come and meet us, no obligation' : 'Ven a conocernos sin compromiso'}
