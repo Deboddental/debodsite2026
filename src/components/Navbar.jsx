@@ -85,6 +85,13 @@ export default function Navbar() {
             Nosotros
           </Link>
 
+          <Link
+            to="/equipo/"
+            className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
+          >
+            Equipo
+          </Link>
+
           {/* Services dropdown */}
           <div
             className="relative"
@@ -156,6 +163,7 @@ export default function Navbar() {
         ${mobileOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-4 pointer-events-none'}`}>
         <div className="p-6 flex flex-col gap-4 font-outfit">
           <Link to="/nosotros/" className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>Nosotros</Link>
+          <Link to="/equipo/" className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>Equipo</Link>
           <div className="h-px bg-charcoal/10" />
           <p className="text-slate text-xs font-jakarta uppercase tracking-widest">Servicios</p>
           {services.map((s) => (
