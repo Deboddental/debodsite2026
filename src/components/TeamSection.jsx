@@ -74,23 +74,25 @@ export default function TeamSection() {
               key={member.slug}
               ref={(el) => (cardsRef.current[i] = el)}
               to={locale === 'en' ? enPathFor(`/equipo/${member.slug}/`) : `/equipo/${member.slug}/`}
-              className="group bg-white rounded-4xl overflow-hidden border border-charcoal/5 hover:border-gold/40 hover:shadow-xl hover:shadow-black/6 transition-all duration-400"
+              className="group flex flex-col h-full bg-white rounded-4xl overflow-hidden border border-charcoal/5 hover:border-gold/40 hover:shadow-xl hover:shadow-black/6 transition-all duration-400"
             >
-              <div className="h-64 overflow-hidden bg-charcoal/5">
+              <div className="aspect-[4/5] overflow-hidden bg-charcoal/5">
                 <img
                   src={member.photoUrl}
                   alt={member.name}
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
+                  width="750"
+                  height="1000"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1">
                 <h3 className="font-outfit font-semibold text-charcoal text-xl mb-1 group-hover:text-gold transition-colors duration-200">
                   {member.name}
                 </h3>
                 <p className="font-jakarta text-slate text-sm mb-4">{tf(member, 'title', locale)}</p>
-                <div className="flex flex-wrap gap-1.5">
-                  {member.tags.slice(0, 3).map((tag) => (
+                <div className="flex flex-wrap gap-1.5 mt-auto">
+                  {(tf(member, 'tags', locale) || []).slice(0, 3).map((tag) => (
                     <span
                       key={tag}
                       className="px-2.5 py-1 bg-gold/10 text-gold text-xs font-jakarta font-semibold rounded-full"
