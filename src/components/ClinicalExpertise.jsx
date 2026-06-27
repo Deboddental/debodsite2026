@@ -2,10 +2,13 @@ import { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Sparkles, Cpu, CreditCard, CheckCircle2 } from 'lucide-react'
+import { useLocale } from '../hooks/useLocale'
+import { enPathFor } from '../i18n/slugs'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const SHUFFLER_LABELS = ['Carillas de Porcelana', 'Invisalign®', 'Blanqueamiento Láser']
+const SHUFFLER_LABELS_EN = ['Porcelain Veneers', 'Invisalign®', 'Laser Whitening']
 
 const TELEMETRY_LINES = [
   'Escaneado intraoral 3D completado...',
@@ -15,10 +18,19 @@ const TELEMETRY_LINES = [
   'Planificando implante virtual...',
   'Simulación de carillas lista.',
 ]
+const TELEMETRY_LINES_EN = [
+  '3D intraoral scan completed...',
+  'Designing digital smile...',
+  'Occlusal analysis in progress...',
+  '3D model generated successfully.',
+  'Planning virtual implant...',
+  'Veneer simulation ready.',
+]
 
 // ── Card 1: Diagnostic Shuffler ──────────────────────────────
 function DiagnosticShuffler() {
-  const [cards, setCards] = useState(SHUFFLER_LABELS)
+  const locale = useLocale()
+  const [cards, setCards] = useState(locale === 'en' ? SHUFFLER_LABELS_EN : SHUFFLER_LABELS)
   const containerRef = useRef(null)
 
   useEffect(() => {
@@ -59,12 +71,14 @@ function DiagnosticShuffler() {
 
 // ── Card 2: Telemetry Typewriter ─────────────────────────────
 function TelemetryTypewriter() {
+  const locale = useLocale()
+  const lines = locale === 'en' ? TELEMETRY_LINES_EN : TELEMETRY_LINES
   const [lineIndex, setLineIndex] = useState(0)
   const [displayed, setDisplayed] = useState('')
   const [charIdx, setCharIdx] = useState(0)
 
   useEffect(() => {
-    const target = TELEMETRY_LINES[lineIndex]
+    const target = lines[lineIndex]
     if (charIdx < target.length) {
       const t = setTimeout(() => {
         setDisplayed(target.slice(0, charIdx + 1))
@@ -73,7 +87,7 @@ function TelemetryTypewriter() {
       return () => clearTimeout(t)
     } else {
       const t = setTimeout(() => {
-        const next = (lineIndex + 1) % TELEMETRY_LINES.length
+        const next = (lineIndex + 1) % lines.length
         setLineIndex(next)
         setDisplayed('')
         setCharIdx(0)
@@ -96,7 +110,7 @@ function TelemetryTypewriter() {
       {/* Status bar */}
       <div className="flex items-center gap-2 mt-4 pt-4 border-t border-charcoal/8">
         <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 pulse-dot" />
-        <span className="font-jakarta text-xs text-slate font-medium tracking-wide">Lab in-house · Online</span>
+        <span className="font-jakarta text-xs text-slate font-medium tracking-wide">{locale === 'en' ? 'In-house lab · Online' : 'Lab in-house · Online'}</span>
         <div className="ml-auto flex gap-1">
           {[...Array(4)].map((_, i) => (
             <div key={i} className={`w-1.5 h-4 rounded-full ${i < 3 ? 'bg-gold' : 'bg-charcoal/15'}`} />
@@ -109,6 +123,7 @@ function TelemetryTypewriter() {
 
 // ── Card 3: Financing Progress ───────────────────────────────
 function FinancingProgress() {
+  const locale = useLocale()
   const [progress, setProgress] = useState(0)
   const barRef = useRef(null)
 
@@ -135,9 +150,9 @@ function FinancingProgress() {
       <div className="space-y-5 flex-1">
         <div>
           <div className="flex justify-between items-baseline mb-2.5">
-            <span className="font-jakarta text-sm text-slate font-medium">Financiación disponible</span>
+            <span className="font-jakarta text-sm text-slate font-medium">{locale === 'en' ? 'Financing available' : 'Financiación disponible'}</span>
             <span className="font-outfit font-bold text-2xl text-charcoal">
-              {months} <span className="text-gold text-base font-semibold">meses</span>
+              {months} <span className="text-gold text-base font-semibold">{locale === 'en' ? 'months' : 'meses'}</span>
             </span>
           </div>
 
@@ -154,11 +169,14 @@ function FinancingProgress() {
             />
           </div>
 
-          <p className="font-jakarta text-xs text-slate/70 mt-2">hasta 60 meses sin intereses</p>
+          <p className="font-jakarta text-xs text-slate/70 mt-2">{locale === 'en' ? 'up to 60 months interest-free' : 'hasta 60 meses sin intereses'}</p>
         </div>
 
         <div className="space-y-2.5">
-          {['0% interés hasta 12 meses', 'Aprobación en 24h', 'Sin entrada inicial'].map((item) => (
+          {(locale === 'en'
+            ? ['0% interest up to 12 months', 'Approval within 24h', 'No down payment']
+            : ['0% interés hasta 12 meses', 'Aprobación en 24h', 'Sin entrada inicial']
+          ).map((item) => (
             <div key={item} className="flex items-center gap-2.5">
               <CheckCircle2 size={15} className="text-gold shrink-0" />
               <span className="font-jakarta text-sm text-charcoal/80">{item}</span>
@@ -168,10 +186,10 @@ function FinancingProgress() {
       </div>
 
       <a
-        href="/financiacion/"
+        href={locale === 'en' ? enPathFor('/financiacion/') : '/financiacion/'}
         className="mt-4 block text-center font-jakarta text-xs font-semibold text-gold hover:underline"
       >
-        Ver condiciones →
+        {locale === 'en' ? 'View terms →' : 'Ver condiciones →'}
       </a>
     </div>
   )
@@ -182,30 +200,40 @@ const artifacts = [
   {
     icon: Sparkles,
     tag: 'Estética & Precisión',
+    tag_en: 'Aesthetics & Precision',
     title: 'Odontología\nEstética',
+    title_en: 'Cosmetic\nDentistry',
     desc: 'Carillas, Invisalign® y blanqueamiento láser diseñados con tecnología de última generación.',
+    desc_en: 'Veneers, Invisalign® and laser whitening designed with state-of-the-art technology.',
     component: DiagnosticShuffler,
     accent: '#D4AF37',
   },
   {
     icon: Cpu,
     tag: 'Debod Digital Lab',
+    tag_en: 'Debod Digital Lab',
     title: 'Lab\nIn-House',
+    title_en: 'In-House\nLab',
     desc: 'Nuestro laboratorio digital propio garantiza precisión milimétrica en cada restauración.',
+    desc_en: 'Our own digital laboratory guarantees millimetre precision in every restoration.',
     component: TelemetryTypewriter,
     accent: '#3B82F6',
   },
   {
     icon: CreditCard,
     tag: 'Financiación',
+    tag_en: 'Financing',
     title: 'Tu Sonrisa\nSin Esperas',
+    title_en: 'Your Smile\nWithout Waiting',
     desc: 'Financiación hasta 60 meses para que el presupuesto nunca sea un obstáculo.',
+    desc_en: 'Financing of up to 60 months so the quote is never an obstacle.',
     component: FinancingProgress,
     accent: '#10B981',
   },
 ]
 
 export default function ClinicalExpertise() {
+  const locale = useLocale()
   const sectionRef = useRef(null)
   const headRef = useRef(null)
   const cardsRef = useRef([])
@@ -249,19 +277,25 @@ export default function ClinicalExpertise() {
       id="servicios"
       ref={sectionRef}
       className="py-24 md:py-32 px-6 md:px-12 lg:px-20 bg-pearl"
-      aria-label="Especialidades clínicas de Debod Dental Clinic"
+      aria-label={locale === 'en' ? 'Clinical specialities at Debod Dental Clinic' : 'Especialidades clínicas de Debod Dental Clinic'}
     >
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div ref={headRef} className="max-w-2xl mb-16">
           <span className="font-jakarta text-xs text-gold font-semibold tracking-widest uppercase mb-3 block">
-            Odontología Mínimamente Invasiva
+            {locale === 'en' ? 'Minimally Invasive Dentistry' : 'Odontología Mínimamente Invasiva'}
           </span>
           <h2 className="font-outfit font-bold text-4xl md:text-5xl text-charcoal tracking-tight mb-5 leading-tight">
-            La tecnología que <em className="font-cormorant font-light italic text-gold not-italic">transforma</em> tu sonrisa
+            {locale === 'en' ? (
+              <>The technology that <em className="font-cormorant font-light italic text-gold not-italic">transforms</em> your smile</>
+            ) : (
+              <>La tecnología que <em className="font-cormorant font-light italic text-gold not-italic">transforma</em> tu sonrisa</>
+            )}
           </h2>
           <p className="font-jakarta text-slate text-lg leading-relaxed">
-            En Debod Dental Clinic, Argüelles, nuestro equipo de especialistas combina innovación digital de vanguardia con un trato cercano y odontología honesta.
+            {locale === 'en'
+              ? 'At Debod Dental Clinic, Argüelles, our team of specialists combines cutting-edge digital innovation with a personal approach and honest dentistry.'
+              : 'En Debod Dental Clinic, Argüelles, nuestro equipo de especialistas combina innovación digital de vanguardia con un trato cercano y odontología honesta.'}
           </p>
         </div>
 
@@ -284,16 +318,16 @@ export default function ClinicalExpertise() {
                       style={{ background: `${artifact.accent}15`, color: artifact.accent }}
                     >
                       <Icon size={12} />
-                      {artifact.tag}
+                      {locale === 'en' ? artifact.tag_en : artifact.tag}
                     </div>
                     <h3 className="font-outfit font-bold text-xl text-charcoal leading-tight whitespace-pre-line">
-                      {artifact.title}
+                      {locale === 'en' ? artifact.title_en : artifact.title}
                     </h3>
                   </div>
                 </div>
 
                 <p className="font-jakarta text-sm text-slate/90 leading-relaxed">
-                  {artifact.desc}
+                  {locale === 'en' ? artifact.desc_en : artifact.desc}
                 </p>
 
                 {/* Interactive Artifact */}

@@ -21,7 +21,6 @@ import BarrioPage from './pages/barrios/BarrioPage'
 import Tecnologia from './pages/Tecnologia'
 import AntesDespues from './pages/AntesDespues'
 import EnLandingPage from './pages/en/EnLandingPage'
-import EnHome from './pages/en/EnHome'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -45,7 +44,7 @@ export const router = createBrowserRouter(
       {/* ── English mirror — full bilingual /en/ tree (reuses the same components,
           which read locale from the route via useLocale) ───────────────────── */}
       <Route path="en">
-        <Route index element={<EnHome />} />
+        <Route index element={<Home />} />
         <Route path="about/" element={<Nosotros />} />
         <Route path="dental-lab/" element={<DentalLab />} />
         <Route path="financing/" element={<Financiacion />} />

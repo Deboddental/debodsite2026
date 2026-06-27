@@ -4,6 +4,9 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Heart, Eye, Shield, Users } from 'lucide-react'
 import { ratingSummary } from '../data/reviews'
+import { useLocale } from '../hooks/useLocale'
+import { tf } from '../utils/tf'
+import { enPathFor } from '../i18n/slugs'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -11,30 +14,43 @@ const values = [
   {
     icon: Heart,
     title: 'Odontología Honesta',
+    title_en: 'Honest Dentistry',
     description:
       'Diagnósticos claros, presupuestos sin sorpresas y tratamientos que realmente necesitas. Nunca recomendamos lo que no hace falta.',
+    description_en:
+      'Clear diagnoses, quotes with no surprises and only the treatments you genuinely need. We never recommend what is not necessary.',
   },
   {
     icon: Eye,
     title: 'Transparencia Total',
+    title_en: 'Complete Transparency',
     description:
       'Diseño digital previo antes de tocar un solo diente. Verás tu resultado final antes de comenzar cualquier tratamiento.',
+    description_en:
+      'Prior digital design before we touch a single tooth. You will see your final result before any treatment begins.',
   },
   {
     icon: Shield,
     title: 'Mínimamente Invasivo',
+    title_en: 'Minimally Invasive',
     description:
       'Conservamos la mayor cantidad de estructura dental sana posible. La intervención justa, ni más ni menos.',
+    description_en:
+      'We preserve as much healthy tooth structure as possible. Just the right intervention, nothing more, nothing less.',
   },
   {
     icon: Users,
     title: 'Equipo Especialista',
+    title_en: 'Specialist Team',
     description:
       'Cada caso lo atiende el especialista adecuado. Un enfoque multidisciplinar con profesionales de la más alta formación.',
+    description_en:
+      'Every case is handled by the right specialist. A multidisciplinary approach with the most highly trained professionals.',
   },
 ]
 
 export default function Philosophy() {
+  const locale = useLocale()
   const sectionRef = useRef(null)
   const line1Ref = useRef(null)
   const line2Ref = useRef(null)
@@ -102,7 +118,7 @@ export default function Philosophy() {
       id="nosotros"
       ref={sectionRef}
       className="relative overflow-hidden bg-charcoal py-24 md:py-36 px-6 md:px-12 lg:px-20"
-      aria-label="Filosofía de Debod Dental Clinic — Odontología Honesta"
+      aria-label={locale === 'en' ? 'Philosophy of Debod Dental Clinic — Honest Dentistry' : 'Filosofía de Debod Dental Clinic — Odontología Honesta'}
     >
       {/* Subtle texture overlay */}
       <div
@@ -120,7 +136,7 @@ export default function Philosophy() {
 
         {/* Section label */}
         <span className="font-jakarta text-xs text-gold/80 font-semibold tracking-widest uppercase mb-12 block">
-          Nuestra Filosofía
+          {locale === 'en' ? 'Our Philosophy' : 'Nuestra Filosofía'}
         </span>
 
         {/* Manifesto text */}
@@ -129,13 +145,13 @@ export default function Philosophy() {
             ref={line1Ref}
             className="font-outfit font-bold text-3xl md:text-5xl lg:text-6xl text-white/30 leading-tight tracking-tight"
           >
-            La odontología tradicional trata dientes.
+            {locale === 'en' ? 'Traditional dentistry treats teeth.' : 'La odontología tradicional trata dientes.'}
           </p>
           <p
             ref={line2Ref}
             className="font-cormorant font-light italic text-4xl md:text-6xl lg:text-7xl text-white leading-tight"
           >
-            Nosotros esculpimos confianza.
+            {locale === 'en' ? 'We sculpt confidence.' : 'Nosotros esculpimos confianza.'}
           </p>
         </div>
 
@@ -145,11 +161,23 @@ export default function Philosophy() {
         {/* Intro copy */}
         <div ref={bioRef} className="max-w-2xl mb-20">
           <p className="font-jakarta text-white/60 text-lg leading-relaxed">
-            En <strong className="text-white/90">Debod Dental Clinic</strong>, Argüelles, practicamos la{' '}
-            <strong className="text-white/90">odontología honesta</strong>: diagnósticos transparentes,
-            tecnología de vanguardia y un equipo multidisciplinar de especialistas que solo te recomienda
-            lo que realmente necesitas. Porque creemos que la mejor odontología es la que devuelve
-            confianza, no la que la toma.
+            {locale === 'en' ? (
+              <>
+                At <strong className="text-white/90">Debod Dental Clinic</strong>, Argüelles, we practise{' '}
+                <strong className="text-white/90">honest dentistry</strong>: transparent diagnoses,
+                cutting-edge technology and a multidisciplinary team of specialists who only recommend
+                what you genuinely need. Because we believe the best dentistry is the kind that restores
+                confidence, not the kind that takes it away.
+              </>
+            ) : (
+              <>
+                En <strong className="text-white/90">Debod Dental Clinic</strong>, Argüelles, practicamos la{' '}
+                <strong className="text-white/90">odontología honesta</strong>: diagnósticos transparentes,
+                tecnología de vanguardia y un equipo multidisciplinar de especialistas que solo te recomienda
+                lo que realmente necesitas. Porque creemos que la mejor odontología es la que devuelve
+                confianza, no la que la toma.
+              </>
+            )}
           </p>
         </div>
 
@@ -167,8 +195,8 @@ export default function Philosophy() {
                   <Icon size={18} className="text-gold" />
                 </div>
                 <div>
-                  <h3 className="font-outfit font-bold text-white text-lg mb-2 leading-tight">{v.title}</h3>
-                  <p className="font-jakarta text-white/55 text-sm leading-relaxed">{v.description}</p>
+                  <h3 className="font-outfit font-bold text-white text-lg mb-2 leading-tight">{tf(v, 'title', locale)}</h3>
+                  <p className="font-jakarta text-white/55 text-sm leading-relaxed">{tf(v, 'description', locale)}</p>
                 </div>
               </div>
             )
@@ -178,10 +206,10 @@ export default function Philosophy() {
         {/* Stats row */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 pt-16 border-t border-white/8">
           {[
-            { value: '+15', label: 'años de experiencia' },
-            { value: ratingSummary.ratingValue, label: 'en Google Reviews' },
-            { value: '2023', label: 'Premio WhiteSmile' },
-            { value: '60m', label: 'Financiación flexible' },
+            { value: '+15', label: locale === 'en' ? 'years of experience' : 'años de experiencia' },
+            { value: ratingSummary.ratingValue, label: locale === 'en' ? 'on Google Reviews' : 'en Google Reviews' },
+            { value: '2023', label: locale === 'en' ? 'WhiteSmile Award' : 'Premio WhiteSmile' },
+            { value: '60m', label: locale === 'en' ? 'Flexible financing' : 'Financiación flexible' },
           ].map((stat, i) => (
             <div key={i} className="text-center">
               <div className="font-outfit font-bold text-4xl text-gold mb-1">{stat.value}</div>
@@ -193,10 +221,10 @@ export default function Philosophy() {
         {/* CTA */}
         <div className="text-center mt-14">
           <Link
-            to="/contacto/"
+            to={locale === 'en' ? enPathFor('/contacto/') : '/contacto/'}
             className="btn-magnetic inline-flex items-center gap-2 bg-gold text-charcoal font-outfit font-bold text-sm px-8 py-4 rounded-full hover:bg-gold-light transition-colors duration-300"
           >
-            Conoce a nuestro equipo → Agenda tu visita
+            {locale === 'en' ? 'Meet our team → Book your visit' : 'Conoce a nuestro equipo → Agenda tu visita'}
           </Link>
         </div>
       </div>

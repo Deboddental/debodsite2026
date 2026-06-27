@@ -4,12 +4,16 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ArrowRight } from 'lucide-react'
 import { teamMembers } from '../data/team'
+import { useLocale } from '../hooks/useLocale'
+import { tf } from '../utils/tf'
+import { enPathFor } from '../i18n/slugs'
 
 gsap.registerPlugin(ScrollTrigger)
 
 // Home preview of the clinical team — builds trust ("a real face behind the
 // clinic") and links through to the full /equipo/ pages.
 export default function TeamSection() {
+  const locale = useLocale()
   const sectionRef = useRef(null)
   const headRef = useRef(null)
   const cardsRef = useRef([])
@@ -35,20 +39,31 @@ export default function TeamSection() {
     <section
       ref={sectionRef}
       className="py-24 md:py-32 px-6 md:px-12 lg:px-20 bg-pearl"
-      aria-label="Equipo de especialistas de Debod Dental Clinic"
+      aria-label={locale === 'en' ? 'Debod Dental Clinic specialist team' : 'Equipo de especialistas de Debod Dental Clinic'}
     >
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div ref={headRef} className="text-center max-w-2xl mx-auto mb-16">
           <span className="font-jakarta text-xs text-gold font-semibold tracking-widest uppercase mb-3 block">
-            Nuestro equipo
+            {locale === 'en' ? 'Our team' : 'Nuestro equipo'}
           </span>
           <h2 className="font-outfit font-bold text-4xl md:text-5xl text-charcoal tracking-tight mb-5 leading-tight">
-            Especialistas que ponen{' '}
-            <em className="font-cormorant font-light italic text-gold">rostro</em> a tu confianza
+            {locale === 'en' ? (
+              <>
+                Specialists who put a{' '}
+                <em className="font-cormorant font-light italic text-gold">face</em> to your trust
+              </>
+            ) : (
+              <>
+                Especialistas que ponen{' '}
+                <em className="font-cormorant font-light italic text-gold">rostro</em> a tu confianza
+              </>
+            )}
           </h2>
           <p className="font-jakarta text-slate text-lg leading-relaxed">
-            Un equipo multidisciplinar de odontólogos de primer nivel, cada uno referente en su especialidad.
+            {locale === 'en'
+              ? 'A multidisciplinary team of top-tier dentists, each a leading name in their speciality.'
+              : 'Un equipo multidisciplinar de odontólogos de primer nivel, cada uno referente en su especialidad.'}
           </p>
         </div>
 
@@ -58,7 +73,7 @@ export default function TeamSection() {
             <Link
               key={member.slug}
               ref={(el) => (cardsRef.current[i] = el)}
-              to={`/equipo/${member.slug}/`}
+              to={locale === 'en' ? enPathFor(`/equipo/${member.slug}/`) : `/equipo/${member.slug}/`}
               className="group bg-white rounded-4xl overflow-hidden border border-charcoal/5 hover:border-gold/40 hover:shadow-xl hover:shadow-black/6 transition-all duration-400"
             >
               <div className="h-64 overflow-hidden bg-charcoal/5">
@@ -73,7 +88,7 @@ export default function TeamSection() {
                 <h3 className="font-outfit font-semibold text-charcoal text-xl mb-1 group-hover:text-gold transition-colors duration-200">
                   {member.name}
                 </h3>
-                <p className="font-jakarta text-slate text-sm mb-4">{member.title}</p>
+                <p className="font-jakarta text-slate text-sm mb-4">{tf(member, 'title', locale)}</p>
                 <div className="flex flex-wrap gap-1.5">
                   {member.tags.slice(0, 3).map((tag) => (
                     <span
@@ -92,10 +107,10 @@ export default function TeamSection() {
         {/* CTA to full team page */}
         <div className="text-center mt-12">
           <Link
-            to="/equipo/"
+            to={locale === 'en' ? enPathFor('/equipo/') : '/equipo/'}
             className="inline-flex items-center gap-2 font-jakarta font-semibold text-sm text-charcoal border border-charcoal/20 px-6 py-3 rounded-full hover:bg-charcoal hover:text-white transition-all duration-300"
           >
-            Conoce a todo el equipo
+            {locale === 'en' ? 'Meet the whole team' : 'Conoce a todo el equipo'}
             <ArrowRight size={16} />
           </Link>
         </div>

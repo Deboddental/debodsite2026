@@ -4,10 +4,13 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Star, Quote } from 'lucide-react'
 import { reviews, ratingSummary } from '../data/reviews'
+import { useLocale } from '../hooks/useLocale'
+import { enPathFor } from '../i18n/slugs'
 
 gsap.registerPlugin(ScrollTrigger)
 
 export default function Reviews() {
+  const locale = useLocale()
   const sectionRef = useRef(null)
   const headRef = useRef(null)
   const cardsRef = useRef([])
@@ -52,7 +55,7 @@ export default function Reviews() {
       id="reviews"
       ref={sectionRef}
       className="py-24 md:py-32 px-6 md:px-12 lg:px-20 bg-charcoal/4"
-      aria-label="Opiniones de pacientes de Debod Dental Clinic en Google"
+      aria-label={locale === 'en' ? 'Debod Dental Clinic patient reviews on Google' : 'Opiniones de pacientes de Debod Dental Clinic en Google'}
     >
       <div className="max-w-7xl mx-auto">
         {/* Header */}
@@ -61,8 +64,8 @@ export default function Reviews() {
             Google Reviews
           </span>
           <h2 className="font-outfit font-bold text-4xl md:text-5xl text-charcoal tracking-tight mb-4 leading-tight">
-            La clínica mejor valorada{' '}
-            <em className="font-cormorant font-light italic text-gold">en Argüelles</em>
+            {locale === 'en' ? 'The highest-rated clinic' : 'La clínica mejor valorada'}{' '}
+            <em className="font-cormorant font-light italic text-gold">{locale === 'en' ? 'in Argüelles' : 'en Argüelles'}</em>
           </h2>
 
           {/* Star rating display */}
@@ -73,7 +76,7 @@ export default function Reviews() {
               ))}
             </div>
             <span className="font-outfit font-bold text-4xl text-charcoal">{ratingSummary.ratingValue}</span>
-            <span className="font-jakarta text-slate text-sm">en Google</span>
+            <span className="font-jakarta text-slate text-sm">{locale === 'en' ? 'on Google' : 'en Google'}</span>
           </div>
         </div>
 
@@ -122,10 +125,10 @@ export default function Reviews() {
         {/* CTA → página de reseñas (widget con todas las opiniones de Google) */}
         <div className="text-center mt-12">
           <Link
-            to="/resenas/"
+            to={locale === 'en' ? enPathFor('/resenas/') : '/resenas/'}
             className="btn-magnetic inline-flex items-center gap-2 font-jakarta font-semibold text-sm text-charcoal border border-charcoal/20 px-6 py-3 rounded-full hover:bg-charcoal hover:text-white transition-all duration-300"
           >
-            Ver todas nuestras reseñas
+            {locale === 'en' ? 'See all our reviews' : 'Ver todas nuestras reseñas'}
             <Star size={14} className="text-gold fill-gold" />
           </Link>
         </div>

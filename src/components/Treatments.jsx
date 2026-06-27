@@ -2,6 +2,8 @@ import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ArrowRight, Zap, Layers, Smile } from 'lucide-react'
+import { useLocale } from '../hooks/useLocale'
+import { enPathFor } from '../i18n/slugs'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -15,11 +17,17 @@ const treatments = [
   {
     index: '01',
     category: 'Rehabilitación Oral',
+    category_en: 'Full Oral Rehabilitation',
     title: 'Devolvemos función\ny estética completas.',
+    title_en: 'Restoring complete function\nand aesthetics.',
     description:
       'La Rehabilitación Oral integral es nuestro tratamiento más avanzado. Ideal para pacientes con desgaste dental severo, pérdida de múltiples piezas o problemas funcionales al masticar. Diseñamos tu nueva sonrisa digitalmente antes de tocar un solo diente.',
+    description_en:
+      'Comprehensive full oral rehabilitation is our most advanced treatment. Ideal for patients with severe tooth wear, the loss of multiple teeth or functional difficulties when chewing. We design your new smile digitally before touching a single tooth.',
     treatments: ['Coronas sobre Implantes', 'Prótesis Fija', 'Vonlay', 'Carillas de Porcelana'],
+    treatments_en: ['Implant-Supported Crowns', 'Fixed Prostheses', 'Vonlay', 'Porcelain Veneers'],
     cta: 'Ver Rehabilitación',
+    cta_en: 'View Rehabilitation',
     href: '/tratamientos/implantes-dentales-arguelles-madrid-espana/',
     icon: Layers,
     image: CARD_IMAGES[0],
@@ -28,11 +36,17 @@ const treatments = [
   {
     index: '02',
     category: 'Implantología Digital',
+    category_en: 'Digital Implantology',
     title: 'Implantes con\ncirugía guiada 3D.',
+    title_en: 'Implants with\n3D guided surgery.',
     description:
       'Utilizamos escáneres intraorales 3D y planificación virtual para una implantología de precisión milimétrica. Nuestro protocolo de cirugía guiada minimiza el tiempo quirúrgico y acelera la recuperación del paciente.',
+    description_en:
+      'We use 3D intraoral scanners and virtual planning for implantology of millimetric precision. Our guided surgery protocol minimises operating time and speeds up the patient’s recovery.',
     treatments: ['Implantes Unitarios', 'Cirugía Guiada', 'Corona sobre Implante', 'Injerto Óseo'],
+    treatments_en: ['Single Implants', 'Guided Surgery', 'Implant-Supported Crown', 'Bone Graft'],
     cta: 'Ver Implantología',
+    cta_en: 'View Implantology',
     href: '/dentista-de-implantes-arguelles-madrid-espana/',
     icon: Zap,
     image: CARD_IMAGES[1],
@@ -41,11 +55,17 @@ const treatments = [
   {
     index: '03',
     category: 'Ortodoncia & Estética',
+    category_en: 'Orthodontics & Cosmetic Dentistry',
     title: 'Invisalign® y\nsonrisas perfectas.',
+    title_en: 'Invisalign® and\nperfect smiles.',
     description:
       'El Dr. Víctor Guerrero, referente europeo en ortodoncia invisible, diseña tratamientos con Invisalign® y anclaje esquelético cortical que combinan eficacia clínica con una experiencia de paciente excepcional.',
+    description_en:
+      'Dr Víctor Guerrero, a European authority in invisible orthodontics, designs treatments with Invisalign® and cortical skeletal anchorage that combine clinical efficacy with an exceptional patient experience.',
     treatments: ['Invisalign®', 'Alineadores', 'Retenedores', 'Blanqueamiento Láser'],
+    treatments_en: ['Invisalign®', 'Aligners', 'Retainers', 'Laser Whitening'],
     cta: 'Ver Ortodoncia',
+    cta_en: 'View Orthodontics',
     href: '/ortodoncista-arguelles-madrid-espana/',
     icon: Smile,
     image: CARD_IMAGES[2],
@@ -54,6 +74,7 @@ const treatments = [
 ]
 
 export default function Treatments() {
+  const locale = useLocale()
   const sectionRef = useRef(null)
   const cardsRef = useRef([])
   const labelRef = useRef(null)
@@ -121,25 +142,25 @@ export default function Treatments() {
       id="tratamientos"
       ref={sectionRef}
       className="py-24 md:py-32 px-6 md:px-12 lg:px-20 bg-pearl"
-      aria-label="Tratamientos de Debod Dental Clinic en Argüelles, Madrid"
+      aria-label={locale === 'en' ? 'Treatments at Debod Dental Clinic in Argüelles, Madrid' : 'Tratamientos de Debod Dental Clinic en Argüelles, Madrid'}
     >
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div ref={labelRef} className="flex items-end justify-between mb-16 gap-6 flex-wrap">
           <div>
             <span className="font-jakarta text-xs text-gold font-semibold tracking-widest uppercase mb-3 block">
-              Tratamientos de Excelencia
+              {locale === 'en' ? 'Treatments of Excellence' : 'Tratamientos de Excelencia'}
             </span>
             <h2 className="font-outfit font-bold text-4xl md:text-5xl text-charcoal tracking-tight leading-tight">
-              Cada caso, un enfoque{' '}
-              <em className="font-cormorant font-light italic text-gold">único</em>
+              {locale === 'en' ? 'Every case, a unique' : 'Cada caso, un enfoque'}{' '}
+              <em className="font-cormorant font-light italic text-gold">{locale === 'en' ? 'approach' : 'único'}</em>
             </h2>
           </div>
           <a
-            href="/servicios/"
+            href={locale === 'en' ? enPathFor('/servicios/') : '/servicios/'}
             className="btn-magnetic flex items-center gap-2 font-jakarta font-semibold text-sm text-charcoal border border-charcoal/20 px-5 py-3 rounded-full hover:bg-charcoal hover:text-white transition-all duration-300 shrink-0"
           >
-            Todos los tratamientos <ArrowRight size={14} />
+            {locale === 'en' ? 'All treatments' : 'Todos los tratamientos'} <ArrowRight size={14} />
           </a>
         </div>
 
@@ -178,20 +199,20 @@ export default function Treatments() {
                       style={{ background: `${t.accentColor}20`, color: t.accentColor, border: `1px solid ${t.accentColor}40` }}
                     >
                       <Icon size={12} />
-                      {t.category}
+                      {locale === 'en' ? t.category_en : t.category}
                     </div>
                     <h3 className="font-outfit font-bold text-3xl md:text-4xl text-white leading-tight mb-5 whitespace-pre-line">
-                      {t.title}
+                      {locale === 'en' ? t.title_en : t.title}
                     </h3>
                     <p className="font-jakarta text-white/65 text-base leading-relaxed max-w-md">
-                      {t.description}
+                      {locale === 'en' ? t.description_en : t.description}
                     </p>
                   </div>
 
                   {/* Right: Treatment list + CTA */}
                   <div className="flex flex-col gap-5 md:items-end">
                     <div className="flex flex-wrap gap-2 md:justify-end">
-                      {t.treatments.map(item => (
+                      {(locale === 'en' ? t.treatments_en : t.treatments).map(item => (
                         <span
                           key={item}
                           className="font-jakarta text-xs font-semibold px-3 py-1.5 rounded-full bg-white/10 text-white/80 border border-white/15 backdrop-blur-sm"
@@ -201,14 +222,14 @@ export default function Treatments() {
                       ))}
                     </div>
                     <a
-                      href={t.href}
+                      href={locale === 'en' ? enPathFor(t.href) : t.href}
                       className="btn-magnetic inline-flex items-center gap-2.5 font-outfit font-semibold text-sm px-7 py-3.5 rounded-full transition-all duration-300"
                       style={{
                         background: t.accentColor,
                         color: t.accentColor === '#D4AF37' ? '#1A1A1A' : '#fff',
                       }}
                     >
-                      {t.cta} <ArrowRight size={15} />
+                      {locale === 'en' ? t.cta_en : t.cta} <ArrowRight size={15} />
                     </a>
                   </div>
                 </div>

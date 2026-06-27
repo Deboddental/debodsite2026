@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { MessageCircle, ArrowDown, Star } from 'lucide-react'
 import { ratingSummary } from '../data/reviews'
+import { useLocale } from '../hooks/useLocale'
+import { enPathFor } from '../i18n/slugs'
 
 const HERO_VIDEO = '/hero/video hero doctores.webm'
 
 export default function Hero() {
+  const locale = useLocale()
   const containerRef = useRef(null)
   const badgeRef = useRef(null)
   const h1Ref = useRef(null)
@@ -40,7 +43,7 @@ export default function Hero() {
       ref={containerRef}
       className="relative w-full overflow-hidden flex flex-col -mt-20"
       style={{ height: '100dvh', minHeight: '600px' }}
-      aria-label="Debod Dental Clinic — Clínica Dental Premium en Argüelles, Madrid"
+      aria-label={locale === 'en' ? 'Debod Dental Clinic — Premium Dental Clinic in Argüelles, Madrid' : 'Debod Dental Clinic — Clínica Dental Premium en Argüelles, Madrid'}
     >
       {/* Background Video */}
       <video
@@ -70,7 +73,7 @@ export default function Hero() {
         >
           <span className="w-1.5 h-1.5 rounded-full bg-gold pulse-dot" />
           <span className="font-jakarta text-gold text-xs font-semibold tracking-widest uppercase">
-            Clínica Dental · Argüelles, Madrid
+            {locale === 'en' ? 'Dental Clinic · Argüelles, Madrid' : 'Clínica Dental · Argüelles, Madrid'}
           </span>
         </div>
 
@@ -80,13 +83,13 @@ export default function Hero() {
           className="mb-3 sm:mb-6 leading-none"
         >
           <span className="anim block font-outfit font-extrabold text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white tracking-tight">
-            N.º&nbsp;1 en
+            {locale === 'en' ? 'No. 1 in' : 'N.º 1 en'}
           </span>
           <span className="anim block font-outfit font-extrabold text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white tracking-tight">
-            Rehabilitación Oral
+            {locale === 'en' ? 'Full Oral Rehabilitation' : 'Rehabilitación Oral'}
           </span>
           <em className="anim block font-cormorant font-light italic text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gold leading-tight">
-            en Madrid.
+            {locale === 'en' ? 'in Madrid.' : 'en Madrid.'}
           </em>
         </h1>
 
@@ -95,24 +98,29 @@ export default function Hero() {
           ref={subtitleRef}
           className="font-jakarta text-white/70 text-sm sm:text-base md:text-lg max-w-lg mb-5 sm:mb-10 leading-relaxed"
         >
-          Especialistas en <strong className="text-white/90">Rehabilitación Oral avanzada</strong>, Implantología y Estética Dental.
-          Un equipo comprometido con la <strong className="text-white/90">odontología honesta</strong> y resultados que duran toda la vida.
+          {locale === 'en' ? (
+            <>Specialists in <strong className="text-white/90">advanced full oral rehabilitation</strong>, implantology and cosmetic dentistry.
+            A team committed to <strong className="text-white/90">honest dentistry</strong> and results that last a lifetime.</>
+          ) : (
+            <>Especialistas en <strong className="text-white/90">Rehabilitación Oral avanzada</strong>, Implantología y Estética Dental.
+            Un equipo comprometido con la <strong className="text-white/90">odontología honesta</strong> y resultados que duran toda la vida.</>
+          )}
         </p>
 
         {/* CTA Buttons */}
         <div ref={ctaRef} className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-10">
           <Link
-            to="/contacto/"
+            to={locale === 'en' ? enPathFor('/contacto/') : '/contacto/'}
             className="btn-magnetic flex items-center justify-center gap-3 bg-gold text-charcoal font-outfit font-bold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-xl shadow-gold/30 hover:bg-gold-light transition-colors duration-300"
           >
             <MessageCircle size={18} />
-            Agendar Cita
+            {locale === 'en' ? 'Book an Appointment' : 'Agendar Cita'}
           </Link>
           <a
             href="#tratamientos"
             className="btn-magnetic flex items-center justify-center gap-2 border-2 border-white/30 text-white font-outfit font-semibold text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm"
           >
-            Ver Tratamientos
+            {locale === 'en' ? 'View Treatments' : 'Ver Tratamientos'}
           </a>
         </div>
 
@@ -124,11 +132,11 @@ export default function Hero() {
                 <Star key={i} size={13} className="text-gold fill-gold" />
               ))}
             </div>
-            <span className="font-jakarta text-white/80 text-xs sm:text-sm font-medium">{ratingSummary.ratingValue} Google Reviews</span>
+            <span className="font-jakarta text-white/80 text-xs sm:text-sm font-medium">{ratingSummary.ratingValue} {locale === 'en' ? 'Google Reviews' : 'Google Reviews'}</span>
           </div>
           <div className="h-4 w-px bg-white/20" />
           <span className="font-jakarta text-white/70 text-xs sm:text-sm">
-            🏆 Premio <strong className="text-white/90">WhiteSmile 2023</strong>
+            🏆 {locale === 'en' ? <><strong className="text-white/90">WhiteSmile 2023</strong> Award</> : <>Premio <strong className="text-white/90">WhiteSmile 2023</strong></>}
           </span>
         </div>
       </div>
@@ -138,7 +146,7 @@ export default function Hero() {
         ref={scrollHintRef}
         className="absolute bottom-8 right-8 flex flex-col items-center gap-2 text-white/40"
       >
-        <span className="font-jakarta text-xs tracking-widest uppercase rotate-90 origin-center mb-3">scroll</span>
+        <span className="font-jakarta text-xs tracking-widest uppercase rotate-90 origin-center mb-3">{locale === 'en' ? 'scroll' : 'scroll'}</span>
         <ArrowDown size={16} className="animate-bounce" />
       </div>
     </section>
