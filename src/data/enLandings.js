@@ -8,7 +8,7 @@ export const enLandings = [
     title: 'English-Speaking Dentist in Madrid',
     metaTitle: 'English-Speaking Dentist in Madrid (Argüelles) — Debod Dental Clinic',
     metaDescription:
-      'Looking for an English-speaking dentist in central Madrid? Debod Dental Clinic in Argüelles offers implants, Invisalign®, veneers and full oral rehabilitation. Book: +34 689 10 47 14.',
+      'Looking for an English-speaking dentist in central Madrid? Debod Dental Clinic in Argüelles offers implants, Invisalign®, veneers and full oral rehabilitation. Book: +34 914 47 62 25.',
     heroText:
       'A boutique dental clinic in the heart of Madrid where you are treated in English — implants, orthodontics, cosmetic dentistry and oral rehabilitation, with an in-house digital lab.',
     esAlternate: '/servicios/',
@@ -26,7 +26,7 @@ We are a boutique clinic specialised in **digital implantology, invisible orthod
 - 💳 **Financing available** and a first diagnostic visit included.
 
 ### How to book
-Call or WhatsApp **+34 689 10 47 14**, or email **info@deboddentalclinic.com**. We will confirm your appointment and answer any questions before your visit.`,
+Call us at **+34 914 47 62 25**, message us on WhatsApp at **+34 689 10 47 14**, or email **info@deboddentalclinic.com**. We will confirm your appointment and answer any questions before your visit.`,
     faqs: [
       { question: 'Do the dentists at Debod speak English?', answer: 'Yes. Our team treats international and expat patients in English, explaining your diagnosis, options and budget clearly so you can make an informed decision.' },
       { question: 'Where is the clinic located in Madrid?', answer: 'We are at C. de Ferraz, 24, in the Argüelles neighbourhood (28008 Madrid), a few minutes from Plaza de España and the Temple of Debod. The nearest metro is Ventura Rodríguez (Line 3).' },
@@ -39,7 +39,7 @@ Call or WhatsApp **+34 689 10 47 14**, or email **info@deboddentalclinic.com**. 
     title: 'Dental Implants in Madrid',
     metaTitle: 'Dental Implants in Madrid (English-Speaking) — Debod Dental Clinic',
     metaDescription:
-      'Dental implants in central Madrid with 3D guided surgery and an in-house lab. English-speaking implant dentist in Argüelles. Financing available. Book: +34 689 10 47 14.',
+      'Dental implants in central Madrid with 3D guided surgery and an in-house lab. English-speaking implant dentist in Argüelles. Financing available. Book: +34 914 47 62 25.',
     heroText:
       'Replace missing teeth with dental implants planned digitally and placed with 3D guided surgery — by an English-speaking team in central Madrid.',
     esAlternate: '/dentista-de-implantes-arguelles-madrid-espana/',
@@ -69,7 +69,7 @@ Whether you are an expat in Madrid or visiting for treatment, we will tell you h
     title: 'Porcelain Veneers & Smile Design in Madrid',
     metaTitle: 'Porcelain Veneers & Smile Design in Madrid — Debod Dental Clinic',
     metaDescription:
-      'Porcelain veneers and digital smile design in central Madrid. English-speaking cosmetic dentist in Argüelles with an in-house lab. Preview your smile first. Book: +34 689 10 47 14.',
+      'Porcelain veneers and digital smile design in central Madrid. English-speaking cosmetic dentist in Argüelles with an in-house lab. Preview your smile first. Book: +34 914 47 62 25.',
     heroText:
       'Transform your smile with porcelain veneers and digital smile design — preview the result before we start, crafted in our in-house lab in central Madrid.',
     esAlternate: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/',

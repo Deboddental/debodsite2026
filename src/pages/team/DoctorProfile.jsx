@@ -7,40 +7,43 @@ import MarkdownBody from '../../components/ui/MarkdownBody'
 import JsonLd from '../../components/ui/JsonLd'
 import CtaBand from '../../components/ui/CtaBand'
 import { doctorProfileSchema } from '../../data/seo'
+import { useLocale } from '../../hooks/useLocale'
+import { tf, tfArray } from '../../utils/tf'
+import { t } from '../../i18n/ui'
 
-const BASE_URL = 'https://deboddentalclinic.com'
 export default function DoctorProfile() {
   const { doctorSlug } = useParams()
+  const locale = useLocale()
   const doctor = teamMembers.find((m) => m.slug === doctorSlug)
 
-  if (!doctor) return <Navigate to="/equipo/" replace />
+  if (!doctor) return <Navigate to={locale === 'en' ? '/en/team/' : '/equipo/'} replace />
 
-  const canonical = `${BASE_URL}/equipo/${doctor.slug}/`
+  const title = tf(doctor, 'title', locale)
+  const bio = tf(doctor, 'bioMarkdown', locale)
+  const contactHref = locale === 'en' ? '/en/contact/' : '/contacto/'
+  const metaDescription = locale === 'en'
+    ? `${doctor.name}, specialist in ${title} at Debod Dental Clinic, Argüelles, Madrid. ${bio?.substring(0, 120)}...`
+    : `${doctor.name}, especialista en ${title} en Debod Dental Clinic, Argüelles, Madrid. ${bio?.substring(0, 120)}...`
 
   return (
     <>
       <Helmet>
-        <title>{doctor.name} — {doctor.title} | Debod Dental Clinic</title>
-        <meta
-          name="description"
-          content={`${doctor.name}, especialista en ${doctor.title} en Debod Dental Clinic, Argüelles, Madrid. ${doctor.bioMarkdown?.substring(0, 120)}...`}
-        />
-        <link rel="canonical" href={canonical} />
-        <meta property="og:title" content={`${doctor.name} — ${doctor.title}`} />
-        <meta property="og:url" content={canonical} />
+        <title>{doctor.name} — {title} | Debod Dental Clinic</title>
+        <meta name="description" content={metaDescription} />
+        <meta property="og:title" content={`${doctor.name} — ${title}`} />
         <meta property="og:type" content="profile" />
-        {doctor.photoUrl && <meta property="og:image" content={doctor.photoUrl.startsWith('http') ? doctor.photoUrl : `${BASE_URL}${doctor.photoUrl}`} />}
+        {doctor.photoUrl && <meta property="og:image" content={doctor.photoUrl.startsWith('http') ? doctor.photoUrl : `https://deboddentalclinic.com${doctor.photoUrl}`} />}
       </Helmet>
 
-      <JsonLd schema={doctorProfileSchema(doctor)} />
+      <JsonLd schema={doctorProfileSchema(doctor, locale)} />
 
       {/* Hero banner */}
       <section className="bg-charcoal pt-28 pb-12 px-4">
         <div className="max-w-5xl mx-auto">
           <Breadcrumb
             items={[
-              { label: 'Inicio', href: '/' },
-              { label: 'Equipo', href: '/equipo/' },
+              { label: t('crumb.home', locale), href: locale === 'en' ? '/en/' : '/' },
+              { label: t('crumb.team', locale), href: locale === 'en' ? '/en/team/' : '/equipo/' },
               { label: doctor.name, href: null },
             ]}
           />
@@ -65,17 +68,17 @@ export default function DoctorProfile() {
                 <h1 className="font-outfit font-semibold text-charcoal text-2xl mb-1">
                   {doctor.name}
                 </h1>
-                <p className="font-jakarta text-slate-500 text-sm mb-4">{doctor.title}</p>
+                <p className="font-jakarta text-slate-500 text-sm mb-4">{title}</p>
 
                 {doctor.colegiadoNum && (
                   <div className="flex items-center gap-2 text-xs text-slate-500 mb-4">
                     <Award size={14} className="text-gold" />
-                    Colegiado Nº {doctor.colegiadoNum}
+                    {t('doctor.colegiado', locale)} {doctor.colegiadoNum}
                   </div>
                 )}
 
                 <div className="flex flex-wrap gap-1.5 mb-6">
-                  {doctor.tags.map((tag) => (
+                  {tfArray(doctor, 'tags', locale).map((tag) => (
                     <span
                       key={tag}
                       className="px-2.5 py-1 bg-gold/10 text-gold text-xs font-outfit font-medium rounded-full"
@@ -86,26 +89,26 @@ export default function DoctorProfile() {
                 </div>
 
                 <Link
-                  to="/contacto/"
+                  to={contactHref}
                   className="flex items-center justify-center gap-2 w-full py-3 bg-gold text-charcoal rounded-full font-outfit font-semibold text-sm hover:bg-gold-light transition-colors duration-300"
                 >
                   <MessageCircle size={16} />
-                  Agendar cita
+                  {t('doctor.book', locale)}
                 </Link>
               </div>
             </div>
 
             {/* Bio */}
             <div>
-              <MarkdownBody>{doctor.bioMarkdown}</MarkdownBody>
+              <MarkdownBody>{bio}</MarkdownBody>
 
-              {doctor.specialties?.length > 0 && (
+              {tfArray(doctor, 'specialties', locale).length > 0 && (
                 <div className="mt-10 p-6 bg-charcoal/5 rounded-2xl">
                   <h3 className="font-outfit font-semibold text-charcoal mb-4">
-                    Áreas de especialización
+                    {t('doctor.specialtiesTitle', locale)}
                   </h3>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                    {doctor.specialties.map((s) => (
+                    {tfArray(doctor, 'specialties', locale).map((s) => (
                       <li
                         key={s}
                         className="flex items-center gap-2 font-jakarta text-slate-600 text-sm"
@@ -123,8 +126,12 @@ export default function DoctorProfile() {
       </section>
 
       <CtaBand
-        headline={`¿Quieres una consulta con ${doctor.name}?`}
-        subtext="Reserva tu cita online o contáctanos por WhatsApp. Primera consulta sin compromiso."
+        headline={locale === 'en' ? `Want a consultation with ${doctor.name}?` : `¿Quieres una consulta con ${doctor.name}?`}
+        subtext={locale === 'en'
+          ? 'Book your appointment online or reach us on WhatsApp. First consultation with no obligation.'
+          : 'Reserva tu cita online o contáctanos por WhatsApp. Primera consulta sin compromiso.'}
+        ctaLabel={t('cta.defaultLabel', locale)}
+        ctaTo={contactHref}
       />
     </>
   )

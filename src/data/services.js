@@ -339,3 +339,7 @@ Nuestro equipo te proporciona instrucciones detalladas para la recuperación y e
 ]
 
 export default services
+
+import { mergeEn } from '../utils/tf.js'
+import { servicesEn } from '../i18n/content/services.en.js'
+mergeEn(services, servicesEn)

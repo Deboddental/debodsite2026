@@ -74,9 +74,13 @@ server.listen(PORT, async () => {
   let success = 0
   let failed = 0
 
-  for (const route of allRoutes) {
+  // Render with a small concurrency pool — ~136 bilingual routes would be slow
+  // serially. Vercel build containers have less RAM, so use a smaller pool there.
+  const CONCURRENCY = process.env.VERCEL ? 3 : 6
+
+  async function renderRoute(route) {
+    const page = await browser.newPage()
     try {
-      const page = await browser.newPage()
       await page.goto(`http://localhost:${PORT}${route}`, {
         waitUntil: 'networkidle2',
         timeout: 30000,
@@ -98,11 +102,16 @@ server.listen(PORT, async () => {
       if (success % 10 === 0 || allRoutes.length - success < 5) {
         console.log(`  ✅ ${success}/${allRoutes.length} rendered`)
       }
-      await page.close()
     } catch (err) {
       failed++
       console.log(`  ❌ Failed: ${route} — ${err.message}`)
+    } finally {
+      await page.close()
     }
+  }
+
+  for (let i = 0; i < allRoutes.length; i += CONCURRENCY) {
+    await Promise.all(allRoutes.slice(i, i + CONCURRENCY).map(renderRoute))
   }
 
   // 404 page: render the NotFound route to dist/404.html so Vercel can serve it

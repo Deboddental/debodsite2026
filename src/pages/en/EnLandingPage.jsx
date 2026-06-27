@@ -18,25 +18,16 @@ export default function EnLandingPage() {
 
   if (!landing) return <Navigate to="/en/english-speaking-dentist-madrid/" replace />
 
-  const enUrl = `${BASE_URL}/en/${landing.slug}/`
-  const esUrl = `${BASE_URL}${landing.esAlternate}`
-
   return (
     <>
       <Helmet>
         <html lang="en" />
         <title>{landing.metaTitle}</title>
         <meta name="description" content={landing.metaDescription} />
-        <link rel="canonical" href={enUrl} />
-        {/* Reciprocal hreflang (ES counterpart declares the EN alternate too) */}
-        <link rel="alternate" hrefLang="en" href={enUrl} />
-        <link rel="alternate" hrefLang="es" href={esUrl} />
-        <link rel="alternate" hrefLang="x-default" href={esUrl} />
         <meta property="og:title" content={landing.metaTitle} />
         <meta property="og:description" content={landing.metaDescription} />
-        <meta property="og:url" content={enUrl} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_GB" />
+        {/* og:locale is set centrally by RootLayout's LocaleMeta (en_GB on /en/ pages) */}
         <meta property="og:image" content={`${BASE_URL}/og-image.jpg`} />
       </Helmet>
 

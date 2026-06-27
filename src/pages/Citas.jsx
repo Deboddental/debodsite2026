@@ -2,63 +2,63 @@ import { Helmet } from 'react-helmet-async'
 import { Phone, MessageCircle, Mail, Clock } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
+import { useLocale } from '../hooks/useLocale'
+import { enPathFor } from '../i18n/slugs'
 
-const BASE_URL = 'https://deboddentalclinic.com'
-
-const channels = [
+const getChannels = (locale) => [
   {
     icon: MessageCircle,
     title: 'WhatsApp',
-    desc: 'La forma más rápida. Te respondemos en minutos.',
-    action: 'Escribir por WhatsApp',
+    desc: locale === 'en' ? 'The fastest way. We reply within minutes.' : 'La forma más rápida. Te respondemos en minutos.',
+    action: locale === 'en' ? 'Message us on WhatsApp' : 'Escribir por WhatsApp',
     href: 'https://wa.me/34689104714?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cita.',
     color: 'bg-[#25D366]',
   },
   {
     icon: Phone,
-    title: 'Teléfono',
-    desc: 'Llámanos en horario de clínica: L–V de 9:00 a 21:00.',
-    action: 'Llamar ahora',
+    title: locale === 'en' ? 'Phone' : 'Teléfono',
+    desc: locale === 'en' ? 'Call us during clinic hours: Mon–Fri, 9:00 to 21:00.' : 'Llámanos en horario de clínica: L–V de 9:00 a 21:00.',
+    action: locale === 'en' ? 'Call now' : 'Llamar ahora',
     href: 'tel:+34914476225',
     color: 'bg-gold',
   },
   {
     icon: Mail,
     title: 'Email',
-    desc: 'Para consultas detalladas o adjuntar radiografías previas.',
-    action: 'Enviar email',
+    desc: locale === 'en' ? 'For detailed enquiries or to attach previous X-rays.' : 'Para consultas detalladas o adjuntar radiografías previas.',
+    action: locale === 'en' ? 'Send an email' : 'Enviar email',
     href: 'mailto:info@deboddentalclinic.com',
     color: 'bg-charcoal',
   },
 ]
 
 export default function Citas() {
+  const locale = useLocale()
+  const channels = getChannels(locale)
   return (
     <>
       <Helmet>
-        <title>Pedir Cita en Argüelles, Madrid | Debod Dental Clinic</title>
+        <title>{locale === 'en' ? 'Book an Appointment in Argüelles, Madrid | Debod Dental Clinic' : 'Pedir Cita en Argüelles, Madrid | Debod Dental Clinic'}</title>
         <meta
           name="description"
-          content="Pide cita en Debod Dental Clinic, Argüelles, Madrid. Disponible por WhatsApp, teléfono y email. Primera consulta gratuita con nuestro equipo de especialistas."
+          content={locale === 'en' ? 'Book an appointment at Debod Dental Clinic, Argüelles, Madrid. Available by WhatsApp, phone and email. Free first consultation with our team of specialists.' : 'Pide cita en Debod Dental Clinic, Argüelles, Madrid. Disponible por WhatsApp, teléfono y email. Primera consulta gratuita con nuestro equipo de especialistas.'}
         />
-        <link rel="canonical" href={`${BASE_URL}/ubicaciones/citas-arguelles-madrid/`} />
-        <meta property="og:title" content="Pedir Cita — Debod Dental Clinic" />
-        <meta property="og:url" content={`${BASE_URL}/ubicaciones/citas-arguelles-madrid/`} />
+        <meta property="og:title" content={locale === 'en' ? 'Book an Appointment — Debod Dental Clinic' : 'Pedir Cita — Debod Dental Clinic'} />
       </Helmet>
 
       <PageHero
-        subtitle="Reserva tu consulta"
-        title="Pide cita en Debod Dental"
-        description="Primera consulta gratuita y sin compromiso. Elige el canal que más te convenga."
+        subtitle={locale === 'en' ? 'Book your consultation' : 'Reserva tu consulta'}
+        title={locale === 'en' ? 'Book your appointment at Debod Dental' : 'Pide cita en Debod Dental'}
+        description={locale === 'en' ? 'Free first consultation with no obligation. Choose the channel that suits you best.' : 'Primera consulta gratuita y sin compromiso. Elige el canal que más te convenga.'}
         imageUrl="/Images/clinica/dsc00253.webp"
       />
 
       <div className="max-w-4xl mx-auto">
         <Breadcrumb
           items={[
-            { label: 'Inicio', href: '/' },
-            { label: 'Ubicaciones', href: '/ubicaciones/' },
-            { label: 'Pedir Cita', href: null },
+            { label: locale === 'en' ? 'Home' : 'Inicio', href: locale === 'en' ? enPathFor('/') : '/' },
+            { label: locale === 'en' ? 'Locations' : 'Ubicaciones', href: locale === 'en' ? enPathFor('/ubicaciones/') : '/ubicaciones/' },
+            { label: locale === 'en' ? 'Book an Appointment' : 'Pedir Cita', href: null },
           ]}
         />
       </div>
@@ -89,9 +89,9 @@ export default function Citas() {
           <div className="bg-charcoal rounded-2xl p-8 flex flex-col sm:flex-row items-start sm:items-center gap-6">
             <Clock size={32} className="text-gold flex-shrink-0" />
             <div>
-              <h3 className="font-outfit font-semibold text-pearl text-lg mb-1">Horario de atención</h3>
-              <p className="font-jakarta text-pearl/70">Lunes a Viernes: <strong className="text-pearl">9:00 – 21:00</strong> · Sábados con cita previa</p>
-              <p className="font-jakarta text-pearl/50 text-sm mt-1">Las urgencias se atienden en el mismo día.</p>
+              <h3 className="font-outfit font-semibold text-pearl text-lg mb-1">{locale === 'en' ? 'Opening hours' : 'Horario de atención'}</h3>
+              <p className="font-jakarta text-pearl/70">{locale === 'en' ? 'Monday to Friday: ' : 'Lunes a Viernes: '}<strong className="text-pearl">9:00 – 21:00</strong>{locale === 'en' ? ' · Saturdays by appointment' : ' · Sábados con cita previa'}</p>
+              <p className="font-jakarta text-pearl/50 text-sm mt-1">{locale === 'en' ? 'Emergencies are seen the same day.' : 'Las urgencias se atienden en el mismo día.'}</p>
             </div>
           </div>
         </div>

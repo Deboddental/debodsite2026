@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useLocale } from '../hooks/useLocale'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -16,6 +17,7 @@ export default function VideoTestimonials() {
   const sectionRef = useRef(null)
   const headRef = useRef(null)
   const gridRef = useRef(null)
+  const locale = useLocale()
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -35,20 +37,22 @@ export default function VideoTestimonials() {
     <section
       ref={sectionRef}
       className="py-24 md:py-32 px-6 md:px-12 lg:px-20 bg-charcoal"
-      aria-label="Testimonios en vídeo de pacientes de Debod Dental Clinic"
+      aria-label={locale === 'en' ? 'Video testimonials from Debod Dental Clinic patients' : 'Testimonios en vídeo de pacientes de Debod Dental Clinic'}
     >
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div ref={headRef} className="text-center max-w-2xl mx-auto mb-14">
           <span className="font-jakarta text-xs text-gold font-semibold tracking-widest uppercase mb-3 block">
-            Testimonios en vídeo
+            {locale === 'en' ? 'Video testimonials' : 'Testimonios en vídeo'}
           </span>
           <h2 className="font-outfit font-bold text-4xl md:text-5xl text-pearl tracking-tight mb-5 leading-tight">
-            Pacientes reales,{' '}
-            <em className="font-cormorant font-light italic text-gold">sus palabras</em>
+            {locale === 'en' ? 'Real patients,' : 'Pacientes reales,'}{' '}
+            <em className="font-cormorant font-light italic text-gold">{locale === 'en' ? 'their words' : 'sus palabras'}</em>
           </h2>
           <p className="font-jakarta text-pearl/70 text-lg leading-relaxed">
-            Escucha de primera mano la experiencia de quienes ya han transformado su sonrisa con nosotros.
+            {locale === 'en'
+              ? 'Hear first-hand from those who have already transformed their smile with us.'
+              : 'Escucha de primera mano la experiencia de quienes ya han transformado su sonrisa con nosotros.'}
           </p>
         </div>
 
@@ -67,10 +71,10 @@ export default function VideoTestimonials() {
                 poster={v.poster}
               >
                 <source src={v.src} type="video/mp4" />
-                Tu navegador no admite la reproducción de vídeo.
+                {locale === 'en' ? 'Your browser does not support video playback.' : 'Tu navegador no admite la reproducción de vídeo.'}
               </video>
               <figcaption className="px-4 py-3 font-jakarta text-xs text-pearl/60 tracking-wide">
-                {v.caption}
+                {locale === 'en' ? v.caption.replace('Paciente', 'Patient') : v.caption}
               </figcaption>
             </figure>
           ))}

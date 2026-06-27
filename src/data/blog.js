@@ -618,3 +618,7 @@ En **Debod Dental Clinic**, somos especialistas en [ortodoncia invisible](/trata
 ]
 
 export default blogPosts
+
+import { mergeEn } from '../utils/tf.js'
+import { blogEn } from '../i18n/content/blog.en.js'
+mergeEn(blogPosts, blogEn)

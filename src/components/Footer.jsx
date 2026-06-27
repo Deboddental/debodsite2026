@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom'
 import { MapPin, Phone, Mail, ArrowUpRight, Calendar } from 'lucide-react'
+import { useLocale } from '../hooks/useLocale'
+import { t } from '../i18n/ui'
+import { enPathFor } from '../i18n/slugs'
 
 const InstagramIcon = () => (
   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -16,53 +19,55 @@ const FacebookIcon = () => (
 )
 
 const serviceLinks = [
-  { label: 'Cirugía Oral', href: '/cirujano-oral-arguelles-madrid-espana/' },
-  { label: 'Implantes Dentales', href: '/dentista-de-implantes-arguelles-madrid-espana/' },
-  { label: 'Odontología General', href: '/dentista-general-arguelles-madrid-espana/' },
-  { label: 'Endodoncia', href: '/endodoncista-arguelles-madrid-espana/' },
-  { label: 'Odontología Estética', href: '/dentista-cosmetico-arguelles-madrid-espana/' },
-  { label: 'Odontopediatría', href: '/odontopediatra-arguelles-madrid-espana/' },
-  { label: 'Ortodoncia', href: '/ortodoncista-arguelles-madrid-espana/' },
-  { label: 'Periodoncia', href: '/periodoncista-arguelles-madrid-espana/' },
+  { key: 'svc.oralsurgery', href: '/cirujano-oral-arguelles-madrid-espana/' },
+  { key: 'svc.implants', href: '/dentista-de-implantes-arguelles-madrid-espana/' },
+  { key: 'svc.general', href: '/dentista-general-arguelles-madrid-espana/' },
+  { key: 'svc.endo', href: '/endodoncista-arguelles-madrid-espana/' },
+  { key: 'svc.cosmetic', href: '/dentista-cosmetico-arguelles-madrid-espana/' },
+  { key: 'svc.pediatric', href: '/odontopediatra-arguelles-madrid-espana/' },
+  { key: 'svc.ortho', href: '/ortodoncista-arguelles-madrid-espana/' },
+  { key: 'svc.perio', href: '/periodoncista-arguelles-madrid-espana/' },
 ]
 
 const treatmentLinks = [
-  { label: 'Carillas de Porcelana', href: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/' },
-  { label: 'Invisalign®', href: '/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/' },
-  { label: 'Blanqueamiento', href: '/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/' },
-  { label: 'Cirugía Guiada 3D', href: '/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/' },
-  { label: 'Injerto de Encía', href: '/tratamientos/injerto-de-encia-arguelles-madrid-espana/' },
-  { label: 'Gingivoplastia', href: '/tratamientos/gingivoplastia-arguelles-madrid-espana/' },
-  { label: 'Corona Dental', href: '/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/' },
-  { label: 'Financiación 60m', href: '/financiacion/' },
+  { key: 'tr.veneers', href: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/' },
+  { key: 'tr.invisalign', href: '/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/' },
+  { key: 'tr.whitening', href: '/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/' },
+  { key: 'tr.guided', href: '/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/' },
+  { key: 'tr.gumgraft', href: '/tratamientos/injerto-de-encia-arguelles-madrid-espana/' },
+  { key: 'tr.gingivo', href: '/tratamientos/gingivoplastia-arguelles-madrid-espana/' },
+  { key: 'tr.crown', href: '/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/' },
+  { key: 'tr.financing', href: '/financiacion/' },
 ]
 
 export default function Footer() {
   const year = new Date().getFullYear()
+  const locale = useLocale()
+  const L = (p) => (locale === 'en' ? enPathFor(p) : p)
 
   return (
     <footer
       className="bg-charcoal rounded-t-[3rem] -mt-12 pt-28 pb-8 px-6 md:px-12 lg:px-20"
       role="contentinfo"
-      aria-label="Pie de página Debod Dental Clinic"
+      aria-label={locale === 'en' ? 'Debod Dental Clinic footer' : 'Pie de página Debod Dental Clinic'}
     >
       <div className="max-w-7xl mx-auto">
         {/* Top CTA Band */}
         <div className="bg-gold/10 border border-gold/20 rounded-4xl px-8 py-8 mb-16 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="font-outfit font-bold text-2xl text-white mb-1">
-              ¿Listo para transformar tu sonrisa?
+              {t('footer.ctaTitle', locale)}
             </h3>
             <p className="font-jakarta text-white/60 text-sm">
-              Primera visita diagnóstica incluida · Argüelles, Madrid
+              {t('footer.ctaSubtitle', locale)}
             </p>
           </div>
           <Link
-            to="/contacto/"
+            to={L('/contacto/')}
             className="btn-magnetic flex items-center gap-2.5 bg-gold text-charcoal font-outfit font-bold text-sm px-7 py-3.5 rounded-full hover:bg-gold-light transition-colors duration-300 shrink-0"
           >
             <Calendar size={15} />
-            Agendar Cita Ahora
+            {t('footer.ctaBtn', locale)}
           </Link>
         </div>
 
@@ -70,7 +75,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link to="/" className="inline-block mb-4">
+            <Link to={L('/')} className="inline-block mb-4">
               <img
                 src="/logo-light.webp"
                 alt="Debod Dental Clinic — Clínica dental en Argüelles, Madrid"
@@ -80,13 +85,13 @@ export default function Footer() {
               />
             </Link>
             <p className="font-jakarta text-white/50 text-sm leading-relaxed mb-6">
-              Clínica dental boutique de referencia en Argüelles, Madrid. Especialistas en Rehabilitación Oral, Implantología y Estética Dental.
+              {t('footer.bio', locale)}
             </p>
 
             {/* Operational status */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20">
               <span className="w-2 h-2 rounded-full bg-emerald-400 pulse-dot" />
-              <span className="font-jakarta text-emerald-400 text-xs font-semibold">Atendiendo pacientes</span>
+              <span className="font-jakarta text-emerald-400 text-xs font-semibold">{t('footer.status', locale)}</span>
             </div>
 
             {/* Social */}
@@ -114,16 +119,16 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-outfit font-semibold text-white text-sm mb-5 uppercase tracking-wider">Servicios</h4>
+            <h4 className="font-outfit font-semibold text-white text-sm mb-5 uppercase tracking-wider">{t('footer.servicesTitle', locale)}</h4>
             <ul className="space-y-2.5">
               {serviceLinks.map(link => (
                 <li key={link.href}>
                   <Link
-                    to={link.href}
+                    to={L(link.href)}
                     className="font-jakarta text-white/50 text-sm hover:text-gold transition-colors duration-200 flex items-center gap-1.5 group"
                   >
                     <span className="w-1 h-1 rounded-full bg-gold/30 group-hover:bg-gold transition-colors" />
-                    {link.label}
+                    {t(link.key, locale)}
                   </Link>
                 </li>
               ))}
@@ -132,16 +137,16 @@ export default function Footer() {
 
           {/* Treatments */}
           <div>
-            <h4 className="font-outfit font-semibold text-white text-sm mb-5 uppercase tracking-wider">Tratamientos</h4>
+            <h4 className="font-outfit font-semibold text-white text-sm mb-5 uppercase tracking-wider">{t('footer.treatmentsTitle', locale)}</h4>
             <ul className="space-y-2.5">
               {treatmentLinks.map(link => (
                 <li key={link.href}>
                   <Link
-                    to={link.href}
+                    to={L(link.href)}
                     className="font-jakarta text-white/50 text-sm hover:text-gold transition-colors duration-200 flex items-center gap-1.5 group"
                   >
                     <span className="w-1 h-1 rounded-full bg-gold/30 group-hover:bg-gold transition-colors" />
-                    {link.label}
+                    {t(link.key, locale)}
                   </Link>
                 </li>
               ))}
@@ -150,14 +155,14 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-outfit font-semibold text-white text-sm mb-5 uppercase tracking-wider">Contacto</h4>
+            <h4 className="font-outfit font-semibold text-white text-sm mb-5 uppercase tracking-wider">{t('footer.contactTitle', locale)}</h4>
             <address className="not-italic space-y-4">
               <div className="flex gap-3">
                 <MapPin size={16} className="text-gold shrink-0 mt-0.5" />
                 <div>
                   <p className="font-jakarta text-white/80 text-sm">C. de Ferraz, 24</p>
                   <p className="font-jakarta text-white/50 text-sm">Argüelles · Moncloa-Aravaca</p>
-                  <p className="font-jakarta text-white/50 text-sm">28008 Madrid, España</p>
+                  <p className="font-jakarta text-white/50 text-sm">28008 Madrid, {locale === 'en' ? 'Spain' : 'España'}</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -186,7 +191,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 mt-5 font-jakarta text-xs font-semibold text-gold hover:underline"
             >
-              Ver en Google Maps <ArrowUpRight size={12} />
+              {t('footer.maps', locale)} <ArrowUpRight size={12} />
             </a>
           </div>
         </div>
@@ -197,12 +202,21 @@ export default function Footer() {
             © {year} Debod Dental Clinic · C. de Ferraz, 24, Argüelles, 28008 Madrid
           </p>
           <div className="flex gap-6">
-            <Link to="/politica-de-privacidad/" className="font-jakarta text-white/30 text-xs hover:text-white/60 transition-colors">
-              Política de Privacidad
+            <Link to={L('/politica-de-privacidad/')} className="font-jakarta text-white/30 text-xs hover:text-white/60 transition-colors">
+              {t('footer.privacy', locale)}
             </Link>
-            <Link to="/nosotros/" className="font-jakarta text-white/30 text-xs hover:text-white/60 transition-colors">
-              Nosotros
+            <Link to={L('/nosotros/')} className="font-jakarta text-white/30 text-xs hover:text-white/60 transition-colors">
+              {t('nav.about', locale)}
             </Link>
+            {locale === 'en' ? (
+              <Link to="/" lang="es" hrefLang="es" className="font-jakarta text-white/30 text-xs hover:text-white/60 transition-colors">
+                Español
+              </Link>
+            ) : (
+              <Link to="/en/" lang="en" hrefLang="en" className="font-jakarta text-white/30 text-xs hover:text-white/60 transition-colors">
+                English
+              </Link>
+            )}
           </div>
         </div>
       </div>

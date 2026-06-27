@@ -171,3 +171,7 @@ export const supportTeam = [
 ]
 
 export default teamMembers
+
+import { mergeEn } from '../utils/tf.js'
+import { teamEn } from '../i18n/content/team.en.js'
+mergeEn(teamMembers, teamEn)

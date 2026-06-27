@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
+import { useLocale } from '../../hooks/useLocale'
+import { t } from '../../i18n/ui'
 
-export default function RelatedGrid({ items = [], title = 'Tratamientos relacionados' }) {
+export default function RelatedGrid({ items = [], title }) {
+  const locale = useLocale()
   if (!items.length) return null
+  title = title ?? t('related.title', locale)
   return (
     <section className="py-16 px-4 bg-pearl">
       <div className="max-w-6xl mx-auto">
@@ -25,7 +29,7 @@ export default function RelatedGrid({ items = [], title = 'Tratamientos relacion
                 </p>
               )}
               <span className="inline-flex items-center gap-1 text-gold text-sm font-medium group-hover:gap-2 transition-all duration-200">
-                Ver más <ArrowRight size={14} />
+                {locale === 'en' ? 'Learn more' : 'Ver más'} <ArrowRight size={14} />
               </span>
             </Link>
           ))}

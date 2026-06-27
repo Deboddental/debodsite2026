@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "validate": "node scripts/validate-data.mjs",
-    "build:prerender": "node scripts/validate-data.mjs && vite build && node prerender.mjs",
+    "build:prerender": "node scripts/validate-data.mjs && vite build && node scripts/gen-sitemap.mjs && node prerender.mjs",
     "prerender": "node prerender.mjs",
     "lint": "eslint .",
     "preview": "vite preview"

@@ -4,6 +4,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ChevronDown } from 'lucide-react'
 import JsonLd from './ui/JsonLd'
 import { faqSchema } from '../data/seo'
+import { useLocale } from '../hooks/useLocale'
+import { t } from '../i18n/ui'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -11,12 +13,15 @@ gsap.registerPlugin(ScrollTrigger)
 // matching FAQPage JSON-LD so search engines / AI assistants can quote it.
 export default function FAQ({
   faqs = [],
-  eyebrow = 'Preguntas frecuentes',
+  eyebrow,
   title,
-  titleAccent = 'frecuentes',
-  subtitle = 'Resolvemos las dudas más habituales antes de tu primera visita.',
+  titleAccent,
+  subtitle,
   includeSchema = true,
 }) {
+  const locale = useLocale()
+  eyebrow = eyebrow ?? t('faq.eyebrow', locale)
+  subtitle = subtitle ?? t('faq.subtitle', locale)
   const sectionRef = useRef(null)
   const headRef = useRef(null)
   const listRef = useRef(null)
@@ -41,9 +46,15 @@ export default function FAQ({
 
   // Default title with a gold cormorant-italic accent on the last word.
   const renderedTitle = title ?? (
-    <>
-      Preguntas <em className="font-cormorant font-light italic text-gold">{titleAccent}</em>
-    </>
+    locale === 'en' ? (
+      <>
+        Frequently asked <em className="font-cormorant font-light italic text-gold">{titleAccent ?? 'questions'}</em>
+      </>
+    ) : (
+      <>
+        Preguntas <em className="font-cormorant font-light italic text-gold">{titleAccent ?? 'frecuentes'}</em>
+      </>
+    )
   )
 
   return (

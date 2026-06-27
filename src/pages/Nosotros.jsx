@@ -4,58 +4,70 @@ import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
 import CtaBand from '../components/ui/CtaBand'
 import { ratingSummary } from '../data/reviews'
+import { useLocale } from '../hooks/useLocale'
+import { enPathFor } from '../i18n/slugs'
 
-const BASE_URL = 'https://deboddentalclinic.com'
-
-const values = [
+const getValues = (locale) => [
   {
     icon: Heart,
-    title: 'Odontología Honesta',
-    text: 'Solo recomendamos lo que realmente necesitas. Nuestros tratamientos se basan en evidencia científica y en el mejor interés del paciente, nunca en incentivos comerciales.',
+    title: locale === 'en' ? 'Honest Dentistry' : 'Odontología Honesta',
+    text:
+      locale === 'en'
+        ? 'We only recommend what you genuinely need. Our treatments are grounded in scientific evidence and the patient’s best interest, never in commercial incentives.'
+        : 'Solo recomendamos lo que realmente necesitas. Nuestros tratamientos se basan en evidencia científica y en el mejor interés del paciente, nunca en incentivos comerciales.',
   },
   {
     icon: Shield,
-    title: 'Transparencia Total',
-    text: 'Diagnósticos claros, presupuestos detallados y tiempos realistas. Creemos que un paciente informado es un paciente con poder de decisión.',
+    title: locale === 'en' ? 'Complete Transparency' : 'Transparencia Total',
+    text:
+      locale === 'en'
+        ? 'Clear diagnoses, detailed quotes and realistic timeframes. We believe an informed patient is a patient empowered to decide.'
+        : 'Diagnósticos claros, presupuestos detallados y tiempos realistas. Creemos que un paciente informado es un paciente con poder de decisión.',
   },
   {
     icon: Sparkles,
-    title: 'Tecnología de Vanguardia',
-    text: 'Escáner intraoral, radiografía digital de baja dosis, laboratorio CAD/CAM in-house. La tecnología al servicio de la precisión y la comodidad.',
+    title: locale === 'en' ? 'Cutting-Edge Technology' : 'Tecnología de Vanguardia',
+    text:
+      locale === 'en'
+        ? 'Intraoral scanner, low-dose digital radiography and an in-house CAD/CAM laboratory. Technology at the service of precision and comfort.'
+        : 'Escáner intraoral, radiografía digital de baja dosis, laboratorio CAD/CAM in-house. La tecnología al servicio de la precisión y la comodidad.',
   },
   {
     icon: Users,
-    title: 'Equipo Multidisciplinar',
-    text: 'Cada especialista en su área. Ortodoncistas, periodoncistas, endodoncistas, implantólogos y técnicos de laboratorio trabajando de forma coordinada.',
+    title: locale === 'en' ? 'Multidisciplinary Team' : 'Equipo Multidisciplinar',
+    text:
+      locale === 'en'
+        ? 'Every specialist in their field. Orthodontists, periodontists, endodontists, implantologists and laboratory technicians working in a coordinated way.'
+        : 'Cada especialista en su área. Ortodoncistas, periodoncistas, endodoncistas, implantólogos y técnicos de laboratorio trabajando de forma coordinada.',
   },
 ]
 
 export default function Nosotros() {
+  const locale = useLocale()
+  const values = getValues(locale)
   return (
     <>
       <Helmet>
-        <title>Sobre Nosotros — Debod Dental Clinic | Odontología Honesta en Argüelles, Madrid</title>
+        <title>{locale === 'en' ? 'About Us — Debod Dental Clinic | Honest Dentistry in Argüelles, Madrid' : 'Sobre Nosotros — Debod Dental Clinic | Odontología Honesta en Argüelles, Madrid'}</title>
         <meta
           name="description"
-          content="Debod Dental Clinic es una clínica dental integral en Argüelles, Madrid. Nuestra filosofía: odontología honesta, transparencia total y tecnología de vanguardia."
+          content={locale === 'en' ? 'Debod Dental Clinic is a full-service dental clinic in Argüelles, Madrid. Our philosophy: honest dentistry, complete transparency and cutting-edge technology.' : 'Debod Dental Clinic es una clínica dental integral en Argüelles, Madrid. Nuestra filosofía: odontología honesta, transparencia total y tecnología de vanguardia.'}
         />
-        <link rel="canonical" href={`${BASE_URL}/nosotros/`} />
-        <meta property="og:title" content="Sobre Nosotros — Debod Dental Clinic" />
-        <meta property="og:url" content={`${BASE_URL}/nosotros/`} />
+        <meta property="og:title" content={locale === 'en' ? 'About Us — Debod Dental Clinic' : 'Sobre Nosotros — Debod Dental Clinic'} />
       </Helmet>
 
       <PageHero
-        subtitle="Nuestra historia"
-        title="La clínica dental de Argüelles"
-        description="Fundada con la convicción de que la odontología puede ser honesta, precisa y cercana — todo al mismo tiempo."
+        subtitle={locale === 'en' ? 'Our story' : 'Nuestra historia'}
+        title={locale === 'en' ? 'The dental clinic of Argüelles' : 'La clínica dental de Argüelles'}
+        description={locale === 'en' ? 'Founded on the conviction that dentistry can be honest, precise and personable — all at the same time.' : 'Fundada con la convicción de que la odontología puede ser honesta, precisa y cercana — todo al mismo tiempo.'}
         imageUrl="/Images/clinica/dsc00141.webp"
       />
 
       <div className="max-w-5xl mx-auto">
         <Breadcrumb
           items={[
-            { label: 'Inicio', href: '/' },
-            { label: 'Nosotros', href: null },
+            { label: locale === 'en' ? 'Home' : 'Inicio', href: locale === 'en' ? enPathFor('/') : '/' },
+            { label: locale === 'en' ? 'About Us' : 'Nosotros', href: null },
           ]}
         />
       </div>
@@ -64,17 +76,31 @@ export default function Nosotros() {
       <section className="py-16 px-4">
         <div className="max-w-3xl mx-auto">
           <p className="font-cormorant text-3xl md:text-4xl text-charcoal font-light italic leading-relaxed mb-8">
-            "La odontología tradicional trata dientes. Nosotros nos comprometemos con tu bienestar integral."
+            {locale === 'en'
+              ? '"Traditional dentistry treats teeth. We commit to your overall wellbeing."'
+              : '"La odontología tradicional trata dientes. Nosotros nos comprometemos con tu bienestar integral."'}
           </p>
           <div className="space-y-5 font-jakarta text-slate-600 text-lg leading-relaxed">
             <p>
-              Debod Dental Clinic nació en el corazón de Argüelles, Madrid, con una premisa clara: ofrecer odontología de alto nivel sin perder el trato humano y cercano que merece cada paciente.
+              {locale === 'en'
+                ? 'Debod Dental Clinic was born in the heart of Argüelles, Madrid, with a clear premise: to deliver high-level dentistry without losing the warm, personable care every patient deserves.'
+                : 'Debod Dental Clinic nació en el corazón de Argüelles, Madrid, con una premisa clara: ofrecer odontología de alto nivel sin perder el trato humano y cercano que merece cada paciente.'}
             </p>
             <p>
-              Nuestro equipo de especialistas comparte una misma filosofía — la <strong className="text-charcoal">odontología honesta</strong> — que se traduce en diagnósticos transparentes, tratamientos basados en evidencia y presupuestos sin letra pequeña.
+              {locale === 'en' ? (
+                <>
+                  Our team of specialists shares one philosophy — <strong className="text-charcoal">honest dentistry</strong> — which translates into transparent diagnoses, evidence-based treatments and quotes with no small print.
+                </>
+              ) : (
+                <>
+                  Nuestro equipo de especialistas comparte una misma filosofía — la <strong className="text-charcoal">odontología honesta</strong> — que se traduce en diagnósticos transparentes, tratamientos basados en evidencia y presupuestos sin letra pequeña.
+                </>
+              )}
             </p>
             <p>
-              Contamos con un laboratorio dental in-house, tecnología de última generación y un espacio diseñado para que cada visita sea una experiencia, no una obligación.
+              {locale === 'en'
+                ? 'We have an in-house dental laboratory, state-of-the-art technology and a space designed so that every visit is an experience, not a chore.'
+                : 'Contamos con un laboratorio dental in-house, tecnología de última generación y un espacio diseñado para que cada visita sea una experiencia, no una obligación.'}
             </p>
           </div>
         </div>
@@ -84,7 +110,7 @@ export default function Nosotros() {
       <section className="py-16 px-4 bg-charcoal">
         <div className="max-w-5xl mx-auto">
           <h2 className="font-cormorant text-4xl font-semibold text-pearl text-center mb-12">
-            Nuestros principios
+            {locale === 'en' ? 'Our principles' : 'Nuestros principios'}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {values.map(({ icon: Icon, title, text }) => (
@@ -105,10 +131,10 @@ export default function Nosotros() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { value: '+15', label: 'Años de experiencia' },
-            { value: ratingSummary.ratingValue, label: 'Valoración Google' },
-            { value: '2023', label: 'Apertura sede actual' },
-            { value: '60m', label: 'Consulta sin prisas' },
+            { value: '+15', label: locale === 'en' ? 'Years of experience' : 'Años de experiencia' },
+            { value: ratingSummary.ratingValue, label: locale === 'en' ? 'Google rating' : 'Valoración Google' },
+            { value: '2023', label: locale === 'en' ? 'Current premises opened' : 'Apertura sede actual' },
+            { value: '60m', label: locale === 'en' ? 'Unhurried consultation' : 'Consulta sin prisas' },
           ].map(({ value, label }) => (
             <div key={label}>
               <div className="font-cormorant text-5xl font-semibold text-gold mb-2">{value}</div>
@@ -119,8 +145,8 @@ export default function Nosotros() {
       </section>
 
       <CtaBand
-        headline="Ven a conocernos sin compromiso"
-        subtext="Primera consulta gratuita. Te explicamos todo lo que necesitas saber sobre tu salud dental."
+        headline={locale === 'en' ? 'Come and meet us, no obligation' : 'Ven a conocernos sin compromiso'}
+        subtext={locale === 'en' ? 'First consultation free. We explain everything you need to know about your dental health.' : 'Primera consulta gratuita. Te explicamos todo lo que necesitas saber sobre tu salud dental.'}
       />
     </>
   )

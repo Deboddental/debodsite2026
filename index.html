@@ -20,7 +20,8 @@
   <!-- Open Graph / Twitter — global defaults only (per-page values come from Helmet) -->
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://deboddentalclinic.com/og-image.jpg" />
-  <meta property="og:locale" content="es_ES" />
+  <!-- og:locale is set per-page via Helmet (es_ES default in RootLayout, en_GB on /en/ pages)
+       so EN pages don't inherit a conflicting second og:locale tag. -->
   <meta name="twitter:card" content="summary_large_image" />
 
   <!-- Structured Data: MedicalClinic + LocalBusiness -->

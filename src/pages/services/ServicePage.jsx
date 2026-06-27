@@ -10,80 +10,79 @@ import FAQ from '../../components/FAQ'
 import JsonLd from '../../components/ui/JsonLd'
 import { servicePageSchema } from '../../data/seo'
 import { serviceFaqs } from '../../data/faqs'
-
-const BASE_URL = 'https://deboddentalclinic.com'
+import { useLocale } from '../../hooks/useLocale'
+import { tf, tfArray, resolveService } from '../../utils/tf'
+import { t } from '../../i18n/ui'
 
 export default function ServicePage() {
   const params = useParams()
   const { pathname } = useLocation()
-  // params are empty for static root-level routes — fall back to pathname
-  const slug = params.specialtySlug || params.serviceSlug
-    || pathname.replace(/^\/|\/$/g, '')
-  const service = services.find((s) => s.slug === slug)
+  const locale = useLocale()
+  // ES root-level slugs and EN mirror slugs carry no param → derive from pathname.
+  const rawSlug = params.specialtySlug || params.serviceSlug
+    || pathname.replace(/^\/(en\/)?(servicios\/)?/, '').replace(/\/$/, '')
+  const service = resolveService(services, rawSlug, locale)
 
-  if (!service) return <Navigate to="/servicios/" replace />
+  if (!service) return <Navigate to={locale === 'en' ? '/en/services/' : '/servicios/'} replace />
 
-  const canonical = `${BASE_URL}/${service.slug}/`
-  const faqs = serviceFaqs[service.slug]
+  const metaTitle = tf(service, 'metaTitle', locale)
+  const metaDescription = tf(service, 'metaDescription', locale)
+  const faqs = (locale === 'en' && serviceFaqs[`${service.slug}_en`]) || serviceFaqs[service.slug]
+  const subj = (tf(service, 'subtitle', locale) || tf(service, 'title', locale) || '').toLowerCase()
+  const faqSubtitle = locale === 'en'
+    ? `Common questions about ${subj} in Argüelles, Madrid.`
+    : `Dudas habituales sobre ${subj} en Argüelles, Madrid.`
 
   return (
     <>
       <Helmet>
-        <title>{service.metaTitle}</title>
-        <meta name="description" content={service.metaDescription} />
-        <link rel="canonical" href={canonical} />
-        {service.enAlternate && <link rel="alternate" hrefLang="es" href={canonical} />}
-        {service.enAlternate && <link rel="alternate" hrefLang="en" href={`${BASE_URL}${service.enAlternate}`} />}
-        {service.enAlternate && <link rel="alternate" hrefLang="x-default" href={canonical} />}
-        <meta property="og:title" content={service.metaTitle} />
-        <meta property="og:description" content={service.metaDescription} />
-        <meta property="og:url" content={canonical} />
+        <title>{metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+        <meta property="og:title" content={metaTitle} />
+        <meta property="og:description" content={metaDescription} />
         <meta property="og:type" content="website" />
-        {service.heroImageUrl && (
-          <meta property="og:image" content={service.heroImageUrl} />
-        )}
+        {service.heroImageUrl && <meta property="og:image" content={service.heroImageUrl} />}
       </Helmet>
 
-      <JsonLd schema={servicePageSchema(service)} />
+      <JsonLd schema={servicePageSchema(service, locale)} />
 
       <PageHero
-        subtitle="Especialidad"
-        title={service.title}
-        description={service.heroText}
+        subtitle={t('service.eyebrow', locale)}
+        title={tf(service, 'title', locale)}
+        description={tf(service, 'heroText', locale)}
         imageUrl={service.heroImageUrl}
       />
 
       <div className="max-w-6xl mx-auto">
         <Breadcrumb
           items={[
-            { label: 'Inicio', href: '/' },
-            { label: 'Servicios', href: '/servicios/' },
-            { label: service.title, href: null },
+            { label: t('crumb.home', locale), href: locale === 'en' ? '/en/' : '/' },
+            { label: t('crumb.services', locale), href: locale === 'en' ? '/en/services/' : '/servicios/' },
+            { label: tf(service, 'title', locale), href: null },
           ]}
         />
       </div>
 
       <div className="max-w-4xl mx-auto px-4 md:px-8 py-12">
-        <MarkdownBody>{service.bodyMarkdown}</MarkdownBody>
+        <MarkdownBody>{tf(service, 'bodyMarkdown', locale)}</MarkdownBody>
       </div>
 
-      {service.relatedTreatments?.length > 0 && (
+      {tfArray(service, 'relatedTreatments', locale).length > 0 && (
         <RelatedGrid
-          items={service.relatedTreatments}
-          title="Tratamientos disponibles"
+          items={tfArray(service, 'relatedTreatments', locale)}
+          title={t('service.relatedTitle', locale)}
         />
       )}
 
       {faqs?.length > 0 && (
-        <FAQ
-          faqs={faqs}
-          subtitle={`Dudas habituales sobre ${service.subtitle?.toLowerCase() || service.title.toLowerCase()} en Argüelles, Madrid.`}
-        />
+        <FAQ faqs={faqs} eyebrow={t('faq.eyebrow', locale)} subtitle={faqSubtitle} />
       )}
 
       <CtaBand
-        headline="Tu salud dental merece lo mejor"
-        subtext="Reserva una consulta con nuestros especialistas y descubre el enfoque de la odontología honesta."
+        headline={t('service.ctaHeadline', locale)}
+        subtext={t('service.ctaSubtext', locale)}
+        ctaLabel={t('cta.defaultLabel', locale)}
+        ctaTo={locale === 'en' ? '/en/contact/' : '/contacto/'}
       />
     </>
   )

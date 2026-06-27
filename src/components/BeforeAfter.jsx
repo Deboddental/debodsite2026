@@ -4,10 +4,11 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ArrowLeftRight } from 'lucide-react'
 import { beforeAfterCases as cases } from '../data/cases'
+import { useLocale } from '../hooks/useLocale'
 
 gsap.registerPlugin(ScrollTrigger)
 
-function Slider({ before, after }) {
+function Slider({ before, after, locale }) {
   const containerRef = useRef(null)
   const [position, setPosition] = useState(50)
   const dragging = useRef(false)
@@ -43,7 +44,7 @@ function Slider({ before, after }) {
       {/* After — full base layer */}
       <img
         src={after}
-        alt="Resultado final"
+        alt={locale === 'en' ? 'Final result' : 'Resultado final'}
         className="absolute inset-0 w-full h-full object-cover object-center"
         draggable={false}
         loading="lazy"
@@ -53,7 +54,7 @@ function Slider({ before, after }) {
       {/* Before — clipped by clip-path */}
       <img
         src={before}
-        alt="Estado inicial"
+        alt={locale === 'en' ? 'Initial state' : 'Estado inicial'}
         className="absolute inset-0 w-full h-full object-cover object-center transition-none"
         style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
         draggable={false}
@@ -77,16 +78,16 @@ function Slider({ before, after }) {
 
       {/* Labels */}
       <span className="absolute top-4 left-4 px-3 py-1 rounded-full bg-charcoal/70 backdrop-blur-md text-white font-jakarta text-xs font-semibold tracking-wide pointer-events-none">
-        ANTES
+        {locale === 'en' ? 'BEFORE' : 'ANTES'}
       </span>
       <span className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gold/90 backdrop-blur-md text-charcoal font-jakarta text-xs font-semibold tracking-wide pointer-events-none">
-        DESPUÉS
+        {locale === 'en' ? 'AFTER' : 'DESPUÉS'}
       </span>
 
       {/* Hint — fades after first interaction */}
       <div className="absolute inset-0 flex items-end justify-center pb-5 pointer-events-none">
         <span className="font-jakarta text-white/60 text-xs tracking-widest uppercase bg-charcoal/40 backdrop-blur-sm px-4 py-1.5 rounded-full">
-          Arrastra para comparar
+          {locale === 'en' ? 'Drag to compare' : 'Arrastra para comparar'}
         </span>
       </div>
     </div>
@@ -138,34 +139,36 @@ export default function BeforeAfter() {
 
   const [active, setActive] = useState(0)
   const c = cases[active]
+  const locale = useLocale()
 
   return (
     <section
       ref={sectionRef}
       id="casos"
       className="bg-pearl py-24 md:py-32 px-6 md:px-12 lg:px-20 overflow-hidden"
-      aria-label="Casos clínicos — Antes y Después"
+      aria-label={locale === 'en' ? 'Clinical cases — Before & After' : 'Casos clínicos — Antes y Después'}
     >
       <div className="max-w-5xl mx-auto">
 
         {/* Header */}
         <div ref={headRef} className="text-center mb-14 space-y-4">
           <span className="font-jakarta text-xs text-gold font-semibold tracking-widest uppercase">
-            Resultados Reales · Pacientes Reales
+            {locale === 'en' ? 'Real Results · Real Patients' : 'Resultados Reales · Pacientes Reales'}
           </span>
           <h2 className="font-cormorant font-semibold text-4xl md:text-6xl text-charcoal leading-tight">
-            Nuestros casos<br />
-            <em className="font-light italic text-gold">nos respaldan.</em>
+            {locale === 'en' ? 'Our results' : 'Nuestros casos'}<br />
+            <em className="font-light italic text-gold">{locale === 'en' ? 'speak for themselves.' : 'nos respaldan.'}</em>
           </h2>
           <p className="font-jakarta text-slate text-base md:text-lg max-w-xl mx-auto leading-relaxed">
-            Cada sonrisa es única. Cada transformación, medida al milímetro.<br className="hidden md:block" />
-            Sin filtros. Sin retoques. Solo odontología de precisión.
+            {locale === 'en'
+              ? <>Every smile is unique. Every transformation, measured to the millimetre.<br className="hidden md:block" />No filters. No retouching. Just precision dentistry.</>
+              : <>Cada sonrisa es única. Cada transformación, medida al milímetro.<br className="hidden md:block" />Sin filtros. Sin retoques. Solo odontología de precisión.</>}
           </p>
         </div>
 
         {/* Slider */}
         <div ref={sliderRef}>
-          <Slider key={c.slug} before={c.before} after={c.after} />
+          <Slider key={c.slug} before={c.before} after={c.after} locale={locale} />
         </div>
 
         {/* Case info */}
@@ -180,23 +183,23 @@ export default function BeforeAfter() {
           </div>
 
           <Link
-            to="/contacto/"
+            to={locale === 'en' ? '/en/contact/' : '/contacto/'}
             className="btn-magnetic shrink-0 inline-flex items-center gap-2 bg-charcoal text-white font-outfit font-semibold text-sm px-7 py-3.5 rounded-full hover:bg-charcoal/80 transition-colors duration-300"
           >
-            Quiero mi transformación →
+            {locale === 'en' ? 'I want my transformation →' : 'Quiero mi transformación →'}
           </Link>
         </div>
 
         {/* Case selector — thumbnails of each result */}
         {cases.length > 1 && (
-          <div className="mt-10 flex flex-wrap justify-center gap-3" role="tablist" aria-label="Más casos clínicos">
+          <div className="mt-10 flex flex-wrap justify-center gap-3" role="tablist" aria-label={locale === 'en' ? 'More clinical cases' : 'Más casos clínicos'}>
             {cases.map((item, i) => (
               <button
                 key={item.slug}
                 type="button"
                 role="tab"
                 aria-selected={i === active}
-                aria-label={`Ver caso de ${item.patient}`}
+                aria-label={locale === 'en' ? `View ${item.patient}'s case` : `Ver caso de ${item.patient}`}
                 onClick={() => setActive(i)}
                 className={`relative w-16 h-16 rounded-2xl overflow-hidden border-2 transition-all duration-300 ${
                   i === active ? 'border-gold scale-105 shadow-lg shadow-black/10' : 'border-transparent opacity-60 hover:opacity-100'

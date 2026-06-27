@@ -10,7 +10,7 @@ export const barrios = [
     title: 'Dentista en Moncloa, Madrid',
     metaTitle: 'Dentista en Moncloa, Madrid — Debod Dental Clinic',
     metaDescription:
-      'Clínica dental en Moncloa, Madrid. A pocos minutos en metro (L3) desde Moncloa. Implantes, ortodoncia invisible, estética dental y rehabilitación oral. Pide cita: +34 689 10 47 14.',
+      'Clínica dental en Moncloa, Madrid. A pocos minutos en metro (L3) desde Moncloa. Implantes, ortodoncia invisible, estética dental y rehabilitación oral. Pide cita: +34 914 47 62 25.',
     heroText:
       'Si vives o trabajas en Moncloa, tienes una clínica dental de referencia a un paso: Debod Dental Clinic, en C. de Ferraz, 24, junto a Argüelles.',
     distancia: 'A 1 parada de metro (L3) o unos 10 minutos andando desde Moncloa.',
@@ -32,7 +32,7 @@ Ofrecemos odontología integral —**implantología digital, ortodoncia invisibl
     faqs: [
       { question: '¿Dónde está la clínica dental más cercana a Moncloa?', answer: 'Debod Dental Clinic está en C. de Ferraz, 24, en la frontera entre Argüelles y Moncloa, a 1–2 paradas de metro (línea 3) desde Moncloa. Es la clínica dental de referencia para el distrito Moncloa-Aravaca.' },
       { question: '¿Cómo llego a la clínica desde Moncloa?', answer: 'En metro por la línea 3 (Moncloa → Argüelles o Ventura Rodríguez) en pocos minutos, andando unos 10–15 minutos por la calle Princesa, o en autobús por Princesa/Ferraz.' },
-      { question: '¿Atendéis urgencias dentales para pacientes de Moncloa?', answer: 'Sí. Las urgencias dentales se atienden el mismo día. Llámanos o escríbenos por WhatsApp al +34 689 10 47 14 y te damos hueco lo antes posible.' },
+      { question: '¿Atendéis urgencias dentales para pacientes de Moncloa?', answer: 'Sí. Las urgencias dentales se atienden el mismo día. Llámanos al +34 914 47 62 25 o escríbenos por WhatsApp al +34 689 10 47 14 y te damos hueco lo antes posible.' },
       { question: '¿Qué tratamientos puedo hacerme cerca de Moncloa?', answer: 'Odontología general, implantes dentales con cirugía guiada 3D, ortodoncia invisible (Invisalign®), carillas y diseño de sonrisa, endodoncia, periodoncia, cirugía oral y odontopediatría, todo en la misma clínica con laboratorio propio.' },
     ],
   },
@@ -42,7 +42,7 @@ Ofrecemos odontología integral —**implantología digital, ortodoncia invisibl
     title: 'Dentista en Chamberí, Madrid',
     metaTitle: 'Dentista en Chamberí, Madrid — Debod Dental Clinic',
     metaDescription:
-      'Clínica dental cerca de Chamberí, Madrid. Implantes, Invisalign®, estética dental y rehabilitación oral en Argüelles, a pocos minutos de Chamberí. Cita: +34 689 10 47 14.',
+      'Clínica dental cerca de Chamberí, Madrid. Implantes, Invisalign®, estética dental y rehabilitación oral en Argüelles, a pocos minutos de Chamberí. Cita: +34 914 47 62 25.',
     heroText:
       'A los vecinos de Chamberí que buscan una clínica dental boutique y cercana, Debod Dental Clinic les espera en C. de Ferraz, 24, en Argüelles.',
     distancia: 'A pocos minutos de Chamberí, en el barrio contiguo de Argüelles.',
@@ -74,7 +74,7 @@ Somos una clínica dental boutique especializada en **rehabilitación oral, impl
     title: 'Dentista en el Centro de Madrid',
     metaTitle: 'Dentista en el Centro de Madrid (Sol) — Debod Dental Clinic',
     metaDescription:
-      'Clínica dental cerca del centro de Madrid. A pocas paradas de Sol y Gran Vía por la línea 3 de metro. Implantes, Invisalign®, estética y rehabilitación oral. Cita: +34 689 10 47 14.',
+      'Clínica dental cerca del centro de Madrid. A pocas paradas de Sol y Gran Vía por la línea 3 de metro. Implantes, Invisalign®, estética y rehabilitación oral. Cita: +34 914 47 62 25.',
     heroText:
       'Desde el centro de Madrid (Sol, Gran Vía, Callao) llegas a Debod Dental Clinic en pocos minutos por la línea 3 de metro.',
     distancia: 'A pocas paradas de Sol/Callao por la línea 3 de metro.',
@@ -96,7 +96,7 @@ Es una clínica dental boutique de **rehabilitación oral, implantología digita
     faqs: [
       { question: '¿Cuál es la mejor clínica dental cerca del centro de Madrid?', answer: 'Debod Dental Clinic, en C. de Ferraz, 24, está a pocos minutos del centro (Sol, Callao, Gran Vía) por la línea 3 de metro, ofreciendo atención boutique sin el tráfico ni el aparcamiento del centro.' },
       { question: '¿Cómo llego desde Sol o Gran Vía?', answer: 'En metro por la línea 3 hasta Plaza de España o Ventura Rodríguez (a un par de minutos de la clínica), andando unos 15–20 minutos, o en autobús por Gran Vía y Princesa.' },
-      { question: '¿Atendéis urgencias el mismo día?', answer: 'Sí. Las urgencias dentales se atienden el mismo día. Escríbenos por WhatsApp o llama al +34 689 10 47 14.' },
+      { question: '¿Atendéis urgencias el mismo día?', answer: 'Sí. Las urgencias dentales se atienden el mismo día. Escríbenos por WhatsApp al +34 689 10 47 14 o llámanos al +34 914 47 62 25.' },
       { question: '¿Qué tratamientos ofrecéis?', answer: 'Odontología general, implantes con cirugía guiada 3D, Invisalign®, carillas y diseño de sonrisa, endodoncia, periodoncia, cirugía oral y odontopediatría, con laboratorio in-house.' },
     ],
   },
@@ -106,7 +106,7 @@ Es una clínica dental boutique de **rehabilitación oral, implantología digita
     title: 'Dentista en Plaza de España, Madrid',
     metaTitle: 'Dentista en Plaza de España, Madrid — Debod Dental Clinic',
     metaDescription:
-      'Clínica dental junto a Plaza de España, Madrid. En C. de Ferraz, 24, a un paso de Plaza de España y el Templo de Debod. Implantes, Invisalign®, estética dental. Cita: +34 689 10 47 14.',
+      'Clínica dental junto a Plaza de España, Madrid. En C. de Ferraz, 24, a un paso de Plaza de España y el Templo de Debod. Implantes, Invisalign®, estética dental. Cita: +34 914 47 62 25.',
     heroText:
       'Debod Dental Clinic está literalmente a un paso de Plaza de España: en C. de Ferraz, 24, junto al Templo de Debod.',
     distancia: 'A pocos minutos andando de Plaza de España, en la propia calle Ferraz.',
@@ -128,7 +128,7 @@ Somos una clínica dental boutique especializada en **rehabilitación oral, impl
     faqs: [
       { question: '¿Hay un dentista junto a Plaza de España?', answer: 'Sí. Debod Dental Clinic está en C. de Ferraz, 24 —la calle Ferraz nace en Plaza de España—, a pocos minutos andando y junto al Templo de Debod. Es la clínica dental más cercana a Plaza de España.' },
       { question: '¿Qué metro me deja en la clínica?', answer: 'Plaza de España (líneas 3 y 10) y Ventura Rodríguez (línea 3) están a un paso de la clínica, en la propia calle Ferraz.' },
-      { question: '¿Atendéis urgencias dentales?', answer: 'Sí, el mismo día. Llama o escribe por WhatsApp al +34 689 10 47 14 y te atendemos cuanto antes.' },
+      { question: '¿Atendéis urgencias dentales?', answer: 'Sí, el mismo día. Llama al +34 914 47 62 25 o escribe por WhatsApp al +34 689 10 47 14 y te atendemos cuanto antes.' },
       { question: '¿Qué tratamientos hacéis?', answer: 'Odontología general, implantología digital, ortodoncia invisible (Invisalign®), estética dental y diseño de sonrisa, endodoncia, periodoncia, cirugía oral y odontopediatría, con laboratorio propio.' },
     ],
   },
@@ -136,3 +136,7 @@ Somos una clínica dental boutique especializada en **rehabilitación oral, impl
 
 export const getBarrio = (slug) => barrios.find((b) => b.slug === slug)
 export default barrios
+
+import { mergeEn } from '../utils/tf.js'
+import { barriosEn } from '../i18n/content/barrios.en.js'
+mergeEn(barrios, barriosEn)

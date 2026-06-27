@@ -7,24 +7,21 @@ import ElfsightReviews from '../components/ElfsightReviews'
 import JsonLd from '../components/ui/JsonLd'
 import { reviews } from '../data/reviews'
 import { homeReviewsSchema, breadcrumbSchema } from '../data/seo'
-
-const BASE_URL = 'https://deboddentalclinic.com'
+import { useLocale } from '../hooks/useLocale'
+import { enPathFor } from '../i18n/slugs'
 
 export default function Resenas() {
-  const canonical = `${BASE_URL}/resenas/`
-
+  const locale = useLocale()
   return (
     <>
       <Helmet>
-        <title>Reseñas y opiniones de pacientes — Debod Dental Clinic, Argüelles Madrid</title>
+        <title>{locale === 'en' ? 'Patient reviews and testimonials — Debod Dental Clinic, Argüelles Madrid' : 'Reseñas y opiniones de pacientes — Debod Dental Clinic, Argüelles Madrid'}</title>
         <meta
           name="description"
-          content="Opiniones reales de pacientes de Debod Dental Clinic en Argüelles, Madrid. 4,9 estrellas en Google. Lee experiencias sobre implantes, ortodoncia invisible, diseño de sonrisa y rehabilitación oral."
+          content={locale === 'en' ? 'Real patient reviews of Debod Dental Clinic in Argüelles, Madrid. 4.9 stars on Google. Read experiences about dental implants, invisible orthodontics, smile design and full oral rehabilitation.' : 'Opiniones reales de pacientes de Debod Dental Clinic en Argüelles, Madrid. 4,9 estrellas en Google. Lee experiencias sobre implantes, ortodoncia invisible, diseño de sonrisa y rehabilitación oral.'}
         />
-        <link rel="canonical" href={canonical} />
-        <meta property="og:title" content="Reseñas de pacientes — Debod Dental Clinic" />
-        <meta property="og:description" content="Opiniones reales de pacientes de Debod Dental Clinic en Argüelles, Madrid. 4,9 estrellas en Google." />
-        <meta property="og:url" content={canonical} />
+        <meta property="og:title" content={locale === 'en' ? 'Patient reviews — Debod Dental Clinic' : 'Reseñas de pacientes — Debod Dental Clinic'} />
+        <meta property="og:description" content={locale === 'en' ? 'Real patient reviews of Debod Dental Clinic in Argüelles, Madrid. 4.9 stars on Google.' : 'Opiniones reales de pacientes de Debod Dental Clinic en Argüelles, Madrid. 4,9 estrellas en Google.'} />
         <meta property="og:type" content="website" />
       </Helmet>
 
@@ -33,35 +30,35 @@ export default function Resenas() {
       <JsonLd schema={homeReviewsSchema(reviews)} />
       <JsonLd
         schema={breadcrumbSchema([
-          { label: 'Inicio', href: '/' },
-          { label: 'Reseñas', href: null },
+          { label: locale === 'en' ? 'Home' : 'Inicio', href: locale === 'en' ? enPathFor('/') : '/' },
+          { label: locale === 'en' ? 'Reviews' : 'Reseñas', href: null },
         ])}
       />
 
       <PageHero
-        subtitle="Opiniones"
-        title="Lo que dicen nuestros pacientes"
-        description="Cientos de valoraciones reales con una media de 4,9 estrellas en Google. Estas son las experiencias de quienes ya confían en Debod Dental Clinic."
+        subtitle={locale === 'en' ? 'Reviews' : 'Opiniones'}
+        title={locale === 'en' ? 'What our patients say' : 'Lo que dicen nuestros pacientes'}
+        description={locale === 'en' ? 'Hundreds of genuine reviews with an average of 4.9 stars on Google. These are the experiences of those who already trust Debod Dental Clinic.' : 'Cientos de valoraciones reales con una media de 4,9 estrellas en Google. Estas son las experiencias de quienes ya confían en Debod Dental Clinic.'}
       />
 
       <div className="max-w-6xl mx-auto">
         <Breadcrumb
           items={[
-            { label: 'Inicio', href: '/' },
-            { label: 'Reseñas', href: null },
+            { label: locale === 'en' ? 'Home' : 'Inicio', href: locale === 'en' ? enPathFor('/') : '/' },
+            { label: locale === 'en' ? 'Reviews' : 'Reseñas', href: null },
           ]}
         />
       </div>
 
       {/* Reseñas reales en vivo desde Google (widget Elfsight) */}
-      <section className="py-14 md:py-16 px-6 md:px-12 lg:px-20" aria-label="Reseñas de Google">
+      <section className="py-14 md:py-16 px-6 md:px-12 lg:px-20" aria-label={locale === 'en' ? 'Google reviews' : 'Reseñas de Google'}>
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8">
             <span className="font-jakarta text-xs text-gold font-semibold tracking-widest uppercase mb-3 block">
               Google Reviews
             </span>
             <h2 className="font-outfit font-bold text-3xl md:text-4xl text-charcoal tracking-tight">
-              Opiniones de nuestros pacientes en Google
+              {locale === 'en' ? 'Reviews from our patients on Google' : 'Opiniones de nuestros pacientes en Google'}
             </h2>
           </div>
           <ElfsightReviews />
@@ -71,8 +68,8 @@ export default function Resenas() {
       <VideoTestimonials />
 
       <CtaBand
-        headline="¿Quieres ser nuestro próximo caso de éxito?"
-        subtext="Reserva tu primera visita diagnóstica y comprueba por qué nos valoran con cinco estrellas."
+        headline={locale === 'en' ? 'Would you like to be our next success story?' : '¿Quieres ser nuestro próximo caso de éxito?'}
+        subtext={locale === 'en' ? 'Book your first diagnostic visit and see why our patients rate us five stars.' : 'Reserva tu primera visita diagnóstica y comprueba por qué nos valoran con cinco estrellas.'}
       />
     </>
   )

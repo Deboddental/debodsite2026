@@ -11,6 +11,7 @@ import { blogPosts } from '../src/data/blog.js'
 import { teamMembers } from '../src/data/team.js'
 import { barrios } from '../src/data/barrios.js'
 import { enLandings } from '../src/data/enLandings.js'
+import { enRoutesFromSlugs } from '../src/i18n/slugs.js'
 
 // Static, hand-maintained routes.
 export const staticRoutes = [
@@ -28,6 +29,7 @@ export const staticRoutes = [
   '/servicios/',
   '/blog/',
   '/equipo/',
+  '/en/',
 ]
 
 // Dynamic routes derived from the data layer.
@@ -41,7 +43,7 @@ export function getDynamicRoutes() {
   return [...serviceRoutes, ...treatmentRoutes, ...blogRoutes, ...teamRoutes, ...barrioRoutes, ...enRoutes]
 }
 
-// Full route list (static + dynamic), de-duplicated.
+// Full route list (static ES + dynamic ES + full EN mirror), de-duplicated.
 export function getAllRoutes() {
-  return [...new Set([...staticRoutes, ...getDynamicRoutes()])]
+  return [...new Set([...staticRoutes, ...getDynamicRoutes(), ...enRoutesFromSlugs()])]
 }

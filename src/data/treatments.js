@@ -1026,3 +1026,7 @@ La respuesta honesta es: **toda la vida**, aunque con menor frecuencia con el pa
 ]
 
 export default treatments
+
+import { mergeEn } from '../utils/tf.js'
+import { treatmentsEn } from '../i18n/content/treatments.en.js'
+mergeEn(treatments, treatmentsEn)

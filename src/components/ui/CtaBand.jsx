@@ -1,14 +1,22 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
+import { useLocale } from '../../hooks/useLocale'
+import { t } from '../../i18n/ui'
 
 export default function CtaBand({
-  headline = '¿Listo para transformar tu sonrisa?',
-  subtext = 'Pide tu consulta gratuita con nuestro equipo de especialistas.',
-  ctaLabel = 'Agendar consulta gratuita',
-  ctaTo = '/contacto/',
+  headline,
+  subtext,
+  ctaLabel,
+  ctaTo,
   variant = 'gold', // 'gold' | 'dark'
 }) {
+  const locale = useLocale()
   const isGold = variant === 'gold'
+  headline = headline ?? t('cta.defaultHeadline', locale)
+  subtext = subtext ?? t('cta.defaultSubtext', locale)
+  ctaLabel = ctaLabel ?? t('cta.defaultLabel', locale)
+  // Default the CTA target to the locale-correct contact page.
+  ctaTo = ctaTo ?? (locale === 'en' ? '/en/contact/' : '/contacto/')
   return (
     <section
       className={`py-20 px-4 ${isGold ? 'bg-gold' : 'bg-charcoal'}`}

@@ -1,8 +1,12 @@
 // ── SEO / JSON-LD Factory Functions ─────────────────────────
 
 import { teamMembers } from './team.js'
+import { tf } from '../utils/tf'
+import { t } from '../i18n/ui'
+import { serviceSlugEn, treatmentSlugEn, barrioSlugEn, blogSlugEn } from '../i18n/slugs'
 
 const BASE_URL = 'https://deboddentalclinic.com'
+const langTag = (locale) => (locale === 'en' ? 'en' : 'es-ES')
 const CLINIC_ID = `${BASE_URL}/#clinic`
 // Freshness signal for AI/search. Bump on meaningful content updates.
 const LAST_UPDATED = '2026-06-25'
@@ -37,58 +41,67 @@ export function faqSchema(faqs) {
   }
 }
 
-export function servicePageSchema(service) {
+export function servicePageSchema(service, locale = 'es') {
+  const isEn = locale === 'en'
+  const url = isEn ? `${BASE_URL}/en/${serviceSlugEn[service.slug] || service.slug}/` : `${BASE_URL}/${service.slug}/`
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'MedicalWebPage',
-        '@id': `${BASE_URL}/${service.slug}/`,
-        url: `${BASE_URL}/${service.slug}/`,
-        name: service.metaTitle,
-        description: service.metaDescription,
-        inLanguage: 'es-ES',
+        '@id': url,
+        url,
+        name: tf(service, 'metaTitle', locale),
+        description: tf(service, 'metaDescription', locale),
+        inLanguage: langTag(locale),
         dateModified: LAST_UPDATED,
         lastReviewed: LAST_UPDATED,
         reviewedBy: { '@id': CLINIC_ID },
         about: {
           '@type': 'MedicalSpecialty',
-          name: service.title,
-          relevantSpecialty: service.title,
+          name: tf(service, 'title', locale),
+          relevantSpecialty: tf(service, 'title', locale),
           availableAtOrFrom: { '@id': CLINIC_ID },
         },
         isPartOf: { '@id': `${BASE_URL}/#website` },
       },
       breadcrumbSchema([
-        { label: 'Inicio', href: '/' },
-        { label: 'Servicios', href: '/servicios/' },
-        { label: service.title, href: null },
+        { label: t('crumb.home', locale), href: isEn ? '/en/' : '/' },
+        { label: t('crumb.services', locale), href: isEn ? '/en/services/' : '/servicios/' },
+        { label: tf(service, 'title', locale), href: null },
       ]),
     ],
   }
 }
 
-export function treatmentPageSchema(treatment) {
+export function treatmentPageSchema(treatment, locale = 'es') {
+  const isEn = locale === 'en'
+  const url = isEn
+    ? `${BASE_URL}/en/treatments/${treatmentSlugEn[treatment.slug] || treatment.slug}/`
+    : `${BASE_URL}/tratamientos/${treatment.slug}/`
+  const parentHref = treatment.specialty
+    ? (isEn ? `/en/${serviceSlugEn[treatment.specialty] || 'services'}/` : `/${treatment.specialty}/`)
+    : (isEn ? '/en/services/' : '/servicios/')
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'MedicalProcedure',
-        '@id': `${BASE_URL}/tratamientos/${treatment.slug}/`,
-        name: treatment.title,
-        description: treatment.metaDescription,
-        url: `${BASE_URL}/tratamientos/${treatment.slug}/`,
+        '@id': url,
+        name: tf(treatment, 'title', locale),
+        description: tf(treatment, 'metaDescription', locale),
+        url,
         procedureType: 'SurgicalProcedure',
         status: 'EventScheduled',
         performedBy: { '@id': CLINIC_ID },
         dateModified: LAST_UPDATED,
-        preparation: treatment.bodyMarkdown?.substring(0, 200),
+        preparation: tf(treatment, 'bodyMarkdown', locale)?.substring(0, 200),
       },
       breadcrumbSchema([
-        { label: 'Inicio', href: '/' },
-        { label: 'Servicios', href: '/servicios/' },
-        { label: treatment.subtitle || 'Tratamientos', href: treatment.specialty ? `/${treatment.specialty}/` : '/servicios/' },
-        { label: treatment.title, href: null },
+        { label: t('crumb.home', locale), href: isEn ? '/en/' : '/' },
+        { label: t('crumb.services', locale), href: isEn ? '/en/services/' : '/servicios/' },
+        { label: tf(treatment, 'subtitle', locale) || t('crumb.services', locale), href: parentHref },
+        { label: tf(treatment, 'title', locale), href: null },
       ]),
     ],
   }
@@ -96,17 +109,19 @@ export function treatmentPageSchema(treatment) {
 
 // Local-SEO landing for a Madrid neighbourhood. Reinforces the clinic as the
 // dentist serving that barrio (areaServed) without declaring a second business.
-export function barrioPageSchema(barrio) {
+export function barrioPageSchema(barrio, locale = 'es') {
+  const isEn = locale === 'en'
+  const url = isEn ? `${BASE_URL}/en/${barrioSlugEn[barrio.slug] || barrio.slug}/` : `${BASE_URL}/${barrio.slug}/`
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'MedicalWebPage',
-        '@id': `${BASE_URL}/${barrio.slug}/`,
-        url: `${BASE_URL}/${barrio.slug}/`,
-        name: barrio.metaTitle,
-        description: barrio.metaDescription,
-        inLanguage: 'es-ES',
+        '@id': url,
+        url,
+        name: tf(barrio, 'metaTitle', locale),
+        description: tf(barrio, 'metaDescription', locale),
+        inLanguage: langTag(locale),
         dateModified: LAST_UPDATED,
         about: { '@id': CLINIC_ID },
         mainEntity: { '@id': CLINIC_ID },
@@ -114,9 +129,9 @@ export function barrioPageSchema(barrio) {
         areaServed: { '@type': 'Place', name: `${barrio.barrio}, Madrid` },
       },
       breadcrumbSchema([
-        { label: 'Inicio', href: '/' },
-        { label: 'Ubicaciones', href: '/ubicaciones/' },
-        { label: barrio.title, href: null },
+        { label: t('crumb.home', locale), href: isEn ? '/en/' : '/' },
+        { label: t('crumb.locations', locale), href: isEn ? '/en/locations/' : '/ubicaciones/' },
+        { label: tf(barrio, 'title', locale), href: null },
       ]),
     ],
   }
@@ -150,6 +165,35 @@ export function enLandingSchema(landing) {
   }
 }
 
+// English hub home (/en/) — the entry point for international/expat patients.
+// inLanguage en, references the same clinic entity; Spanish home is the x-default.
+export function enHomeSchema() {
+  const url = `${BASE_URL}/en/`
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'MedicalWebPage',
+        '@id': url,
+        url,
+        name: 'English-Speaking Dental Clinic in Madrid — Debod Dental Clinic',
+        description:
+          'Boutique English-speaking dental clinic in central Madrid (Argüelles): implants, Invisalign®, porcelain veneers and full oral rehabilitation, with an in-house digital lab.',
+        inLanguage: 'en',
+        dateModified: LAST_UPDATED,
+        about: { '@id': CLINIC_ID },
+        mainEntity: { '@id': CLINIC_ID },
+        isPartOf: { '@id': `${BASE_URL}/#website` },
+        areaServed: { '@type': 'City', name: 'Madrid' },
+      },
+      breadcrumbSchema([
+        { label: 'Home', href: '/' },
+        { label: 'English', href: null },
+      ]),
+    ],
+  }
+}
+
 // Resolve the medical author/reviewer of a post (E-E-A-T for YMYL health content).
 const DEFAULT_AUTHOR_SLUG = 'dr-cesar-rodriguez'
 export function postAuthor(post) {
@@ -160,19 +204,23 @@ export function postAuthor(post) {
   )
 }
 
-export function blogPostSchema(post) {
+export function blogPostSchema(post, locale = 'es') {
+  const isEn = locale === 'en'
   const doc = postAuthor(post)
   const personNode = {
     '@type': 'Person',
     name: doc.name,
-    url: `${BASE_URL}/equipo/${doc.slug}/`,
-    jobTitle: doc.title,
+    url: `${BASE_URL}${isEn ? '/en/team/' : '/equipo/'}${doc.slug}/`,
+    jobTitle: tf(doc, 'title', locale),
     worksFor: { '@id': CLINIC_ID },
     ...(doc.colegiadoNum
       ? { identifier: { '@type': 'PropertyValue', propertyID: 'Nº Colegiado (COEM)', value: doc.colegiadoNum } }
       : {}),
   }
-  const url = `${BASE_URL}/blog/${post.category}/${post.slug}/`
+  const m = blogSlugEn[post.slug]
+  const url = isEn
+    ? `${BASE_URL}/en/blog/${m?.en_cat || post.category}/${m?.en || post.slug}/`
+    : `${BASE_URL}/blog/${post.category}/${post.slug}/`
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -180,8 +228,8 @@ export function blogPostSchema(post) {
         '@type': 'BlogPosting',
         '@id': url,
         mainEntityOfPage: url,
-        headline: post.title,
-        description: post.metaDescription,
+        headline: tf(post, 'title', locale),
+        description: tf(post, 'metaDescription', locale),
         image: post.heroImageUrl ? `${BASE_URL}${post.heroImageUrl}` : `${BASE_URL}/og-image.jpg`,
         url,
         datePublished: post.publishDate,
@@ -194,38 +242,40 @@ export function blogPostSchema(post) {
           name: 'Debod Dental Clinic',
           logo: { '@type': 'ImageObject', url: `${BASE_URL}/logo.png` },
         },
-        inLanguage: 'es-ES',
-        isPartOf: { '@id': `${BASE_URL}/blog/` },
+        inLanguage: langTag(locale),
+        isPartOf: { '@id': `${BASE_URL}${isEn ? '/en/blog/' : '/blog/'}` },
       },
       breadcrumbSchema([
-        { label: 'Inicio', href: '/' },
-        { label: 'Blog', href: '/blog/' },
-        { label: post.categoryLabel || post.category, href: '/blog/' },
-        { label: post.title, href: null },
+        { label: t('crumb.home', locale), href: isEn ? '/en/' : '/' },
+        { label: t('crumb.blog', locale), href: isEn ? '/en/blog/' : '/blog/' },
+        { label: tf(post, 'categoryLabel', locale) || post.category, href: isEn ? '/en/blog/' : '/blog/' },
+        { label: tf(post, 'title', locale), href: null },
       ]),
     ],
   }
 }
 
-export function doctorProfileSchema(doctor) {
+export function doctorProfileSchema(doctor, locale = 'es') {
+  const isEn = locale === 'en'
+  const url = `${BASE_URL}${isEn ? '/en/team/' : '/equipo/'}${doctor.slug}/`
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': doctor.schemaType || 'Physician',
-        '@id': `${BASE_URL}/equipo/${doctor.slug}/`,
+        '@id': url,
         name: doctor.name,
-        jobTitle: doctor.title,
-        url: `${BASE_URL}/equipo/${doctor.slug}/`,
+        jobTitle: tf(doctor, 'title', locale),
+        url,
         image: doctor.photoUrl?.startsWith('http') ? doctor.photoUrl : `${BASE_URL}${doctor.photoUrl}`,
         ...(doctor.colegiadoNum ? { identifier: `Colegiado Nº ${doctor.colegiadoNum}` } : {}),
         worksFor: { '@id': CLINIC_ID },
-        knowsAbout: doctor.specialties || [],
-        description: doctor.bioMarkdown?.substring(0, 300),
+        knowsAbout: tf(doctor, 'specialties', locale) || [],
+        description: tf(doctor, 'bioMarkdown', locale)?.substring(0, 300),
       },
       breadcrumbSchema([
-        { label: 'Inicio', href: '/' },
-        { label: 'Equipo', href: '/equipo/' },
+        { label: t('crumb.home', locale), href: isEn ? '/en/' : '/' },
+        { label: t('crumb.team', locale), href: isEn ? '/en/team/' : '/equipo/' },
         { label: doctor.name, href: null },
       ]),
     ],

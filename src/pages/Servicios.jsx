@@ -5,38 +5,35 @@ import { services } from '../data/services'
 import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
 import CtaBand from '../components/ui/CtaBand'
-
-const BASE_URL = 'https://deboddentalclinic.com'
+import { useLocale } from '../hooks/useLocale'
+import { tf } from '../utils/tf'
+import { enPathFor } from '../i18n/slugs'
 
 export default function Servicios() {
+  const locale = useLocale()
   return (
     <>
       <Helmet>
-        <title>Servicios Dentales en Argüelles, Madrid | Debod Dental Clinic</title>
+        <title>{locale === 'en' ? 'Dental Services in Argüelles, Madrid | Debod Dental Clinic' : 'Servicios Dentales en Argüelles, Madrid | Debod Dental Clinic'}</title>
         <meta
           name="description"
-          content="Clínica dental integral en Argüelles, Madrid. Ortodoncia, implantes, endodoncia, periodoncia, odontopediatría, estética dental y cirugía oral. Equipo de especialistas."
+          content={locale === 'en' ? 'Comprehensive dental clinic in Argüelles, Madrid. Orthodontics, dental implants, root canal, periodontics, paediatric dentistry, cosmetic dentistry and oral surgery. A team of specialists.' : 'Clínica dental integral en Argüelles, Madrid. Ortodoncia, implantes, endodoncia, periodoncia, odontopediatría, estética dental y cirugía oral. Equipo de especialistas.'}
         />
-        <link rel="canonical" href={`${BASE_URL}/servicios/`} />
-        <link rel="alternate" hrefLang="es" href={`${BASE_URL}/servicios/`} />
-        <link rel="alternate" hrefLang="en" href={`${BASE_URL}/en/english-speaking-dentist-madrid/`} />
-        <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}/servicios/`} />
-        <meta property="og:title" content="Servicios Dentales — Debod Dental Clinic" />
-        <meta property="og:url" content={`${BASE_URL}/servicios/`} />
+        <meta property="og:title" content={locale === 'en' ? 'Dental Services — Debod Dental Clinic' : 'Servicios Dentales — Debod Dental Clinic'} />
       </Helmet>
 
       <PageHero
-        subtitle="Especialidades"
-        title="Servicios Dentales"
-        description="Un equipo multidisciplinar de especialistas para cubrir todas las necesidades de tu salud dental bajo el mismo techo."
+        subtitle={locale === 'en' ? 'Specialities' : 'Especialidades'}
+        title={locale === 'en' ? 'Dental Services' : 'Servicios Dentales'}
+        description={locale === 'en' ? 'A multidisciplinary team of specialists to cover all your dental health needs under one roof.' : 'Un equipo multidisciplinar de especialistas para cubrir todas las necesidades de tu salud dental bajo el mismo techo.'}
         imageUrl="/Images/clinica/dsc00147.webp"
       />
 
       <div className="max-w-6xl mx-auto">
         <Breadcrumb
           items={[
-            { label: 'Inicio', href: '/' },
-            { label: 'Servicios', href: null },
+            { label: locale === 'en' ? 'Home' : 'Inicio', href: locale === 'en' ? enPathFor('/') : '/' },
+            { label: locale === 'en' ? 'Services' : 'Servicios', href: null },
           ]}
         />
       </div>
@@ -46,14 +43,14 @@ export default function Servicios() {
           {services.map((service) => (
             <Link
               key={service.slug}
-              to={`/${service.slug}/`}
+              to={locale === 'en' ? enPathFor(`/${service.slug}/`) : `/${service.slug}/`}
               className="group bg-white rounded-3xl overflow-hidden border border-slate-100 hover:border-gold hover:shadow-xl transition-all duration-300"
             >
               {service.heroImageUrl && (
                 <div className="h-52 overflow-hidden">
                   <img
                     src={service.heroImageUrl}
-                    alt={service.title}
+                    alt={tf(service, 'title', locale)}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
@@ -61,13 +58,13 @@ export default function Servicios() {
               )}
               <div className="p-6">
                 <h2 className="font-outfit font-semibold text-charcoal text-xl mb-2 group-hover:text-gold transition-colors duration-200">
-                  {service.title}
+                  {tf(service, 'title', locale)}
                 </h2>
                 <p className="font-jakarta text-slate-500 text-sm leading-relaxed mb-4 line-clamp-3">
-                  {service.heroText}
+                  {tf(service, 'heroText', locale)}
                 </p>
                 <span className="inline-flex items-center gap-1 text-gold text-sm font-medium group-hover:gap-2 transition-all duration-200">
-                  Ver especialidad <ArrowRight size={14} />
+                  {locale === 'en' ? 'View speciality' : 'Ver especialidad'} <ArrowRight size={14} />
                 </span>
               </div>
             </Link>
@@ -76,8 +73,8 @@ export default function Servicios() {
       </section>
 
       <CtaBand
-        headline="¿No sabes qué especialista necesitas?"
-        subtext="Llámanos o escríbenos — te orientamos sin compromiso hacia el profesional adecuado para tu caso."
+        headline={locale === 'en' ? 'Not sure which specialist you need?' : '¿No sabes qué especialista necesitas?'}
+        subtext={locale === 'en' ? 'Call us on +34 914 47 62 25 or message us on WhatsApp at +34 689 10 47 14 — we will guide you, with no obligation, to the right professional for your case.' : 'Llámanos o escríbenos — te orientamos sin compromiso hacia el profesional adecuado para tu caso.'}
         variant="dark"
       />
     </>

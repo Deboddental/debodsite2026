@@ -8,15 +8,16 @@ import Breadcrumb from '../../components/ui/Breadcrumb'
 import JsonLd from '../../components/ui/JsonLd'
 import CtaBand from '../../components/ui/CtaBand'
 import { blogIndexSchema } from '../../data/seo'
-
-const BASE_URL = 'https://deboddentalclinic.com'
+import { useLocale } from '../../hooks/useLocale'
+import { tf } from '../../utils/tf'
+import { enPathFor } from '../../i18n/slugs'
 
 const CATEGORIES = [
-  { value: 'all', label: 'Todos' },
-  { value: 'salud-dental', label: 'Salud Dental' },
-  { value: 'ortodoncia', label: 'Ortodoncia' },
-  { value: 'implantes', label: 'Implantes' },
-  { value: 'estetica-dental', label: 'Estética Dental' },
+  { value: 'all', label: 'Todos', labelEn: 'All' },
+  { value: 'salud-dental', label: 'Salud Dental', labelEn: 'Dental Health' },
+  { value: 'ortodoncia', label: 'Ortodoncia', labelEn: 'Orthodontics' },
+  { value: 'implantes', label: 'Implantes', labelEn: 'Dental Implants' },
+  { value: 'estetica-dental', label: 'Estética Dental', labelEn: 'Dental Aesthetics' },
 ]
 
 // Normaliza texto: quita tildes, ñ→n, minúsculas
@@ -34,11 +35,12 @@ function normalize(str = '') {
 function matches(post, query) {
   const q = normalize(query)
   if (!q) return true
-  return (
-    normalize(post.title).includes(q) ||
-    normalize(post.excerpt).includes(q) ||
-    normalize(post.categoryLabel || post.category).includes(q)
-  )
+  // Search both languages so EN and ES terms both match.
+  const fields = [
+    post.title, post.excerpt, post.categoryLabel || post.category,
+    post.title_en, post.excerpt_en, post.categoryLabel_en,
+  ]
+  return fields.some((f) => f && normalize(f).includes(q))
 }
 
 // Resalta la parte que coincide en el texto de la sugerencia
@@ -58,6 +60,7 @@ function Highlight({ text, query }) {
 }
 
 export default function BlogIndex() {
+  const locale = useLocale()
   const navigate = useNavigate()
   const [activeCategory, setActiveCategory] = useState('all')
   const [query, setQuery] = useState('')
@@ -106,14 +109,12 @@ export default function BlogIndex() {
   return (
     <>
       <Helmet>
-        <title>Blog Dental — Consejos de Salud Dental en Argüelles, Madrid | Debod Dental</title>
+        <title>{locale === 'en' ? 'Dental Blog — Dental Health Advice in Argüelles, Madrid | Debod Dental' : 'Blog Dental — Consejos de Salud Dental en Argüelles, Madrid | Debod Dental'}</title>
         <meta
           name="description"
-          content="Artículos y consejos de salud dental escritos por el equipo especialista de Debod Dental Clinic en Argüelles, Madrid. Ortodoncia, implantes, estética dental y más."
+          content={locale === 'en' ? 'Articles and dental health advice written by the specialist team at Debod Dental Clinic in Argüelles, Madrid. Orthodontics, dental implants, dental aesthetics and more.' : 'Artículos y consejos de salud dental escritos por el equipo especialista de Debod Dental Clinic en Argüelles, Madrid. Ortodoncia, implantes, estética dental y más.'}
         />
-        <link rel="canonical" href={`${BASE_URL}/blog/`} />
         <meta property="og:title" content="Blog Dental — Debod Dental Clinic" />
-        <meta property="og:url" content={`${BASE_URL}/blog/`} />
         <meta property="og:type" content="website" />
       </Helmet>
 
@@ -121,15 +122,15 @@ export default function BlogIndex() {
 
       <PageHero
         subtitle="Blog"
-        title="Consejos de Salud Dental"
-        description="Artículos escritos por nuestro equipo de especialistas para que cuides tu sonrisa con conocimiento y confianza."
+        title={locale === 'en' ? 'Dental Health Advice' : 'Consejos de Salud Dental'}
+        description={locale === 'en' ? 'Articles written by our team of specialists to help you care for your smile with knowledge and confidence.' : 'Artículos escritos por nuestro equipo de especialistas para que cuides tu sonrisa con conocimiento y confianza.'}
         imageUrl="/Images/clinica/dsc00259.webp"
       />
 
       <div className="max-w-6xl mx-auto">
         <Breadcrumb
           items={[
-            { label: 'Inicio', href: '/' },
+            { label: locale === 'en' ? 'Home' : 'Inicio', href: locale === 'en' ? enPathFor('/') : '/' },
             { label: 'Blog', href: null },
           ]}
         />
@@ -149,14 +150,14 @@ export default function BlogIndex() {
               onChange={handleChange}
               onFocus={() => query.length >= 1 && setOpen(true)}
               onKeyDown={handleKey}
-              placeholder="Buscar artículo…"
+              placeholder={locale === 'en' ? 'Search articles…' : 'Buscar artículo…'}
               autoComplete="off"
               className="w-full pl-11 pr-10 py-3 rounded-2xl border border-slate-200 bg-white font-jakarta text-sm text-charcoal placeholder:text-slate-400 focus:outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 transition-all duration-200"
             />
             {query && (
               <button
                 onClick={handleClear}
-                aria-label="Limpiar búsqueda"
+                aria-label={locale === 'en' ? 'Clear search' : 'Limpiar búsqueda'}
                 className="absolute right-3 p-1 text-slate-400 hover:text-charcoal transition-colors"
               >
                 <X size={15} />
@@ -174,17 +175,17 @@ export default function BlogIndex() {
                     e.preventDefault()
                     setOpen(false)
                     setQuery('')
-                    navigate(`/blog/${post.category}/${post.slug}/`)
+                    navigate(locale === 'en' ? enPathFor(`/blog/${post.category}/${post.slug}/`) : `/blog/${post.category}/${post.slug}/`)
                   }}
                   className={`w-full text-left px-4 py-3 flex items-center gap-3 hover:bg-gold/6 transition-colors duration-150 ${i > 0 ? 'border-t border-slate-100' : ''}`}
                 >
                   <Search size={13} className="text-slate-300 shrink-0" />
                   <div className="min-w-0">
                     <p className="font-outfit text-sm font-medium text-charcoal truncate">
-                      <Highlight text={post.title} query={query} />
+                      <Highlight text={tf(post, 'title', locale)} query={query} />
                     </p>
                     <p className="font-jakarta text-xs text-slate-400 mt-0.5">
-                      {post.categoryLabel || post.category}
+                      {tf(post, 'categoryLabel', locale) || post.category}
                     </p>
                   </div>
                   <ArrowRight size={13} className="text-gold shrink-0 ml-auto" />
@@ -192,7 +193,7 @@ export default function BlogIndex() {
               ))}
               {suggestions.length === 6 && (
                 <div className="px-4 py-2 border-t border-slate-100 text-center">
-                  <span className="font-jakarta text-xs text-slate-400">Refina tu búsqueda para ver más resultados</span>
+                  <span className="font-jakarta text-xs text-slate-400">{locale === 'en' ? 'Refine your search to see more results' : 'Refina tu búsqueda para ver más resultados'}</span>
                 </div>
               )}
             </div>
@@ -201,8 +202,8 @@ export default function BlogIndex() {
           {/* No results hint */}
           {open && query.length >= 1 && suggestions.length === 0 && (
             <div className="absolute top-full left-0 right-0 mt-1.5 bg-white border border-slate-200 rounded-2xl shadow-xl shadow-black/8 z-50 px-4 py-5 text-center">
-              <p className="font-jakarta text-sm text-slate-500">Sin resultados para <strong className="text-charcoal">"{query}"</strong></p>
-              <p className="font-jakarta text-xs text-slate-400 mt-1">Intenta con otra palabra clave</p>
+              <p className="font-jakarta text-sm text-slate-500">{locale === 'en' ? 'No results for' : 'Sin resultados para'} <strong className="text-charcoal">"{query}"</strong></p>
+              <p className="font-jakarta text-xs text-slate-400 mt-1">{locale === 'en' ? 'Try another keyword' : 'Intenta con otra palabra clave'}</p>
             </div>
           )}
         </div>
@@ -219,7 +220,7 @@ export default function BlogIndex() {
                   : 'bg-white border border-slate-200 text-slate-600 hover:border-gold hover:text-gold'
               }`}
             >
-              {cat.label}
+              {locale === 'en' ? cat.labelEn : cat.label}
             </button>
           ))}
         </div>
@@ -229,10 +230,14 @@ export default function BlogIndex() {
       {query && (
         <div className="max-w-6xl mx-auto px-4 md:px-8 pb-2">
           <p className="font-jakarta text-sm text-slate-500">
-            {filtered.length === 0
-              ? 'Sin resultados'
-              : `${filtered.length} artículo${filtered.length !== 1 ? 's' : ''} encontrado${filtered.length !== 1 ? 's' : ''}`}
-            {' '}para <strong className="text-charcoal">"{query}"</strong>
+            {locale === 'en'
+              ? (filtered.length === 0
+                  ? 'No results'
+                  : `${filtered.length} article${filtered.length !== 1 ? 's' : ''} found`)
+              : (filtered.length === 0
+                  ? 'Sin resultados'
+                  : `${filtered.length} artículo${filtered.length !== 1 ? 's' : ''} encontrado${filtered.length !== 1 ? 's' : ''}`)}
+            {' '}{locale === 'en' ? 'for' : 'para'} <strong className="text-charcoal">"{query}"</strong>
           </p>
         </div>
       )}
@@ -241,9 +246,9 @@ export default function BlogIndex() {
       <div className="max-w-6xl mx-auto px-4 md:px-8 pb-20">
         {filtered.length === 0 ? (
           <div className="text-center py-20">
-            <p className="font-outfit text-lg text-slate-400 mb-2">No encontramos artículos</p>
+            <p className="font-outfit text-lg text-slate-400 mb-2">{locale === 'en' ? 'No articles found' : 'No encontramos artículos'}</p>
             <button onClick={handleClear} className="font-jakarta text-sm text-gold hover:underline">
-              Ver todos los artículos →
+              {locale === 'en' ? 'View all articles →' : 'Ver todos los artículos →'}
             </button>
           </div>
         ) : (
@@ -251,14 +256,14 @@ export default function BlogIndex() {
             {filtered.map((post) => (
               <Link
                 key={post.slug}
-                to={`/blog/${post.category}/${post.slug}/`}
+                to={locale === 'en' ? enPathFor(`/blog/${post.category}/${post.slug}/`) : `/blog/${post.category}/${post.slug}/`}
                 className="group bg-white rounded-3xl overflow-hidden border border-slate-100 hover:border-gold hover:shadow-xl transition-all duration-300"
               >
                 {post.heroImageUrl && (
                   <div className="overflow-hidden h-52">
                     <img
                       src={post.heroImageUrl}
-                      alt={post.title}
+                      alt={tf(post, 'title', locale)}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
                     />
@@ -266,19 +271,19 @@ export default function BlogIndex() {
                 )}
                 <div className="p-6">
                   <span className="inline-block mb-3 px-3 py-1 bg-gold/10 text-gold text-xs font-outfit font-semibold rounded-full uppercase tracking-wide">
-                    {post.categoryLabel || post.category}
+                    {tf(post, 'categoryLabel', locale) || post.category}
                   </span>
                   <h2 className="font-outfit font-semibold text-charcoal text-lg leading-snug mb-3 group-hover:text-gold transition-colors duration-200">
-                    {post.title}
+                    {tf(post, 'title', locale)}
                   </h2>
                   <p className="font-jakarta text-slate-500 text-sm leading-relaxed mb-4 line-clamp-3">
-                    {post.excerpt}
+                    {tf(post, 'excerpt', locale)}
                   </p>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2 text-slate-400 text-xs">
                       <Calendar size={13} />
                       <span>
-                        {new Date(post.publishDate).toLocaleDateString('es-ES', {
+                        {new Date(post.publishDate).toLocaleDateString(locale === 'en' ? 'en-GB' : 'es-ES', {
                           day: 'numeric',
                           month: 'long',
                           year: 'numeric',
@@ -286,7 +291,7 @@ export default function BlogIndex() {
                       </span>
                     </div>
                     <span className="inline-flex items-center gap-1 text-gold text-sm font-medium group-hover:gap-2 transition-all duration-200">
-                      Leer <ArrowRight size={14} />
+                      {locale === 'en' ? 'Read' : 'Leer'} <ArrowRight size={14} />
                     </span>
                   </div>
                 </div>
@@ -297,8 +302,8 @@ export default function BlogIndex() {
       </div>
 
       <CtaBand
-        headline="¿Tu salud dental al día?"
-        subtext="Agenda una revisión con nuestro equipo de especialistas en Argüelles, Madrid."
+        headline={locale === 'en' ? 'Is your dental health up to date?' : '¿Tu salud dental al día?'}
+        subtext={locale === 'en' ? 'Book a check-up with our team of specialists in Argüelles, Madrid.' : 'Agenda una revisión con nuestro equipo de especialistas en Argüelles, Madrid.'}
         variant="dark"
       />
     </>

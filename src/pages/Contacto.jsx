@@ -3,6 +3,8 @@ import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import { MapPin, Phone, Mail, Clock, ArrowUpRight, ChevronDown, CheckCircle, Loader2 } from 'lucide-react'
 import { getTrackingData } from '../utils/tracking'
+import { useLocale } from '../hooks/useLocale'
+import { enPathFor } from '../i18n/slugs'
 
 const WA_NUMBER = '34689104714'
 
@@ -76,15 +78,15 @@ const inputBase =
 
 const labelBase = 'block font-jakarta text-white/60 text-xs font-semibold uppercase tracking-wider mb-2'
 
-function validateForm(formData) {
+function validateForm(formData, locale) {
   const errors = {}
-  if (!formData.firstName.trim()) errors.firstName = 'Introduce tu nombre.'
-  if (!formData.lastName.trim())  errors.lastName  = 'Introduce tu apellido.'
+  if (!formData.firstName.trim()) errors.firstName = locale === 'en' ? 'Enter your first name.' : 'Introduce tu nombre.'
+  if (!formData.lastName.trim())  errors.lastName  = locale === 'en' ? 'Enter your surname.' : 'Introduce tu apellido.'
   const email = formData.email.trim()
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
-    errors.email = 'Introduce un email válido.'
+    errors.email = locale === 'en' ? 'Enter a valid email address.' : 'Introduce un email válido.'
   const digits = formData.telefono.replace(/\D/g, '')
-  if (digits.length < 6) errors.telefono = 'Introduce un teléfono válido.'
+  if (digits.length < 6) errors.telefono = locale === 'en' ? 'Enter a valid phone number.' : 'Introduce un teléfono válido.'
   return errors
 }
 
@@ -96,6 +98,29 @@ async function sha256Hex(value) {
 }
 
 export default function Contacto() {
+  const locale = useLocale()
+  const serviciosLabels = {
+    'Rehabilitación Oral': locale === 'en' ? 'Full Oral Rehabilitation' : 'Rehabilitación Oral',
+    'Implantes Dentales': locale === 'en' ? 'Dental Implants' : 'Implantes Dentales',
+    'Odontología Estética': locale === 'en' ? 'Cosmetic Dentistry' : 'Odontología Estética',
+    'Ortodoncia / Invisalign': locale === 'en' ? 'Orthodontics / Invisalign®' : 'Ortodoncia / Invisalign',
+    'Periodoncia': locale === 'en' ? 'Periodontics' : 'Periodoncia',
+    'Endodoncia': locale === 'en' ? 'Root Canal / Endodontics' : 'Endodoncia',
+    'Odontopediatría': locale === 'en' ? 'Paediatric Dentistry' : 'Odontopediatría',
+    'Cirugía Oral': locale === 'en' ? 'Oral Surgery' : 'Cirugía Oral',
+    'Otro Servicio': locale === 'en' ? 'Other Service' : 'Otro Servicio',
+  }
+  const comoOpcionesLabels = {
+    'Google / Búsqueda': locale === 'en' ? 'Google / Search' : 'Google / Búsqueda',
+    'Google Maps': 'Google Maps',
+    'Instagram': 'Instagram',
+    'Facebook': 'Facebook',
+    'TikTok': 'TikTok',
+    'Recomendación de un paciente': locale === 'en' ? 'Recommended by a patient' : 'Recomendación de un paciente',
+    'Recomendación de un doctor': locale === 'en' ? 'Recommended by a doctor' : 'Recomendación de un doctor',
+    'Pasé por la clínica': locale === 'en' ? 'Walked past the clinic' : 'Pasé por la clínica',
+    'Otro': locale === 'en' ? 'Other' : 'Otro',
+  }
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -122,14 +147,14 @@ export default function Contacto() {
   async function handleSubmit(e) {
     e.preventDefault()
 
-    const validationErrors = validateForm(formData)
+    const validationErrors = validateForm(formData, locale)
     if (Object.keys(validationErrors).length > 0) {
-      setError('Revisa los campos marcados antes de enviar.')
+      setError(locale === 'en' ? 'Please review the highlighted fields before submitting.' : 'Revisa los campos marcados antes de enviar.')
       return
     }
 
     if (!formData.consent) {
-      setError('Debes aceptar la política de privacidad para enviar el formulario.')
+      setError(locale === 'en' ? 'You must accept the privacy policy to submit the form.' : 'Debes aceptar la política de privacidad para enviar el formulario.')
       return
     }
 
@@ -234,7 +259,7 @@ export default function Contacto() {
     setLoading(false)
 
     if (!ok) {
-      setError('No pudimos enviar tu solicitud. Inténtalo de nuevo o escríbenos por WhatsApp.')
+      setError(locale === 'en' ? 'We could not send your request. Please try again or message us on WhatsApp.' : 'No pudimos enviar tu solicitud. Inténtalo de nuevo o escríbenos por WhatsApp.')
       return
     }
 
@@ -245,12 +270,11 @@ export default function Contacto() {
   return (
     <>
       <Helmet>
-        <title>Contacto — Debod Dental Clinic · Argüelles, Madrid</title>
+        <title>{locale === 'en' ? 'Contact — Debod Dental Clinic · Argüelles, Madrid' : 'Contacto — Debod Dental Clinic · Argüelles, Madrid'}</title>
         <meta
           name="description"
-          content="Agenda tu cita en Debod Dental Clinic. Especialistas en Rehabilitación Oral, Implantología y Estética Dental en Argüelles, Madrid. Primera visita diagnóstica incluida."
+          content={locale === 'en' ? 'Book your appointment at Debod Dental Clinic. Specialists in full oral rehabilitation, implantology and cosmetic dentistry in Argüelles, Madrid. First diagnostic visit included.' : 'Agenda tu cita en Debod Dental Clinic. Especialistas en Rehabilitación Oral, Implantología y Estética Dental en Argüelles, Madrid. Primera visita diagnóstica incluida.'}
         />
-        <link rel="canonical" href="https://deboddentalclinic.com/contacto/" />
       </Helmet>
 
       {/* Hero */}
@@ -259,21 +283,21 @@ export default function Contacto() {
         <div className="relative max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center">
           {/* Breadcrumb */}
           <nav className="flex items-center justify-center gap-2 font-jakarta text-xs text-white/40 mb-6">
-            <Link to="/" className="hover:text-gold transition-colors">Inicio</Link>
+            <Link to={locale === 'en' ? enPathFor('/') : '/'} className="hover:text-gold transition-colors">{locale === 'en' ? 'Home' : 'Inicio'}</Link>
             <span>/</span>
-            <span className="text-white/70">Contacto</span>
+            <span className="text-white/70">{locale === 'en' ? 'Contact' : 'Contacto'}</span>
           </nav>
           <div className="inline-flex items-center gap-2 mb-5 px-4 py-1.5 rounded-full border border-gold/30 bg-gold/8 backdrop-blur-sm">
             <span className="w-1.5 h-1.5 rounded-full bg-gold pulse-dot" />
             <span className="font-jakarta text-gold text-xs font-semibold tracking-widest uppercase">
-              Argüelles, Madrid · Primera visita incluida
+              {locale === 'en' ? 'Argüelles, Madrid · First visit included' : 'Argüelles, Madrid · Primera visita incluida'}
             </span>
           </div>
           <h1 className="font-outfit font-extrabold text-4xl md:text-6xl text-white mb-4 leading-tight">
-            Agenda tu <em className="font-cormorant font-light italic text-gold not-italic">cita</em>
+            {locale === 'en' ? 'Book your ' : 'Agenda tu '}<em className="font-cormorant font-light italic text-gold not-italic">{locale === 'en' ? 'appointment' : 'cita'}</em>
           </h1>
           <p className="font-jakarta text-white/60 text-base md:text-lg max-w-lg mx-auto">
-            Rellena el formulario y te contactamos en menos de 24 h — o te abrimos WhatsApp directamente.
+            {locale === 'en' ? 'Fill in the form and we will contact you within 24 h — or we open WhatsApp for you directly.' : 'Rellena el formulario y te contactamos en menos de 24 h — o te abrimos WhatsApp directamente.'}
           </p>
         </div>
       </section>
@@ -286,7 +310,7 @@ export default function Contacto() {
             {/* Left — info */}
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="font-outfit font-bold text-xl text-white mb-6">Información de contacto</h2>
+                <h2 className="font-outfit font-bold text-xl text-white mb-6">{locale === 'en' ? 'Contact information' : 'Información de contacto'}</h2>
                 <address className="not-italic space-y-5">
                   <div className="flex gap-3.5">
                     <div className="w-9 h-9 rounded-full bg-gold/10 border border-gold/20 flex items-center justify-center shrink-0">
@@ -295,7 +319,7 @@ export default function Contacto() {
                     <div>
                       <p className="font-jakarta text-white/80 text-sm">C. de Ferraz, 24</p>
                       <p className="font-jakarta text-white/50 text-sm">Argüelles · Moncloa-Aravaca</p>
-                      <p className="font-jakarta text-white/50 text-sm">28008 Madrid, España</p>
+                      <p className="font-jakarta text-white/50 text-sm">{locale === 'en' ? '28008 Madrid, Spain' : '28008 Madrid, España'}</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3.5">
@@ -319,8 +343,8 @@ export default function Contacto() {
                       <Clock size={15} className="text-gold" />
                     </div>
                     <div>
-                      <p className="font-jakarta text-white/80 text-sm">Lun – Vie: 9:00 – 20:00</p>
-                      <p className="font-jakarta text-white/50 text-sm">Sáb: 9:00 – 14:00</p>
+                      <p className="font-jakarta text-white/80 text-sm">{locale === 'en' ? 'Mon – Fri: 9:00 – 20:00' : 'Lun – Vie: 9:00 – 20:00'}</p>
+                      <p className="font-jakarta text-white/50 text-sm">{locale === 'en' ? 'Sat: 9:00 – 14:00' : 'Sáb: 9:00 – 14:00'}</p>
                     </div>
                   </div>
                 </address>
@@ -332,17 +356,22 @@ export default function Contacto() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 font-jakarta text-sm font-semibold text-gold hover:underline"
               >
-                Ver en Google Maps <ArrowUpRight size={14} />
+                {locale === 'en' ? 'View on Google Maps' : 'Ver en Google Maps'} <ArrowUpRight size={14} />
               </a>
 
               {/* Trust signals */}
               <div className="border-t border-white/8 pt-6 space-y-3">
-                {[
+                {(locale === 'en' ? [
+                  'First diagnostic visit at no cost',
+                  'Reply within 24 h',
+                  'Personalised quote with no obligation',
+                  'Financing of up to 60 months available',
+                ] : [
                   'Primera visita diagnóstica sin coste',
                   'Respuesta en menos de 24 h',
                   'Presupuesto personalizado y sin compromiso',
                   'Financiación hasta 60 meses disponible',
-                ].map((item) => (
+                ]).map((item) => (
                   <div key={item} className="flex items-start gap-2.5">
                     <span className="w-4 h-4 rounded-full bg-gold/15 flex items-center justify-center shrink-0 mt-0.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-gold" />
@@ -362,20 +391,20 @@ export default function Contacto() {
                       <CheckCircle size={30} className="text-emerald-400" />
                     </div>
                     <div>
-                      <h3 className="font-outfit font-bold text-xl text-white mb-2">¡Mensaje enviado!</h3>
+                      <h3 className="font-outfit font-bold text-xl text-white mb-2">{locale === 'en' ? 'Message sent!' : '¡Mensaje enviado!'}</h3>
                       <p className="font-jakarta text-white/60 text-sm">
-                        Abriendo WhatsApp para confirmar tu cita…
+                        {locale === 'en' ? 'Opening WhatsApp to confirm your appointment…' : 'Abriendo WhatsApp para confirmar tu cita…'}
                       </p>
                     </div>
                     <p className="font-jakarta text-white/40 text-xs">
-                      ¿No se abrió?{' '}
+                      {locale === 'en' ? "Didn't it open?" : '¿No se abrió?'}{' '}
                       <a
                         href={`https://wa.me/${WA_NUMBER}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gold hover:underline"
                       >
-                        Toca aquí para abrir WhatsApp
+                        {locale === 'en' ? 'Tap here to open WhatsApp' : 'Toca aquí para abrir WhatsApp'}
                       </a>
                     </p>
                   </div>
@@ -394,7 +423,7 @@ export default function Contacto() {
                     {/* Nombre + Apellido */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
-                        <label className={labelBase}>Nombre *</label>
+                        <label className={labelBase}>{locale === 'en' ? 'First name *' : 'Nombre *'}</label>
                         <input
                           type="text"
                           name="firstName"
@@ -406,7 +435,7 @@ export default function Contacto() {
                         />
                       </div>
                       <div>
-                        <label className={labelBase}>Apellido *</label>
+                        <label className={labelBase}>{locale === 'en' ? 'Surname *' : 'Apellido *'}</label>
                         <input
                           type="text"
                           name="lastName"
@@ -421,21 +450,21 @@ export default function Contacto() {
 
                     {/* Email */}
                     <div>
-                      <label className={labelBase}>Email *</label>
+                      <label className={labelBase}>{locale === 'en' ? 'Email *' : 'Email *'}</label>
                       <input
                         type="email"
                         name="email"
                         required
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="maria@ejemplo.com"
+                        placeholder={locale === 'en' ? 'maria@example.com' : 'maria@ejemplo.com'}
                         className={inputBase}
                       />
                     </div>
 
                     {/* Teléfono con country code */}
                     <div>
-                      <label className={labelBase}>Teléfono / WhatsApp *</label>
+                      <label className={labelBase}>{locale === 'en' ? 'Phone / WhatsApp *' : 'Teléfono / WhatsApp *'}</label>
                       <div className="flex items-stretch rounded-xl bg-white/5 border border-white/10 focus-within:border-gold/50 focus-within:bg-white/8 transition-all duration-300 overflow-hidden">
                         <div className="relative flex items-center border-r border-white/10 shrink-0">
                           <select
@@ -468,7 +497,7 @@ export default function Contacto() {
 
                     {/* Servicio */}
                     <div>
-                      <label className={labelBase}>Servicio de interés</label>
+                      <label className={labelBase}>{locale === 'en' ? 'Service of interest' : 'Servicio de interés'}</label>
                       {formData.servicio === 'Otro Servicio' ? (
                         <div className="relative">
                           <input
@@ -476,7 +505,7 @@ export default function Contacto() {
                             name="otroServicio"
                             value={formData.otroServicio}
                             onChange={handleChange}
-                            placeholder="Especifica el servicio…"
+                            placeholder={locale === 'en' ? 'Specify the service…' : 'Especifica el servicio…'}
                             autoFocus
                             className={`${inputBase} pr-20`}
                           />
@@ -485,7 +514,7 @@ export default function Contacto() {
                             onClick={() => setFormData((prev) => ({ ...prev, servicio: '', otroServicio: '' }))}
                             className="absolute right-3 top-1/2 -translate-y-1/2 text-gold/70 font-jakarta text-xs hover:text-gold transition-colors"
                           >
-                            ← Volver
+                            {locale === 'en' ? '← Back' : '← Volver'}
                           </button>
                         </div>
                       ) : (
@@ -496,9 +525,9 @@ export default function Contacto() {
                             onChange={handleChange}
                             className={`${inputBase} appearance-none pr-10`}
                           >
-                            <option value="">Seleccionar…</option>
+                            <option value="">{locale === 'en' ? 'Select…' : 'Seleccionar…'}</option>
                             {servicios.map((s) => (
-                              <option key={s} value={s} className="bg-charcoal">{s}</option>
+                              <option key={s} value={s} className="bg-charcoal">{serviciosLabels[s]}</option>
                             ))}
                           </select>
                           <ChevronDown size={14} className="absolute right-3 top-1/2 -translate-y-1/2 text-white/40 pointer-events-none" />
@@ -508,7 +537,7 @@ export default function Contacto() {
 
                     {/* Cómo nos conociste */}
                     <div>
-                      <label className={labelBase}>¿Cómo nos conociste?</label>
+                      <label className={labelBase}>{locale === 'en' ? 'How did you hear about us?' : '¿Cómo nos conociste?'}</label>
                       <div className="relative">
                         <select
                           name="comoNosConocio"
@@ -516,9 +545,9 @@ export default function Contacto() {
                           onChange={handleChange}
                           className={`${inputBase} appearance-none pr-10`}
                         >
-                          <option value="">Seleccionar…</option>
+                          <option value="">{locale === 'en' ? 'Select…' : 'Seleccionar…'}</option>
                           {comoOpciones.map((o) => (
-                            <option key={o} value={o} className="bg-charcoal">{o}</option>
+                            <option key={o} value={o} className="bg-charcoal">{comoOpcionesLabels[o]}</option>
                           ))}
                         </select>
                         <ChevronDown size={14} className="absolute right-3 top-1/2 -translate-y-1/2 text-white/40 pointer-events-none" />
@@ -527,13 +556,13 @@ export default function Contacto() {
 
                     {/* Mensaje */}
                     <div>
-                      <label className={labelBase}>Mensaje (opcional)</label>
+                      <label className={labelBase}>{locale === 'en' ? 'Message (optional)' : 'Mensaje (opcional)'}</label>
                       <textarea
                         name="mensaje"
                         rows={3}
                         value={formData.mensaje}
                         onChange={handleChange}
-                        placeholder="Cuéntanos brevemente tu caso o cualquier duda…"
+                        placeholder={locale === 'en' ? 'Tell us briefly about your case or any questions…' : 'Cuéntanos brevemente tu caso o cualquier duda…'}
                         className={`${inputBase} resize-none`}
                       />
                     </div>
@@ -548,9 +577,9 @@ export default function Contacto() {
                       className="w-full flex items-center justify-center gap-3 bg-gold text-charcoal font-outfit font-bold text-sm py-4 rounded-full hover:bg-gold-light transition-colors duration-300 disabled:opacity-60 disabled:cursor-not-allowed shadow-lg shadow-gold/20"
                     >
                       {loading ? (
-                        <><Loader2 size={16} className="animate-spin" /> Enviando…</>
+                        <><Loader2 size={16} className="animate-spin" /> {locale === 'en' ? 'Sending…' : 'Enviando…'}</>
                       ) : (
-                        'Enviar y confirmar por WhatsApp'
+                        locale === 'en' ? 'Send and confirm via WhatsApp' : 'Enviar y confirmar por WhatsApp'
                       )}
                     </button>
 
@@ -563,10 +592,10 @@ export default function Contacto() {
                         className="mt-0.5 accent-gold"
                       />
                       <span className="font-jakarta text-white/40 text-xs">
-                        He leído y acepto la{' '}
-                        <Link to="/politica-de-privacidad/" className="text-white/60 hover:text-gold underline">
-                          política de privacidad
-                        </Link>{' '}y el tratamiento de mis datos para gestionar mi solicitud.
+                        {locale === 'en' ? 'I have read and accept the' : 'He leído y acepto la'}{' '}
+                        <Link to={locale === 'en' ? enPathFor('/politica-de-privacidad/') : '/politica-de-privacidad/'} className="text-white/60 hover:text-gold underline">
+                          {locale === 'en' ? 'privacy policy' : 'política de privacidad'}
+                        </Link>{' '}{locale === 'en' ? 'and the processing of my data to manage my request.' : 'y el tratamiento de mis datos para gestionar mi solicitud.'}
                       </span>
                     </label>
                   </form>

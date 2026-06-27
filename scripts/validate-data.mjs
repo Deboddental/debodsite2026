@@ -5,6 +5,8 @@ import { services } from '../src/data/services.js'
 import { treatments } from '../src/data/treatments.js'
 import { blogPosts } from '../src/data/blog.js'
 import { teamMembers } from '../src/data/team.js'
+import { barrios } from '../src/data/barrios.js'
+import { serviceSlugEn, treatmentSlugEn, barrioSlugEn, blogSlugEn, enRoutesFromSlugs } from '../src/i18n/slugs.js'
 
 const routes = new Set(getAllRoutes())
 
@@ -49,7 +51,35 @@ for (const [name, arr] of [['services', services], ['treatments', treatments], [
   }
 }
 
+// ── Bilingual checks ─────────────────────────────────────────────────────────
+// Every slugged record must have an EN slug in the central map (src/i18n/slugs.js),
+// or its /en/ route + reciprocal hreflang won't exist.
+const enCoverage = []
+for (const s of services) if (!serviceSlugEn[s.slug]) enCoverage.push(`service missing slug_en: ${s.slug}`)
+for (const t of treatments) if (!treatmentSlugEn[t.slug]) enCoverage.push(`treatment missing slug_en: ${t.slug}`)
+for (const b of barrios) if (!barrioSlugEn[b.slug]) enCoverage.push(`barrio missing slug_en: ${b.slug}`)
+for (const p of blogPosts) if (!blogSlugEn[p.slug]) enCoverage.push(`blog missing slug_en: ${p.slug}`)
+
+// EN route paths must be globally unique (no slug_en collisions across datasets).
+const enRoutes = enRoutesFromSlugs()
+const seenEn = new Set()
+const enDupes = []
+for (const r of enRoutes) {
+  if (seenEn.has(r)) enDupes.push(`duplicate EN route: ${r}`)
+  seenEn.add(r)
+}
+
 let failed = false
+if (enCoverage.length) {
+  failed = true
+  console.error(`\n❌ ${enCoverage.length} record(s) missing an EN slug (src/i18n/slugs.js):`)
+  for (const c of enCoverage) console.error(`   ${c}`)
+}
+if (enDupes.length) {
+  failed = true
+  console.error(`\n❌ ${enDupes.length} duplicate EN route(s):`)
+  for (const d of enDupes) console.error(`   ${d}`)
+}
 if (broken.length) {
   failed = true
   console.error(`\n❌ ${broken.length} broken internal link(s):`)

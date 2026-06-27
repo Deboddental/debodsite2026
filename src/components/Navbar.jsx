@@ -1,16 +1,20 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Menu, X, ChevronDown, Phone } from 'lucide-react'
+import LanguageToggle from './LanguageToggle'
+import { useLocale } from '../hooks/useLocale'
+import { t } from '../i18n/ui'
+import { serviceSlugEn, staticPairs } from '../i18n/slugs'
 
-const services = [
-  { label: 'Dentista General', href: '/dentista-general-arguelles-madrid-espana/' },
-  { label: 'Odontología Estética', href: '/dentista-cosmetico-arguelles-madrid-espana/' },
-  { label: 'Implantes Dentales', href: '/dentista-de-implantes-arguelles-madrid-espana/' },
-  { label: 'Endodoncia', href: '/endodoncista-arguelles-madrid-espana/' },
-  { label: 'Odontopediatría', href: '/odontopediatra-arguelles-madrid-espana/' },
-  { label: 'Ortodoncia', href: '/ortodoncista-arguelles-madrid-espana/' },
-  { label: 'Periodoncia', href: '/periodoncista-arguelles-madrid-espana/' },
-  { label: 'Cirugía Oral', href: '/cirujano-oral-arguelles-madrid-espana/' },
+const SERVICES = [
+  { es: 'Dentista General', en: 'General Dentistry', slug: 'dentista-general-arguelles-madrid-espana' },
+  { es: 'Odontología Estética', en: 'Cosmetic Dentistry', slug: 'dentista-cosmetico-arguelles-madrid-espana' },
+  { es: 'Implantes Dentales', en: 'Dental Implants', slug: 'dentista-de-implantes-arguelles-madrid-espana' },
+  { es: 'Endodoncia', en: 'Root Canal (Endodontics)', slug: 'endodoncista-arguelles-madrid-espana' },
+  { es: 'Odontopediatría', en: 'Paediatric Dentistry', slug: 'odontopediatra-arguelles-madrid-espana' },
+  { es: 'Ortodoncia', en: 'Orthodontics', slug: 'ortodoncista-arguelles-madrid-espana' },
+  { es: 'Periodoncia', en: 'Periodontics', slug: 'periodoncista-arguelles-madrid-espana' },
+  { es: 'Cirugía Oral', en: 'Oral Surgery', slug: 'cirujano-oral-arguelles-madrid-espana' },
 ]
 
 export default function Navbar() {
@@ -18,6 +22,12 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [servicesOpen, setServicesOpen] = useState(false)
   const navRef = useRef(null)
+  const locale = useLocale()
+
+  // Locale-aware hrefs: chrome paths via the static pair map, services via slug map.
+  const lp = (esPath) => (locale === 'en' ? staticPairs[esPath] || esPath : esPath)
+  const serviceHref = (slug) => (locale === 'en' ? `/en/${serviceSlugEn[slug]}/` : `/${slug}/`)
+  const serviceLabel = (s) => (locale === 'en' ? s.en : s.es)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60)
@@ -55,7 +65,7 @@ export default function Navbar() {
       <nav
         ref={navRef}
         role="navigation"
-        aria-label="Navegación principal"
+        aria-label={locale === 'en' ? 'Main navigation' : 'Navegación principal'}
         className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-out
           ${scrolled
             ? 'bg-white/80 backdrop-blur-xl border border-white/60 shadow-xl shadow-black/10 text-charcoal'
@@ -66,7 +76,7 @@ export default function Navbar() {
         `}
       >
         {/* Logo */}
-        <Link to="/" className="shrink-0 mr-auto">
+        <Link to={lp('/')} className="shrink-0 mr-auto">
           <img
             src={scrolled ? '/logo-dark.webp' : '/logo-light.webp'}
             alt="Debod Dental Clinic — Clínica dental en Argüelles, Madrid"
@@ -76,20 +86,20 @@ export default function Navbar() {
           />
         </Link>
 
-        {/* Desktop Links */}
-        <div className="hidden md:flex items-center gap-6 font-jakarta text-sm font-medium">
+        {/* Desktop Links (full bar at lg+; md/tablet collapses to the hamburger to avoid crowding) */}
+        <div className="hidden lg:flex items-center gap-6 font-jakarta text-sm font-medium">
           <Link
-            to="/nosotros/"
+            to={lp('/nosotros/')}
             className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
           >
-            Nosotros
+            {t('nav.about', locale)}
           </Link>
 
           <Link
-            to="/equipo/"
+            to={lp('/equipo/')}
             className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
           >
-            Equipo
+            {t('nav.team', locale)}
           </Link>
 
           {/* Services dropdown */}
@@ -101,7 +111,7 @@ export default function Navbar() {
             <button
               className={`flex items-center gap-1 transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
             >
-              Servicios <ChevronDown size={14} className={`transition-transform duration-300 ${servicesOpen ? 'rotate-180' : ''}`} />
+              {t('nav.services', locale)} <ChevronDown size={14} className={`transition-transform duration-300 ${servicesOpen ? 'rotate-180' : ''}`} />
             </button>
 
             {/* Dropdown — transparent pt-2 bridge closes the hover gap between trigger and menu */}
@@ -109,14 +119,14 @@ export default function Navbar() {
               ${servicesOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}>
               <div className="rounded-3xl glass shadow-2xl shadow-black/15 overflow-hidden">
                 <div className="p-2">
-                  {services.map((s) => (
+                  {SERVICES.map((s) => (
                     <Link
-                      key={s.href}
-                      to={s.href}
+                      key={s.slug}
+                      to={serviceHref(s.slug)}
                       className="block px-4 py-2.5 rounded-2xl text-charcoal text-sm font-jakarta font-medium hover:bg-gold/10 hover:text-gold transition-all duration-200"
                       onClick={() => setServicesOpen(false)}
                     >
-                      {s.label}
+                      {serviceLabel(s)}
                     </Link>
                   ))}
                 </div>
@@ -125,33 +135,38 @@ export default function Navbar() {
           </div>
 
           <Link
-            to="/resenas/"
+            to={lp('/resenas/')}
             className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
           >
-            Reseñas
+            {t('nav.reviews', locale)}
           </Link>
 
           <Link
-            to="/blog/"
+            to={lp('/blog/')}
             className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
           >
-            Blog
+            {t('nav.blog', locale)}
           </Link>
+        </div>
+
+        {/* Language toggle (desktop) */}
+        <div className="hidden lg:block shrink-0">
+          <LanguageToggle scrolled={scrolled} />
         </div>
 
         {/* CTA */}
         <Link
-          to="/contacto/"
-          className="hidden md:flex btn-magnetic items-center gap-2 bg-gold text-charcoal font-outfit font-semibold text-sm px-5 py-2.5 rounded-full shrink-0 hover:bg-gold-light transition-colors duration-300"
+          to={lp('/contacto/')}
+          className="hidden lg:flex btn-magnetic items-center gap-2 bg-gold text-charcoal font-outfit font-semibold text-sm px-5 py-2.5 rounded-full shrink-0 hover:bg-gold-light transition-colors duration-300"
         >
           <Phone size={14} />
-          Agenda tu cita
+          {t('nav.cta', locale)}
         </Link>
 
         {/* Mobile hamburger */}
         <button
-          aria-label="Abrir menú"
-          className={`md:hidden ml-auto transition-colors ${scrolled ? 'text-charcoal' : 'text-white'}`}
+          aria-label={t('nav.openMenu', locale)}
+          className={`lg:hidden ml-auto transition-colors ${scrolled ? 'text-charcoal' : 'text-white'}`}
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           {mobileOpen ? <X size={22} /> : <Menu size={22} />}
@@ -159,28 +174,33 @@ export default function Navbar() {
       </nav>
 
       {/* Mobile Menu */}
-      <div className={`fixed inset-x-4 top-20 z-40 rounded-4xl glass shadow-2xl shadow-black/20 overflow-hidden transition-all duration-500 md:hidden
+      <div className={`fixed inset-x-4 top-20 z-40 rounded-4xl glass shadow-2xl shadow-black/20 overflow-hidden transition-all duration-500 lg:hidden
         ${mobileOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-4 pointer-events-none'}`}>
         <div className="p-6 flex flex-col gap-4 font-outfit">
-          <Link to="/nosotros/" className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>Nosotros</Link>
-          <Link to="/equipo/" className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>Equipo</Link>
+          <Link to={lp('/nosotros/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.about', locale)}</Link>
+          <Link to={lp('/equipo/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.team', locale)}</Link>
           <div className="h-px bg-charcoal/10" />
-          <p className="text-slate text-xs font-jakarta uppercase tracking-widest">Servicios</p>
-          {services.map((s) => (
-            <Link key={s.href} to={s.href} className="text-charcoal/80 text-sm font-medium hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>
-              {s.label}
+          <p className="text-slate text-xs font-jakarta uppercase tracking-widest">{t('nav.services', locale)}</p>
+          {SERVICES.map((s) => (
+            <Link key={s.slug} to={serviceHref(s.slug)} className="text-charcoal/80 text-sm font-medium hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>
+              {serviceLabel(s)}
             </Link>
           ))}
           <div className="h-px bg-charcoal/10" />
-          <Link to="/resenas/" className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>Reseñas</Link>
-          <Link to="/blog/" className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>Blog</Link>
+          <Link to={lp('/resenas/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.reviews', locale)}</Link>
+          <Link to={lp('/blog/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.blog', locale)}</Link>
+          <div className="h-px bg-charcoal/10" />
+          <div className="flex items-center justify-between">
+            <span className="text-slate text-xs font-jakarta uppercase tracking-widest">{t('nav.language', locale)}</span>
+            <LanguageToggle scrolled onNavigate={() => setMobileOpen(false)} />
+          </div>
           <Link
-            to="/contacto/"
+            to={lp('/contacto/')}
             className="btn-magnetic flex items-center justify-center gap-2 bg-gold text-charcoal font-bold text-base px-6 py-3.5 rounded-3xl mt-2"
             onClick={() => setMobileOpen(false)}
           >
             <Phone size={16} />
-            Agendar mi cita
+            {t('nav.ctaMobile', locale)}
           </Link>
         </div>
       </div>
