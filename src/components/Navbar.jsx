@@ -102,13 +102,6 @@ export default function Navbar() {
             {t('nav.about', locale)}
           </Link>
 
-          <Link
-            to={lp('/equipo/')}
-            className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
-          >
-            {t('nav.team', locale)}
-          </Link>
-
           {/* Services dropdown */}
           <div
             className="relative"
@@ -186,7 +179,6 @@ export default function Navbar() {
         <div className="p-6 flex flex-col gap-4 font-outfit">
           <Link to={lp('/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.home', locale)}</Link>
           <Link to={lp('/nosotros/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.about', locale)}</Link>
-          <Link to={lp('/equipo/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.team', locale)}</Link>
           <div className="h-px bg-charcoal/10" />
           <p className="text-slate text-xs font-jakarta uppercase tracking-widest">{t('nav.services', locale)}</p>
           {SERVICES.map((s) => (
