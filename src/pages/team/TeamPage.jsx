@@ -45,12 +45,14 @@ export default function TeamPage() {
             {teamMembers.map((member) => {
               const inner = (
                 <>
-                  <div className="h-72 overflow-hidden bg-slate-100">
+                  <div className="aspect-[3/4] overflow-hidden bg-slate-100">
                     <img
                       src={member.photoUrl}
                       alt={member.name}
                       className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
+                      width="750"
+                      height="1000"
                     />
                   </div>
                   <div className="p-6">
