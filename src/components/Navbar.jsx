@@ -119,7 +119,7 @@ export default function Navbar() {
             {/* Dropdown — transparent pt-2 bridge closes the hover gap between trigger and menu */}
             <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 w-56 transition-all duration-300 origin-top
               ${servicesOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}>
-              <div className="rounded-3xl glass shadow-2xl shadow-black/15 overflow-hidden">
+              <div className="rounded-3xl bg-white/80 backdrop-blur-2xl border border-white/60 shadow-2xl shadow-black/15 overflow-hidden">
                 <div className="p-2">
                   {SERVICES.map((s) => (
                     <Link
@@ -150,7 +150,7 @@ export default function Navbar() {
 
             <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 w-72 transition-all duration-300 origin-top
               ${tourismOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}>
-              <div className="rounded-3xl glass shadow-2xl shadow-black/15 overflow-hidden">
+              <div className="rounded-3xl bg-white/80 backdrop-blur-2xl border border-white/60 shadow-2xl shadow-black/15 overflow-hidden">
                 <div className="p-2">
                   {tourismLandings.map((l) => (
                     <Link
