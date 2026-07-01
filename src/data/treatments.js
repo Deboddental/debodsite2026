@@ -102,7 +102,7 @@ La **cirugía guiada de implantes** es el protocolo más avanzado en implantolog
     metaTitle: 'Corona sobre Implante en Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'Coronas sobre implante fabricadas en nuestro laboratorio in-house en Argüelles, Madrid. Máxima estética y precisión. Debod Dental Clinic.',
     heroImageUrl: 'https://images.unsplash.com/photo-1629909615957-be38d48fbbe4?w=1400&q=85&auto=format&fit=crop',
-    heroText: 'La corona sobre implante es la parte visible del sistema de implante dental. Fabricada en nuestro laboratorio in-house con cerámica de alta resistencia, reproduice fielmente el aspecto de un diente natural.',
+    heroText: 'La corona sobre implante es la parte visible del sistema de implante dental. Fabricada en nuestro laboratorio in-house con cerámica de alta resistencia, reproduce fielmente el aspecto de un diente natural.',
     bodyMarkdown: `## La corona sobre implante: la pieza final del rompecabezas
 
 Una vez que el implante de titanio se ha integrado con el hueso (proceso de osteointegración), llega el momento de la restauración definitiva: la **corona sobre implante**.
@@ -238,7 +238,7 @@ Esta eliminación de esmalte es necesaria para que las carillas se vean naturale
 
 ## El proceso de elaboración: tecnología CEREC
 
-Utilizamos tecnología avanzada **CEREC** (restauración económica en el consultorio de cerámica estética) para crear carillas internas de alta calidad que requieren menos visitas:
+Utilizamos tecnología **CEREC** —diseño y fresado cerámico asistido por ordenador— para crear carillas de alta calidad con menos visitas:
 
 1. **Escáner digital 3D** de tu boca para construir un modelo tridimensional preciso.
 2. **Diseño CAD** de las carillas con herramientas de diseño asistido por computadora.
@@ -537,7 +537,7 @@ La gingivoplastia está muy relacionada con el **alargamiento coronario**: cuand
     ],
     relatedTreatments: [
       { title: 'Injerto de encía', description: 'Cuando la encía es insuficiente en lugar de excesiva.', href: '/tratamientos/injerto-de-encia-arguelles-madrid-espana/' },
-      { title: 'Carillas de porcelana', description: 'Complement estético tras la gingivoplastia.', href: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/' },
+      { title: 'Carillas de porcelana', description: 'Complemento estético tras la gingivoplastia.', href: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/' },
     ],
   },
   // ── Cirugía Oral ──────────────────────────────────────────

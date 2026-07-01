@@ -86,7 +86,7 @@ export default function Hero() {
         <div ref={socialProofRef} className="flex items-center justify-center sm:justify-start gap-4 sm:gap-6 flex-wrap">
           <div className="flex items-center gap-1.5">
             <div className="flex">{[...Array(5)].map((_, i) => (<Star key={i} size={13} className="text-gold fill-gold" />))}</div>
-            <span className="font-jakarta text-white/80 text-xs sm:text-sm font-medium">{ratingSummary.ratingValue} Google Reviews</span>
+            <span className="font-jakarta text-white/80 text-xs sm:text-sm font-medium">{ratingSummary.ratingValue} · {ratingSummary.reviewCount}+ {locale === 'en' ? 'Google reviews' : 'reseñas en Google'}</span>
           </div>
           <div className="h-4 w-px bg-white/20" />
           <span className="font-jakarta text-white/70 text-xs sm:text-sm">

@@ -233,7 +233,7 @@ Somos especialistas en **Invisalign®**, el sistema de alineadores transparentes
 
 - **Prácticamente invisibles**: Nadie notará que llevas tratamiento.
 - **Removibles**: Puedes quitártelos para comer, cepillarte y en ocasiones especiales.
-- **Cómodos**: Sin brackets que rozuen ni alambres que molesten.
+- **Cómodos**: Sin brackets que rocen ni alambres que molesten.
 - **Predecibles**: Visualizamos el resultado final antes de comenzar.
 
 ### Ortopedia dentofacial

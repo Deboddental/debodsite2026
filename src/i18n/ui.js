@@ -105,7 +105,7 @@ export const ui = {
   'tr.gumgraft': { es: 'Injerto de Encía', en: 'Gum Graft' },
   'tr.gingivo': { es: 'Gingivoplastia', en: 'Gingivoplasty' },
   'tr.crown': { es: 'Corona Dental', en: 'Dental Crown' },
-  'tr.financing': { es: 'Financiación 60m', en: 'Financing 60m' },
+  'tr.financing': { es: 'Financiación hasta 60 meses', en: 'Financing up to 60 months' },
 }
 
 export function t(key, locale = 'es') {

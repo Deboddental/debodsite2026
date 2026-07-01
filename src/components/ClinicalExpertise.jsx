@@ -110,7 +110,7 @@ function TelemetryTypewriter() {
       {/* Status bar */}
       <div className="flex items-center gap-2 mt-4 pt-4 border-t border-charcoal/8">
         <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 pulse-dot" />
-        <span className="font-jakarta text-xs text-slate font-medium tracking-wide">{locale === 'en' ? 'In-house lab · Online' : 'Lab in-house · Online'}</span>
+        <span className="font-jakarta text-xs text-slate font-medium tracking-wide">{locale === 'en' ? 'In-house lab · Online' : 'Laboratorio propio · Online'}</span>
         <div className="ml-auto flex gap-1">
           {[...Array(4)].map((_, i) => (
             <div key={i} className={`w-1.5 h-4 rounded-full ${i < 3 ? 'bg-gold' : 'bg-charcoal/15'}`} />
