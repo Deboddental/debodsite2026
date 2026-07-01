@@ -15,7 +15,7 @@ import { dentalTourismSchema } from '../data/seo'
 import { ratingSummary } from '../data/reviews'
 import {
   getTourismLanding, tourismLandings, heroBullets, whyTravel, techCards,
-  objections, steps, madridExperience,
+  objections, steps, madridExperience, spotlights,
 } from '../data/dentalTourism'
 
 const BASE_URL = 'https://deboddentalclinic.com'
@@ -107,6 +107,26 @@ export default function DentalTourismPage() {
         )}
       </div>
 
+      {/* Treatment-specific proof block (unique per landing) */}
+      {spotlights[landing.slug] && (
+        <section className="px-4 pb-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-charcoal rounded-3xl p-8 md:p-10">
+              <Icon name={spotlights[landing.slug].icon} size={28} className="text-gold mb-4" />
+              <h2 className="font-cormorant text-3xl font-semibold text-pearl mb-5">{spotlights[landing.slug].title}</h2>
+              <ul className="space-y-3">
+                {spotlights[landing.slug].points.map((p) => (
+                  <li key={p} className="flex items-start gap-2.5 font-jakarta text-pearl/80 text-sm md:text-base leading-relaxed">
+                    <Check size={18} className="text-gold shrink-0 mt-0.5" />
+                    <span>{p}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Why travel to Madrid (value, no fabricated prices) */}
       <section className="bg-pearl/40 px-4 py-16">
         <div className="max-w-6xl mx-auto">
@@ -135,7 +155,7 @@ export default function DentalTourismPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gold text-charcoal font-outfit font-semibold text-sm px-7 py-4 rounded-full hover:bg-gold-light transition-colors duration-300"
             >
-              <MessageCircle size={16} /> Request your free quote on WhatsApp
+              <MessageCircle size={16} /> Send your photos on WhatsApp for a free estimate
             </a>
           </div>
         </div>

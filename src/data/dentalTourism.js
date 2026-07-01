@@ -153,7 +153,7 @@ It begins with a **free online video consultation**. Send us recent photos and a
     heroImage: '/Images/clinica/dsc00238.webp',
     metaTitle: 'Dental Implants in Madrid (English-Speaking) — Debod Dental Clinic',
     metaDescription:
-      'Dental implants in central Madrid with 3D guided surgery and an in-house lab. English-speaking implant dentist in Argüelles for international patients. Free quote. Book: +34 914 47 62 25.',
+      'Dental implants in central Madrid with 3D guided surgery and an in-house lab. English-speaking implant dentist in Argüelles for international patients. Free quote and video consultation.',
     esAlternate: '/dentista-de-implantes-arguelles-madrid-espana/',
     relatedServiceEnSlug: 'dental-implants-dentist-arguelles-madrid',
     intro: `## Dental implants in Madrid, the digital way
@@ -375,7 +375,7 @@ Perfect for expats and visitors who want a confident, natural smile — often ac
     heroImage: '/Images/clinica/dsc00256.webp',
     metaTitle: 'English-Speaking Dentist in Madrid (Argüelles) — Debod Dental Clinic',
     metaDescription:
-      'Looking for an English-speaking dentist in central Madrid? Debod Dental Clinic in Argüelles offers implants, Invisalign®, veneers and full oral rehabilitation. Book: +34 914 47 62 25.',
+      'Looking for an English-speaking dentist in central Madrid? Debod Dental Clinic in Argüelles offers implants, Invisalign®, veneers and full oral rehabilitation. Free video consultation.',
     esAlternate: '/servicios/',
     relatedServiceEnSlug: 'general-dentist-arguelles-madrid',
     intro: `## Your English-speaking dental clinic in Madrid
@@ -401,6 +401,75 @@ Call us at **+34 914 47 62 25**, message us on WhatsApp at **+34 689 10 47 14**,
     ],
   },
 ]
+
+// Per-treatment unique proof block, rendered by DentalTourismPage after the intro.
+// Gives each landing ≥1 distinct block so the shared sections don't make the pages
+// read as duplicate content. Icons are lucide names mapped in the page.
+export const spotlights = {
+  'dental-implants-madrid': {
+    icon: 'Target',
+    title: 'Why patients trust Debod for implants',
+    points: [
+      'Every implant planned in 3D and placed through a surgical guide.',
+      'Bone grafting available when needed, so more patients are candidates.',
+      'Your crown crafted in our own lab to match your natural teeth.',
+    ],
+  },
+  'all-on-4-madrid': {
+    icon: 'Smile',
+    title: 'What makes All-on-4 work',
+    points: [
+      'A fixed bridge on four implants — often with a provisional early on.',
+      'Angled implants frequently avoid the need for major bone grafting.',
+      'Provisional and final teeth crafted in our in-house lab.',
+    ],
+  },
+  'all-on-6-madrid': {
+    icon: 'ShieldCheck',
+    title: 'Why choose six implants',
+    points: [
+      'Two extra implants spread the load for maximum stability.',
+      'Ideal when bone volume allows a more robust full-arch solution.',
+      'Planned in 3D and finished in our own laboratory.',
+    ],
+  },
+  'cosmetic-dentistry-madrid': {
+    icon: 'Smile',
+    title: 'See your smile before we start',
+    points: [
+      'Digital smile design: preview and approve your result first.',
+      'Restorations crafted in-house to match your face.',
+      'Many cases completed in just a few days — ideal for visitors.',
+    ],
+  },
+  'porcelain-veneers-madrid': {
+    icon: 'Gem',
+    title: 'Premium veneers, minimal preparation',
+    points: [
+      'Conservative preparation (around 0.5 mm) preserves healthy tooth.',
+      'Premium porcelain that resists staining and keeps its shine.',
+      'Shade and shape matched to your face in our own lab.',
+    ],
+  },
+  'veneers-smile-design-madrid': {
+    icon: 'ScanLine',
+    title: 'How a smile makeover works',
+    points: [
+      'A screen preview of your future smile that you approve up front.',
+      'One coordinated plan combining the treatments your case needs.',
+      'Made to measure in-house for a natural — not "done" — look.',
+    ],
+  },
+  'english-speaking-dentist-madrid': {
+    icon: 'Languages',
+    title: 'Care in English, from day one',
+    points: [
+      'Diagnosis, options and quote explained clearly in English.',
+      'Specialists by field: implants, orthodontics, aesthetics.',
+      'Treatment planned around short stays wherever clinically possible.',
+    ],
+  },
+}
 
 export const getTourismLanding = (slug) => tourismLandings.find((l) => l.slug === slug)
 export const tourismSlugs = tourismLandings.map((l) => l.slug)
