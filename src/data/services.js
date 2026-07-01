@@ -62,7 +62,7 @@ La detección precoz ahorra tiempo, dinero y procedimientos más invasivos.`,
     heroImageUrl: '/Images/tratamientos/webp/estetica.webp',
     heroText:
       'Verás tu nueva sonrisa en la pantalla antes de tocar un solo diente. Con diseño de sonrisa digital, fotografía y escaneado 3D planificamos cada detalle —color, forma y proporción— para un resultado natural que apruebas antes de empezar.',
-    bodyMarkdown: `## Cómo la odontología estética puede transformar tu vida
+    bodyMarkdown: `## Cómo la odontología estética mejora tu confianza y tu día a día
 
 En **Debod Dental Clinic**, ubicada en el vibrante barrio de **Argüelles, Madrid**, la odontología estética no se trata solo de apariencia; se trata de rejuvenecer tu confianza y mejorar tu calidad de vida en general.
 
@@ -97,7 +97,6 @@ Creemos en la **odontología honesta y mínimamente invasiva**: conservamos la m
   },
   {
     slug: 'dentista-de-implantes-arguelles-madrid-espana',
-    enAlternate: '/en/dental-implants-madrid/',
     title: 'Dentista de Implantes en Argüelles, Madrid',
     subtitle: 'Implantología Dental',
     metaTitle: 'Implantes Dentales en Argüelles, Madrid — Debod Dental Clinic',

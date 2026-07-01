@@ -278,7 +278,7 @@ Thanks to our ability to shape and place the veneers, we can solve a variety of 
     heroText: 'Invisalign® is one of the most advanced invisible orthodontics systems in the world. Clear, removable and virtually imperceptible aligners to achieve the smile you have always wanted.',
     bodyMarkdown: `## What is invisible orthodontics?
 
-**Invisible orthodontics in Argüelles, Madrid** is one of our greatest competitive advantages. It is a very special process in which we create your perfect smile using custom clear aligners.
+**Invisible orthodontics in Argüelles, Madrid** is one of the treatments we recommend most. It is a very special process in which we create your perfect smile using custom clear aligners.
 
 We recommend invisible orthodontics for patients with minor spacing issues or mild to moderate dental crowding. If you have severe orthodontic problems, such as extensive crowding or a major bite issue, you may need more extensive treatment from our orthodontist.
 
@@ -855,7 +855,7 @@ For the treatment of mild and moderate sleep apnea and snoring.
       { title: 'For every need', description: 'Sports, anti-bruxism or anti-snoring.' },
     ],
     relatedTreatments: [
-      { title: 'Sleep apnea treatment', description: 'The advanced device for real apnea.', href: '/en/treatments/sleep-apnea-treatment-arguelles-madrid/' },
+      { title: 'Sleep apnea treatment', description: 'The advanced device for diagnosed sleep apnoea.', href: '/en/treatments/sleep-apnea-treatment-arguelles-madrid/' },
     ],
     reviewStatus: 'pending-human',
   },

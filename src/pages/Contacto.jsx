@@ -53,22 +53,32 @@ function combinePhone(rawPhone, countryCode) {
   return '+' + cc + digits
 }
 
-function buildWhatsAppUrl(formData, normalizedPhone) {
+function buildWhatsAppUrl(formData, normalizedPhone, locale = 'es') {
+  const en = locale === 'en'
   const servicio =
     formData.servicio === 'Otro Servicio' && formData.otroServicio
       ? formData.otroServicio
-      : formData.servicio || 'Consulta General'
+      : formData.servicio || (en ? 'General enquiry' : 'Consulta General')
 
-  const lines = [
-    '¡Hola Debod Dental! Me gustaría agendar una cita.',
-    '',
-    `Nombre: ${formData.firstName} ${formData.lastName}`,
-    `Email: ${formData.email}`,
-    `Teléfono: ${normalizedPhone}`,
-    `Servicio: ${servicio}`,
-  ]
-  if (formData.comoNosConocio) lines.push(`Cómo nos conoció: ${formData.comoNosConocio}`)
-  if (formData.mensaje) { lines.push(''); lines.push(`Mensaje: ${formData.mensaje}`) }
+  const lines = en
+    ? [
+        'Hello Debod Dental! I would like to book an appointment.',
+        '',
+        `Name: ${formData.firstName} ${formData.lastName}`,
+        `Email: ${formData.email}`,
+        `Phone: ${normalizedPhone}`,
+        `Service: ${servicio}`,
+      ]
+    : [
+        '¡Hola Debod Dental! Me gustaría agendar una cita.',
+        '',
+        `Nombre: ${formData.firstName} ${formData.lastName}`,
+        `Email: ${formData.email}`,
+        `Teléfono: ${normalizedPhone}`,
+        `Servicio: ${servicio}`,
+      ]
+  if (formData.comoNosConocio) lines.push(`${en ? 'How you heard about us' : 'Cómo nos conoció'}: ${formData.comoNosConocio}`)
+  if (formData.mensaje) { lines.push(''); lines.push(`${en ? 'Message' : 'Mensaje'}: ${formData.mensaje}`) }
 
   return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
 }
@@ -223,7 +233,7 @@ export default function Contacto() {
     }
 
     // POST /api/lead — solo mostramos éxito si la solicitud realmente funcionó
-    let waUrl = buildWhatsAppUrl(formData, normalizedPhone)
+    let waUrl = buildWhatsAppUrl(formData, normalizedPhone, locale)
     let ok = false
     try {
       const res = await fetch('/api/lead', {

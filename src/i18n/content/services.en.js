@@ -59,7 +59,7 @@ Early detection saves time, money and more invasive procedures.`,
       'Premium cosmetic dentistry in Argüelles, Madrid. Porcelain veneers, Invisalign, laser teeth whitening and digital smile design. Debod Dental Clinic.',
     heroText:
       'You will see your new smile on screen before we touch a single tooth. With digital smile design, photography and 3D scanning we plan every detail — colour, shape and proportion — for a natural result you approve before we begin.',
-    bodyMarkdown: `## How cosmetic dentistry can transform your life
+    bodyMarkdown: `## How cosmetic dentistry boosts your confidence and quality of life
 
 At **Debod Dental Clinic**, located in the vibrant neighbourhood of **Argüelles, Madrid**, cosmetic dentistry is not just about appearance; it is about rejuvenating your confidence and improving your overall quality of life.
 

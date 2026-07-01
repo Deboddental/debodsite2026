@@ -216,7 +216,6 @@ Tras el injerto, el nuevo hueso tarda entre **4 y 6 meses** en consolidarse ante
   // ── Estética ──────────────────────────────────────────────
   {
     slug: 'carillas-de-porcelana-arguelles-madrid-espana',
-    enAlternate: '/en/veneers-smile-design-madrid/',
     title: 'Carillas de Porcelana en Argüelles, Madrid',
     subtitle: 'TRATAMIENTOS',
     specialty: 'dentista-cosmetico-arguelles-madrid-espana',
@@ -290,7 +289,7 @@ Gracias a nuestra capacidad para dar forma y colocar las carillas, podemos soluc
     heroText: 'Invisalign® es uno de los sistemas de ortodoncia invisible más avanzados del mundo. Alineadores transparentes, removibles y prácticamente imperceptibles para conseguir la sonrisa que siempre has querido.',
     bodyMarkdown: `## ¿Qué es la ortodoncia invisible?
 
-La **ortodoncia invisible en Argüelles, Madrid** es una de nuestras mayores ventajas competitivas. Es un proceso muy especial donde creamos tu sonrisa perfecta mediante alineadores transparentes personalizados.
+La **ortodoncia invisible en Argüelles, Madrid** es uno de los tratamientos que más recomendamos. Es un proceso muy especial donde creamos tu sonrisa perfecta mediante alineadores transparentes personalizados.
 
 Recomendamos la ortodoncia invisible para pacientes con problemas menores de espacio o apiñamiento dental de leve a moderado. Si tienes problemas de ortodoncia graves, como apiñamiento extenso o un problema importante de mordida, es posible que necesites un tratamiento más extenso por parte de nuestro ortodoncista.
 
@@ -893,7 +892,7 @@ Para el tratamiento de la apnea del sueño leve y moderada y el ronquido.
       { title: 'Para cada necesidad', description: 'Deportivo, antibruxismo o antirronquido.' },
     ],
     relatedTreatments: [
-      { title: 'Tratamiento apnea del sueño', description: 'La férula avanzada para apnea real.', href: '/tratamientos/tratamiento-de-la-apnea-del-sueno-arguelles-madrid-espana/' },
+      { title: 'Tratamiento apnea del sueño', description: 'La férula avanzada para la apnea del sueño diagnosticada.', href: '/tratamientos/tratamiento-de-la-apnea-del-sueno-arguelles-madrid-espana/' },
     ],
   },
   // ── Odontopediatría ───────────────────────────────────────

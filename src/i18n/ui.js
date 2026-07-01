@@ -65,14 +65,14 @@ export const ui = {
   'doctor.colegiado': { es: 'Colegiado Nº', en: 'Reg. No.' },
 
   // Footer
-  'footer.ctaTitle': { es: '¿Listo para transformar tu sonrisa?', en: 'Ready to transform your smile?' },
+  'footer.ctaTitle': { es: 'Tu nueva sonrisa empieza aquí', en: 'Your new smile starts here' },
   'footer.ctaSubtitle': { es: 'Primera visita diagnóstica incluida · Argüelles, Madrid', en: 'First diagnostic visit included · Argüelles, Madrid' },
   'footer.ctaBtn': { es: 'Agendar Cita Ahora', en: 'Book an Appointment' },
   'footer.servicesTitle': { es: 'Servicios', en: 'Services' },
   'footer.treatmentsTitle': { es: 'Tratamientos', en: 'Treatments' },
   'footer.contactTitle': { es: 'Contacto', en: 'Contact' },
   'footer.bio': { es: 'Clínica dental boutique de referencia en Argüelles, Madrid. Especialistas en Rehabilitación Oral, Implantología y Estética Dental.', en: 'A leading boutique dental clinic in Argüelles, Madrid. Specialists in full oral rehabilitation, implantology and cosmetic dentistry.' },
-  'footer.status': { es: 'Atendiendo pacientes', en: 'Now accepting patients' },
+  'footer.status': { es: 'Aceptando pacientes nuevos', en: 'Now accepting new patients' },
   'footer.maps': { es: 'Ver en Google Maps', en: 'View on Google Maps' },
   'footer.privacy': { es: 'Política de Privacidad', en: 'Privacy Policy' },
 
@@ -91,7 +91,7 @@ export const ui = {
   'wa.aria': { es: 'Escríbenos por WhatsApp', en: 'Message us on WhatsApp' },
 
   // Consent banner
-  'consent.text': { es: 'Usamos cookies propias y de terceros para medición y marketing. Puedes aceptarlas o rechazarlas.', en: 'We use our own and third-party cookies for measurement and marketing. You can accept or reject them.' },
+  'consent.text': { es: 'Usamos cookies propias y de terceros para medición y marketing. Puedes aceptarlas o rechazarlas; rechazarlas no afecta a tu navegación.', en: 'We use our own and third-party cookies for measurement and marketing. You can accept or reject them; rejecting them does not affect your browsing.' },
   'consent.more': { es: 'Más información', en: 'Learn more' },
   'consent.reject': { es: 'Rechazar', en: 'Reject' },
   'consent.accept': { es: 'Aceptar', en: 'Accept' },

@@ -22,11 +22,11 @@ const treatments = [
     title: 'Devolvemos función\ny estética completas.',
     title_en: 'Restoring complete function\nand aesthetics.',
     description:
-      'La Rehabilitación Oral integral es nuestro tratamiento más avanzado. Ideal para pacientes con desgaste dental severo, pérdida de múltiples piezas o problemas funcionales al masticar. Diseñamos tu nueva sonrisa digitalmente antes de tocar un solo diente.',
+      'La Rehabilitación Oral integral es uno de nuestros tratamientos más completos. Ideal para pacientes con desgaste dental severo, pérdida de múltiples piezas o problemas funcionales al masticar. Diseñamos tu nueva sonrisa digitalmente antes de tocar un solo diente.',
     description_en:
-      'Comprehensive full oral rehabilitation is our most advanced treatment. Ideal for patients with severe tooth wear, the loss of multiple teeth or functional difficulties when chewing. We design your new smile digitally before touching a single tooth.',
-    treatments: ['Coronas sobre Implantes', 'Prótesis Fija', 'Vonlay', 'Carillas de Porcelana'],
-    treatments_en: ['Implant-Supported Crowns', 'Fixed Prostheses', 'Vonlay', 'Porcelain Veneers'],
+      'Comprehensive full oral rehabilitation is one of our most complete treatments. Ideal for patients with severe tooth wear, the loss of multiple teeth or functional difficulties when chewing. We design your new smile digitally before touching a single tooth.',
+    treatments: ['Coronas sobre Implantes', 'Prótesis Fija', 'Carillas de Porcelana'],
+    treatments_en: ['Implant-Supported Crowns', 'Fixed Prostheses', 'Porcelain Veneers'],
     cta: 'Ver Rehabilitación',
     cta_en: 'View Rehabilitation',
     href: '/tratamientos/implantes-dentales-arguelles-madrid-espana/',
