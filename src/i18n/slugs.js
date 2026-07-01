@@ -73,6 +73,16 @@ export const blogSlugEn = {
   'carillas-vs-coronas-dentales-diferencias': { es_cat: 'odontologia-estetica', en: 'veneers-vs-crowns-key-differences', en_cat: 'cosmetic-dentistry' },
   'ortodoncia-invisible-mitos-y-resultados': { es_cat: 'odontologia-estetica', en: 'invisible-orthodontics-myths-and-results', en_cat: 'cosmetic-dentistry' },
   'dolor-de-muelas-de-juicio-en-arguelles-madrid': { es_cat: 'uncategorized', en: 'wisdom-tooth-pain-arguelles-madrid', en_cat: 'general' },
+  "endodoncia-o-extraccion-arguelles-madrid": { es_cat: "servicios", en: "root-canal-or-extraction-arguelles-madrid", en_cat: "services" },
+  "sensibilidad-dental-causas-y-alivio": { es_cat: "salud-dental", en: "tooth-sensitivity-causes-and-relief", en_cat: "dental-health" },
+  "caries-dental-como-se-forma-y-prevenirla": { es_cat: "salud-dental", en: "cavities-how-they-form-and-prevention", en_cat: "dental-health" },
+  "cuanto-dura-un-implante-dental": { es_cat: "servicios", en: "how-long-dental-implants-last", en_cat: "services" },
+  "molestias-tras-un-implante-dental": { es_cat: "servicios", en: "recovery-after-a-dental-implant", en_cat: "services" },
+  "diseno-de-sonrisa-digital-en-arguelles-madrid": { es_cat: "odontologia-estetica", en: "digital-smile-design-arguelles-madrid", en_cat: "cosmetic-dentistry" },
+  "coronas-de-zirconio-cuando-elegirlas": { es_cat: "odontologia-estetica", en: "zirconia-crowns-when-to-choose-them", en_cat: "cosmetic-dentistry" },
+  "gingivitis-como-revertirla": { es_cat: "salud-dental", en: "gingivitis-how-to-reverse-it", en_cat: "dental-health" },
+  "periodontitis-tratamiento-y-control": { es_cat: "salud-dental", en: "periodontitis-treatment-and-control", en_cat: "dental-health" },
+  "brackets-o-invisalign-como-elegir": { es_cat: "servicios", en: "braces-or-invisalign-how-to-choose", en_cat: "services" },
 }
 
 // Static page pairs: ES path → EN path. The home pair (/ ↔ /en/) is also here.
