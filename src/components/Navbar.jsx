@@ -251,7 +251,7 @@ function NavDropdown({ label, width, children }) {
             transform: `translateX(-50%) scale(${open ? 1 : 0.97}) translateY(${open ? 0 : -8}px)`,
             transformOrigin: 'top center',
           }}
-          className={`z-[60] ${width} pt-2 transition-all duration-300
+          className={`z-[60] ${width} pt-2 transition-[opacity,transform] duration-300
             ${open ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
           onMouseEnter={openNow}
           onMouseLeave={closeSoon}
