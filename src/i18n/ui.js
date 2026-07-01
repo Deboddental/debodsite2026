@@ -41,6 +41,8 @@ export const ui = {
 
   // Blog
   'blog.reviewedBy': { es: 'Revisado por', en: 'Reviewed by' },
+  'blog.reviewedOn': { es: 'Última revisión', en: 'Last reviewed' },
+  'blog.published': { es: 'Publicado', en: 'Published' },
   'blog.related': { es: 'Artículos relacionados', en: 'Related articles' },
   'blog.read': { es: 'Leer', en: 'Read' },
   'blog.faqSubtitle': { es: 'Preguntas frecuentes sobre este tema.', en: 'Frequently asked questions about this topic.' },

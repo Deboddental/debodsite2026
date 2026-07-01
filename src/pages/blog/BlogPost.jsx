@@ -104,6 +104,12 @@ export default function BlogPost() {
               {author.title}
               {author.colegiadoNum ? ` · ${t('blog.colegiado', locale)} ${author.colegiadoNum}` : ''}
             </p>
+            <p className="font-jakarta text-slate/70 text-xs mt-1">
+              {t('blog.reviewedOn', locale)}:{' '}
+              {new Date(post.dateModified || post.publishDate).toLocaleDateString(locale === 'en' ? 'en-GB' : 'es-ES', {
+                day: 'numeric', month: 'long', year: 'numeric',
+              })}
+            </p>
             <p className="font-jakarta text-slate/80 text-sm mt-2 leading-relaxed">
               {t('blog.eeatNote', locale)}{' '}
               <Link to={teamHref(author.slug)} className="text-gold hover:underline">{t('blog.viewProfile', locale)}</Link>.
