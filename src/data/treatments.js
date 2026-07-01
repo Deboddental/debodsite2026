@@ -29,7 +29,7 @@ Si el hueso no es suficiente, podemos realizar un **injerto óseo** previo para 
 
 ### El proceso de colocación
 
-1. Anestesia local (el procedimiento no duele).
+1. Anestesia local (no sentirás dolor durante el procedimiento).
 2. Colocación del implante en el hueso.
 3. Período de osteointegración: 3-6 meses para que el hueso se fusione con el titanio.
 4. Colocación del pilar y la corona definitiva.
@@ -43,10 +43,10 @@ Los primeros días son fundamentales:
 - Medicación prescrita por el especialista.
 - No fumar durante el período de cicatrización.
 
-Con el cuidado adecuado, un implante dental puede durar **toda la vida**.`,
+Con el cuidado y las revisiones adecuadas, un implante dental puede durar muchos años, a menudo décadas.`,
     benefits: [
       { title: 'Resultado natural', description: 'Aspecto y función idénticos a un diente real.' },
-      { title: 'Permanente', description: 'Con cuidado adecuado, duran toda la vida.' },
+      { title: 'Muy duraderos', description: 'Con el cuidado adecuado, duran muchos años.' },
       { title: 'Preserva el hueso', description: 'Evita la reabsorción ósea que sigue a la pérdida dental.' },
     ],
     relatedTreatments: [
@@ -145,7 +145,7 @@ Con un cuidado similar al de los dientes naturales —cepillado correcto, hilo d
     metaTitle: 'Mantenimiento de Implantes en Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'Revisiones y mantenimiento de implantes dentales en Argüelles, Madrid. Protege tu inversión a largo plazo. Debod Dental Clinic.',
     heroImageUrl: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1400&q=85&auto=format&fit=crop',
-    heroText: 'Un implante dental bien mantenido dura toda la vida. Las revisiones periódicas y la higiene profesional son la clave para proteger tu inversión a largo plazo.',
+    heroText: 'Un implante dental bien mantenido puede durar muchos años. Las revisiones periódicas y la higiene profesional son la clave para proteger tu inversión a largo plazo.',
     bodyMarkdown: `## Por qué es esencial el mantenimiento del implante
 
 Los implantes dentales tienen una tasa de éxito superior al 95% a 10 años, pero ese éxito depende en gran medida del **mantenimiento adecuado**. La periimplantitis (infección alrededor del implante) es la principal causa de fracaso a largo plazo y es completamente prevenible.
@@ -234,7 +234,7 @@ Las carillas de porcelana pueden solucionar muchos problemas: astillas, manchas 
 
 Después de confirmar que eres candidato, remodelamos la superficie de tu dentadura. Retiramos una pequeña cantidad de esmalte para que las carillas queden al mismo nivel que el resto de los dientes y no sobresalgan del límite de tu boca.
 
-Esta eliminación de esmalte es necesaria para que las carillas se vean naturales. Es mínima —apenas 0,5–0,7 mm— y se realiza de forma totalmente indolora.
+Esta eliminación de esmalte es necesaria para que las carillas se vean naturales. Es mínima —apenas 0,5–0,7 mm— y se realiza de forma cómoda con anestesia local.
 
 ## El proceso de elaboración: tecnología CEREC
 
@@ -547,7 +547,7 @@ La gingivoplastia está muy relacionada con el **alargamiento coronario**: cuand
     subtitle: 'TRATAMIENTOS',
     specialty: 'cirujano-oral-arguelles-madrid-espana',
     metaTitle: 'Extracción Muelas del Juicio en Argüelles, Madrid — Debod Dental Clinic',
-    metaDescription: 'Extracción de muelas del juicio en Argüelles, Madrid. Procedimiento seguro y sin dolor, incluso en casos de inclusión. Debod Dental Clinic.',
+    metaDescription: 'Extracción de muelas del juicio en Argüelles, Madrid. Procedimiento seguro y con anestesia local, incluso en casos de inclusión. Debod Dental Clinic.',
     heroImageUrl: 'https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=1400&q=85&auto=format&fit=crop',
     heroText: 'La extracción de muelas del juicio es uno de los procedimientos más frecuentes en cirugía oral. Con anestesia local y la técnica adecuada, es un proceso seguro y con mínimas molestias postoperatorias.',
     bodyMarkdown: `## ¿Cuándo hay que extraer las muelas del juicio?
@@ -562,7 +562,7 @@ Las muelas del juicio o terceros molares son los últimos dientes en erupcionar,
 ### El procedimiento de extracción
 
 1. **Estudio radiológico** previo para evaluar la posición y relación con nervios.
-2. **Anestesia local** de la zona (el procedimiento es completamente indoloro).
+2. **Anestesia local** de la zona (no sentirás dolor durante el procedimiento).
 3. **Extracción** con técnica atraumática que preserva el hueso y los tejidos blandos.
 4. **Cierre con puntos** cuando es necesario.
 
@@ -772,7 +772,7 @@ Se realiza generalmente en dos sesiones, tratando media boca en cada visita:
     metaTitle: 'Detección de Cáncer Oral en Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'Detección precoz de cáncer oral en Argüelles, Madrid. Exploración sistemática incluida en cada revisión. Debod Dental Clinic.',
     heroImageUrl: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1400&q=85&auto=format&fit=crop',
-    heroText: 'El cáncer oral detectado a tiempo tiene una tasa de supervivencia superior al 80%. En Debod Dental Clinic realizamos una exploración sistemática de la mucosa oral en cada revisión.',
+    heroText: 'El cáncer oral, cuando se detecta a tiempo, tiene un pronóstico mucho más favorable. En Debod Dental Clinic realizamos una exploración sistemática de la mucosa oral en cada revisión.',
     bodyMarkdown: `## Por qué es tan importante la detección precoz del cáncer oral
 
 El **cáncer oral** es uno de los cánceres con mayor mortalidad, no porque sea especialmente agresivo, sino porque con frecuencia se diagnostica en estadios avanzados. La detección precoz cambia radicalmente el pronóstico.
@@ -807,7 +807,7 @@ En cada revisión examinamos sistemáticamente:
 Si detectamos una lesión sospechosa, te referimos de inmediato a un especialista en cirugía maxilofacial para su estudio.`,
     benefits: [
       { title: 'Incluida en cada revisión', description: 'Sin coste adicional en cada visita de control.' },
-      { title: 'Detección precoz salva vidas', description: 'Diagnóstico temprano: >80% de supervivencia a 5 años.' },
+      { title: 'Detección precoz salva vidas', description: 'Cuanto antes se detecta, mejor es el pronóstico.' },
       { title: 'Exploración sistemática', description: 'Protocolo estructurado de toda la mucosa oral.' },
     ],
     relatedTreatments: [
@@ -986,7 +986,7 @@ Adaptamos el procedimiento para que sea lo más cómodo y rápido posible para e
     subtitle: 'TRATAMIENTOS',
     specialty: 'ortodoncista-arguelles-madrid-espana',
     metaTitle: 'Retenedores en Argüelles, Madrid — Debod Dental Clinic',
-    metaDescription: 'Retenedores de ortodoncia personalizados en Argüelles, Madrid. Mantén los resultados de tu tratamiento de ortodoncia para siempre. Debod Dental Clinic.',
+    metaDescription: 'Retenedores de ortodoncia personalizados en Argüelles, Madrid. Mantén los resultados de tu tratamiento de ortodoncia a largo plazo. Debod Dental Clinic.',
     heroImageUrl: 'https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=1400&q=85&auto=format&fit=crop',
     heroText: 'Los retenedores son la última etapa del tratamiento de ortodoncia. Esenciales para mantener la posición conseguida y evitar la recidiva.',
     bodyMarkdown: `## Retenedores: protegiendo tu inversión en ortodoncia

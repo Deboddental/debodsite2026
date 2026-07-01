@@ -132,9 +132,9 @@ export default function Nosotros() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { value: '+15', label: locale === 'en' ? 'Years of experience' : 'Años de experiencia' },
+            { value: '+15', label: locale === 'en' ? 'Years of team experience' : 'Años de experiencia del equipo' },
             { value: ratingSummary.ratingValue, label: locale === 'en' ? 'Google rating' : 'Valoración Google' },
-            { value: '2023', label: locale === 'en' ? 'Current premises opened' : 'Apertura sede actual' },
+            { value: '2023', label: locale === 'en' ? 'New Argüelles premises' : 'Nueva sede en Argüelles' },
             { value: '60m', label: locale === 'en' ? 'Unhurried consultation' : 'Consulta sin prisas' },
           ].map(({ value, label }) => (
             <div key={label}>

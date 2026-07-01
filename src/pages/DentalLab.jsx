@@ -38,7 +38,7 @@ export default function DentalLab() {
       <PageHero
         subtitle={locale === 'en' ? 'Our own laboratory' : 'Laboratorio propio'}
         title="Debod Dental Lab"
-        description={locale === 'en' ? 'The only in-house dental laboratory in Argüelles. We craft your restorations with CAD/CAM technology and high-aesthetic ceramics, with total control at every stage.' : 'El único laboratorio dental in-house de Argüelles. Fabricamos tus restauraciones con tecnología CAD/CAM y cerámica de alta estética, con control total en cada etapa.'}
+        description={locale === 'en' ? 'One of the very few clinics in Argüelles with its own in-house dental laboratory. We craft your restorations with CAD/CAM technology and high-aesthetic ceramics, with total control at every stage.' : 'Una de las pocas clínicas de Argüelles con laboratorio dental in-house propio. Fabricamos tus restauraciones con tecnología CAD/CAM y cerámica de alta estética, con control total en cada etapa.'}
         imageUrl="/Images/clinica/dsc00148.webp"
       />
 

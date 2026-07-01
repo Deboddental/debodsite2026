@@ -30,7 +30,7 @@ If there is not enough bone, we can perform a **bone graft** beforehand to creat
 
 ### The placement process
 
-1. Local anaesthetic (the procedure is painless).
+1. Local anaesthetic (you will not feel pain during the procedure).
 2. Placement of the implant in the bone.
 3. Osseointegration period: 3–6 months for the bone to fuse with the titanium.
 4. Placement of the abutment and the final crown.
@@ -44,10 +44,10 @@ The first few days are essential:
 - Medication prescribed by the specialist.
 - Do not smoke during the healing period.
 
-With the right care, a dental implant can last **a lifetime**.`,
+With the right care and regular check-ups, a dental implant can last many years, often decades.`,
     benefits: [
       { title: 'Natural result', description: 'Appearance and function identical to a real tooth.' },
-      { title: 'Permanent', description: 'With proper care, they last a lifetime.' },
+      { title: 'Long-lasting', description: 'With proper care, they last many years.' },
       { title: 'Preserves bone', description: 'Prevents the bone resorption that follows tooth loss.' },
     ],
     relatedTreatments: [
@@ -140,7 +140,7 @@ With care similar to that of natural teeth —correct brushing, dental floss or 
     subtitle: 'TREATMENTS',
     metaTitle: 'Implant Maintenance in Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'Dental implant check-ups and maintenance in Argüelles, Madrid. Protect your long-term investment. Debod Dental Clinic.',
-    heroText: 'A well-maintained dental implant lasts a lifetime. Regular check-ups and professional hygiene are the key to protecting your long-term investment.',
+    heroText: 'A well-maintained dental implant can last many years. Regular check-ups and professional hygiene are the key to protecting your long-term investment.',
     bodyMarkdown: `## Why implant maintenance is essential
 
 Dental implants have a success rate of over 95% at 10 years, but that success largely depends on **proper maintenance**. Peri-implantitis (infection around the implant) is the main cause of long-term failure and is completely preventable.
@@ -224,7 +224,7 @@ Porcelain veneers can solve many problems: chips, stubborn stains, irregular gap
 
 After confirming that you are a candidate, we reshape the surface of your teeth. We remove a small amount of enamel so that the veneers sit level with the rest of the teeth and do not protrude beyond the edge of your mouth.
 
-This enamel removal is necessary for the veneers to look natural. It is minimal —just 0.5–0.7 mm— and is carried out completely painlessly.
+This enamel removal is necessary for the veneers to look natural. It is minimal —just 0.5–0.7 mm— and is carried out comfortably under local anaesthetic.
 
 ## The fabrication process: CEREC technology
 
@@ -524,7 +524,7 @@ Gingivoplasty is closely related to **crown lengthening**: when gum is removed t
     title: 'Wisdom Teeth Removal in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
     metaTitle: 'Wisdom Teeth Removal in Argüelles, Madrid — Debod Dental Clinic',
-    metaDescription: 'Wisdom teeth removal in Argüelles, Madrid. A safe, painless procedure, even in cases of impaction. Debod Dental Clinic.',
+    metaDescription: 'Wisdom teeth removal in Argüelles, Madrid. A safe procedure under local anaesthetic, even in cases of impaction. Debod Dental Clinic.',
     heroText: 'Wisdom teeth removal is one of the most common procedures in oral surgery. With local anaesthetic and the right technique, it is a safe process with minimal post-operative discomfort.',
     bodyMarkdown: `## When do wisdom teeth need to be removed?
 
@@ -538,7 +538,7 @@ Wisdom teeth or third molars are the last teeth to erupt, usually between the ag
 ### The extraction procedure
 
 1. **Prior radiographic study** to assess the position and relationship with nerves.
-2. **Local anaesthetic** of the area (the procedure is completely painless).
+2. **Local anaesthetic** of the area (you will not feel pain during the procedure).
 3. **Extraction** with an atraumatic technique that preserves the bone and soft tissues.
 4. **Closure with stitches** when necessary.
 
@@ -738,7 +738,7 @@ It is generally carried out in two sessions, treating half of the mouth at each 
     subtitle: 'TREATMENTS',
     metaTitle: 'Oral Cancer Screening in Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'Early oral cancer screening in Argüelles, Madrid. A systematic examination included in every check-up. Debod Dental Clinic.',
-    heroText: 'Oral cancer detected early has a survival rate of over 80%. At Debod Dental Clinic we carry out a systematic examination of the oral mucosa at every check-up.',
+    heroText: 'Oral cancer, when detected early, has a much more favourable prognosis. At Debod Dental Clinic we carry out a systematic examination of the oral mucosa at every check-up.',
     bodyMarkdown: `## Why early detection of oral cancer is so important
 
 **Oral cancer** is one of the cancers with the highest mortality, not because it is especially aggressive, but because it is often diagnosed at an advanced stage. Early detection radically changes the prognosis.
@@ -773,7 +773,7 @@ At every check-up we systematically examine:
 If we detect a suspicious lesion, we refer you immediately to a maxillofacial surgery specialist for further study.`,
     benefits: [
       { title: 'Included in every check-up', description: 'At no extra cost at every routine visit.' },
-      { title: 'Early detection saves lives', description: 'Early diagnosis: >80% survival at 5 years.' },
+      { title: 'Early detection saves lives', description: 'The earlier it is caught, the better the outcome.' },
       { title: 'Systematic examination', description: 'A structured protocol covering the entire oral mucosa.' },
     ],
     relatedTreatments: [
@@ -943,7 +943,7 @@ We adapt the procedure to make it as comfortable and quick as possible for the c
     title: 'Retainers in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
     metaTitle: 'Retainers in Argüelles, Madrid — Debod Dental Clinic',
-    metaDescription: 'Custom orthodontic retainers in Argüelles, Madrid. Keep the results of your orthodontic treatment forever. Debod Dental Clinic.',
+    metaDescription: 'Custom orthodontic retainers in Argüelles, Madrid. Keep the results of your orthodontic treatment long-term. Debod Dental Clinic.',
     heroText: 'Retainers are the final stage of orthodontic treatment. They are essential to maintain the position achieved and prevent relapse.',
     bodyMarkdown: `## Retainers: protecting your orthodontic investment
 
