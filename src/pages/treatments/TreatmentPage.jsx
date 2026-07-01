@@ -74,6 +74,11 @@ export default function TreatmentPage() {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 md:px-8 py-12">
+        <div className="mb-6">
+          <span className="inline-flex items-center gap-2 bg-gold/10 text-gold font-outfit font-semibold text-xs px-4 py-2 rounded-full">
+            {locale === 'en' ? 'First diagnostic visit included' : 'Primera visita diagnóstica incluida'}
+          </span>
+        </div>
         <MarkdownBody>{tf(treatment, 'bodyMarkdown', locale)}</MarkdownBody>
       </div>
 

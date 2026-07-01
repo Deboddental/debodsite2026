@@ -66,7 +66,7 @@ With the right care, a dental implant can last **a lifetime**.`,
     heroText: 'Guided surgery represents the evolution of implant dentistry. A custom surgical guide, designed from your 3D scan, ensures that each implant is placed exactly where it was planned.',
     bodyMarkdown: `## Guided surgery: implant dentistry with millimetre precision
 
-**Guided implant surgery** is the most advanced protocol in dental implant dentistry. It combines the 3D scan (CBCT), surgical planning software and a 3D-printed guide to ensure the implant is placed exactly where it was virtually planned.
+**Guided implant surgery** is one of the most advanced protocols in implant dentistry. It combines the 3D scan (CBCT), surgical planning software and a 3D-printed guide to ensure the implant is placed exactly where it was virtually planned.
 
 ### Advantages over conventional surgery
 
@@ -275,7 +275,7 @@ Thanks to our ability to shape and place the veneers, we can solve a variety of 
     subtitle: 'TREATMENTS',
     metaTitle: 'Invisalign® in Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'Invisalign® in Argüelles, Madrid. Clear aligners for adults and teenagers. Invisible orthodontics specialists. Debod Dental Clinic.',
-    heroText: 'Invisalign® is the most advanced invisible orthodontics system in the world. Clear, removable and virtually imperceptible aligners to achieve the smile you have always wanted.',
+    heroText: 'Invisalign® is one of the most advanced invisible orthodontics systems in the world. Clear, removable and virtually imperceptible aligners to achieve the smile you have always wanted.',
     bodyMarkdown: `## What is invisible orthodontics?
 
 **Invisible orthodontics in Argüelles, Madrid** is one of our greatest competitive advantages. It is a very special process in which we create your perfect smile using custom clear aligners.

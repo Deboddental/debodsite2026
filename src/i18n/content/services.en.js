@@ -58,12 +58,12 @@ Early detection saves time, money and more invasive procedures.`,
     metaDescription:
       'Premium cosmetic dentistry in Argüelles, Madrid. Porcelain veneers, Invisalign, laser teeth whitening and digital smile design. Debod Dental Clinic.',
     heroText:
-      'We look after the aesthetics of your smile from start to finish. We begin with photos of your smile and facial features, continue with a three-dimensional diagnosis and finish by scanning your mouth. A complete overview in a single appointment.',
+      'You will see your new smile on screen before we touch a single tooth. With digital smile design, photography and 3D scanning we plan every detail — colour, shape and proportion — for a natural result you approve before we begin.',
     bodyMarkdown: `## How cosmetic dentistry can transform your life
 
 At **Debod Dental Clinic**, located in the vibrant neighbourhood of **Argüelles, Madrid**, cosmetic dentistry is not just about appearance; it is about rejuvenating your confidence and improving your overall quality of life.
 
-Our team of specialists understands the transformative power of a radiant smile. Using cutting-edge techniques and tools, we offer a range of aesthetic treatments designed to correct imperfections, brighten your smile and boost your self-esteem.
+Our team of specialists understands the transformative power of a radiant smile. With digital smile design, a 3D intraoral scanner and our own lab, we offer a range of aesthetic treatments designed to correct imperfections, brighten your smile and boost your self-esteem.
 
 ### Digital smile design
 
@@ -99,8 +99,8 @@ We believe in **honest, minimally invasive dentistry**: we preserve as much heal
     metaDescription:
       'Dental implants with 3D guided surgery in Argüelles, Madrid. Replace missing teeth with millimetre-precise technology. Debod Dental Clinic.',
     heroText:
-      'We use cutting-edge technology to deliver dental implants with millimetre precision. Prior virtual planning and 3D guided surgery ensure natural-looking results and a faster recovery.',
-    bodyMarkdown: `## State-of-the-art digital implantology in Argüelles
+      'We place dental implants with millimetre precision through prior virtual planning and 3D guided surgery, for natural-looking results and a faster recovery.',
+    bodyMarkdown: `## Digital implantology with 3D guided surgery in Argüelles
 
 At **Debod Dental Clinic**, in **Argüelles, Madrid**, dental implantology is one of our most advanced services. We use a complete 3D guided surgery protocol that begins long before you reach the chair.
 
@@ -205,7 +205,7 @@ We recommend a first visit to the paediatric dentist around the first year of li
     subtitle: 'Orthodontics',
     metaTitle: 'Orthodontist in Argüelles, Madrid — Debod Dental Clinic',
     metaDescription:
-      'Invisible orthodontics and Invisalign specialists in Argüelles, Madrid. Aligned smiles for children and adults with the most advanced technology.',
+      'Invisible orthodontics and Invisalign specialists in Argüelles, Madrid. Aligned smiles for children and adults with proven clear-aligner technology.',
     heroText:
       'High-precision orthodontics to achieve the smile you have always wanted. Specialising in Invisalign® and invisible orthodontics for children and adults.',
     bodyMarkdown: `## Invisible orthodontics: discretion and results
@@ -214,7 +214,7 @@ At **Debod Dental Clinic**, in **Argüelles, Madrid**, orthodontics has evolved.
 
 ### Invisalign® in Argüelles
 
-We are specialists in **Invisalign®**, the most advanced clear aligner system in the world. Invisalign aligners are:
+We are specialists in **Invisalign®**, one of the most advanced clear aligner systems in the world. Invisalign aligners are:
 
 - **Virtually invisible**: No one will notice you are in treatment.
 - **Removable**: You can take them out to eat, brush your teeth and on special occasions.

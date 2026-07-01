@@ -86,7 +86,7 @@ export const ui = {
   // WhatsApp widget
   'wa.help': { es: '¿Te ayudamos?', en: 'Need help?' },
   'wa.book': { es: 'Agenda tu cita en segundos', en: 'Book your appointment in seconds' },
-  'wa.aria': { es: 'Agendar cita en Debod Dental Clinic', en: 'Book an appointment at Debod Dental Clinic' },
+  'wa.aria': { es: 'Escríbenos por WhatsApp', en: 'Message us on WhatsApp' },
 
   // Consent banner
   'consent.text': { es: 'Usamos cookies propias y de terceros para medición y marketing. Puedes aceptarlas o rechazarlas.', en: 'We use our own and third-party cookies for measurement and marketing. You can accept or reject them.' },

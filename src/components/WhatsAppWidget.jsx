@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import { MessageCircle } from 'lucide-react'
 import { useLocale } from '../hooks/useLocale'
 import { t } from '../i18n/ui'
@@ -20,8 +19,10 @@ export default function WhatsAppWidget() {
       </div>
 
       {/* Button */}
-      <Link
-        to={locale === 'en' ? '/en/contact/' : '/contacto/'}
+      <a
+        href="https://wa.me/34689104714"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label={t('wa.aria', locale)}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
@@ -38,7 +39,7 @@ export default function WhatsAppWidget() {
           }}
         />
         <MessageCircle size={26} className="text-white relative z-10 fill-white/20" />
-      </Link>
+      </a>
     </div>
   )
 }

@@ -61,12 +61,12 @@ La detección precoz ahorra tiempo, dinero y procedimientos más invasivos.`,
       'Odontología estética premium en Argüelles, Madrid. Carillas de porcelana, Invisalign, blanqueamiento láser y diseño de sonrisa digital. Debod Dental Clinic.',
     heroImageUrl: '/Images/tratamientos/webp/estetica.webp',
     heroText:
-      'Cuidamos la estética de tu sonrisa de principio a fin. Comenzamos con fotos de tu sonrisa y tus rasgos faciales, continuamos con un diagnóstico en tres dimensiones y finalizamos con el escaneado de tu boca. Una visión integral en una sola cita.',
+      'Verás tu nueva sonrisa en la pantalla antes de tocar un solo diente. Con diseño de sonrisa digital, fotografía y escaneado 3D planificamos cada detalle —color, forma y proporción— para un resultado natural que apruebas antes de empezar.',
     bodyMarkdown: `## Cómo la odontología estética puede transformar tu vida
 
 En **Debod Dental Clinic**, ubicada en el vibrante barrio de **Argüelles, Madrid**, la odontología estética no se trata solo de apariencia; se trata de rejuvenecer tu confianza y mejorar tu calidad de vida en general.
 
-Nuestro equipo de especialistas comprende el poder transformador de una sonrisa radiante. Utilizando técnicas y herramientas de vanguardia, ofrecemos una variedad de tratamientos estéticos diseñados para corregir imperfecciones, iluminar tu sonrisa y aumentar tu autoestima.
+Nuestro equipo de especialistas comprende el poder transformador de una sonrisa radiante. Con diseño de sonrisa digital, escáner intraoral 3D y laboratorio propio, ofrecemos una variedad de tratamientos estéticos diseñados para corregir imperfecciones, iluminar tu sonrisa y aumentar tu autoestima.
 
 ### Diseño de sonrisa digital
 
@@ -105,8 +105,8 @@ Creemos en la **odontología honesta y mínimamente invasiva**: conservamos la m
       'Implantes dentales con cirugía guiada 3D en Argüelles, Madrid. Reemplaza dientes perdidos con tecnología de precisión milimétrica. Debod Dental Clinic.',
     heroImageUrl: '/Images/tratamientos/webp/implantologia.webp',
     heroText:
-      'Utilizamos tecnología de vanguardia para ofrecer implantes dentales de precisión milimétrica. La planificación virtual previa y la cirugía guiada 3D garantizan resultados de aspecto natural y una recuperación más rápida.',
-    bodyMarkdown: `## Implantología digital de última generación en Argüelles
+      'Colocamos implantes dentales con precisión milimétrica gracias a la planificación virtual previa y la cirugía guiada 3D, para resultados de aspecto natural y una recuperación más rápida.',
+    bodyMarkdown: `## Implantología digital con cirugía guiada 3D en Argüelles
 
 En **Debod Dental Clinic**, en **Argüelles, Madrid**, la implantología dental es uno de nuestros servicios más avanzados. Utilizamos un protocolo completo de cirugía guiada 3D que comienza mucho antes de que llegues al sillón.
 
@@ -229,7 +229,7 @@ En **Debod Dental Clinic**, en **Argüelles, Madrid**, la ortodoncia ha evolucio
 
 ### Invisalign® en Argüelles
 
-Somos especialistas en **Invisalign®**, el sistema de alineadores transparentes más avanzado del mundo. Los alineadores Invisalign son:
+Somos especialistas en **Invisalign®**, uno de los sistemas de alineadores transparentes más avanzados del mundo. Los alineadores Invisalign son:
 
 - **Prácticamente invisibles**: Nadie notará que llevas tratamiento.
 - **Removibles**: Puedes quitártelos para comer, cepillarte y en ocasiones especiales.

@@ -10,6 +10,7 @@ import FAQ from '../../components/FAQ'
 import JsonLd from '../../components/ui/JsonLd'
 import { servicePageSchema } from '../../data/seo'
 import { serviceFaqs } from '../../data/faqs'
+import { Phone } from 'lucide-react'
 import { useLocale } from '../../hooks/useLocale'
 import { tf, tfArray, resolveService } from '../../utils/tf'
 import { t } from '../../i18n/ui'
@@ -77,6 +78,21 @@ export default function ServicePage() {
       {faqs?.length > 0 && (
         <FAQ faqs={faqs} eyebrow={t('faq.eyebrow', locale)} subtitle={faqSubtitle} />
       )}
+
+      {/* Clinic NAP — local-trust signal + a direct call CTA on every service page */}
+      <section className="bg-pearl/40 px-4 py-10">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="font-jakarta text-slate-600 text-sm md:text-base">
+            {locale === 'en' ? 'Our clinic' : 'Nuestra clínica'} · <strong className="text-charcoal">C. de Ferraz, 24, Argüelles, 28008 Madrid</strong>
+          </p>
+          <a
+            href="tel:+34914476225"
+            className="inline-flex items-center gap-2 mt-3 font-outfit font-semibold text-gold hover:gap-3 transition-all duration-200"
+          >
+            <Phone size={16} /> +34 914 47 62 25
+          </a>
+        </div>
+      </section>
 
       <CtaBand
         headline={t('service.ctaHeadline', locale)}

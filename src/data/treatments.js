@@ -67,7 +67,7 @@ Con el cuidado adecuado, un implante dental puede durar **toda la vida**.`,
     heroText: 'La cirugía guiada representa la evolución de la implantología. Una férula quirúrgica personalizada, diseñada a partir de tu escáner 3D, garantiza que cada implante se coloque exactamente donde fue planificado.',
     bodyMarkdown: `## Cirugía guiada: implantología de precisión milimétrica
 
-La **cirugía guiada de implantes** es el protocolo más avanzado en implantología dental. Combina el escáner 3D (CBCT), el software de planificación quirúrgica y una guía impresa en 3D para garantizar que el implante se coloque exactamente donde fue planificado virtualmente.
+La **cirugía guiada de implantes** es uno de los protocolos más avanzados en implantología dental. Combina el escáner 3D (CBCT), el software de planificación quirúrgica y una guía impresa en 3D para garantizar que el implante se coloque exactamente donde fue planificado virtualmente.
 
 ### Ventajas sobre la cirugía convencional
 
@@ -287,7 +287,7 @@ Gracias a nuestra capacidad para dar forma y colocar las carillas, podemos soluc
     metaTitle: 'Invisalign® en Argüelles, Madrid — Debod Dental Clinic',
     metaDescription: 'Invisalign® en Argüelles, Madrid. Alineadores transparentes para adultos y adolescentes. Especialistas en ortodoncia invisible. Debod Dental Clinic.',
     heroImageUrl: 'https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=1400&q=85&auto=format&fit=crop',
-    heroText: 'Invisalign® es el sistema de ortodoncia invisible más avanzado del mundo. Alineadores transparentes, removibles y prácticamente imperceptibles para conseguir la sonrisa que siempre has querido.',
+    heroText: 'Invisalign® es uno de los sistemas de ortodoncia invisible más avanzados del mundo. Alineadores transparentes, removibles y prácticamente imperceptibles para conseguir la sonrisa que siempre has querido.',
     bodyMarkdown: `## ¿Qué es la ortodoncia invisible?
 
 La **ortodoncia invisible en Argüelles, Madrid** es una de nuestras mayores ventajas competitivas. Es un proceso muy especial donde creamos tu sonrisa perfecta mediante alineadores transparentes personalizados.
