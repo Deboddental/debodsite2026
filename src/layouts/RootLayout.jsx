@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Outlet, ScrollRestoration, useLocation } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import Navbar from '@/components/Navbar'
@@ -6,6 +6,7 @@ import Hreflang from '@/components/Hreflang'
 import Footer from '@/components/Footer'
 import WhatsAppWidget from '@/components/WhatsAppWidget'
 import ConsentBanner from '@/components/ConsentBanner'
+import LoadingScreen from '@/components/LoadingScreen'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { captureTrackingData } from '@/utils/tracking'
@@ -40,8 +41,12 @@ function LocaleMeta() {
 }
 
 export default function RootLayout() {
+  const [ready, setReady] = useState(false)
+  useEffect(() => { const t = setTimeout(() => setReady(true), 2000); return () => clearTimeout(t) }, [])
+
   return (
     <>
+      {!ready && <LoadingScreen />}
       <TrackingInit />
       <LangSync />
       <LocaleMeta />

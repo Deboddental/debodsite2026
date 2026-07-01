@@ -7,6 +7,7 @@ import { ratingSummary } from '../data/reviews'
 import { useLocale } from '../hooks/useLocale'
 import { tf } from '../utils/tf'
 import { enPathFor } from '../i18n/slugs'
+import Counter from './Counter'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -203,16 +204,18 @@ export default function Philosophy() {
           })}
         </div>
 
-        {/* Stats row */}
+        {/* Stats row with animated counters */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 pt-16 border-t border-white/8">
           {[
-            { value: '+15', label: locale === 'en' ? 'years of experience' : 'años de experiencia' },
-            { value: ratingSummary.ratingValue, label: locale === 'en' ? 'on Google Reviews' : 'en Google Reviews' },
-            { value: '2023', label: locale === 'en' ? 'WhiteSmile Award' : 'Premio WhiteSmile' },
-            { value: '60m', label: locale === 'en' ? 'Flexible financing' : 'Financiación flexible' },
+            { value: 15, suffix: '+', label: locale === 'en' ? 'years of experience' : 'años de experiencia' },
+            { value: 350, suffix: '+', label: locale === 'en' ? 'on Google Reviews' : 'en Google Reviews' },
+            { value: 2023, label: locale === 'en' ? 'WhiteSmile Award' : 'Premio WhiteSmile' },
+            { value: 60, suffix: 'm', label: locale === 'en' ? 'Flexible financing' : 'Financiación flexible' },
           ].map((stat, i) => (
             <div key={i} className="text-center">
-              <div className="font-outfit font-bold text-4xl text-gold mb-1">{stat.value}</div>
+              <div className="font-outfit font-bold text-4xl text-gold mb-1">
+                <Counter value={stat.value} suffix={stat.suffix || ''} duration={2000} />
+              </div>
               <div className="font-jakarta text-white/50 text-sm">{stat.label}</div>
             </div>
           ))}

@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ArrowRight, Zap, Layers, Smile } from 'lucide-react'
 import { useLocale } from '../hooks/useLocale'
 import { enPathFor } from '../i18n/slugs'
+import { useTilt3D } from '../hooks/useTilt3D'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -172,8 +173,20 @@ export default function Treatments() {
               <article
                 key={t.index}
                 ref={el => cardsRef.current[i] = el}
-                className="relative rounded-4xl overflow-hidden min-h-[480px] md:min-h-[520px] flex items-end group"
+                className="tilt-card relative rounded-4xl overflow-hidden min-h-[480px] md:min-h-[520px] flex items-end group cursor-pointer"
                 style={{ willChange: 'transform, opacity, filter' }}
+                onMouseMove={(e) => {
+                  const card = e.currentTarget
+                  const rect = card.getBoundingClientRect()
+                  const x = (e.clientX - rect.left) / rect.width
+                  const y = (e.clientY - rect.top) / rect.height
+                  const tiltX = (y - 0.5) * -8
+                  const tiltY = (x - 0.5) * 8
+                  card.style.transform = `perspective(1200px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale3d(1.01,1.01,1.01)`
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg) scale3d(1,1,1)'
+                }}
               >
                 {/* Background image */}
                 <div

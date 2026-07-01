@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 import Hero from '../components/Hero'
+import SectionDivider from '../components/SectionDivider'
 import ClinicalExpertise from '../components/ClinicalExpertise'
 import Philosophy from '../components/Philosophy'
 import Treatments from '../components/Treatments'
@@ -42,12 +43,19 @@ export default function Home() {
 
       <JsonLd schema={homeReviewsSchema(reviews)} />
       <Hero />
+      <SectionDivider variant="wave" position="bottom" color="gold" />
       <ClinicalExpertise />
+      <SectionDivider variant="wave" position="bottom" color="gold" />
       <Treatments />
+      <SectionDivider variant="wave" position="bottom" color="gold" />
       <Philosophy />
+      <SectionDivider variant="curve" position="bottom" color="gold" />
       <BeforeAfter />
+      <SectionDivider variant="slant" position="bottom" color="gold" />
       <TeamSection />
+      <SectionDivider variant="wave" position="bottom" color="gold" />
       <Reviews />
+      <SectionDivider variant="curve" position="bottom" color="gold" />
       <VideoTestimonials />
       <FAQ faqs={en ? homeFaqs_en : homeFaqs} />
       <CtaBand

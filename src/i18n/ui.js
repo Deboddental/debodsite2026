@@ -8,6 +8,7 @@ export const ui = {
   'nav.about': { es: 'Nosotros', en: 'About' },
   'nav.team': { es: 'Equipo', en: 'Team' },
   'nav.services': { es: 'Servicios', en: 'Services' },
+  'nav.treatments': { es: 'Tratamientos', en: 'Treatments' },
   'nav.tourism': { es: 'Turismo Dental', en: 'Dental Tourism' },
   'nav.reviews': { es: 'Reseñas', en: 'Reviews' },
   'nav.blog': { es: 'Blog', en: 'Blog' },
