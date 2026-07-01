@@ -69,17 +69,17 @@ export default function Navbar() {
         aria-label={locale === 'en' ? 'Main navigation' : 'Navegación principal'}
         className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-out
           ${scrolled
-            ? 'bg-white/80 backdrop-blur-xl border border-white/60 shadow-xl shadow-black/10 text-charcoal'
+            ? 'bg-charcoal/80 backdrop-blur-xl border border-white/20 shadow-xl shadow-black/10 text-pearl'
             : 'bg-transparent text-white border border-white/20'
           }
           rounded-full px-5 py-3 flex items-center gap-6
-          w-[calc(100%-2rem)] max-w-5xl
+          w-[calc(100%-2rem)] max-w-6xl
         `}
       >
-        {/* Logo */}
+        {/* Logo — dark navbar in both states, so always use the light logo */}
         <Link to={lp('/')} className="shrink-0 mr-auto">
           <img
-            src={scrolled ? '/logo-dark.webp' : '/logo-light.webp'}
+            src="/logo-light.webp"
             alt="Debod Dental Clinic — Clínica dental en Argüelles, Madrid"
             width="120"
             height="48"
@@ -91,26 +91,26 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-6 font-jakarta text-sm font-medium">
           <Link
             to={lp('/')}
-            className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
+            className="transition-colors hover:text-gold text-white/90"
           >
             {t('nav.home', locale)}
           </Link>
 
           <Link
             to={lp('/nosotros/')}
-            className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
+            className="transition-colors hover:text-gold text-white/90"
           >
             {t('nav.about', locale)}
           </Link>
 
           {/* Services dropdown (portaled — see NavDropdown) */}
-          <NavDropdown label={t('nav.services', locale)} scrolled={scrolled} width="w-56">
+          <NavDropdown label={t('nav.services', locale)} width="w-56">
             <div className="p-2">
               {SERVICES.map((s) => (
                 <Link
                   key={s.slug}
                   to={serviceHref(s.slug)}
-                  className="block px-4 py-2.5 rounded-2xl text-charcoal text-sm font-jakarta font-medium hover:bg-gold/10 hover:text-gold transition-all duration-200"
+                  className="block px-4 py-2.5 rounded-2xl text-pearl text-sm font-jakarta font-medium hover:bg-gold/10 hover:text-gold transition-all duration-200"
                 >
                   {serviceLabel(s)}
                 </Link>
@@ -119,7 +119,7 @@ export default function Navbar() {
           </NavDropdown>
 
           {/* Dental Tourism dropdown — EN landings for international patients */}
-          <NavDropdown label={t('nav.tourism', locale)} scrolled={scrolled} width="w-72">
+          <NavDropdown label={t('nav.tourism', locale)} width="w-72">
             <div className="p-2">
               {tourismLandings.map((l) => (
                 <Link
@@ -127,8 +127,8 @@ export default function Navbar() {
                   to={`/en/${l.slug}/`}
                   className="block px-4 py-2.5 rounded-2xl hover:bg-gold/10 transition-all duration-200 group"
                 >
-                  <span className="block text-charcoal text-sm font-jakarta font-medium group-hover:text-gold transition-colors duration-200">{l.navLabel}</span>
-                  <span className="block text-charcoal/50 text-xs font-jakarta">{l.navDesc}</span>
+                  <span className="block text-pearl text-sm font-jakarta font-medium group-hover:text-gold transition-colors duration-200">{l.navLabel}</span>
+                  <span className="block text-pearl/50 text-xs font-jakarta">{l.navDesc}</span>
                 </Link>
               ))}
             </div>
@@ -136,22 +136,22 @@ export default function Navbar() {
 
           <Link
             to={lp('/resenas/')}
-            className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
+            className="transition-colors hover:text-gold text-white/90"
           >
             {t('nav.reviews', locale)}
           </Link>
 
           <Link
             to={lp('/blog/')}
-            className={`transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
+            className="transition-colors hover:text-gold text-white/90"
           >
             {t('nav.blog', locale)}
           </Link>
         </div>
 
-        {/* Language toggle (desktop) */}
+        {/* Language toggle (desktop) — dark bar, so use the on-dark styling */}
         <div className="hidden lg:block shrink-0">
-          <LanguageToggle scrolled={scrolled} />
+          <LanguageToggle />
         </div>
 
         {/* CTA */}
@@ -166,40 +166,40 @@ export default function Navbar() {
         {/* Mobile hamburger */}
         <button
           aria-label={t('nav.openMenu', locale)}
-          className={`lg:hidden ml-auto transition-colors ${scrolled ? 'text-charcoal' : 'text-white'}`}
+          className="lg:hidden ml-auto transition-colors text-white"
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           {mobileOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
       </nav>
 
-      {/* Mobile Menu */}
-      <div className={`fixed inset-x-4 top-20 z-40 rounded-4xl glass shadow-2xl shadow-black/20 overflow-hidden transition-all duration-500 lg:hidden
+      {/* Mobile Menu — dark glass, so all foreground is light */}
+      <div className={`fixed inset-x-4 top-20 z-40 rounded-4xl glass-dark shadow-2xl shadow-black/20 overflow-hidden transition-all duration-500 lg:hidden
         ${mobileOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-4 pointer-events-none'}`}>
         <div className="p-6 flex flex-col gap-4 font-outfit">
-          <Link to={lp('/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.home', locale)}</Link>
-          <Link to={lp('/nosotros/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.about', locale)}</Link>
-          <div className="h-px bg-charcoal/10" />
-          <p className="text-slate text-xs font-jakarta uppercase tracking-widest">{t('nav.services', locale)}</p>
+          <Link to={lp('/')} className="text-pearl font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.home', locale)}</Link>
+          <Link to={lp('/nosotros/')} className="text-pearl font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.about', locale)}</Link>
+          <div className="h-px bg-white/10" />
+          <p className="text-white/50 text-xs font-jakarta uppercase tracking-widest">{t('nav.services', locale)}</p>
           {SERVICES.map((s) => (
-            <Link key={s.slug} to={serviceHref(s.slug)} className="text-charcoal/80 text-sm font-medium hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>
+            <Link key={s.slug} to={serviceHref(s.slug)} className="text-white/70 text-sm font-medium hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>
               {serviceLabel(s)}
             </Link>
           ))}
-          <div className="h-px bg-charcoal/10" />
-          <p className="text-slate text-xs font-jakarta uppercase tracking-widest">{t('nav.tourism', locale)}</p>
+          <div className="h-px bg-white/10" />
+          <p className="text-white/50 text-xs font-jakarta uppercase tracking-widest">{t('nav.tourism', locale)}</p>
           {tourismLandings.map((l) => (
-            <Link key={l.slug} to={`/en/${l.slug}/`} className="text-charcoal/80 text-sm font-medium hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>
+            <Link key={l.slug} to={`/en/${l.slug}/`} className="text-white/70 text-sm font-medium hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>
               {l.navLabel}
             </Link>
           ))}
-          <div className="h-px bg-charcoal/10" />
-          <Link to={lp('/resenas/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.reviews', locale)}</Link>
-          <Link to={lp('/blog/')} className="text-charcoal font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.blog', locale)}</Link>
-          <div className="h-px bg-charcoal/10" />
+          <div className="h-px bg-white/10" />
+          <Link to={lp('/resenas/')} className="text-pearl font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.reviews', locale)}</Link>
+          <Link to={lp('/blog/')} className="text-pearl font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.blog', locale)}</Link>
+          <div className="h-px bg-white/10" />
           <div className="flex items-center justify-between">
-            <span className="text-slate text-xs font-jakarta uppercase tracking-widest">{t('nav.language', locale)}</span>
-            <LanguageToggle scrolled onNavigate={() => setMobileOpen(false)} />
+            <span className="text-white/50 text-xs font-jakarta uppercase tracking-widest">{t('nav.language', locale)}</span>
+            <LanguageToggle onNavigate={() => setMobileOpen(false)} />
           </div>
           <Link
             to={lp('/contacto/')}
@@ -220,7 +220,7 @@ export default function Navbar() {
 // neutralise a descendant's backdrop-filter, so a panel nested inside the <nav>
 // can never frost the page. Rendering the panel to <body> escapes those contexts,
 // so its blur samples the real page content. Position is taken from the trigger.
-function NavDropdown({ label, scrolled, width, children }) {
+function NavDropdown({ label, width, children }) {
   const [open, setOpen] = useState(false)
   const [pos, setPos] = useState({ top: 0, left: 0 })
   const triggerRef = useRef(null)
@@ -237,7 +237,7 @@ function NavDropdown({ label, scrolled, width, children }) {
   return (
     <div ref={triggerRef} className="relative" onMouseEnter={openNow} onMouseLeave={closeSoon}>
       <button
-        className={`flex items-center gap-1 transition-colors hover:text-gold ${scrolled ? 'text-charcoal/80' : 'text-white/90'}`}
+        className="flex items-center gap-1 transition-colors hover:text-gold text-white/90"
       >
         {label} <ChevronDown size={14} className={`transition-transform duration-300 ${open ? 'rotate-180' : ''}`} />
       </button>
@@ -248,7 +248,7 @@ function NavDropdown({ label, scrolled, width, children }) {
             position: 'fixed',
             top: pos.top,
             left: pos.left,
-            transform: `translateX(-50%) scale(${open ? 1 : 0.97})`,
+            transform: `translateX(-50%) scale(${open ? 1 : 0.97}) translateY(${open ? 0 : -8}px)`,
             transformOrigin: 'top center',
           }}
           className={`z-[60] ${width} pt-2 transition-all duration-300
@@ -257,7 +257,7 @@ function NavDropdown({ label, scrolled, width, children }) {
           onMouseLeave={closeSoon}
           onClick={() => setOpen(false)}
         >
-          <div className="rounded-3xl bg-white/80 backdrop-blur-2xl border border-white/60 shadow-2xl shadow-black/15 overflow-hidden">
+          <div className="rounded-3xl bg-charcoal/80 backdrop-blur-2xl border border-white/20 shadow-2xl shadow-black/15 overflow-hidden">
             {children}
           </div>
         </div>,
