@@ -210,8 +210,8 @@ const artifacts = [
   },
   {
     icon: Cpu,
-    tag: 'Debod Digital Lab',
-    tag_en: 'Debod Digital Lab',
+    tag: 'Debod Dental Lab',
+    tag_en: 'Debod Dental Lab',
     title: 'Lab\nIn-House',
     title_en: 'In-House\nLab',
     desc: 'Nuestro laboratorio digital propio garantiza precisión milimétrica en cada restauración.',

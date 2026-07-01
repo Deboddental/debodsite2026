@@ -36,7 +36,7 @@ export const whyTravel = {
 
 export const techCards = [
   { icon: 'ScanLine', title: '3D intraoral scanner', text: 'Digital impressions with no messy moulds — precise, comfortable and easy to share for your remote consultation.' },
-  { icon: 'Building2', title: 'In-house digital lab', text: 'Our own Debod Digital Lab designs and crafts crowns, veneers and prostheses on site — fewer visits and full quality control.' },
+  { icon: 'Building2', title: 'In-house digital lab', text: 'Our own Debod Dental Lab designs and crafts crowns, veneers and prostheses on site — fewer visits and full quality control.' },
   { icon: 'Target', title: '3D guided implant surgery', text: 'Implants planned virtually and placed through a surgical guide for millimetric precision and a faster recovery.' },
   { icon: 'Smile', title: 'Digital smile design', text: 'Preview and approve your new smile on screen before any treatment begins — no surprises.' },
 ]
@@ -126,7 +126,7 @@ From a single implant to a **full-arch rehabilitation (All-on-4 / All-on-6)**, p
 ### Why patients choose Debod
 - 🗣️ **English-speaking team** — clear diagnosis, options and quote, no jargon.
 - 🧭 **Digital dentistry** — 3D scanner, guided implant surgery and digital smile design.
-- 🏭 **In-house lab (Debod Digital Lab)** — crowns, veneers and prostheses made on site.
+- 🏭 **In-house lab (Debod Dental Lab)** — crowns, veneers and prostheses made on site.
 - 📍 **Central location** in Argüelles, beside Plaza de España, with metro at the door.
 - 💳 **Honest, transparent pricing** with financing available.
 
@@ -160,7 +160,7 @@ It begins with a **free online video consultation**. Send us recent photos and a
 
 A **dental implant** is the closest thing to a natural tooth: a titanium root that integrates with the bone (osseointegration) to support a crown, bridge or full prosthesis. At **Debod Dental Clinic** in **Argüelles, Madrid**, we plan every implant digitally and place it with **3D guided surgery** for millimetric precision and a more comfortable recovery.
 
-Your crown is made in our **in-house lab (Debod Digital Lab)**, matching the colour and shape of your natural teeth for a result that looks and feels natural.
+Your crown is made in our **in-house lab (Debod Dental Lab)**, matching the colour and shape of your natural teeth for a result that looks and feels natural.
 
 ### Why choose Debod for your implants
 - 🧭 **3D guided surgery** — planned virtually before we start, less invasive.
@@ -271,7 +271,7 @@ After a 3D assessment we will recommend honestly whether All-on-6, All-on-4 or a
 
 From **porcelain veneers** and **digital smile design** to **whitening** and natural-looking **crowns**, cosmetic dentistry at **Debod Dental Clinic** is built around one idea: you should be able to **preview and approve your new smile before we start**.
 
-Based in **Argüelles, central Madrid**, we design every case digitally and craft your restorations in our **in-house lab (Debod Digital Lab)** — matching colour, shape and proportion to your face for a result that looks effortlessly natural.
+Based in **Argüelles, central Madrid**, we design every case digitally and craft your restorations in our **in-house lab (Debod Dental Lab)** — matching colour, shape and proportion to your face for a result that looks effortlessly natural.
 
 ### Why choose Debod for your smile
 - 👀 **Digital smile design** — see the result first, then decide.
@@ -308,7 +308,7 @@ Ideal for expats and visitors who want a premium, natural-looking smile in the h
 
 **Porcelain veneers** are thin, custom ceramic shells that transform your smile by correcting colour, shape and alignment — with a minimal, conservative preparation of the tooth. At **Debod Dental Clinic** in **Argüelles, Madrid**, we start every case with a **digital smile design**, so you can preview and approve your new smile **before we touch a single tooth**.
 
-Each veneer is crafted in our **in-house lab (Debod Digital Lab)** to look natural and match your face — and to keep full control of quality and timing.
+Each veneer is crafted in our **in-house lab (Debod Dental Lab)** to look natural and match your face — and to keep full control of quality and timing.
 
 ### Why choose Debod for porcelain veneers
 - 👀 **Digital smile design** — see the result first, then decide.
@@ -345,7 +345,7 @@ Ideal for expats and visitors who want a premium, natural-looking smile — ofte
 
 A **smile makeover** combines the right treatments — veneers, whitening, crowns or alignment — into one coordinated plan to transform your smile. At **Debod Dental Clinic** in **Argüelles, Madrid**, it all begins with a **digital smile design**: a screen preview of your future smile that you approve **before any treatment starts**.
 
-Your restorations are crafted in our **in-house lab (Debod Digital Lab)**, designed to suit your face for a result that looks natural — not “done”.
+Your restorations are crafted in our **in-house lab (Debod Dental Lab)**, designed to suit your face for a result that looks natural — not “done”.
 
 ### Why choose Debod for your smile makeover
 - 👀 **Digital smile design** — visualise and approve your new smile first.
@@ -382,7 +382,7 @@ Perfect for expats and visitors who want a confident, natural smile — often ac
 
 If you live in Madrid as an expat, or you are visiting and need a dentist, **Debod Dental Clinic** is the easy choice. We are based at **C. de Ferraz, 24, in Argüelles** — a few minutes from Plaza de España and the Temple of Debod — and our team treats international patients **in English**, with clear explanations and transparent pricing.
 
-We are a boutique clinic specialised in **digital implantology, invisible orthodontics (Invisalign®), porcelain veneers and full oral rehabilitation**, with our own **in-house dental lab** (Debod Digital Lab) for faster, fully controlled treatments.
+We are a boutique clinic specialised in **digital implantology, invisible orthodontics (Invisalign®), porcelain veneers and full oral rehabilitation**, with our own **in-house dental lab** (Debod Dental Lab) for faster, fully controlled treatments.
 
 ### Why international patients choose Debod
 - 🗣️ **English-speaking team** and a calm, honest approach.

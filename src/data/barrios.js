@@ -18,7 +18,7 @@ export const barrios = [
 
 Debod Dental Clinic está en **C. de Ferraz, 24**, en el límite entre **Argüelles y Moncloa** (distrito Moncloa-Aravaca). Para los vecinos de Moncloa somos la opción más cómoda: misma zona, sin desplazamientos largos y con la **línea 3 de metro** conectando ambos barrios directamente.
 
-Ofrecemos odontología integral —**implantología digital, ortodoncia invisible Invisalign®, estética dental y rehabilitación oral**— con laboratorio propio (Debod Digital Lab) y un enfoque de odontología honesta: diagnósticos claros y presupuestos sin sorpresas.
+Ofrecemos odontología integral —**implantología digital, ortodoncia invisible Invisalign®, estética dental y rehabilitación oral**— con laboratorio propio (Debod Dental Lab) y un enfoque de odontología honesta: diagnósticos claros y presupuestos sin sorpresas.
 
 ### Cómo llegar desde Moncloa
 - 🚇 **Metro:** Línea 3 (Moncloa → Argüelles / Ventura Rodríguez), 1–2 paradas.

@@ -30,8 +30,8 @@ export default function Home() {
         <meta
           name="description"
           content={en
-            ? 'Comprehensive dental clinic in Argüelles, Madrid. Specialists in full oral rehabilitation, dental implants, orthodontics and implantology. Honest dentistry with cutting-edge technology. First consultation included.'
-            : 'Clínica dental integral en Argüelles, Madrid. Especialistas en rehabilitación oral, implantes, ortodoncia e implantología. Odontología honesta con tecnología de vanguardia. Primera consulta gratuita.'}
+            ? 'Comprehensive dental clinic in Argüelles, Madrid. Specialists in full oral rehabilitation, dental implants, orthodontics and implantology. Honest dentistry with cutting-edge technology. First diagnostic visit included.'
+            : 'Clínica dental integral en Argüelles, Madrid. Especialistas en rehabilitación oral, implantes, ortodoncia e implantología. Odontología honesta con tecnología de vanguardia. Primera visita diagnóstica incluida.'}
         />
         <meta property="og:title" content={en ? 'Debod Dental Clinic — Argüelles, Madrid' : 'Debod Dental Clinic — Argüelles, Madrid'} />
         <meta property="og:description" content={en

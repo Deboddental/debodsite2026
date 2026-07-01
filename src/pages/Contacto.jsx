@@ -344,7 +344,7 @@ export default function Contacto() {
                     </div>
                     <div>
                       <p className="font-jakarta text-white/80 text-sm">{locale === 'en' ? 'Mon – Fri: 9:00 – 20:00' : 'Lun – Vie: 9:00 – 20:00'}</p>
-                      <p className="font-jakarta text-white/50 text-sm">{locale === 'en' ? 'Sat: 9:00 – 14:00' : 'Sáb: 9:00 – 14:00'}</p>
+                      <p className="font-jakarta text-white/50 text-sm">{locale === 'en' ? 'Sat – Sun: closed' : 'Sáb – Dom: cerrado'}</p>
                     </div>
                   </div>
                 </address>
@@ -362,12 +362,12 @@ export default function Contacto() {
               {/* Trust signals */}
               <div className="border-t border-white/8 pt-6 space-y-3">
                 {(locale === 'en' ? [
-                  'First diagnostic visit at no cost',
+                  'First diagnostic visit included',
                   'Reply within 24 h',
                   'Personalised quote with no obligation',
                   'Financing of up to 60 months available',
                 ] : [
-                  'Primera visita diagnóstica sin coste',
+                  'Primera visita diagnóstica incluida',
                   'Respuesta en menos de 24 h',
                   'Presupuesto personalizado y sin compromiso',
                   'Financiación hasta 60 meses disponible',

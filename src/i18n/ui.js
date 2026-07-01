@@ -34,7 +34,7 @@ export const ui = {
   'treatment.eyebrow': { es: 'Tratamiento', en: 'Treatment' },
   'treatment.benefitsTitle': { es: 'Ventajas de este tratamiento', en: 'Benefits of this treatment' },
   'treatment.ctaHeadline': { es: '¿Tienes preguntas sobre este tratamiento?', en: 'Questions about this treatment?' },
-  'treatment.ctaSubtext': { es: 'Nuestro equipo te orientará sin compromiso. Agenda tu consulta gratuita hoy.', en: 'Our team will guide you with no obligation. Book your free consultation today.' },
+  'treatment.ctaSubtext': { es: 'Nuestro equipo te orientará sin compromiso. Agenda tu consulta hoy.', en: 'Our team will guide you with no obligation. Book your consultation today.' },
 
   // Barrio detail
   'barrio.eyebrow': { es: 'Tu dentista en', en: 'Your dentist in' },
@@ -54,8 +54,8 @@ export const ui = {
   'faq.eyebrow': { es: 'Preguntas frecuentes', en: 'Frequently asked questions' },
   'faq.subtitle': { es: 'Resolvemos las dudas más habituales antes de tu primera visita.', en: 'We answer the most common questions before your first visit.' },
   'cta.defaultHeadline': { es: '¿Listo para transformar tu sonrisa?', en: 'Ready to transform your smile?' },
-  'cta.defaultSubtext': { es: 'Pide tu consulta gratuita con nuestro equipo de especialistas.', en: 'Book your free consultation with our team of specialists.' },
-  'cta.defaultLabel': { es: 'Agendar consulta gratuita', en: 'Book a free consultation' },
+  'cta.defaultSubtext': { es: 'Pide tu consulta con nuestro equipo de especialistas.', en: 'Book a consultation with our team of specialists.' },
+  'cta.defaultLabel': { es: 'Agendar consulta', en: 'Book a consultation' },
 
   // Doctor profile
   'doctor.specialtiesTitle': { es: 'Áreas de especialización', en: 'Areas of specialisation' },

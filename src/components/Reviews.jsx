@@ -64,7 +64,7 @@ export default function Reviews() {
             Google Reviews
           </span>
           <h2 className="font-outfit font-bold text-4xl md:text-5xl text-charcoal tracking-tight mb-4 leading-tight">
-            {locale === 'en' ? 'The highest-rated clinic' : 'La clínica mejor valorada'}{' '}
+            {locale === 'en' ? 'What our patients say' : 'Lo que dicen nuestros pacientes'}{' '}
             <em className="font-cormorant font-light italic text-gold">{locale === 'en' ? 'in Argüelles' : 'en Argüelles'}</em>
           </h2>
 

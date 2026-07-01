@@ -17,7 +17,7 @@ const getChannels = (locale) => [
   {
     icon: Phone,
     title: locale === 'en' ? 'Phone' : 'Teléfono',
-    desc: locale === 'en' ? 'Call us during clinic hours: Mon–Fri, 9:00 to 21:00.' : 'Llámanos en horario de clínica: L–V de 9:00 a 21:00.',
+    desc: locale === 'en' ? 'Call us during clinic hours: Mon–Fri, 9:00 to 20:00.' : 'Llámanos en horario de clínica: L–V de 9:00 a 20:00.',
     action: locale === 'en' ? 'Call now' : 'Llamar ahora',
     href: 'tel:+34914476225',
     color: 'bg-gold',
@@ -41,7 +41,7 @@ export default function Citas() {
         <title>{locale === 'en' ? 'Book an Appointment in Argüelles, Madrid | Debod Dental Clinic' : 'Pedir Cita en Argüelles, Madrid | Debod Dental Clinic'}</title>
         <meta
           name="description"
-          content={locale === 'en' ? 'Book an appointment at Debod Dental Clinic, Argüelles, Madrid. Available by WhatsApp, phone and email. Free first consultation with our team of specialists.' : 'Pide cita en Debod Dental Clinic, Argüelles, Madrid. Disponible por WhatsApp, teléfono y email. Primera consulta gratuita con nuestro equipo de especialistas.'}
+          content={locale === 'en' ? 'Book an appointment at Debod Dental Clinic, Argüelles, Madrid. Available by WhatsApp, phone and email. First diagnostic visit included with our team of specialists.' : 'Pide cita en Debod Dental Clinic, Argüelles, Madrid. Disponible por WhatsApp, teléfono y email. Primera visita diagnóstica incluida con nuestro equipo de especialistas.'}
         />
         <meta property="og:title" content={locale === 'en' ? 'Book an Appointment — Debod Dental Clinic' : 'Pedir Cita — Debod Dental Clinic'} />
       </Helmet>
@@ -49,7 +49,7 @@ export default function Citas() {
       <PageHero
         subtitle={locale === 'en' ? 'Book your consultation' : 'Reserva tu consulta'}
         title={locale === 'en' ? 'Book your appointment at Debod Dental' : 'Pide cita en Debod Dental'}
-        description={locale === 'en' ? 'Free first consultation with no obligation. Choose the channel that suits you best.' : 'Primera consulta gratuita y sin compromiso. Elige el canal que más te convenga.'}
+        description={locale === 'en' ? 'First diagnostic visit included, with no obligation. Choose the channel that suits you best.' : 'Primera visita diagnóstica incluida y sin compromiso. Elige el canal que más te convenga.'}
         imageUrl="/Images/clinica/dsc00253.webp"
       />
 
@@ -90,7 +90,7 @@ export default function Citas() {
             <Clock size={32} className="text-gold flex-shrink-0" />
             <div>
               <h3 className="font-outfit font-semibold text-pearl text-lg mb-1">{locale === 'en' ? 'Opening hours' : 'Horario de atención'}</h3>
-              <p className="font-jakarta text-pearl/70">{locale === 'en' ? 'Monday to Friday: ' : 'Lunes a Viernes: '}<strong className="text-pearl">9:00 – 21:00</strong>{locale === 'en' ? ' · Saturdays by appointment' : ' · Sábados con cita previa'}</p>
+              <p className="font-jakarta text-pearl/70">{locale === 'en' ? 'Monday to Friday: ' : 'Lunes a Viernes: '}<strong className="text-pearl">9:00 – 20:00</strong>{locale === 'en' ? ' · Sat & Sun closed' : ' · Sábados y domingos cerrado'}</p>
               <p className="font-jakarta text-pearl/50 text-sm mt-1">{locale === 'en' ? 'Emergencies are seen the same day.' : 'Las urgencias se atienden en el mismo día.'}</p>
             </div>
           </div>

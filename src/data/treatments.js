@@ -10,7 +10,7 @@ export const treatments = [
     subtitle: 'TRATAMIENTOS',
     specialty: 'dentista-de-implantes-arguelles-madrid-espana',
     metaTitle: 'Implantes Dentales en Argüelles, Madrid — Debod Dental Clinic',
-    metaDescription: 'Implantes dentales de titanio con planificación 3D en Argüelles, Madrid. Resultados naturales y duraderos. Solicita tu consulta gratuita.',
+    metaDescription: 'Implantes dentales de titanio con planificación 3D en Argüelles, Madrid. Resultados naturales y duraderos. Primera visita diagnóstica incluida.',
     heroImageUrl: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1400&q=85&auto=format&fit=crop',
     heroText: 'Los implantes dentales son la solución más próxima a un diente natural. Con la planificación digital previa garantizamos resultados precisos, seguros y de larga duración.',
     bodyMarkdown: `## ¿Qué son los implantes dentales?

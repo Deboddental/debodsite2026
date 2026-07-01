@@ -32,7 +32,7 @@ const serviceLinks = [
 const treatmentLinks = [
   { key: 'tr.veneers', href: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/' },
   { key: 'tr.invisalign', href: '/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/' },
-  { key: 'tr.whitening', href: '/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/' },
+  { key: 'tr.whitening', href: '/dentista-cosmetico-arguelles-madrid-espana/' },
   { key: 'tr.guided', href: '/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/' },
   { key: 'tr.gumgraft', href: '/tratamientos/injerto-de-encia-arguelles-madrid-espana/' },
   { key: 'tr.gingivo', href: '/tratamientos/gingivoplastia-arguelles-madrid-espana/' },

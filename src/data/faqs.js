@@ -35,7 +35,7 @@ export const homeFaqs = [
   {
     question: '¿Tenéis laboratorio dental propio?',
     answer:
-      'Sí. Contamos con el Debod Digital Lab, nuestro laboratorio in-house. Esto nos permite controlar la calidad de cada restauración —coronas, carillas, prótesis sobre implante— y reducir los tiempos de tratamiento.',
+      'Sí. Contamos con el Debod Dental Lab, nuestro laboratorio in-house. Esto nos permite controlar la calidad de cada restauración —coronas, carillas, prótesis sobre implante— y reducir los tiempos de tratamiento.',
   },
   {
     question: '¿Qué tecnología utilizáis?',
@@ -79,7 +79,7 @@ export const homeFaqs_en = [
   {
     question: 'Do you have your own dental laboratory?',
     answer:
-      'Yes. We have the Debod Digital Lab, our in-house laboratory. This lets us control the quality of every restoration —crowns, veneers, implant-supported prostheses— and reduce treatment times.',
+      'Yes. We have the Debod Dental Lab, our in-house laboratory. This lets us control the quality of every restoration —crowns, veneers, implant-supported prostheses— and reduce treatment times.',
   },
   {
     question: 'What technology do you use?',

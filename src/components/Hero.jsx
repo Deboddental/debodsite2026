@@ -56,7 +56,7 @@ export default function Hero() {
         </div>
         <h1 ref={h1Ref} className="mb-3 sm:mb-6 leading-none">
           <span className="anim block font-outfit font-extrabold text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white tracking-tight">
-            {locale === 'en' ? 'No.\u00a01 in' : 'N.\u00ba\u00a01 en'}
+            {locale === 'en' ? 'Specialists in' : 'Especialistas en'}
           </span>
           <span className="anim block font-outfit font-extrabold text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white tracking-tight">
             {locale === 'en' ? 'Full Oral Rehabilitation' : 'Rehabilitaci\u00f3n Oral'}

@@ -36,7 +36,7 @@ const localBusinessSchema = {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
       opens: '09:00',
-      closes: '21:00',
+      closes: '20:00',
     },
   ],
   priceRange: '€€',
@@ -52,7 +52,7 @@ export default function Ubicaciones() {
         <title>{locale === 'en' ? 'Dental Clinic in Argüelles, Madrid — How to Get Here | Debod Dental' : 'Clínica Dental en Argüelles, Madrid — Cómo Llegar | Debod Dental'}</title>
         <meta
           name="description"
-          content={locale === 'en' ? 'Debod Dental Clinic in Argüelles, Madrid. C. de Ferraz, 24. Metro Argüelles (L3/L4) and Ventura Rodríguez (L3). Open Monday to Friday from 9:00 to 21:00.' : 'Debod Dental Clinic en Argüelles, Madrid. C. de Ferraz, 24. Metro Argüelles (L3/L4) y Ventura Rodríguez (L3). Horario de lunes a viernes de 9:00 a 21:00.'}
+          content={locale === 'en' ? 'Debod Dental Clinic in Argüelles, Madrid. C. de Ferraz, 24. Metro Argüelles (L3/L4) and Ventura Rodríguez (L3). Open Monday to Friday from 9:00 to 20:00.' : 'Debod Dental Clinic en Argüelles, Madrid. C. de Ferraz, 24. Metro Argüelles (L3/L4) y Ventura Rodríguez (L3). Horario de lunes a viernes de 9:00 a 20:00.'}
         />
         <meta property="og:title" content={locale === 'en' ? 'How to Get Here — Debod Dental Clinic, Argüelles Madrid' : 'Cómo Llegar — Debod Dental Clinic, Argüelles Madrid'} />
       </Helmet>
@@ -96,7 +96,7 @@ export default function Ubicaciones() {
                   <Clock size={22} className="text-gold flex-shrink-0 mt-0.5" />
                   <div>
                     <div className="font-outfit font-semibold text-charcoal">{locale === 'en' ? 'Opening hours' : 'Horario'}</div>
-                    <div className="font-jakarta text-slate-600">{locale === 'en' ? 'Monday to Friday: 9:00 – 21:00' : 'Lunes a Viernes: 9:00 – 21:00'}</div>
+                    <div className="font-jakarta text-slate-600">{locale === 'en' ? 'Monday to Friday: 9:00 – 20:00' : 'Lunes a Viernes: 9:00 – 20:00'}</div>
                     <div className="font-jakarta text-slate-500 text-sm">{locale === 'en' ? 'Weekends: by appointment' : 'Fines de semana: previa cita'}</div>
                   </div>
                 </li>

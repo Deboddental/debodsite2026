@@ -158,7 +158,7 @@ export default function Nosotros() {
 
       <CtaBand
         headline={locale === 'en' ? 'Come and meet us, no obligation' : 'Ven a conocernos sin compromiso'}
-        subtext={locale === 'en' ? 'First consultation free. We explain everything you need to know about your dental health.' : 'Primera consulta gratuita. Te explicamos todo lo que necesitas saber sobre tu salud dental.'}
+        subtext={locale === 'en' ? 'First diagnostic visit included. We explain everything you need to know about your dental health.' : 'Primera visita diagnóstica incluida. Te explicamos todo lo que necesitas saber sobre tu salud dental.'}
       />
     </>
   )

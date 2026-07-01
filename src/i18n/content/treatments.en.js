@@ -12,7 +12,7 @@ export const treatmentsEn = {
     title: 'Dental Implants in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
     metaTitle: 'Dental Implants in Argüelles, Madrid — Debod Dental Clinic',
-    metaDescription: 'Titanium dental implants with 3D planning in Argüelles, Madrid. Natural, long-lasting results. Book your free consultation.',
+    metaDescription: 'Titanium dental implants with 3D planning in Argüelles, Madrid. Natural, long-lasting results. First diagnostic visit included.',
     heroText: 'Dental implants are the solution closest to a natural tooth. With prior digital planning we guarantee precise, safe and long-lasting results.',
     bodyMarkdown: `## What are dental implants?
 
