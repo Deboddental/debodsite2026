@@ -41,6 +41,9 @@ export const ui = {
 
   // Blog
   'blog.reviewedBy': { es: 'Revisado por', en: 'Reviewed by' },
+  'blog.readTime': { es: 'min de lectura', en: 'min read' },
+  'blog.author': { es: 'Autor', en: 'Author' },
+  'blog.meetTeam': { es: 'Conocer al equipo', en: 'Meet the team' },
   'blog.reviewedOn': { es: 'Última revisión', en: 'Last reviewed' },
   'blog.published': { es: 'Publicado', en: 'Published' },
   'blog.related': { es: 'Artículos relacionados', en: 'Related articles' },
