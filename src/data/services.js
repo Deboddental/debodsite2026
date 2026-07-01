@@ -250,7 +250,7 @@ Una correcta alineación dental no es solo cuestión de estética. Los dientes b
 
 ### Ortodoncia para adultos
 
-Nunca es tarde para conseguir la sonrisa que mereces. Hoy en día, más del 30% de nuestros pacientes de ortodoncia son adultos.`,
+Nunca es tarde para conseguir la sonrisa que mereces. Hoy en día, muchos de nuestros pacientes de ortodoncia son adultos.`,
     relatedTreatments: [
       { title: 'Invisalign®', description: 'Alineadores transparentes de última generación.', href: '/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/' },
       { title: 'Retenedores', description: 'Mantenimiento de los resultados tras el tratamiento.', href: '/tratamientos/retenedores-arguelles-madrid-espana-2/' },

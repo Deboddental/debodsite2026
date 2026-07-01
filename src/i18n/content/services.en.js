@@ -235,7 +235,7 @@ Correct dental alignment is not just a matter of aesthetics. Well-aligned teeth 
 
 ### Orthodontics for adults
 
-It is never too late to achieve the smile you deserve. Today, more than 30% of our orthodontic patients are adults.`,
+It is never too late to achieve the smile you deserve. Today, many of our orthodontic patients are adults.`,
     relatedTreatments: [
       { title: 'Invisalign®', description: 'State-of-the-art clear aligners.', href: '/en/treatments/invisalign-clear-aligners-arguelles-madrid/' },
       { title: 'Retainers', description: 'Maintaining the results after treatment.', href: '/en/treatments/orthodontic-retainers-arguelles-madrid/' },

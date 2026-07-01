@@ -5,7 +5,7 @@ import CtaBand from '../components/ui/CtaBand'
 import VideoTestimonials from '../components/VideoTestimonials'
 import ElfsightReviews from '../components/ElfsightReviews'
 import JsonLd from '../components/ui/JsonLd'
-import { reviews } from '../data/reviews'
+import { reviews, ratingSummary } from '../data/reviews'
 import { homeReviewsSchema, breadcrumbSchema } from '../data/seo'
 import { useLocale } from '../hooks/useLocale'
 import { enPathFor } from '../i18n/slugs'
@@ -38,7 +38,7 @@ export default function Resenas() {
       <PageHero
         subtitle={locale === 'en' ? 'Reviews' : 'Opiniones'}
         title={locale === 'en' ? 'What our patients say' : 'Lo que dicen nuestros pacientes'}
-        description={locale === 'en' ? 'Hundreds of genuine reviews with an average of 4.9 stars on Google. These are the experiences of those who already trust Debod Dental Clinic.' : 'Cientos de valoraciones reales con una media de 4,9 estrellas en Google. Estas son las experiencias de quienes ya confían en Debod Dental Clinic.'}
+        description={locale === 'en' ? `More than ${ratingSummary.reviewCount} genuine reviews with an average of ${ratingSummary.ratingValue} stars on Google. These are the experiences of those who already trust Debod Dental Clinic.` : `Más de ${ratingSummary.reviewCount} valoraciones reales con una media de 4,9 estrellas en Google. Estas son las experiencias de quienes ya confían en Debod Dental Clinic.`}
       />
 
       <div className="max-w-6xl mx-auto">
