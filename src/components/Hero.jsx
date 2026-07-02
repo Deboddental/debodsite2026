@@ -8,7 +8,8 @@ import { enPathFor } from '../i18n/slugs'
 import AmbientParticles from './AmbientParticles'
 import TrustBadges from './TrustBadges'
 
-const HERO_VIDEO = '/hero/video hero doctores.webm'
+const HERO_VIDEO = '/hero/hero-doctores.webm'
+const HERO_POSTER = '/hero/hero-poster.jpg'
 
 export default function Hero() {
   const locale = useLocale()
@@ -42,7 +43,7 @@ export default function Hero() {
       style={{ height: '100dvh', minHeight: '600px' }}
       aria-label={locale === 'en' ? 'Debod Dental Clinic — Premium Dental Clinic in Argüelles, Madrid' : 'Debod Dental Clinic — Clínica Dental Premium en Argüelles, Madrid'}
     >
-      <video className="absolute inset-0 w-full h-full object-cover" src={HERO_VIDEO} autoPlay muted loop playsInline aria-hidden="true" />
+      <video className="absolute inset-0 w-full h-full object-cover" src={HERO_VIDEO} poster={HERO_POSTER} preload="metadata" autoPlay muted loop playsInline aria-hidden="true" />
       <AmbientParticles />
       <div className="absolute inset-0 bg-gradient-to-t from-charcoal/95 via-charcoal/50 to-charcoal/10" />
       <div className="absolute inset-0 bg-gradient-to-r from-charcoal/70 via-charcoal/20 to-transparent" />
@@ -56,10 +57,10 @@ export default function Hero() {
         </div>
         <h1 ref={h1Ref} className="mb-3 sm:mb-6 leading-none">
           <span className="anim block font-outfit font-extrabold text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white tracking-tight">
-            {locale === 'en' ? 'Specialists in' : 'Especialistas en'}
+            {locale === 'en' ? 'Specialists in ' : 'Especialistas en '}
           </span>
           <span className="anim block font-outfit font-extrabold text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white tracking-tight">
-            {locale === 'en' ? 'Full Oral Rehabilitation' : 'Rehabilitaci\u00f3n Oral'}
+            {locale === 'en' ? 'Full Oral Rehabilitation ' : 'Rehabilitaci\u00f3n Oral '}
           </span>
           <em className="anim block font-cormorant font-light italic text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gold leading-tight">
             {locale === 'en' ? 'in Madrid.' : 'en Madrid.'}
@@ -68,10 +69,10 @@ export default function Hero() {
         <p ref={subtitleRef} className="font-jakarta text-white/70 text-sm sm:text-base md:text-lg max-w-lg mb-5 sm:mb-10 leading-relaxed">
           {locale === 'en' ? (
             <>Specialists in <strong className="text-white/90">advanced full oral rehabilitation</strong>, implantology and cosmetic dentistry.
-            A team committed to <strong className="text-white/90">honest dentistry</strong> and results that last a lifetime.</>
+            A team committed to <strong className="text-white/90">honest dentistry</strong> and results built to last.</>
           ) : (
             <>Especialistas en <strong className="text-white/90">Rehabilitación Oral avanzada</strong>, Implantología y Estética Dental.
-            Un equipo comprometido con la <strong className="text-white/90">odontología honesta</strong> y resultados que duran toda la vida.</>
+            Un equipo comprometido con la <strong className="text-white/90">odontología honesta</strong> y resultados pensados para durar.</>
           )}
         </p>
         <div ref={ctaRef} className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6 sm:mb-8">

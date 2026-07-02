@@ -6,9 +6,21 @@
 import { writeFileSync } from 'fs'
 import { resolve } from 'path'
 import { getAllRoutes } from './routes.mjs'
-import { pagePairs } from '../src/i18n/slugs.js'
+import { pagePairs, blogSlugEn } from '../src/i18n/slugs.js'
+import { blogPosts } from '../src/data/blog.js'
 
 const BASE = 'https://deboddentalclinic.com'
+
+// <lastmod>: real per-post dates for blog routes (ES + EN); a single site date
+// for everything else. Bump SITE_LASTMOD when static pages get a content pass.
+const SITE_LASTMOD = '2026-07-02'
+const lastmodByRoute = {}
+for (const p of blogPosts) {
+  const d = p.dateModified || p.publishDate
+  lastmodByRoute[`/blog/${p.category}/${p.slug}/`] = d
+  const m = blogSlugEn[p.slug]
+  if (m) lastmodByRoute[`/en/blog/${m.en_cat}/${m.en}/`] = d
+}
 
 const esToEn = {}
 const enToEs = {}
@@ -34,7 +46,8 @@ const body = routes.map((route) => {
       `\n    <xhtml:link rel="alternate" hreflang="en" href="${BASE}${alt.en}"/>` +
       `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE}${alt.es}"/>`
     : ''
-  return `  <url>\n    <loc>${BASE}${route}</loc>${links}\n  </url>`
+  const lastmod = `\n    <lastmod>${lastmodByRoute[route] || SITE_LASTMOD}</lastmod>`
+  return `  <url>\n    <loc>${BASE}${route}</loc>${lastmod}${links}\n  </url>`
 }).join('\n')
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>

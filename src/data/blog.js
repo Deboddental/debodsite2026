@@ -160,7 +160,7 @@ Un diagnóstico integral en **Debod Dental Clinic** incluye:
 Creemos en la **odontología honesta**: te explicamos todo lo que necesitas saber para tomar una decisión informada.`,
     relatedPosts: [
       { title: 'Detección de cáncer oral en Argüelles, Madrid', slug: 'deteccion-de-cancer-oral-en-arguelles-madrid', category: 'servicios' },
-      { title: 'Limpieza dental profunda en Argüelles, Madrid', slug: 'limpieza-dental-profunda-en-arguelles-madrid', category: 'uncategorized' },
+      { title: 'Limpieza dental profunda en Argüelles, Madrid', slug: 'limpieza-dental-profunda-en-arguelles-madrid', category: 'salud-dental' },
     ],
   },
   {
@@ -231,7 +231,7 @@ Si ya tienes recesión gingival, te recomendamos una valoración en nuestra **Cl
   },
   {
     slug: 'limpieza-dental-profunda-en-arguelles-madrid',
-    category: 'uncategorized',
+    category: 'salud-dental',
     categoryLabel: 'Salud Dental',
     title: 'Limpieza dental profunda en Argüelles, Madrid: cuándo y por qué la necesitas',
     publishDate: '2026-02-20',
@@ -352,7 +352,7 @@ En cada **revisión de control** en Debod Dental Clinic realizamos una [explorac
 Esta exploración forma parte de **todas nuestras revisiones**, sin coste adicional. Es una de las formas en que practicamos la odontología honesta: no solo cuidamos los dientes, cuidamos tu salud.`,
     relatedPosts: [
       { title: 'Diagnóstico dental en Argüelles, Madrid', slug: 'diagnostico-dental-en-arguelles-madrid', category: 'servicios' },
-      { title: 'Limpieza dental profunda en Argüelles, Madrid', slug: 'limpieza-dental-profunda-en-arguelles-madrid', category: 'uncategorized' },
+      { title: 'Limpieza dental profunda en Argüelles, Madrid', slug: 'limpieza-dental-profunda-en-arguelles-madrid', category: 'salud-dental' },
     ],
   },
   {
@@ -498,7 +498,7 @@ Una úlcera que no cura puede ser una señal de [cáncer oral](/tratamientos/det
   },
   {
     slug: 'dolor-de-muelas-de-juicio-en-arguelles-madrid',
-    category: 'uncategorized',
+    category: 'salud-dental',
     categoryLabel: 'Salud Dental',
     title: 'Dolor de muelas del juicio en Argüelles, Madrid: causas y soluciones',
     publishDate: '2026-02-28',

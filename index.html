@@ -10,21 +10,26 @@
 
   <!-- Primary SEO -->
   <!-- NOTE: Per-page <title>, description, canonical and og/twitter tags are injected
-       per route by react-helmet-async (see each page's <Helmet>). Only GLOBAL defaults
-       live here so the prerenderer never bakes a second, conflicting canonical/og tag.
-       (Helmet replaces <title> but APPENDS link/meta — duplicates here would break dedup.) -->
-  <title>Clínica Dental en Argüelles, Madrid — Debod Dental Clinic | Dres. Guerrero & Rodríguez</title>
-  <meta name="keywords"
+       per route by react-helmet-async. react-helmet-async APPENDS its tags rather than
+       replacing these, so each global below is marked data-static: prerender.mjs drops
+       the static duplicate for any key Helmet also sets (keeping the page-specific one),
+       and keeps the static tag only as a fallback where Helmet provides none. -->
+  <title data-static>Clínica Dental en Argüelles, Madrid — Debod Dental Clinic | Dres. Guerrero & Rodríguez</title>
+  <meta name="keywords" data-static
     content="clínica dental Argüelles Madrid, dentista Argüelles, rehabilitación oral Madrid, implantes dentales Madrid, Invisalign Madrid, carillas porcelana Madrid, Dr Víctor Guerrero, Dr César Rodríguez, Debod Dental Clinic" />
 
   <!-- Open Graph / Twitter — global defaults only (per-page values come from Helmet) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://deboddentalclinic.com/og-image.jpg" />
+  <meta property="og:type" content="website" data-static />
+  <meta property="og:image" content="https://deboddentalclinic.com/og-image.jpg" data-static />
   <!-- og:locale is set per-page via Helmet (es_ES default in RootLayout, en_GB on /en/ pages)
        so EN pages don't inherit a conflicting second og:locale tag. -->
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary_large_image" data-static />
 
   <!-- Structured Data: MedicalClinic + LocalBusiness -->
+  <!-- SOURCING (aggregateRating): ratingValue/reviewCount come from the clinic's Google
+       Business Profile (also shown live by the Elfsight widget on /resenas/) and MUST stay in
+       sync with ratingSummary in src/data/reviews.js. Verify against the real Google profile
+       before changing (verifiedOn: 2026-06-26). Kept as an HTML comment, not a JSON key. -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -33,7 +38,7 @@
           "@type": ["MedicalClinic", "LocalBusiness", "Dentist"],
           "@id": "https://deboddentalclinic.com/#clinic",
           "name": "Debod Dental Clinic",
-          "description": "Clínica dental de referencia en Argüelles, Madrid, especializada en Rehabilitación Oral integral, Implantología Digital y Estética Dental. Dirigida por los Dres. Víctor Guerrero y César Rodríguez. Premio WhiteSmile 2023.",
+          "description": "Clínica dental boutique de referencia en Argüelles, Madrid, especializada en Rehabilitación Oral, Implantología Digital y Estética Dental. Dirigida por los Dres. Víctor Guerrero y César Rodríguez. Premio WhiteSmile 2023.",
           "url": "https://deboddentalclinic.com",
           "telephone": "+34914476225",
           "email": "info@deboddentalclinic.com",
@@ -51,13 +56,19 @@
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "40.4249",
-            "longitude": "-3.7157"
+            "latitude": 40.4249,
+            "longitude": -3.7157
           },
-          "areaServed": {
-            "@type": "City",
-            "name": "Madrid"
-          },
+          "logo": "https://deboddentalclinic.com/logo.png",
+          "knowsLanguage": ["Spanish", "English"],
+          "areaServed": [
+            { "@type": "City", "name": "Madrid" },
+            { "@type": "Place", "name": "Argüelles, Madrid" },
+            { "@type": "Place", "name": "Moncloa, Madrid" },
+            { "@type": "Place", "name": "Chamberí, Madrid" },
+            { "@type": "Place", "name": "Centro, Madrid" },
+            { "@type": "Place", "name": "Plaza de España, Madrid" }
+          ],
           "openingHoursSpecification": [
             {
               "@type": "OpeningHoursSpecification",
@@ -66,7 +77,6 @@
               "closes": "20:00"
             }
           ],
-          "_comment_aggregateRating": "SOURCING: ratingValue/reviewCount below come from the clinic's Google Business Profile (also shown live by the Elfsight widget on /resenas/) and MUST stay in sync with ratingSummary in src/data/reviews.js. Verify against the real Google profile before changing (current verifiedOn: 2026-06-26).",
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
@@ -79,7 +89,7 @@
             "https://www.instagram.com/debodclinicadental/",
             "https://www.facebook.com/debodclinicadental/"
           ],
-          "hasMap": "https://maps.google.com/?q=C.+de+Ferraz,+24,+28008+Madrid",
+          "hasMap": "https://maps.google.com/?q=Debod+Dental+Clinic,+Calle+de+Ferraz+24,+28008+Madrid",
           "medicalSpecialty": [
             "Dentistry",
             "Oral and Maxillofacial Surgery",
@@ -114,7 +124,7 @@
           "url": "https://deboddentalclinic.com",
           "name": "Debod Dental Clinic",
           "description": "Sitio oficial de Debod Dental Clinic — Clínica dental en Argüelles, Madrid",
-          "inLanguage": "es-ES",
+          "inLanguage": ["es-ES", "en"],
           "publisher": {"@id": "https://deboddentalclinic.com/#clinic"}
         }
       ]

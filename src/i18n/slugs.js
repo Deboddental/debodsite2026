@@ -58,7 +58,6 @@ export const barrioSlugEn = {
 export const blogCategoryEn = {
   'salud-dental': 'dental-health',
   'servicios': 'services',
-  'uncategorized': 'general',
   'odontologia-estetica': 'cosmetic-dentistry',
 }
 
@@ -69,10 +68,10 @@ export const blogSlugEn = {
   'encias-retraidas-causas-y-tratamientos': { es_cat: 'salud-dental', en: 'receding-gums-causes-and-treatments', en_cat: 'dental-health' },
   'diagnostico-dental-en-arguelles-madrid': { es_cat: 'servicios', en: 'dental-diagnosis-arguelles-madrid', en_cat: 'services' },
   'deteccion-de-cancer-oral-en-arguelles-madrid': { es_cat: 'servicios', en: 'oral-cancer-detection-arguelles-madrid', en_cat: 'services' },
-  'limpieza-dental-profunda-en-arguelles-madrid': { es_cat: 'uncategorized', en: 'deep-dental-cleaning-explained-arguelles-madrid', en_cat: 'general' },
+  'limpieza-dental-profunda-en-arguelles-madrid': { es_cat: 'salud-dental', en: 'deep-dental-cleaning-explained-arguelles-madrid', en_cat: 'dental-health' },
   'carillas-vs-coronas-dentales-diferencias': { es_cat: 'odontologia-estetica', en: 'veneers-vs-crowns-key-differences', en_cat: 'cosmetic-dentistry' },
   'ortodoncia-invisible-mitos-y-resultados': { es_cat: 'odontologia-estetica', en: 'invisible-orthodontics-myths-and-results', en_cat: 'cosmetic-dentistry' },
-  'dolor-de-muelas-de-juicio-en-arguelles-madrid': { es_cat: 'uncategorized', en: 'wisdom-tooth-pain-arguelles-madrid', en_cat: 'general' },
+  'dolor-de-muelas-de-juicio-en-arguelles-madrid': { es_cat: 'salud-dental', en: 'wisdom-tooth-pain-arguelles-madrid', en_cat: 'dental-health' },
   "endodoncia-o-extraccion-arguelles-madrid": { es_cat: "servicios", en: "root-canal-or-extraction-arguelles-madrid", en_cat: "services" },
   "sensibilidad-dental-causas-y-alivio": { es_cat: "salud-dental", en: "tooth-sensitivity-causes-and-relief", en_cat: "dental-health" },
   "caries-dental-como-se-forma-y-prevenirla": { es_cat: "salud-dental", en: "cavities-how-they-form-and-prevention", en_cat: "dental-health" },
@@ -98,6 +97,7 @@ export const staticPairs = {
   '/antes-despues/': '/en/before-after/',
   '/ubicaciones/': '/en/locations/',
   '/ubicaciones/citas-arguelles-madrid/': '/en/locations/appointments-arguelles-madrid/',
+  '/urgencias-dentales-arguelles-madrid/': '/en/dental-emergency-madrid/',
   '/servicios/': '/en/services/',
   '/blog/': '/en/blog/',
   '/equipo/': '/en/team/',

@@ -40,6 +40,28 @@ const treatmentLinks = [
   { key: 'tr.financing', href: '/financiacion/' },
 ]
 
+// Secondary links — keep the clinic pages and neighbourhood landings linked from
+// every page (they were orphaned: no internal links pointed to them).
+const exploreLinks = [
+  { es: 'Urgencias dentales', en: 'Dental emergencies', href: '/urgencias-dentales-arguelles-madrid/' },
+  { es: 'Nosotros', en: 'About', href: '/nosotros/' },
+  { es: 'Equipo', en: 'Team', href: '/equipo/' },
+  { es: 'Tecnología', en: 'Technology', href: '/tecnologia/' },
+  { es: 'Debod Dental Lab', en: 'Debod Dental Lab', href: '/dental-lab/' },
+  { es: 'Antes y después', en: 'Before & after', href: '/antes-despues/' },
+  { es: 'Ubicación y cómo llegar', en: 'Location & directions', href: '/ubicaciones/' },
+  { es: 'Reseñas', en: 'Reviews', href: '/resenas/' },
+  { es: 'Blog', en: 'Blog', href: '/blog/' },
+  { es: 'Financiación', en: 'Financing', href: '/financiacion/' },
+]
+const zonaLinks = [
+  { es: 'Dentista en Moncloa', en: 'Dentist in Moncloa', href: '/dentista-moncloa-madrid/' },
+  { es: 'Dentista en Chamberí', en: 'Dentist in Chamberí', href: '/dentista-chamberi-madrid/' },
+  { es: 'Dentista en Centro (Sol)', en: 'Dentist in Centro (Sol)', href: '/dentista-centro-madrid/' },
+  { es: 'Dentista en Plaza de España', en: 'Dentist in Plaza de España', href: '/dentista-plaza-espana-madrid/' },
+  { es: 'Pedir cita en Argüelles', en: 'Book in Argüelles', href: '/ubicaciones/citas-arguelles-madrid/' },
+]
+
 export default function Footer() {
   const year = new Date().getFullYear()
   const locale = useLocale()
@@ -186,13 +208,45 @@ export default function Footer() {
             </address>
 
             <a
-              href="https://maps.google.com/?q=C.+de+Ferraz,+24,+28008+Madrid"
+              href="https://maps.google.com/?q=Debod+Dental+Clinic,+Calle+de+Ferraz+24,+28008+Madrid"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 mt-5 font-jakarta text-xs font-semibold text-gold hover:underline"
             >
               {t('footer.maps', locale)} <ArrowUpRight size={12} />
             </a>
+          </div>
+        </div>
+
+        {/* Secondary links — clinic pages + Madrid neighbourhoods (keeps them linked site-wide) */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-14 pt-10 border-t border-white/8">
+          <div>
+            <h4 className="font-outfit font-semibold text-white text-sm mb-4 uppercase tracking-wider">
+              {locale === 'en' ? 'Explore' : 'Explora'}
+            </h4>
+            <ul className="flex flex-wrap gap-x-5 gap-y-2">
+              {exploreLinks.map((link) => (
+                <li key={link.href}>
+                  <Link to={L(link.href)} className="font-jakarta text-white/45 text-sm hover:text-gold transition-colors duration-200">
+                    {locale === 'en' ? link.en : link.es}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-outfit font-semibold text-white text-sm mb-4 uppercase tracking-wider">
+              {locale === 'en' ? 'Areas we serve in Madrid' : 'Zonas que atendemos en Madrid'}
+            </h4>
+            <ul className="flex flex-wrap gap-x-5 gap-y-2">
+              {zonaLinks.map((link) => (
+                <li key={link.href}>
+                  <Link to={L(link.href)} className="font-jakarta text-white/45 text-sm hover:text-gold transition-colors duration-200">
+                    {locale === 'en' ? link.en : link.es}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 

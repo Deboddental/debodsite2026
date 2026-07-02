@@ -63,6 +63,7 @@ export default function BlogPost() {
         <meta property="og:type" content="article" />
         {post.heroImageUrl && <meta property="og:image" content={post.heroImageUrl} />}
         <meta property="article:published_time" content={post.publishDate} />
+        <meta property="article:modified_time" content={post.dateModified || post.publishDate} />
       </Helmet>
 
       <JsonLd schema={blogPostSchema(post, locale)} />

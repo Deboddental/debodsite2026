@@ -27,6 +27,7 @@ export const staticRoutes = [
   '/antes-despues/',
   '/ubicaciones/',
   '/ubicaciones/citas-arguelles-madrid/',
+  '/urgencias-dentales-arguelles-madrid/',
   '/servicios/',
   '/blog/',
   '/equipo/',

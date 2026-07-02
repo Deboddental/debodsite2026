@@ -3,46 +3,13 @@ import { MapPin, Clock, Phone, Mail } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
-import JsonLd from '../components/ui/JsonLd'
 import { useLocale } from '../hooks/useLocale'
 import { enPathFor } from '../i18n/slugs'
 
-const BASE_URL = 'https://deboddentalclinic.com'
-
-const localBusinessSchema = {
-  '@context': 'https://schema.org',
-  '@type': ['Dentist', 'LocalBusiness'],
-  '@id': `${BASE_URL}/#clinic`,
-  name: 'Debod Dental Clinic',
-  description: 'Clínica dental integral en Argüelles, Madrid. Odontología honesta con especialistas de primer nivel.',
-  url: BASE_URL,
-  telephone: '+34914476225',
-  email: 'info@deboddentalclinic.com',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: 'C. de Ferraz, 24',
-    addressLocality: 'Madrid',
-    postalCode: '28008',
-    addressRegion: 'Comunidad de Madrid',
-    addressCountry: 'ES',
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 40.4249,
-    longitude: -3.7157,
-  },
-  openingHoursSpecification: [
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-      opens: '09:00',
-      closes: '20:00',
-    },
-  ],
-  priceRange: '€€',
-  currenciesAccepted: 'EUR',
-  paymentAccepted: 'Cash, Credit Card',
-}
+// NOTE: the authoritative #clinic (Dentist/LocalBusiness) node is defined once in
+// index.html and baked into every prerendered page's <head>. This page must NOT
+// redefine it — a second #clinic with different data (priceRange, description) is a
+// schema conflict for Google and AI crawlers.
 
 export default function Ubicaciones() {
   const locale = useLocale()
@@ -56,8 +23,6 @@ export default function Ubicaciones() {
         />
         <meta property="og:title" content={locale === 'en' ? 'How to Get Here — Debod Dental Clinic, Argüelles Madrid' : 'Cómo Llegar — Debod Dental Clinic, Argüelles Madrid'} />
       </Helmet>
-
-      <JsonLd schema={localBusinessSchema} />
 
       <PageHero
         subtitle={locale === 'en' ? 'Where we are' : 'Dónde estamos'}

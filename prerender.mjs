@@ -88,6 +88,33 @@ server.listen(PORT, async () => {
       // Give React + useEffect (canonical/meta/JSON-LD) time to settle.
       await new Promise((r) => setTimeout(r, 1200))
 
+      // De-duplicate <head>: react-helmet-async APPENDS its per-page <title>/og/meta
+      // next to the static globals baked into index.html (each marked data-static),
+      // leaving 2× <title> and 2× og:image on every page (the generic static one too).
+      // Drop the static duplicate for any key Helmet also set (keeping the page-specific
+      // tag); keep the static tag as a fallback where Helmet set none, minus its marker.
+      await page.evaluate(() => {
+        const head = document.head
+        const keyOf = (el) => el.tagName === 'TITLE'
+          ? 'title'
+          : (el.getAttribute('property') || el.getAttribute('name'))
+        const tags = [...head.querySelectorAll('title, meta')]
+        const dynamicKeys = new Set(
+          tags.filter((el) => !el.hasAttribute('data-static')).map(keyOf).filter(Boolean),
+        )
+        tags.forEach((el) => {
+          if (!el.hasAttribute('data-static')) return
+          const k = keyOf(el)
+          if (k && dynamicKeys.has(k)) el.remove()
+          else el.removeAttribute('data-static')
+        })
+        // Restore the async-font trick: index.html ships the Google Fonts stylesheet
+        // as media="print" onload="this.media='all'" (non-blocking). During prerender
+        // the onload fires, baking media="all" — render-blocking for real users. Reset
+        // it to media="print" so the client-side onload re-enables it asynchronously.
+        head.querySelectorAll('link[rel="stylesheet"][onload]').forEach((l) => { l.media = 'print' })
+      })
+
       const html = await page.content()
 
       const clean = route.replace(/^\/+|\/+$/g, '') // strip leading/trailing slashes

@@ -8,6 +8,11 @@ import { serviceSlugEn, treatmentSlugEn, barrioSlugEn, blogSlugEn } from '../i18
 const BASE_URL = 'https://deboddentalclinic.com'
 const langTag = (locale) => (locale === 'en' ? 'en' : 'es-ES')
 const CLINIC_ID = `${BASE_URL}/#clinic`
+// Canonical, locale-independent identifier for a team member: the entity is the
+// same person on ES and EN pages. The full node lives on their profile page; other
+// pages (blog author/reviewer) reference it by @id so the knowledge graph stays
+// connected instead of minting a separate identity per page.
+const personId = (slug) => `${BASE_URL}/equipo/${slug}/#person`
 // Freshness signal for AI/search. Bump on meaningful content updates.
 const LAST_UPDATED = '2026-06-25'
 
@@ -60,9 +65,8 @@ export function servicePageSchema(service, locale = 'es') {
         about: {
           '@type': 'MedicalSpecialty',
           name: tf(service, 'title', locale),
-          relevantSpecialty: tf(service, 'title', locale),
-          availableAtOrFrom: { '@id': CLINIC_ID },
         },
+        provider: { '@id': CLINIC_ID },
         isPartOf: { '@id': `${BASE_URL}/#website` },
       },
       breadcrumbSchema([
@@ -82,6 +86,13 @@ export function treatmentPageSchema(treatment, locale = 'es') {
   const parentHref = treatment.specialty
     ? (isEn ? `/en/${serviceSlugEn[treatment.specialty] || 'services'}/` : `/${treatment.specialty}/`)
     : (isEn ? '/en/services/' : '/servicios/')
+  // Only genuinely surgical specialties are tagged SurgicalProcedure. schema.org's
+  // procedureType enum has no honest value for cleanings/whitening/orthodontics, so
+  // those stay a generic MedicalProcedure rather than being mislabelled as surgery.
+  const SURGICAL = new Set([
+    'cirujano-oral-arguelles-madrid-espana',
+    'dentista-de-implantes-arguelles-madrid-espana',
+  ])
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -91,11 +102,9 @@ export function treatmentPageSchema(treatment, locale = 'es') {
         name: tf(treatment, 'title', locale),
         description: tf(treatment, 'metaDescription', locale),
         url,
-        procedureType: 'SurgicalProcedure',
-        status: 'EventScheduled',
+        ...(SURGICAL.has(treatment.specialty) ? { procedureType: 'SurgicalProcedure' } : {}),
         performedBy: { '@id': CLINIC_ID },
         dateModified: LAST_UPDATED,
-        preparation: tf(treatment, 'bodyMarkdown', locale)?.substring(0, 200),
       },
       breadcrumbSchema([
         { label: t('crumb.home', locale), href: isEn ? '/en/' : '/' },
@@ -198,7 +207,8 @@ export function dentalTourismSchema(landing) {
         areaServed: { '@type': 'City', name: 'Madrid' },
       },
       breadcrumbSchema(crumbs),
-      ...(landing.faqs?.length ? [faqSchema(landing.faqs)] : []),
+      // FAQPage is emitted once by the <FAQ includeSchema> component on the page
+      // itself (DentalTourismPage) — emitting it here too duplicated the node.
     ],
   }
 }
@@ -247,6 +257,7 @@ export function blogPostSchema(post, locale = 'es') {
   const doc = postAuthor(post)
   const personNode = {
     '@type': 'Person',
+    '@id': personId(doc.slug),
     name: doc.name,
     url: `${BASE_URL}${isEn ? '/en/team/' : '/equipo/'}${doc.slug}/`,
     jobTitle: tf(doc, 'title', locale),
@@ -301,12 +312,22 @@ export function doctorProfileSchema(doctor, locale = 'es') {
     '@graph': [
       {
         '@type': doctor.schemaType || 'Physician',
-        '@id': url,
+        '@id': personId(doctor.slug),
         name: doctor.name,
         jobTitle: tf(doctor, 'title', locale),
         url,
         image: doctor.photoUrl?.startsWith('http') ? doctor.photoUrl : `${BASE_URL}${doctor.photoUrl}`,
-        ...(doctor.colegiadoNum ? { identifier: `Colegiado Nº ${doctor.colegiadoNum}` } : {}),
+        ...(doctor.schemaType === 'Physician' ? { medicalSpecialty: 'Dentistry' } : {}),
+        ...(doctor.colegiadoNum
+          ? {
+              identifier: { '@type': 'PropertyValue', propertyID: 'Nº Colegiado (COEM)', value: doctor.colegiadoNum },
+              memberOf: {
+                '@type': 'MedicalOrganization',
+                name: 'Ilustre Colegio Oficial de Odontólogos y Estomatólogos de la I Región (COEM)',
+                url: 'https://coem.org.es/',
+              },
+            }
+          : {}),
         worksFor: { '@id': CLINIC_ID },
         knowsAbout: tf(doctor, 'specialties', locale) || [],
         description: tf(doctor, 'bioMarkdown', locale)?.substring(0, 300),

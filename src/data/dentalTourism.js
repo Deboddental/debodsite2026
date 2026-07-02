@@ -199,6 +199,8 @@ Whether you are an expat in Madrid or travelling for treatment, we will tell you
 
 At **Debod Dental Clinic** in central Madrid, every All-on-4 case is **planned in 3D** and placed with **guided surgery** for precision and comfort. Your provisional and final teeth are crafted in our **in-house digital lab**, so timelines stay tight — ideal when you are travelling for treatment.
 
+Not sure whether four implants are right for you? Some cases benefit from [All-on-6 in Madrid](/en/all-on-6-madrid/) for extra stability — the right number depends on your bone volume and goals, which we confirm with a 3D scan. [Financing](/en/financing/) is available for full-arch treatment.
+
 ### Why choose Debod for All-on-4
 - 🦷 **Fixed, natural-looking teeth** supported by four implants per arch.
 - 🧭 **3D guided surgery** — planned virtually before we begin.
@@ -235,6 +237,8 @@ We will tell you honestly whether All-on-4, All-on-6 or another solution best fi
 **All-on-6** restores a complete arch with a fixed bridge supported by **six implants**. The two extra implants spread the load and can offer **greater stability**, which is often ideal when bone volume allows and for patients who want the most robust full-arch solution.
 
 At **Debod Dental Clinic** in central Madrid, your All-on-6 is **planned in 3D** and placed with **guided surgery**, with provisional and final teeth made in our **in-house digital lab** for tight, travel-friendly timelines.
+
+Wondering if four implants would be enough? Compare with [All-on-4 in Madrid](/en/all-on-4-madrid/) — we advise the right approach for your bone volume and case after a 3D scan. [Financing](/en/financing/) is available for full-arch treatment.
 
 ### Why choose Debod for All-on-6
 - 🦷 **Maximum stability** with six implants distributing the load per arch.

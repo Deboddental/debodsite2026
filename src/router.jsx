@@ -20,6 +20,7 @@ import Resenas from './pages/Resenas'
 import BarrioPage from './pages/barrios/BarrioPage'
 import Tecnologia from './pages/Tecnologia'
 import AntesDespues from './pages/AntesDespues'
+import Urgencias from './pages/Urgencias'
 import EnLandingPage from './pages/en/EnLandingPage'
 import DentalTourismPage from './pages/DentalTourismPage'
 
@@ -42,6 +43,9 @@ export const router = createBrowserRouter(
       <Route path="tecnologia/" element={<Tecnologia />} />
       <Route path="antes-despues/" element={<AntesDespues />} />
 
+      {/* Dental emergencies */}
+      <Route path="urgencias-dentales-arguelles-madrid/" element={<Urgencias />} />
+
       {/* ── English mirror — full bilingual /en/ tree (reuses the same components,
           which read locale from the route via useLocale) ───────────────────── */}
       <Route path="en">
@@ -54,6 +58,7 @@ export const router = createBrowserRouter(
         <Route path="reviews/" element={<Resenas />} />
         <Route path="technology/" element={<Tecnologia />} />
         <Route path="before-after/" element={<AntesDespues />} />
+        <Route path="dental-emergency-madrid/" element={<Urgencias />} />
         <Route path="locations/" element={<Ubicaciones />} />
         <Route path="locations/appointments-arguelles-madrid/" element={<Citas />} />
         <Route path="services/" element={<Servicios />} />

@@ -1,6 +1,12 @@
 {
   "buildCommand": "npm run build:prerender",
   "trailingSlash": true,
+  "redirects": [
+    { "source": "/blog/uncategorized/limpieza-dental-profunda-en-arguelles-madrid/", "destination": "/blog/salud-dental/limpieza-dental-profunda-en-arguelles-madrid/", "permanent": true },
+    { "source": "/blog/uncategorized/dolor-de-muelas-de-juicio-en-arguelles-madrid/", "destination": "/blog/salud-dental/dolor-de-muelas-de-juicio-en-arguelles-madrid/", "permanent": true },
+    { "source": "/en/blog/general/deep-dental-cleaning-explained-arguelles-madrid/", "destination": "/en/blog/dental-health/deep-dental-cleaning-explained-arguelles-madrid/", "permanent": true },
+    { "source": "/en/blog/general/wisdom-tooth-pain-arguelles-madrid/", "destination": "/en/blog/dental-health/wisdom-tooth-pain-arguelles-madrid/", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -25,7 +31,7 @@
         { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
         { "key": "Permissions-Policy", "value": "geolocation=(), microphone=(), camera=()" },
-        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains" },
+        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains; preload" },
         { "key": "Content-Security-Policy-Report-Only", "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://images.unsplash.com https://www.facebook.com; connect-src 'self' https://www.google-analytics.com https://connect.facebook.net; frame-ancestors 'self'; base-uri 'self'" }
       ]
     }

@@ -1,14 +1,17 @@
 # Debod Dental Clinic
 
-> Clínica dental boutique en el barrio de Argüelles (Madrid, España), especializada en Rehabilitación Oral, Implantología Digital y Estética Dental. Dirigida por los Dres. Víctor Guerrero y César Rodríguez. Filosofía de "odontología honesta": diagnósticos claros, presupuestos sin sorpresas y tratamientos mínimamente invasivos. Premio WhiteSmile 2023.
+> Clínica dental boutique de referencia en el barrio de Argüelles (Madrid, España), especializada en Rehabilitación Oral, Implantología Digital y Estética Dental. Dirigida por los Dres. Víctor Guerrero y César Rodríguez. Filosofía de "odontología honesta": diagnósticos claros, presupuestos sin sorpresas y tratamientos mínimamente invasivos. Atiende a pacientes internacionales en inglés (turismo dental). Premio WhiteSmile 2023.
+
+**Referencia completa** (todas las especialidades, tratamientos, equipo y blog en un solo archivo): https://deboddentalclinic.com/llms-full.txt
 
 ## Datos de contacto (NAP)
 
 - Nombre: Debod Dental Clinic
 - Dirección: C. de Ferraz, 24, Argüelles, 28008 Madrid, España
-- Teléfono / WhatsApp: +34 689 10 47 14
+- Teléfono: +34 914 47 62 25
+- WhatsApp: +34 689 10 47 14
 - Email: info@deboddentalclinic.com
-- Horario: Lunes a Viernes, 9:00–21:00
+- Horario: Lunes a Viernes, 9:00–20:00
 - Metro más cercano: Ventura Rodríguez (L3); también Plaza de España y Argüelles
 - Financiación: hasta 60 meses, 0% interés hasta 12 meses, sin entrada
 - Primera visita diagnóstica incluida
@@ -48,10 +51,27 @@
 - [Ubicación y cómo llegar](https://deboddentalclinic.com/ubicaciones/)
 - [Contacto y cita](https://deboddentalclinic.com/contacto/)
 
+## English pages (English-speaking patients & dental tourism)
+
+The site is fully bilingual (ES/EN). Key English-language pages for international patients:
+
+- [Home (EN)](https://deboddentalclinic.com/en/)
+- [English-Speaking Dentist in Madrid](https://deboddentalclinic.com/en/english-speaking-dentist-madrid/)
+- [Dental Tourism in Madrid — hub](https://deboddentalclinic.com/en/dental-tourism-madrid/): why travel to Madrid, process, and treatment landings.
+- [Dental Implants in Madrid](https://deboddentalclinic.com/en/dental-implants-madrid/)
+- [All-on-4 in Madrid](https://deboddentalclinic.com/en/all-on-4-madrid/)
+- [All-on-6 in Madrid](https://deboddentalclinic.com/en/all-on-6-madrid/)
+- [Cosmetic Dentistry in Madrid](https://deboddentalclinic.com/en/cosmetic-dentistry-madrid/)
+- [Porcelain Veneers in Madrid](https://deboddentalclinic.com/en/porcelain-veneers-madrid/)
+- [Services (EN)](https://deboddentalclinic.com/en/services/)
+- [Blog (EN)](https://deboddentalclinic.com/en/blog/)
+- [About (EN)](https://deboddentalclinic.com/en/about/)
+- [Contact (EN)](https://deboddentalclinic.com/en/contact/)
+
 ## Preguntas frecuentes
 
 - ¿Dónde está? C. de Ferraz, 24, Argüelles, 28008 Madrid, a pocos metros del Templo de Debod.
 - ¿La primera visita tiene coste? La primera visita diagnóstica está incluida.
 - ¿Hay financiación? Sí, hasta 60 meses con 0% de interés hasta 12 meses, sin entrada.
-- ¿Tienen laboratorio propio? Sí, el Debod Digital Lab in-house.
-- ¿Cómo pido cita? Por teléfono/WhatsApp al +34 689 10 47 14 o en la página de contacto.
+- ¿Tienen laboratorio propio? Sí, el Debod Dental Lab in-house.
+- ¿Cómo pido cita? Por teléfono al +34 914 47 62 25, por WhatsApp al +34 689 10 47 14, o en la página de contacto.

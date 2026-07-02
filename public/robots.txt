@@ -1,5 +1,10 @@
 User-agent: *
 Allow: /
+# Content usage preferences (emerging Content-Signal proposal): allow search
+# indexing and use as AI answer input; the site opts in to AI visibility.
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+# LLM-friendly site summary + key URLs (ES & EN): https://deboddentalclinic.com/llms.txt
 
 # AI crawlers — explicitly allowed (this site is prerendered for them)
 User-agent: GPTBot
@@ -19,6 +24,12 @@ Allow: /
 User-agent: bingbot
 Allow: /
 User-agent: CCBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Google-CloudVertexBot
 Allow: /
 
 Sitemap: https://deboddentalclinic.com/sitemap.xml

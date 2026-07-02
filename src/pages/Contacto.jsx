@@ -361,7 +361,7 @@ export default function Contacto() {
               </div>
 
               <a
-                href="https://maps.google.com/?q=C.+de+Ferraz,+24,+28008+Madrid"
+                href="https://maps.google.com/?q=Debod+Dental+Clinic,+Calle+de+Ferraz+24,+28008+Madrid"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 font-jakarta text-sm font-semibold text-gold hover:underline"
