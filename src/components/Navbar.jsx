@@ -5,8 +5,10 @@ import { Menu, X, ChevronDown, Phone } from 'lucide-react'
 import LanguageToggle from './LanguageToggle'
 import { useLocale } from '../hooks/useLocale'
 import { t } from '../i18n/ui'
-import { serviceSlugEn, staticPairs } from '../i18n/slugs'
+import { tf } from '../utils/tf'
+import { serviceSlugEn, treatmentSlugEn, staticPairs } from '../i18n/slugs'
 import { tourismLandings } from '../data/dentalTourism'
+import treatments from '../data/treatments'
 
 const SERVICES = [
   { es: 'Dentista General', en: 'General Dentistry', slug: 'dentista-general-arguelles-madrid-espana' },
@@ -19,6 +21,14 @@ const SERVICES = [
   { es: 'Cirugía Oral', en: 'Oral Surgery', slug: 'cirujano-oral-arguelles-madrid-espana' },
 ]
 
+// Treatments grouped by specialty, in the same order as SERVICES, so the
+// "Treatments" dropdown reads as a categorised index of all 23 treatments
+// (they were previously only reachable one click deeper, from inside each
+// service page — this is the direct nav shortcut).
+const TREATMENT_GROUPS = SERVICES
+  .map((s) => ({ ...s, items: treatments.filter((tr) => tr.specialty === s.slug) }))
+  .filter((g) => g.items.length > 0)
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -29,6 +39,7 @@ export default function Navbar() {
   const lp = (esPath) => (locale === 'en' ? staticPairs[esPath] || esPath : esPath)
   const serviceHref = (slug) => (locale === 'en' ? `/en/${serviceSlugEn[slug]}/` : `/${slug}/`)
   const serviceLabel = (s) => (locale === 'en' ? s.en : s.es)
+  const treatmentHref = (slug) => (locale === 'en' ? `/en/treatments/${treatmentSlugEn[slug]}/` : `/tratamientos/${slug}/`)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60)
@@ -118,6 +129,29 @@ export default function Navbar() {
             </div>
           </NavDropdown>
 
+          {/* Treatments dropdown — direct shortcut to all 23 treatments, grouped
+              by specialty (previously only reachable via each service page). */}
+          <NavDropdown label={t('nav.treatments', locale)} width="w-[760px]">
+            <div className="p-4 columns-3 gap-4 max-h-[80vh] overflow-y-auto">
+              {TREATMENT_GROUPS.map((g) => (
+                <div key={g.slug} className="break-inside-avoid mb-3">
+                  <p className="px-4 pb-1 font-jakarta text-gold/60 text-[11px] font-semibold uppercase tracking-wider">
+                    {serviceLabel(g)}
+                  </p>
+                  {g.items.map((tItem) => (
+                    <Link
+                      key={tItem.slug}
+                      to={treatmentHref(tItem.slug)}
+                      className="block px-4 py-1 rounded-xl text-pearl text-xs font-jakarta font-medium hover:bg-gold/10 hover:text-gold transition-all duration-200 leading-snug"
+                    >
+                      {tf(tItem, 'title', locale)}
+                    </Link>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </NavDropdown>
+
           {/* Dental Tourism dropdown — EN landings for international patients */}
           <NavDropdown label={t('nav.tourism', locale)} width="w-72">
             <div className="p-2">
@@ -176,7 +210,9 @@ export default function Navbar() {
       {/* Mobile Menu — dark glass, so all foreground is light */}
       <div className={`fixed inset-x-4 top-20 z-40 rounded-4xl glass-dark shadow-2xl shadow-black/20 overflow-hidden transition-all duration-500 lg:hidden
         ${mobileOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-4 pointer-events-none'}`}>
-        <div className="p-6 flex flex-col gap-4 font-outfit">
+        {/* The Treatments group added ~23 links, which can exceed the viewport height
+            on short phones — this panel now scrolls internally instead of clipping. */}
+        <div className="p-6 flex flex-col gap-4 font-outfit max-h-[calc(100dvh-6rem)] overflow-y-auto">
           <Link to={lp('/')} className="text-pearl font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.home', locale)}</Link>
           <Link to={lp('/nosotros/')} className="text-pearl font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.about', locale)}</Link>
           <div className="h-px bg-white/10" />
@@ -185,6 +221,18 @@ export default function Navbar() {
             <Link key={s.slug} to={serviceHref(s.slug)} className="text-white/70 text-sm font-medium hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>
               {serviceLabel(s)}
             </Link>
+          ))}
+          <div className="h-px bg-white/10" />
+          <p className="text-white/50 text-xs font-jakarta uppercase tracking-widest">{t('nav.treatments', locale)}</p>
+          {TREATMENT_GROUPS.map((g) => (
+            <div key={g.slug}>
+              <p className="text-gold/60 text-[11px] font-jakarta font-semibold uppercase tracking-wider mt-2 mb-1">{serviceLabel(g)}</p>
+              {g.items.map((tItem) => (
+                <Link key={tItem.slug} to={treatmentHref(tItem.slug)} className="block text-white/70 text-sm font-medium hover:text-gold transition-colors py-0.5" onClick={() => setMobileOpen(false)}>
+                  {tf(tItem, 'title', locale)}
+                </Link>
+              ))}
+            </div>
           ))}
           <div className="h-px bg-white/10" />
           <p className="text-white/50 text-xs font-jakarta uppercase tracking-widest">{t('nav.tourism', locale)}</p>
