@@ -8,7 +8,7 @@ export default function WhatsAppWidget() {
   const locale = useLocale()
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+    <div className="hidden md:flex fixed bottom-6 right-6 z-50 flex-col items-end gap-3">
       {/* Tooltip — solo visible en desktop (hover) */}
       <div
         className={`hidden md:block bg-white rounded-3xl shadow-xl shadow-black/15 px-4 py-3 border border-charcoal/8 transition-all duration-300

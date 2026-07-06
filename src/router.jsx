@@ -23,9 +23,20 @@ import AntesDespues from './pages/AntesDespues'
 import Urgencias from './pages/Urgencias'
 import EnLandingPage from './pages/en/EnLandingPage'
 import DentalTourismPage from './pages/DentalTourismPage'
+import LpLayout from './layouts/LpLayout'
+import CampaignLanding from './pages/lp/CampaignLanding'
+import { campaignLandings } from './data/campaignLandings'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
+    <>
+    {/* Google Ads campaign landings — stripped LpLayout (no site nav), noindex. */}
+    <Route element={<LpLayout />}>
+      {campaignLandings.map((l) => (
+        <Route key={l.slug} path={`/lp/${l.slug}/`} element={<CampaignLanding landing={l} />} />
+      ))}
+    </Route>
+
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
 
@@ -134,5 +145,6 @@ export const router = createBrowserRouter(
       {/* 404 */}
       <Route path="*" element={<NotFound />} />
     </Route>
+    </>
   )
 )

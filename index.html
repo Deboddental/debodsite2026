@@ -8,6 +8,50 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Google Consent Mode v2 — MUST run before any Google tag. Defaults to denied
+       (RGPD); on denial Google still MODELS conversions via cookieless pings, so
+       paid-campaign attribution survives when a user rejects cookies. The consent
+       banner flips these to granted on accept (see src/utils/consent.js). -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+      ad_storage: 'denied',
+      analytics_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      functionality_storage: 'granted',
+      security_storage: 'granted',
+      wait_for_update: 500
+    });
+    gtag('set', 'ads_data_redaction', true);
+    gtag('set', 'url_passthrough', true);
+    // Re-apply a previously granted choice on repeat visits, before the banner shows.
+    try {
+      if (localStorage.getItem('debod_consent') === 'granted') {
+        gtag('consent', 'update', {
+          ad_storage: 'granted', analytics_storage: 'granted',
+          ad_user_data: 'granted', ad_personalization: 'granted'
+        });
+      }
+    } catch (e) {}
+  </script>
+  <!-- Google Tag Manager — replace GTM-XXXXXXX below with Debod's real container id
+       to go live. Until then the consent defaults above are already active and will
+       govern the tag the moment it is present. -->
+  <script>
+    (function () {
+      var id = 'GTM-XXXXXXX';
+      if (!/^GTM-/.test(id) || id === 'GTM-XXXXXXX') return; // no container configured yet → skip cleanly
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', id);
+    })();
+  </script>
+
   <!-- Primary SEO -->
   <!-- NOTE: Per-page <title>, description, canonical and og/twitter tags are injected
        per route by react-helmet-async. react-helmet-async APPENDS its tags rather than

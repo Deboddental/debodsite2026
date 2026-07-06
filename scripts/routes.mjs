@@ -12,6 +12,7 @@ import { teamMembers } from '../src/data/team.js'
 import { barrios } from '../src/data/barrios.js'
 import { enLandings } from '../src/data/enLandings.js'
 import { tourismLandings } from '../src/data/dentalTourism.js'
+import { campaignLandings } from '../src/data/campaignLandings.js'
 import { enRoutesFromSlugs } from '../src/i18n/slugs.js'
 
 // Static, hand-maintained routes.
@@ -43,7 +44,9 @@ export function getDynamicRoutes() {
   const barrioRoutes = barrios.map((b) => `/${b.slug}/`) // root-level (matches canonical)
   const enRoutes = enLandings.map((l) => `/en/${l.slug}/`)
   const tourismRoutes = tourismLandings.map((l) => `/en/${l.slug}/`)
-  return [...serviceRoutes, ...treatmentRoutes, ...blogRoutes, ...teamRoutes, ...barrioRoutes, ...enRoutes, ...tourismRoutes]
+  // Google Ads landings — prerendered for speed, but noindex + kept out of the sitemap.
+  const lpRoutes = campaignLandings.map((l) => `/lp/${l.slug}/`)
+  return [...serviceRoutes, ...treatmentRoutes, ...blogRoutes, ...teamRoutes, ...barrioRoutes, ...enRoutes, ...tourismRoutes, ...lpRoutes]
 }
 
 // Full route list (static ES + dynamic ES + full EN mirror), de-duplicated.

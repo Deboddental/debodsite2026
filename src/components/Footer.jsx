@@ -69,7 +69,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="bg-charcoal rounded-t-[3rem] -mt-12 pt-28 pb-8 px-6 md:px-12 lg:px-20"
+      className="bg-charcoal rounded-t-[3rem] -mt-12 pt-28 pb-24 md:pb-8 px-6 md:px-12 lg:px-20"
       role="contentinfo"
       aria-label={locale === 'en' ? 'Debod Dental Clinic footer' : 'Pie de página Debod Dental Clinic'}
     >

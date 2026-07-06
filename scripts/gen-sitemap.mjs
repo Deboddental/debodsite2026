@@ -38,7 +38,8 @@ function pairFor(route) {
   return en && enToEs[en] === route ? { es: route, en } : null
 }
 
-const routes = [...new Set(getAllRoutes())]
+// Exclude /lp/* (Google Ads landings): they are noindex and must not be in the sitemap.
+const routes = [...new Set(getAllRoutes())].filter((r) => !r.startsWith('/lp/'))
 const body = routes.map((route) => {
   const alt = pairFor(route)
   const links = alt

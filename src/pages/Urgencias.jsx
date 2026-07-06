@@ -20,8 +20,8 @@ const content = {
     metaTitle: 'Urgencias dentales en Argüelles, Madrid — Atención el mismo día | Debod Dental Clinic',
     metaDescription:
       'Urgencias dentales en Argüelles, Madrid. Atención el mismo día para dolor intenso, dientes rotos, flemones o coronas caídas. Llama al 914 47 62 25.',
-    heroSubtitle: 'Atención el mismo día',
-    heroTitle: 'Urgencias dentales en Argüelles, Madrid',
+    heroSubtitle: 'Atención el mismo día · Argüelles, Madrid',
+    heroTitle: 'Urgencias Dentales en Madrid',
     heroDescription:
       'Dolor intenso, un diente roto o un flemón no pueden esperar. Llámanos y te atendemos lo antes posible, el mismo día siempre que sea posible.',
     callNow: 'Llamar ahora',

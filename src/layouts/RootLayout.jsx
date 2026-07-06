@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar'
 import Hreflang from '@/components/Hreflang'
 import Footer from '@/components/Footer'
 import WhatsAppWidget from '@/components/WhatsAppWidget'
+import MobileActionBar from '@/components/MobileActionBar'
 import ConsentBanner from '@/components/ConsentBanner'
 import LoadingScreen from '@/components/LoadingScreen'
 import { Analytics } from '@vercel/analytics/react'
@@ -42,7 +43,9 @@ function LocaleMeta() {
 
 export default function RootLayout() {
   const [ready, setReady] = useState(false)
-  useEffect(() => { const t = setTimeout(() => setReady(true), 2000); return () => clearTimeout(t) }, [])
+  // Keep the brand intro but cut the forced delay from 2s → 0.9s: two seconds of a
+  // blocking splash on every first load hurts both conversion and LCP.
+  useEffect(() => { const t = setTimeout(() => setReady(true), 900); return () => clearTimeout(t) }, [])
 
   return (
     <>
@@ -62,6 +65,7 @@ export default function RootLayout() {
       </main>
       <Footer />
       <WhatsAppWidget />
+      <MobileActionBar />
       <ConsentBanner />
       <Analytics />
       <SpeedInsights />
