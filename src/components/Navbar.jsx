@@ -6,26 +6,14 @@ import LanguageToggle from './LanguageToggle'
 import { useLocale } from '../hooks/useLocale'
 import { t } from '../i18n/ui'
 import { tf } from '../utils/tf'
-import { serviceSlugEn, treatmentSlugEn, staticPairs } from '../i18n/slugs'
+import { treatmentSlugEn, staticPairs } from '../i18n/slugs'
 import { tourismLandings } from '../data/dentalTourism'
 import treatments from '../data/treatments'
+import { specialties, specialtyLabel } from '../data/specialties'
 
-const SERVICES = [
-  { es: 'Dentista General', en: 'General Dentistry', slug: 'dentista-general-arguelles-madrid-espana' },
-  { es: 'Odontología Estética', en: 'Cosmetic Dentistry', slug: 'dentista-cosmetico-arguelles-madrid-espana' },
-  { es: 'Implantes Dentales', en: 'Dental Implants', slug: 'dentista-de-implantes-arguelles-madrid-espana' },
-  { es: 'Endodoncia', en: 'Root Canal (Endodontics)', slug: 'endodoncista-arguelles-madrid-espana' },
-  { es: 'Odontopediatría', en: 'Paediatric Dentistry', slug: 'odontopediatra-arguelles-madrid-espana' },
-  { es: 'Ortodoncia', en: 'Orthodontics', slug: 'ortodoncista-arguelles-madrid-espana' },
-  { es: 'Periodoncia', en: 'Periodontics', slug: 'periodoncista-arguelles-madrid-espana' },
-  { es: 'Cirugía Oral', en: 'Oral Surgery', slug: 'cirujano-oral-arguelles-madrid-espana' },
-]
-
-// Treatments grouped by specialty, in the same order as SERVICES, so the
-// "Treatments" dropdown reads as a categorised index of all 23 treatments
-// (they were previously only reachable one click deeper, from inside each
-// service page — this is the direct nav shortcut).
-const TREATMENT_GROUPS = SERVICES
+// Treatments grouped by specialty (all 23 individual treatments — Debod has no
+// separate "Services" section any more, it duplicated this exact content).
+const TREATMENT_GROUPS = specialties
   .map((s) => ({ ...s, items: treatments.filter((tr) => tr.specialty === s.slug) }))
   .filter((g) => g.items.length > 0)
 
@@ -39,11 +27,10 @@ export default function Navbar() {
   const navRef = useRef(null)
   const locale = useLocale()
 
-  // Locale-aware hrefs: chrome paths via the static pair map, services via slug map.
+  // Locale-aware hrefs: chrome paths via the static pair map, treatments via slug map.
   const lp = (esPath) => (locale === 'en' ? staticPairs[esPath] || esPath : esPath)
-  const serviceHref = (slug) => (locale === 'en' ? `/en/${serviceSlugEn[slug]}/` : `/${slug}/`)
-  const serviceLabel = (s) => (locale === 'en' ? s.en : s.es)
   const treatmentHref = (slug) => (locale === 'en' ? `/en/treatments/${treatmentSlugEn[slug]}/` : `/tratamientos/${slug}/`)
+  const treatmentsHubHref = lp('/tratamientos/')
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60)
@@ -118,41 +105,34 @@ export default function Navbar() {
             {t('nav.about', locale)}
           </Link>
 
-          {/* Services dropdown (portaled — see NavDropdown) */}
-          <NavDropdown label={t('nav.services', locale)} width="w-56">
-            <div className="p-2">
-              {SERVICES.map((s) => (
-                <Link
-                  key={s.slug}
-                  to={serviceHref(s.slug)}
-                  className="block px-4 py-2.5 rounded-2xl text-pearl text-sm font-jakarta font-medium hover:bg-gold/10 hover:text-gold transition-all duration-200"
-                >
-                  {serviceLabel(s)}
-                </Link>
-              ))}
-            </div>
-          </NavDropdown>
-
           {/* Treatments dropdown — direct shortcut to all 23 treatments, grouped
-              by specialty (previously only reachable via each service page). */}
+              by specialty (Debod's sole content type; "Services" duplicated it). */}
           <NavDropdown label={t('nav.treatments', locale)} width="w-[760px]">
-            <div className="p-4 columns-3 gap-4 max-h-[80vh] overflow-y-auto">
-              {TREATMENT_GROUPS.map((g) => (
-                <div key={g.slug} className="break-inside-avoid mb-3">
-                  <p className="px-4 pb-1 font-jakarta text-gold/60 text-[11px] font-semibold uppercase tracking-wider">
-                    {serviceLabel(g)}
-                  </p>
-                  {g.items.map((tItem) => (
-                    <Link
-                      key={tItem.slug}
-                      to={treatmentHref(tItem.slug)}
-                      className="block px-4 py-1 rounded-xl text-pearl text-xs font-jakarta font-medium hover:bg-gold/10 hover:text-gold transition-all duration-200 leading-snug"
-                    >
-                      {tf(tItem, 'title', locale)}
-                    </Link>
-                  ))}
-                </div>
-              ))}
+            <div className="p-4">
+              <div className="columns-3 gap-4 max-h-[80vh] overflow-y-auto">
+                {TREATMENT_GROUPS.map((g) => (
+                  <div key={g.slug} className="break-inside-avoid mb-3">
+                    <p className="px-4 pb-1 font-jakarta text-gold/60 text-[11px] font-semibold uppercase tracking-wider">
+                      {specialtyLabel(g, locale)}
+                    </p>
+                    {g.items.map((tItem) => (
+                      <Link
+                        key={tItem.slug}
+                        to={treatmentHref(tItem.slug)}
+                        className="block px-4 py-1 rounded-xl text-pearl text-xs font-jakarta font-medium hover:bg-gold/10 hover:text-gold transition-all duration-200 leading-snug"
+                      >
+                        {tf(tItem, 'title', locale)}
+                      </Link>
+                    ))}
+                  </div>
+                ))}
+              </div>
+              <Link
+                to={treatmentsHubHref}
+                className="block mt-2 px-4 py-2.5 rounded-xl text-gold text-sm font-jakarta font-semibold hover:bg-gold/10 transition-all duration-200 border-t border-white/10 pt-3"
+              >
+                {locale === 'en' ? 'View all treatments →' : 'Ver todos los tratamientos →'}
+              </Link>
             </div>
           </NavDropdown>
 
@@ -220,13 +200,6 @@ export default function Navbar() {
           <Link to={lp('/')} className="text-pearl font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.home', locale)}</Link>
           <Link to={lp('/nosotros/')} className="text-pearl font-semibold text-lg hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>{t('nav.about', locale)}</Link>
           <div className="h-px bg-white/10" />
-          <p className="text-white/50 text-xs font-jakarta uppercase tracking-widest">{t('nav.services', locale)}</p>
-          {SERVICES.map((s) => (
-            <Link key={s.slug} to={serviceHref(s.slug)} className="text-white/70 text-sm font-medium hover:text-gold transition-colors" onClick={() => setMobileOpen(false)}>
-              {serviceLabel(s)}
-            </Link>
-          ))}
-          <div className="h-px bg-white/10" />
           {/* Treatments — collapsible accordion (23 links across 7 specialties is too
               much to dump flat; collapsed by default, then one category at a time). */}
           <button
@@ -249,7 +222,7 @@ export default function Navbar() {
                       aria-expanded={openCategory === g.slug}
                       className="w-full flex items-center justify-between text-gold/70 text-[11px] font-jakarta font-semibold uppercase tracking-wider py-1.5"
                     >
-                      {serviceLabel(g)}
+                      {specialtyLabel(g, locale)}
                       <ChevronDown size={12} className={`transition-transform duration-300 ${openCategory === g.slug ? 'rotate-180' : ''}`} />
                     </button>
                     <div className={`grid transition-[grid-template-rows] duration-300 ease-out ${openCategory === g.slug ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
@@ -265,6 +238,9 @@ export default function Navbar() {
                     </div>
                   </div>
                 ))}
+                <Link to={treatmentsHubHref} className="block text-gold text-sm font-semibold pt-1" onClick={() => setMobileOpen(false)}>
+                  {locale === 'en' ? 'View all treatments →' : 'Ver todos los tratamientos →'}
+                </Link>
               </div>
             </div>
           </div>

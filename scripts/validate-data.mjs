@@ -1,12 +1,11 @@
 // Build-time integrity check. Fails (exit 1) on broken internal links or
 // duplicate slugs so SEO/link rot becomes a build failure, not a silent bug.
 import { getAllRoutes } from './routes.mjs'
-import { services } from '../src/data/services.js'
 import { treatments } from '../src/data/treatments.js'
 import { blogPosts } from '../src/data/blog.js'
 import { teamMembers } from '../src/data/team.js'
 import { barrios } from '../src/data/barrios.js'
-import { serviceSlugEn, treatmentSlugEn, barrioSlugEn, blogSlugEn, enRoutesFromSlugs } from '../src/i18n/slugs.js'
+import { treatmentSlugEn, barrioSlugEn, blogSlugEn, enRoutesFromSlugs } from '../src/i18n/slugs.js'
 
 const routes = new Set(getAllRoutes())
 
@@ -32,7 +31,7 @@ function collectLinks(node, path, out) {
   }
 }
 
-const datasets = { services, treatments, blogPosts, teamMembers }
+const datasets = { treatments, blogPosts, teamMembers }
 const links = []
 for (const [name, data] of Object.entries(datasets)) collectLinks(data, name, links)
 
@@ -42,7 +41,7 @@ const broken = links.filter((l) => !routes.has(norm(l.href)))
 
 // Duplicate slug check within each slugged dataset.
 const dupes = []
-for (const [name, arr] of [['services', services], ['treatments', treatments], ['blogPosts', blogPosts], ['teamMembers', teamMembers]]) {
+for (const [name, arr] of [['treatments', treatments], ['blogPosts', blogPosts], ['teamMembers', teamMembers]]) {
   const seen = new Map()
   for (const item of arr) {
     if (!item || !item.slug) continue
@@ -55,7 +54,6 @@ for (const [name, arr] of [['services', services], ['treatments', treatments], [
 // Every slugged record must have an EN slug in the central map (src/i18n/slugs.js),
 // or its /en/ route + reciprocal hreflang won't exist.
 const enCoverage = []
-for (const s of services) if (!serviceSlugEn[s.slug]) enCoverage.push(`service missing slug_en: ${s.slug}`)
 for (const t of treatments) if (!treatmentSlugEn[t.slug]) enCoverage.push(`treatment missing slug_en: ${t.slug}`)
 for (const b of barrios) if (!barrioSlugEn[b.slug]) enCoverage.push(`barrio missing slug_en: ${b.slug}`)
 for (const p of blogPosts) if (!blogSlugEn[p.slug]) enCoverage.push(`blog missing slug_en: ${p.slug}`)

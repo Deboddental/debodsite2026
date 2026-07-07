@@ -5,7 +5,26 @@
     { "source": "/blog/uncategorized/limpieza-dental-profunda-en-arguelles-madrid/", "destination": "/blog/salud-dental/limpieza-dental-profunda-en-arguelles-madrid/", "permanent": true },
     { "source": "/blog/uncategorized/dolor-de-muelas-de-juicio-en-arguelles-madrid/", "destination": "/blog/salud-dental/dolor-de-muelas-de-juicio-en-arguelles-madrid/", "permanent": true },
     { "source": "/en/blog/general/deep-dental-cleaning-explained-arguelles-madrid/", "destination": "/en/blog/dental-health/deep-dental-cleaning-explained-arguelles-madrid/", "permanent": true },
-    { "source": "/en/blog/general/wisdom-tooth-pain-arguelles-madrid/", "destination": "/en/blog/dental-health/wisdom-tooth-pain-arguelles-madrid/", "permanent": true }
+    { "source": "/en/blog/general/wisdom-tooth-pain-arguelles-madrid/", "destination": "/en/blog/dental-health/wisdom-tooth-pain-arguelles-madrid/", "permanent": true },
+
+    { "source": "/servicios/:path*", "destination": "/tratamientos/", "permanent": true },
+    { "source": "/en/services/:path*", "destination": "/en/treatments/", "permanent": true },
+    { "source": "/dentista-general-arguelles-madrid-espana/", "destination": "/tratamientos/", "permanent": true },
+    { "source": "/dentista-cosmetico-arguelles-madrid-espana/", "destination": "/tratamientos/", "permanent": true },
+    { "source": "/dentista-de-implantes-arguelles-madrid-espana/", "destination": "/tratamientos/", "permanent": true },
+    { "source": "/endodoncista-arguelles-madrid-espana/", "destination": "/tratamientos/", "permanent": true },
+    { "source": "/odontopediatra-arguelles-madrid-espana/", "destination": "/tratamientos/", "permanent": true },
+    { "source": "/ortodoncista-arguelles-madrid-espana/", "destination": "/tratamientos/", "permanent": true },
+    { "source": "/periodoncista-arguelles-madrid-espana/", "destination": "/tratamientos/", "permanent": true },
+    { "source": "/cirujano-oral-arguelles-madrid-espana/", "destination": "/tratamientos/", "permanent": true },
+    { "source": "/en/general-dentist-arguelles-madrid/", "destination": "/en/treatments/", "permanent": true },
+    { "source": "/en/cosmetic-dentist-arguelles-madrid/", "destination": "/en/treatments/", "permanent": true },
+    { "source": "/en/dental-implants-dentist-arguelles-madrid/", "destination": "/en/treatments/", "permanent": true },
+    { "source": "/en/endodontist-root-canal-arguelles-madrid/", "destination": "/en/treatments/", "permanent": true },
+    { "source": "/en/pediatric-dentist-arguelles-madrid/", "destination": "/en/treatments/", "permanent": true },
+    { "source": "/en/orthodontist-arguelles-madrid/", "destination": "/en/treatments/", "permanent": true },
+    { "source": "/en/periodontist-arguelles-madrid/", "destination": "/en/treatments/", "permanent": true },
+    { "source": "/en/oral-surgeon-arguelles-madrid/", "destination": "/en/treatments/", "permanent": true }
   ],
   "headers": [
     {

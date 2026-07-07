@@ -63,7 +63,7 @@ export const objections = [
       'Our team treats international and expat patients in English every day.',
       'Your diagnosis, options and quote are explained clearly, with no jargon.',
       'We share your digital scans, plan and smile design so you can see exactly what is proposed.',
-      'WhatsApp and email support before, during and after your visit.',
+      'Support by email before, during and after your visit.',
     ],
   },
   {
@@ -71,7 +71,7 @@ export const objections = [
     question: '“What about follow-up when I get home?”',
     title: 'Aftercare that travels with you',
     points: [
-      'A clear aftercare plan and direct contact with the clinic by WhatsApp.',
+      'A clear aftercare plan and direct email contact with the clinic.',
       'Digital records of your treatment you can share with your dentist at home.',
       'Treatment staged around your travel dates wherever clinically possible.',
       'Our in-house lab shortens timelines, so more can be completed in fewer visits.',
@@ -80,7 +80,7 @@ export const objections = [
 ]
 
 export const steps = [
-  { n: 1, icon: 'MessageCircle', title: 'Tell us about your case', text: 'Send recent photos and any X-rays by WhatsApp or email. We review them and reply with first guidance.' },
+  { n: 1, icon: 'MessageCircle', title: 'Tell us about your case', text: 'Send recent photos and any X-rays through our contact form or by email. We review them and reply with first guidance.' },
   { n: 2, icon: 'Video', title: 'Free video consultation', text: 'Meet your dentist online. We discuss your goals, options and an estimated plan — with no obligation.' },
   { n: 3, icon: 'Plane', title: 'Plan your trip to Madrid', text: 'We help schedule treatment around your travel dates and advise how many days to allow.' },
   { n: 4, icon: 'Smile', title: 'Your treatment in Madrid', text: 'You are treated at our clinic in Argüelles, with crowns and prostheses made in our own lab.' },
@@ -99,7 +99,6 @@ export const madridExperience = {
 
 // ── Per-page landings (hub + 7 treatment pages) ───────────────────────────────
 // navLabel / navDesc feed the "Dental Tourism" navbar dropdown.
-// relatedServiceEnSlug links to the matching EN specialty page (root-level /en/).
 
 export const tourismLandings = [
   // ── HUB ────────────────────────────────────────────────────────────────────
@@ -116,7 +115,7 @@ export const tourismLandings = [
     metaTitle: 'Dental Tourism in Madrid — English-Speaking Clinic | Debod Dental Clinic',
     metaDescription:
       'Dental tourism in central Madrid for UK, Irish, European & international patients. Implants, All-on-4/6, veneers & smile design with an English-speaking team and in-house lab. Free video consultation.',
-    esAlternate: '/servicios/',
+    esAlternate: '/tratamientos/',
     intro: `## Premium dental care in Madrid — explained in English
 
 If you are considering travelling for dental treatment, **Debod Dental Clinic** makes it simple. We are a boutique clinic in **Argüelles, central Madrid**, where international and English-speaking patients are treated from start to finish in English — with **honest pricing, premium materials and our own in-house digital lab**.
@@ -131,12 +130,12 @@ From a single implant to a **full-arch rehabilitation (All-on-4 / All-on-6)**, p
 - 💳 **Honest, transparent pricing** with financing available.
 
 ### How to start
-It begins with a **free online video consultation**. Send us recent photos and any X-rays by **WhatsApp (+34 689 10 47 14)** or email **info@deboddentalclinic.com**, and we will review your case and reply with first guidance and an estimated plan — with no obligation.`,
+It begins with a **free online video consultation**. Send us recent photos and any X-rays through our **contact form** or by email at **info@deboddentalclinic.com**, and we will review your case and reply with first guidance and an estimated plan — with no obligation.`,
     faqs: [
       { question: 'How much can I save with dental treatment in Madrid?', answer: 'Savings vary by case and by the prices you have been quoted at home, so we do not promise a fixed figure. Private care in Spain is known for strong value versus UK, Irish and US private fees, using premium materials and the same digital technology. Book a free video consultation and we will send a clear, itemised quote you can compare like-for-like — with no obligation.' },
       { question: 'Is dental treatment in Spain safe?', answer: 'Yes. Spain is part of the EU, so clinics, materials and sterilisation follow strict European health regulations. At Debod your treatment is carried out by specialists registered with the COEM (Madrid Dental Association), using internationally recognised implant systems, and we hold a 4.9★ rating from 350+ verified Google reviews.' },
       { question: 'Will I be treated in English?', answer: 'Absolutely. Our team treats international and expat patients in English every day, explaining your diagnosis, options and quote clearly so you can make an informed decision.' },
-      { question: 'How do I get started from another country?', answer: 'Send us recent photos and any X-rays by WhatsApp (+34 689 10 47 14) or email (info@deboddentalclinic.com). We review your case, arrange a free online video consultation and give you an estimated plan and timeline before you travel.' },
+      { question: 'How do I get started from another country?', answer: 'Send us recent photos and any X-rays through our contact form or by email (info@deboddentalclinic.com). We review your case, arrange a free online video consultation and give you an estimated plan and timeline before you travel.' },
       { question: 'How many days should I plan to stay in Madrid?', answer: 'It depends on the treatment. Some cosmetic work can be completed in a few days thanks to our in-house lab, while implants may need two trips to allow healing. We plan everything around your travel dates and tell you exactly what is realistic at your video consultation.' },
     ],
   },
@@ -155,7 +154,6 @@ It begins with a **free online video consultation**. Send us recent photos and a
     metaDescription:
       'Dental implants in central Madrid with 3D guided surgery and an in-house lab. English-speaking implant dentist in Argüelles for international patients. Free quote and video consultation.',
     esAlternate: '/dentista-de-implantes-arguelles-madrid-espana/',
-    relatedServiceEnSlug: 'dental-implants-dentist-arguelles-madrid',
     intro: `## Dental implants in Madrid, the digital way
 
 A **dental implant** is the closest thing to a natural tooth: a titanium root that integrates with the bone (osseointegration) to support a crown, bridge or full prosthesis. At **Debod Dental Clinic** in **Argüelles, Madrid**, we plan every implant digitally and place it with **3D guided surgery** for millimetric precision and a more comfortable recovery.
@@ -192,7 +190,6 @@ Whether you are an expat in Madrid or travelling for treatment, we will tell you
     metaDescription:
       'All-on-4 full-arch dental implants in central Madrid for international patients. Fixed teeth on four implants, planned with 3D guided surgery and an in-house lab. Free quote and video consultation.',
     esAlternate: '/dentista-de-implantes-arguelles-madrid-espana/',
-    relatedServiceEnSlug: 'dental-implants-dentist-arguelles-madrid',
     intro: `## All-on-4 in Madrid — a fixed full arch on four implants
 
 **All-on-4** replaces a full arch of missing or failing teeth with a fixed bridge supported by just **four implants**. For many patients it means **fixed teeth in a short timeframe**, often without extensive bone grafting — a life-changing alternative to a removable denture.
@@ -231,7 +228,6 @@ We will tell you honestly whether All-on-4, All-on-6 or another solution best fi
     metaDescription:
       'All-on-6 full-arch dental implants in central Madrid for international patients. Fixed teeth on six implants for maximum stability, planned with 3D guided surgery and an in-house lab. Free quote.',
     esAlternate: '/dentista-de-implantes-arguelles-madrid-espana/',
-    relatedServiceEnSlug: 'dental-implants-dentist-arguelles-madrid',
     intro: `## All-on-6 in Madrid — full-arch teeth on six implants
 
 **All-on-6** restores a complete arch with a fixed bridge supported by **six implants**. The two extra implants spread the load and can offer **greater stability**, which is often ideal when bone volume allows and for patients who want the most robust full-arch solution.
@@ -270,7 +266,6 @@ After a 3D assessment we will recommend honestly whether All-on-6, All-on-4 or a
     metaDescription:
       'Cosmetic dentistry in central Madrid for international patients: porcelain veneers, digital smile design, whitening and natural crowns. English-speaking team, in-house lab. Free quote and video consultation.',
     esAlternate: '/dentista-cosmetico-arguelles-madrid-espana/',
-    relatedServiceEnSlug: 'cosmetic-dentist-arguelles-madrid',
     intro: `## Cosmetic dentistry in Madrid — see your smile first
 
 From **porcelain veneers** and **digital smile design** to **whitening** and natural-looking **crowns**, cosmetic dentistry at **Debod Dental Clinic** is built around one idea: you should be able to **preview and approve your new smile before we start**.
@@ -307,7 +302,6 @@ Ideal for expats and visitors who want a premium, natural-looking smile in the h
     metaDescription:
       'Porcelain veneers in central Madrid for international patients. Digital smile design, premium ceramics and an in-house lab. English-speaking cosmetic dentist in Argüelles. Free quote and video consultation.',
     esAlternate: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/',
-    relatedServiceEnSlug: 'cosmetic-dentist-arguelles-madrid',
     intro: `## Porcelain veneers in Madrid — premium, natural, made to measure
 
 **Porcelain veneers** are thin, custom ceramic shells that transform your smile by correcting colour, shape and alignment — with a minimal, conservative preparation of the tooth. At **Debod Dental Clinic** in **Argüelles, Madrid**, we start every case with a **digital smile design**, so you can preview and approve your new smile **before we touch a single tooth**.
@@ -344,7 +338,6 @@ Ideal for expats and visitors who want a premium, natural-looking smile — ofte
     metaDescription:
       'Digital smile design and complete smile makeovers in central Madrid for international patients. Preview your smile first; veneers, whitening and crowns crafted in our in-house lab. Free quote.',
     esAlternate: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/',
-    relatedServiceEnSlug: 'cosmetic-dentist-arguelles-madrid',
     intro: `## Smile design & makeover in Madrid — preview before you decide
 
 A **smile makeover** combines the right treatments — veneers, whitening, crowns or alignment — into one coordinated plan to transform your smile. At **Debod Dental Clinic** in **Argüelles, Madrid**, it all begins with a **digital smile design**: a screen preview of your future smile that you approve **before any treatment starts**.
@@ -380,8 +373,7 @@ Perfect for expats and visitors who want a confident, natural smile — often ac
     metaTitle: 'English-Speaking Dentist in Madrid (Argüelles) — Debod Dental Clinic',
     metaDescription:
       'Looking for an English-speaking dentist in central Madrid? Debod Dental Clinic in Argüelles offers implants, Invisalign®, veneers and full oral rehabilitation. Free video consultation.',
-    esAlternate: '/servicios/',
-    relatedServiceEnSlug: 'general-dentist-arguelles-madrid',
+    esAlternate: '/tratamientos/',
     intro: `## Your English-speaking dental clinic in Madrid
 
 If you live in Madrid as an expat, or you are visiting and need a dentist, **Debod Dental Clinic** is the easy choice. We are based at **C. de Ferraz, 24, in Argüelles** — a few minutes from Plaza de España and the Temple of Debod — and our team treats international patients **in English**, with clear explanations and transparent pricing.
@@ -396,7 +388,7 @@ We are a boutique clinic specialised in **digital implantology, invisible orthod
 - 💳 **Financing available** and a first diagnostic visit included.
 
 ### How to book
-Call us at **+34 914 47 62 25**, message us on WhatsApp at **+34 689 10 47 14**, or email **info@deboddentalclinic.com**. We will confirm your appointment and answer any questions before your visit.`,
+Call us at **+34 914 47 62 25**, fill in our **contact form**, or email **info@deboddentalclinic.com**. We will confirm your appointment and answer any questions before your visit.`,
     faqs: [
       { question: 'Do the dentists at Debod speak English?', answer: 'Yes. Our team treats international and expat patients in English, explaining your diagnosis, options and budget clearly so you can make an informed decision.' },
       { question: 'Where is the clinic located in Madrid?', answer: 'We are at C. de Ferraz, 24, in the Argüelles neighbourhood (28008 Madrid), a few minutes from Plaza de España and the Temple of Debod. The nearest metro is Ventura Rodríguez (Line 3).' },

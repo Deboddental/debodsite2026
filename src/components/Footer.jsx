@@ -18,21 +18,10 @@ const FacebookIcon = () => (
   </svg>
 )
 
-const serviceLinks = [
-  { key: 'svc.oralsurgery', href: '/cirujano-oral-arguelles-madrid-espana/' },
-  { key: 'svc.implants', href: '/dentista-de-implantes-arguelles-madrid-espana/' },
-  { key: 'svc.general', href: '/dentista-general-arguelles-madrid-espana/' },
-  { key: 'svc.endo', href: '/endodoncista-arguelles-madrid-espana/' },
-  { key: 'svc.cosmetic', href: '/dentista-cosmetico-arguelles-madrid-espana/' },
-  { key: 'svc.pediatric', href: '/odontopediatra-arguelles-madrid-espana/' },
-  { key: 'svc.ortho', href: '/ortodoncista-arguelles-madrid-espana/' },
-  { key: 'svc.perio', href: '/periodoncista-arguelles-madrid-espana/' },
-]
-
 const treatmentLinks = [
+  { key: 'tr.all', href: '/tratamientos/' },
   { key: 'tr.veneers', href: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/' },
   { key: 'tr.invisalign', href: '/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/' },
-  { key: 'tr.whitening', href: '/dentista-cosmetico-arguelles-madrid-espana/' },
   { key: 'tr.guided', href: '/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/' },
   { key: 'tr.gumgraft', href: '/tratamientos/injerto-de-encia-arguelles-madrid-espana/' },
   { key: 'tr.gingivo', href: '/tratamientos/gingivoplastia-arguelles-madrid-espana/' },
@@ -94,7 +83,7 @@ export default function Footer() {
         </div>
 
         {/* Main Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16">
           {/* Brand column */}
           <div className="lg:col-span-1">
             <Link to={L('/')} className="inline-block mb-4">
@@ -137,24 +126,6 @@ export default function Footer() {
                 <FacebookIcon />
               </a>
             </div>
-          </div>
-
-          {/* Services */}
-          <div>
-            <h4 className="font-outfit font-semibold text-white text-sm mb-5 uppercase tracking-wider">{t('footer.servicesTitle', locale)}</h4>
-            <ul className="space-y-2.5">
-              {serviceLinks.map(link => (
-                <li key={link.href}>
-                  <Link
-                    to={L(link.href)}
-                    className="font-jakarta text-white/50 text-sm hover:text-gold transition-colors duration-200 flex items-center gap-1.5 group"
-                  >
-                    <span className="w-1 h-1 rounded-full bg-gold/30 group-hover:bg-gold transition-colors" />
-                    {t(link.key, locale)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </div>
 
           {/* Treatments */}

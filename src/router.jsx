@@ -7,10 +7,9 @@ import Financiacion from './pages/Financiacion'
 import Ubicaciones from './pages/Ubicaciones'
 import Citas from './pages/Citas'
 import PoliticaPrivacidad from './pages/PoliticaPrivacidad'
-import Servicios from './pages/Servicios'
 import Contacto from './pages/Contacto'
 import NotFound from './pages/NotFound'
-import ServicePage from './pages/services/ServicePage'
+import Tratamientos from './pages/Tratamientos'
 import TreatmentPage from './pages/treatments/TreatmentPage'
 import BlogIndex from './pages/blog/BlogIndex'
 import BlogPost from './pages/blog/BlogPost'
@@ -72,23 +71,13 @@ export const router = createBrowserRouter(
         <Route path="dental-emergency-madrid/" element={<Urgencias />} />
         <Route path="locations/" element={<Ubicaciones />} />
         <Route path="locations/appointments-arguelles-madrid/" element={<Citas />} />
-        <Route path="services/" element={<Servicios />} />
-        <Route path="services/:specialtySlug/" element={<ServicePage />} />
-        {/* root-level EN service slugs */}
-        <Route path="general-dentist-arguelles-madrid/" element={<ServicePage />} />
-        <Route path="cosmetic-dentist-arguelles-madrid/" element={<ServicePage />} />
-        <Route path="dental-implants-dentist-arguelles-madrid/" element={<ServicePage />} />
-        <Route path="endodontist-root-canal-arguelles-madrid/" element={<ServicePage />} />
-        <Route path="pediatric-dentist-arguelles-madrid/" element={<ServicePage />} />
-        <Route path="orthodontist-arguelles-madrid/" element={<ServicePage />} />
-        <Route path="periodontist-arguelles-madrid/" element={<ServicePage />} />
-        <Route path="oral-surgeon-arguelles-madrid/" element={<ServicePage />} />
         {/* EN barrio slugs */}
         <Route path="dentist-moncloa-madrid/" element={<BarrioPage />} />
         <Route path="dentist-chamberi-madrid/" element={<BarrioPage />} />
         <Route path="dentist-centro-madrid/" element={<BarrioPage />} />
         <Route path="dentist-plaza-espana-madrid/" element={<BarrioPage />} />
-        {/* treatments / blog / team */}
+        {/* treatments (hub + detail) / blog / team */}
+        <Route path="treatments/" element={<Tratamientos />} />
         <Route path="treatments/:treatmentSlug/" element={<TreatmentPage />} />
         <Route path="blog/" element={<BlogIndex />} />
         <Route path="blog/:category/:postSlug/" element={<BlogPost />} />
@@ -111,27 +100,15 @@ export const router = createBrowserRouter(
       <Route path="ubicaciones/" element={<Ubicaciones />} />
       <Route path="ubicaciones/citas-arguelles-madrid/" element={<Citas />} />
 
-      {/* Services index + detail */}
-      <Route path="servicios/" element={<Servicios />} />
-      <Route path="servicios/:specialtySlug/" element={<ServicePage />} />
-
-      {/* Root-level service slugs (8 specialty pages live at /:slug/) */}
-      <Route path="dentista-general-arguelles-madrid-espana/" element={<ServicePage />} />
-      <Route path="dentista-cosmetico-arguelles-madrid-espana/" element={<ServicePage />} />
-      <Route path="dentista-de-implantes-arguelles-madrid-espana/" element={<ServicePage />} />
-      <Route path="endodoncista-arguelles-madrid-espana/" element={<ServicePage />} />
-      <Route path="odontopediatra-arguelles-madrid-espana/" element={<ServicePage />} />
-      <Route path="ortodoncista-arguelles-madrid-espana/" element={<ServicePage />} />
-      <Route path="periodoncista-arguelles-madrid-espana/" element={<ServicePage />} />
-      <Route path="cirujano-oral-arguelles-madrid-espana/" element={<ServicePage />} />
-
       {/* Local SEO — barrio landings (root-level slugs) */}
       <Route path="dentista-moncloa-madrid/" element={<BarrioPage />} />
       <Route path="dentista-chamberi-madrid/" element={<BarrioPage />} />
       <Route path="dentista-centro-madrid/" element={<BarrioPage />} />
       <Route path="dentista-plaza-espana-madrid/" element={<BarrioPage />} />
 
-      {/* Treatments */}
+      {/* Treatments (hub + detail) — the sole content type; Services was removed
+          as a full duplicate (same specialties, same info, two URLs). */}
+      <Route path="tratamientos/" element={<Tratamientos />} />
       <Route path="tratamientos/:treatmentSlug/" element={<TreatmentPage />} />
 
       {/* Blog */}

@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async'
-import { Phone, MessageCircle, Mail, Clock } from 'lucide-react'
+import { Phone, Calendar, Mail, Clock } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
 import { useLocale } from '../hooks/useLocale'
@@ -7,12 +7,12 @@ import { enPathFor } from '../i18n/slugs'
 
 const getChannels = (locale) => [
   {
-    icon: MessageCircle,
-    title: 'WhatsApp',
-    desc: locale === 'en' ? 'The fastest way. We reply within minutes.' : 'La forma más rápida. Te respondemos en minutos.',
-    action: locale === 'en' ? 'Message us on WhatsApp' : 'Escribir por WhatsApp',
-    href: 'https://wa.me/34689104714?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cita.',
-    color: 'bg-[#25D366]',
+    icon: Calendar,
+    title: locale === 'en' ? 'Contact form' : 'Formulario de contacto',
+    desc: locale === 'en' ? 'Fill it in and we confirm your appointment.' : 'Rellénalo y te confirmamos tu cita.',
+    action: locale === 'en' ? 'Book online' : 'Pedir cita online',
+    href: locale === 'en' ? enPathFor('/contacto/') : '/contacto/',
+    color: 'bg-gold',
   },
   {
     icon: Phone,
@@ -20,7 +20,7 @@ const getChannels = (locale) => [
     desc: locale === 'en' ? 'Call us during clinic hours: Mon–Fri, 9:00 to 20:00.' : 'Llámanos en horario de clínica: L–V de 9:00 a 20:00.',
     action: locale === 'en' ? 'Call now' : 'Llamar ahora',
     href: 'tel:+34914476225',
-    color: 'bg-gold',
+    color: 'bg-charcoal',
   },
   {
     icon: Mail,
@@ -28,7 +28,7 @@ const getChannels = (locale) => [
     desc: locale === 'en' ? 'For detailed enquiries or to attach previous X-rays.' : 'Para consultas detalladas o adjuntar radiografías previas.',
     action: locale === 'en' ? 'Send an email' : 'Enviar email',
     href: 'mailto:info@deboddentalclinic.com',
-    color: 'bg-charcoal',
+    color: 'bg-slate-600',
   },
 ]
 
@@ -41,7 +41,7 @@ export default function Citas() {
         <title>{locale === 'en' ? 'Book an Appointment in Argüelles, Madrid | Debod Dental Clinic' : 'Pedir Cita en Argüelles, Madrid | Debod Dental Clinic'}</title>
         <meta
           name="description"
-          content={locale === 'en' ? 'Book an appointment at Debod Dental Clinic, Argüelles, Madrid. Available by WhatsApp, phone and email. First diagnostic visit included with our team of specialists.' : 'Pide cita en Debod Dental Clinic, Argüelles, Madrid. Disponible por WhatsApp, teléfono y email. Primera visita diagnóstica incluida con nuestro equipo de especialistas.'}
+          content={locale === 'en' ? 'Book an appointment at Debod Dental Clinic, Argüelles, Madrid. Available via our contact form, phone and email. First diagnostic visit included with our team of specialists.' : 'Pide cita en Debod Dental Clinic, Argüelles, Madrid. Disponible por formulario de contacto, teléfono y email. Primera visita diagnóstica incluida con nuestro equipo de especialistas.'}
         />
         <meta property="og:title" content={locale === 'en' ? 'Book an Appointment — Debod Dental Clinic' : 'Pedir Cita — Debod Dental Clinic'} />
       </Helmet>

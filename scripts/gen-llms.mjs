@@ -1,13 +1,12 @@
 // ── llms-full.txt generator ─────────────────────────────────────────────────
 // Builds the optional llms-full.txt (llmstxt.org): a single, self-contained
-// markdown dump of the clinic's full offering — services, every treatment, the
-// team and the blog index — so LLMs can ingest the whole site from one file and
-// cite Debod with accurate detail. The short llms.txt (public/, hand-maintained)
+// markdown dump of the clinic's full offering — every treatment, the team and
+// the blog index — so LLMs can ingest the whole site from one file and cite
+// Debod with accurate detail. The short llms.txt (public/, hand-maintained)
 // stays the index; this is the deep version. Runs after `vite build`.
 
 import { writeFileSync } from 'fs'
 import { resolve } from 'path'
-import { services } from '../src/data/services.js'
 import { treatments } from '../src/data/treatments.js'
 import { teamMembers } from '../src/data/team.js'
 import { blogPosts } from '../src/data/blog.js'
@@ -32,12 +31,6 @@ const out = `# Debod Dental Clinic — full reference (llms-full.txt)
 - Laboratorio propio: Debod Dental Lab (in-house, digital)
 - Sitio bilingüe ES/EN — pacientes internacionales: ${BASE}/en/
 
-## Especialidades
-
-${services.map((s) => `### ${clean(s.title)}
-${clean(s.metaDescription)}
-URL: ${BASE}/${s.slug}/`).join('\n\n')}
-
 ## Tratamientos
 
 ${treatments.map((t) => `- **${clean(t.title)}**${t.subtitle ? ` — ${clean(t.subtitle)}` : ''}. ${clean(t.metaDescription)} (${BASE}/tratamientos/${t.slug}/)`).join('\n')}
@@ -59,4 +52,4 @@ International, English-speaking patients: ${BASE}/en/dental-tourism-madrid/ (hub
 `
 
 writeFileSync(resolve('dist/llms-full.txt'), out)
-console.log(`📄 llms-full.txt — ${services.length} services, ${treatments.length} treatments, ${doctors.length} doctors, ${blogPosts.length} posts`)
+console.log(`📄 llms-full.txt — ${treatments.length} treatments, ${doctors.length} doctors, ${blogPosts.length} posts`)

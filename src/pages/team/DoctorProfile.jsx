@@ -128,8 +128,8 @@ export default function DoctorProfile() {
       <CtaBand
         headline={locale === 'en' ? `Want a consultation with ${doctor.name}?` : `¿Quieres una consulta con ${doctor.name}?`}
         subtext={locale === 'en'
-          ? 'Book your appointment online or reach us on WhatsApp. First consultation with no obligation.'
-          : 'Reserva tu cita online o contáctanos por WhatsApp. Primera consulta sin compromiso.'}
+          ? 'Book your appointment online. First consultation with no obligation.'
+          : 'Reserva tu cita online. Primera consulta sin compromiso.'}
         ctaLabel={t('cta.defaultLabel', locale)}
         ctaTo={contactHref}
       />

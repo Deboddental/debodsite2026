@@ -21,7 +21,7 @@ import {
 const BASE_URL = 'https://deboddentalclinic.com'
 const HUB_PATH = '/en/dental-tourism-madrid/'
 const CALL_TEL = '+34914476225'
-const WHATSAPP = 'https://wa.me/34689104714'
+const CONTACT_PATH = '/en/contact/'
 
 // Data files reference lucide icons by NAME (Node-safe). Map them here.
 const ICONS = {
@@ -97,12 +97,12 @@ export default function DentalTourismPage() {
       <div className="max-w-4xl mx-auto px-4 md:px-8 py-12">
         <MarkdownBody>{landing.intro}</MarkdownBody>
 
-        {landing.relatedServiceEnSlug && (
+        {!landing.isHub && (
           <Link
-            to={`/en/${landing.relatedServiceEnSlug}/`}
+            to="/en/treatments/"
             className="inline-flex items-center gap-2 mt-4 text-gold font-outfit font-semibold text-sm hover:gap-3 transition-all duration-200"
           >
-            Explore the full treatment <ArrowRight size={16} />
+            Explore all treatments <ArrowRight size={16} />
           </Link>
         )}
       </div>
@@ -149,14 +149,12 @@ export default function DentalTourismPage() {
             ))}
           </div>
           <div className="text-center mt-10">
-            <a
-              href={WHATSAPP}
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to={CONTACT_PATH}
               className="inline-flex items-center gap-2 bg-gold text-charcoal font-outfit font-semibold text-sm px-7 py-4 rounded-full hover:bg-gold-light transition-colors duration-300"
             >
-              <MessageCircle size={16} /> Send your photos on WhatsApp for a free estimate
-            </a>
+              <Check size={16} /> Send your case for a free estimate
+            </Link>
           </div>
         </div>
       </section>
@@ -326,14 +324,12 @@ export default function DentalTourismPage() {
           >
             <Phone size={16} /> Call +34 914 47 62 25
           </a>
-          <a
-            href={WHATSAPP}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to={CONTACT_PATH}
             className="inline-flex items-center gap-2 bg-white/10 text-pearl font-outfit font-semibold text-sm px-7 py-4 rounded-full hover:bg-white/20 transition-colors duration-300"
           >
-            <MessageCircle size={16} /> WhatsApp +34 689 10 47 14
-          </a>
+            <Check size={16} /> Book a free consultation
+          </Link>
         </div>
       </section>
     </>

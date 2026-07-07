@@ -7,7 +7,6 @@ export const ui = {
   'nav.home': { es: 'Inicio', en: 'Home' },
   'nav.about': { es: 'Nosotros', en: 'About' },
   'nav.team': { es: 'Equipo', en: 'Team' },
-  'nav.services': { es: 'Servicios', en: 'Services' },
   'nav.treatments': { es: 'Tratamientos', en: 'Treatments' },
   'nav.tourism': { es: 'Turismo Dental', en: 'Dental Tourism' },
   'nav.reviews': { es: 'Reseñas', en: 'Reviews' },
@@ -19,16 +18,9 @@ export const ui = {
 
   // Breadcrumbs
   'crumb.home': { es: 'Inicio', en: 'Home' },
-  'crumb.services': { es: 'Servicios', en: 'Services' },
   'crumb.locations': { es: 'Ubicaciones', en: 'Locations' },
   'crumb.team': { es: 'Equipo', en: 'Team' },
   'crumb.blog': { es: 'Blog', en: 'Blog' },
-
-  // Service detail
-  'service.eyebrow': { es: 'Especialidad', en: 'Specialty' },
-  'service.relatedTitle': { es: 'Tratamientos disponibles', en: 'Available treatments' },
-  'service.ctaHeadline': { es: 'Tu salud dental merece lo mejor', en: 'Your dental health deserves the best' },
-  'service.ctaSubtext': { es: 'Reserva una consulta con nuestros especialistas y descubre el enfoque de la odontología honesta.', en: 'Book a consultation with our specialists and discover our honest-dentistry approach.' },
 
   // Treatment detail
   'treatment.eyebrow': { es: 'Tratamiento', en: 'Treatment' },
@@ -71,27 +63,12 @@ export const ui = {
   'footer.ctaTitle': { es: 'Tu nueva sonrisa empieza aquí', en: 'Your new smile starts here' },
   'footer.ctaSubtitle': { es: 'Primera visita diagnóstica incluida · Argüelles, Madrid', en: 'First diagnostic visit included · Argüelles, Madrid' },
   'footer.ctaBtn': { es: 'Agendar Cita Ahora', en: 'Book an Appointment' },
-  'footer.servicesTitle': { es: 'Servicios', en: 'Services' },
   'footer.treatmentsTitle': { es: 'Tratamientos', en: 'Treatments' },
   'footer.contactTitle': { es: 'Contacto', en: 'Contact' },
   'footer.bio': { es: 'Clínica dental boutique de referencia en Argüelles, Madrid. Especialistas en Rehabilitación Oral, Implantología y Estética Dental.', en: 'A leading boutique dental clinic in Argüelles, Madrid. Specialists in full oral rehabilitation, implantology and cosmetic dentistry.' },
   'footer.status': { es: 'Aceptando pacientes nuevos', en: 'Now accepting new patients' },
   'footer.maps': { es: 'Ver en Google Maps', en: 'View on Google Maps' },
   'footer.privacy': { es: 'Política de Privacidad', en: 'Privacy Policy' },
-
-  // Footer link labels — services
-  'svc.general': { es: 'Odontología General', en: 'General Dentistry' },
-  'svc.cosmetic': { es: 'Odontología Estética', en: 'Cosmetic Dentistry' },
-  'svc.implants': { es: 'Implantes Dentales', en: 'Dental Implants' },
-  'svc.endo': { es: 'Endodoncia', en: 'Root Canal' },
-  'svc.pediatric': { es: 'Odontopediatría', en: 'Paediatric Dentistry' },
-  'svc.ortho': { es: 'Ortodoncia', en: 'Orthodontics' },
-  'svc.perio': { es: 'Periodoncia', en: 'Periodontics' },
-  'svc.oralsurgery': { es: 'Cirugía Oral', en: 'Oral Surgery' },
-  // WhatsApp widget
-  'wa.help': { es: '¿Te ayudamos?', en: 'Need help?' },
-  'wa.book': { es: 'Agenda tu cita en segundos', en: 'Book your appointment in seconds' },
-  'wa.aria': { es: 'Escríbenos por WhatsApp', en: 'Message us on WhatsApp' },
 
   // Consent banner
   'consent.text': { es: 'Usamos cookies propias y de terceros para medición y marketing. Puedes aceptarlas o rechazarlas; rechazarlas no afecta a tu navegación.', en: 'We use our own and third-party cookies for measurement and marketing. You can accept or reject them; rejecting them does not affect your browsing.' },
@@ -103,9 +80,9 @@ export const ui = {
   'related.title': { es: 'Tratamientos relacionados', en: 'Related treatments' },
 
   // Footer link labels — treatments
+  'tr.all': { es: 'Ver todos los tratamientos', en: 'View all treatments' },
   'tr.veneers': { es: 'Carillas de Porcelana', en: 'Porcelain Veneers' },
   'tr.invisalign': { es: 'Invisalign®', en: 'Invisalign®' },
-  'tr.whitening': { es: 'Blanqueamiento', en: 'Teeth Whitening' },
   'tr.guided': { es: 'Cirugía Guiada 3D', en: '3D Guided Surgery' },
   'tr.gumgraft': { es: 'Injerto de Encía', en: 'Gum Graft' },
   'tr.gingivo': { es: 'Gingivoplastia', en: 'Gingivoplasty' },

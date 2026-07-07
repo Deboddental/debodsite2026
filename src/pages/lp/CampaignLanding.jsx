@@ -8,9 +8,6 @@ import LeadForm from '../../components/LeadForm'
 import VideoTestimonialGrid from '../../components/VideoTestimonialGrid'
 import { videosForCategory, videoCatForBase } from '../../data/videoTestimonials'
 import FAQ from '../../components/FAQ'
-import { WA_NUMBER } from '../../utils/leadForm'
-
-const WA_LINK = `https://wa.me/${WA_NUMBER}`
 
 function TrustSignal({ className = '' }) {
   return (
@@ -161,9 +158,8 @@ export default function CampaignLanding({ landing }) {
 
       {/* ── Sticky mobile CTA — hides when the form is on screen ── */}
       <div className={`lg:hidden fixed bottom-0 inset-x-0 z-40 p-3 bg-white/95 backdrop-blur-md border-t border-charcoal/10 shadow-[0_-4px_24px_rgba(0,0,0,0.12)] transition-transform duration-300 ${formInView ? 'translate-y-full' : 'translate-y-0'}`} style={{ paddingBottom: 'calc(0.75rem + env(safe-area-inset-bottom))' }}>
-        <div className="max-w-md mx-auto flex gap-2">
-          <a href={WA_LINK} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="flex items-center justify-center w-14 rounded-full border border-charcoal/15" style={{ color: '#25D366' }}><MessageCircle size={22} /></a>
-          <button onClick={scrollToForm} className="flex-1 flex items-center justify-center gap-2 bg-gold text-charcoal font-outfit font-bold text-sm py-3.5 rounded-full">Reservar mi cita ahora</button>
+        <div className="max-w-md mx-auto">
+          <button onClick={scrollToForm} className="w-full flex items-center justify-center gap-2 bg-gold text-charcoal font-outfit font-bold text-sm py-3.5 rounded-full">Reservar mi cita ahora</button>
         </div>
       </div>
     </>

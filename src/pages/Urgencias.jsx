@@ -1,16 +1,16 @@
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
-import { Phone, MessageCircle, Clock, AlertTriangle, Activity, Zap, Droplet, Smile } from 'lucide-react'
+import { Phone, Calendar, Clock, AlertTriangle, Activity, Zap, Droplet, Smile } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
 import FAQ from '../components/FAQ'
 import CtaBand from '../components/ui/CtaBand'
 import JsonLd from '../components/ui/JsonLd'
 import { useLocale } from '../hooks/useLocale'
+import { enPathFor } from '../i18n/slugs'
 
 const BASE_URL = 'https://deboddentalclinic.com'
 const PHONE = '+34914476225'
-const WHATSAPP = 'https://wa.me/34689104714'
 
 // Copy is intentionally non-absolute (YMYL): we describe when to seek care and
 // give general first-aid, never diagnose or promise outcomes, and point to 112
@@ -25,7 +25,7 @@ const content = {
     heroDescription:
       'Dolor intenso, un diente roto o un flemón no pueden esperar. Llámanos y te atendemos lo antes posible, el mismo día siempre que sea posible.',
     callNow: 'Llamar ahora',
-    whatsapp: 'Escribir por WhatsApp',
+    formCta: 'Pedir cita por formulario',
     hoursNote: 'Lunes a Viernes, 9:00–20:00 · C. de Ferraz, 24, Argüelles',
     whatTitle: '¿Qué se considera una urgencia dental?',
     whatIntro:
@@ -54,7 +54,7 @@ const content = {
       { question: '¿Atienden urgencias el mismo día?', answer: 'Sí, atendemos urgencias el mismo día siempre que es posible dentro de nuestro horario (lunes a viernes, 9:00–20:00). Llámanos al 914 47 62 25 y te daremos la cita más cercana.' },
       { question: '¿Qué hago si se me ha caído un diente por un golpe?', answer: 'Cógelo por la corona, no por la raíz, y evita frotarlo. Si puedes, colócalo de nuevo en su sitio; si no, guárdalo en leche o en tu saliva y ven cuanto antes. Reimplantar un diente es más probable cuanto menos tiempo pasa.' },
       { question: '¿Cuánto cuesta una urgencia dental?', answer: 'El coste depende de lo que necesite tu caso, así que no publicamos una cifra fija. Primero te valoramos, te explicamos qué ocurre y te damos un presupuesto claro y sin compromiso antes de tratarte.' },
-      { question: '¿Puedo ir sin cita previa?', answer: 'Es mejor que llames antes al 914 47 62 25 o nos escribas por WhatsApp para que podamos organizarnos y atenderte con la menor espera posible.' },
+      { question: '¿Puedo ir sin cita previa?', answer: 'Es mejor que llames antes al 914 47 62 25 o rellenes el formulario de contacto, para que podamos organizarnos y atenderte con la menor espera posible.' },
       { question: '¿Un flemón es una urgencia?', answer: 'La hinchazón de la encía o la cara puede indicar una infección que conviene valorar pronto. Llámanos para que te veamos; si notas dificultad para respirar o tragar, llama al 112.' },
     ],
     ctaHeadline: '¿Tienes una urgencia dental ahora?',
@@ -70,7 +70,7 @@ const content = {
     heroDescription:
       'Severe pain, a broken tooth or facial swelling should not wait. Call us and we will see you as soon as possible — same day whenever we can.',
     callNow: 'Call now',
-    whatsapp: 'Message on WhatsApp',
+    formCta: 'Book via contact form',
     hoursNote: 'Monday to Friday, 9:00–20:00 · C. de Ferraz, 24, Argüelles',
     whatTitle: 'What counts as a dental emergency?',
     whatIntro:
@@ -99,7 +99,7 @@ const content = {
       { question: 'Do you see emergencies the same day?', answer: 'Yes — we see emergencies the same day whenever possible within our opening hours (Monday to Friday, 9:00–20:00). Call +34 914 47 62 25 and we will give you the earliest appointment.' },
       { question: 'What should I do if a tooth is knocked out?', answer: 'Hold it by the crown, not the root, and avoid scrubbing it. If you can, place it back in the socket; if not, keep it in milk or your saliva and come as soon as possible. Re-implanting a tooth is more likely the sooner it is done.' },
       { question: 'How much does an emergency appointment cost?', answer: 'The cost depends on what your case needs, so we do not publish a fixed figure. We assess you first, explain what is happening and give you a clear, no-obligation quote before any treatment.' },
-      { question: 'Can I come without an appointment?', answer: 'It is best to call ahead on +34 914 47 62 25 or message us on WhatsApp so we can organise your visit and keep waiting to a minimum.' },
+      { question: 'Can I come without an appointment?', answer: 'It is best to call ahead on +34 914 47 62 25 or fill in our contact form, so we can organise your visit and keep waiting to a minimum.' },
       { question: 'Is a facial swelling an emergency?', answer: 'Swelling of the gum or face can signal an infection worth assessing promptly. Call us so we can see you; if you have difficulty breathing or swallowing, call 112.' },
     ],
     ctaHeadline: 'Have a dental emergency right now?',
@@ -177,7 +177,7 @@ export default function Urgencias() {
         />
       </div>
 
-      {/* Prominent call / WhatsApp CTA — emergencies are phone-first */}
+      {/* Prominent call / form CTA — emergencies are phone-first */}
       <div className="max-w-4xl mx-auto px-4 md:px-8 pt-2 pb-10">
         <div className="bg-charcoal rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center gap-5 justify-between">
           <div className="text-center sm:text-left">
@@ -188,9 +188,9 @@ export default function Urgencias() {
             <a href={`tel:${PHONE}`} className="flex items-center justify-center gap-2 bg-gold text-charcoal font-outfit font-bold text-sm px-6 py-3.5 rounded-full hover:bg-gold-light transition-colors">
               <Phone size={17} /> {c.callNow} · 914 47 62 25
             </a>
-            <a href={WHATSAPP} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 border-2 border-pearl/25 text-pearl font-outfit font-semibold text-sm px-6 py-3.5 rounded-full hover:bg-white/10 transition-colors">
-              <MessageCircle size={17} /> {c.whatsapp}
-            </a>
+            <Link to={locale === 'en' ? enPathFor('/contacto/') : '/contacto/'} className="flex items-center justify-center gap-2 border-2 border-pearl/25 text-pearl font-outfit font-semibold text-sm px-6 py-3.5 rounded-full hover:bg-white/10 transition-colors">
+              <Calendar size={17} /> {c.formCta}
+            </Link>
           </div>
         </div>
       </div>

@@ -5,7 +5,6 @@
 // All routes use a trailing slash to match react-router paths in src/router.jsx
 // and the self-referencing canonicals in src/data/seo.js.
 
-import { services } from '../src/data/services.js'
 import { treatments } from '../src/data/treatments.js'
 import { blogPosts } from '../src/data/blog.js'
 import { teamMembers } from '../src/data/team.js'
@@ -29,7 +28,7 @@ export const staticRoutes = [
   '/ubicaciones/',
   '/ubicaciones/citas-arguelles-madrid/',
   '/urgencias-dentales-arguelles-madrid/',
-  '/servicios/',
+  '/tratamientos/',
   '/blog/',
   '/equipo/',
   '/en/',
@@ -37,7 +36,6 @@ export const staticRoutes = [
 
 // Dynamic routes derived from the data layer.
 export function getDynamicRoutes() {
-  const serviceRoutes = services.map((s) => `/${s.slug}/`) // root-level slug (matches canonical)
   const treatmentRoutes = treatments.map((t) => `/tratamientos/${t.slug}/`)
   const blogRoutes = blogPosts.map((p) => `/blog/${p.category}/${p.slug}/`)
   const teamRoutes = teamMembers.map((m) => `/equipo/${m.slug}/`)
@@ -46,7 +44,7 @@ export function getDynamicRoutes() {
   const tourismRoutes = tourismLandings.map((l) => `/en/${l.slug}/`)
   // Google Ads landings — prerendered for speed, but noindex + kept out of the sitemap.
   const lpRoutes = campaignLandings.map((l) => `/lp/${l.slug}/`)
-  return [...serviceRoutes, ...treatmentRoutes, ...blogRoutes, ...teamRoutes, ...barrioRoutes, ...enRoutes, ...tourismRoutes, ...lpRoutes]
+  return [...treatmentRoutes, ...blogRoutes, ...teamRoutes, ...barrioRoutes, ...enRoutes, ...tourismRoutes, ...lpRoutes]
 }
 
 // Full route list (static ES + dynamic ES + full EN mirror), de-duplicated.

@@ -13,12 +13,10 @@ import VideoTestimonialGrid from '../../components/VideoTestimonialGrid'
 import { videosForCategory, videoCatForSpecialty } from '../../data/videoTestimonials'
 import { treatmentPageSchema } from '../../data/seo'
 import { treatmentFaqs } from '../../data/faqs'
-import { services } from '../../data/services'
 import { ratingSummary, reviews } from '../../data/reviews'
 import { useLocale } from '../../hooks/useLocale'
 import { tf, tfArray, resolveTreatment } from '../../utils/tf'
 import { t } from '../../i18n/ui'
-import { serviceSlugEn } from '../../i18n/slugs'
 
 // Bilingual CRO copy shared by every treatment page (no per-treatment data needed,
 // no invented prices — honest transparency + real financing).
@@ -62,7 +60,7 @@ export default function TreatmentPage() {
   const locale = useLocale()
   const treatment = resolveTreatment(treatments, treatmentSlug, locale)
 
-  if (!treatment) return <Navigate to={locale === 'en' ? '/en/services/' : '/servicios/'} replace />
+  if (!treatment) return <Navigate to={locale === 'en' ? '/en/treatments/' : '/tratamientos/'} replace />
 
   const c = CT[locale === 'en' ? 'en' : 'es']
   const metaTitle = tf(treatment, 'metaTitle', locale)
@@ -74,11 +72,6 @@ export default function TreatmentPage() {
   const benefits = tfArray(treatment, 'benefits', locale)
   const featured = reviews.slice(0, 3)
   const videoTests = videosForCategory(videoCatForSpecialty(treatment.specialty))
-
-  const parentService = services.find((s) => s.slug === treatment.specialty)
-  const parentHref = parentService
-    ? (locale === 'en' ? `/en/${serviceSlugEn[parentService.slug] || 'services'}/` : `/${parentService.slug}/`)
-    : (locale === 'en' ? '/en/services/' : '/servicios/')
 
   const faqSubtitle = locale === 'en'
     ? `Frequently asked questions about ${(title || '').toLowerCase()}.`
@@ -138,10 +131,7 @@ export default function TreatmentPage() {
         <Breadcrumb
           items={[
             { label: t('crumb.home', locale), href: locale === 'en' ? '/en/' : '/' },
-            { label: t('crumb.services', locale), href: locale === 'en' ? '/en/services/' : '/servicios/' },
-            parentService
-              ? { label: tf(parentService, 'title', locale), href: parentHref }
-              : { label: subtitle, href: locale === 'en' ? '/en/services/' : '/servicios/' },
+            { label: t('nav.treatments', locale), href: locale === 'en' ? '/en/treatments/' : '/tratamientos/' },
             { label: title, href: null },
           ]}
         />

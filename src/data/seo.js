@@ -3,7 +3,7 @@
 import { teamMembers } from './team.js'
 import { tf } from '../utils/tf'
 import { t } from '../i18n/ui'
-import { serviceSlugEn, treatmentSlugEn, barrioSlugEn, blogSlugEn } from '../i18n/slugs'
+import { treatmentSlugEn, barrioSlugEn, blogSlugEn } from '../i18n/slugs'
 
 const BASE_URL = 'https://deboddentalclinic.com'
 const langTag = (locale) => (locale === 'en' ? 'en' : 'es-ES')
@@ -46,46 +46,11 @@ export function faqSchema(faqs) {
   }
 }
 
-export function servicePageSchema(service, locale = 'es') {
-  const isEn = locale === 'en'
-  const url = isEn ? `${BASE_URL}/en/${serviceSlugEn[service.slug] || service.slug}/` : `${BASE_URL}/${service.slug}/`
-  return {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'MedicalWebPage',
-        '@id': url,
-        url,
-        name: tf(service, 'metaTitle', locale),
-        description: tf(service, 'metaDescription', locale),
-        inLanguage: langTag(locale),
-        dateModified: LAST_UPDATED,
-        lastReviewed: LAST_UPDATED,
-        reviewedBy: { '@id': CLINIC_ID },
-        about: {
-          '@type': 'MedicalSpecialty',
-          name: tf(service, 'title', locale),
-        },
-        provider: { '@id': CLINIC_ID },
-        isPartOf: { '@id': `${BASE_URL}/#website` },
-      },
-      breadcrumbSchema([
-        { label: t('crumb.home', locale), href: isEn ? '/en/' : '/' },
-        { label: t('crumb.services', locale), href: isEn ? '/en/services/' : '/servicios/' },
-        { label: tf(service, 'title', locale), href: null },
-      ]),
-    ],
-  }
-}
-
 export function treatmentPageSchema(treatment, locale = 'es') {
   const isEn = locale === 'en'
   const url = isEn
     ? `${BASE_URL}/en/treatments/${treatmentSlugEn[treatment.slug] || treatment.slug}/`
     : `${BASE_URL}/tratamientos/${treatment.slug}/`
-  const parentHref = treatment.specialty
-    ? (isEn ? `/en/${serviceSlugEn[treatment.specialty] || 'services'}/` : `/${treatment.specialty}/`)
-    : (isEn ? '/en/services/' : '/servicios/')
   // Only genuinely surgical specialties are tagged SurgicalProcedure. schema.org's
   // procedureType enum has no honest value for cleanings/whitening/orthodontics, so
   // those stay a generic MedicalProcedure rather than being mislabelled as surgery.
@@ -108,8 +73,7 @@ export function treatmentPageSchema(treatment, locale = 'es') {
       },
       breadcrumbSchema([
         { label: t('crumb.home', locale), href: isEn ? '/en/' : '/' },
-        { label: t('crumb.services', locale), href: isEn ? '/en/services/' : '/servicios/' },
-        { label: tf(treatment, 'subtitle', locale) || t('crumb.services', locale), href: parentHref },
+        { label: t('nav.treatments', locale), href: isEn ? '/en/treatments/' : '/tratamientos/' },
         { label: tf(treatment, 'title', locale), href: null },
       ]),
     ],

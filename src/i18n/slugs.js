@@ -7,18 +7,6 @@
 // Adding a translated page = add its ES→EN slug here; routes, sitemap, hreflang
 // and the language toggle all pick it up automatically.
 
-// Services — ES slug → EN slug. EN lives at /en/<enSlug>/ (mirrors the root-level ES slug).
-export const serviceSlugEn = {
-  'dentista-general-arguelles-madrid-espana': 'general-dentist-arguelles-madrid',
-  'dentista-cosmetico-arguelles-madrid-espana': 'cosmetic-dentist-arguelles-madrid',
-  'dentista-de-implantes-arguelles-madrid-espana': 'dental-implants-dentist-arguelles-madrid',
-  'endodoncista-arguelles-madrid-espana': 'endodontist-root-canal-arguelles-madrid',
-  'odontopediatra-arguelles-madrid-espana': 'pediatric-dentist-arguelles-madrid',
-  'ortodoncista-arguelles-madrid-espana': 'orthodontist-arguelles-madrid',
-  'periodoncista-arguelles-madrid-espana': 'periodontist-arguelles-madrid',
-  'cirujano-oral-arguelles-madrid-espana': 'oral-surgeon-arguelles-madrid',
-}
-
 // Treatments — ES slug → EN slug. EN lives at /en/treatments/<enSlug>/.
 export const treatmentSlugEn = {
   'implantes-dentales-arguelles-madrid-espana': 'dental-implants-arguelles-madrid',
@@ -98,7 +86,7 @@ export const staticPairs = {
   '/ubicaciones/': '/en/locations/',
   '/ubicaciones/citas-arguelles-madrid/': '/en/locations/appointments-arguelles-madrid/',
   '/urgencias-dentales-arguelles-madrid/': '/en/dental-emergency-madrid/',
-  '/servicios/': '/en/services/',
+  '/tratamientos/': '/en/treatments/',
   '/blog/': '/en/blog/',
   '/equipo/': '/en/team/',
 }
@@ -114,7 +102,6 @@ export const teamSlugs = [
 export function pagePairs() {
   const pairs = []
   for (const [es, en] of Object.entries(staticPairs)) pairs.push([es, en])
-  for (const [es, en] of Object.entries(serviceSlugEn)) pairs.push([`/${es}/`, `/en/${en}/`])
   for (const [es, en] of Object.entries(treatmentSlugEn)) pairs.push([`/tratamientos/${es}/`, `/en/treatments/${en}/`])
   for (const [es, en] of Object.entries(barrioSlugEn)) pairs.push([`/${es}/`, `/en/${en}/`])
   for (const [es, m] of Object.entries(blogSlugEn)) pairs.push([`/blog/${m.es_cat}/${es}/`, `/en/blog/${m.en_cat}/${m.en}/`])
@@ -138,7 +125,6 @@ export function enPathFor(esPath) {
   m = esPath.match(/^\/equipo\/([^/]+)\/$/)
   if (m) return `/en/team/${m[1]}/`
   m = esPath.match(/^\/([^/]+)\/$/)
-  if (m && serviceSlugEn[m[1]]) return `/en/${serviceSlugEn[m[1]]}/`
   if (m && barrioSlugEn[m[1]]) return `/en/${barrioSlugEn[m[1]]}/`
   return esPath
 }

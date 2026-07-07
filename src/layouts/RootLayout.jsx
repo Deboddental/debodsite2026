@@ -4,8 +4,6 @@ import { Helmet } from 'react-helmet-async'
 import Navbar from '@/components/Navbar'
 import Hreflang from '@/components/Hreflang'
 import Footer from '@/components/Footer'
-import WhatsAppWidget from '@/components/WhatsAppWidget'
-import MobileActionBar from '@/components/MobileActionBar'
 import ConsentBanner from '@/components/ConsentBanner'
 import LoadingScreen from '@/components/LoadingScreen'
 import { Analytics } from '@vercel/analytics/react'
@@ -64,8 +62,6 @@ export default function RootLayout() {
         <Outlet />
       </main>
       <Footer />
-      <WhatsAppWidget />
-      <MobileActionBar />
       <ConsentBanner />
       <Analytics />
       <SpeedInsights />

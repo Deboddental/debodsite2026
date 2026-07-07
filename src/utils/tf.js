@@ -4,7 +4,7 @@
 // blank. Record resolvers map the route slug (ES on ES routes, EN on /en/ routes)
 // back to the canonical record via the central slug map (src/i18n/slugs.js).
 
-import { serviceSlugEn, treatmentSlugEn, barrioSlugEn, blogSlugEn } from '../i18n/slugs.js'
+import { treatmentSlugEn, barrioSlugEn, blogSlugEn } from '../i18n/slugs.js'
 
 // Merge EN content (authored in src/i18n/content/*.en.js, keyed by ES slug) onto
 // the records as `<field>_en` siblings, so tf() can read them. Called once per
@@ -33,7 +33,6 @@ export function tfArray(record, field, locale) {
 }
 
 const invert = (m) => Object.fromEntries(Object.entries(m).map(([es, en]) => [en, es]))
-const serviceEsBySlugEn = invert(serviceSlugEn)
 const treatmentEsBySlugEn = invert(treatmentSlugEn)
 const barrioEsBySlugEn = invert(barrioSlugEn)
 const blogEsBySlugEn = Object.fromEntries(Object.entries(blogSlugEn).map(([es, m]) => [m.en, es]))
@@ -41,8 +40,6 @@ const blogEsBySlugEn = Object.fromEntries(Object.entries(blogSlugEn).map(([es, m
 // rawSlug is the ES slug on ES routes and the EN slug on /en/ routes.
 const esFrom = (rawSlug, locale, map) => (locale === 'en' ? map[rawSlug] || rawSlug : rawSlug)
 
-export const resolveService = (services, rawSlug, locale) =>
-  services.find((s) => s.slug === esFrom(rawSlug, locale, serviceEsBySlugEn))
 export const resolveTreatment = (treatments, rawSlug, locale) =>
   treatments.find((t) => t.slug === esFrom(rawSlug, locale, treatmentEsBySlugEn))
 export const resolveBarrio = (barrios, rawSlug, locale) =>
