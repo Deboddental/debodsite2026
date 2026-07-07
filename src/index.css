@@ -115,11 +115,14 @@ body::before {
 
 .glass-dark {
   /* Used only by the mobile menu panel, which now scrolls internally over a full
-     page of content (23 treatment links added) — 0.6 alpha let the page behind
-     bleed through and overlap the menu's own text. Raised for reliable contrast. */
-  background: rgba(20, 18, 16, 0.94);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+     page of content (23 treatment links added). A semi-transparent blur here was
+     unreliable across browsers/builds (production's CSS minifier dropped the
+     standard `backdrop-filter` and kept only -webkit-, and even a 94%-opaque
+     background let page text visibly ghost through in real-world testing) — a
+     legibility-critical, full-height overlay isn't worth that risk, so it's a
+     solid, fully opaque background instead of a frosted effect.
+  */
+  background: #1a1a1a;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
