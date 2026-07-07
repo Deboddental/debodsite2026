@@ -32,6 +32,10 @@ const TREATMENT_GROUPS = SERVICES
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  // Mobile "Treatments" accordion: the section itself, plus which single
+  // specialty category (if any) is expanded within it.
+  const [treatmentsOpen, setTreatmentsOpen] = useState(false)
+  const [openCategory, setOpenCategory] = useState(null)
   const navRef = useRef(null)
   const locale = useLocale()
 
@@ -223,17 +227,47 @@ export default function Navbar() {
             </Link>
           ))}
           <div className="h-px bg-white/10" />
-          <p className="text-white/50 text-xs font-jakarta uppercase tracking-widest">{t('nav.treatments', locale)}</p>
-          {TREATMENT_GROUPS.map((g) => (
-            <div key={g.slug}>
-              <p className="text-gold/60 text-[11px] font-jakarta font-semibold uppercase tracking-wider mt-2 mb-1">{serviceLabel(g)}</p>
-              {g.items.map((tItem) => (
-                <Link key={tItem.slug} to={treatmentHref(tItem.slug)} className="block text-white/70 text-sm font-medium hover:text-gold transition-colors py-0.5" onClick={() => setMobileOpen(false)}>
-                  {tf(tItem, 'title', locale)}
-                </Link>
-              ))}
+          {/* Treatments — collapsible accordion (23 links across 7 specialties is too
+              much to dump flat; collapsed by default, then one category at a time). */}
+          <button
+            type="button"
+            onClick={() => setTreatmentsOpen((o) => !o)}
+            aria-expanded={treatmentsOpen}
+            className="w-full flex items-center justify-between text-white/50 text-xs font-jakarta uppercase tracking-widest"
+          >
+            {t('nav.treatments', locale)}
+            <ChevronDown size={14} className={`transition-transform duration-300 ${treatmentsOpen ? 'rotate-180' : ''}`} />
+          </button>
+          <div className={`grid transition-[grid-template-rows] duration-300 ease-out ${treatmentsOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
+            <div className="overflow-hidden min-h-0">
+              <div className="pt-2 space-y-0.5">
+                {TREATMENT_GROUPS.map((g) => (
+                  <div key={g.slug}>
+                    <button
+                      type="button"
+                      onClick={() => setOpenCategory((c) => (c === g.slug ? null : g.slug))}
+                      aria-expanded={openCategory === g.slug}
+                      className="w-full flex items-center justify-between text-gold/70 text-[11px] font-jakarta font-semibold uppercase tracking-wider py-1.5"
+                    >
+                      {serviceLabel(g)}
+                      <ChevronDown size={12} className={`transition-transform duration-300 ${openCategory === g.slug ? 'rotate-180' : ''}`} />
+                    </button>
+                    <div className={`grid transition-[grid-template-rows] duration-300 ease-out ${openCategory === g.slug ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
+                      <div className="overflow-hidden min-h-0">
+                        <div className="pb-1.5">
+                          {g.items.map((tItem) => (
+                            <Link key={tItem.slug} to={treatmentHref(tItem.slug)} className="block text-white/70 text-sm font-medium hover:text-gold transition-colors py-1 pl-2" onClick={() => setMobileOpen(false)}>
+                              {tf(tItem, 'title', locale)}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-          ))}
+          </div>
           <div className="h-px bg-white/10" />
           <p className="text-white/50 text-xs font-jakarta uppercase tracking-widest">{t('nav.tourism', locale)}</p>
           {tourismLandings.map((l) => (
