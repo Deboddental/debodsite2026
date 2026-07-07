@@ -110,7 +110,7 @@ export default function LeadForm({ servicio = 'Consulta General', locale = 'es' 
     setTimeout(() => { window.open(waUrl, '_blank') }, 700)
   }
 
-  const field = 'w-full px-4 py-3.5 rounded-xl bg-white border border-charcoal/12 text-charcoal placeholder-charcoal/35 font-jakarta text-sm focus:outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 transition-all'
+  const field = 'w-full px-4 py-3.5 rounded-xl bg-white border border-charcoal/12 text-charcoal placeholder-white/40 font-jakarta text-sm focus:outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 transition-all'
 
   if (submitted) {
     return (
