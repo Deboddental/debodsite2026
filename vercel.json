@@ -7,7 +7,9 @@
     { "source": "/en/blog/general/deep-dental-cleaning-explained-arguelles-madrid/", "destination": "/en/blog/dental-health/deep-dental-cleaning-explained-arguelles-madrid/", "permanent": true },
     { "source": "/en/blog/general/wisdom-tooth-pain-arguelles-madrid/", "destination": "/en/blog/dental-health/wisdom-tooth-pain-arguelles-madrid/", "permanent": true },
 
+    { "source": "/servicios/", "destination": "/tratamientos/", "permanent": true },
     { "source": "/servicios/:path*", "destination": "/tratamientos/", "permanent": true },
+    { "source": "/en/services/", "destination": "/en/treatments/", "permanent": true },
     { "source": "/en/services/:path*", "destination": "/en/treatments/", "permanent": true },
     { "source": "/dentista-general-arguelles-madrid-espana/", "destination": "/tratamientos/", "permanent": true },
     { "source": "/dentista-cosmetico-arguelles-madrid-espana/", "destination": "/tratamientos/", "permanent": true },
