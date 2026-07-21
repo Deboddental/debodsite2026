@@ -128,7 +128,7 @@ Cree firmemente en que **el mantenimiento periodontal es tan importante como el 
   {
     slug: 'javier-pimienta',
     name: 'Javier Pimienta',
-    title: 'Técnico en Prótesis Dental — Debod Dental Lab',
+    title: 'Director · Técnico en Prótesis Dental',
     colegiadoNum: null,
     photoUrl: '/Images/Equipo/javier-pimienta.webp',
     tags: ['Lab In-House', 'Cerámica Dental', 'CAD/CAM', 'Prótesis Digital'],

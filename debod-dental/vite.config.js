@@ -12,6 +12,7 @@ export default defineConfig({
   },
   server: {
     historyApiFallback: true,
+    allowedHosts: ['71f8916da8b13ef3-2-25-136-223.serveousercontent.com', '9336f0fbc6b875d1-2-25-136-223.serveousercontent.com'],
   },
   build: {
     rollupOptions: {

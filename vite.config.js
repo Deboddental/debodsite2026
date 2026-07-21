@@ -19,6 +19,8 @@ export default defineConfig({
   },
   server: {
     historyApiFallback: true,
+    // Allows temporary review tunnels (localhost.run / Cloudflare) without deploying.
+    allowedHosts: true,
   },
   build: {
     rollupOptions: {

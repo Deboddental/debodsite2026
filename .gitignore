@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 .netlify/
 .vercel
+
+# Sync incoming files
+.incoming/
