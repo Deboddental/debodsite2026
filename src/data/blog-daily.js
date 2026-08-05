@@ -24,6 +24,135 @@
 //   bodyMarkdown: `## Heading\n\nMarkdown content, not HTML.`,
 // }
 export const dailyBlogPosts = [
+  {
+  slug: 'bruxismo-causas-tratamiento-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: 'Bruxismo: causas, síntomas y tratamiento en Madrid',
+  publishDate: '2026-08-05',
+  author: 'Dr. César Rodríguez',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Bruxismo: causas y tratamiento — Debod Dental Clinic Argüelles',
+  metaDescription: 'Bruxismo en Madrid: causas, síntomas y tratamiento. Férula de descarga, ortodoncia o rehabilitación oral. Primera visita diagnóstica incluida. Argüelles.',
+  excerpt: 'Aprietas los dientes sin darte cuenta. O tu pareja escucha ruidos por la noche. Te explicamos qué es el bruxismo, por qué daña tu dentadura y cómo tratarlo.',
+  heroImageUrl: '/Images/blog/webp/bruxismo-estres.webp',
+  faqs: [
+    {
+      question: '¿Cómo sé si tengo bruxismo si ocurre mientras duermo?',
+      answer: 'Hay señales que aparecen de día: dolor en la mandíbula o en las sienes al despertar, cefaleas matutinas, dientes sensibles o con desgaste visible. En consulta, con exploración clínica y escáner intraoral, se puede confirmar el diagnóstico y valorar el grado de afectación. Es normal no saberlo hasta que el dentista detecta el desgaste.'
+    },
+    {
+      question: '¿Duele el bruxismo?',
+      answer: 'Sí, aunque no siempre de forma obvia. El dolor suele ser difuso: mandíbula tensa al levantarte, dolor de cabeza en las sienes, molestias en el cuello o los oídos. Los dientes también pueden volverse sensibles al frío o al calor. Muchos pacientes lo confunden con tensión cervical o migraña durante meses.'
+    },
+    {
+      question: '¿Cuánto cuesta tratar el bruxismo?',
+      answer: 'Depende del tratamiento y el grado de afectación. En la primera visita diagnóstica —incluida en Debod Dental Clinic— te explicamos exactamente qué encontramos y qué opciones hay, con presupuesto claro y sin sorpresas. Ofrecemos financiación hasta 60 meses, con los primeros 12 al 0% de interés y sin entrada.'
+    },
+    {
+      question: '¿Cuánto tarda en mejorar con la férula de descarga?',
+      answer: 'Muchos pacientes notan mejoría en las primeras semanas: menos dolor muscular al despertar, menos cefaleas. La férula protege el esmalte y relaja la musculatura, pero no revierte el desgaste ya producido. Por eso conviene no esperar cuando los síntomas ya están presentes.'
+    },
+    {
+      question: '¿El bruxismo tiene cura definitiva?',
+      answer: 'No siempre, pero sí tratamiento eficaz. En algunos casos, corregir la mordida o resolver una época de estrés intenso reduce el bruxismo de forma muy significativa. En otros, es un hábito crónico que se gestiona con seguimiento. Con el tratamiento adecuado se protege la dentadura por completo y se vive sin dolor.'
+    },
+  ],
+  bodyMarkdown: `## ¿Qué es el bruxismo? — La respuesta directa
+
+El bruxismo es el hábito involuntario de **apretar o rechinar los dientes**, y puede ocurrir tanto de día como mientras duermes. Muchas personas no saben que lo tienen hasta que aparecen las señales: dientes desgastados, dolor de mandíbula al levantarse o ese ruido nocturno que describe la pareja. En Debod Dental Clinic, en Argüelles, Madrid, es uno de los problemas que vemos con más frecuencia en consulta, y también uno de los más infravalorados.
+
+Lo que sorprende a muchos pacientes es la fuerza que se ejerce sin darse cuenta. La mandíbula puede generar durante el sueño una presión muy superior a la de una masticación normal. Y eso, con el tiempo, deja huella.
+
+## ¿Por qué importa esto para tu salud dental?
+
+¿Qué pasa si el bruxismo no se trata? El esmalte dental, que no se regenera, se va desgastando poco a poco. Los dientes se vuelven más cortos, más sensibles y más vulnerables a fracturas. En casos avanzados pueden aparecer movilidad dental o incluso pérdida de piezas.
+
+La articulación temporomandibular (ATM), que es la que une la mandíbula con el cráneo, también sufre. Aparecen chasquidos al abrir la boca, dolor en los oídos o dificultad para masticar. Son síntomas que a menudo se confunden con tensión cervical o migraña, y que se repiten mañana tras mañana sin que nadie los relacione con los dientes.
+
+Las encías tampoco quedan al margen. Una mandíbula en tensión constante puede acelerar problemas periodontales si ya existe tendencia a ellos. Por eso, en consulta siempre valoramos el estado de los tejidos de soporte antes de proponer cualquier tratamiento.
+
+Ahora bien: ¿cómo se sabe exactamente qué está pasando dentro y hasta qué punto ha avanzado el daño? Eso requiere más que un simple vistazo.
+
+## Causas del bruxismo: ¿por qué aprieto los dientes?
+
+Esta es la pregunta que más me hacen en consulta, y la respuesta corta es: casi nunca hay una sola causa. El bruxismo suele ser multifactorial.
+
+El **estrés y la ansiedad** son los factores más documentados. Madrid es una ciudad que no para, y la mandíbula guarda mucha tensión emocional. Pero no todo es estrés.
+
+- Una mordida desajustada (maloclusión) puede hacer que el sistema masticatorio busque una posición más cómoda y genere apretamiento de forma crónica.
+- Ciertos medicamentos, como algunos antidepresivos o estimulantes, están relacionados con el bruxismo nocturno.
+- Los trastornos del sueño —apnea, ronquido— también se asocian con el rechinar durante la noche.
+- El consumo de cafeína o alcohol antes de dormir puede intensificarlo de forma notable.
+
+No hace falta tenerlos todos para tener bruxismo. A veces basta con una temporada de estrés sostenido o un cambio en la mordida que nadie había detectado.
+
+## Tratamientos para el bruxismo: ¿qué opciones hay?
+
+Conviene ser claro: **el bruxismo no tiene cura mágica**. Pero sí tiene tratamiento eficaz. El objetivo es proteger los dientes, aliviar la tensión muscular y, cuando es posible, abordar las causas de raíz.
+
+La férula de descarga es el punto de partida para la mayoría de los casos. Es una placa de resina fabricada a medida que se coloca sobre los dientes para dormir. No elimina el hábito, pero protege el esmalte y relaja la musculatura mandibular. Muchos pacientes notan una diferencia enorme en el dolor matutino en cuestión de semanas.
+
+¿Y si hay maloclusión de por medio? Entonces la férula sola no es suficiente. Una mordida cruzada o una mordida abierta puede mantener el patrón de apretamiento independientemente de cuántas noches uses la placa. En esos casos, la ortodoncia forma parte del tratamiento. Los [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) permiten corregir la mordida de forma progresiva y discreta, sin interferir con el descanso nocturno.
+
+Cuando el bruxismo ya ha generado desgaste visible o fracturas, puede ser necesaria una rehabilitación. Dependiendo del daño, hablamos de [coronas dentales](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) o carillas. Pero siempre —y esto es algo en lo que soy muy estricto— después de controlar el hábito, nunca antes. Restaurar unos dientes sin resolver el bruxismo es como pintar sobre una pared húmeda: no dura.
+
+Las infiltraciones de toxina botulínica en los maseteros (los músculos que cierran la mandíbula) también son una opción válida cuando la tensión muscular es el problema dominante. Reducen la fuerza de apretamiento de forma significativa durante cuatro a seis meses. No es la primera línea de tratamiento, pero en ciertos perfiles funciona muy bien.
+
+## Preguntas frecuentes
+
+### ¿Cómo sé si tengo bruxismo si ocurre mientras duermo?
+
+Hay señales que aparecen de día: **dolor en la mandíbula o en las sienes al despertar**, cefaleas matutinas, sensación de dientes sensibles o más cortos, y ese sonido que a veces describe la pareja. En consulta, con una exploración clínica y un escáner intraoral si hace falta, se puede confirmar el diagnóstico y valorar el grado de afectación. Es normal no saber que lo tienes hasta que el dentista detecta el desgaste.
+
+### ¿Duele el bruxismo?
+
+Sí, aunque no siempre de forma obvia. El dolor suele ser difuso: mandíbula tensa al levantarte, dolor de cabeza en las sienes, molestias en el cuello o los oídos. Los dientes también pueden volverse **sensibles al frío o al calor** de aparición reciente. Muchos pacientes conviven con él pensando que es estrés o tensión cervical, y tardan meses en relacionarlo con los dientes.
+
+### ¿Cuánto cuesta tratar el bruxismo?
+
+Depende del caso y del tratamiento necesario. Una férula a medida fabricada en laboratorio propio tiene un coste muy diferente al de una rehabilitación completa por desgaste severo. Lo que sí es cierto es que en la primera visita diagnóstica —incluida en Debod Dental Clinic— recibirás un presupuesto claro, sin letra pequeña. Si necesitas financiarlo, ofrecemos **hasta 60 meses**, con los primeros 12 al 0% de interés y sin entrada.
+
+### ¿Cuánto tarda en mejorar con la férula de descarga?
+
+Muchos pacientes notan mejora en las primeras semanas: menos dolor muscular al levantarse, menos cefaleas. El desgaste ya producido, sin embargo, no vuelve: el esmalte no se regenera. La férula evita que el daño siga avanzando, pero no revierte lo que ya está hecho. Por eso conviene no dejarlo para más adelante cuando los síntomas ya están presentes.
+
+### ¿Es urgente ir al dentista si creo que tengo bruxismo?
+
+Si ya notas desgaste visible, sensibilidad, dolor de mandíbula frecuente o tu pareja te lo ha comentado, merece la pena no esperar. **El esmalte no vuelve.** Cuanto antes se protege, menos daño acumulado habrá que restaurar después.
+
+### ¿El bruxismo tiene cura definitiva?
+
+No siempre, pero sí tratamiento eficaz a largo plazo. En algunos casos, corregir la mordida o resolver una época de estrés intenso reduce el bruxismo de forma muy significativa. En otros, es un hábito crónico que se gestiona con seguimiento periódico. Con el tratamiento adecuado se protege la dentadura por completo y se vive sin dolor.
+
+## ¿Qué debes saber antes de tu primera visita?
+
+- No hace falta traer nada especial: en la primera consulta se hace una exploración completa con escáner intraoral si es necesario.
+- Cuéntale a tu dentista si has notado dolor matutino, si tu pareja ha escuchado ruidos nocturnos o si tienes épocas de mucho estrés.
+- Si ya tienes una férula antigua o de farmacia, tráela: sirve como referencia para valorar el nivel de desgaste acumulado.
+- Anota los síntomas que tienes y cuándo aparecen, aunque no te parezcan relacionados con los dientes.
+
+Lo más habitual es que el diagnóstico sea claro antes de salir de la consulta. Con el apoyo del escáner intraoral y la valoración oclusal, podemos ofrecerte un plan de tratamiento concreto ese mismo día, sin vueltas innecesarias.
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Hay situaciones donde no conviene esperar:
+
+- **Dolor de mandíbula que no cede** en varios días, especialmente al abrir o cerrar la boca.
+- **Fractura o astillado visible** de un diente que antes estaba en buen estado.
+- **Sensibilidad dental intensa** al frío o al calor, de aparición reciente y sin otra causa aparente.
+- **Bloqueo mandibular**: la boca no abre completamente o cuesta cerrarla.
+
+Si te identificas con alguna de estas señales, llámanos al +34 914 47 62 25 o [pide cita directamente](/contacto/). Atendemos de lunes a viernes, de 9:00 a 20:00.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+El bruxismo requiere diagnóstico preciso, no solo una férula de serie. En nuestra clínica de Argüelles, Madrid, trabajamos con **escáner intraoral y TAC 3D** para analizar el desgaste real, la posición de la articulación temporomandibular y el estado oclusal antes de proponer ningún tratamiento. Las férulas se fabrican en Debod Dental Lab, nuestro laboratorio propio, lo que permite un ajuste mucho más preciso que el de una placa estándar de farmacia.
+
+La primera visita diagnóstica está incluida. Sin compromisos. Si el caso requiere ortodoncia, rehabilitación oral o infiltraciones, tienes todo en el mismo centro y con el mismo equipo. No hace falta ir de un sitio a otro ni repetir pruebas.
+
+¿Tienes dudas o quieres reservar tu primera consulta? Escríbenos a info@deboddentalclinic.com o pásate por C. de Ferraz, 24 — a dos minutos del metro Ventura Rodríguez (L3). Te explicamos todo en persona.`,
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -32,5 +161,122 @@ export const dailyBlogPosts = [
 // metaDescription, excerpt, bodyMarkdown, faqs:[{question,answer}] }.
 // Merged onto the ES record as `<field>_en` via mergeEn() in src/data/blog.js.
 export const dailyBlogEn = {
+  'bruxismo-causas-tratamiento-madrid': {
+  title: 'Bruxism: Causes, Symptoms and Treatment',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Bruxism: Causes & Treatment — Debod Dental Clinic Argüelles',
+  metaDescription: 'Grinding your teeth at night? Learn what causes bruxism, how to spot the signs, and what treatments are available at Debod Dental Clinic, Argüelles, Madrid.',
+  excerpt: 'Clenching or grinding your teeth can cause lasting damage — often without you ever noticing. Here is what bruxism is, why it happens, and what to do about it.',
+  faqs: [
+    {
+      question: "Does bruxism hurt?",
+      answer: "Not always — at least not at first. Many patients only notice jaw stiffness or a dull headache on waking, which they put down to a bad night's sleep. Over time, muscle fatigue becomes more persistent, and as enamel wears away or cracks develop, sensitivity and sharper pain follow. A fractured filling or a crack that extends deeper into the tooth can become acutely painful quite quickly."
+    },
+    {
+      question: "How much does bruxism treatment cost?",
+      answer: "It depends on the severity and on what treatment is actually needed. A custom-fitted night guard is the most common starting point. If there is significant structural damage — teeth that need rebuilding with crowns or other restorations — the cost reflects the scope of that work. At Debod Dental Clinic, pricing is always confirmed after a full diagnostic assessment. We will not give a figure without properly examining the situation first."
+    },
+    {
+      question: "How long does bruxism treatment take?",
+      answer: "A custom night guard can typically be fitted across two appointments once a digital intraoral scan has been taken. If an underlying bite issue needs correcting, the timeline extends accordingly. Cases requiring restorative dentistry are planned individually — some take several months — and your dentist will give you a realistic timeframe at the end of your first visit."
+    },
+    {
+      question: "Is bruxism urgent?",
+      answer: "It is not a dental emergency in the same sense as an abscess or a knocked-out tooth. However, enamel loss is cumulative and irreversible. Every month of unchecked grinding means more permanent structure gone that cannot be recovered. If you are regularly waking up with jaw pain or headaches, or a partner has mentioned grinding sounds, book an assessment rather than waiting to see if it settles."
+    },
+    {
+      question: "Can bruxism be resolved completely?",
+      answer: "In many cases, yes — particularly when the underlying cause is identified and treated. Stress management, bite correction, or addressing a sleep disorder can significantly reduce or eliminate grinding. For some patients it becomes a condition to manage over the long term rather than cure outright, but both symptoms and further damage improve considerably once the right measures are in place."
+    },
+    {
+      question: "How do I know if I have bruxism?",
+      answer: "Common signs include waking with a sore jaw or headache, teeth that look flatter or shorter than they used to, increased sensitivity, and a partner reporting grinding sounds at night. A dentist can confirm it by examining the characteristic wear patterns on the enamel — it is often detected at a routine dental examination before any symptoms are noticed at all."
+    }
+  ],
+  bodyMarkdown: `## What Is Bruxism? — The Direct Answer
+
+Bruxism is the involuntary habit of clenching or grinding your teeth — and at **Debod Dental Clinic in Argüelles, Madrid**, it is one of the most consistently underdiagnosed conditions we encounter. That is largely because the most common form occurs at night, during sleep, where it goes undetected until someone else points it out.
+
+There are two distinct types: sleep bruxism, which happens during the night, and awake bruxism, where the jaw clenches during the day — usually as an unconscious response to stress, concentration, or anxiety. Both are treatable. What surprises many patients, though, is how easy the early signs are to dismiss as something else entirely.
+
+## Why Does This Matter for Your Dental Health?
+
+Think of tooth enamel like the glaze on a ceramic tile. Once it wears away, it does not come back. The forces generated during bruxism can be **two to ten times greater** than those produced by normal chewing — applied for hours, night after night, without the natural rest that waking activity allows.
+
+The consequences go well beyond worn enamel. Patients with untreated bruxism regularly present with cracked or chipped teeth, fractured fillings, heightened sensitivity to temperature, jaw stiffness that radiates up into the temples and down into the neck, and morning headaches that closely resemble tension migraines. Many attribute these symptoms to stress or poor sleep — which is not entirely wrong, but it misses the mechanism.
+
+Is it normal that your jaw aches when you wake up? Common, yes. Normal, no. What actually causes this — and why some people develop it whilst others under the same stress do not — is more nuanced than most people expect.
+
+## What Causes Bruxism?
+
+Bruxism is what clinicians call a multifactorial condition. Several things tend to combine, and there is rarely a single trigger.
+
+**Stress and anxiety** are the most widely recognised drivers. When the nervous system is running at sustained high alert, many people carry that tension in the muscles of the jaw without ever realising it. Over time the pattern becomes habitual — persisting even when the stressor is no longer present.
+
+Sleep disorders, particularly obstructive sleep apnoea, are closely linked to nocturnal grinding. So is caffeine, especially when consumed in the afternoon or evening. Certain medications — some antidepressants and stimulants among them — can also increase bruxism activity as a side effect.
+
+Then there is the bite. A misaligned or irregular bite forces certain muscle groups to work harder than they should, establishing a grinding pattern that can outlast the original cause. This is why, in my experience, a thorough occlusal assessment is always part of evaluating any bruxism case — looking only at the symptoms without examining the bite is like treating a persistent limp without examining the knee.
+
+Genetics appear to play a role as well. If bruxism runs in your family, you are statistically more likely to develop it. Whether any of this is reversible, and how much structural work may already be needed, depends on how early we catch it — which is precisely what a first diagnostic assessment is designed to establish.
+
+## Frequently Asked Questions
+
+### Does bruxism hurt?
+
+Not always — at least not initially. Many patients only notice jaw stiffness or a dull ache on waking, which they put down to poor sleep. Over time, muscle fatigue becomes more consistent, and as enamel wears down or cracks develop, sensitivity and sharper pain follow. A fractured filling or a crack that extends deeper into the tooth can become acutely painful quite quickly — and that is usually when people seek help urgently.
+
+### How much does bruxism treatment cost?
+
+The honest answer is that it depends entirely on the severity and on what treatment is needed. A custom-fitted night guard is typically the first step. If there is significant structural damage — teeth that need rebuilding with [crowns](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) or other restorations — the cost reflects the scope of that work.
+
+At Debod Dental Clinic, pricing is always confirmed after a full diagnostic assessment. We will not give a figure without properly examining the situation first. That is not a policy position — it is simply the only honest way to do it.
+
+### How long does treatment take?
+
+A custom night guard can typically be fitted across two appointments once a digital intraoral scan has been taken. If an underlying bite issue needs correcting, the timeline extends accordingly. Restorative cases are planned individually — some take several months — and your dentist will give you a realistic timeframe at the end of your first visit.
+
+### Is bruxism urgent?
+
+It is not a dental emergency in the way an abscess is. However, enamel loss is cumulative and permanent. Every month of unchecked grinding means more structure gone that cannot be recovered. If you are regularly waking up with jaw pain or headaches, or a partner has mentioned grinding sounds at night, book an assessment rather than waiting to see if it settles on its own.
+
+### Can bruxism be resolved completely?
+
+In many cases, yes — particularly when the underlying cause is identified and treated. Stress management, bite correction, or addressing a sleep disorder can significantly reduce or eliminate grinding altogether. For some patients it becomes a condition to manage long-term rather than cure outright, but both symptoms and further damage improve considerably once the right approach is in place.
+
+### How do I know if I have bruxism?
+
+The most common signs are waking with a sore jaw or headache, teeth that appear flatter or shorter than they used to, increased sensitivity, and a partner reporting grinding sounds during the night. It can also be detected at a [routine dental examination](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) — often before any symptoms are noticed at all — through the characteristic wear patterns left on the enamel surface.
+
+## What Should You Know Before Your First Visit?
+
+- Note whether jaw discomfort is worse on waking or later in the day — this helps distinguish sleep bruxism from daytime clenching.
+- Mention any sleep-related issues, including whether you have been assessed for sleep apnoea or currently use a CPAP device.
+- Bring details of existing dental restorations — crowns, bridges, or fillings — as bruxism places additional stress on these.
+- List any current medications, particularly antidepressants or stimulants, as these can be contributing factors.
+
+At your first appointment, we carry out a full diagnostic assessment before recommending anything. We use intraoral scanning and, where indicated, 3D cone beam imaging to build an accurate picture of the wear, the bite, and the jaw joints. Nothing is proposed until we understand the full situation. There are also specific circumstances where waiting is not the right call at all — and it is worth knowing what those look like.
+
+## When Is It Urgent to See a Dentist?
+
+Some situations should not wait for a routine appointment. Seek prompt attention if you notice:
+
+- A cracked or chipped tooth — what appears minor on the surface can extend far deeper than it looks.
+- Sharp, localised pain when biting down.
+- A filling that has fractured or feels loose.
+- Jaw pain severe enough to affect eating or sleeping.
+- Clicking, catching, or locking of the jaw joint.
+
+These presentations, particularly in the context of a known or suspected grinding habit, indicate that damage has already progressed beyond the early stages and needs assessment without delay.
+
+## Why Choose Debod Dental Clinic?
+
+At Debod Dental Clinic in Argüelles, Madrid, bruxism is not treated with a single off-the-shelf solution. The first diagnostic visit is included — no charge for the initial assessment, and no treatment is recommended until we have a clear and complete picture of what is actually happening.
+
+We have our own in-house facility, **Debod Dental Lab**, which means that custom appliances — night guards, occlusal splints, or restorations needed to rebuild worn tooth structure — are fabricated to precise specifications without the delays of outsourcing. Our digital workflow, including intraoral scanning and 3D cone beam imaging where indicated, allows us to plan with accuracy and show patients exactly what we are working with before anything begins.
+
+Dr. César Rodríguez leads our prosthodontic and occlusal rehabilitation work, holding a Master's in Facial Prosthetics and Occlusion from the Universidad Complutense de Madrid. Bruxism cases involving significant tooth wear and bite dysfunction are precisely the clinical territory his expertise covers.
+
+If you suspect you may be grinding your teeth — or someone has already told you that you are — the sensible first step is a proper assessment. We are at Calle de Ferraz, 24 in Argüelles, open Monday to Friday from 9:00 to 20:00. Financing is available over up to 60 months, with 0 % interest for up to 12 months and no deposit required. [Book your first visit today.](/contacto/)`,
+},
   // ← Agent appends new EN overlays here
 }

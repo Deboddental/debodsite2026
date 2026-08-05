@@ -51,6 +51,7 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'bruxismo-causas-tratamiento-madrid': { es_cat: 'salud-dental', en: 'bruxism-causes-symptoms-and-treatment', en_cat: 'dental-health' },
   'bruxismo-estres-dientes': { es_cat: 'salud-dental', en: 'bruxism-stress-and-teeth-grinding', en_cat: 'dental-health' },
   'aftas-bucales-causas-y-tratamiento': { es_cat: 'salud-dental', en: 'mouth-ulcers-causes-and-treatment', en_cat: 'dental-health' },
   'encias-retraidas-causas-y-tratamientos': { es_cat: 'salud-dental', en: 'receding-gums-causes-and-treatments', en_cat: 'dental-health' },
