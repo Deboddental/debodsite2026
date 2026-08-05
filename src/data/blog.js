@@ -1,7 +1,7 @@
 // ── Blog Posts ───────────────────────────────────────────────
 // Source: site-extraction/pages-markdown/ (files 007–015)
 
-export const blogPosts = [
+const manualBlogPosts = [
   {
     slug: 'bruxismo-estres-dientes',
     category: 'salud-dental',
@@ -1067,8 +1067,14 @@ En **Debod Dental Clinic**, somos especialistas en [ortodoncia invisible](/trata
   },
 ]
 
+// Posts appended by the automated SEO agent (VPS cron) — kept in a separate
+// file so the agent only ever touches blog-daily.js, never this one.
+import { dailyBlogPosts, dailyBlogEn } from './blog-daily.js'
+
+export const blogPosts = [...manualBlogPosts, ...dailyBlogPosts]
+
 export default blogPosts
 
 import { mergeEn } from '../utils/tf.js'
 import { blogEn } from '../i18n/content/blog.en.js'
-mergeEn(blogPosts, blogEn)
+mergeEn(blogPosts, { ...blogEn, ...dailyBlogEn })
