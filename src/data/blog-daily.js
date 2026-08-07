@@ -153,6 +153,228 @@ La primera visita diagnóstica está incluida. Sin compromisos. Si el caso requi
 
 ¿Tienes dudas o quieres reservar tu primera consulta? Escríbenos a info@deboddentalclinic.com o pásate por C. de Ferraz, 24 — a dos minutos del metro Ventura Rodríguez (L3). Te explicamos todo en persona.`,
 },
+  {
+  slug: 'ortodoncia-invisible-dr-victor-guerrero-madrid',
+  category: 'servicios',
+  categoryLabel: 'Servicios',
+  title: 'Dr. Víctor Guerrero: ortodoncia invisible en Madrid',
+  publishDate: '2026-08-07',
+  author: 'Dr. Víctor Guerrero',
+  authorSlug: 'dr-victor-guerrero',
+  metaTitle: 'Ortodoncia invisible en Madrid — Debod Dental Clinic Argüelles',
+  metaDescription: 'El Dr. Víctor Guerrero explica qué casos son aptos para ortodoncia invisible y qué no te cuentan. Diagnóstico incluido en Debod, Argüelles Madrid.',
+  excerpt: 'Llevas tiempo pensando en corregir tu sonrisa pero no sabes si los alineadores son para ti. El Dr. Víctor Guerrero responde con la honestidad de quien trata cientos de casos al año en Madrid.',
+  heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
+  faqs: [
+    {
+      question: '¿Es normal que los alineadores duelan al principio?',
+      answer: 'Sí, es completamente normal. Los primeros días con cada alineador nuevo suele haber una sensación de presión o molestia sorda, especialmente en los primeros cambios. Desaparece en 48-72 horas. Si el dolor es intenso o persiste más de una semana, hay que revisarlo en consulta sin esperar.'
+    },
+    {
+      question: '¿Cuánto tarda un tratamiento con Invisalign en Madrid?',
+      answer: 'Depende de la complejidad del caso. Casos leves con Invisalign Lite pueden resolverse en 6-9 meses. Un tratamiento completo con Invisalign Full suele durar entre 12 y 24 meses. En la primera visita en Debod Dental Clinic, la planificación ClinCheck ya muestra una estimación visual del tiempo previsto antes de comprometerse con nada.'
+    },
+    {
+      question: '¿Cómo sé si necesito ortodoncia invisible o brackets convencionales?',
+      answer: 'Solo una valoración clínica real puede responderlo con honestidad. Los alineadores son preferibles cuando el caso lo permite porque el impacto en la higiene bucal es menor. En casos con movimientos complejos o cuando hay dudas sobre la capacidad de cumplir las 22 horas diarias de uso, los brackets pueden ser más predecibles. En Debod hacemos esa valoración en la primera visita, incluida sin coste.'
+    },
+    {
+      question: '¿Merece la pena la ortodoncia invisible para adultos mayores de 40 años?',
+      answer: 'Sí. No hay edad límite para la ortodoncia cuando hay salud periodontal. El hueso sano responde bien al movimiento dental a cualquier edad, aunque el ritmo puede ser algo más lento que en jóvenes. En nuestra clínica de Argüelles cada vez tratamos más adultos de 40 a 55 años con muy buenos resultados.'
+    },
+    {
+      question: '¿Qué pasa si pierdo un alineador?',
+      answer: 'Hay que avisar a la clínica de inmediato. Dependiendo del punto del tratamiento, se continúa con el siguiente alineador o se fabrica uno de reposición. No dejes pasar tiempo sin alineador: el diente puede recidivar en pocos días si no hay presión activa.'
+    },
+  ],
+  bodyMarkdown: `## La perspectiva del Dr. Víctor Guerrero sobre la ortodoncia invisible en Madrid
+
+Llevo más de quince años tratando maloclusiones en **Debod Dental Clinic**, nuestra clínica boutique de Argüelles, a unos metros del Templo de Debod, y puedo deciros algo con total honestidad: la ortodoncia invisible ha cambiado la forma en que mis pacientes afrontan el tratamiento. No porque sea "la moda del momento". Sino porque cuando se planifica bien, funciona de verdad.
+
+¿Merece la pena la ortodoncia invisible frente a los brackets convencionales? Esa es la pregunta que me hacen casi a diario. Y la respuesta corta es: depende del caso. La respuesta larga es lo que voy a desarrollar aquí.
+
+Cuando alguien llega a mi consulta buscando [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/), lo primero que hago es un diagnóstico real. No un "sí, claro, para ti sirven perfectamente" sin mirar nada. Analizo la mordida, el espacio disponible, la posición de las raíces, el estado de las encías. Porque un alineador mal indicado no es inocuo: puede mover dientes en una dirección incorrecta y crear problemas donde antes no los había.
+
+El sistema que utilizamos principalmente en Debod es Invisalign®, con categoría Diamond Provider —una categoría que Align Technology audita por volumen de casos y resultados verificados—, lo que nos sitúa entre los centros con mayor experiencia en ortodoncia invisible de Madrid.
+
+Ahora bien, hay algo que la mayoría de clínicas no suele explicar en la primera consulta. Algo que cambia completamente cómo debería valorarse este tratamiento. Es lo que voy a contaros en el siguiente apartado.
+
+## Lo que la mayoría de clínicas no te cuenta sobre la ortodoncia invisible
+
+Voy a ser directo, que es como trabajo yo en consulta. La ortodoncia invisible tiene limitaciones reales que muchas veces se omiten por no perder al paciente.
+
+**El cumplimiento del paciente lo es todo.** Los alineadores deben llevarse un mínimo de 22 horas al día. No 18, no 20. Veintidós. Si no se cumplen esas horas, el diente no se mueve según lo planificado y el tratamiento se alarga o, directamente, fracasa. En mi consulta veo casos que vienen de otras clínicas con alineadores "que no funcionaron" y, cuando revisamos el historial, el paciente los llevaba seis o siete horas al día. El alineador no falló. El protocolo no se siguió.
+
+La segunda limitación que se omite con frecuencia: no todos los casos son aptos. Las maloclusiones esqueléticas severas —cuando el problema no está en los dientes, sino en la posición de la mandíbula o el maxilar— requieren cirugía ortognática o combinaciones de tratamiento que los alineadores solos no pueden resolver. Yo siempre evalúo mediante un TAC 3D antes de presentar cualquier plan de tratamiento, precisamente para no generar falsas expectativas.
+
+¿Qué pasa si intentamos mover un diente con alineadores cuando hay enfermedad de encías activa? Que el hueso de soporte ya está comprometido y moverlo acelera la pérdida ósea. Antes de iniciar cualquier ortodoncia, la salud periodontal debe estar resuelta. En Debod revisamos siempre el estado de las encías en la primera visita diagnóstica —incluida sin coste— y, si hace falta, derivamos primero a una [limpieza dental profunda](/tratamientos/limpieza-dental-profunda-arguelles-madrid-espana/) antes de comenzar el movimiento ortodóncico.
+
+Hay un tercer aspecto que marca la diferencia en casos complejos: los attachments. Son pequeños botones de composite que se adhieren a los dientes para guiar movimientos precisos, como rotaciones de premolares o intrusiones de incisivos. Una clínica que presuma de ortodoncia invisible "sin attachments para mayor comodidad" está renunciando a control de movimiento. Para casos muy sencillos puede bastar, pero en la mayoría no.
+
+¿Qué ocurre entonces cuando el caso va más allá de lo estándar? Os lo explico mejor con ejemplos reales de pacientes que hemos tratado en nuestra consulta de Argüelles.
+
+## Nuestra experiencia clínica en Debod Dental Clinic
+
+**Una paciente de 34 años** llegó con apiñamiento moderado en el sector inferior y un diastema frontal de casi 2 mm que le generaba mucha inseguridad. Llevaba años evitando sonreír en fotos. Tras el diagnóstico digital con escáner intraoral, planificamos un tratamiento Invisalign® de 14 meses con attachments en incisivos. Dieciocho meses después del inicio, el resultado se mantiene estable con retenedor fijo lingual y removible nocturno. Volvió a sonreír en su boda.
+
+**Un paciente de 45 años**, ejecutivo con agenda muy ajustada, descartaba la ortodoncia porque "no podía llevar brackets". El factor estético era determinante para él. Lo que no esperaba era que el alineador resolviera también un problema de mordida que le estaba generando desgaste en los incisivos centrales. Doce meses de tratamiento. Sin interrumpir su vida profesional. Sin que nadie en su entorno supiera que llevaba ortodoncia.
+
+**Una adolescente de 16 años** con mordida cruzada posterior unilateral. Aquí combinamos los alineadores con un microimplante de anclaje esquelético cortical —una técnica OBS que aplico habitualmente en casos que requieren control de anclaje preciso— para corregir la posición sin comprometer el crecimiento. Este tipo de combinación no está disponible en todos los centros de Madrid. El resultado, en dieciséis meses, fue completo.
+
+Tres casos, tres perfiles distintos, tres soluciones personalizadas. Pero ¿qué hace posible este nivel de precisión desde la primera consulta? La tecnología que utilizamos en Debod es una parte esencial de la respuesta, y merece que os la explique con detalle.
+
+## Preguntas frecuentes sobre la ortodoncia invisible
+
+### ¿Es normal que los alineadores duelan al principio?
+
+Sí, completamente normal. Los primeros días con cada alineador nuevo suele haber una sensación de presión, especialmente en los primeros cambios. No es dolor agudo: es más como una molestia sorda que desaparece en 48-72 horas. Si el dolor es intenso o persiste más de una semana, hay que revisarlo en consulta sin esperar al control programado.
+
+### ¿Cuánto tarda el tratamiento con Invisalign en Madrid?
+
+Depende de la complejidad. Casos leves con Invisalign Lite pueden resolverse en 6-9 meses. Un tratamiento completo con Invisalign Full oscila habitualmente entre 12 y 24 meses. En la primera visita en Debod, la planificación ClinCheck ya muestra una estimación visual del resultado y el tiempo previsto antes de comprometerse con el tratamiento.
+
+### ¿Cómo sé si necesito ortodoncia invisible o brackets convencionales?
+
+Solo una valoración clínica real puede responderlo. Yo prefiero los alineadores cuando el caso lo permite porque el impacto en la higiene bucal es menor y el paciente lo tolera mejor en el día a día. Pero en casos con movimientos muy complejos, o cuando hay dudas sobre la capacidad de cumplir las 22 horas diarias, los brackets pueden ser más predecibles. La valoración en consulta es el único camino honesto para saberlo.
+
+### ¿Merece la pena la ortodoncia invisible para adultos mayores de 40 años?
+
+Sí, y cada vez trato más pacientes de 40 a 55 años. No hay edad límite para la ortodoncia cuando hay salud periodontal. El hueso sano responde bien al movimiento dental a cualquier edad, aunque el ritmo puede ser algo más lento que en jóvenes. Lo que cambia no es la efectividad, sino el tiempo de respuesta biológica.
+
+### ¿Qué pasa si pierdo un alineador?
+
+Hay que avisar a la clínica de inmediato. Dependiendo del punto del tratamiento, se continúa con el siguiente alineador o se fabrica uno de reposición. No dejes pasar días sin alineador: el diente puede recidivar con sorprendente rapidez si no hay presión activa.
+
+## ¿Qué tecnología usamos en Debod para la ortodoncia invisible?
+
+En Debod Dental Clinic trabajamos con tecnología digital desde el primer momento, y eso marca una diferencia real en la precisión del diagnóstico y del tratamiento.
+
+El proceso empieza con un **escáner intraoral 3D** que sustituye por completo las incómodas impresiones con silicona. Captura la anatomía dental con precisión de décimas de milímetro y permite planificar el tratamiento en pantalla antes de fabricar el primer alineador. El paciente puede ver cómo quedarán sus dientes al final del proceso antes de comprometerse con nada. No hay sorpresas.
+
+Para casos que requieren análisis esquelético, utilizamos el **TAC 3D** de nuestra clínica, que da información tridimensional completa sobre la posición del hueso, la longitud de las raíces y las estructuras adyacentes. Esto es lo que diferencia un diagnóstico real de una valoración superficial basada solo en fotografías y modelos de estudio en escayola.
+
+Nuestro laboratorio propio, **Debod Dental Lab**, trabaja integrado en el flujo digital. Aunque los alineadores de Invisalign® los fabrica Align Technology con sus polímeros patentados, cualquier retoque de composite —attachments, correcciones oclusales al cierre del tratamiento— lo gestionamos en casa, sin subcontratar, con control directo sobre el resultado final.
+
+La financiación no debería ser un freno: en Debod ofrecemos hasta 60 meses de financiación, con 0% de interés hasta 12 meses y sin entrada. El coste exacto depende siempre de la complejidad del caso y se confirma tras la valoración con escáner intraoral y TAC 3D; nunca damos un número antes de ver la boca de verdad.
+
+Si estáis valorando la ortodoncia invisible en Argüelles o en cualquier zona de Madrid, el primer paso es una valoración sin compromiso. Esa primera visita diagnóstica está incluida en Debod. Podéis [pedir cita](/contacto/) directamente o llamarnos al +34 914 47 62 25 de lunes a viernes de 9:00 a 20:00.
+
+La ortodoncia invisible funciona. Pero solo cuando está bien indicada, bien planificada y ejecutada por alguien que lleva más de quince años haciéndolo. Eso es lo que encontraréis en nuestra consulta de Argüelles.`,
+},
+  {
+  slug: 'carillas-porcelana-precio-madrid',
+  category: 'odontologia-estetica',
+  categoryLabel: 'Odontología Estética',
+  title: 'Carillas de Porcelana en Madrid: Precio y Proceso Real',
+  publishDate: '2026-08-07',
+  author: 'Dr. César Rodríguez',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Carillas de Porcelana Madrid: Precio Real — Debod Dental Clinic Argüelles',
+  metaDescription: '¿Cuánto cuestan las carillas de porcelana en Madrid? Rangos orientativos, proceso paso a paso y candidatos ideales. Primera visita diagnóstica incluida en Argüelles.',
+  excerpt: 'Precios reales, candidatos ideales y el proceso completo explicado por el Dr. César Rodríguez. Primera visita diagnóstica gratuita en Debod Dental Clinic, Argüelles, Madrid.',
+  heroImageUrl: '/Images/blog/webp/carillas-vs-coronas.webp',
+  faqs: [
+    {
+      question: '¿Duele el tallado de las carillas de porcelana?',
+      answer: 'No, o muy poco. Se realiza con anestesia local. Lo más molesto suele ser la sensibilidad al frío y al calor durante las semanas con los provisionales puestos, pero se controla bien con el analgésico habitual.'
+    },
+    {
+      question: '¿Cuánto duran las carillas de porcelana?',
+      answer: 'Las de disilicato de litio (e.max) tienen una vida media de 15 a 20 años con buen mantenimiento: hilo dental diario, evitar morder objetos duros y revisiones cada seis meses. Las de porcelana feldespática rondan los 10-15 años.'
+    },
+    {
+      question: '¿Merece la pena poner carillas de porcelana frente a las de composite?',
+      answer: 'Depende del caso. El composite es más económico y no requiere tallado, pero se tiñe con el tiempo y su resultado estético no se acerca al de la porcelana. Para una transformación duradera y de alta calidad, la porcelana es otra liga.'
+    },
+    {
+      question: '¿Qué pasa si no me convence el resultado antes de cementar las definitivas?',
+      answer: 'Tienes dos momentos para pedir ajustes: cuando ves el diseño digital en pantalla y cuando llevas los provisionales en el día a día. Una vez cementadas las definitivas, el tratamiento es irreversible; por eso la fase de diagnóstico y simulación es tan minuciosa.'
+    },
+    {
+      question: '¿Es normal que tenga sensibilidad tras el tallado?',
+      answer: 'Sí, es completamente normal. El esmalte tallado puede notar más los cambios de temperatura mientras llevas las carillas provisionales. Desaparece prácticamente del todo una vez colocadas las definitivas.'
+    },
+    {
+      question: '¿Puedo ponerme carillas si tengo bruxismo?',
+      answer: 'Sí, pero el plan de tratamiento debe incluir obligatoriamente una férula de descarga nocturna. Sin ella, el riesgo de fractura de las carillas aumenta de forma considerable. Es algo que evaluamos siempre en la primera visita.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué incluyen las carillas de porcelana en Debod Dental Clinic?
+
+En **Debod Dental Clinic**, el tratamiento de carillas de porcelana empieza mucho antes de tocar un solo diente. La primera visita diagnóstica está incluida y en ella el Dr. César Rodríguez evalúa el estado de tus encías, tu mordida y la estructura de tu esmalte con escáner intraoral y, si el caso lo requiere, TAC 3D. Solo después de ese análisis diseñamos tu nueva sonrisa —digitalmente, antes de hacer nada irreversible—.
+
+El tratamiento incluye la simulación digital previa (lo que en clínica llamamos wax-up o Diseño Digital de Sonrisa), las carillas confeccionadas en nuestro laboratorio propio Debod Dental Lab, el cementado adhesivo con técnica de alta precisión y las revisiones de seguimiento. Sin sorpresas en el presupuesto. Esa es la base de lo que hacemos.
+
+## ¿Cuánto cuestan las carillas de porcelana en Madrid? — Precios honestos
+
+La pregunta más habitual antes de venir a consulta. Y la respuesta honesta es: depende. No para esconder nada, sino porque el precio real varía según el material, el número de piezas y la complejidad de cada caso concreto.
+
+En el mercado madrileño, una carilla de **disilicato de litio** —el estándar clínico hoy por su equilibrio entre resistencia y naturalidad— suele moverse entre 500 y 900 € por unidad. Las de porcelana feldespática, con una translucidez algo superior y algo más delicadas mecánicamente, entre 350 y 600 €. Un tratamiento completo de diez o doce piezas ronda, según el caso, entre 5.000 y 10.000 €.
+
+Esos rangos son orientativos. El precio exacto lo confirmas en la primera visita diagnóstica, incluida sin coste, donde te entregamos un presupuesto detallado y sin letra pequeña. Para que el dinero no sea un freno, ofrecemos financiación de **hasta 60 meses**, con los primeros 12 al 0% de interés y sin entrada.
+
+Antes de mirar solo el precio hay algo que conviene saber: no todas las bocas están listas para recibir carillas desde el primer día. Lo explico a continuación.
+
+## ¿Cómo saber si soy candidato ideal?
+
+Las carillas de porcelana son una solución muy versátil. En mi consulta las indico habitualmente para manchas intrínsecas que no responden al blanqueamiento —como las que deja la tetraciclina o la fluorosis—, para cerrar diastemas, corregir pequeñas malposiciones que no justifican ortodoncia, o restaurar dientes con desgaste o fracturas del esmalte. También son una opción cuando hay alteraciones de forma o tamaño, como dientes cónicos o con microdoncia.
+
+Pero hay situaciones en las que no conviene empezar. Si tienes **encías inflamadas o que sangran**, hay que tratarlas antes. Una carilla sobre una encía enferma es como pintar una pared con humedad: el resultado no dura. Del mismo modo, si hay caries activas o una mordida muy alterada, eso va primero. No es algo que en esta clínica saltemos.
+
+¿Tienes bruxismo —aprietas o rechinas los dientes—? No es una contraindicación absoluta, pero el plan debe incluir una férula de descarga nocturna. Sin ella, el riesgo de fractura se multiplica.
+
+Una cosa más que digo con frecuencia en consulta: las carillas no tienen que verse artificiales. Si alguien te ha enseñado una foto de dientes perfectamente blancos, cuadrados y uniformes como referencia, eso no es lo que hacemos aquí. Una sonrisa natural conserva textura, ligeras diferencias de tono y la morfología propia de cada persona. Que se note calidad, no que se note que llevas carillas.
+
+El proceso tiene un paso que a mucha gente le sorprende —y que marca la diferencia entre un resultado que simplemente gusta y uno que aguanta veinte años.
+
+## El proceso paso a paso en Debod
+
+Desde que coges cita hasta que tienes la sonrisa definitiva, esto es lo que ocurre:
+
+**Primera visita — diagnóstico completo:** Escáner intraoral, revisión periodontal y estudio de la mordida. Sin coste. Si todo está en orden, diseñamos la sonrisa digitalmente y tú la ves antes de que tallemos nada.
+
+**Segunda visita — tallado y provisionales:** Se retira una capa mínima de esmalte, entre 0,3 y 0,5 mm. Menos que una hoja de papel. Después se colocan carillas provisionales que llevarás dos o tres semanas. Este paso, que mucha gente subestima, es el que más información nos da: te permite probar tu nueva sonrisa en el día a día y darnos tu opinión antes de fabricar las definitivas.
+
+**En Debod Dental Lab:** Fabricamos las carillas en nuestro propio laboratorio digital, integrado en la clínica. Eso nos da control total sobre materiales y acabados, y nos permite tiempos más ágiles que si enviásemos el trabajo fuera. Lo que ves en la simulación es lo que llega del laboratorio.
+
+**Cementado definitivo:** Se adhieren con cemento de resina de alta precisión, con protocolo de grabado ácido y silanización para maximizar la adhesión. A partir de aquí, revisiones periódicas cada seis meses.
+
+¿Cuánto tarda todo el proceso? Entre tres y cinco semanas desde la primera visita, dependiendo de la complejidad del caso. Ahora, las preguntas que aparecen casi siempre justo antes de coger cita.
+
+## Preguntas que siempre nos hacen antes de pedir cita
+
+### ¿Duele el tallado de las carillas?
+
+No, o muy poco. Se hace con anestesia local y lo que más molesta después son las encías, que pueden estar algo sensibles un par de días. Los dientes también pueden notar más el frío o el calor mientras llevas los provisionales. Nada que no se controle con el analgésico de siempre.
+
+### ¿Cuánto duran las carillas de porcelana?
+
+Las de disilicato de litio tienen una vida media de 15 a 20 años con buen mantenimiento: hilo dental diario, evitar morder objetos duros y venir a revisión cada seis meses. Las de porcelana feldespática, entre 10 y 15 años. El mantenimiento marca más la diferencia que el material.
+
+### ¿Merece la pena frente a las carillas de composite?
+
+Depende del caso. El composite es más económico y no requiere tallado, pero se tiñe con el café y el vino, y su resultado estético no se acerca al de la porcelana. Para cambios de color leves en pacientes jóvenes puede ser una primera opción válida. Para una transformación duradera y de alta calidad estética, la porcelana es otra liga.
+
+### ¿Qué pasa si el resultado no me convence?
+
+Por eso existe la simulación digital y los provisionales. Antes de cementar las definitivas tienes dos momentos para pedir ajustes: cuando ves el diseño en pantalla y cuando llevas los provisionales en el día a día. Una vez cementadas, el tratamiento es irreversible —de ahí que trabajemos tanto la fase de diagnóstico—.
+
+### ¿Es normal que tenga sensibilidad tras el tallado?
+
+Completamente normal. El esmalte tallado puede notar más los cambios de temperatura mientras llevas las provisionales. Desaparece prácticamente del todo cuando se colocan las carillas definitivas.
+
+## ¿Por qué elegir Debod Dental Clinic en Argüelles?
+
+Hay muchas clínicas en Madrid que ofrecen carillas. Lo que diferencia a Debod no es el precio más bajo —no somos una clínica de cadena—, sino el control sobre cada fase del proceso y la especialización real del equipo.
+
+El **Dr. César Rodríguez** tiene el Máster en Prótesis Facial y Oclusión por la Universidad Complutense de Madrid y es docente universitario. Lleva años formando a otros dentistas en técnicas de cerámica adhesiva. En consulta se trabaja con escáner intraoral y planificación digital desde el primer día, y las carillas se fabrican en Debod Dental Lab, nuestro laboratorio propio integrado. Ningún trabajo sale a terceros.
+
+Si quieres ver todos los detalles del tratamiento, en la página de [carillas de porcelana](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) lo tienes explicado. Y si crees que tu caso puede necesitar algo más antes de la estética —como una rehabilitación más completa—, echa un vistazo a [todos los tratamientos disponibles](/tratamientos/).
+
+Estamos en la C. de Ferraz, 24, en Argüelles, a tres minutos del metro Ventura Rodríguez (Línea 3) y cerca de Plaza de España. Atendemos de lunes a viernes de 9:00 a 20:00. Puedes escribirnos a info@deboddentalclinic.com o llamarnos al +34 914 47 62 25.
+
+[Pide cita y empieza por el diagnóstico.](/contacto/) Es gratuito, no compromete a nada y es el único punto de partida honesto para saber si las carillas son para ti —o si antes hay algo que conviene resolver—.`,
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -277,6 +499,216 @@ We have our own in-house facility, **Debod Dental Lab**, which means that custom
 Dr. César Rodríguez leads our prosthodontic and occlusal rehabilitation work, holding a Master's in Facial Prosthetics and Occlusion from the Universidad Complutense de Madrid. Bruxism cases involving significant tooth wear and bite dysfunction are precisely the clinical territory his expertise covers.
 
 If you suspect you may be grinding your teeth — or someone has already told you that you are — the sensible first step is a proper assessment. We are at Calle de Ferraz, 24 in Argüelles, open Monday to Friday from 9:00 to 20:00. Financing is available over up to 60 months, with 0 % interest for up to 12 months and no deposit required. [Book your first visit today.](/contacto/)`,
+},
+  'ortodoncia-invisible-dr-victor-guerrero-madrid': {
+  title: 'Dr. Víctor Guerrero: Invisible Orthodontics in Madrid',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Invisible Orthodontics Madrid — Debod Dental Clinic Argüelles',
+  metaDescription: 'Invisible orthodontics in Madrid with Dr. Víctor Guerrero at Debod Dental Clinic, Argüelles — honest answers on aligners, timelines, and candidacy.',
+  excerpt: 'Dr. Víctor Guerrero at Debod Dental Clinic in Argüelles shares 15+ years of Invisalign® experience — who clear aligners really suit, honest timelines, and what most clinics leave unsaid.',
+  faqs: [
+    {
+      question: 'Does invisible orthodontics hurt?',
+      answer: 'Discomfort is normal at each aligner change — most patients describe a feeling of pressure for the first 24 to 48 hours. It is considerably milder than wire tightening with fixed braces, and paracetamol or ibuprofen handles it comfortably when needed.'
+    },
+    {
+      question: 'How long does invisible orthodontic treatment take?',
+      answer: 'Mild cases can often be resolved in six to ten months. Moderate cases typically run 12 to 18 months. Complex cases combining aligners with skeletal anchorage may take 18 to 24 months. The ClinCheck simulation shown at the first visit sets a realistic target timeline based on your specific case.'
+    },
+    {
+      question: 'What happens if I do not wear my aligners enough?',
+      answer: 'Treatment slows or stalls entirely. Aligners only move teeth through sustained, consistent pressure — a minimum of 22 hours per day. If your teeth fall behind where the tray expects them to be, the next aligner will not seat correctly and movement stops. We monitor this at every review visit.'
+    },
+    {
+      question: 'Can clear aligners correct my bite, or only straighten my teeth?',
+      answer: 'Both are possible in many cases. Crowding, spacing, rotations, crossbites, deep bites, and open bites can all be addressed with aligners — sometimes with the help of attachments or mini-screws. True skeletal jaw discrepancies require a different approach, which is why a full diagnostic assessment is always the starting point.'
+    },
+    {
+      question: 'Is the result from invisible orthodontics permanent?',
+      answer: 'No orthodontic result is permanent without retention. At Debod we fit a fixed lingual retainer and a removable night-time retainer once active treatment is complete. Worn consistently, the result holds long-term. We are straightforward about this requirement from the very first appointment.'
+    },
+    {
+      question: 'How do I know if I am a good candidate for invisible orthodontics?',
+      answer: 'The only reliable answer comes from a proper assessment — intraoral scan, clinical examination, and where needed, a 3D CT. Aligners suit mild to moderate crowding, spacing, and many bite issues well. Very low patient compliance or severe skeletal discrepancies tend to need a different approach. Your first diagnostic visit at Debod is included at no charge.'
+    }
+  ],
+  bodyMarkdown: `## Dr. Víctor Guerrero's Perspective on Invisible Orthodontics
+
+At Debod Dental Clinic in Argüelles, Madrid, one of the questions I hear most often in a first consultation is: "Is invisible orthodontics actually going to work for me?" It is a fair question — and one I am genuinely glad patients ask before committing to anything. After more than 15 years working in orthodontics and dentofacial orthopaedics, and having treated hundreds of cases with Invisalign® and other clear aligner systems, my honest answer is always the same: it depends on what we find when we look properly.
+
+Clear aligners have changed the way we practise orthodontics. Not just aesthetically — though patients genuinely appreciate not spending 18 months with a mouth full of metal brackets — but clinically. The precision of digital planning today allows me to simulate the entire sequence of tooth movements before a single aligner is manufactured. What you see on screen at the start is what we are working towards. That kind of transparency sits at the heart of how we practice at Debod.
+
+**Not every crowding problem, however, can be solved with aligners alone.** Some cases need a more sophisticated approach — and what we can achieve when aligners are combined with skeletal anchorage techniques goes well beyond what was possible even a decade ago. I will come back to exactly what that looks like in practice when we reach the clinical cases section below.
+
+## What Most Clinics Do Not Tell You About Invisible Orthodontics
+
+There is a version of invisible orthodontics that gets marketed like a lifestyle product. Smooth animations, aspirational before-and-after photos, promises of a new smile in six months. Some of that is real — for the right cases. What tends to get left out, though, is the honest conversation about three things: compliance, biology, and case selection.
+
+Aligners only work if worn for **at least 22 hours per day.** This is not a guideline — it is biology. Teeth move in response to sustained, consistent pressure. Remove the aligner for four hours a day and the treatment slows, sometimes to a near-standstill. I have seen cases planned for 14 months stretch to nearly two years because of irregular wear. That is not a failure of the technology. It is a failure of expectation-setting, which falls on the clinician.
+
+The other thing rarely mentioned: some tooth movements are genuinely difficult with aligners alone. Pulling a tooth downward (extrusion), rotating certain premolars, managing complex bite discrepancies — these require small composite attachments bonded to the teeth, and in some cases, auxiliary mechanics or skeletal anchorage devices. None of this is a problem when planned from the start, but it changes the conversation considerably. The technology behind planning all of this has evolved enormously — and it is worth understanding what we actually use at Debod, which we will get to shortly.
+
+One more point that matters for anyone with pre-existing gum concerns. Aligners are generally gentler on the gums than fixed braces. A 2024 European Journal of Orthodontics study found a **62% reduction in plaque indices** during aligner treatment compared to fixed appliances. That said, gum health must be fully established before treatment begins. We do not start orthodontic cases on inflamed or compromised periodontium. Full stop.
+
+## Our Clinical Experience
+
+Here are three anonymised cases that illustrate what invisible orthodontics can — and cannot — do.
+
+A patient in her early 40s came to us after being told elsewhere that she would need fixed braces because of a mild open bite she had had since childhood. After a full digital assessment — intraoral scan, 3D cone beam CT, and ClinCheck simulation — we planned treatment using Invisalign® Comprehensive with posterior attachments and **cortical mini-screws for skeletal anchorage** to close the bite without surgery. Eighteen months later, the open bite was fully resolved and the crowding corrected. Her compliance was excellent throughout, and that made every difference.
+
+A second case: a man in his mid-30s who travelled frequently for work. Fixed braces were not compatible with his professional life — the discomfort, dietary restrictions, and aesthetic impact in client meetings were genuine barriers. We treated him with Invisalign®, with remote monitoring between in-person visits at our Argüelles practice. Treatment took 16 months. He described it as one of the most straightforward health decisions he had made in years. That is not unusual — removable orthodontics integrates into adult life in a way that fixed appliances simply cannot.
+
+A third case worth mentioning: a teenager referred to us by a paediatric dentist. She had significant upper arch crowding, but her jaw was still growing — which opened up options not available to an adult. We combined a palatal expansion phase with [Invisalign® Teen clear aligners](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) to guide development. The interceptive approach meant avoiding extractions that would almost certainly have been required had she waited. If you are wondering whether your child might benefit from an orthodontic assessment, the short answer is: earlier is nearly always better than later.
+
+## Frequently Asked Questions About Invisible Orthodontics
+
+**Does invisible orthodontics hurt?**
+
+Discomfort, yes. Genuine pain, rarely. At each aligner change — typically every one to two weeks — most patients describe a feeling of pressure for the first 24 to 48 hours. Think of it as similar to the sensation after a demanding workout: you are aware something has happened, and then it fades. Paracetamol or ibuprofen handles it comfortably for those who find it bothersome. This is considerably milder than what patients typically describe after wire tightening on fixed braces.
+
+**How long does treatment take?**
+
+It varies — and that is the honest answer. Mild cases (minor crowding, small spacing gaps) can often be corrected in six to ten months. Moderate cases typically run 12 to 18 months. Complex cases, particularly those combining aligners with skeletal anchorage mechanics, may take 18 to 24 months. What we show you in the ClinCheck simulation at the outset is our target, based on the biology of your specific teeth and bone. We set clear expectations from day one, not optimistic ones.
+
+**What happens if I do not wear my aligners enough?**
+
+Treatment slows, or in some cases stalls entirely. If there is a significant gap between where your teeth are and where the aligner expects them to be, the tray will not seat correctly — and movement stops. We monitor this at every review visit and would always rather have a frank conversation early than discover a compliance problem six months in.
+
+**Can aligners fix my bite, or only the aesthetics?**
+
+Both, in many cases. Crowding, spacing, rotations, crossbites, deep bites, and open bites can all be addressed. What aligners cannot do is correct a true skeletal jaw discrepancy — a structural difference in the jaw bones themselves. That requires either orthodontic compensation, orthopaedic treatment during growth, or orthognathic surgery in adults. One of the first things I establish at a diagnostic assessment is which category your case belongs to, because getting that wrong wastes everyone's time and money.
+
+**Is the result permanent?**
+
+No orthodontic result — with any system — is permanent without retention. Teeth have a positional memory and will drift back if unsupported. At Debod, once active treatment is complete, we fit a fixed lingual retainer (a fine wire bonded to the inside surface of the teeth, invisible from outside) and provide a removable night-time retainer. Worn consistently, the result is stable long-term. We are transparent about this from the very first visit, not at the end.
+
+**How do I know if I am a good candidate?**
+
+The only reliable answer comes from a proper assessment — not from a website, not from a photo taken on your phone. A clinical examination, intraoral scan, and where appropriate a 3D CT give us the full picture. Is it normal to be unsure whether aligners apply to your case? Absolutely. That uncertainty is exactly what a diagnostic visit is for. Yours at Debod is included, with no obligation.
+
+## What Technology Do We Use at Debod for Invisible Orthodontics?
+
+Digital planning is at the heart of how we treat orthodontic cases at Debod Dental Clinic. Here is what that looks like in practice.
+
+Every patient starts with an **intraoral 3D scan** — no impression trays, no gagging, no mess. The scanner maps the precise geometry of your teeth and bite in minutes, with an accuracy under 0.1 mm. From that data, we build the ClinCheck simulation: a virtual model of your treatment, tooth movement by tooth movement, from start to finish. You see the projected outcome before we order a single aligner. There are no surprises mid-treatment about the direction the teeth are heading — you approve the plan at the beginning.
+
+Where there are bite discrepancies, root positioning concerns, or the possibility of skeletal anchorage, we add a **CBCT (Cone Beam CT) 3D scan** — a low-dose X-ray that shows bone structure, root lengths, and anatomical detail a standard scan cannot capture. This is how we plan confidently rather than optimistically. It is also how we avoid the situations where a case gets started, then stalls because something was missed in the initial workup.
+
+Our in-house digital laboratory, **Debod Dental Lab**, handles the restorative and retentive elements of orthodontic care with the same precision applied to the treatment planning itself. Custom retainers, composite attachments, any complementary restorative work — all produced in-house, which keeps quality control entirely within our hands and means there is no disconnect between your orthodontic and restorative care.
+
+If you are considering invisible orthodontics in Madrid and would like a thorough, honest assessment — or if you already have a ClinCheck plan from another clinic and want a second opinion before committing — we are happy to review everything at your first diagnostic visit. You can also explore [all treatments available at Debod](/tratamientos/) if you have other dental questions beyond orthodontics. Find us at C. de Ferraz, 24, Argüelles, Madrid, a short walk from Ventura Rodríguez, Plaza de España, and Argüelles metro stations. We are open Monday to Friday, 9:00 to 20:00. Financing is available up to 60 months, with 0% interest for the first 12. [Book your first visit here](/contacto/) — the diagnostic consultation is included.`
+},
+  'carillas-porcelana-precio-madrid': {
+  title: 'Porcelain Veneers in Madrid: Honest Pricing & What to Expect',
+  categoryLabel: 'Cosmetic Dentistry',
+  metaTitle: 'Porcelain Veneers Price Madrid — Debod Dental Clinic Argüelles',
+  metaDescription: 'Honest prices for porcelain veneers in Madrid. At Debod Dental Clinic, Argüelles, your diagnostic visit is included. Financing from 0%. Book today.',
+  excerpt: 'Wondering what porcelain veneers really cost in Madrid? Dr. César Rodríguez at Debod Dental Clinic gives you honest prices, candidacy criteria, and the step-by-step process.',
+  faqs: [
+    {
+      question: 'Does getting porcelain veneers hurt?',
+      answer: 'The preparation is done under local anaesthetic, so you will not feel anything during the procedure. Some patients notice mild temperature sensitivity while wearing their provisional veneers — this settles on its own within a few days. By the time the final veneers are bonded in place, most patients report no discomfort at all.'
+    },
+    {
+      question: 'How long do porcelain veneers last?',
+      answer: 'Lithium disilicate (e.max) veneers typically last 15 to 20 years when properly placed and maintained. Feldspar ceramic veneers sit closer to 10 to 15 years. Actual longevity depends on your bite, your habits, and whether you keep up with your six-monthly check-ups and professional cleanings.'
+    },
+    {
+      question: 'What is the difference between a veneer and a dental crown?',
+      answer: 'A veneer covers only the visible front surface of the tooth, leaving most of the natural structure intact. A crown encases the entire tooth and requires significantly more preparation of the tooth structure. For purely aesthetic concerns on otherwise healthy teeth, a veneer is almost always the more conservative and preferable option.'
+    },
+    {
+      question: 'Can porcelain veneers stain or change colour over time?',
+      answer: 'Porcelain is considerably more stain-resistant than composite or natural enamel. Coffee, red wine, and tea will not penetrate a well-glazed ceramic surface. The bond line at the gum margin can accumulate some discolouration over many years — which is another reason why regular professional cleanings matter.'
+    },
+    {
+      question: 'How much do porcelain veneers cost in Madrid?',
+      answer: 'As a general guide, porcelain veneers in Madrid range from 350 to 600 € per unit for feldspar ceramic and from 500 to 900 € per unit for lithium disilicate (e.max). A full smile treatment of 10 to 12 veneers typically falls between 5,000 and 10,000 €. The exact price is confirmed after your first diagnostic visit, which is included at no cost at Debod Dental Clinic.'
+    }
+  ],
+  bodyMarkdown: `## What Does Porcelain Veneer Treatment Include at Debod Dental Clinic?
+
+At **Debod Dental Clinic** in Argüelles, a porcelain veneer treatment is not simply a cosmetic procedure — it is a complete process designed around your smile, your bite, and your dental health. From the first diagnostic visit (included at no cost) through to the final fitting, every step is led by Dr. César Rodríguez, our specialist in Prosthodontics and Oral Rehabilitation, supported by our in-house digital laboratory, Debod Dental Lab.
+
+What does that mean in practice? It means the ceramic restorations crafted for your teeth are made on-site, with direct communication between the ceramist and the clinician who places them. No outsourced lab. No surprises in colour or shape when the veneers arrive.
+
+The treatment includes a digital intraoral scan, a diagnostic wax-up — a simulation of your future smile that you review and approve before any enamel is touched — provisional veneers during the fabrication period, and the final adhesive cementation. There is one thing about that wax-up process, and why it matters so much more than most patients realise, that I will come back to in the step-by-step section below.
+
+## How Much Do Porcelain Veneers Cost in Madrid? — Honest Pricing
+
+This is the question I get asked most often. And the honest answer is: it depends on the case. But here is what the data looks like.
+
+As a general orientation, **porcelain veneers in Madrid** typically range between 350 and 600 € per unit for feldspar ceramic, and between 500 and 900 € per unit for lithium disilicate (e.max) — the material we most commonly recommend at Debod for its balance between strength and natural translucency. A full smile treatment involving 10 to 12 veneers generally falls in the 5,000–10,000 € range, depending on case complexity, material chosen, and any preparatory treatment that may be needed first.
+
+There is also the question of which material suits your specific situation — and it affects both the final look and how long the veneers last. I will come back to this in the step-by-step section, where the difference becomes much clearer in context.
+
+What we will never do at Debod is give you a fixed price without having examined your teeth first. The exact figure is confirmed after your first diagnostic visit — included at no cost — with digital intraoral scanning and 3D imaging where clinically indicated. That visit is not a sales presentation. It is an honest clinical assessment.
+
+If the investment feels significant, our **financing options** allow you to spread the cost up to 60 months, with 0% interest for the first 12 months and no deposit required.
+
+One thing worth saying directly: if the only change you want is the shade of your teeth, whitening costs roughly ten times less and is completely reversible. I always explore that option first. If whitening alone will give you the result you are looking for, I will tell you — and save you the cost of veneers you do not need.
+
+## How Do I Know If I Am a Good Candidate?
+
+Porcelain veneers are an excellent option for the right patient. But not every patient is the right patient, and at Debod we are honest about that.
+
+You are likely a good candidate if you have intrinsic staining that does not respond to whitening (from tetracycline or fluorosis, for instance), small gaps between teeth, minor chips or surface wear, or shape irregularities such as unusually small or conical teeth. Veneers can address all of these with minimal tooth preparation.
+
+There are situations, however, where we would ask you to wait — or to address something first.
+
+**Veneers cannot be placed on teeth with active decay, inflamed gums, or an uncorrected bite problem.** Your gums need to be a healthy, firm coral-pink before we consider touching the enamel. Inflammation is a clinical signal that the foundation is not ready. And if your bite is placing uneven pressure on your front teeth, veneers placed without addressing that will be under mechanical stress from day one.
+
+Patients who grind their teeth at night — bruxism — are not automatically excluded, but a night guard is a non-negotiable part of the treatment plan. Bruxism is the single leading cause of veneer failure, and we will not place restorations without protecting them.
+
+One more thing I always say in consultation: healthy teeth have texture, translucency, and natural variation. If you show me a photo of a smile that looks like a row of identical white rectangles and ask me to reproduce it, I will suggest something that looks like your teeth — only better. Not a set of tiles.
+
+## The Process Step by Step at Debod
+
+The first visit is diagnostic. We take an intraoral scan, review your bite, assess your gum health, and discuss what you want to achieve. You leave with a clear, honest picture of what is and is not possible.
+
+If everything is healthy and we agree to proceed, the next session focuses on design. This is where the wax-up I mentioned earlier becomes so significant. At Debod Dental Lab, we create a digital simulation of your future smile — shape, length, shade — and you review it before a single tooth is prepared. You are effectively approving the finished result before the treatment becomes irreversible. If the edges could be slightly longer, the shade a touch warmer, the shape less square — adjustments happen here, at no extra cost.
+
+Then comes preparation. For most patients this means a conservative reduction of the outer enamel — typically **0.3 to 0.5 mm**. In some cases, depending on the starting position of the tooth, no preparation is needed at all. We take a new digital scan, and provisional veneers are placed while Debod Dental Lab fabricates the final restorations.
+
+This is also where the material choice I mentioned in the pricing section becomes concrete. Lithium disilicate (e.max) is our default recommendation: it offers superior strength — 360 to 400 MPa — alongside genuine translucency that mimics natural enamel. Feldspar ceramic can be marginally more natural-looking in very thin applications, but requires more careful handling day to day. The right choice depends on your individual bite, habits, and starting tooth position, and is decided together at your consultation.
+
+Two to three weeks later, the veneers return. We verify colour, fit, and bite carefully before bonding them with photopolymerisable resin cement. The whole process, from first visit to final fitting, typically takes **three to five weeks**.
+
+You might be wondering what happens if something does not fit perfectly when the final veneers arrive — a colour that reads differently under natural light, or a contact point that needs refining. Because Debod Dental Lab is in-house, adjustments happen the same day. Not after another two-week external lab cycle.
+
+## Questions We Always Get Before Patients Book Their Appointment
+
+### Does getting porcelain veneers hurt?
+
+The preparation is done under local anaesthetic, so you will not feel anything during the procedure. Some patients notice mild temperature sensitivity while wearing their provisional veneers — this settles on its own within a few days. By the time the final veneers are bonded in place, most patients report no discomfort at all.
+
+### How long do porcelain veneers last?
+
+Properly placed and maintained, **lithium disilicate veneers last 15 to 20 years on average**. Feldspar ceramic sits closer to 10 to 15 years. These figures come from peer-reviewed research, not marketing materials. Actual longevity depends on your bite, your habits, and whether you keep up with your six-monthly check-ups — which include a [professional dental cleaning](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) to maintain the gum margin around each restoration.
+
+### What is the difference between a veneer and a dental crown?
+
+A veneer covers only the visible front surface of the tooth, leaving most of the natural structure intact. A [dental crown](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) encases the entire tooth and requires significantly more preparation of the tooth structure. For purely aesthetic concerns on otherwise healthy teeth, a veneer is almost always the more conservative and preferable option.
+
+### Can porcelain veneers stain or change colour over time?
+
+Porcelain is considerably more stain-resistant than composite or natural tooth enamel. Coffee, red wine, and tea will not penetrate a well-glazed ceramic surface. The bond line at the gum margin can accumulate some discolouration over many years — which is another reason why regular professional cleaning matters.
+
+### Is it worth getting veneers if I already have crowns or other restorations on adjacent teeth?
+
+Yes, in most cases. The challenge is matching shades across different restorative materials. This is where having our in-house Debod Dental Lab is a genuine clinical advantage: the ceramist calibrates the veneer colour directly against the adjacent restoration, not from a shade guide alone.
+
+## Why Choose Debod Dental Clinic in Argüelles?
+
+**Debod Dental Lab is in-house.** The ceramist who fabricates your veneers works in the same building as the clinician who designs and places them. Communication is direct. Adjustments happen in real time, not across a two-week external lab turnaround.
+
+The diagnostic visit is included at no cost. You come in, we assess your case thoroughly with digital scanning and 3D imaging, and you leave with honest clinical information. No obligation. No pressure.
+
+Dr. César Rodríguez holds a Master's degree in Facial Prosthetics and Occlusion from the Universidad Complutense de Madrid and continues to teach there. Porcelain veneers sit at the intersection of aesthetics and occlusion — both are his speciality. The clinic was recognised with the **WhiteSmile Prize in 2023**.
+
+We are located at C. de Ferraz, 24, Argüelles, 28008 Madrid — a few minutes' walk from Ventura Rodríguez (Line 3), Plaza de España, and Argüelles metro stations. Open Monday to Friday, 9:00 to 20:00. International patients are seen in English.
+
+If you are ready to take the first step, [book your diagnostic visit](/contacto/) today. No commitment. Just a clear, honest conversation about what your smile could look like.`
 },
   // ← Agent appends new EN overlays here
 }

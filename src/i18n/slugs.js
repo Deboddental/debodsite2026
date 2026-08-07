@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'carillas-porcelana-precio-madrid': { es_cat: 'odontologia-estetica', en: 'porcelain-veneers-price-madrid', en_cat: 'cosmetic-dentistry' },
+  'ortodoncia-invisible-dr-victor-guerrero-madrid': { es_cat: 'servicios', en: 'dr-victor-guerrero-invisible-orthodontics-madrid', en_cat: 'services' },
   'bruxismo-causas-tratamiento-madrid': { es_cat: 'salud-dental', en: 'bruxism-causes-symptoms-and-treatment', en_cat: 'dental-health' },
   'bruxismo-estres-dientes': { es_cat: 'salud-dental', en: 'bruxism-stress-and-teeth-grinding', en_cat: 'dental-health' },
   'aftas-bucales-causas-y-tratamiento': { es_cat: 'salud-dental', en: 'mouth-ulcers-causes-and-treatment', en_cat: 'dental-health' },
