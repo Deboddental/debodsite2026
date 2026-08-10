@@ -375,6 +375,243 @@ Estamos en la C. de Ferraz, 24, en Argüelles, a tres minutos del metro Ventura 
 
 [Pide cita y empieza por el diagnóstico.](/contacto/) Es gratuito, no compromete a nada y es el único punto de partida honesto para saber si las carillas son para ti —o si antes hay algo que conviene resolver—.`,
 },
+  {
+  slug: 'mejor-clinica-dental-arguelles-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: 'Mejor clínica dental en Argüelles, Madrid',
+  publishDate: '2026-08-10',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'equipo-debod-dental',
+  metaTitle: 'Mejor clínica dental en Argüelles, Madrid — Debod Dental Clinic',
+  metaDescription: 'Clínica dental de referencia en Argüelles, Madrid. Diagnóstico digital, laboratorio propio y odontología honesta. Primera visita diagnóstica incluida.',
+  excerpt: 'Qué buscar en una clínica dental en Argüelles y por qué el diagnóstico previo marca el resultado. Lo que nadie te cuenta antes de elegir dentista en Madrid.',
+  heroImageUrl: '/Images/blog/webp/diagnostico-dental.webp',
+  faqs: [
+    {
+      question: '¿Cómo sé si una clínica dental en Argüelles es de confianza?',
+      answer: 'Verifica que el dentista esté colegiado en el COEM, que te entreguen presupuesto detallado por escrito antes de empezar y que la primera visita sea una valoración real. En Debod Dental Clinic la primera visita diagnóstica está incluida sin compromiso y te explicamos todo con pruebas gráficas que puedes entender sin ser dentista.',
+    },
+    {
+      question: '¿Es normal que los presupuestos de implantes varíen tanto entre clínicas en Madrid?',
+      answer: 'Sí. La marca del implante, si incluye la corona, si requiere regeneración ósea previa... todo influye en el precio. Diferencias de hasta un 30% pueden tener justificación clínica. Más del 40% merece una explicación técnica detallada. Siempre pide el desglose por escrito antes de decidir.',
+    },
+    {
+      question: '¿Qué incluye la primera visita diagnóstica en Debod Dental Clinic?',
+      answer: 'Exploración completa de encías, dientes, mordida y articulación temporomandibular, con las radiografías necesarias. Valoración con escáner intraoral cuando el caso lo requiere. Es una consulta real, no un trámite, y está incluida sin coste adicional.',
+    },
+    {
+      question: '¿Merece la pena venir desde otro barrio de Madrid a Argüelles para el dentista?',
+      answer: 'Depende de lo que busques. Si necesitas una segunda opinión para un tratamiento complejo o quieres empezar de cero con una clínica de confianza, estamos bien comunicados: metro Ventura Rodríguez (L3), Plaza de España y Argüelles a pocos minutos andando.',
+    },
+    {
+      question: '¿Ofrecéis financiación para tratamientos dentales en Debod?',
+      answer: 'Sí. Financiación hasta 60 meses, sin entrada y con 0% de interés hasta 12 meses. Lo gestionamos directamente en clínica, sin papeleos externos. Disponible para implantes, ortodoncia, rehabilitaciones y cualquier tratamiento de mayor coste.',
+    },
+  ],
+  bodyMarkdown: `## La perspectiva del equipo de Debod sobre elegir clínica dental en Argüelles
+
+En **Debod Dental Clinic** llevamos años viendo a pacientes que llegan después de malas experiencias en otras clínicas. No lo decimos para presumir. Lo decimos porque entendemos exactamente qué busca alguien cuando escribe "mejor clínica dental Argüelles Madrid" en Google: seguridad. Quieren saber que el dentista que va a mirarles la boca es honesto, que el presupuesto no va a dispararse sin aviso y que el tratamiento tiene sentido clínico real.
+
+Estamos en la calle Ferraz, 24, a un paseo del Templo de Debod. Llevan años eligiéndonos vecinos de Argüelles, Moncloa, Chamberí. Y últimamente también pacientes que vienen expresamente desde otros barrios de Madrid. ¿Por qué? En parte por la tecnología. En parte por el equipo. Pero sobre todo por algo más difícil de conseguir: la transparencia.
+
+Aquí no hacemos diagnósticos en el pasillo ni presupuestos de memoria. Antes de proponer cualquier tratamiento, evaluamos con escáner intraoral y radiografía digital. Y si el tratamiento más sencillo es suficiente, lo decimos. Aunque la opción cara sea más rentable para nosotros.
+
+Eso es lo que llamamos odontología honesta. La razón por la que el **Premio WhiteSmile 2023** vino a parar a nuestra clínica.
+
+Hay algo más que marca la diferencia en Argüelles. Algo que pocas clínicas explican en su web. Y tiene todo que ver con lo que ocurre justo antes de empezar cualquier tratamiento.
+
+## Lo que la mayoría de clínicas no te cuenta sobre la odontología en Madrid
+
+Argüelles concentra más de 40 centros dentales registrados en el Colegio Oficial de Odontólogos y Estomatólogos de Madrid (COEM). El problema no es que haya pocas opciones. El problema es que casi todas dicen lo mismo.
+
+Lo que pocas explican es que **el diagnóstico inicial determina el resultado final**. Un tratamiento bien planificado dura décadas. Uno mal diagnosticado puede fracasar en años, aunque técnicamente esté bien ejecutado.
+
+¿Qué pasa si te ponen un implante sin evaluar el hueso disponible con TAC 3D? Puede funcionar. O puede fallar. Sin esa imagen tridimensional, nadie puede garantizarte qué va a pasar. Lo mismo ocurre con la ortodoncia: ¿cuánto tarda un tratamiento con [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) si no se ha hecho una valoración cefalométrica previa? La respuesta honesta es que nadie lo sabe sin esa evaluación. El plazo que te dan sin ella no es una estimación clínica. Es una estimación comercial.
+
+En Debod hacemos esa evaluación antes. Siempre. Si el diagnóstico revela que el tratamiento que el paciente quería no es el adecuado, lo explicamos con tiempo y con imágenes que cualquiera puede entender.
+
+Otro dato que sorprende a mucha gente: **la enfermedad periodontal afecta al 62% de adultos españoles mayores de 35 años**. En consulta lo vemos constantemente. Pacientes que llevan años sin revisión y llegan pensando que solo necesitan una limpieza cuando en realidad necesitan un tratamiento periodontal más profundo. Son protocolos distintos con resultados distintos. Confundirlos tiene consecuencias reales para la salud de la boca a largo plazo.
+
+¿Cómo sé si lo que necesito es una limpieza de mantenimiento o algo más? Esa es exactamente la pregunta que respondemos en la primera visita. Que está incluida.
+
+Los casos que vemos cada semana en consulta lo ilustran mejor que cualquier estadística.
+
+## Nuestra experiencia clínica
+
+Tres casos reales. Sin nombres.
+
+**Una paciente de 42 años** llegó pidiendo carillas. Venía de otra clínica donde le habían dado presupuesto directo sin más exploración. Cuando revisamos su boca, encontramos encías inflamadas y dos caries activas que habían pasado desapercibidas. Ponerle carillas en ese estado habría sido un error: requieren encías sanas, de color rosa coral, sin inflamación activa. Primero tratamos la periodontitis y saneamos las caries. Cuatro meses después, con la boca en condiciones, diseñamos la sonrisa. En Debod Dental Lab —nuestro laboratorio propio, dentro de la clínica— fabricamos las carillas pieza a pieza usando el escáner intraoral como referencia. El resultado fue natural y proporcional. Sin ese aspecto de dientes cuadrados y blancos de anuncio que tanto odiaba.
+
+**Un hombre de 55 años** llegó con tres dientes ausentes y varios presupuestos de [implantes dentales](/tratamientos/implantes-dentales-arguelles-madrid-espana/) de distintas clínicas en Madrid. Las diferencias de precio superaban el 40%. Nadie le había explicado por qué. En nuestra valoración con TAC 3D descubrimos que en dos de los espacios había pérdida ósea que requería regeneración previa. Eso explicaba parte de la diferencia de precio. La otra parte era simplemente margen sin justificación técnica. Planificamos la cirugía sobre la imagen tridimensional antes de tocar al paciente. Dos años después, las revisiones periódicas confirman una oseointegración completa.
+
+**Una chica de 28 años** llevaba una década con una mordida cruzada que ningún dentista le había mencionado en sus revisiones anuales. Tenía dolor de mandíbula frecuente que atribuía al estrés. Cuando le explicamos la conexión entre la mordida y la musculatura masticatoria, fue una sorpresa real. El tratamiento fue ortodoncia con alineadores, con seguimiento del Dr. Víctor Guerrero. A los dieciséis meses: sin dolor y con una mordida funcional correcta.
+
+## Preguntas frecuentes sobre clínicas dentales en Argüelles
+
+### ¿Cómo sé si una clínica dental en Madrid es de confianza?
+
+Varios indicadores ayudan: que el dentista esté colegiado (verificable en coem.es), que entreguen presupuesto detallado por escrito antes de empezar y que la primera visita sea una valoración real, no un trámite. En España tienes derecho a ese presupuesto escrito, según el Decreto 96/2014 de la Comunidad de Madrid. Si la clínica no lo ofrece antes de firmar, es una señal de alerta.
+
+### ¿Es normal que los presupuestos de implantes varíen tanto entre clínicas?
+
+Sí. La marca del implante, si incluye la corona, si se necesita regeneración ósea previa... Diferencias de hasta un 30% pueden tener justificación clínica. Más del 40% merece explicación técnica detallada y desglose por escrito. Compara al menos dos valoraciones completas antes de decidir.
+
+### ¿Duele la primera visita diagnóstica en Debod?
+
+En absoluto. Es una exploración: revisamos encías, dientes, mordida y articulación temporomandibular. Hacemos las radiografías necesarias. Es una consulta, no un tratamiento. Y está incluida sin coste adicional.
+
+### ¿Merece la pena venir desde otro barrio de Madrid a Argüelles para el dentista?
+
+Depende de lo que busques. Si tienes un dentista de confianza y estás contento, no hay razón para cambiar. Si necesitas una segunda opinión para un tratamiento complejo, o has tenido malas experiencias y quieres empezar de cero, nuestra clínica está bien comunicada: metro Ventura Rodríguez (línea 3), también Plaza de España y Argüelles a pocos minutos andando.
+
+### ¿Qué pasa si no puedo pagar el tratamiento de golpe?
+
+Ofrecemos financiación hasta **60 meses sin entrada**, con 0% de interés hasta 12 meses. Lo gestionamos directamente en clínica, sin papeleos externos. Disponible para implantes, ortodoncia, rehabilitaciones y cualquier tratamiento de mayor coste.
+
+## ¿Qué tecnología usamos en Debod para garantizar la mejor atención?
+
+No hay secretos. Lo contamos con claridad.
+
+**Escáner intraoral.** Eliminamos las impresiones de escayola. El escáner capta la anatomía dental con un margen de error inferior a 25 micras. Eso se traduce en ajuste perfecto en prótesis, coronas, alineadores y carillas. Más cómodo para el paciente y más preciso en el resultado final.
+
+**TAC 3D (CBCT).** Para implantes y cirugía oral, el TAC de haz cónico es imprescindible. Proporciona una imagen tridimensional del hueso, los nervios y las estructuras adyacentes. La dosis de radiación es hasta un 70% menor que una radiología convencional de equivalente diagnóstico. Planificamos la cirugía sobre esa imagen antes de tocar al paciente.
+
+**Debod Dental Lab.** Nuestro laboratorio dental está dentro de la clínica. No externalizamos. El técnico y el clínico trabajan juntos sobre el mismo caso, en el mismo espacio. Los ajustes son inmediatos, los plazos se acortan y el resultado tiene una coherencia estética que la subcontratación dificulta.
+
+**Radiología digital integrada.** Sin película, sin cuarto oscuro. Las imágenes están en pantalla en segundos y se archivan en la historia clínica digital del paciente. Fáciles de compartir si quieres una segunda opinión.
+
+La tecnología no sustituye al criterio clínico. Pero amplía lo que se puede ver, planificar y garantizar. En odontología, lo que no se ve no se puede tratar correctamente.
+
+Si quieres saber si somos la clínica adecuada para ti, la mejor manera es comprobarlo en persona. La primera visita diagnóstica está incluida. Estamos en C. de Ferraz, 24, Argüelles, Madrid. Puedes llamarnos al +34 914 47 62 25 o escribirnos a info@deboddentalclinic.com. De lunes a viernes, de 9:00 a 20:00. [Coge tu cita aquí](/contacto/).`,
+},
+  {
+  slug: 'duele-ponerse-invisalign-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: '¿Duele ponerse Invisalign? La verdad sobre el dolor',
+  publishDate: '2026-08-10',
+  author: 'Dr. Víctor Guerrero',
+  authorSlug: 'dr-victor-guerrero',
+  metaTitle: '¿Duele ponerse Invisalign? — Debod Dental Clinic Argüelles',
+  metaDescription: '¿Duele Invisalign? Cuánto dura, cómo reducirlo y cuándo preocuparse. Dr. Víctor Guerrero en Debod Dental Clinic, Argüelles, Madrid.',
+  excerpt: 'El Dr. Víctor Guerrero responde con honestidad: qué sientes, cuánto dura la molestia y cómo reducirla desde el primer alineador. Sin rodeos.',
+  heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
+  faqs: [
+    {
+      question: '¿Duele ponerse Invisalign?',
+      answer: 'La sensación más frecuente es presión, no dolor agudo. Aparece sobre todo los primeros 2-3 días de cada alineador nuevo y remite después. Solo el 8-12% de los pacientes describe el malestar como dolor significativo. La mayoría lo vive como algo tolerable, incluso leve.'
+    },
+    {
+      question: '¿Cuánto dura el dolor con Invisalign?',
+      answer: 'Entre 3 y 5 días por cada cambio de alineador, con el pico en las primeras 72 horas. A medida que avanza el tratamiento, muchos pacientes notan que cada cambio se lleva mejor. El cuerpo se adapta al patrón de movimiento.'
+    },
+    {
+      question: '¿Es normal que me duelan los dientes con los alineadores?',
+      answer: 'Completamente normal. Lo que sientes es la respuesta del ligamento periodontal a la presión controlada del alineador. No indica que algo salga mal. Lo que no es normal: que el dolor dure más de siete días o que aparezca de forma espontánea sin haber cambiado de alineador.'
+    },
+    {
+      question: '¿Cuánto cuesta Invisalign en Madrid?',
+      answer: 'El coste depende de la complejidad del caso y no existe un precio único honesto. En Debod Dental Clinic la primera visita diagnóstica está incluida y ofrecemos financiación hasta 60 meses, con 0% de interés hasta 12 meses y sin entrada. El presupuesto exacto se confirma tras la valoración completa.'
+    },
+    {
+      question: '¿Qué pasa si no llevo los alineadores las horas indicadas?',
+      answer: 'Las 20-22 horas diarias no son opcionales. Llevarlos menos tiempo no reduce el dolor, solo lo prolonga y retrasa el movimiento dental. El siguiente alineador puede no encajar bien y pueden necesitarse refinamientos que alargan el tratamiento total.'
+    },
+    {
+      question: '¿Los attachments de Invisalign duelen?',
+      answer: 'Los attachments son pequeños botones de resina composite adheridos a algunos dientes para movimientos que el alineador solo no puede ejecutar. Pueden generar algo de rozadura en mejilla o lengua al principio. La cera ortodóntica aplicada sobre ellos resuelve la molestia en la mayoría de casos. Si un borde sigue molestando, en consulta lo pulimos en minutos sin interrumpir el tratamiento.'
+    }
+  ],
+  bodyMarkdown: `## ¿Duele ponerse Invisalign? La respuesta directa
+
+Sí, puedes notar molestia. Pero en la mayoría de casos es leve y dura pocos días — no es el dolor que imaginas. En Debod Dental Clinic, en Argüelles, Madrid, **esta es la pregunta que hace casi el 90% de los pacientes** antes de empezar el tratamiento con alineadores transparentes. Y la respuesta siempre sorprende un poco.
+
+Lo que experimentas con cada alineador nuevo es, técnicamente, presión. Cada fase mueve tus dientes entre 0,25 y 0,33 mm. El hueso y el ligamento periodontal —el tejido que sostiene el diente en su alvéolo— tienen que adaptarse, y eso genera una respuesta inflamatoria natural. Normal. Esperada. Diseñada para que el tratamiento funcione.
+
+Pero hay algo que la mayoría de artículos no te cuentan, y que hace que muchos pacientes lleguen a consulta con más miedo del necesario. Tiene que ver con cuándo exactamente duele más — y con una estrategia muy sencilla que lo cambia todo. Te lo cuento en el siguiente apartado.
+
+## ¿Por qué importa esto para tu salud dental?
+
+Entender qué ocurre en tu boca cuando cambias de alineador transforma completamente la experiencia. El malestar no señala que algo va mal — señala que el tratamiento está funcionando.
+
+Dicho esto, hay diferencias claras entre una molestia esperada y un dolor que merece atención. Y conocerlas te convierte en un paciente más seguro e informado a lo largo de meses de tratamiento.
+
+Los datos clínicos son tranquilizadores: **solo el 8-12% de los pacientes describe el malestar con alineadores como «dolor significativo»**. El resto lo vive como una presión tolerable, sobre todo los primeros días de cada cambio. En comparación directa, los brackets metálicos puntúan entre 4,5 y 6 sobre 10 en escalas de dolor; los alineadores, entre 2,5 y 3,5. La diferencia es real y está respaldada por varios estudios clínicos publicados en revistas de ortodoncia.
+
+¿Merece la pena esa molestia? En la gran mayoría de casos, sí. Pero eso lo confirma una valoración real, no un artículo de internet.
+
+## Cuándo duele más — y cómo reducirlo
+
+Las **primeras 72 horas** tras colocar cada alineador nuevo son las más intensas. Después, el malestar baja progresivamente hasta desaparecer. Eso significa que si cambias de alineador un viernes por la noche, el momento más difícil transcurre mientras duermes o descansas el fin de semana.
+
+No es un truco de redes sociales. Es una recomendación clínica real: cambia el alineador justo antes de acostarte.
+
+Tomar ibuprofeno (400-600 mg) una hora antes de colocarlo también ayuda — actúa antes de que empiece la inflamación, no después. Si tienes contraindicación a los antiinflamatorios, el paracetamol funciona como alternativa. Los *chewies* — masticadores de silicona — son otro recurso habitual: los muerdes unos minutos para que el alineador asiente correctamente sobre los dientes, distribuyendo la presión de forma homogénea en lugar de concentrarla en puntos concretos.
+
+¿Y si el dolor es muy intenso o dura más de lo esperado? Hay señales que no deberías ignorar. Las detallo más adelante, en el apartado de urgencias. Antes, las preguntas que casi todo el mundo busca en Google.
+
+## Preguntas frecuentes
+
+### ¿Duele ponerse Invisalign?
+
+La sensación más habitual es **presión**, no dolor agudo. Aparece sobre todo los primeros 2-3 días de cada alineador nuevo y remite después. Solo el 8-12% de los pacientes describe el malestar como «dolor significativo». La mayoría lo vive como algo tolerable. Un porcentaje menor siente molestia más intensa con movimientos complejos — rotaciones, intrusiones — que requieren mayor fuerza del sistema sobre el diente.
+
+### ¿Cuánto dura el dolor con Invisalign?
+
+Entre **3 y 5 días** por cada cambio de alineador, con el pico en las primeras 72 horas. A medida que avanza el tratamiento, muchos pacientes notan que cada cambio se lleva mejor. El cuerpo aprende el patrón de movimiento.
+
+### ¿Es normal que me duelan los dientes con los alineadores?
+
+Completamente normal. Lo que sientes es la respuesta del ligamento periodontal al ser sometido a presión controlada. No indica que algo salga mal. Lo que no es normal: que el dolor sea muy intenso, que dure más de **siete días**, o que aparezca de forma espontánea sin haber cambiado de alineador.
+
+### ¿Cuánto cuesta Invisalign en Madrid?
+
+El coste depende de la complejidad del caso y no existe un precio único honesto. En Debod Dental Clinic la primera visita diagnóstica está incluida y ofrecemos **financiación hasta 60 meses**, con 0% de interés hasta 12 meses y sin entrada. El presupuesto exacto se confirma tras la valoración completa: un apiñamiento leve no es lo mismo que una mordida cruzada con múltiples movimientos programados.
+
+### ¿Qué pasa si no llevo los alineadores las horas indicadas?
+
+Las 20-22 horas diarias no son opcionales. Llevarlos menos tiempo no reduce el dolor — solo lo prolonga. El siguiente alineador no encajará bien, el movimiento dental se retrasa y pueden necesitarse refinamientos que alargan el tratamiento total.
+
+### ¿Los attachments de Invisalign duelen?
+
+Los *attachments* son pequeños botones de resina composite adheridos a algunos dientes para movimientos que el alineador solo no puede ejecutar. Pueden generar algo de rozadura en la mejilla o la lengua al principio. **La cera ortodóntica aplicada sobre ellos resuelve la molestia** en la mayoría de los casos. Si un borde sigue molestando demasiado, en consulta lo pulimos en un par de minutos — sin interrumpir el tratamiento.
+
+## ¿Qué debes saber antes de tu primera visita?
+
+Cuatro cosas que conviene tener claras antes de sentarte en el sillón:
+
+- Invisalign no es para todo el mundo. Hay casos que requieren brackets fijos o una combinación de ambos. Solo una valoración con escáner intraoral puede determinarlo con precisión.
+- El tratamiento con [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) exige compromiso activo. Tú decides cuántas horas los llevas, y eso influye directamente en el resultado final.
+- Si tienes encías inflamadas o enfermedad periodontal activa, puede ser necesaria una [limpieza dental profunda](/tratamientos/limpieza-dental-profunda-arguelles-madrid-espana/) antes de empezar. Mover dientes sobre una boca con infección activa no está indicado.
+- Si tienes caries activas, hay que tratarlas primero. La ortodoncia se planifica siempre sobre una boca sana.
+
+La simulación digital del caso — el ClinCheck de Align Technology — te permite ver cómo quedarán tus dientes al final, antes de empezar. Es una herramienta de planificación, no una garantía, pero ayuda a tomar la decisión con información real y sin sorpresas.
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Aquí cierro lo que dejé abierto antes: las señales que van más allá de la molestia normal y que no conviene esperar a la próxima revisión.
+
+**Dolor que no mejora pasados siete días** del cambio de alineador. Puede indicar un problema de ajuste, un alineador mal colocado o, en casos excepcionales, una complicación periodontal que conviene descartar cuanto antes.
+
+Un alineador que de repente «no entra» aunque hayas respetado las horas de uso. Puede señalar que el movimiento planificado no ha ocurrido como se esperaba, o que el plan necesita un ajuste clínico.
+
+Rozadura intensa que no mejora con cera y que empieza a generar una úlcera en la mucosa. No debería durar más de una semana.
+
+Movilidad dental inusual — sensación de que un diente se mueve más de lo esperado. Es poco frecuente, pero merece revisión sin demora.
+
+Si tienes cualquiera de estas señales, llámanos al **+34 914 47 62 25**, lunes a viernes de 9:00 a 20:00. No esperes a la siguiente cita programada.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+En mi consulta, en Debod Dental Clinic en Argüelles, llevo más de 15 años trabajando con ortodoncia invisible. No es un tratamiento que ofrecemos porque esté de moda — es una de las especialidades centrales de la clínica, y en lo que me he formado y especializado a lo largo de toda mi carrera como ortodoncista.
+
+Trabajamos con **escáner intraoral y planificación digital** desde la primera visita, lo que permite diseñar el movimiento dental con precisión y anticipar cualquier incidencia antes de que ocurra. El laboratorio propio — Debod Dental Lab — nos da control total sobre los tiempos y la calidad en cada fase del proceso.
+
+La primera visita diagnóstica está incluida. Sin compromiso, sin presión. Vienes, te hacemos el estudio completo con escáner, te explicamos qué opciones tienen sentido para tu boca. Y si Invisalign no es la mejor opción para tu caso concreto, te lo decimos. Eso es lo que entendemos por odontología honesta.
+
+Estamos en la C. de Ferraz, 24, en Argüelles, a pocos minutos de la estación de metro Ventura Rodríguez (L3). Puedes [pedir cita aquí](/contacto/) o escribirnos a info@deboddentalclinic.com.`
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -709,6 +946,221 @@ Dr. César Rodríguez holds a Master's degree in Facial Prosthetics and Occlusio
 We are located at C. de Ferraz, 24, Argüelles, 28008 Madrid — a few minutes' walk from Ventura Rodríguez (Line 3), Plaza de España, and Argüelles metro stations. Open Monday to Friday, 9:00 to 20:00. International patients are seen in English.
 
 If you are ready to take the first step, [book your diagnostic visit](/contacto/) today. No commitment. Just a clear, honest conversation about what your smile could look like.`
+},
+  'mejor-clinica-dental-arguelles-madrid': {
+  title: 'Best Dental Clinic in Argüelles, Madrid',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Best Dental Clinic in Argüelles — Debod Dental Clinic',
+  metaDescription: 'Best dental clinic in Argüelles, Madrid? Debod Dental Clinic: honest diagnoses, advanced digital technology, and your first diagnostic visit included.',
+  excerpt: 'Argüelles has over 40 dental practices. So how do you know which one to trust? Here is what genuinely separates good dental care from the rest — and how we approach it at Debod Dental Clinic.',
+  faqs: [
+    {
+      question: 'Is it normal to feel nervous about switching dentists?',
+      answer: 'Completely normal. At Debod Dental Clinic, the first appointment is a diagnostic visit with no pressure and no treatment on the same day. You ask every question you have, we walk you through everything we find, and you decide what to do next — at your own pace.'
+    },
+    {
+      question: 'What if I have not been to the dentist in several years?',
+      answer: 'We see this all the time. The first step is a thorough assessment — clinical examination, digital X-rays, and a 3D scan where needed. What we find may be less than you fear. Either way, you will leave with a clear picture of your dental health and a written treatment plan if anything needs addressing.'
+    },
+    {
+      question: 'Does the first consultation cost anything?',
+      answer: 'The first diagnostic visit at Debod Dental Clinic is included — no charge for the initial assessment. We believe you should know exactly where you stand before committing to any treatment.'
+    },
+    {
+      question: 'How do I know if I need a specialist or a general dentist?',
+      answer: 'It depends on the treatment. Orthodontics and bite issues are led by Dr. Víctor Guerrero, with over 15 years of experience and a strong specialisation in clear aligners. Implants, crowns, and full oral rehabilitation are led by Dr. César Rodríguez, who holds a Master\'s in Facial Prosthetics and Occlusion from UCM. For preventive care, our full team covers you. We will guide you from the very first visit.'
+    },
+    {
+      question: 'What financing options does Debod Dental Clinic offer?',
+      answer: 'We offer payment plans of up to 60 months, with 0% interest for the first 12 months and no deposit required. We go through the options at the diagnostic visit so you have a complete picture before committing to anything.'
+    },
+    {
+      question: 'How do I get to Debod Dental Clinic in Argüelles?',
+      answer: 'We are at C. de Ferraz, 24, Argüelles, 28008 Madrid. The nearest metro stop is Ventura Rodríguez (Line 3), with Plaza de España and Argüelles stations also within easy walking distance. We are open Monday to Friday, 9:00 to 20:00.'
+    }
+  ],
+  bodyMarkdown: `## Debod Dental Clinic's Perspective on Finding the Right Dentist in Argüelles
+
+Finding a good dentist in Madrid is not as simple as it sounds. Argüelles alone — the neighbourhood where **Debod Dental Clinic** has been caring for patients for years, a short walk from the Templo de Debod — has more than 40 registered dental practices. So the question most people arrive with is not "where do I go?" but rather "how do I know who I can actually trust?"
+
+We hear this at virtually every first consultation. Someone comes in after a frustrating experience elsewhere — a treatment plan that felt rushed, a budget that kept changing, a smile that looked nothing like what was promised. And what strikes us every time is that none of it had to happen.
+
+Honest dentistry starts with honest information. That is the philosophy behind everything we do, and it is also the reason we wrote this post. Not to tell you we are the best clinic in Argüelles. But to give you the tools to judge for yourself.
+
+What should you actually look for beyond Google reviews — and why do most comparisons miss the factors that matter most clinically? We will come to that.
+
+## What Most Clinics Don't Tell You About Choosing a Dentist in Madrid
+
+The first thing most people do when searching for a dental clinic in Argüelles is check online reviews. Reasonable — and not entirely wrong. **A clinic with over 100 verified reviews and an average of 4.5 stars or above is a useful starting signal**, but reviews alone will not protect you from the most common pitfalls.
+
+Here is what actually matters clinically.
+
+The technology a clinic uses tells you a great deal about its standards. Digital intraoral scanners, for instance, are not a gimmick — they eliminate traditional putty impressions and produce 3D models accurate to within 25 microns. If a clinic in 2026 is still making hand impressions for complex restorations, that is worth noting. TAC 3D (cone beam CT scanning) is another genuine differentiator, particularly for implant planning: it reduces radiation exposure by up to 70% compared to conventional radiography whilst giving the clinician a full three-dimensional map of bone density, volume, and vital anatomy. Skipping this step for implant cases is cutting corners, plain and simple.
+
+Then there is the question of who actually carries out your treatment. Under Spanish law (Ley 44/2003), only registered odontologists and medical stomatologists may practise dentistry. You can verify any practitioner's registration on the COEM website — public, free, and it takes 30 seconds.
+
+There is one aspect of aesthetic dentistry that almost no clinic in Argüelles raises unprompted — and it could save you from a result you will spend years regretting. We will get to it in the next section.
+
+One more thing worth mentioning: in Spain, patients have a legal right to receive a written, itemised treatment plan before any work begins (Decreto 96/2014 of the Comunidad de Madrid). If a clinic is reluctant to provide one, that tells you something.
+
+## Our Clinical Experience
+
+Real situations — anonymised, of course — tend to say more than any list of features.
+
+**A 38-year-old patient from the Moncloa area** came to us after being told at three different clinics that she needed porcelain veneers on her six upper front teeth. Each quote was different. Not one had taken a full set of X-rays. When we examined her, we found active gum inflammation and a mild posterior cross-bite causing asymmetric wear on her back teeth.
+
+We explained clearly: veneers on inflamed gums are clinically contraindicated. The gum tissue must be healthy — firm, coral-pink, and stable — before any aesthetic work can begin. We treated the periodontal issue first with a [thorough dental examination and professional clean](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/), then corrected the cross-bite with clear aligners. By the time she was ready for veneers, she only needed four — not six — because the bite correction had already improved the symmetry significantly. Less treatment, better result, lower cost.
+
+A 52-year-old man came in having lost two molars years earlier and never had them replaced. He had been told elsewhere that he was "not a candidate for implants" due to bone loss. We took a TAC 3D scan and found sufficient bone volume for a [guided implant procedure](/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/) at one of the two sites. The other required a bone regeneration protocol first. Today, both are fully restored. He told us it was the first time a dentist had actually shown him the scan and walked him through the findings step by step. That, to us, is what dental care should look like.
+
+Now — the aesthetic issue no one warned you about. The most common complaint we hear from patients who had veneers done elsewhere is not pain or the cost. It is that the result looks "too perfect." Square, uniformly white, with no texture or natural variation. Indistinguishable from a set of false teeth. Real teeth have character: slight translucency near the edges, gentle surface ridges, natural shade variation from root to tip. At Debod Dental Lab — our in-house digital laboratory — every restoration is designed to preserve that natural character. Because a result that looks real is one you will still be happy with a decade from now.
+
+## Frequently Asked Questions About Dental Clinics in Argüelles
+
+**Is it normal to feel nervous about switching dentists?** Completely. Our approach is always to start with a diagnostic visit — no pressure, no treatment on the same day — so you can ask every question you have and leave with a clear picture before committing to anything.
+
+**What if I haven't been to the dentist in several years?** We see this more than you might think. The first step is always a thorough assessment: clinical examination, digital X-rays, and a 3D scan where the situation warrants it. You will know exactly where you stand. No surprises.
+
+**Does the first consultation cost anything?** The first diagnostic visit at Debod Dental Clinic is included — no charge for the initial assessment.
+
+**How do I know if I need a specialist?** It depends on what you need. For orthodontics and bite issues, Dr. Víctor Guerrero leads our orthodontics department — he has over 15 years of experience and is one of the leading [Invisalign and clear aligner specialists in Madrid](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/). For implants, crowns, and full oral rehabilitation, Dr. César Rodríguez holds a Master's in Facial Prosthetics and Occlusion from UCM and teaches at university level. We will steer you in the right direction from the very first visit.
+
+**What financing is available?** Up to 60 months, with 0% interest for the first 12 months and no deposit required. We go through all the options at the diagnostic visit so you have the full picture before making any decision.
+
+**How do I get to the clinic?** We are at C. de Ferraz, 24, Argüelles, 28008 Madrid. The nearest metro stop is Ventura Rodríguez (Line 3), with Plaza de España and Argüelles stations both within easy walking distance. Open Monday to Friday, 9:00–20:00.
+
+## What Technology Do We Use at Debod for Your Dental Care?
+
+Technology is not something we mention to impress. We mention it because it directly affects diagnostic accuracy and treatment quality — and patients in Argüelles and across Madrid deserve to know what they are getting.
+
+Our digital intraoral scanner produces **real-time 3D models of your teeth and gum tissue** with no physical impressions, accurate to under 25 microns. The scan feeds directly into Debod Dental Lab — our in-house digital laboratory — where crowns, veneers, and other restorations are designed and fabricated on-site. No external lab. No waiting for components to arrive from elsewhere. And complete control over the final result.
+
+For cases involving implants or bone assessment, our cone beam CT (TAC 3D) gives the treating clinician a precise three-dimensional map of bone volume, density, and vital structures. This is the information needed to plan treatment safely and accurately. For guided implant surgery in particular, the implant is placed through a surgical stent designed specifically from the scan. Millimetre precision, minimally invasive, faster recovery. Is it normal to worry about implant surgery? Yes. Is it, with proper planning, one of the most predictable procedures in modern dentistry? Also yes.
+
+For orthodontic treatment, digital planning allows Dr. Guerrero to show patients a simulation of projected tooth movement before a single aligner is produced. You see the expected outcome. You ask questions about it. You are not simply told to trust the process.
+
+**The WhiteSmile 2023 award** reflects a clinical standard our team works to maintain every day. But technology is only as good as the hands using it. We are a small, specialist team — not a franchise, not a volume clinic. Every patient's case is reviewed by the clinician responsible for their care, not delegated through a chain of technicians.
+
+If you are based in Argüelles or anywhere in Madrid and would like a pressure-free first diagnostic visit, you are welcome to [book an appointment online or get in touch](/contacto/), or call us directly on +34 914 47 62 25. Monday to Friday, 9:00–20:00.`
+},
+  'duele-ponerse-invisalign-madrid': {
+  title: 'Does Invisalign Hurt? What to Expect with Aligners',
+  categoryLabel: 'Cosmetic Dentistry',
+  metaTitle: 'Does Invisalign Hurt? — Debod Dental Clinic Argüelles',
+  metaDescription: 'Wondering if Invisalign hurts? Dr. Víctor Guerrero explains what discomfort to expect, how long it lasts, and how to manage it. First diagnostic visit included.',
+  excerpt: 'Mild pressure rather than sharp pain — that is the honest description. Here is what to expect tray by tray, and how to manage the discomfort from day one.',
+  faqs: [
+    {
+      question: 'Does Invisalign hurt more than braces?',
+      answer: 'No. Research consistently shows aligner patients report pain levels of around 2.5 to 3.5 out of 10, compared with 4.5 to 6 for metal braces. With Invisalign, discomfort arrives in predictable waves — a few days after each new tray — rather than as constant irritation from wires and brackets.'
+    },
+    {
+      question: 'How long does Invisalign discomfort last?',
+      answer: 'The first 48 to 72 hours after fitting a new tray are typically the most uncomfortable. By day three or four, the pressure settles considerably. If noticeable discomfort persists beyond seven days on any single tray, let your orthodontist know — it may point to a fitting issue worth reviewing.'
+    },
+    {
+      question: 'What can I take for Invisalign pain?',
+      answer: 'Ibuprofen (400–600 mg) is the first-line option: it acts as both a painkiller and an anti-inflammatory. Taking it about an hour before fitting a new tray can reduce the initial response. Paracetamol (1 g) is a reliable alternative if ibuprofen is not suitable for you. Changing your tray at night — just before sleep — means the sharpest hours of adjustment happen while you are resting.'
+    },
+    {
+      question: 'Is pain during Invisalign a sign something has gone wrong?',
+      answer: 'Usually not. Pressure and mild soreness after a new tray are expected and normal. What does warrant a call to your clinic: discomfort that shows no sign of easing after a full week, a tray that will not seat correctly despite biting on chewies, or a sharp edge cutting the inside of your cheek or gum. That last problem takes only a few minutes to fix with a quick polish.'
+    },
+    {
+      question: 'How much does Invisalign cost in Madrid?',
+      answer: 'It depends on your case — the number of trays needed, the complexity of the movements, and whether refinements will be required at the end. Treatments in Madrid typically range between 2,500 and 6,000 euros. At Debod Dental Clinic, your first diagnostic visit is fully included, with financing available at 0% interest for up to 12 months and no deposit required.'
+    },
+    {
+      question: 'Does Invisalign discomfort get worse as treatment goes on?',
+      answer: 'For most patients, it actually improves. The first few trays tend to feel the most unfamiliar. As treatment advances and your teeth approach their final positions, each tray requires less movement — and the pressure is correspondingly lighter. Many patients barely register it by the midpoint of treatment.'
+    }
+  ],
+  bodyMarkdown: `## Does Invisalign Hurt? — The Direct Answer
+
+Short answer: there is some discomfort — but far less than most people expect. At Debod Dental Clinic in Argüelles, Madrid, we tell every new patient the same thing on day one: Invisalign does not really "hurt" in the traditional sense. What you feel is pressure. The kind that tells you your teeth are actually moving.
+
+Research published in the *Angle Orthodontist* and *European Journal of Orthodontics* shows that **54 to 83% of aligner patients report some degree of discomfort** at some point during treatment — but only 8 to 12% describe it as significant pain. On a standard pain scale, the average sits between 2.5 and 3.5 out of 10, peaking in the first 72 hours after fitting a new tray. Compare that with traditional metal braces, where the average is 4.5 to 6 out of 10.
+
+So yes, it can be uncomfortable. For a few days. Then it passes.
+
+There is something important to understand about *why* the discomfort happens, though — and it tends to surprise people.
+
+## Why This Matters for Your Dental Health
+
+Every new aligner tray sits approximately 0.25 to 0.33 mm away from where your teeth currently are. That tiny gap is intentional. It is the force that moves your teeth.
+
+Think of it like the first few days in a new pair of shoes. There is friction and pressure while everything adjusts. Your teeth go through something similar — except the "shoe" changes every one to two weeks.
+
+When a new tray exerts pressure on a tooth, the ligament holding that tooth in its socket triggers a mild inflammatory response. The body releases prostaglandins — the same compounds involved in muscle soreness and headaches — locally, around the tooth root. That is what you are feeling. It is not damage. It is biology doing precisely what it is supposed to do.
+
+**The teeth with the most movement programmed into a given tray will feel the most sensitive.** Rotations and vertical movements tend to generate a stronger response than straightforward tipping. At Debod Dental Clinic, Dr. Víctor Guerrero — our specialist in invisible orthodontics with over 15 years of experience — plans these movements carefully using digital simulation, keeping the discomfort curve predictable from the first tray to the last.
+
+Now you know what causes it. But what can you actually do about it at home — and when should you be concerned? Both are worth covering properly.
+
+## Frequently Asked Questions
+
+### Does Invisalign hurt more than braces?
+
+No — and this is one of the most consistent findings in orthodontic research. Patients with traditional metal braces report average pain levels of 4.5 to 6 out of 10; with Invisalign, that drops to 2.5 to 3.5. Brackets can also cause cuts and abrasions on the inside of the cheeks, which aligners generally do not. The discomfort with Invisalign tends to come in predictable waves — a few days of pressure after each new tray — rather than as constant background irritation.
+
+### How long does Invisalign discomfort last?
+
+The first 48 to 72 hours after fitting a new tray are typically the most uncomfortable. By day three or four, the pressure settles considerably. Many patients notice less discomfort with each passing tray as they adapt to the sensation. If you are still feeling significant pressure after seven days on a given tray, contact your orthodontist — it can occasionally signal a fitting issue or something worth reviewing before moving to the next stage.
+
+### What can I take for Invisalign pain?
+
+Ibuprofen (400–600 mg) is the recommended first option, as it combines analgesic and anti-inflammatory effects. Taking it about an hour before fitting a new tray can reduce the initial response. Paracetamol (1 g) is a solid alternative if ibuprofen is not appropriate for you.
+
+One tip that works particularly well in practice: **change your tray at night, just before bed**, so the sharpest hours of adjustment happen while you are asleep and not focused on it. Silicone chewies — small foam cylinders you bite on — can also help seat the tray evenly and distribute pressure more uniformly across the teeth. Your orthodontist will usually provide these at your first fitting.
+
+### Is pain during Invisalign a sign something has gone wrong?
+
+Usually not. Pressure and mild soreness after a new tray are entirely expected. What does warrant a call to the clinic: discomfort that shows no sign of easing after a full week, a tray that simply will not seat properly no matter how much you bite down, or a sharp edge that is cutting the inside of your cheek or gum tissue. That last issue takes only a few minutes to resolve with a quick polish — no need to interrupt treatment.
+
+### How much does Invisalign cost in Madrid?
+
+The honest answer is that it depends on your case. The number of trays needed, the complexity of the movements required, and whether refinements will be necessary at the end all influence the final figure. In Madrid, treatments typically fall **between 2,500 and 6,000 euros**. At Debod Dental Clinic, your first diagnostic visit is fully included — so you receive a thorough assessment and a realistic picture of what treatment would involve before making any commitment. Financing is available with 0% interest for up to 12 months, and up to 60 months overall with no deposit required.
+
+### Does Invisalign discomfort get worse as treatment progresses?
+
+For most patients, it actually improves. The first few trays tend to feel the most unfamiliar, partly because everything is new and partly because initial tooth movements can be more significant. As treatment advances and your teeth approach their final positions, each tray requires less movement — and the pressure is correspondingly lighter. Many patients barely notice the change by the midpoint of treatment.
+
+## What Should You Know Before Your First Visit?
+
+A few things worth bearing in mind before you come in for your assessment:
+
+- Bring any questions about pain, wearing time, or your specific situation. There are no silly questions here, and knowing what to expect makes a real difference.
+- Not every case is suited to aligners alone. Some movements — particularly complex vertical corrections or significant skeletal discrepancies — may be better addressed with a combined approach. We will tell you honestly which applies to your case.
+- Attachments (small composite buttons bonded to specific teeth) are used in most Invisalign treatments to help the aligner grip the tooth and execute precise movements. They can cause minor rubbing initially; orthodontic wax helps.
+- You need to wear your aligners for 20 to 22 hours per day. Wearing them less does not reduce discomfort — it prolongs treatment and often requires additional refinement trays at the end.
+
+The most valuable thing before starting any orthodontic treatment is a thorough diagnostic assessment. At Debod Dental Clinic, this is done using an intraoral digital scanner and, where the case calls for it, a 3D CT scan — all processed through Debod Dental Lab, our in-house digital laboratory. That means no outsourcing, no delays, and direct clinical control over every stage of your treatment.
+
+If you want to explore the full treatment process before coming in, our [Invisalign and transparent aligners](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) page covers everything in detail.
+
+## When Is It Urgent to See a Dentist?
+
+Most Invisalign-related discomfort is self-limiting and manageable at home. But some situations need prompt attention.
+
+Contact the clinic if pain persists beyond seven days without any sign of improvement on a given tray. Also seek advice if you notice deep, throbbing pain or any swelling in the gum or jaw area — that is not typical aligner pressure, and it may indicate a periodontal issue or an unrelated dental problem requiring assessment.
+
+If a tray cracks or breaks, get in touch the same day. Continuing with a broken tray can disrupt the planned movement sequence, causing subsequent trays to fit poorly. Equally, if you misplace a tray and go more than 24 hours without wearing one, your orthodontist can advise whether to go back to the previous tray or move straight to the next.
+
+**Gum health during treatment matters more than most people realise.** If your gums become red or swollen, or bleed regularly during brushing, flag it promptly. Teeth cannot move predictably through inflamed tissue, and unaddressed gum issues can slow treatment or affect the final result. A [dental clean and check-up](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) before starting orthodontic treatment is always a sensible first step.
+
+## Why Choose Debod Dental Clinic?
+
+Invisalign is not simply a product you order and wear. The quality of the outcome depends directly on how carefully the case is planned — and on the experience of the orthodontist overseeing every stage.
+
+Dr. Víctor Guerrero has over 15 years of specialist experience in invisible orthodontics and has lectured across Europe and Latin America. In my clinic, every Invisalign case is planned using a full digital workflow: intraoral scan, ClinCheck digital simulation, and 3D CT imaging where indicated. Everything is processed through Debod Dental Lab, our own in-house digital laboratory, so there is no outsourcing, no waiting on external suppliers, and the clinical team retains complete oversight from the first scan to the final tray.
+
+We are located at **C. de Ferraz, 24, in Argüelles** — a few minutes on foot from Ventura Rodríguez metro station (Line 3) and close to Plaza de España. We are open Monday to Friday, 9:00 to 20:00, and the first diagnostic visit is included at no charge.
+
+Ready to find out whether Invisalign is right for your teeth? [Book your first visit](/contacto/) and we will give you a clear, honest answer — with no obligation and no surprises.
+
+---
+
+Telephone: +34 914 47 62 25 | info@deboddentalclinic.com | C. de Ferraz, 24, Argüelles, 28008 Madrid`
 },
   // ← Agent appends new EN overlays here
 }

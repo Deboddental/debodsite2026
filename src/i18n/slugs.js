@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'duele-ponerse-invisalign-madrid': { es_cat: 'salud-dental', en: 'does-invisalign-hurt-pain-aligners-madrid', en_cat: 'dental-health' },
+  'mejor-clinica-dental-arguelles-madrid': { es_cat: 'salud-dental', en: 'best-dental-clinic-arguelles-madrid', en_cat: 'dental-health' },
   'carillas-porcelana-precio-madrid': { es_cat: 'odontologia-estetica', en: 'porcelain-veneers-price-madrid', en_cat: 'cosmetic-dentistry' },
   'ortodoncia-invisible-dr-victor-guerrero-madrid': { es_cat: 'servicios', en: 'dr-victor-guerrero-invisible-orthodontics-madrid', en_cat: 'services' },
   'bruxismo-causas-tratamiento-madrid': { es_cat: 'salud-dental', en: 'bruxism-causes-symptoms-and-treatment', en_cat: 'dental-health' },
