@@ -612,6 +612,227 @@ La primera visita diagnóstica está incluida. Sin compromiso, sin presión. Vie
 
 Estamos en la C. de Ferraz, 24, en Argüelles, a pocos minutos de la estación de metro Ventura Rodríguez (L3). Puedes [pedir cita aquí](/contacto/) o escribirnos a info@deboddentalclinic.com.`
 },
+  {
+  slug: 'carilla-o-corona-dental-diferencias-arguelles-madrid',
+  category: 'odontologia-estetica',
+  categoryLabel: 'Odontología Estética',
+  title: 'Carilla o corona dental: ¿cuál necesitas?',
+  publishDate: '2026-08-14',
+  author: 'Dr. César Rodríguez',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Carilla vs Corona Dental — Debod Dental Clinic Argüelles',
+  metaDescription: '¿Carilla o corona dental? Descubre cuándo se usa cada una, cuánto duran y por qué la elección correcta puede salvar tu diente. Clínica en Argüelles, Madrid.',
+  excerpt: 'El Dr. César Rodríguez explica la diferencia real entre carillas y coronas: cuándo cada una es la opción correcta y por qué importa no confundirlas.',
+  heroImageUrl: '/Images/blog/webp/carillas-vs-coronas.webp',
+  faqs: [
+    {
+      question: '¿Duele poner una carilla o una corona?',
+      answer: 'El procedimiento se hace con anestesia local, así que no duele. Después puede aparecer cierta sensibilidad al frío durante unos días, mayor con la corona porque el tallado es más amplio. Si el dolor es intenso o no cede en una semana, hay que volver a la clínica.'
+    },
+    {
+      question: '¿Cuánto cuestan una carilla y una corona en Madrid?',
+      answer: 'Como referencia honesta, las carillas de porcelana en Madrid se mueven entre 450 y 900 € por diente, y las coronas de zirconio entre 500 y 900 € por unidad. El coste real depende del número de dientes y la complejidad del caso. En Debod Dental Clinic se detalla el presupuesto tras la primera visita diagnóstica, que está incluida.'
+    },
+    {
+      question: '¿Cuánto dura una carilla de porcelana?',
+      answer: 'Con un buen mantenimiento, las carillas de porcelana tienen tasas de supervivencia del 93-94% a diez años. Las coronas de zirconio están en cifras similares. Lo que más influye en la longevidad es la higiene y la calidad del ajuste de la pieza, no solo el material.'
+    },
+    {
+      question: '¿Puedo poner carillas si tengo las encías inflamadas o caries?',
+      answer: 'No. Las encías deben estar sanas —color rosa coral, sin sangrado— y no puede haber caries activa antes de poner carillas. Si existe alguno de esos problemas, primero se trata y luego se planifica la estética. Saltarse ese paso arruina el resultado y pone en riesgo el diente.'
+    },
+    {
+      question: '¿Cómo sé si necesito una carilla o una corona?',
+      answer: 'No puedes determinarlo por tu cuenta. Se necesita una valoración con escáner intraoral y, en algunos casos, TAC 3D para evaluar el diente, la raíz y el hueso. En Debod Dental Clinic la primera visita diagnóstica está incluida y en ella se explica qué opción es la más adecuada para tu situación concreta.'
+    },
+    {
+      question: '¿Es urgente poner una corona después de una endodoncia?',
+      answer: 'Sí. Un diente endodonciado sin corona pierde resistencia estructural y puede fracturarse a nivel de raíz, lo que en muchos casos significa perder el diente para siempre. La corona protege esa estructura y prolonga su vida útil de forma significativa. No debe demorarse.'
+    },
+  ],
+  bodyMarkdown: `## ¿Qué es una carilla y qué es una corona? — La respuesta directa
+
+Una carilla es una lámina de porcelana muy fina —entre 0,3 y 0,7 mm— que se pega en la cara delantera del diente. Solo toca la parte que ves cuando sonríes. Una corona, en cambio, recubre el diente por completo: las cuatro caras, como una funda. Aquí en Debod Dental Clinic, en Argüelles (Madrid), esta es la pregunta que más se repite en consulta: "¿me hacen falta carillas o coronas?". Y la respuesta honesta es que depende del estado del diente, no de lo que el paciente quiere.
+
+No son intercambiables. Una carilla nunca puede sustituir a una corona cuando el diente está muy dañado. Y poner una corona en un diente sano solo por razones estéticas es sacrificar tejido dental sano de forma irreversible. Eso, en mi consulta, no lo hago.
+
+Hay una situación concreta en la que confundir estos dos tratamientos puede suponer tener o no tener el diente en boca dentro de diez años. Te lo explico más adelante.
+
+## ¿Por qué importa esto para tu salud dental?
+
+El diente no es infinito. Cada vez que se talla —que se lima para prepararlo— se pierde estructura que no vuelve. Una corona implica desgastar entre 1,5 y 2 mm en toda la circunferencia del diente. Una carilla, entre 0,5 y 0,7 mm solo por delante. En términos prácticos: **una corona elimina hasta el 75 % de la estructura dental**, mientras que una carilla conserva entre el 70 y el 85 %.
+
+¿Por qué importa esto a largo plazo? Porque cuanto menos tejido sano queda, más frágil es el diente, más probabilidades hay de que en el futuro necesite una endodoncia o, en el peor caso, se pierda. No es algo hipotético: lo veo en consulta con frecuencia, cuando los pacientes llegan con coronas puestas hace años sobre dientes que, honestamente, habrían aguantado perfectamente con una carilla.
+
+La odontología conservadora no es una moda. Es la forma más sensata de preservar tu boca durante décadas.
+
+Las carillas tienen unas condiciones previas que mucha gente desconoce. Si no se cumplen, el tratamiento está condenado al fracaso antes de empezar. Lo cuento en las preguntas de abajo.
+
+## Preguntas frecuentes
+
+### ¿Duele poner una carilla o una corona?
+
+El procedimiento en sí es indoloro: se hace con anestesia local. Lo que algunos pacientes notan es cierta sensibilidad en los días siguientes al tallado, especialmente con el frío. Con la carilla, al ser el desgaste mínimo, esa sensibilidad es menor y desaparece antes. Con la corona puede durar algo más. En ningún caso debería ser un dolor intenso y continuado; si lo es, hay que volver a la clínica.
+
+### ¿Cuánto cuestan una carilla y una corona?
+
+El coste depende del caso concreto, el número de dientes y los materiales. Como referencia honesta en Madrid, las [carillas de porcelana](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) se mueven en un rango de 450 a 900 € por diente, y las [coronas dentales de zirconio](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) entre 500 y 900 € por unidad. Lo que marca la diferencia real es la complejidad del tratamiento completo, no una sola pieza. En Debod Dental Clinic hacemos el presupuesto detallado tras la primera visita diagnóstica, que está incluida. Sin sorpresas después.
+
+### ¿Cuánto dura una carilla de porcelana?
+
+Con un buen mantenimiento, **las carillas de porcelana tienen tasas de supervivencia del 93-94 % a diez años**. Las coronas de zirconio están en cifras similares, en torno al 95-96 % a cinco años. La clave en ambos casos no es solo el material: es la higiene y el ajuste con el que se ha fabricado y colocado la pieza. Por eso tener laboratorio propio —Debod Dental Lab— con tecnología CAD/CAM integrada en la clínica marca la diferencia.
+
+### ¿Puedo poner carillas si tengo las encías inflamadas?
+
+No. Las encías tienen que estar sanas y de color rosa coral antes de cualquier tratamiento estético. Si hay inflamación, sangrado o periodontitis activa, primero se trata la encía. Poner carillas sobre encías enfermas es construir sobre arena: los márgenes se descubren con el tiempo, la estética se arruina y el diente se puede comprometer seriamente. En mi consulta, si veo un problema periodontal, lo tratamos antes. Sin atajos.
+
+### ¿Cómo sé si necesito carilla o corona?
+
+No puedes saberlo por tu cuenta. Necesitas una valoración con escáner intraoral y, en algunos casos, TAC 3D para ver el estado del hueso y el nervio. Lo que sí puedes hacer es llegar con las dudas claras: qué te molesta estéticamente, si tienes sensibilidad, si rechinas los dientes por la noche. Con esa información y las pruebas diagnósticas, el cuadro se completa.
+
+### ¿Es urgente decidirse o puedo esperar?
+
+Depende. Si el diente está fracturado, con caries extensa o ya ha pasado por una endodoncia —tratamiento de conductos—, la corona puede ser urgente: el diente sin protección es vulnerable a una fractura que lo haga irrecuperable. Si el motivo es puramente estético —manchas, forma, pequeños espacios entre dientes—, puedes tomarte el tiempo que necesites para decidir bien. Eso sí: si hay caries activa o la mordida no está estable, cuanto antes mejor.
+
+Y aquí está la situación que mencionaba al principio: **un diente endodonciado sin corona puede fracturarse a nivel de raíz y perderse por completo**. Una corona a tiempo evita esa pérdida. No es estética. Es protección.
+
+Las condiciones previas para las carillas son, exactamente, estas: encías sanas, ausencia de caries activa y mordida estable. Si alguna falla, el tratamiento se planifica en fases, no se improvisa.
+
+## ¿Qué debes saber antes de tu primera visita?
+
+- **El mock-up es tu aliado.** Antes de tallar nada, se puede hacer una prueba en composite temporal que te muestra la forma y el color aproximado del resultado. No compromete el diente y resuelve muchas dudas antes de tomar ninguna decisión.
+- El escáner intraoral y el diseño digital permiten ver el resultado antes de tocar un solo diente.
+- Si rechinas los dientes por la noche (bruxismo), coméntalo desde el principio. Las carillas son más vulnerables a esas fuerzas y puede ser necesaria una férula de descarga como complemento.
+- Ambas restauraciones necesitan revisión anual y cuidado con morder objetos duros o abrir envases con los dientes.
+
+El objetivo no es que te vayas con una sonrisa de anuncio de televisión. Es que los dientes se vean como tus dientes, pero en su mejor versión: con textura natural, sin ese blanco imposible, con la forma que encaja con tu cara y con tu edad. Los dientes cuadrados y uniformes no son un ideal estético; son una señal de que alguien no ha pensado en el conjunto.
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Si tienes un diente muy dañado por caries o fractura y llevas tiempo sin tratarlo, no esperes. Cuando ya hay una endodoncia hecha y la corona todavía no se ha colocado, también es urgente: ese diente está estructuralmente comprometido. Si una carilla o corona existente se ha despegado o fracturado, el diente queda expuesto aunque no duela. Y si notas que el borde de una corona se está oscureciendo o que la encía ha retrocedido dejando ver una línea metálica, algo no va bien.
+
+En todos estos casos, cuanto antes se valora, más opciones quedan sobre la mesa.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+En Debod Dental Clinic, en la C. de Ferraz, 24 (Argüelles, Madrid), contamos con **laboratorio propio —Debod Dental Lab—** integrado en la clínica. Las carillas y coronas se fabrican aquí, con tecnología CAD/CAM, y puedo revisar personalmente cada pieza antes de cementarla. No dependemos de tiempos externos ni de laboratorios que no conocemos.
+
+La primera visita diagnóstica está incluida. En ella hacemos escáner intraoral, valoramos el estado periodontal y te explicamos con imágenes reales —las de tu boca— qué opciones tienes y por qué. Si además estás valorando [implantes dentales](/tratamientos/implantes-dentales-arguelles-madrid-espana/) como alternativa a una corona sobre un diente con pronóstico dudoso, también lo evaluamos en esa misma visita.
+
+Para el tratamiento completo tenemos financiación disponible: hasta 60 meses, con los primeros 12 sin intereses y sin entrada.
+
+Estamos en Argüelles de lunes a viernes, de 9:00 a 20:00. Puedes llamarnos al +34 914 47 62 25, escribirnos a info@deboddentalclinic.com o [pedir cita directamente desde aquí](/contacto/).`,
+},
+  {
+  slug: 'turismo-dental-madrid-extranjeros-precio',
+  category: 'servicios',
+  categoryLabel: 'Servicios',
+  title: 'Turismo Dental en Madrid para Extranjeros: Precios',
+  publishDate: '2026-08-14',
+  author: 'Dr. César Rodríguez',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Turismo Dental Madrid para Extranjeros — Debod Dental Clinic Argüelles',
+  metaDescription: 'Turismo dental en Madrid para extranjeros: precios reales por tratamiento, cuántas visitas necesitas y por qué Debod Dental Clinic en Argüelles es la mejor opción.',
+  excerpt: 'Todo lo que necesitas saber antes de volar a Madrid: precios comparativos, cuántas visitas necesitarás y cómo funciona el proceso en Debod Dental Clinic.',
+  heroImageUrl: '/Images/blog/webp/implante-dental.webp',
+  faqs: [
+    {
+      question: '¿Cuántas visitas necesito si vengo de fuera para hacerme implantes en Madrid?',
+      answer: 'Para implantes dentales convencionales necesitarás al menos dos visitas: una para la colocación quirúrgica y otra 3 a 6 meses después para la carga protésica, cuando el implante ya ha oseointegrado. En cada fase puedes planificar una estancia de 1 a 3 días en Madrid. Argüelles está a 30 minutos del aeropuerto de Barajas.'
+    },
+    {
+      question: '¿Hablan inglés en Debod Dental Clinic?',
+      answer: 'Sí. Atendemos a pacientes internacionales en inglés y realizamos la valoración previa, el plan de tratamiento y el seguimiento postoperatorio en el idioma que necesites. También puedes hacer la primera consulta por videollamada antes de comprar el vuelo.'
+    },
+    {
+      question: '¿Puedo financiar el tratamiento si soy paciente extranjero?',
+      answer: 'Sí. Trabajamos con planes de financiación de hasta 60 meses. Los primeros 12 meses son al 0% de interés y sin entrada. Consúltanos tu caso y te explicamos las condiciones concretas según el tratamiento.'
+    },
+    {
+      question: '¿Qué pasa si tengo algún problema cuando vuelvo a mi país?',
+      answer: 'Antes de que salgas de la clínica te entregamos un protocolo escrito con señales de alerta, la medicación pautada y contacto directo con el equipo. En caso de complicación, te orientamos de forma remota y coordinamos con un profesional en tu zona si fuera necesario. Las complicaciones serias son muy poco frecuentes cuando la planificación es correcta desde el principio.'
+    },
+    {
+      question: '¿Es seguro hacerse un tratamiento dental en España siendo extranjero?',
+      answer: 'España cumple los mismos estándares sanitarios que cualquier país de Europa occidental: normativa CE para materiales dentales, esterilización con autoclave clase B y regulación del Ministerio de Sanidad. Los dentistas españoles completan 5 años de grado más especialización. La clave está en elegir bien la clínica: exige que te especifiquen las marcas de los materiales y el nombre del especialista que va a tratarte.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué incluye tu tratamiento dental en Debod Dental Clinic?
+
+En **Debod Dental Clinic**, en el barrio de Argüelles, Madrid, llevamos años atendiendo a pacientes que vienen de fuera de España. No somos una clínica que "también acepta extranjeros". Tenemos un protocolo específico para ello: primera visita diagnóstica gratuita, presupuesto detallado por escrito con la marca de cada material, y un plan de tratamiento con fases y plazos claros antes de que reserves el vuelo.
+
+La valoración inicial incluye siempre escáner intraoral y, cuando el caso lo requiere, TAC 3D — sin coste adicional. Todo el trabajo de laboratorio se fabrica en nuestro propio Debod Dental Lab, in-house. Controlamos los plazos y la calidad sin depender de terceros, lo que en turismo dental marca una diferencia real.
+
+Hay una cosa que la mayoría de los pacientes no preguntan en el primer contacto y que luego resulta decisiva para organizar bien el viaje. La detallamos en el apartado del proceso.
+
+## ¿Cuánto cuesta el tratamiento dental en Madrid? — Precios honestos
+
+Los números son los que son. Un [implante dental](/tratamientos/implantes-dentales-arguelles-madrid-espana/) unitario en el Reino Unido cuesta habitualmente entre 2.000 y 3.000 libras. En Madrid, el rango orientativo se mueve entre **800 y 1.400 €** según la complejidad del caso y si se necesita cirugía adicional — elevación de seno o injerto óseo, por ejemplo. Una corona de cerámica que en Alemania ronda los 700–1.200 €, en Madrid suele estar entre 350 y 600 €.
+
+Para carillas de porcelana, el rango habitual en Madrid es de 400 a 700 € por unidad, frente a las 800–1.400 libras de las clínicas privadas británicas. En ortodoncia invisible, un tratamiento completo puede salir entre 2.500 y 4.500 €, cuando en el norte de Europa supera con frecuencia los 5.000–8.000 €.
+
+¿Merece la pena el viaje? Depende del caso. Si buscas una sola pieza sencilla, el ahorro puede no compensar el desplazamiento y el alojamiento. Si hablamos de varios implantes, una rehabilitación completa o un conjunto de carillas, el diferencial suele ser de varios miles de euros aunque restes vuelo y hotel.
+
+Lo que nunca hacemos en Debod es darte un precio cerrado sin haberte visto. El coste real se confirma siempre tras la primera visita diagnóstica — gratuita — con escáner 3D y valoración completa. Si además necesitas distribuir el pago, trabajamos con planes de financiación de hasta 60 meses, con **los primeros 12 meses al 0% de interés** y sin entrada.
+
+El precio es una parte de la ecuación. Pero hay algo que comprobamos siempre antes de cualquier presupuesto, y que a veces cambia el plan por completo.
+
+## ¿Cómo saber si soy candidato ideal para el turismo dental en Madrid?
+
+La mayoría de los pacientes que nos escriben desde el extranjero son buenos candidatos. Pero hay que ser honesto en ambos sentidos.
+
+Eres buen candidato si tu tratamiento tiene complejidad media-alta: varios implantes, una rehabilitación oral completa, carillas en múltiples dientes, ortodoncia con alineadores invisibles. En esos casos el ahorro compensa el viaje con creces.
+
+No es el momento adecuado si buscas un tratamiento urgente que no puede respetar los plazos biológicos. Un implante necesita entre 3 y 6 meses para oseointegrar correctamente. Ese tiempo no lo puede acortar ninguna clínica sin comprometer el resultado. Si encuentras alguna que prometa implantar y cargar en una sola visita, considera eso una señal de alarma.
+
+Hay un caso que encontramos con frecuencia: pacientes que pensaban no poder hacerse las [carillas de porcelana](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) o las coronas porque tenían las encías en mal estado. Lo bueno es que eso tiene solución. Pero el orden importa: primero se tratan las encías hasta que estén sanas, de color rosa coral, sin inflamación ni sangrado. Solo entonces tiene sentido planificar cualquier tratamiento estético. Poner carillas sobre una encía inflamada, o con caries activas sin resolver, es construir sobre arena. En Debod nunca saltamos ese paso, aunque suponga retrasar el plan cosmético unas semanas.
+
+## El proceso paso a paso en Debod
+
+Lo que la mayoría no pregunta — y que es lo más relevante para organizar el viaje — es cuántas visitas van a necesitar y en qué plazos. Vamos por partes.
+
+**Primer contacto antes del viaje:** Nos enviáis vuestras radiografías digitales — OPG panorámica si la tenéis, o la hacemos aquí si no. Hacemos una valoración preliminar por email o videollamada, en inglés si lo necesitáis. Sin compromiso y sin coste. Con esa información ya podemos deciros si el caso es viable y qué tipo de plan tendría sentido antes de que compréis ningún vuelo.
+
+**Primera visita en Madrid:** Escáner intraoral, TAC 3D cuando el tratamiento lo requiere, y revisión completa con el especialista. Esta visita es **gratuita**. Salís con un plan de tratamiento por escrito, presupuesto detallado con materiales especificados, y los plazos de cada fase.
+
+**Fabricación en Debod Dental Lab:** Todo el trabajo protésico — coronas, carillas, prótesis — se fabrica en nuestro laboratorio in-house. Eso nos da control real sobre los tiempos y la calidad final, y elimina los retrasos que genera depender de laboratorios externos.
+
+Para coronas o carillas sin complicaciones, muchos casos se resuelven en una estancia de 4 a 7 días para la primera fase. Para implantes: la colocación quirúrgica suele requerir 1 o 2 días de visita, y la carga protésica se hace en otra visita similar 3 a 6 meses después. Para ortodoncia: seguimiento trimestral o semestral, con revisiones telemáticas entre visitas presenciales.
+
+**Seguimiento remoto:** Antes de salir de la clínica os damos un protocolo escrito de cuidados, contacto directo con el equipo, y revisiones por videollamada entre fases. Si surgiera alguna complicación — algo poco frecuente cuando la planificación se hace bien desde el principio — os orientamos sobre qué hacer y coordinamos con un profesional en vuestra zona si hace falta.
+
+Argüelles está a unos 30 minutos del aeropuerto Adolfo Suárez-Barajas, y Madrid tiene vuelos directos a casi todas las ciudades europeas. Tres líneas de metro pasan por el barrio: Ventura Rodríguez (L3), Plaza de España y Argüelles.
+
+## Preguntas que siempre nos hacen antes de pedir cita
+
+### ¿Duele el tratamiento? ¿Cómo gestiono el dolor durante el viaje?
+
+La anestesia local hace que el procedimiento en sí sea indoloro. Las molestias postoperatorias — algo de inflamación, sensibilidad — se manejan con la medicación que os recetamos antes de salir de la clínica. En la gran mayoría de los casos, los pacientes hacen vida normal al día siguiente. Volvéis a casa con todo lo que necesitáis.
+
+### ¿Qué pasa si tengo una complicación cuando vuelvo a mi país?
+
+Es la pregunta más importante, y la que más tranquilidad nos da poder responder bien. Antes de que salgáis de Madrid os entregamos un protocolo escrito con señales de alerta, contacto directo con el equipo, y orientación clara sobre cómo actuar en cada supuesto. Las complicaciones serias son muy poco frecuentes cuando el diagnóstico y la planificación son correctos desde el principio.
+
+### ¿Cuánto tiempo tengo que quedarme en Madrid por cada fase?
+
+Depende del tratamiento. Para una fase de coronas o carillas, entre 4 y 7 días suele ser suficiente. Para la colocación de implantes, la intervención en sí puede resolverse en 1 o 2 días de visita. La carga protésica — cuando el hueso ya ha integrado el implante — se hace en otra visita similar meses después, de duración parecida.
+
+### ¿Están garantizados los materiales y el trabajo del laboratorio?
+
+Sí. Trabajamos con sistemas de implantes de marcas de primer nivel que tienen garantía propia del fabricante. Las prótesis fabricadas en Debod Dental Lab tienen garantía documentada por escrito que os entregamos antes de salir. Todo queda reflejado en el presupuesto, sin letra pequeña.
+
+## ¿Por qué elegir Debod Dental Clinic en Argüelles?
+
+Estamos en C. de Ferraz, 24, Argüelles, 28008 Madrid — a pocos metros del Templo de Debod y con tres líneas de metro a pie. Un barrio tranquilo, bien comunicado, a media hora del aeropuerto. Atendemos de lunes a viernes de 9:00 a 20:00, y podéis contactarnos en el +34 914 47 62 25 o en info@deboddentalclinic.com.
+
+**Laboratorio propio Debod Dental Lab:** fabricamos en casa todas las prótesis, coronas y carillas con tecnología digital. Control total sobre plazos y calidad, sin subcontratas ni esperas imprevistas.
+
+El equipo lo forman especialistas colegiados con experiencia documentada y reconocida. El Dr. César Rodríguez se ocupa de la prostodoncia y rehabilitación oral — Máster en Prótesis Facial y Oclusión por la UCM, docente universitario — y el Dr. Víctor Guerrero lleva la ortodoncia con más de 15 años tratando casos complejos en España, Europa y Latinoamérica. Hablamos inglés con fluidez y atendemos en ese idioma desde el primer contacto.
+
+Premio WhiteSmile 2023. Primera visita diagnóstica gratuita, con escáner intraoral y presupuesto detallado por escrito incluidos. Sin compromiso.
+
+¿Queréis saber si vuestro caso tiene solución en Debod? Escribidnos o [pedid cita](/contacto/) — hacemos la valoración preliminar por videollamada antes de que compréis el vuelo.`,
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -1161,6 +1382,226 @@ Ready to find out whether Invisalign is right for your teeth? [Book your first v
 ---
 
 Telephone: +34 914 47 62 25 | info@deboddentalclinic.com | C. de Ferraz, 24, Argüelles, 28008 Madrid`
+},
+  'carilla-o-corona-dental-diferencias-arguelles-madrid': {
+  title: 'Veneers vs Dental Crowns: What Is the Difference?',
+  categoryLabel: 'Cosmetic Dentistry',
+  metaTitle: 'Veneers vs Dental Crowns — Debod Dental Clinic Argüelles',
+  metaDescription: 'Veneer or crown? Learn the key clinical differences, when each is right, and what to expect — from Dr César Rodríguez at Debod Dental Clinic, Argüelles, Madrid.',
+  excerpt: 'A veneer covers only the front of a tooth. A crown wraps around the whole thing. Choosing between them correctly can save healthy tooth structure you can never get back.',
+  faqs: [
+    {
+      question: 'Does it hurt to get a veneer or a crown?',
+      answer: 'Both procedures are carried out under local anaesthetic, so you should not feel pain during the appointment itself. Mild sensitivity around the gum line is normal for a few days afterwards — more so with crowns, given the extent of preparation on every surface. This typically settles within two weeks. If it persists or worsens beyond that point, contact your dentist promptly.'
+    },
+    {
+      question: 'How long do porcelain veneers and crowns last?',
+      answer: 'Porcelain veneers have a survival rate of approximately 93–94% at ten years when placed by an experienced clinician and maintained with good oral hygiene. Modern zirconia crowns perform similarly — around 95–96% at ten years for single-unit restorations. In both cases, the biggest factor in longevity is not the material itself but the quality of the marginal seal at the time of fitting and your ongoing gum health.'
+    },
+    {
+      question: 'How much do veneers and crowns cost in Madrid?',
+      answer: 'In Madrid, porcelain veneers typically range from 450 to 900 € per tooth, and zirconia crowns from 500 to 900 € per unit. At Debod Dental Clinic, the exact cost is confirmed only after a full diagnostic assessment — we never quote without examining the tooth, reviewing the bite, and understanding the full clinical picture. Financing is available up to 60 months, with 0% interest for up to 12 months and no deposit required.'
+    },
+    {
+      question: 'What should I do if my crown falls off?',
+      answer: 'Call your dentist the same day if at all possible. A tooth prepared for a crown has had significant structure removed and has very little natural protection left — it becomes vulnerable to decay and sensitivity very quickly. Avoid eating on that side, keep the area clean, and do not try to re-cement it yourself. This is not something to leave until the next routine appointment.'
+    },
+    {
+      question: 'Can I get veneers if I grind my teeth?',
+      answer: 'You can, but a thorough clinical assessment is needed first. Bruxism significantly increases the fracture risk for porcelain veneers, particularly on the upper front teeth, which bear the most impact during grinding. A nightguard is usually discussed before any veneers are placed, and in some cases the bite needs evaluation or treatment beforehand. It does not rule veneers out entirely — but it has to be assessed honestly and addressed from the start.'
+    },
+    {
+      question: 'When is a dental crown the right choice, even on a front tooth?',
+      answer: 'When a tooth has lost more than roughly 50% of its structure — through deep decay, a large old filling, or significant fracture — a veneer will not have sufficient healthy enamel to bond to reliably. Root-treated teeth also usually require a crown: once the nerve is removed, the tooth becomes considerably more brittle, and a full crown offers much better long-term protection. In these cases, a crown is the clinically appropriate choice — the right tool for the situation, not a compromise.'
+    }
+  ],
+  bodyMarkdown: `## What Are Veneers and Crowns? — The Direct Answer
+
+A veneer is a thin shell of porcelain — typically between 0.3 and 0.7 mm thick — bonded to the front surface of a tooth. A crown wraps completely around the tooth (all 360 degrees), from the biting edge down to the gum line, like a well-fitted cap. At Debod Dental Clinic in Argüelles, Madrid, this is one of the most common questions that comes up during cosmetic consultations — and the distinction matters far more than most patients expect.
+
+Both restorations can genuinely transform the appearance of a smile. But they involve very different amounts of tooth preparation, they suit different clinical situations, and — this is worth paying attention to — one of them is an irreversible procedure. We will come back to exactly what that means.
+
+## Why Does This Matter for Your Dental Health?
+
+In my practice, I regularly see patients who have been told they need a crown when a veneer would have been entirely appropriate. Here is why that matters. **A crown requires removing 1.5 to 2 mm of tooth structure on every surface** — front, back, sides, and top. Once that enamel is gone, it cannot be replaced. A veneer, by contrast, removes no more than 0.5 to 0.7 mm from the front face only, preserving up to 85% of the original tooth structure.
+
+Think of it this way: a veneer is like fitting a new front panel to a piece of furniture. The structure underneath stays intact. A crown is closer to rebuilding the outer shell of the entire piece. Both can look beautiful when done well. But if only the front panel needed attention, the second approach involved a great deal of unnecessary work — and permanent consequences.
+
+The other thing patients rarely consider is what this means long term. A tooth prepared for a crown will always need a crown. It cannot go back to being a natural tooth, and it cannot accept a veneer in the future. So the decision made today shapes every treatment decision for that tooth going forward.
+
+There is, though, something that has to be right before any of this becomes relevant — and it catches a lot of patients off guard.
+
+## Before Any Restoration: What Needs to Be Right First
+
+Before a veneer or crown can be placed, the mouth needs to be in good health. This is non-negotiable.
+
+**Gum disease is a contraindication for cosmetic dental work** — not a minor inconvenience to work around, but a genuine clinical barrier. Inflamed or receding gums change the gum margin, which means a restoration fitted now will not sit correctly as the tissue changes over time. We always assess periodontal health at the outset, and if there is active disease, we treat it before anything else. A professional clean and periodontal assessment very often comes before any aesthetic conversation.
+
+The same applies to decay and bite issues. Placing a veneer over an untreated cavity does not fix the cavity — it hides it and accelerates the damage underneath. And if the bite is significantly off, veneers placed without addressing it will bear forces they were never designed to handle.
+
+This is what honest dentistry looks like in practice. The sequence matters as much as the material.
+
+## Frequently Asked Questions
+
+### Does it hurt to get a veneer or a crown?
+
+Both procedures are carried out under local anaesthetic, so you should not feel pain during the appointment. Mild sensitivity around the gum line is normal for a few days afterwards — more so with crowns, given the extent of preparation involved. This usually settles within two weeks. If it persists or worsens beyond that, contact your dentist.
+
+### How long do porcelain veneers and crowns last?
+
+Porcelain veneers have a **survival rate of approximately 93–94% at ten years** when placed by an experienced clinician and looked after with good oral hygiene. Modern zirconia crowns perform similarly — around 95–96% at ten years for single-unit restorations. The biggest factor in longevity is not the material itself, but the quality of the marginal seal at the time of fitting and your ongoing periodontal health.
+
+### How much do veneers and crowns cost in Madrid?
+
+In Madrid, [porcelain veneers](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) typically range from 450 to 900 € per tooth; zirconia crowns from 500 to 900 € per unit. At Debod Dental Clinic, the exact cost is confirmed only after a full diagnostic assessment — we never quote without examining the tooth, reviewing the bite, and understanding the full clinical picture. **Financing is available up to 60 months**, with 0% interest for up to 12 months and no deposit required.
+
+### What should I do if my crown falls off?
+
+Call your dentist the same day if at all possible. A tooth that has been prepared for a crown has had significant structure removed and has very little natural protection left — it becomes vulnerable to decay and temperature sensitivity very quickly without the crown in place. Avoid eating on that side, keep the area clean, and do not attempt to re-cement it yourself. This is not something to leave until the next routine appointment.
+
+### Can I get veneers if I grind my teeth?
+
+You can, but a thorough clinical assessment is needed first. **Bruxism significantly increases the fracture risk for porcelain veneers**, particularly on the upper front teeth, which bear the most impact during grinding. A nightguard is usually discussed before any veneers are placed, and in some cases the bite needs evaluation or correction beforehand. This does not rule veneers out entirely — but it has to be assessed honestly and addressed. We look at this at every cosmetic consultation.
+
+### When is a dental crown the right choice, even on a front tooth?
+
+When a tooth has lost more than roughly 50% of its structure — through deep decay, a large old filling, or significant fracture — a veneer will not have sufficient healthy enamel to bond to reliably. Root-treated teeth also usually need a [dental crown](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) rather than a veneer: once the nerve is removed, the tooth becomes considerably more brittle, and a full crown offers much better long-term protection. In these cases, a crown is the clinically appropriate choice. Not a downgrade — the right tool for the situation.
+
+## What Should You Know Before Your First Visit?
+
+Four practical points that will make your first appointment more productive:
+
+- Come with an open mind about which restoration is right, rather than arriving with a decision already made. The clinical findings should guide the recommendation, not the other way around.
+- Tell us about any grinding, clenching, or jaw pain. It directly affects what options are safe and appropriate for your teeth.
+- Ask about a mock-up. Before any tooth preparation takes place, a temporary composite mock-up lets you see the shape, size, and proportion on your actual teeth — no permanent changes, just a visual preview you can photograph and think over.
+- Be honest about your medical history, including medications. Some drugs affect gum health and healing in ways that matter before cosmetic work.
+
+After the assessment, we take a full intraoral digital scan and, where needed, a 3D CBCT scan. This gives us precise measurements of every tooth before any decision is finalised. Everything is planned digitally before physical work begins — at Debod Dental Lab, our in-house laboratory, restorations are designed and milled on site.
+
+## When Is It Urgent to See a Dentist?
+
+There are several situations that need prompt attention regardless of whether you currently have a veneer or a crown.
+
+A restoration that has come loose or fallen off — particularly a crown — should be seen the same day. Sharp pain when biting on a specific tooth, or a persistent ache that does not resolve, warrants an urgent call. Swelling around a crowned tooth accompanied by heat, pressure, or a bad taste can indicate infection at the root level, which needs assessment without delay. A grey shadow or dark line appearing at the edge of an existing crown may signal secondary decay developing underneath the restoration.
+
+**Do not wait for a routine appointment** if any of these apply. Call us directly on +34 914 47 62 25.
+
+## Why Choose Debod Dental Clinic?
+
+At Debod Dental Clinic, on Calle de Ferraz, 24 in Argüelles, every veneer and crown case is supported by our in-house laboratory — **Debod Dental Lab** — where restorations are designed, milled, and quality-checked on site. There is no relay to an external facility with a generic brief. Dr César Rodríguez, our prosthodontist, holds a Master's in Facial Prosthetics and Occlusion from the Complutense University of Madrid (UCM) and teaches the subject at postgraduate level. He works directly with the lab team at every stage of the process.
+
+Every cosmetic case starts with a diagnostic appointment at no charge. If you are considering veneers for spacing or alignment concerns, it is worth knowing that [Invisalign clear aligners](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) can sometimes achieve the same result without preparing a single tooth — we will always tell you if that is the more appropriate route.
+
+We are open Monday to Friday, 9:00 to 20:00. You can reach us at info@deboddentalclinic.com or call +34 914 47 62 25.`,
+},
+  'turismo-dental-madrid-extranjeros-precio': {
+  title: 'Dental Tourism in Madrid: Prices & What to Expect',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Dental Tourism Madrid: Prices & Quality — Debod Dental Clinic',
+  metaDescription: 'Dental treatment in Madrid costs 40–65% less than in the UK. Debod Dental Clinic offers specialist care in English, with the first diagnostic visit free.',
+  excerpt: 'Dental treatment in Madrid can cost 40–65% less than in the UK or Germany. Here\'s what to expect at Debod Dental Clinic — honest prices, the full process, and what international patients really ask.',
+  faqs: [
+    {
+      question: 'Does dental treatment in Madrid hurt?',
+      answer: 'No more than it would at home. We use up-to-date local anaesthesia for any procedure that requires it and check you\'re comfortable at every stage. If you\'re anxious about dental treatment, let us know when you book — we adapt our pace and approach accordingly.'
+    },
+    {
+      question: 'How long do I need to stay in Madrid per visit?',
+      answer: 'For an initial diagnostic visit plus any preparatory work, 2 to 4 days is typically sufficient. For more complex cases (multiple implants, full-arch rehabilitation), plan for 4 to 6 days per phase. We schedule appointments on consecutive days where possible to reduce time away from home.'
+    },
+    {
+      question: 'What happens if something goes wrong once I\'m back home?',
+      answer: 'We provide full written documentation of every procedure — materials used, implant brands, aftercare instructions — and a direct English-language contact for remote follow-up. All restorations and implant placements come with written guarantees, and we can liaise with a dentist in your home country if needed.'
+    },
+    {
+      question: 'Are the materials used in Spain the same quality as in the UK or Germany?',
+      answer: 'Yes. We use CE-marked dental materials throughout, including leading implant systems (Straumann, Nobel Biocare) and lithium disilicate ceramics (e.max) for crowns and veneers. Sterilisation meets Spanish Ministry of Health requirements — the same standard as any accredited clinic in the UK or Germany.'
+    },
+    {
+      question: 'Is dental tourism in Madrid worth it for a routine check-up?',
+      answer: 'For a single check-up or a routine scale and polish, the saving alone is unlikely to justify the journey. Dental tourism makes clear financial sense for treatments costing €500 or more at home — implants, full-mouth rehabilitation, aligner therapy, or multiple crowns and veneers. That is where the numbers genuinely add up, even after travel and accommodation.'
+    }
+  ],
+  bodyMarkdown: `## What Dental Treatment at Debod Dental Clinic Includes
+
+Travelling to Madrid for dental care is a decision more and more patients from the UK, Germany, and the Netherlands are making — and for good reason. **Debod Dental Clinic**, on Calle Ferraz in the heart of Argüelles, offers full specialist care in English for international patients, with the same diagnostic rigour and quality standards you'd expect from a top private practice anywhere in Western Europe.
+
+Every treatment starts with a complimentary diagnostic visit: a clinical examination, digital X-rays, and a 3D cone-beam CT scan where indicated, followed by a written treatment plan with no hidden costs. You know what you're getting, and what it costs, before anything begins.
+
+## How Much Does Dental Treatment Cost in Madrid? — Honest Prices
+
+This is the first question every international patient asks. Rightly so.
+
+Dental treatment in Madrid typically costs **between 40% and 65% less** than equivalent care in the UK or Germany. A single dental implant that might run to £2,000–£3,000 in London tends to fall in the €800–€1,400 range here, depending on the complexity of your case and whether any preparatory procedures are needed. Ceramic crowns generally sit between €350 and €600; [porcelain veneers](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) between €400 and €700 per tooth; a full course of Invisalign between €2,500 and €4,500.
+
+These are honest orientation figures, not fixed quotes. The exact price for your specific case is confirmed after the first diagnostic visit — which is included at no charge — using a full 3D scan and intraoral assessment. But does saving this much mean you're getting something inferior? That's a fair question, and we'll come back to it when we describe the process.
+
+We offer **financing over up to 60 months**, with 0% interest for the first 12 months and no deposit required. For most mid-to-high-complexity treatments, the total saving — even after flights and accommodation — is considerable.
+
+## How Do I Know if I'm the Right Candidate?
+
+Most patients from Northern Europe who contact us are good candidates. But honest dentistry means telling you when you're not quite ready yet, too.
+
+A few things to bear in mind before booking:
+
+- Gums must be healthy — a healthy, **coral-pink colour** — before any restorative or cosmetic work can begin. We won't place veneers or implants on inflamed tissue.
+- Active tooth decay must be treated before placing crowns, veneers, or implants on top of it.
+- Osseointegration — the biological process by which a titanium implant fuses with the jawbone — takes **3 to 6 months**. [Dental implants](/tratamientos/implantes-dentales-arguelles-madrid-espana/) genuinely require at least two visits to Madrid, spaced apart by that interval. Any clinic promising completed implants in a single trip is not being straight with you.
+- If you have a significant bite problem — deep bite, crossbite, severe crowding — this should be assessed before extensive cosmetic treatment. Aesthetics built on an unstable bite don't last.
+
+If you already have a panoramic X-ray (OPG), you're welcome to send it to info@deboddentalclinic.com before travelling. We can often give you a preliminary picture of what's involved before you book your flights.
+
+## The Process Step by Step at Debod
+
+Back to that question about quality. Affordable prices in Madrid don't reflect lower standards — they reflect a different healthcare economy, lower operational costs, and no private insurance mark-ups. Spanish dental degrees run five years, with specialist postgraduate training and continuous professional regulation by the Ministry of Health. The materials are CE-marked, from the same brands used across Western Europe.
+
+In our case, Dr. César Rodríguez — our specialist in Prosthodontics and Oral Rehabilitation, with a Master's degree from the Universidad Complutense de Madrid and a teaching post there — personally oversees all implant, crown, and veneer cases.
+
+Here is what a typical patient journey looks like for an international visitor at Debod:
+
+**Visit 1 (2–4 days in Madrid):** Complimentary diagnostic appointment, 3D CT scan and/or intraoral digital scan, written treatment plan, and — where possible — any preparatory procedures (extractions, gum treatment, temporary restorations) completed during the same stay.
+
+**Between visits:** Remote follow-up in English by email or video call. All records are shared digitally.
+
+**Visit 2 (2–5 days in Madrid):** Placement of final restorations — crowns, veneers, or implant-supported prostheses. All ceramic work is fabricated on-site at **Debod Dental Lab**, our in-house digital laboratory. No outsourcing, no delays, and full quality control at every stage.
+
+For implant cases, Visit 2 typically happens 3–6 months after Visit 1. For crowns, veneers, and shorter aligner programmes, the timeline can be condensed considerably. And one question nearly every patient asks at this stage: what happens if a complication arises after I've gone home? We'll address that directly below.
+
+## Questions We're Always Asked Before Booking
+
+### Does dental treatment in Madrid hurt?
+
+No more than it would in your home country. We use up-to-date local anaesthesia for any procedure that requires it, and we check you're comfortable at every stage. If you're anxious about dental treatment — many people are — let us know when you book. We adapt our pace and approach accordingly.
+
+### How long do I need to stay in Madrid per visit?
+
+For an initial diagnostic visit plus any preparatory work, **2 to 4 days** is typically sufficient. For more complex cases — multiple implants, full-arch rehabilitation — plan for 4 to 6 days per phase. We schedule appointments on consecutive days where possible to reduce time away from home. Madrid's Adolfo Suárez-Barajas Airport has direct connections from most major UK and Northern European cities, usually under 3 hours' flying time.
+
+### What happens if something goes wrong once I'm back home?
+
+This is the most important question in dental tourism, and the one that separates honest clinics from careless ones. We provide **full written documentation** of every procedure — materials used, implant brands, aftercare instructions — and a direct English-language contact for remote follow-up. We track osseointegration remotely between visits and advise on anything that arises. All restorations and implant placements come with written guarantees; ask us for the specifics at your diagnostic appointment. We can also liaise with a dentist in your home country if needed.
+
+### Are the materials used in Spain the same quality as in the UK or Germany?
+
+Yes. We use **CE-marked dental materials** throughout, including leading implant systems (Straumann, Nobel Biocare) and lithium disilicate ceramics (e.max) for crowns and veneers. Sterilisation is carried out with Class B autoclaves in line with Spanish Ministry of Health requirements — the same standard you'd find at any accredited clinic in the UK or Germany.
+
+### Is dental tourism in Madrid worth it for a routine check-up?
+
+For a single check-up or a routine scale and polish, the saving alone is unlikely to justify the journey. Dental tourism makes clear financial sense for treatments costing €500 or more at home — implants, full-mouth rehabilitation, aligner therapy, multiple crowns or veneers. That's where the numbers add up, even after accounting for flights and a few nights in Madrid.
+
+## Why Choose Debod Dental Clinic in Argüelles?
+
+We're a boutique clinic. Small enough that you'll see the same specialist at every appointment; well-equipped enough to handle complex cases without referring you elsewhere.
+
+**Debod Dental Lab** — our in-house digital laboratory — is one of the things that genuinely sets us apart. Most clinics outsource ceramic work to external laboratories, which adds time, cost, and an extra layer of unpredictability. We don't. Every crown and veneer is fabricated on-site, by technicians who work directly alongside the treating dentist, with digital workflows at every step.
+
+Our imaging includes **intraoral digital scanning and 3D cone-beam CT** — the same tools used in university hospital settings — which allow us to plan treatment with precision and show you the expected outcome before a single procedure begins.
+
+We were awarded the **WhiteSmile 2023 prize**, but what we hear most from patients who return is that what brought them back was the straightforwardness: a clear diagnosis, a realistic plan, and no surprises on the invoice.
+
+We're at **C. de Ferraz, 24, Argüelles, 28008 Madrid**, a short walk from Ventura Rodríguez metro station (Line 3), and easily reached from Plaza de España and Argüelles stations too. We're open Monday to Friday, 9:00–20:00, reachable at info@deboddentalclinic.com or **+34 914 47 62 25**.
+
+The first diagnostic visit is complimentary — no commitment, no pressure. Just an honest assessment of your dental health and a clear plan. [Book your visit](/contacto/) and let us take it from there.`
 },
   // ← Agent appends new EN overlays here
 }

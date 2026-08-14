@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'turismo-dental-madrid-extranjeros-precio': { es_cat: 'servicios', en: 'dental-tourism-madrid-prices-international-patients', en_cat: 'services' },
+  'carilla-o-corona-dental-diferencias-arguelles-madrid': { es_cat: 'odontologia-estetica', en: 'veneers-vs-dental-crowns-arguelles-madrid', en_cat: 'cosmetic-dentistry' },
   'duele-ponerse-invisalign-madrid': { es_cat: 'salud-dental', en: 'does-invisalign-hurt-pain-aligners-madrid', en_cat: 'dental-health' },
   'mejor-clinica-dental-arguelles-madrid': { es_cat: 'salud-dental', en: 'best-dental-clinic-arguelles-madrid', en_cat: 'dental-health' },
   'carillas-porcelana-precio-madrid': { es_cat: 'odontologia-estetica', en: 'porcelain-veneers-price-madrid', en_cat: 'cosmetic-dentistry' },
