@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build:prerender",
+  "buildCommand": "npm run build:prerender && (node scripts/indexnow-ping.mjs || true)",
   "trailingSlash": true,
   "redirects": [
     { "source": "/blog/uncategorized/limpieza-dental-profunda-en-arguelles-madrid/", "destination": "/blog/salud-dental/limpieza-dental-profunda-en-arguelles-madrid/", "permanent": true },
