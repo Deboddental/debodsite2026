@@ -13,7 +13,7 @@ const BASE = 'https://deboddentalclinic.com'
 
 // <lastmod>: real per-post dates for blog routes (ES + EN); a single site date
 // for everything else. Bump SITE_LASTMOD when static pages get a content pass.
-const SITE_LASTMOD = '2026-07-02'
+const SITE_LASTMOD = '2026-08-21'
 const lastmodByRoute = {}
 for (const p of blogPosts) {
   const d = p.dateModified || p.publishDate
