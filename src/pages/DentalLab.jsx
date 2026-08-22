@@ -33,6 +33,7 @@ export default function DentalLab() {
           content={locale === 'en' ? "Debod Dental Lab is Debod Dental Clinic's own dental laboratory. CAD/CAM, high-aesthetic ceramics, veneers and crowns crafted with total quality control in Argüelles, Madrid." : "Debod Dental Lab es el laboratorio dental propio de Debod Dental Clinic. CAD/CAM, cerámica de alta estética, carillas y coronas fabricadas con control total de calidad en Argüelles, Madrid."}
         />
         <meta property="og:title" content={locale === 'en' ? 'Debod Dental Lab — In-House Laboratory' : 'Debod Dental Lab — Laboratorio In-House'} />
+        <meta property="og:description" content={locale === 'en' ? "Debod Dental Lab is Debod Dental Clinic's own dental laboratory. CAD/CAM, high-aesthetic ceramics, veneers and crowns crafted with total quality control in Argüelles, Madrid." : "Debod Dental Lab es el laboratorio dental propio de Debod Dental Clinic. CAD/CAM, cerámica de alta estética, carillas y coronas elaboradas con control total de calidad en Argüelles, Madrid."} />
       </Helmet>
 
       <PageHero

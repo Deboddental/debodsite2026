@@ -44,6 +44,7 @@ export default function Citas() {
           content={locale === 'en' ? 'Book an appointment at Debod Dental Clinic, Argüelles, Madrid. Available via our contact form, phone and email. First diagnostic visit included with our team of specialists.' : 'Pide cita en Debod Dental Clinic, Argüelles, Madrid. Disponible por formulario de contacto, teléfono y email. Primera visita diagnóstica incluida con nuestro equipo de especialistas.'}
         />
         <meta property="og:title" content={locale === 'en' ? 'Book an Appointment — Debod Dental Clinic' : 'Pedir Cita — Debod Dental Clinic'} />
+        <meta property="og:description" content={locale === 'en' ? 'Book an appointment at Debod Dental Clinic, Argüelles, Madrid. Available via our contact form, phone and email. First diagnostic visit included with our team of specialists.' : 'Pide cita en Debod Dental Clinic, Argüelles, Madrid. Disponible por formulario de contacto, teléfono y email. Primera visita diagnóstica incluida con nuestro equipo de especialistas.'} />        
       </Helmet>
 
       <PageHero

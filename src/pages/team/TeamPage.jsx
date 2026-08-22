@@ -17,6 +17,7 @@ export default function TeamPage() {
           content={locale === 'en' ? 'Meet the team of specialist dentists at Debod Dental Clinic in Argüelles, Madrid. Orthodontics, dental implants, root canal, periodontics and our own dental laboratory.' : 'Conoce al equipo de odontólogos especialistas de Debod Dental Clinic en Argüelles, Madrid. Ortodoncia, implantes, endodoncia, periodoncia y laboratorio dental propio.'}
         />
         <meta property="og:title" content={locale === 'en' ? 'Our Team — Debod Dental Clinic' : 'Nuestro Equipo — Debod Dental Clinic'} />
+        <meta property="og:description" content={locale === 'en' ? 'Meet the team of specialist dentists at Debod Dental Clinic in Argüelles, Madrid. Orthodontics, dental implants, root canal, periodontics and our own dental laboratory.' : 'Conoce al equipo de odontólogos especialistas de Debod Dental Clinic en Argüelles, Madrid. Ortodoncia, implantes dentales, endodoncia, periodoncia y nuestro laboratorio dental propio.'} />
         <meta property="og:type" content="website" />
       </Helmet>
 

@@ -115,6 +115,7 @@ export default function Financiacion() {
           content={locale === 'en' ? 'Finance your dental treatment from 0% APR at Debod Dental Clinic, Argüelles, Madrid. Plans from €200 up to 60 months. Approval in minutes.' : 'Financia tu tratamiento dental desde 0% TAE en Debod Dental Clinic, Argüelles, Madrid. Planes desde 200€ hasta 60 meses. Aprobación en minutos.'}
         />
         <meta property="og:title" content={locale === 'en' ? 'Dental Financing — Debod Dental Clinic' : 'Financiación Dental — Debod Dental Clinic'} />
+        <meta property="og:description" content={locale === 'en' ? 'Finance your dental treatment from 0% APR at Debod Dental Clinic, Argüelles, Madrid. Plans from €200 up to 60 months. Approval in minutes.' : 'Financia tu tratamiento dental desde 0% TAE en Debod Dental Clinic, Argüelles, Madrid. Planes desde 200€ hasta 60 meses. Aprobación en minutos.'} />
       </Helmet>
 
       <JsonLd schema={faqSchema} />

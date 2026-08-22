@@ -40,6 +40,7 @@ export default function DoctorProfile() {
         <title>{pageTitle}</title>
         <meta name="description" content={metaDescription} />
         <meta property="og:title" content={`${doctor.name} — ${title}`} />
+        <meta property="og:description" content={metaDescription} />
         <meta property="og:type" content="profile" />
         {doctor.photoUrl && <meta property="og:image" content={doctor.photoUrl.startsWith('http') ? doctor.photoUrl : `https://deboddentalclinic.com${doctor.photoUrl}`} />}
       </Helmet>

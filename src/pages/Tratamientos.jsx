@@ -31,6 +31,7 @@ export default function Tratamientos() {
           content={locale === 'en' ? 'All our dental treatments in Argüelles, Madrid, grouped by specialty: implants, cosmetic dentistry, orthodontics, periodontics, oral surgery and more.' : 'Todos nuestros tratamientos dentales en Argüelles, Madrid, agrupados por especialidad: implantes, estética dental, ortodoncia, periodoncia, cirugía oral y más.'}
         />
         <meta property="og:title" content={locale === 'en' ? 'Dental Treatments — Debod Dental Clinic' : 'Tratamientos Dentales — Debod Dental Clinic'} />
+        <meta property="og:description" content={locale === 'en' ? 'All our dental treatments in Argüelles, Madrid, grouped by specialty: implants, cosmetic dentistry, orthodontics, periodontics, oral surgery and more.' : 'Todos nuestros tratamientos dentales en Argüelles, Madrid, agrupados por especialidad: implantes, estética dental, ortodoncia, periodoncia, cirugía oral y más.'} />
       </Helmet>
 
       <PageHero

@@ -98,7 +98,7 @@ export default function Home() {
   return ()=>ctx.revert()
  },[])
  return <div className="dd-home" ref={pageRef}>
-  <Helmet><title>{en?'Debod Dental Clinic Madrid — Specialist Dentistry':'Debod Dental Clinic Madrid — Odontología de Especialistas'}</title><meta name="description" content={en?'Specialist dental clinic in Argüelles, Madrid. Digital dentistry, in-house laboratory and personalised care.':'Clínica dental de especialistas en Argüelles, Madrid. Odontología digital, laboratorio propio y atención personalizada.'}/></Helmet>
+  <Helmet><title>{en?'Debod Dental Clinic Madrid — Specialist Dentistry':'Debod Dental Clinic Madrid — Odontología de Especialistas'}</title><meta name="description" content={en?'Specialist dental clinic in Argüelles, Madrid. Digital dentistry, in-house laboratory and personalised care.':'Clínica dental de especialistas en Argüelles, Madrid. Odontología digital, laboratorio propio y atención personalizada.'}/><meta property="og:type" content="website"/><meta property="og:title" content={en?'Debod Dental Clinic — Specialist Dentistry':'Debod Dental Clinic — Odontología de Especialistas'}/><meta property="og:description" content={en?'Specialist dental clinic in Argüelles, Madrid. Digital dentistry, in-house laboratory and personalised care.':'Clínica dental de especialistas en Argüelles, Madrid. Odontología digital, laboratorio propio y atención personalizada.'}/></Helmet>
   <JsonLd schema={{'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(item=>({'@type':'Question',name:L(item.q),acceptedAnswer:{'@type':'Answer',text:L(item.a)}}))}}/>
 
   <section className="dd-hero">

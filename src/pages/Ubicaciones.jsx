@@ -22,6 +22,7 @@ export default function Ubicaciones() {
           content={locale === 'en' ? 'Debod Dental Clinic in Argüelles, Madrid. C. de Ferraz, 24. Metro Argüelles (L3/L4/L6) and Ventura Rodríguez (L3). Open Monday to Friday from 9:00 to 20:00.' : 'Debod Dental Clinic en Argüelles, Madrid. C. de Ferraz, 24. Metro Argüelles (L3/L4/L6) y Ventura Rodríguez (L3). Horario de lunes a viernes de 9:00 a 20:00.'}
         />
         <meta property="og:title" content={locale === 'en' ? 'How to Get Here — Debod Dental Clinic, Argüelles Madrid' : 'Cómo Llegar — Debod Dental Clinic, Argüelles Madrid'} />
+        <meta property="og:description" content={locale === 'en' ? 'Debod Dental Clinic in Argüelles, Madrid. C. de Ferraz, 24. Metro Argüelles (L3/L4/L6) and Ventura Rodríguez (L3). Open Monday to Friday from 9:00 to 20:00.' : 'Debod Dental Clinic en Argüelles, Madrid. C. de Ferraz, 24. Metro Argüelles (L3/L4/L6) y Ventura Rodríguez (L3). Horario de lunes a viernes de 9:00 a 20:00.'} />
       </Helmet>
 
       <PageHero

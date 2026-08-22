@@ -224,6 +224,8 @@ export default function Contacto() {
           name="description"
           content={locale === 'en' ? 'Book your appointment at Debod Dental Clinic. Specialists in full oral rehabilitation, implantology and cosmetic dentistry in Argüelles, Madrid. First diagnostic visit included.' : 'Agenda tu cita en Debod Dental Clinic. Especialistas en Rehabilitación Oral, Implantología y Estética Dental en Argüelles, Madrid. Primera visita diagnóstica incluida.'}
         />
+        <meta property="og:title" content={locale === 'en' ? 'Contact — Debod Dental Clinic' : 'Contacto — Debod Dental Clinic'} />
+        <meta property="og:description" content={locale === 'en' ? 'Book your appointment at Debod Dental Clinic. Specialists in full oral rehabilitation, implantology and cosmetic dentistry in Argüelles, Madrid. First diagnostic visit included.' : 'Agenda tu cita en Debod Dental Clinic. Especialistas en Rehabilitación Oral, Implantología y Estética Dental en Argüelles, Madrid. Primera visita diagnóstica incluida.'} />
       </Helmet>
 
       {/* Hero */}

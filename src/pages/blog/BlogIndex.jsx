@@ -115,6 +115,7 @@ export default function BlogIndex() {
           content={locale === 'en' ? 'Articles and dental health advice written by the specialist team at Debod Dental Clinic in Argüelles, Madrid. Orthodontics, dental implants, dental aesthetics and more.' : 'Artículos y consejos de salud dental escritos por el equipo especialista de Debod Dental Clinic en Argüelles, Madrid. Ortodoncia, implantes, estética dental y más.'}
         />
         <meta property="og:title" content="Blog Dental — Debod Dental Clinic" />
+        <meta property="og:description" content={locale === 'en' ? 'Articles and dental health advice written by the specialist team at Debod Dental Clinic in Argüelles, Madrid. Orthodontics, dental implants, dental aesthetics and more.' : 'Artículos y consejos de salud dental escritos por el equipo especialista de Debod Dental Clinic en Argüelles, Madrid. Ortodoncia, implantes dentales, estética dental y más.'} />
         <meta property="og:type" content="website" />
       </Helmet>
 

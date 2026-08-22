@@ -15,6 +15,8 @@ export default function PoliticaPrivacidad() {
           name="description"
           content={locale === 'en' ? 'Debod Dental Clinic Privacy Policy. Information on the processing of personal data in accordance with the GDPR.' : 'Política de Privacidad de Debod Dental Clinic. Información sobre el tratamiento de datos personales conforme al RGPD.'}
         />
+        <meta property="og:title" content={locale === 'en' ? 'Privacy Policy | Debod Dental Clinic' : 'Política de Privacidad | Debod Dental Clinic'} />
+        <meta property="og:description" content={locale === 'en' ? 'Debod Dental Clinic Privacy Policy. Information on the processing of personal data in accordance with the GDPR.' : 'Política de Privacidad de Debod Dental Clinic. Información sobre el tratamiento de datos personales conforme al RGPD.'} />
         <meta name="robots" content="noindex, follow" />
       </Helmet>
 

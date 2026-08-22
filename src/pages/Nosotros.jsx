@@ -55,6 +55,7 @@ export default function Nosotros() {
           content={locale === 'en' ? 'Debod Dental Clinic is a full-service dental clinic in Argüelles, Madrid. Our philosophy: honest dentistry, complete transparency and cutting-edge technology.' : 'Debod Dental Clinic es una clínica dental integral en Argüelles, Madrid. Nuestra filosofía: odontología honesta, transparencia total y tecnología de vanguardia.'}
         />
         <meta property="og:title" content={locale === 'en' ? 'About Us — Debod Dental Clinic' : 'Sobre Nosotros — Debod Dental Clinic'} />
+        <meta property="og:description" content={locale === 'en' ? 'Debod Dental Clinic is a full-service dental clinic in Argüelles, Madrid. Our philosophy: honest dentistry, complete transparency and cutting-edge technology.' : 'Debod Dental Clinic es una clínica dental integral en Argüelles, Madrid. Nuestra filosofía: odontología honesta, transparencia total y tecnología de vanguardia.'} />
       </Helmet>
 
       <PageHero
