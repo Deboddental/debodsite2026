@@ -102,7 +102,7 @@ export default function Home() {
   <JsonLd schema={{'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(item=>({'@type':'Question',name:L(item.q),acceptedAnswer:{'@type':'Answer',text:L(item.a)}}))}}/>
 
   <section className="dd-hero">
-   <video autoPlay muted loop playsInline poster="/hero/hero-poster.jpg"><source src="/hero/hero-doctores.webm" type="video/webm"/></video><div className="dd-heroShade"/>
+   <video autoPlay muted loop playsInline preload="metadata" poster="/hero/hero-poster.jpg"><source src="/hero/hero-doctores.webm" type="video/webm"/></video><div className="dd-heroShade"/>
    <div className="dd-shell dd-heroGrid">
     <div className="dd-heroCopy"><Eyebrow>{en?'SPECIALIST DENTISTRY · ARGÜELLES · MADRID':'ODONTOLOGÍA ESPECIALIZADA · ARGÜELLES · MADRID'}</Eyebrow>
      <h1>{en?<>Dentistry that restores<br/><em>more than your smile.</em></>:<>Odontología que recupera<br/><em>mucho más que tu sonrisa.</em></>}</h1>

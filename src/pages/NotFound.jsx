@@ -7,6 +7,9 @@ export default function NotFound() {
     <>
       <Helmet>
         <title>Página no encontrada — Debod Dental Clinic</title>
+        <meta name="description" content="La página que buscas no existe o ha sido movida. Visita la clínica dental Debod Dental Clinic en Argüelles, Madrid." />
+        <meta property="og:title" content="Página no encontrada — Debod Dental Clinic" />
+        <meta property="og:description" content="La página que buscas no existe o ha sido movida. Clínica dental en Argüelles, Madrid." />
         <meta name="robots" content="noindex, follow" />
       </Helmet>
 
