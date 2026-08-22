@@ -188,7 +188,7 @@ export function enHomeSchema() {
         '@type': 'MedicalWebPage',
         '@id': url,
         url,
-        name: 'English-Speaking Dental Clinic in Madrid — Debod Dental Clinic',
+        name: 'English-Speaking Dental Clinic in Madrid | Debod Dental Clinic',
         description:
           'Boutique English-speaking dental clinic in central Madrid (Argüelles): implants, Invisalign®, porcelain veneers and full oral rehabilitation, with an in-house digital lab.',
         inLanguage: 'en',

@@ -150,7 +150,7 @@ It begins with a **free online video consultation**. Send us recent photos and a
     heroText:
       'Replace missing teeth with dental implants planned digitally and placed with 3D guided surgery — by an English-speaking team in central Madrid.',
     heroImage: '/Images/clinica/dsc00238.webp',
-    metaTitle: 'Dental Implants in Madrid (English-Speaking) — Debod Dental Clinic',
+    metaTitle: 'Dental Implants in Madrid (English-Speaking) | Debod Dental Clinic',
     metaDescription:
       'Dental implants in central Madrid with 3D guided surgery and an in-house lab. English-speaking implant dentist in Argüelles for international patients. Free quote and video consultation.',
     esAlternate: '/dentista-de-implantes-arguelles-madrid-espana/',
@@ -186,7 +186,7 @@ Whether you are an expat in Madrid or travelling for treatment, we will tell you
     heroText:
       'Fixed teeth on just four implants — a full-arch solution planned in 3D and crafted in our in-house lab, by an English-speaking team in central Madrid.',
     heroImage: '/Images/clinica/dsc00253.webp',
-    metaTitle: 'All-on-4 Dental Implants in Madrid — Debod Dental Clinic',
+    metaTitle: 'All-on-4 Dental Implants in Madrid | Debod Dental Clinic',
     metaDescription:
       'All-on-4 full-arch dental implants in central Madrid for international patients. Fixed teeth on four implants, planned with 3D guided surgery and an in-house lab. Free quote and video consultation.',
     esAlternate: '/dentista-de-implantes-arguelles-madrid-espana/',
@@ -224,7 +224,7 @@ We will tell you honestly whether All-on-4, All-on-6 or another solution best fi
     heroText:
       'Maximum-stability full-arch teeth on six implants — planned in 3D and crafted in our in-house lab, by an English-speaking team in central Madrid.',
     heroImage: '/Images/clinica/dsc00259.webp',
-    metaTitle: 'All-on-6 Dental Implants in Madrid — Debod Dental Clinic',
+    metaTitle: 'All-on-6 Dental Implants in Madrid | Debod Dental Clinic',
     metaDescription:
       'All-on-6 full-arch dental implants in central Madrid for international patients. Fixed teeth on six implants for maximum stability, planned with 3D guided surgery and an in-house lab. Free quote.',
     esAlternate: '/dentista-de-implantes-arguelles-madrid-espana/',
@@ -262,7 +262,7 @@ After a 3D assessment we will recommend honestly whether All-on-6, All-on-4 or a
     heroText:
       'Veneers, smile design, whitening and natural-looking crowns — designed digitally and crafted in our in-house lab, by an English-speaking team in central Madrid.',
     heroImage: '/Images/clinica/dsc00147.webp',
-    metaTitle: 'Cosmetic Dentistry in Madrid (English-Speaking) — Debod Dental Clinic',
+    metaTitle: 'Cosmetic Dentistry in Madrid (English-Speaking) | Debod Dental Clinic',
     metaDescription:
       'Cosmetic dentistry in central Madrid for international patients: porcelain veneers, digital smile design, whitening and natural crowns. English-speaking team, in-house lab. Free quote and video consultation.',
     esAlternate: '/dentista-cosmetico-arguelles-madrid-espana/',
@@ -298,7 +298,7 @@ Ideal for expats and visitors who want a premium, natural-looking smile in the h
     heroText:
       'Premium porcelain veneers designed digitally and crafted in our in-house lab — preview your new smile before we begin, in central Madrid.',
     heroImage: '/Images/clinica/dsc00148.webp',
-    metaTitle: 'Porcelain Veneers in Madrid (English-Speaking) — Debod Dental Clinic',
+    metaTitle: 'Porcelain Veneers in Madrid (English-Speaking) | Debod Dental Clinic',
     metaDescription:
       'Porcelain veneers in central Madrid for international patients. Digital smile design, premium ceramics and an in-house lab. English-speaking cosmetic dentist in Argüelles. Free quote and video consultation.',
     esAlternate: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/',
@@ -334,7 +334,7 @@ Ideal for expats and visitors who want a premium, natural-looking smile — ofte
     heroText:
       'Transform your smile with a digital smile makeover — preview the result before we start, crafted in our in-house lab in central Madrid.',
     heroImage: '/Images/clinica/dsc00141.webp',
-    metaTitle: 'Smile Design & Makeover in Madrid — Debod Dental Clinic',
+    metaTitle: 'Smile Design & Makeover in Madrid | Debod Dental Clinic',
     metaDescription:
       'Digital smile design and complete smile makeovers in central Madrid for international patients. Preview your smile first; veneers, whitening and crowns crafted in our in-house lab. Free quote.',
     esAlternate: '/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/',
@@ -370,7 +370,7 @@ Perfect for expats and visitors who want a confident, natural smile — often ac
     heroText:
       'A boutique dental clinic in the heart of Madrid where you are treated in English — implants, orthodontics, cosmetic dentistry and oral rehabilitation, with an in-house digital lab.',
     heroImage: '/Images/clinica/dsc00256.webp',
-    metaTitle: 'English-Speaking Dentist in Madrid (Argüelles) — Debod Dental Clinic',
+    metaTitle: 'English-Speaking Dentist in Madrid (Argüelles) | Debod Dental Clinic',
     metaDescription:
       'Looking for an English-speaking dentist in central Madrid? Debod Dental Clinic in Argüelles offers implants, Invisalign®, veneers and full oral rehabilitation. Free video consultation.',
     esAlternate: '/tratamientos/',

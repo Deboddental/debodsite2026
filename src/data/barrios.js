@@ -8,7 +8,7 @@ export const barrios = [
     slug: 'dentista-moncloa-madrid',
     barrio: 'Moncloa',
     title: 'Dentista en Moncloa, Madrid',
-    metaTitle: 'Dentista en Moncloa, Madrid — Debod Dental Clinic',
+    metaTitle: 'Dentista en Moncloa, Madrid | Debod Dental Clinic',
     metaDescription:
       'Clínica dental en Moncloa, Madrid. A pocos minutos en metro (L3) desde Moncloa. Implantes, ortodoncia invisible, estética dental y rehabilitación oral. Pide cita: +34 914 47 62 25.',
     heroText:
@@ -40,7 +40,7 @@ Ofrecemos odontología integral —**implantología digital, ortodoncia invisibl
     slug: 'dentista-chamberi-madrid',
     barrio: 'Chamberí',
     title: 'Dentista en Chamberí, Madrid',
-    metaTitle: 'Dentista en Chamberí, Madrid — Debod Dental Clinic',
+    metaTitle: 'Dentista en Chamberí, Madrid | Debod Dental Clinic',
     metaDescription:
       'Clínica dental cerca de Chamberí, Madrid. Implantes, Invisalign®, estética dental y rehabilitación oral en Argüelles, a pocos minutos de Chamberí. Cita: +34 914 47 62 25.',
     heroText:
@@ -72,7 +72,7 @@ Somos una clínica dental boutique especializada en **rehabilitación oral, impl
     slug: 'dentista-centro-madrid',
     barrio: 'Centro (Sol)',
     title: 'Dentista en el Centro de Madrid',
-    metaTitle: 'Dentista en el Centro de Madrid (Sol) — Debod Dental Clinic',
+    metaTitle: 'Dentista en el Centro de Madrid (Sol) | Debod Dental Clinic',
     metaDescription:
       'Clínica dental cerca del centro de Madrid. A pocas paradas de Sol y Gran Vía por la línea 3 de metro. Implantes, Invisalign®, estética y rehabilitación oral. Cita: +34 914 47 62 25.',
     heroText:
@@ -104,7 +104,7 @@ Es una clínica dental boutique de **rehabilitación oral, implantología digita
     slug: 'dentista-plaza-espana-madrid',
     barrio: 'Plaza de España',
     title: 'Dentista en Plaza de España, Madrid',
-    metaTitle: 'Dentista en Plaza de España, Madrid — Debod Dental Clinic',
+    metaTitle: 'Dentista en Plaza de España, Madrid | Debod Dental Clinic',
     metaDescription:
       'Clínica dental junto a Plaza de España, Madrid. En C. de Ferraz, 24, a un paso de Plaza de España y el Templo de Debod. Implantes, Invisalign®, estética dental. Cita: +34 914 47 62 25.',
     heroText:

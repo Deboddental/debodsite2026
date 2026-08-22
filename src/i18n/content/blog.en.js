@@ -7,7 +7,7 @@ export const blogEn = {
   'bruxismo-estres-dientes': {
     title: 'Bruxism: how stress is damaging your teeth (and how to fix it)',
     categoryLabel: 'Dental Health',
-    metaTitle: 'Bruxism and stress: protect your teeth — Debod Dental Clinic Argüelles',
+    metaTitle: 'Bruxism and stress: protect your teeth | Debod Dental Clinic',
     metaDescription: 'Do you clench or grind your teeth at night? Bruxism can cause severe wear and jaw pain. Find out how to treat it in Argüelles, Madrid.',
     excerpt: 'Bruxism is increasingly common. Stress makes you clench or grind your teeth without realising it, causing wear, pain and sensitivity. It can be solved when caught early.',
     faqs: [
@@ -96,7 +96,7 @@ If you notice wear on your teeth, jaw pain or sensitivity on waking, we recommen
   'diagnostico-dental-en-arguelles-madrid': {
     title: 'Dental diagnosis in Argüelles, Madrid: the foundation of successful treatment',
     categoryLabel: 'Services',
-    metaTitle: 'Dental diagnosis in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Dental diagnosis in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'An accurate dental diagnosis is the first step towards the right treatment. 3D scanner, digital X-rays and a complete assessment in Argüelles, Madrid.',
     excerpt: 'An accurate dental diagnosis is the first step in choosing the right treatment. At Debod Dental Clinic we use a 3D intraoral scanner and digital X-rays for a complete assessment.',
     faqs: [
@@ -207,7 +207,7 @@ If you already have gum recession, we recommend an assessment at our **Dental Cl
   'limpieza-dental-profunda-en-arguelles-madrid': {
     title: 'Deep dental cleaning in Argüelles, Madrid: when and why you need it',
     categoryLabel: 'Dental Health',
-    metaTitle: 'Deep dental cleaning in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Deep dental cleaning in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'A deep dental cleaning goes beyond a standard prophylaxis. Find out when you need it and how it differs from a conventional cleaning.',
     excerpt: 'Not all cleanings are the same. A deep dental cleaning works beneath the gums to treat early periodontitis. We explain when and why you need it.',
     faqs: [
@@ -260,7 +260,7 @@ A **periodontal re-evaluation** is scheduled at 6-8 weeks to assess the response
   'deteccion-de-cancer-oral-en-arguelles-madrid': {
     title: 'Oral cancer screening in Argüelles, Madrid: why it is so important',
     categoryLabel: 'Services',
-    metaTitle: 'Oral cancer screening in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Oral cancer screening in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Oral cancer detected early has a survival rate of over 80%. At Debod Dental Clinic we carry out a systematic examination at every check-up.',
     excerpt: 'Oral cancer has a very good prognosis when caught early. At Debod Dental Clinic we include a systematic examination of the oral mucosa at every routine check-up.',
     faqs: [
@@ -374,7 +374,7 @@ The decision depends on the condition of the tooth, the amount of healthy tooth 
   'aftas-bucales-causas-y-tratamiento': {
     title: 'Mouth ulcers: why they appear and when to see the dentist',
     categoryLabel: 'Dental Health',
-    metaTitle: 'Mouth ulcers: causes, treatment and when to worry — Debod Dental Clinic',
+    metaTitle: 'Mouth ulcers: causes, treatment and when to worry | Debod Dental Clinic',
     metaDescription: 'Mouth ulcers are painful but in most cases not serious. Find out why they appear, how to relieve the pain and when to see the dentist.',
     excerpt: 'Mouth ulcers are one of the most common oral complaints. Painful but generally harmless. We explain why they appear and when you should seek advice.',
     faqs: [
@@ -438,7 +438,7 @@ A sore that does not heal can be a sign of [oral cancer](/en/treatments/oral-can
   'dolor-de-muelas-de-juicio-en-arguelles-madrid': {
     title: 'Wisdom tooth pain in Argüelles, Madrid: causes and solutions',
     categoryLabel: 'Dental Health',
-    metaTitle: 'Wisdom tooth pain in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Wisdom tooth pain in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Wisdom tooth pain can indicate pericoronitis, decay or impaction. Learn about the causes and when removal is advisable.',
     excerpt: 'Wisdom tooth pain is one of the most common reasons for a dental emergency. Learn about the causes and when removal is advisable.',
     faqs: [
@@ -485,7 +485,7 @@ At **Debod Dental Clinic** in **Argüelles, Madrid**, we attend emergencies and 
   'ortodoncia-invisible-mitos-y-resultados': {
     title: 'Invisible orthodontics: myths and real results',
     categoryLabel: 'Cosmetic Dentistry',
-    metaTitle: 'Invisible orthodontics: myths and real results — Debod Dental Clinic Argüelles',
+    metaTitle: 'Invisible orthodontics: myths and real results | Debod Dental Clinic',
     metaDescription: 'Is invisible orthodontics as effective as braces? We debunk the most common myths about Invisalign and aligner treatment.',
     excerpt: 'Invisible orthodontics has become very popular, but so have many myths. Is it as effective as braces? Does it work for complex cases? We debunk the myths.',
     faqs: [
@@ -538,7 +538,7 @@ At **Debod Dental Clinic**, we are specialists in [invisible orthodontics](/en/t
   "endodoncia-o-extraccion-arguelles-madrid": {
     "title": "Root canal or extraction: how to know if your tooth can still be saved",
     "categoryLabel": "Services",
-    "metaTitle": "Root canal or extraction: how to know if your tooth can still be saved — Debod Dental Clinic Argüelles",
+    "metaTitle": "Root canal or extraction: how to know if your tooth can still be saved | Debod Dental Clinic",
     "metaDescription": "Root canal vs extraction: warning signs, what each option involves, why keeping your natural tooth matters and what comes next. Honest dental info from Madrid.",
     "excerpt": "Does it hurt to bite down, or is there an ache that won't quite go away? Here's when a root canal saves a tooth and when it has to come out, no fear tactics.",
     "faqs": [
@@ -564,7 +564,7 @@ At **Debod Dental Clinic**, we are specialists in [invisible orthodontics](/en/t
   "sensibilidad-dental-causas-y-alivio": {
     "title": "Sensitive Teeth: Why Cold Hurts and How to Calm It",
     "categoryLabel": "Dental Health",
-    "metaTitle": "Sensitive Teeth: Why Cold Hurts and How to Calm It — Debod Dental Clinic Argüelles",
+    "metaTitle": "Sensitive Teeth: Why Cold Hurts and How to Calm It | Debod Dental Clinic",
     "metaDescription": "What tooth sensitivity is, its most common causes, how to ease it at home, and when to see a dentist in Madrid. Debod Clinic, Argüelles.",
     "excerpt": "That sharp twinge from something cold or sweet has a clear cause, simple home relief, and warning signs for when it needs a dentist.",
     "faqs": [
@@ -590,7 +590,7 @@ At **Debod Dental Clinic**, we are specialists in [invisible orthodontics](/en/t
   "caries-dental-como-se-forma-y-prevenirla": {
     "title": "Dental Cavities: How They Form, Their Stages and How to Treat Them Early",
     "categoryLabel": "Dental Health",
-    "metaTitle": "Dental Cavities: How They Form, Their Stages and How to Treat Them Early — Debod Dental Clinic Argüelles",
+    "metaTitle": "Dental Cavities: How They Form, Their Stages and How to Treat Them Early | Debod Dental Clinic",
     "metaDescription": "What a cavity is, how plaque, sugar and acid form it, its stages and how each is treated. An honest guide from your dental clinic in Argüelles, Madrid.",
     "excerpt": "A cavity doesn't appear overnight: understanding how it forms helps you stop it before it reaches the nerve.",
     "faqs": [
@@ -616,7 +616,7 @@ At **Debod Dental Clinic**, we are specialists in [invisible orthodontics](/en/t
   "cuanto-dura-un-implante-dental": {
     "title": "How Long Does a Dental Implant Really Last? The Honest Answer",
     "categoryLabel": "Services",
-    "metaTitle": "How Long Does a Dental Implant Really Last? The Honest Answer — Debod Dental Clinic Argüelles",
+    "metaTitle": "How Long Does a Dental Implant Really Last? The Honest Answer | Debod Dental Clinic",
     "metaDescription": "How long a dental implant really lasts: why the screw and crown have different lifespans, the factors that matter, and how to care for yours in Madrid.",
     "excerpt": "The screw and the crown don't age at the same pace: learn what truly affects an implant's lifespan and how to make yours last many years.",
     "faqs": [
@@ -642,7 +642,7 @@ At **Debod Dental Clinic**, we are specialists in [invisible orthodontics](/en/t
   "molestias-tras-un-implante-dental": {
     "title": "Dental implant recovery: what's normal and when to call your dentist",
     "categoryLabel": "Services",
-    "metaTitle": "Dental implant recovery: what's normal and when to call your dentist — Debod Dental Clinic Argüelles",
+    "metaTitle": "Dental implant recovery: what's normal and when to call your dentist | Debod Dental Clinic",
     "metaDescription": "What discomfort and swelling are normal after a dental implant, how long they last, aftercare tips and the warning signs to watch for in Madrid.",
     "excerpt": "An honest guide to the discomfort, swelling and aftercare that are normal after a dental implant, plus the red-flag signs worth a call.",
     "faqs": [
@@ -668,7 +668,7 @@ At **Debod Dental Clinic**, we are specialists in [invisible orthodontics](/en/t
   "diseno-de-sonrisa-digital-en-arguelles-madrid": {
     "title": "Digital Smile Design: See Your New Smile Before You Start",
     "categoryLabel": "Cosmetic Dentistry",
-    "metaTitle": "Digital Smile Design: See Your New Smile Before You Start — Debod Dental Clinic Argüelles",
+    "metaTitle": "Digital Smile Design: See Your New Smile Before You Start | Debod Dental Clinic",
     "metaDescription": "What digital smile design is, how you preview your smile on screen, and which cases it suits. Honest guidance from Argüelles, Madrid.",
     "excerpt": "Digital smile design lets you preview and approve your future smile on screen before a single tooth is touched: less guesswork, more informed decisions.",
     "faqs": [
@@ -694,7 +694,7 @@ At **Debod Dental Clinic**, we are specialists in [invisible orthodontics](/en/t
   "coronas-de-zirconio-cuando-elegirlas": {
     "title": "Zirconia Crowns: What They Are and When They're the Right Choice",
     "categoryLabel": "Cosmetic Dentistry",
-    "metaTitle": "Zirconia Crowns: What They Are and When They're the Right Choice — Debod Dental Clinic Argüelles",
+    "metaTitle": "Zirconia Crowns: What They Are and When They're the Right Choice | Debod Dental Clinic",
     "metaDescription": "What zirconia crowns are, their advantages over other materials, when to choose them and how long they last. Honest guidance from our clinic in Argüelles, Madrid.",
     "excerpt": "A zirconia crown pairs strength, natural aesthetics and a metal-free design: here's what it is, when it makes sense and how long it can last with good care.",
     "faqs": [
@@ -720,7 +720,7 @@ At **Debod Dental Clinic**, we are specialists in [invisible orthodontics](/en/t
   "gingivitis-como-revertirla": {
     "title": "Bleeding Gums? What Gingivitis Is and How to Reverse It in Time",
     "categoryLabel": "Dental Health",
-    "metaTitle": "Bleeding Gums? What Gingivitis Is and How to Reverse It in Time — Debod Dental Clinic Argüelles",
+    "metaTitle": "Bleeding Gums? What Gingivitis Is and How to Reverse It in Time | Debod Dental Clinic",
     "metaDescription": "What gingivitis is, its early signs, causes, and how to reverse it with hygiene and a professional cleaning before it turns into periodontitis. Debod, Madrid.",
     "excerpt": "If your gums bleed when you brush, don't shrug it off: it's the earliest sign of gingivitis, and the good news is it's usually reversible.",
     "faqs": [
@@ -746,7 +746,7 @@ At **Debod Dental Clinic**, we are specialists in [invisible orthodontics](/en/t
   "periodontitis-tratamiento-y-control": {
     "title": "Periodontitis: What It Is, Its Stages, and Why You Can Control It Even If You Can't Fully Reverse It",
     "categoryLabel": "Dental Health",
-    "metaTitle": "Periodontitis: What It Is, Its Stages, and Why You Can Control It Even If You Can't Fully Reverse It — Debod Dental Clinic Argüelles",
+    "metaTitle": "Periodontitis: What It Is, Its Stages, and Why You Can Control It Even If You Can't Fully Reverse It | Debod Dental Clinic",
     "metaDescription": "What periodontitis is, its stages, why the damage isn't fully reversible but is controllable, how it's treated, and the role of maintenance.",
     "excerpt": "Periodontitis damages the bone that holds your teeth in a way that doesn't fully reverse, but with the right treatment it can be stopped and kept under control.",
     "faqs": [
@@ -772,7 +772,7 @@ At **Debod Dental Clinic**, we are specialists in [invisible orthodontics](/en/t
   "brackets-o-invisalign-como-elegir": {
     "title": "Braces or Invisalign: an honest comparison to choose well",
     "categoryLabel": "Services",
-    "metaTitle": "Braces or Invisalign: an honest comparison to choose well — Debod Dental Clinic Argüelles",
+    "metaTitle": "Braces or Invisalign: an honest comparison to choose well | Debod Dental Clinic",
     "metaDescription": "Braces vs Invisalign: aesthetics, comfort, which cases each treats, discipline, hygiene and cost. An honest guide from Clínica Debod in Argüelles, Madrid.",
     "excerpt": "Both systems straighten teeth; the best choice depends on your case, your lifestyle and your discipline. Here's the honest breakdown, no hype.",
     "faqs": [

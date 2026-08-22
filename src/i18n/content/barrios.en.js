@@ -6,7 +6,7 @@
 export const barriosEn = {
   'dentista-moncloa-madrid': {
     title: 'Dentist in Moncloa, Madrid',
-    metaTitle: 'Dentist in Moncloa, Madrid — Debod Dental Clinic',
+    metaTitle: 'Dentist in Moncloa, Madrid | Debod Dental Clinic',
     metaDescription:
       'Dental clinic in Moncloa, Madrid. Just minutes away by metro (L3) from Moncloa. Dental implants, invisible orthodontics, cosmetic dentistry and full oral rehabilitation. Book an appointment: +34 914 47 62 25.',
     heroText:
@@ -36,7 +36,7 @@ We offer comprehensive dentistry —**digital dental implants, Invisalign® invi
   },
   'dentista-chamberi-madrid': {
     title: 'Dentist in Chamberí, Madrid',
-    metaTitle: 'Dentist in Chamberí, Madrid — Debod Dental Clinic',
+    metaTitle: 'Dentist in Chamberí, Madrid | Debod Dental Clinic',
     metaDescription:
       'Dental clinic near Chamberí, Madrid. Dental implants, Invisalign®, cosmetic dentistry and full oral rehabilitation in Argüelles, just minutes from Chamberí. Appointments: +34 914 47 62 25.',
     heroText:
@@ -66,7 +66,7 @@ We are a boutique dental clinic specialising in **full oral rehabilitation, digi
   },
   'dentista-centro-madrid': {
     title: 'Dentist in Central Madrid',
-    metaTitle: 'Dentist in Central Madrid (Sol) — Debod Dental Clinic',
+    metaTitle: 'Dentist in Central Madrid (Sol) | Debod Dental Clinic',
     metaDescription:
       'Dental clinic near central Madrid. A few stops from Sol and Gran Vía on metro line 3. Dental implants, Invisalign®, cosmetic dentistry and full oral rehabilitation. Appointments: +34 914 47 62 25.',
     heroText:
@@ -96,7 +96,7 @@ It is a boutique dental clinic for **full oral rehabilitation, digital dental im
   },
   'dentista-plaza-espana-madrid': {
     title: 'Dentist in Plaza de España, Madrid',
-    metaTitle: 'Dentist in Plaza de España, Madrid — Debod Dental Clinic',
+    metaTitle: 'Dentist in Plaza de España, Madrid | Debod Dental Clinic',
     metaDescription:
       'Dental clinic next to Plaza de España, Madrid. At C. de Ferraz, 24, a step from Plaza de España and the Temple of Debod. Dental implants, Invisalign®, cosmetic dentistry. Appointments: +34 914 47 62 25.',
     heroText:

@@ -16,7 +16,7 @@
 //   publishDate: 'YYYY-MM-DD',
 //   author: 'Equipo Debod Dental',
 //   authorSlug: 'dr-victor-guerrero' | 'dr-cesar-rodriguez' | ...,  // see src/data/team.js
-//   metaTitle: 'Title — Debod Dental Clinic Argüelles',
+//   metaTitle: 'Title | Debod Dental Clinic',
 //   metaDescription: 'Max ~155 chars.',
 //   excerpt: 'Max ~200 chars, for cards.',
 //   heroImageUrl: '/Images/blog/webp/existing-file.webp',  // must already exist in public/Images/blog/webp/
@@ -32,7 +32,7 @@ export const dailyBlogPosts = [
   publishDate: '2026-08-05',
   author: 'Dr. César Rodríguez',
   authorSlug: 'dr-cesar-rodriguez',
-  metaTitle: 'Bruxismo: causas y tratamiento — Debod Dental Clinic Argüelles',
+  metaTitle: 'Bruxismo: causas y tratamiento | Debod Dental Clinic',
   metaDescription: 'Bruxismo en Madrid: causas, síntomas y tratamiento. Férula de descarga, ortodoncia o rehabilitación oral. Primera visita diagnóstica incluida. Argüelles.',
   excerpt: 'Aprietas los dientes sin darte cuenta. O tu pareja escucha ruidos por la noche. Te explicamos qué es el bruxismo, por qué daña tu dentadura y cómo tratarlo.',
   heroImageUrl: '/Images/blog/webp/bruxismo-estres.webp',
@@ -161,7 +161,7 @@ La primera visita diagnóstica está incluida. Sin compromisos. Si el caso requi
   publishDate: '2026-08-07',
   author: 'Dr. Víctor Guerrero',
   authorSlug: 'dr-victor-guerrero',
-  metaTitle: 'Ortodoncia invisible en Madrid — Debod Dental Clinic Argüelles',
+  metaTitle: 'Ortodoncia invisible en Madrid | Debod Dental Clinic',
   metaDescription: 'El Dr. Víctor Guerrero explica qué casos son aptos para ortodoncia invisible y qué no te cuentan. Diagnóstico incluido en Debod, Argüelles Madrid.',
   excerpt: 'Llevas tiempo pensando en corregir tu sonrisa pero no sabes si los alineadores son para ti. El Dr. Víctor Guerrero responde con la honestidad de quien trata cientos de casos al año en Madrid.',
   heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
@@ -269,7 +269,7 @@ La ortodoncia invisible funciona. Pero solo cuando está bien indicada, bien pla
   publishDate: '2026-08-07',
   author: 'Dr. César Rodríguez',
   authorSlug: 'dr-cesar-rodriguez',
-  metaTitle: 'Carillas de Porcelana Madrid: Precio Real — Debod Dental Clinic Argüelles',
+  metaTitle: 'Carillas de Porcelana Madrid: Precio Real | Debod Dental Clinic',
   metaDescription: '¿Cuánto cuestan las carillas de porcelana en Madrid? Rangos orientativos, proceso paso a paso y candidatos ideales. Primera visita diagnóstica incluida en Argüelles.',
   excerpt: 'Precios reales, candidatos ideales y el proceso completo explicado por el Dr. César Rodríguez. Primera visita diagnóstica gratuita en Debod Dental Clinic, Argüelles, Madrid.',
   heroImageUrl: '/Images/blog/webp/carillas-vs-coronas.webp',
@@ -383,7 +383,7 @@ Estamos en la C. de Ferraz, 24, en Argüelles, a tres minutos del metro Ventura 
   publishDate: '2026-08-10',
   author: 'Equipo Debod Dental',
   authorSlug: 'equipo-debod-dental',
-  metaTitle: 'Mejor clínica dental en Argüelles, Madrid — Debod Dental Clinic',
+  metaTitle: 'Mejor clínica dental en Argüelles, Madrid | Debod Dental Clinic',
   metaDescription: 'Clínica dental de referencia en Argüelles, Madrid. Diagnóstico digital, laboratorio propio y odontología honesta. Primera visita diagnóstica incluida.',
   excerpt: 'Qué buscar en una clínica dental en Argüelles y por qué el diagnóstico previo marca el resultado. Lo que nadie te cuenta antes de elegir dentista en Madrid.',
   heroImageUrl: '/Images/blog/webp/diagnostico-dental.webp',
@@ -493,7 +493,7 @@ Si quieres saber si somos la clínica adecuada para ti, la mejor manera es compr
   publishDate: '2026-08-10',
   author: 'Dr. Víctor Guerrero',
   authorSlug: 'dr-victor-guerrero',
-  metaTitle: '¿Duele ponerse Invisalign? — Debod Dental Clinic Argüelles',
+  metaTitle: '¿Duele ponerse Invisalign? | Debod Dental Clinic',
   metaDescription: '¿Duele Invisalign? Cuánto dura, cómo reducirlo y cuándo preocuparse. Dr. Víctor Guerrero en Debod Dental Clinic, Argüelles, Madrid.',
   excerpt: 'El Dr. Víctor Guerrero responde con honestidad: qué sientes, cuánto dura la molestia y cómo reducirla desde el primer alineador. Sin rodeos.',
   heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
@@ -620,7 +620,7 @@ Estamos en la C. de Ferraz, 24, en Argüelles, a pocos minutos de la estación d
   publishDate: '2026-08-14',
   author: 'Dr. César Rodríguez',
   authorSlug: 'dr-cesar-rodriguez',
-  metaTitle: 'Carilla vs Corona Dental — Debod Dental Clinic Argüelles',
+  metaTitle: 'Carilla vs Corona Dental | Debod Dental Clinic',
   metaDescription: '¿Carilla o corona dental? Descubre cuándo se usa cada una, cuánto duran y por qué la elección correcta puede salvar tu diente. Clínica en Argüelles, Madrid.',
   excerpt: 'El Dr. César Rodríguez explica la diferencia real entre carillas y coronas: cuándo cada una es la opción correcta y por qué importa no confundirlas.',
   heroImageUrl: '/Images/blog/webp/carillas-vs-coronas.webp',
@@ -731,7 +731,7 @@ Estamos en Argüelles de lunes a viernes, de 9:00 a 20:00. Puedes llamarnos al +
   publishDate: '2026-08-14',
   author: 'Dr. César Rodríguez',
   authorSlug: 'dr-cesar-rodriguez',
-  metaTitle: 'Turismo Dental Madrid para Extranjeros — Debod Dental Clinic Argüelles',
+  metaTitle: 'Turismo Dental Madrid para Extranjeros | Debod Dental Clinic',
   metaDescription: 'Turismo dental en Madrid para extranjeros: precios reales por tratamiento, cuántas visitas necesitas y por qué Debod Dental Clinic en Argüelles es la mejor opción.',
   excerpt: 'Todo lo que necesitas saber antes de volar a Madrid: precios comparativos, cuántas visitas necesitarás y cómo funciona el proceso en Debod Dental Clinic.',
   heroImageUrl: '/Images/blog/webp/implante-dental.webp',
@@ -844,7 +844,7 @@ export const dailyBlogEn = {
   'bruxismo-causas-tratamiento-madrid': {
   title: 'Bruxism: Causes, Symptoms and Treatment',
   categoryLabel: 'Dental Health',
-  metaTitle: 'Bruxism: Causes & Treatment — Debod Dental Clinic Argüelles',
+  metaTitle: 'Bruxism: Causes & Treatment | Debod Dental Clinic',
   metaDescription: 'Grinding your teeth at night? Learn what causes bruxism, how to spot the signs, and what treatments are available at Debod Dental Clinic, Argüelles, Madrid.',
   excerpt: 'Clenching or grinding your teeth can cause lasting damage — often without you ever noticing. Here is what bruxism is, why it happens, and what to do about it.',
   faqs: [
@@ -961,7 +961,7 @@ If you suspect you may be grinding your teeth — or someone has already told yo
   'ortodoncia-invisible-dr-victor-guerrero-madrid': {
   title: 'Dr. Víctor Guerrero: Invisible Orthodontics in Madrid',
   categoryLabel: 'Dental Health',
-  metaTitle: 'Invisible Orthodontics Madrid — Debod Dental Clinic Argüelles',
+  metaTitle: 'Invisible Orthodontics Madrid | Debod Dental Clinic',
   metaDescription: 'Invisible orthodontics in Madrid with Dr. Víctor Guerrero at Debod Dental Clinic, Argüelles — honest answers on aligners, timelines, and candidacy.',
   excerpt: 'Dr. Víctor Guerrero at Debod Dental Clinic in Argüelles shares 15+ years of Invisalign® experience — who clear aligners really suit, honest timelines, and what most clinics leave unsaid.',
   faqs: [
@@ -1059,7 +1059,7 @@ If you are considering invisible orthodontics in Madrid and would like a thoroug
   'carillas-porcelana-precio-madrid': {
   title: 'Porcelain Veneers in Madrid: Honest Pricing & What to Expect',
   categoryLabel: 'Cosmetic Dentistry',
-  metaTitle: 'Porcelain Veneers Price Madrid — Debod Dental Clinic Argüelles',
+  metaTitle: 'Porcelain Veneers Price Madrid | Debod Dental Clinic',
   metaDescription: 'Honest prices for porcelain veneers in Madrid. At Debod Dental Clinic, Argüelles, your diagnostic visit is included. Financing from 0%. Book today.',
   excerpt: 'Wondering what porcelain veneers really cost in Madrid? Dr. César Rodríguez at Debod Dental Clinic gives you honest prices, candidacy criteria, and the step-by-step process.',
   faqs: [
@@ -1171,7 +1171,7 @@ If you are ready to take the first step, [book your diagnostic visit](/contacto/
   'mejor-clinica-dental-arguelles-madrid': {
   title: 'Best Dental Clinic in Argüelles, Madrid',
   categoryLabel: 'Dental Health',
-  metaTitle: 'Best Dental Clinic in Argüelles — Debod Dental Clinic',
+  metaTitle: 'Best Dental Clinic in Argüelles | Debod Dental Clinic',
   metaDescription: 'Best dental clinic in Argüelles, Madrid? Debod Dental Clinic: honest diagnoses, advanced digital technology, and your first diagnostic visit included.',
   excerpt: 'Argüelles has over 40 dental practices. So how do you know which one to trust? Here is what genuinely separates good dental care from the rest — and how we approach it at Debod Dental Clinic.',
   faqs: [
@@ -1267,7 +1267,7 @@ If you are based in Argüelles or anywhere in Madrid and would like a pressure-f
   'duele-ponerse-invisalign-madrid': {
   title: 'Does Invisalign Hurt? What to Expect with Aligners',
   categoryLabel: 'Cosmetic Dentistry',
-  metaTitle: 'Does Invisalign Hurt? — Debod Dental Clinic Argüelles',
+  metaTitle: 'Does Invisalign Hurt? | Debod Dental Clinic',
   metaDescription: 'Wondering if Invisalign hurts? Dr. Víctor Guerrero explains what discomfort to expect, how long it lasts, and how to manage it. First diagnostic visit included.',
   excerpt: 'Mild pressure rather than sharp pain — that is the honest description. Here is what to expect tray by tray, and how to manage the discomfort from day one.',
   faqs: [
@@ -1386,7 +1386,7 @@ Telephone: +34 914 47 62 25 | info@deboddentalclinic.com | C. de Ferraz, 24, Arg
   'carilla-o-corona-dental-diferencias-arguelles-madrid': {
   title: 'Veneers vs Dental Crowns: What Is the Difference?',
   categoryLabel: 'Cosmetic Dentistry',
-  metaTitle: 'Veneers vs Dental Crowns — Debod Dental Clinic Argüelles',
+  metaTitle: 'Veneers vs Dental Crowns | Debod Dental Clinic',
   metaDescription: 'Veneer or crown? Learn the key clinical differences, when each is right, and what to expect — from Dr César Rodríguez at Debod Dental Clinic, Argüelles, Madrid.',
   excerpt: 'A veneer covers only the front of a tooth. A crown wraps around the whole thing. Choosing between them correctly can save healthy tooth structure you can never get back.',
   faqs: [
@@ -1497,7 +1497,7 @@ We are open Monday to Friday, 9:00 to 20:00. You can reach us at info@deboddenta
   'turismo-dental-madrid-extranjeros-precio': {
   title: 'Dental Tourism in Madrid: Prices & What to Expect',
   categoryLabel: 'Dental Health',
-  metaTitle: 'Dental Tourism Madrid: Prices & Quality — Debod Dental Clinic',
+  metaTitle: 'Dental Tourism Madrid: Prices & Quality | Debod Dental Clinic',
   metaDescription: 'Dental treatment in Madrid costs 40–65% less than in the UK. Debod Dental Clinic offers specialist care in English, with the first diagnostic visit free.',
   excerpt: 'Dental treatment in Madrid can cost 40–65% less than in the UK or Germany. Here\'s what to expect at Debod Dental Clinic — honest prices, the full process, and what international patients really ask.',
   faqs: [

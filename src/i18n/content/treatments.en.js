@@ -11,7 +11,7 @@ export const treatmentsEn = {
   'implantes-dentales-arguelles-madrid-espana': {
     title: 'Dental Implants in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Dental Implants in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Dental Implants in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Titanium dental implants with 3D planning in Argüelles, Madrid. Natural, long-lasting results. First diagnostic visit included.',
     heroText: 'Dental implants are the solution closest to a natural tooth. With prior digital planning we guarantee precise, safe and long-lasting results.',
     bodyMarkdown: `## What are dental implants?
@@ -61,7 +61,7 @@ With the right care and regular check-ups, a dental implant can last many years,
   'cirugia-guiada-de-implantes-dentales-arguelles-madrid': {
     title: 'Guided Implant Surgery in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Guided Implant Surgery in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Guided Implant Surgery in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Guided dental implant surgery in Argüelles, Madrid. Millimetre precision with 3D digital planning. Debod Dental Clinic.',
     heroText: 'Guided surgery represents the evolution of implant dentistry. A custom surgical guide, designed from your 3D scan, ensures that each implant is placed exactly where it was planned.',
     bodyMarkdown: `## Guided surgery: implant dentistry with millimetre precision
@@ -97,7 +97,7 @@ With the right care and regular check-ups, a dental implant can last many years,
   'corona-sobre-implante-arguelles-madrid-espana': {
     title: 'Implant Crown in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Implant Crown in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Implant Crown in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Implant crowns made in our in-house laboratory in Argüelles, Madrid. Maximum aesthetics and precision. Debod Dental Clinic.',
     heroText: 'The implant crown is the visible part of the dental implant system. Made in our in-house laboratory with high-strength ceramic, it faithfully reproduces the appearance of a natural tooth.',
     bodyMarkdown: `## The implant crown: the final piece of the puzzle
@@ -138,7 +138,7 @@ With care similar to that of natural teeth —correct brushing, dental floss or 
   'mantenimiento-de-implante-arguelles-madrid-espana': {
     title: 'Implant Maintenance in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Implant Maintenance in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Implant Maintenance in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Dental implant check-ups and maintenance in Argüelles, Madrid. Protect your long-term investment. Debod Dental Clinic.',
     heroText: 'A well-maintained dental implant can last many years. Regular check-ups and professional hygiene are the key to protecting your long-term investment.',
     bodyMarkdown: `## Why implant maintenance is essential
@@ -173,7 +173,7 @@ We teach you the correct technique to clean implants at home:
   'injerto-oseo-alveolar-arguelles-madrid-espana': {
     title: 'Alveolar Bone Graft in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Alveolar Bone Graft in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Alveolar Bone Graft in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Alveolar bone graft in Argüelles, Madrid. Bone regeneration to prepare for dental implant placement. Debod Dental Clinic.',
     heroText: 'When tooth loss leaves insufficient bone, an alveolar bone graft recreates the conditions needed to place implants successfully.',
     bodyMarkdown: `## Bone graft: preparing the ground for the implant
@@ -211,7 +211,7 @@ After the graft, the new bone takes between **4 and 6 months** to consolidate be
   'carillas-de-porcelana-arguelles-madrid-espana': {
     title: 'Porcelain Veneers in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Porcelain Veneers in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Porcelain Veneers in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Custom porcelain veneers in Argüelles, Madrid. CEREC technology, digital design and in-house laboratory. Debod Dental Clinic.',
     heroText: 'Porcelain veneers are thin, high-quality, custom-made ceramic shells that transform your smile by correcting colour, shape and alignment in just a few visits.',
     bodyMarkdown: `## What are porcelain veneers?
@@ -273,7 +273,7 @@ Thanks to our ability to shape and place the veneers, we can solve a variety of 
   'invisalign-alineadores-transparentes-arguelles-madrid-espana': {
     title: 'Invisalign® in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Invisalign® in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Invisalign® in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Invisalign® in Argüelles, Madrid. Clear aligners for adults and teenagers. Invisible orthodontics specialists. Debod Dental Clinic.',
     heroText: 'Invisalign® is one of the most advanced invisible orthodontics systems in the world. Clear, removable and virtually imperceptible aligners to achieve the smile you have always wanted.',
     bodyMarkdown: `## What is invisible orthodontics?
@@ -328,7 +328,7 @@ The aligner's clear plastic is almost imperceptible. No one will know you are un
   'tratamientos-coronas-dentales-en-arguelles-madrid': {
     title: 'Dental Crowns in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Dental Crowns in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Dental Crowns in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'High-quality ceramic dental crowns in Argüelles, Madrid. Made in our in-house laboratory. Debod Dental Clinic.',
     heroText: 'A dental crown completely covers the damaged tooth, restoring its size, shape, appearance and strength. Made from high-strength ceramic in our in-house laboratory.',
     bodyMarkdown: `## What is a dental crown?
@@ -375,7 +375,7 @@ With the right care, a dental crown lasts between **10 and 20 years**:
   'vonlay-arguelles-madrid-espana': {
     title: 'Vonlay in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Vonlay in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Vonlay in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Vonlay restorations in Argüelles, Madrid. The minimally invasive alternative between a filling and a crown. Debod Dental Clinic.',
     heroText: 'The Vonlay is a ceramic restoration that combines the best of the inlay, the onlay and the veneer. Minimally invasive, aesthetically excellent and long-lasting.',
     bodyMarkdown: `## What is a Vonlay?
@@ -411,7 +411,7 @@ The Vonlay is ideal for:
   'raspado-y-alisado-radicular-arguelles-madrid-espana': {
     title: 'Scaling and Root Planing in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Scaling and Root Planing in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Scaling and Root Planing in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Conservative periodontal treatment in Argüelles, Madrid. Scaling and root planing to treat periodontitis. Debod Dental Clinic.',
     heroText: 'Scaling and root planing is the first-line treatment for periodontitis. A deep clean below the gums that removes the bacteria causing periodontal disease.',
     bodyMarkdown: `## What is scaling and root planing?
@@ -448,7 +448,7 @@ After treatment, the gums recover a healthier appearance, bleeding is reduced an
   'injerto-de-encia-arguelles-madrid-espana': {
     title: 'Gum Graft in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Gum Graft in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Gum Graft in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Gum graft to treat gum recession in Argüelles, Madrid. Restore receding gums and protect exposed roots. Debod Dental Clinic.',
     heroText: 'A gum graft restores receding gum tissue, covering exposed roots and protecting the teeth from sensitivity and the risk of root decay.',
     bodyMarkdown: `## What is gum recession and how is it treated?
@@ -488,7 +488,7 @@ Complete healing takes between 4 and 8 weeks. During the first few weeks a soft 
   'gingivoplastia-arguelles-madrid-espana': {
     title: 'Gingivoplasty in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Gingivoplasty in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Gingivoplasty in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Gingivoplasty to reshape the gums in Argüelles, Madrid. Correction of a gummy smile and the gum contour. Debod Dental Clinic.',
     heroText: 'Gingivoplasty reshapes the gum contour to achieve a more balanced and harmonious smile. A minimal procedure with maximum visual impact.',
     bodyMarkdown: `## Gingivoplasty: designing the gum contour
@@ -523,7 +523,7 @@ Gingivoplasty is closely related to **crown lengthening**: when gum is removed t
   'extraccion-de-muelas-del-juicio-arguelles-madrid-espana': {
     title: 'Wisdom Teeth Removal in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Wisdom Teeth Removal in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Wisdom Teeth Removal in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Wisdom teeth removal in Argüelles, Madrid. A safe procedure under local anaesthetic, even in cases of impaction. Debod Dental Clinic.',
     heroText: 'Wisdom teeth removal is one of the most common procedures in oral surgery. With local anaesthetic and the right technique, it is a safe process with minimal post-operative discomfort.',
     bodyMarkdown: `## When do wisdom teeth need to be removed?
@@ -567,7 +567,7 @@ Most patients return to their normal activity within **24–48 hours**.`,
   'extracciones-dentales-arguelles-madrid-espana': {
     title: 'Tooth Extractions in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Tooth Extractions in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Tooth Extractions in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Atraumatic tooth extractions in Argüelles, Madrid. Always the last option when the tooth cannot be saved. Debod Dental Clinic.',
     heroText: 'Tooth extraction is always our last option. When it is not possible to save the tooth, we perform the extraction with an atraumatic technique to preserve the bone and soft tissues for future rehabilitation.',
     bodyMarkdown: `## Tooth extraction: when there is no other option
@@ -610,7 +610,7 @@ After extraction, we always present the replacement options:
   'cirugia-apical-arguelles-madrid-espana': {
     title: 'Apical Surgery in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Apical Surgery in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Apical Surgery in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Apicoectomy or apical surgery in Argüelles, Madrid. Surgical treatment when root canal treatment is not enough. Debod Dental Clinic.',
     heroText: 'Apical surgery (apicoectomy) makes it possible to save teeth with persistent periapical infection that does not respond to conventional root canal treatment.',
     bodyMarkdown: `## What is apical surgery?
@@ -651,7 +651,7 @@ Apical surgery has a long-term success rate of around 85–90%. It makes it poss
   'examenes-dentales-y-limpiezas-dentales-arguelles-madrid': {
     title: 'Dental Exams and Cleanings in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Dental Check-ups and Cleanings in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Dental Check-ups and Cleanings in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Professional dental check-ups and cleanings in Argüelles, Madrid. Prevention and early detection to keep your smile healthy. Debod Dental Clinic.',
     heroText: 'Regular dental check-ups and cleanings are the most cost-effective investment in your oral health. They prevent problems before they appear and keep your smile healthy and bright.',
     bodyMarkdown: `## The importance of regular check-ups
@@ -692,7 +692,7 @@ We recommend a check-up every **6 months** for most patients. Higher-risk patien
   'limpieza-dental-profunda-arguelles-madrid-espana': {
     title: 'Deep Dental Cleaning in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Deep Dental Cleaning in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Deep Dental Cleaning in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Deep dental cleaning in Argüelles, Madrid. Removal of subgingival tartar to combat periodontitis. Debod Dental Clinic.',
     heroText: 'A deep dental cleaning goes beyond a conventional prophylaxis, removing tartar that has built up below the gums to treat and prevent periodontal disease.',
     bodyMarkdown: `## Deep dental cleaning: more than a conventional cleaning
@@ -736,7 +736,7 @@ It is generally carried out in two sessions, treating half of the mouth at each 
   'deteccion-de-cancer-oral-arguelles-madrid-espana': {
     title: 'Oral Cancer Screening in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Oral Cancer Screening in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Oral Cancer Screening in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Early oral cancer screening in Argüelles, Madrid. A systematic examination included in every check-up. Debod Dental Clinic.',
     heroText: 'Oral cancer, when detected early, has a much more favourable prognosis. At Debod Dental Clinic we carry out a systematic examination of the oral mucosa at every check-up.',
     bodyMarkdown: `## Why early detection of oral cancer is so important
@@ -784,7 +784,7 @@ If we detect a suspicious lesion, we refer you immediately to a maxillofacial su
   'tratamiento-de-la-apnea-del-sueno-arguelles-madrid-espana': {
     title: 'Sleep Apnea Treatment in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Sleep Apnea Treatment in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Sleep Apnea Treatment in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Mandibular advancement devices for sleep apnea in Argüelles, Madrid. An alternative to CPAP. Debod Dental Clinic.',
     heroText: 'Mandibular advancement devices are an effective alternative to CPAP for the treatment of mild and moderate sleep apnea. Comfortable, discreet and custom-made.',
     bodyMarkdown: `## Sleep apnea and dentistry: an integrated approach
@@ -825,7 +825,7 @@ The MAD requires regular adjustments to maximise its effectiveness. We work in c
   'tratamientos-protectores-bucales-en-arguelles-madrid': {
     title: 'Mouthguards in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Mouthguards in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Mouthguards in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Custom mouthguards in Argüelles, Madrid. For sport, bruxism and sleep apnea. Debod Dental Clinic.',
     heroText: 'Custom mouthguards offer superior protection to generic ones, fitting your teeth perfectly for maximum comfort and effectiveness.',
     bodyMarkdown: `## Mouthguards: custom protection
@@ -863,7 +863,7 @@ For the treatment of mild and moderate sleep apnea and snoring.
   'limpieza-dental-infantil-arguelles-madrid-espana': {
     title: "Children's Dental Cleaning in Argüelles, Madrid",
     subtitle: 'TREATMENTS',
-    metaTitle: "Children's Dental Cleaning in Argüelles, Madrid — Debod Dental Clinic",
+    metaTitle: "Children's Dental Cleaning in Argüelles, Madrid | Debod Dental Clinic",
     metaDescription: "Children's dental cleaning in Argüelles, Madrid. Check-ups and prophylaxis for children in a friendly environment. Debod Dental Clinic.",
     heroText: "Children's dental cleaning is the first line of defence against decay in the little ones. In a warm, fear-free environment, we make the trip to the dentist a positive experience.",
     bodyMarkdown: `## Children's dental cleaning: prevention from an early age
@@ -903,7 +903,7 @@ We recommend visits every **6 months** from the eruption of the first tooth.`,
   'resina-pediatrica-arguelles-madrid-espana': {
     title: 'Paediatric Dental Fillings in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Paediatric Dental Fillings in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Paediatric Dental Fillings in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Paediatric composite fillings in Argüelles, Madrid. Treatment of decay in baby teeth with biocompatible materials. Debod Dental Clinic.',
     heroText: 'Paediatric composite fillings are the first-choice treatment for decay in baby teeth. Biocompatible, aesthetic and strong, they preserve the tooth until its natural replacement.',
     bodyMarkdown: `## Paediatric fillings: the modern treatment for childhood decay
@@ -942,7 +942,7 @@ We adapt the procedure to make it as comfortable and quick as possible for the c
   'retenedores-arguelles-madrid-espana-2': {
     title: 'Retainers in Argüelles, Madrid',
     subtitle: 'TREATMENTS',
-    metaTitle: 'Retainers in Argüelles, Madrid — Debod Dental Clinic',
+    metaTitle: 'Retainers in Argüelles, Madrid | Debod Dental Clinic',
     metaDescription: 'Custom orthodontic retainers in Argüelles, Madrid. Keep the results of your orthodontic treatment long-term. Debod Dental Clinic.',
     heroText: 'Retainers are the final stage of orthodontic treatment. They are essential to maintain the position achieved and prevent relapse.',
     bodyMarkdown: `## Retainers: protecting your orthodontic investment
