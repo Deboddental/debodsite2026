@@ -108,11 +108,22 @@ server.listen(PORT, async () => {
           if (k && dynamicKeys.has(k)) el.remove()
           else el.removeAttribute('data-static')
         })
-        // Restore the async-font trick: index.html ships the Google Fonts stylesheet
+        // Reset the async-font trick: index.html ships the Google Fonts stylesheet
         // as media="print" onload="this.media='all'" (non-blocking). During prerender
         // the onload fires, baking media="all" — render-blocking for real users. Reset
         // it to media="print" so the client-side onload re-enables it asynchronously.
         head.querySelectorAll('link[rel="stylesheet"][onload]').forEach((l) => { l.media = 'print' })
+
+        // GSAP leaves its FROM-state (opacity:0, visibility:hidden, translate) baked
+        // into the DOM. If we snapshot that, the static HTML ships hidden hero/copy and
+        // both the first paint and SEO/AI crawlers see invisible content. Clear the
+        // animation-only inline styles so the static HTML shows real content — GSAP
+        // re-runs its entrance on the client for real users, so the design is unchanged.
+        document.querySelectorAll('[style*="opacity: 0"], [style*="visibility: hidden"]').forEach((el) => {
+          el.style.removeProperty('opacity')
+          el.style.removeProperty('visibility')
+          el.style.removeProperty('transform')
+        })
       })
 
       const html = await page.content()

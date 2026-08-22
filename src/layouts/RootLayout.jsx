@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { Outlet, ScrollRestoration, useLocation } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import Navbar from '@/components/Navbar'
@@ -40,14 +40,11 @@ function LocaleMeta() {
 }
 
 export default function RootLayout() {
-  const [ready, setReady] = useState(false)
-  // Keep the brand intro but cut the forced delay from 2s → 0.9s: two seconds of a
-  // blocking splash on every first load hurts both conversion and LCP.
-  useEffect(() => { const t = setTimeout(() => setReady(true), 900); return () => clearTimeout(t) }, [])
-
+  // Brand intro splash — LoadingScreen owns its own lifecycle (fade in/out, ~600ms)
+  // so it doesn't cover the hero and delay LCP. No forced page delay here.
   return (
     <>
-      {!ready && <LoadingScreen />}
+      <LoadingScreen />
       <TrackingInit />
       <LangSync />
       <LocaleMeta />

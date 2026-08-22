@@ -4,9 +4,9 @@ export default function LoadingScreen() {
   const [phase, setPhase] = useState('enter') // enter → visible → exit
 
   useEffect(() => {
-    const enterTimer = setTimeout(() => setPhase('visible'), 100)
-    const exitTimer = setTimeout(() => setPhase('exit'), 1800)
-    const removeTimer = setTimeout(() => setPhase('gone'), 2400)
+    const enterTimer = setTimeout(() => setPhase('visible'), 40)
+    const exitTimer = setTimeout(() => setPhase('exit'), 380)
+    const removeTimer = setTimeout(() => setPhase('gone'), 600)
     return () => { clearTimeout(enterTimer); clearTimeout(exitTimer); clearTimeout(removeTimer) }
   }, [])
 

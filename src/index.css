@@ -199,7 +199,7 @@ body::before {
 }
 .loading-logo-pulse { animation: loading-pulse 1.6s ease-in-out infinite; }
 .loading-spinner { animation: loading-spinner 1.2s linear infinite; }
-.loading-fade-out { animation: loading-fade-out 0.6s ease-out forwards; }
+.loading-fade-out { animation: loading-fade-out 0.2s ease-out forwards; }
 
 /* ─── Section Dividers ──────────────────────────────────────── */
 .section-divider-wave { position: relative; width: 100%; overflow: hidden; line-height: 0; }
