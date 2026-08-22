@@ -99,7 +99,6 @@ export default function Home() {
  },[])
  return <div className="dd-home" ref={pageRef}>
   <Helmet><title>{en?'Debod Dental Clinic Madrid — Specialist Dentistry':'Debod Dental Clinic Madrid — Odontología de Especialistas'}</title><meta name="description" content={en?'Specialist dental clinic in Argüelles, Madrid. Digital dentistry, in-house laboratory and personalised care.':'Clínica dental de especialistas en Argüelles, Madrid. Odontología digital, laboratorio propio y atención personalizada.'}/></Helmet>
-  <JsonLd schema={{'@context':'https://schema.org','@type':'Dentist',name:'Debod Dental Clinic',url:en?'https://deboddentalclinic.com/en/':'https://deboddentalclinic.com/',telephone:'+34689104714',address:{'@type':'PostalAddress',streetAddress:'Calle de Ferraz',addressLocality:'Madrid',addressRegion:'Madrid',addressCountry:'ES'},areaServed:'Madrid',image:'https://deboddentalclinic.com/og-image.jpg'}}/>
   <JsonLd schema={{'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(item=>({'@type':'Question',name:L(item.q),acceptedAnswer:{'@type':'Answer',text:L(item.a)}}))}}/>
 
   <section className="dd-hero">
@@ -110,7 +109,7 @@ export default function Home() {
      <p>{en?'A multidisciplinary specialist team, advanced digital technology and our own dental laboratory — all in one clinic.':'Un equipo multidisciplinar de especialistas, tecnología digital avanzada y laboratorio dental propio, todo en una misma clínica.'}</p>
      <div className="dd-rating"><span>★★★★★</span><b>4.9</b> · {en?'Verified patient reviews':'Reseñas verificadas de pacientes'}</div>
      <div className="dd-pills">{benefits.map((b,i)=><span key={i}><Check size={13}/>{L(b)}</span>)}</div>
-     <div className="dd-actions"><CTA>{en?'Book your diagnostic visit':'Reserva tu visita diagnóstica'}</CTA><CTA outline href="tel:+34910000000"><Phone size={15}/>{en?'Call the clinic':'Llamar a la clínica'}</CTA></div>
+     <div className="dd-actions"><CTA>{en?'Book your diagnostic visit':'Reserva tu visita diagnóstica'}</CTA><CTA outline href="tel:+34914476225"><Phone size={15}/>{en?'Call the clinic':'Llamar a la clínica'}</CTA></div>
     </div>
     <div className="dd-proofGrid">
       <div><strong>15+</strong><span>{en?'Years of specialist experience':'Años de experiencia especializada'}</span></div><div><strong>4.9★</strong><span>{en?'Patient satisfaction':'Satisfacción de pacientes'}</span></div><div><strong>100%</strong><span>{en?'Digital planning':'Planificación digital'}</span></div><div><strong>1</strong><span>{en?'In-house dental lab':'Laboratorio dental propio'}</span></div>

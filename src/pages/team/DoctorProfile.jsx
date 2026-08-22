@@ -21,14 +21,23 @@ export default function DoctorProfile() {
   const title = tf(doctor, 'title', locale)
   const bio = tf(doctor, 'bioMarkdown', locale)
   const contactHref = locale === 'en' ? '/en/contact/' : '/contacto/'
+  // Plain-text bio excerpt for the meta description: strip markdown syntax so
+  // '**bold**' markers never leak into search snippets, and resolve to '' (not
+  // the literal string "undefined") for doctors whose bio isn't written yet.
+  const bioPlain = (bio || '').replace(/[#*_`>]/g, '').replace(/\s+/g, ' ').trim()
+  const bioExcerpt = bioPlain ? ` ${bioPlain.slice(0, 120).trim()}...` : ''
+  // Single precomputed string for <title> — react-helmet-async needs one plain
+  // string child; interpolating {doctor.name} — {title} directly as multiple
+  // JSX children was rendering a genuinely empty <title></title> in production.
+  const pageTitle = `${doctor.name} — ${title} | Debod Dental Clinic`
   const metaDescription = locale === 'en'
-    ? `${doctor.name}, specialist in ${title} at Debod Dental Clinic, Argüelles, Madrid. ${bio?.substring(0, 120)}...`
-    : `${doctor.name}, especialista en ${title} en Debod Dental Clinic, Argüelles, Madrid. ${bio?.substring(0, 120)}...`
+    ? `${doctor.name}, specialist in ${title} at Debod Dental Clinic, Argüelles, Madrid.${bioExcerpt}`
+    : `${doctor.name}, especialista en ${title} en Debod Dental Clinic, Argüelles, Madrid.${bioExcerpt}`
 
   return (
     <>
       <Helmet>
-        <title>{doctor.name} — {title} | Debod Dental Clinic</title>
+        <title>{pageTitle}</title>
         <meta name="description" content={metaDescription} />
         <meta property="og:title" content={`${doctor.name} — ${title}`} />
         <meta property="og:type" content="profile" />
