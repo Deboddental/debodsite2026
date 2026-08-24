@@ -907,7 +907,7 @@ Not always — at least not initially. Many patients only notice jaw stiffness o
 
 ### How much does bruxism treatment cost?
 
-The honest answer is that it depends entirely on the severity and on what treatment is needed. A custom-fitted night guard is typically the first step. If there is significant structural damage — teeth that need rebuilding with [crowns](/en/treatments/tratamientos-coronas-dentales-en-arguelles-madrid/) or other restorations — the cost reflects the scope of that work.
+The honest answer is that it depends entirely on the severity and on what treatment is needed. A custom-fitted night guard is typically the first step. If there is significant structural damage — teeth that need rebuilding with [crowns](/en/treatments/dental-crowns-arguelles-madrid/) or other restorations — the cost reflects the scope of that work.
 
 At Debod Dental Clinic, pricing is always confirmed after a full diagnostic assessment. We will not give a figure without properly examining the situation first. That is not a policy position — it is simply the only honest way to do it.
 
@@ -925,7 +925,7 @@ In many cases, yes — particularly when the underlying cause is identified and 
 
 ### How do I know if I have bruxism?
 
-The most common signs are waking with a sore jaw or headache, teeth that appear flatter or shorter than they used to, increased sensitivity, and a partner reporting grinding sounds during the night. It can also be detected at a [routine dental examination](/en/treatments/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) — often before any symptoms are noticed at all — through the characteristic wear patterns left on the enamel surface.
+The most common signs are waking with a sore jaw or headache, teeth that appear flatter or shorter than they used to, increased sensitivity, and a partner reporting grinding sounds during the night. It can also be detected at a [routine dental examination](/en/treatments/dental-exams-and-cleanings-arguelles-madrid/) — often before any symptoms are noticed at all — through the characteristic wear patterns left on the enamel surface.
 
 ## What Should You Know Before Your First Visit?
 
@@ -1016,7 +1016,7 @@ A patient in her early 40s came to us after being told elsewhere that she would 
 
 A second case: a man in his mid-30s who travelled frequently for work. Fixed braces were not compatible with his professional life — the discomfort, dietary restrictions, and aesthetic impact in client meetings were genuine barriers. We treated him with Invisalign®, with remote monitoring between in-person visits at our Argüelles practice. Treatment took 16 months. He described it as one of the most straightforward health decisions he had made in years. That is not unusual — removable orthodontics integrates into adult life in a way that fixed appliances simply cannot.
 
-A third case worth mentioning: a teenager referred to us by a paediatric dentist. She had significant upper arch crowding, but her jaw was still growing — which opened up options not available to an adult. We combined a palatal expansion phase with [Invisalign® Teen clear aligners](/en/treatments/invisalign-alineadores-transparentes-arguelles-madrid-espana/) to guide development. The interceptive approach meant avoiding extractions that would almost certainly have been required had she waited. If you are wondering whether your child might benefit from an orthodontic assessment, the short answer is: earlier is nearly always better than later.
+A third case worth mentioning: a teenager referred to us by a paediatric dentist. She had significant upper arch crowding, but her jaw was still growing — which opened up options not available to an adult. We combined a palatal expansion phase with [Invisalign® Teen clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/) to guide development. The interceptive approach meant avoiding extractions that would almost certainly have been required had she waited. If you are wondering whether your child might benefit from an orthodontic assessment, the short answer is: earlier is nearly always better than later.
 
 ## Frequently Asked Questions About Invisible Orthodontics
 
@@ -1142,11 +1142,11 @@ The preparation is done under local anaesthetic, so you will not feel anything d
 
 ### How long do porcelain veneers last?
 
-Properly placed and maintained, **lithium disilicate veneers last 15 to 20 years on average**. Feldspar ceramic sits closer to 10 to 15 years. These figures come from peer-reviewed research, not marketing materials. Actual longevity depends on your bite, your habits, and whether you keep up with your six-monthly check-ups — which include a [professional dental cleaning](/en/treatments/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) to maintain the gum margin around each restoration.
+Properly placed and maintained, **lithium disilicate veneers last 15 to 20 years on average**. Feldspar ceramic sits closer to 10 to 15 years. These figures come from peer-reviewed research, not marketing materials. Actual longevity depends on your bite, your habits, and whether you keep up with your six-monthly check-ups — which include a [professional dental cleaning](/en/treatments/dental-exams-and-cleanings-arguelles-madrid/) to maintain the gum margin around each restoration.
 
 ### What is the difference between a veneer and a dental crown?
 
-A veneer covers only the visible front surface of the tooth, leaving most of the natural structure intact. A [dental crown](/en/treatments/tratamientos-coronas-dentales-en-arguelles-madrid/) encases the entire tooth and requires significantly more preparation of the tooth structure. For purely aesthetic concerns on otherwise healthy teeth, a veneer is almost always the more conservative and preferable option.
+A veneer covers only the visible front surface of the tooth, leaving most of the natural structure intact. A [dental crown](/en/treatments/dental-crowns-arguelles-madrid/) encases the entire tooth and requires significantly more preparation of the tooth structure. For purely aesthetic concerns on otherwise healthy teeth, a veneer is almost always the more conservative and preferable option.
 
 ### Can porcelain veneers stain or change colour over time?
 
@@ -1230,9 +1230,9 @@ Real situations — anonymised, of course — tend to say more than any list of 
 
 **A 38-year-old patient from the Moncloa area** came to us after being told at three different clinics that she needed porcelain veneers on her six upper front teeth. Each quote was different. Not one had taken a full set of X-rays. When we examined her, we found active gum inflammation and a mild posterior cross-bite causing asymmetric wear on her back teeth.
 
-We explained clearly: veneers on inflamed gums are clinically contraindicated. The gum tissue must be healthy — firm, coral-pink, and stable — before any aesthetic work can begin. We treated the periodontal issue first with a [thorough dental examination and professional clean](/en/treatments/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/), then corrected the cross-bite with clear aligners. By the time she was ready for veneers, she only needed four — not six — because the bite correction had already improved the symmetry significantly. Less treatment, better result, lower cost.
+We explained clearly: veneers on inflamed gums are clinically contraindicated. The gum tissue must be healthy — firm, coral-pink, and stable — before any aesthetic work can begin. We treated the periodontal issue first with a [thorough dental examination and professional clean](/en/treatments/dental-exams-and-cleanings-arguelles-madrid/), then corrected the cross-bite with clear aligners. By the time she was ready for veneers, she only needed four — not six — because the bite correction had already improved the symmetry significantly. Less treatment, better result, lower cost.
 
-A 52-year-old man came in having lost two molars years earlier and never had them replaced. He had been told elsewhere that he was "not a candidate for implants" due to bone loss. We took a TAC 3D scan and found sufficient bone volume for a [guided implant procedure](/en/treatments/cirugia-guiada-de-implantes-dentales-arguelles-madrid/) at one of the two sites. The other required a bone regeneration protocol first. Today, both are fully restored. He told us it was the first time a dentist had actually shown him the scan and walked him through the findings step by step. That, to us, is what dental care should look like.
+A 52-year-old man came in having lost two molars years earlier and never had them replaced. He had been told elsewhere that he was "not a candidate for implants" due to bone loss. We took a TAC 3D scan and found sufficient bone volume for a [guided implant procedure](/en/treatments/guided-implant-surgery-arguelles-madrid/) at one of the two sites. The other required a bone regeneration protocol first. Today, both are fully restored. He told us it was the first time a dentist had actually shown him the scan and walked him through the findings step by step. That, to us, is what dental care should look like.
 
 Now — the aesthetic issue no one warned you about. The most common complaint we hear from patients who had veneers done elsewhere is not pain or the cost. It is that the result looks "too perfect." Square, uniformly white, with no texture or natural variation. Indistinguishable from a set of false teeth. Real teeth have character: slight translucency near the edges, gentle surface ridges, natural shade variation from root to tip. At Debod Dental Lab — our in-house digital laboratory — every restoration is designed to preserve that natural character. Because a result that looks real is one you will still be happy with a decade from now.
 
@@ -1244,7 +1244,7 @@ Now — the aesthetic issue no one warned you about. The most common complaint w
 
 **Does the first consultation cost anything?** The first diagnostic visit at Debod Dental Clinic is included — no charge for the initial assessment.
 
-**How do I know if I need a specialist?** It depends on what you need. For orthodontics and bite issues, Dr. Víctor Guerrero leads our orthodontics department — he has over 15 years of experience and is one of the leading [Invisalign and clear aligner specialists in Madrid](/en/treatments/invisalign-alineadores-transparentes-arguelles-madrid-espana/). For implants, crowns, and full oral rehabilitation, Dr. César Rodríguez holds a Master's in Facial Prosthetics and Occlusion from UCM and teaches at university level. We will steer you in the right direction from the very first visit.
+**How do I know if I need a specialist?** It depends on what you need. For orthodontics and bite issues, Dr. Víctor Guerrero leads our orthodontics department — he has over 15 years of experience and is one of the leading [Invisalign and clear aligner specialists in Madrid](/en/treatments/invisalign-clear-aligners-arguelles-madrid/). For implants, crowns, and full oral rehabilitation, Dr. César Rodríguez holds a Master's in Facial Prosthetics and Occlusion from UCM and teaches at university level. We will steer you in the right direction from the very first visit.
 
 **What financing is available?** Up to 60 months, with 0% interest for the first 12 months and no deposit required. We go through all the options at the diagnostic visit so you have the full picture before making any decision.
 
@@ -1357,7 +1357,7 @@ A few things worth bearing in mind before you come in for your assessment:
 
 The most valuable thing before starting any orthodontic treatment is a thorough diagnostic assessment. At Debod Dental Clinic, this is done using an intraoral digital scanner and, where the case calls for it, a 3D CT scan — all processed through Debod Dental Lab, our in-house digital laboratory. That means no outsourcing, no delays, and direct clinical control over every stage of your treatment.
 
-If you want to explore the full treatment process before coming in, our [Invisalign and transparent aligners](/en/treatments/invisalign-alineadores-transparentes-arguelles-madrid-espana/) page covers everything in detail.
+If you want to explore the full treatment process before coming in, our [Invisalign and transparent aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/) page covers everything in detail.
 
 ## When Is It Urgent to See a Dentist?
 
@@ -1367,7 +1367,7 @@ Contact the clinic if pain persists beyond seven days without any sign of improv
 
 If a tray cracks or breaks, get in touch the same day. Continuing with a broken tray can disrupt the planned movement sequence, causing subsequent trays to fit poorly. Equally, if you misplace a tray and go more than 24 hours without wearing one, your orthodontist can advise whether to go back to the previous tray or move straight to the next.
 
-**Gum health during treatment matters more than most people realise.** If your gums become red or swollen, or bleed regularly during brushing, flag it promptly. Teeth cannot move predictably through inflamed tissue, and unaddressed gum issues can slow treatment or affect the final result. A [dental clean and check-up](/en/treatments/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) before starting orthodontic treatment is always a sensible first step.
+**Gum health during treatment matters more than most people realise.** If your gums become red or swollen, or bleed regularly during brushing, flag it promptly. Teeth cannot move predictably through inflamed tissue, and unaddressed gum issues can slow treatment or affect the final result. A [dental clean and check-up](/en/treatments/dental-exams-and-cleanings-arguelles-madrid/) before starting orthodontic treatment is always a sensible first step.
 
 ## Why Choose Debod Dental Clinic?
 
@@ -1453,7 +1453,7 @@ Porcelain veneers have a **survival rate of approximately 93–94% at ten years*
 
 ### How much do veneers and crowns cost in Madrid?
 
-In Madrid, [porcelain veneers](/en/treatments/carillas-de-porcelana-arguelles-madrid-espana/) typically range from 450 to 900 € per tooth; zirconia crowns from 500 to 900 € per unit. At Debod Dental Clinic, the exact cost is confirmed only after a full diagnostic assessment — we never quote without examining the tooth, reviewing the bite, and understanding the full clinical picture. **Financing is available up to 60 months**, with 0% interest for up to 12 months and no deposit required.
+In Madrid, [porcelain veneers](/en/treatments/porcelain-veneers-arguelles-madrid/) typically range from 450 to 900 € per tooth; zirconia crowns from 500 to 900 € per unit. At Debod Dental Clinic, the exact cost is confirmed only after a full diagnostic assessment — we never quote without examining the tooth, reviewing the bite, and understanding the full clinical picture. **Financing is available up to 60 months**, with 0% interest for up to 12 months and no deposit required.
 
 ### What should I do if my crown falls off?
 
@@ -1465,7 +1465,7 @@ You can, but a thorough clinical assessment is needed first. **Bruxism significa
 
 ### When is a dental crown the right choice, even on a front tooth?
 
-When a tooth has lost more than roughly 50% of its structure — through deep decay, a large old filling, or significant fracture — a veneer will not have sufficient healthy enamel to bond to reliably. Root-treated teeth also usually need a [dental crown](/en/treatments/tratamientos-coronas-dentales-en-arguelles-madrid/) rather than a veneer: once the nerve is removed, the tooth becomes considerably more brittle, and a full crown offers much better long-term protection. In these cases, a crown is the clinically appropriate choice. Not a downgrade — the right tool for the situation.
+When a tooth has lost more than roughly 50% of its structure — through deep decay, a large old filling, or significant fracture — a veneer will not have sufficient healthy enamel to bond to reliably. Root-treated teeth also usually need a [dental crown](/en/treatments/dental-crowns-arguelles-madrid/) rather than a veneer: once the nerve is removed, the tooth becomes considerably more brittle, and a full crown offers much better long-term protection. In these cases, a crown is the clinically appropriate choice. Not a downgrade — the right tool for the situation.
 
 ## What Should You Know Before Your First Visit?
 
@@ -1490,7 +1490,7 @@ A restoration that has come loose or fallen off — particularly a crown — sho
 
 At Debod Dental Clinic, on Calle de Ferraz, 24 in Argüelles, every veneer and crown case is supported by our in-house laboratory — **Debod Dental Lab** — where restorations are designed, milled, and quality-checked on site. There is no relay to an external facility with a generic brief. Dr César Rodríguez, our prosthodontist, holds a Master's in Facial Prosthetics and Occlusion from the Complutense University of Madrid (UCM) and teaches the subject at postgraduate level. He works directly with the lab team at every stage of the process.
 
-Every cosmetic case starts with a diagnostic appointment at no charge. If you are considering veneers for spacing or alignment concerns, it is worth knowing that [Invisalign clear aligners](/en/treatments/invisalign-alineadores-transparentes-arguelles-madrid-espana/) can sometimes achieve the same result without preparing a single tooth — we will always tell you if that is the more appropriate route.
+Every cosmetic case starts with a diagnostic appointment at no charge. If you are considering veneers for spacing or alignment concerns, it is worth knowing that [Invisalign clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/) can sometimes achieve the same result without preparing a single tooth — we will always tell you if that is the more appropriate route.
 
 We are open Monday to Friday, 9:00 to 20:00. You can reach us at info@deboddentalclinic.com or call +34 914 47 62 25.`,
 },
@@ -1532,7 +1532,7 @@ Every treatment starts with a complimentary diagnostic visit: a clinical examina
 
 This is the first question every international patient asks. Rightly so.
 
-Dental treatment in Madrid typically costs **between 40% and 65% less** than equivalent care in the UK or Germany. A single dental implant that might run to £2,000–£3,000 in London tends to fall in the €800–€1,400 range here, depending on the complexity of your case and whether any preparatory procedures are needed. Ceramic crowns generally sit between €350 and €600; [porcelain veneers](/en/treatments/carillas-de-porcelana-arguelles-madrid-espana/) between €400 and €700 per tooth; a full course of Invisalign between €2,500 and €4,500.
+Dental treatment in Madrid typically costs **between 40% and 65% less** than equivalent care in the UK or Germany. A single dental implant that might run to £2,000–£3,000 in London tends to fall in the €800–€1,400 range here, depending on the complexity of your case and whether any preparatory procedures are needed. Ceramic crowns generally sit between €350 and €600; [porcelain veneers](/en/treatments/porcelain-veneers-arguelles-madrid/) between €400 and €700 per tooth; a full course of Invisalign between €2,500 and €4,500.
 
 These are honest orientation figures, not fixed quotes. The exact price for your specific case is confirmed after the first diagnostic visit — which is included at no charge — using a full 3D scan and intraoral assessment. But does saving this much mean you're getting something inferior? That's a fair question, and we'll come back to it when we describe the process.
 
@@ -1546,7 +1546,7 @@ A few things to bear in mind before booking:
 
 - Gums must be healthy — a healthy, **coral-pink colour** — before any restorative or cosmetic work can begin. We won't place veneers or implants on inflamed tissue.
 - Active tooth decay must be treated before placing crowns, veneers, or implants on top of it.
-- Osseointegration — the biological process by which a titanium implant fuses with the jawbone — takes **3 to 6 months**. [Dental implants](/en/treatments/implantes-dentales-arguelles-madrid-espana/) genuinely require at least two visits to Madrid, spaced apart by that interval. Any clinic promising completed implants in a single trip is not being straight with you.
+- Osseointegration — the biological process by which a titanium implant fuses with the jawbone — takes **3 to 6 months**. [Dental implants](/en/treatments/dental-implants-arguelles-madrid/) genuinely require at least two visits to Madrid, spaced apart by that interval. Any clinic promising completed implants in a single trip is not being straight with you.
 - If you have a significant bite problem — deep bite, crossbite, severe crowding — this should be assessed before extensive cosmetic treatment. Aesthetics built on an unstable bite don't last.
 
 If you already have a panoramic X-ray (OPG), you're welcome to send it to info@deboddentalclinic.com before travelling. We can often give you a preliminary picture of what's involved before you book your flights.
