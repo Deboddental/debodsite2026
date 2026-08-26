@@ -833,6 +833,190 @@ Premio WhiteSmile 2023. Primera visita diagnóstica gratuita, con escáner intra
 
 ¿Queréis saber si vuestro caso tiene solución en Debod? Escribidnos o [pedid cita](/contacto/) — hacemos la valoración preliminar por videollamada antes de que compréis el vuelo.`,
 },
+  {
+  slug: 'espacio-biologico-encia-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: 'Espacio Biológico de la Encía: Qué Es y Por Qué Importa',
+  publishDate: '2026-08-26',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Espacio Biológico de la Encía — Debod Dental Clinic Argüelles',
+  metaDescription: 'Qué es el espacio biológico de la encía, por qué se inflama al invadirlo y cómo evitarlo en coronas o carillas. Te lo explicamos en Argüelles, Madrid.',
+  excerpt: 'Si una corona o carilla te deja la encía inflamada sin motivo aparente, puede que el problema no sea la higiene. Te contamos qué es el espacio biológico.',
+  heroImageUrl: '/Images/blog/webp/encias-retraidas.webp',
+  faqs: [
+    {
+      question: '¿Duele cuando se invade el espacio biológico?',
+      answer: 'No suele doler en el sentido clásico de un dolor de muelas. Lo habitual es notar la encía inflamada, roja y que sangra con facilidad alrededor de un diente concreto, sobre todo si tiene una corona o funda. Puede molestar al cepillarte o al pasar el hilo, pero raramente es un dolor agudo.',
+    },
+    {
+      question: '¿Cuánto tarda en notarse el problema tras poner una corona?',
+      answer: 'Puede tardar semanas o incluso meses. A veces la encía aguanta bien un tiempo y luego empieza a inflamarse de forma progresiva porque el organismo va perdiendo la batalla por recuperar ese espacio fisiológico que necesita. Por eso revisamos las restauraciones en las visitas de mantenimiento, no solo cuando ya hay molestias.',
+    },
+    {
+      question: '¿Cuánto cuesta corregir una invasión del espacio biológico?',
+      answer: 'Depende totalmente del caso: si basta con rehacer el margen de una corona, si hace falta un alargamiento coronario quirúrgico o si se puede resolver con extrusión ortodóncica. No damos una cifra sin valorar antes con sondaje y, si hace falta, TAC 3D. En tu primera visita diagnóstica te explicamos las opciones y su coste real.',
+    },
+    {
+      question: '¿Es urgente si tengo una encía inflamada alrededor de una corona antigua?',
+      answer: 'No es una urgencia dental en el sentido de ir a un servicio de guardia, pero tampoco conviene dejarlo pasar. Una inflamación localizada y persistente que no responde a la higiene puede estar erosionando hueso poco a poco. Cuanto antes lo miremos, más conservador puede ser el tratamiento.',
+    },
+    {
+      question: '¿Se puede prevenir la invasión del espacio biológico?',
+      answer: 'En gran parte sí. La clave está en cómo se diseña el margen de la restauración antes de tallar el diente. Con escáner intraoral y planificación digital podemos calcular esa distancia con precisión submilimétrica, algo que a ojo es mucho más difícil de garantizar.',
+    },
+    {
+      question: '¿Merece la pena hacer un alargamiento coronario en vez de vivir con la inflamación?',
+      answer: 'En la mayoría de los casos que vemos en consulta, sí. Es una cirugía menor, con anestesia local, y en estudios de seguimiento a medio y largo plazo resuelve la inflamación en más del 90% de los casos cuando el paciente mantiene una buena higiene después. Vivir con una encía inflamada de forma crónica suele acabar pasando factura al hueso.',
+    },
+  ],
+  bodyMarkdown: `## ¿Qué es el espacio biológico de la encía? — La respuesta directa
+
+El espacio biológico (o anchura biológica) es la distancia fisiológica que la encía y el hueso necesitan para mantenerse sanos alrededor de cada diente. Mide aproximadamente **3 milímetros** desde el margen de la encía hasta la cresta ósea, y cuando una corona, una carilla o una caries profunda invaden ese espacio, la encía reacciona con inflamación crónica. En Debod Dental Clinic, en Argüelles, Madrid, lo tenemos en cuenta desde el primer diseño de cualquier restauración, no solo cuando ya ha dado problemas.
+
+Soy el Dr. César Rodríguez, y en mi consulta este es uno de esos temas que casi nadie pregunta pero que explica muchos casos de "encía que no cicatriza" tras poner una corona. No es mala higiene. Es geometría del diente.
+
+## ¿Por qué importa esto para tu salud dental?
+
+Piensa en el espacio biológico como el margen de seguridad que necesita una puerta para abrir sin rozar el marco. Si el marco (el margen de tu corona o carilla) se coloca demasiado profundo, invadiendo ese espacio, la encía no tiene sitio para "respirar" y responde inflamándose de forma constante, aunque te cepilles perfectamente.
+
+¿Es normal que esto pase? Con más frecuencia de la que gustaría, sobre todo en restauraciones antiguas hechas sin planificación digital. El problema no es solo estético. Una inflamación mantenida en el tiempo puede derivar en pérdida de hueso localizada alrededor de ese diente, lo que a la larga compromete la estabilidad de la propia restauración. He visto [coronas dentales](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) técnicamente bien hechas fracasar años después solo por este motivo.
+
+¿Qué pasa si no se corrige? La encía sigue intentando "recuperar" ese espacio de forma natural, a veces retrayéndose, a veces manteniendo una inflamación que sangra al mínimo roce. Ninguna de las dos cosas es buena a medio plazo.
+
+## Preguntas frecuentes
+
+### ¿Duele cuando se invade el espacio biológico?
+
+No suele doler como un dolor de muelas clásico. Lo habitual es notar la encía roja, inflamada y que sangra con facilidad alrededor de un diente concreto, especialmente si tiene una corona. Molesta al cepillarte, pero raramente es un dolor agudo o pulsátil.
+
+### ¿Cuánto tarda en notarse el problema tras poner una corona?
+
+Puede tardar semanas o meses en manifestarse. Por eso revisamos las restauraciones en las visitas de mantenimiento periódico, no solo cuando ya hay una molestia evidente.
+
+### ¿Cuánto cuesta corregir una invasión del espacio biológico?
+
+Depende del caso: si basta con rehacer el margen de una restauración, si hace falta un alargamiento coronario quirúrgico, o si se resuelve con extrusión ortodóncica. Lo confirmamos siempre tras la valoración con sondaje y, si es necesario, TAC 3D. No damos cifras sin ver antes la boca.
+
+### ¿Es urgente si tengo una encía inflamada alrededor de una corona antigua?
+
+No es una urgencia de las de ir corriendo a un servicio de guardia, pero tampoco conviene dejarlo pasar meses. Una inflamación localizada y persistente puede ir erosionando hueso poco a poco de forma silenciosa.
+
+### ¿Se puede prevenir la invasión del espacio biológico?
+
+En gran parte sí, y ahí es donde marca la diferencia cómo se planifica el margen de la restauración antes de tallar el diente. Con escáner intraoral podemos calcular esa distancia con una precisión que a ojo es muy difícil de garantizar.
+
+## ¿Qué debes saber antes de tu primera visita?
+
+- Si vas a ponerte una corona, una [carilla de porcelana](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) o una incrustación, pregunta dónde se ubicará el margen y si hay riesgo de invadir el espacio biológico, sobre todo en dientes con caries profundas o fracturas.
+- Si tienes inflamación persistente alrededor de un diente restaurado que no mejora con más cepillado, puede que el origen no sea de higiene sino biomecánico.
+- El sondaje óseo y una radiografía periapical son las herramientas básicas para diagnosticarlo; no hace falta nada invasivo para empezar a valorarlo.
+- El mantenimiento periodontal cada 3-6 meses ayuda a detectar este tipo de inflamación localizada antes de que afecte al hueso.
+
+Nunca colocamos una restauración estética sobre una encía inflamada o con caries activa sin resolver antes. La encía tiene que estar sana, de color rosa coral, antes de pensar en el resultado final. Y ese resultado, por cierto, tiene que conservar la textura natural del diente: nada de formas cuadradas ni de sonrisa "de anuncio".
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Hay señales que no conviene dejar pasar: sangrado que persiste semana tras semana alrededor de un diente concreto, una sensación de que la encía "se ha retraído" de forma visible, o dolor que aparece al masticar por ese lado. Si además tienes una corona o carilla de hace años en esa zona, hay más motivo para revisarlo pronto. ¿Cuánto tarda en agravarse si no se trata? Varía mucho de una persona a otra, pero cuanto antes lo valoremos, más conservador puede ser el tratamiento.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+Contamos con laboratorio propio, Debod Dental Lab, donde diseñamos cada restauración de forma digital antes de fabricarla, calculando los márgenes con la precisión que este tipo de problema exige. Usamos escáner intraoral y TAC 3D para planificar casos de [implantes dentales](/tratamientos/implantes-dentales-arguelles-madrid-espana/) o rehabilitaciones complejas sin sorpresas de última hora.
+
+La primera visita diagnóstica está incluida, así que si notas esa inflamación rara alrededor de una corona antigua, lo lógico es que vengas y lo miremos con calma antes de decidir nada. Estamos en C. de Ferraz, 24, Argüelles, a un paseo del metro Ventura Rodríguez (L3). Puedes [pedir cita](/contacto/) llamando al +34 914 47 62 25 o escribiendo a info@deboddentalclinic.com, de lunes a viernes de 9:00 a 20:00.`,
+},
+  {
+  slug: 'invisalign-apinamiento-severo-madrid',
+  category: 'odontologia-estetica',
+  categoryLabel: 'Odontología Estética',
+  title: 'Invisalign con apiñamiento severo: ¿es posible?',
+  publishDate: '2026-08-26',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-victor-guerrero',
+  metaTitle: 'Invisalign con Apiñamiento Severo — Debod Dental Clinic Argüelles',
+  metaDescription: '¿Se puede corregir apiñamiento dental severo con Invisalign en Madrid? Te explico cuándo funciona, cuándo no y qué alternativas existen.',
+  excerpt: '¿Tienes los dientes muy montados y te han dicho que Invisalign no es para ti? Te cuento cuándo funciona de verdad y cuándo hace falta otra cosa.',
+  heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
+  faqs: [
+    {
+      question: '¿Duele hacer Invisalign con apiñamiento severo?',
+      answer: 'No duele como tal, pero sí notas presión los primeros dos o tres días de cada alineador nuevo, sobre todo cuando hay dientes muy montados que necesitan moverse más. Es una molestia de "diente cargado", no dolor agudo. Si duele de verdad, algo no encaja bien y hay que revisarlo en consulta.',
+    },
+    {
+      question: '¿Cuánto cuesta Invisalign para apiñamiento severo en Madrid?',
+      answer: 'El precio depende mucho de la complejidad: número de alineadores, si hace falta stripping interproximal, attachments o incluso alguna extracción. En Madrid estos tratamientos suelen moverse en una horquilla amplia, pero el número real solo se puede dar tras el estudio con escáner 3D y ClinCheck. En tu primera visita diagnóstica en Debod Dental Clinic te damos un presupuesto cerrado, sin sorpresas después.',
+    },
+    {
+      question: '¿Cuánto dura el tratamiento con Invisalign en casos de apiñamiento severo?',
+      answer: 'En apiñamientos leves hablamos de 6 a 12 meses. En severos, lo normal es que el tratamiento se alargue entre 18 y 30 meses, porque hay más milímetros que ganar y movimientos más complicados, como rotaciones de caninos, que necesitan su tiempo para hacerse bien.',
+    },
+    {
+      question: '¿Es urgente tratar un apiñamiento severo?',
+      answer: 'No suele ser una urgencia médica salvo que esté generando dolor, mordida traumática sobre la encía o dificultad real para limpiar ciertas zonas. Pero cuanto más se espera, más difícil puede ser el acceso a la limpieza en esas zonas apiñadas, y ahí sí que se acumula placa y aparece caries o inflamación de encía con más facilidad.',
+    },
+    {
+      question: '¿Qué pasa si mi apiñamiento es tan severo que Invisalign no llega?',
+      answer: 'Pasa, y es honesto decirlo: hay casos con dientes muy rotados o piezas totalmente fuera de arcada donde los alineadores solos no consiguen el control necesario. En esos casos valoramos un enfoque combinado, con ortodoncia fija parcial al inicio para descruzar lo más complicado, y terminamos con Invisalign. La decisión sale siempre del estudio con TAC y escáner intraoral, nunca a ojo.',
+    },
+    {
+      question: '¿Merece la pena Invisalign frente a los brackets en apiñamiento severo?',
+      answer: 'Depende de tu caso y de tus prioridades. Si buscas discreción y una higiene más cómoda durante el tratamiento, Invisalign tiene ventaja clara porque te lo quitas para comer y para limpiarte los dientes. Pero en rotaciones muy marcadas los brackets tienen más control mecánico. Por eso en consulta miramos el caso concreto antes de recomendar uno u otro.',
+    },
+  ],
+  bodyMarkdown: `## ¿Se puede hacer Invisalign con dientes muy apiñados? — La respuesta directa
+
+Sí, se puede, aunque no siempre es tan sencillo como lo pintan algunos anuncios. Los alineadores transparentes han evolucionado mucho y hoy manejan apiñamientos moderados e incluso severos con herramientas como el stripping interproximal, los attachments o la expansión controlada de la arcada. En **Debod Dental Clinic**, en Argüelles, Madrid, valoramos cada caso con escáner intraoral y TAC 3D antes de decir sí o no, porque no todos los apiñamientos severos son iguales por dentro.
+
+## ¿Por qué importa esto para tu salud dental?
+
+Un apiñamiento severo no es solo un tema estético. Cuando los dientes se montan unos sobre otros, se crean rincones donde el cepillo no llega bien, por mucho que te esfuerces. Ahí se acumula placa, y con el tiempo aparece caries interproximal o inflamación de encía en esas zonas de difícil acceso. Yo en consulta veo bastantes pacientes que llegan pensando que su problema es "solo estético", y al mirar de cerca encontramos ya algo de gingivitis localizada en las zonas más apiñadas.
+
+Hay otra cosa que se nota menos a simple vista: la mordida. Cuando hay mucho apiñamiento, es habitual que algunos dientes no contacten como deberían, y eso reparte mal la fuerza al masticar. A la larga, eso desgasta esmalte de forma desigual. No es una emergencia, pero sí es un motivo real para no dejarlo pasar sin más.
+
+## Preguntas frecuentes
+
+### ¿Cuánto apiñamiento es "demasiado" para Invisalign?
+
+Clínicamente hablamos de milímetros de discrepancia, es decir, cuánto espacio le falta a la boca para que todos los dientes quepan alineados. Hasta 4 mm se considera leve, entre 5 y 9 mm moderado, y a partir de 10 mm ya hablamos de severo. Con más de 10 mm no significa que Invisalign quede descartado automáticamente, pero sí que hace falta combinar más recursos: IPR, attachments, y a veces alguna extracción de premolar si el espacio simplemente no da para todos los dientes.
+
+### ¿Duele el proceso de mover dientes muy montados?
+
+Molesta, sobre todo los primeros días de cada alineador, cuando el diente empieza a moverse hacia su posición nueva. Es una presión sorda, no un dolor punzante. Si en algún momento el dolor es intenso o continuo, hay que revisarlo, porque puede indicar que el alineador no está asentando bien.
+
+### ¿Cuánto tarda un tratamiento así?
+
+Aquí sí hay que ser realista: un apiñamiento severo tarda más que uno leve. Mientras que un caso sencillo se resuelve en 6 a 12 meses, uno severo suele necesitar entre 18 y 30 meses. La disciplina del paciente pesa mucho: los alineadores hay que llevarlos mínimo 22 horas al día, y si se incumple eso el tratamiento se alarga todavía más.
+
+### ¿Cuánto cuesta corregir apiñamiento severo con Invisalign?
+
+No doy una cifra cerrada aquí, porque sería poco honesto: el precio depende del número de alineadores, de si hace falta IPR o attachments, y de si se necesita algún refinamiento extra al final. Lo que sí puedo decir es que en la primera visita diagnóstica, con el escáner 3D delante, salimos con un presupuesto real y cerrado, sin letra pequeña.
+
+### ¿Es urgente si tengo mucho apiñamiento?
+
+No es una urgencia como un dolor de muela agudo, pero tampoco es "para cuando tengas tiempo". Cuanto más tiempo pasa, más difícil es mantener limpias esas zonas apiñadas, y el riesgo de caries y de recesión de encía va subiendo poco a poco.
+
+## ¿Qué debes saber antes de tu primera visita?
+
+Antes de venir a la consulta, conviene tener claras algunas cosas:
+
+- No hace falta que sepas si tu caso es "leve" o "severo": para eso está el escáner 3D, que mide el espacio real que falta.
+- Trae cualquier ortopantomografía o radiografía panorámica reciente si la tienes, ayuda a acelerar el diagnóstico.
+- Piensa si te preocupa más la estética durante el tratamiento (ahí Invisalign gana) o el tiempo total (ahí a veces los brackets son más rápidos en casos muy complejos).
+- Pregunta siempre si el presupuesto incluye los retenedores finales, porque sin retenedor los dientes tienden a volver a montarse con el tiempo.
+
+Y sobre todo, desconfía de cualquier clínica que te dé un ClinCheck superficial de dos minutos para un caso complicado. En un apiñamiento severo, la simulación en 3D debe mostrarte con detalle si habrá extracciones, cuántos attachments hacen falta y en qué fase del tratamiento se hace el stripping.
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Hay señales que no conviene dejar pasar: dolor al morder que no desaparece, sangrado de encía constante en las zonas más apiñadas, mal aliento que no mejora con la higiene habitual, o un diente que notas que se ha movido de golpe en poco tiempo. Cualquiera de estas señales merece una revisión antes de plantearse siquiera la ortodoncia, porque primero hay que asegurar que la boca está sana.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+En mi consulta siempre parto de lo mismo: no se puede planificar un [Invisalign](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) serio sin ver bien lo que hay debajo de la encía. Por eso usamos escáner intraoral y TAC 3D desde la primera cita, y contamos con **Debod Dental Lab**, nuestro laboratorio propio, para ajustar cada detalle del tratamiento sin depender de terceros ni de plazos externos.
+
+La primera visita diagnóstica está incluida, así que puedes venir, hacerte el estudio completo y salir con una respuesta honesta sobre tu caso, sea Invisalign puro, un enfoque combinado, o incluso derivarte a valorar otras opciones como [carillas de porcelana](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) si lo que buscas es más estético que ortodóncico. Estamos en C. de Ferraz, 24, Argüelles, a un paso del metro Ventura Rodríguez, y ofrecemos financiación hasta 60 meses con 0% de interés durante el primer año. Si quieres, puedes [pedir cita](/contacto/) y lo vemos con calma.`,
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -1602,6 +1786,195 @@ We were awarded the **WhiteSmile 2023 prize**, but what we hear most from patien
 We're at **C. de Ferraz, 24, Argüelles, 28008 Madrid**, a short walk from Ventura Rodríguez metro station (Line 3), and easily reached from Plaza de España and Argüelles stations too. We're open Monday to Friday, 9:00–20:00, reachable at info@deboddentalclinic.com or **+34 914 47 62 25**.
 
 The first diagnostic visit is complimentary — no commitment, no pressure. Just an honest assessment of your dental health and a clear plan. [Book your visit](/en/contact/) and let us take it from there.`
+},
+  'espacio-biologico-encia-madrid': {
+  title: 'Biological Width: What It Is and Why It Matters',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Biological Width Explained — Debod Dental Clinic Argüelles',
+  metaDescription: 'What is biological width and why does it matter for crowns, veneers and gum health? Debod Dental Clinic Argüelles, Madrid explains.',
+  excerpt: 'Ever wondered why some crowns cause gum inflammation that never seems to settle? It often comes down to something called biological width.',
+  faqs: [
+    {
+      question: 'Does invading the biological width hurt?',
+      answer: 'Not usually on its own. What you tend to notice is persistent gum inflammation or bleeding around a specific tooth that does not improve however well you brush and floss. Some patients also feel tenderness when pressing the gum near a crown margin, but sharp pain is not typical unless there is an infection alongside it.',
+    },
+    {
+      question: 'How much does treatment cost?',
+      answer: 'It depends entirely on whether the fix is surgical crown lengthening, orthodontic extrusion, or simply redesigning a restoration margin. We cannot give an honest figure without seeing the tooth, the bone level and the existing restoration first — this is confirmed after a diagnostic visit with 3D scanning at our Argüelles clinic.',
+    },
+    {
+      question: 'How long does recovery take after crown lengthening surgery?',
+      answer: 'Initial healing of the gum takes around one to two weeks, but the tissue needs to mature and stabilise for six to twelve weeks before we can safely take an impression for the final restoration. Rushing this step is one of the most common causes of restorations that fail early.',
+    },
+    {
+      question: 'Is this an urgent problem?',
+      answer: 'Rarely an emergency in the way a dental abscess is, but it is not something to leave indefinitely either. Ongoing biological width invasion causes slow, progressive bone loss around the tooth, so booking a check as soon as you notice unexplained, localised inflammation is worth doing.',
+    },
+    {
+      question: 'How do I know if I need this checked?',
+      answer: 'If you have a crown, veneer or filling with a margin close to the gumline and that specific tooth stays inflamed or bleeds despite good hygiene elsewhere in your mouth, it is worth asking your dentist to check the relationship between the restoration margin and the bone. A periapical X-ray and a clinical exam usually give the answer.',
+    },
+    {
+      question: 'Can this be prevented before getting a crown or veneer?',
+      answer: 'Yes, largely. Digital planning with an intraoral scanner and, where needed, a 3D scan lets the dental team see exactly where the bone sits before designing the restoration, so the margin can be placed at a safe distance rather than guessed at.',
+    },
+  ],
+  bodyMarkdown: `## What Is Biological Width? — The Direct Answer
+
+Biological width is the natural, protective distance of gum tissue that sits between the edge of a crown or filling and the bone underneath — roughly **2 mm of soft tissue attachment**, plus a small gum groove on top. At Debod Dental Clinic in Argüelles, Madrid, we think of it as the gum's own security perimeter around each tooth. When a restoration margin sits too close to the bone, that perimeter gets invaded, and the gum reacts with inflammation that will not calm down on its own.
+
+## Why Does This Matter for Your Dental Health?
+
+Here is the everyday version of a fairly technical idea. Around every tooth, just below where you can see the gumline, there is a thin band of tissue that seals the space between the tooth and the bone — a bit like the rubber seal around a window frame that keeps water out. If a crown, filling or veneer margin is placed too far down, it disturbs that seal.
+
+The gum cannot simply move out of the way and heal like skin does. Instead, it tries to re-establish its natural width — sometimes by pulling back (recession), sometimes by staying chronically inflamed, and sometimes by allowing the bone underneath to be gradually lost. **None of these outcomes are reversible with a mouthwash or a better toothbrush.**
+
+Is it normal for a single restored tooth to bleed while the rest of your mouth is fine? Not really — and that is often the first clue something structural is going on, not just a hygiene issue. This is one reason we always ask, before placing any restoration, where exactly the margin will sit and what that means for the tissue around it.
+
+## Frequently Asked Questions
+
+### Does invading the biological width hurt?
+
+Not usually on its own. What you tend to notice is persistent gum inflammation or bleeding around a specific tooth that does not improve however well you brush and floss. Some patients also feel tenderness when pressing the gum near a crown margin, but sharp pain is not typical unless there is an infection alongside it.
+
+### How much does treatment cost?
+
+It depends entirely on whether the fix is surgical crown lengthening, orthodontic extrusion, or simply redesigning a restoration margin. We cannot give an honest figure without seeing the tooth, the bone level and the existing restoration first — this is confirmed after a diagnostic visit with 3D scanning at our Argüelles clinic.
+
+### How long does recovery take after crown lengthening surgery?
+
+Initial healing of the gum takes around one to two weeks, but the tissue needs to mature and stabilise for six to twelve weeks before we can safely take an impression for the final restoration. Rushing this step is one of the most common causes of restorations that fail early.
+
+### Is this an urgent problem?
+
+Rarely an emergency in the way a dental abscess is, but it is not something to leave indefinitely either. Ongoing biological width invasion causes slow, progressive bone loss around the tooth, so booking a check as soon as you notice unexplained, localised inflammation is worth doing.
+
+### How do I know if I need this checked?
+
+If you have a crown, veneer or filling with a margin close to the gumline and that specific tooth stays inflamed or bleeds despite good hygiene elsewhere in your mouth, it is worth asking your dentist to check the relationship between the restoration margin and the bone. A periapical X-ray and a clinical exam usually give the answer.
+
+### Can this be prevented before getting a crown or veneer?
+
+Yes, largely. Digital planning with an intraoral scanner and, where needed, a 3D scan lets the dental team see exactly where the bone sits before designing the restoration, so the margin can be placed at a safe distance rather than guessed at.
+
+## What Should You Know Before Your First Visit?
+
+If you already have a crown, [porcelain veneer](/en/treatments/porcelain-veneers-arguelles-madrid/) or deep filling that is giving you trouble, a bit of preparation helps us get to the answer faster.
+
+- Note which specific tooth is inflamed and roughly how long it has been happening.
+- Bring details of when the restoration was placed, if you know.
+- Mention if you have already tried extra brushing or interdental brushes without improvement.
+- Let us know if the area has ever been treated for gum disease before.
+
+We will usually start with a clinical exam and a periapical X-ray, and in more complex cases with bone sounding under local anaesthetic — a simple, quick probing measurement that tells us exactly how much bone-to-margin distance you actually have. It is not something to fear; it takes moments and gives us a precise answer rather than a guess.
+
+## When Is It Urgent to See a Dentist?
+
+Book an appointment sooner rather than later if you notice a gum around one tooth that bleeds persistently despite good hygiene, if the gum in that area is visibly puffy or dark red compared to its neighbours, or if you can see the gumline slowly receding around a crowned tooth. Sudden swelling, pain when biting, or a bad taste coming from that specific area suggests infection and should be seen as genuinely urgent, ideally within a day or two rather than weeks.
+
+Left unaddressed, chronic biological width invasion tends to progress quietly — mild inflammation today can mean measurable bone loss in a year or two. Would it be worth having it checked even if it does not bother you day to day? If a crown or veneer is involved, honestly, yes.
+
+## Why Choose Debod Dental Clinic?
+
+Getting the biological width right starts long before any drill touches a tooth — it starts with planning. At our clinic in Argüelles, just a few steps from the Temple of Debod, we use intraoral scanning and 3D imaging to map the exact position of the bone before designing any [dental crown](/en/treatments/dental-crowns-arguelles-madrid/) or veneer, rather than estimating the margin by eye.
+
+Restorations are then produced through our own in-house laboratory, Debod Dental Lab, so the dentist and the lab technician can adjust margin design together with the same digital data, without delays or miscommunication between clinic and an external lab.
+
+Every new patient starts with a **complimentary diagnostic first visit**, where we assess gum health, restoration margins and bone levels properly before recommending anything — because an honest treatment plan has to start with an honest look at what is actually happening beneath the gumline. If you are dealing with a crown or veneer that never seems to settle down, get in touch through our [contact page](/en/contact/) and we will take a proper look.
+`,
+},
+  'invisalign-apinamiento-severo-madrid': {
+  title: 'Invisalign with Severely Crowded Teeth: Is It Possible?',
+  categoryLabel: 'Orthodontics',
+  metaTitle: 'Invisalign for Severe Crowding? — Debod Dental Clinic Argüelles',
+  metaDescription: 'Can Invisalign fix severely crowded teeth? Dr Víctor Guerrero explains when aligners work, when IPR or extractions are needed, and what to expect.',
+  excerpt: 'Severe crowding and Invisalign: does it actually work? Here is what really determines whether aligners are the right option for your bite.',
+  faqs: [
+    {
+      question: 'Can Invisalign really correct severe dental crowding?',
+      answer: 'In many cases, yes. Modern Invisalign technology (ClinCheck, SmartForce, attachments) has widened what aligners can treat, and combined with interproximal reduction (IPR) or, in some cases, tooth extraction, it can resolve crowding beyond 10mm. It always depends on an individual assessment though — some root positions or rotations respond better to fixed braces.',
+    },
+    {
+      question: 'Does Invisalign hurt more with severe crowding?',
+      answer: 'You may feel more pressure in the first few days of each new aligner, especially when teeth are being rotated or moved a longer distance. It is not normally described as painful, more a dull ache that settles within 48 hours. If discomfort is sharp or lasts longer, come and see us.',
+    },
+    {
+      question: 'How much does Invisalign cost for severe crowding in Madrid?',
+      answer: 'It depends on the case — the number of aligners needed, whether IPR or extractions are required, and whether refinement trays are involved. We only confirm an exact figure after a 3D scan and full diagnosis at your first visit, which is included.',
+    },
+    {
+      question: 'How long does treatment take for severe crowding?',
+      answer: 'Moderate crowding can resolve in 6–12 months. Severe crowding (over 10mm of discrepancy) usually takes 18–30 months, sometimes with a hybrid approach combining fixed appliances and aligners for the most complex movements.',
+    },
+    {
+      question: 'Is it urgent to treat severe crowding?',
+      answer: 'Not an emergency in the traditional sense, but it is not something to leave indefinitely either. Severely crowded teeth are harder to clean properly, which raises the risk of decay and gum disease over time. If you also have pain, bleeding gums or a tooth that has shifted suddenly, book an appointment sooner rather than later.',
+    },
+    {
+      question: 'Will I need extractions if my crowding is severe?',
+      answer: 'Possibly. When the discrepancy is greater than 8–10mm and IPR plus dental expansion cannot create enough space, removing a premolar (usually one on each side) may be the most predictable route. This is decided case by case, never assumed in advance.',
+    },
+  ],
+  bodyMarkdown: `## What Is Invisalign for Severe Crowding? — The Direct Answer
+
+Yes, Invisalign can treat severe dental crowding in many cases, though it is not a guarantee for every mouth. At **Debod Dental Clinic in Argüelles, Madrid**, we assess each case with a 3D intraoral scan before confirming whether clear aligners alone will do the job, or whether they need to be combined with interproximal reduction, dental expansion, or in some cases extractions.
+
+Crowding is measured by how much space is missing in the jaw compared to the size of the teeth. Mild crowding means 1–4mm short of space. Moderate is 5–9mm. Severe is anything over 10mm. That number matters more than it sounds — it is often the difference between a straightforward aligner case and one that needs a more involved plan.
+
+## Why Does This Matter for Your Dental Health?
+
+Crowded teeth are not just a cosmetic concern. When teeth overlap, brushing and flossing become genuinely difficult — plaque hides in places your toothbrush cannot reach, and that raises the risk of decay and gum inflammation over the years. Severe crowding can also put uneven pressure on your bite, which some patients feel as jaw fatigue or premature wear on certain teeth.
+
+**Dr Víctor Guerrero**, our specialist in orthodontics and dentofacial orthopaedics, sees this pattern often: "In my clinic, a lot of adults come in years after noticing their crowding got worse, not knowing it can shift gradually even into adulthood. Is it normal that crowding changes over time? Yes, particularly if wisdom teeth are pushing from behind or a retainer was never used after earlier treatment."
+
+Correcting the alignment early — before decay or gum recession sets in — usually means a simpler, shorter treatment. Waiting does not make it easier.
+
+## Frequently Asked Questions
+
+### Can Invisalign really correct severe dental crowding?
+
+In many cases, yes. Align Technology's own data suggests that over 90% of malocclusion cases treated in specialised clinics, including moderate-to-severe crowding, can be managed with aligners — particularly when combined with **interproximal reduction (IPR)**, dental expansion, and precision attachments. That said, severe rotations or ectopic (misplaced) teeth sometimes respond better to fixed braces. We only know for certain after a proper diagnostic scan.
+
+### Does Invisalign hurt more with severe crowding?
+
+You will likely feel more pressure than with a mild case, especially during the first days of each new tray, since teeth may need to rotate or travel a longer distance. It is generally described as pressure or a dull ache rather than sharp pain, and it settles within a couple of days. If it does not, that is worth a check-up.
+
+### How much does Invisalign cost for severe crowding in Madrid?
+
+It depends on the case — the number of aligners required, whether IPR, attachments, or extractions are needed, and whether refinement trays come into play later. Treating severe crowding involves more clinical steps than a simple case, so we always confirm the final figure after your diagnostic visit with a 3D scan, never before.
+
+### How long does treatment take?
+
+Mild-to-moderate crowding often resolves in 6 to 12 months. Severe crowding, on the other hand, usually takes 18 to 30 months. Some patients ask if that timeframe can be shortened — realistically, wearing the aligners for the recommended 22 hours a day makes the biggest difference to staying on schedule.
+
+### Is it urgent to see a dentist for crowding?
+
+Not an emergency on its own, but not something to put off indefinitely. Crowded teeth trap plaque more easily, and over years that can mean cavities between teeth or gum disease that is harder to reverse. If you notice bleeding gums, persistent bad breath, or a tooth that has visibly shifted, it is worth booking sooner.
+
+### Will I need teeth extracted for severe crowding?
+
+Possibly, though not automatically. When the shortfall in space is greater than 8–10mm and IPR combined with careful expansion still is not enough, removing a premolar on each side can be the most predictable way to create room. This decision is never made lightly — it comes after reviewing your scans and models in detail.
+
+## What Should You Know Before Your First Visit?
+
+- Bring any previous orthodontic records or retainers, even old ones — they help us understand how your bite has changed.
+- Do not expect an exact price or timeline before the scan. Genuine [alineadores invisibles](/en/treatments/invisalign-clear-aligners-arguelles-madrid/) planning depends on seeing your case in 3D first.
+- If a previous consultation elsewhere proposed aligners for what looks like very severe crowding with barely any explanation of IPR or extractions, it is reasonable to ask more questions or seek a second opinion.
+- Wearing discipline matters more than people expect — aligners only work while they are in your mouth, roughly 22 hours a day.
+
+At your first visit, we take a full intraoral 3D scan and, where needed, imaging to assess root position and jaw relationship. This is also the moment to ask us anything — is Invisalign really worth it for your particular case, or would a hybrid approach with fixed appliances for part of the treatment be more predictable? We would rather have that conversation honestly upfront than adjust expectations later.
+
+## When Is It Urgent to See a Dentist?
+
+Severe crowding rarely needs same-day attention on its own, but certain signs do. If a tooth has moved noticeably in recent months, if your gums bleed when brushing around the crowded area, or if you feel persistent discomfort when biting down, these are reasons to come in soon rather than wait for a routine check-up. Crowding can also make it harder to spot early decay between teeth, so if it has been over six months since your last [limpieza dental](/en/treatments/dental-exams-and-cleanings-arguelles-madrid/), that is worth catching up on too.
+
+## Why Choose Debod Dental Clinic?
+
+Every Invisalign case at Debod Dental Clinic starts with digital planning — an intraoral scan and, where needed, a 3D CT scan — so you see a realistic simulation before committing to anything. Our in-house laboratory, **Debod Dental Lab**, works directly with Dr Víctor Guerrero on refinements when a case needs adjusting mid-treatment, which keeps turnaround fast and precise.
+
+The first diagnostic visit is included, with no obligation attached. If your crowding turns out to need a combined approach — perhaps starting with limited fixed appliances before finishing in aligners — we will explain exactly why, and what the alternative would mean for your results. We also offer financing up to 60 months with 0% interest for the first 12, so treatment length does not have to be a barrier to starting properly.
+
+If you have been wondering whether your own crowding is treatable with Invisalign, the only reliable way to know is a proper look at your teeth in 3D. [Book an appointment](/en/contact/) with us in Argüelles, Madrid, and we will tell you honestly what we see — and what we would do about it.`,
 },
   // ← Agent appends new EN overlays here
 }

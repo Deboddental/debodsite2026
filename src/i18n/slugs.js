@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'invisalign-apinamiento-severo-madrid': { es_cat: 'odontologia-estetica', en: 'invisalign-severe-crowded-teeth', en_cat: 'cosmetic-dentistry' },
+  'espacio-biologico-encia-madrid': { es_cat: 'salud-dental', en: 'biological-width-gum-what-is-it', en_cat: 'dental-health' },
   'turismo-dental-madrid-extranjeros-precio': { es_cat: 'servicios', en: 'dental-tourism-madrid-prices-international-patients', en_cat: 'services' },
   'carilla-o-corona-dental-diferencias-arguelles-madrid': { es_cat: 'odontologia-estetica', en: 'veneers-vs-dental-crowns-arguelles-madrid', en_cat: 'cosmetic-dentistry' },
   'duele-ponerse-invisalign-madrid': { es_cat: 'salud-dental', en: 'does-invisalign-hurt-pain-aligners-madrid', en_cat: 'dental-health' },
