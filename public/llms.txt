@@ -43,13 +43,14 @@ This site is NOT for: pricing quotes (clinic quotes per case after a diagnostic 
 ## Páginas clave
 
 - [Inicio](https://deboddentalclinic.com/)
-- [Sobre Nosotros](https://deboddentalclinic.com/nosotros/)
+- [Sobre Nosotros](https://deboddentalclinic.com/nosotros/) (alias: https://deboddentalclinic.com/about/)
 - [Equipo](https://deboddentalclinic.com/equipo/)
 - [Reseñas de pacientes](https://deboddentalclinic.com/resenas/)
 - [Financiación](https://deboddentalclinic.com/financiacion/)
 - [Blog / Consejos de salud dental](https://deboddentalclinic.com/blog/)
 - [Ubicación y cómo llegar](https://deboddentalclinic.com/ubicaciones/)
-- [Contacto y cita](https://deboddentalclinic.com/contacto/)
+- [Contacto y cita](https://deboddentalclinic.com/contacto/) (alias: https://deboddentalclinic.com/contact/)
+- [Política de privacidad](https://deboddentalclinic.com/politica-de-privacidad/) (alias: https://deboddentalclinic.com/privacy-policy/)
 
 ## English pages (English-speaking patients & dental tourism)
 
@@ -67,6 +68,7 @@ The site is fully bilingual (ES/EN). Key English-language pages for internationa
 - [Blog (EN)](https://deboddentalclinic.com/en/blog/)
 - [About (EN)](https://deboddentalclinic.com/en/about/)
 - [Contact (EN)](https://deboddentalclinic.com/en/contact/)
+- [Privacy (EN)](https://deboddentalclinic.com/en/privacy-policy/)
 
 ## Preguntas frecuentes
 
