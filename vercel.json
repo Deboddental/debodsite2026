@@ -46,8 +46,17 @@
       "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000" }]
     },
     {
+      "source": "/llms.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/markdown; charset=utf-8" }]
+    },
+    {
+      "source": "/llms-full.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/markdown; charset=utf-8" }]
+    },
+    {
       "source": "/(.*)",
       "headers": [
+        { "key": "Vary", "value": "Accept, Accept-Encoding" },
         { "key": "X-Content-Type-Options", "value": "nosniff" },
         { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
