@@ -1017,6 +1017,255 @@ En mi consulta siempre parto de lo mismo: no se puede planificar un [Invisalign]
 
 La primera visita diagnóstica está incluida, así que puedes venir, hacerte el estudio completo y salir con una respuesta honesta sobre tu caso, sea Invisalign puro, un enfoque combinado, o incluso derivarte a valorar otras opciones como [carillas de porcelana](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) si lo que buscas es más estético que ortodóncico. Estamos en C. de Ferraz, 24, Argüelles, a un paso del metro Ventura Rodríguez, y ofrecemos financiación hasta 60 meses con 0% de interés durante el primer año. Si quieres, puedes [pedir cita](/contacto/) y lo vemos con calma.`,
 },
+  {
+  slug: 'turismo-dental-seguro-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: '¿Es seguro el turismo dental en Madrid?',
+  publishDate: '2026-09-16',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Turismo dental seguro en Madrid — Debod Dental Clinic Argüelles',
+  metaDescription: '¿Es seguro el turismo dental en Madrid? Aprende qué comprobar antes de viajar, cómo planificar el tratamiento y qué seguimiento pedir.',
+  excerpt: 'Una guía clara para pacientes internacionales: cómo elegir clínica en Madrid, planificar el viaje y recibir seguimiento dental seguro.',
+  heroImageUrl: '/Images/blog/webp/diagnostico-dental.webp',
+  faqs: [
+    {
+      question: '¿Es seguro viajar a Madrid para recibir tratamiento dental?',
+      answer: 'Puede serlo si la clínica está autorizada, el profesional está colegiado, existe un diagnóstico presencial y se planifica el seguimiento antes de viajar.'
+    },
+    {
+      question: '¿Duele el tratamiento dental después de viajar?',
+      answer: 'Tras una cirugía menor puede haber dolor, hinchazón o sangrado inicial. La clínica debe entregar pautas claras y un contacto para resolver incidencias.'
+    },
+    {
+      question: '¿Cuánto tarda un implante dental si vengo desde otro país?',
+      answer: 'Depende del hueso disponible, la salud de las encías y si hace falta cirugía adicional. Muchos casos requieren fases y controles, no una única estancia.'
+    },
+    {
+      question: '¿Qué pasa si tengo una complicación al volver a mi país?',
+      answer: 'Antes de empezar conviene acordar por escrito cómo se gestionará, qué documentación recibirás y qué profesional podrá continuar el seguimiento localmente.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué incluye el turismo dental en Debod Dental Clinic?
+
+El turismo dental seguro no consiste solo en venir a Madrid, hacer un tratamiento y volver en el siguiente avión. En Debod Dental Clinic, en Argüelles, el punto de partida es entender vuestra situación clínica, el tiempo real disponible y el seguimiento que necesitaréis cuando regreséis a vuestro país.
+
+La primera visita diagnóstica está incluida. Revisamos la boca, las encías, la mordida y las pruebas necesarias antes de hablar de una solución cerrada. Si el caso lo justifica, utilizamos escáner intraoral y TAC 3D, una tomografía que permite ver el hueso y estructuras cercanas en tres dimensiones. Es como consultar un plano antes de reformar una casa: ayuda a decidir con más información, no a prometer lo que aún no se ha valorado.
+
+Madrid puede ser un destino cómodo para recibir atención dental, especialmente si se combina con una estancia bien organizada. La seguridad, sin embargo, depende de tres cosas muy concretas: diagnóstico correcto, indicación sensata y continuidad asistencial. Y hay una pregunta que conviene resolver antes de reservar vuelos: ¿el tratamiento que necesitáis puede terminarse de forma responsable durante vuestra estancia?
+
+## ¿Cuánto cuesta el turismo dental en Madrid? — Precios honestos
+
+No existe un precio único para el turismo dental. El coste depende del tratamiento, de si hay caries o enfermedad de encías que tratar antes, de las pruebas diagnósticas, de los materiales y del número de citas necesarias. Un presupuesto serio debe separar cada fase y explicar qué incluye, sin convertir un asunto de salud en una oferta difícil de entender.
+
+En Debod Dental Clinic el importe real se confirma tras la primera visita diagnóstica incluida y, cuando procede, tras el estudio con escáner intraoral o TAC 3D. Para pacientes internacionales esto evita decidir a distancia sobre una intervención irreversible basándose únicamente en fotografías o en una cifra atractiva.
+
+La clínica ofrece financiación de hasta **60 meses**, con 0 % de interés durante los primeros 12 meses y sin entrada, sujeta a las condiciones aplicables. Si vivís fuera de España, conviene confirmar con antelación si esta opción está disponible para vuestra situación concreta.
+
+¿Merece la pena elegir un tratamiento solo porque parece más económico? No si obliga a recortar pruebas, revisiones o cuidados posteriores. En tratamientos como los [implantes dentales](/tratamientos/implantes-dentales-arguelles-madrid-espana/), el mantenimiento y la higiene forman parte del resultado a largo plazo. La planificación no termina al salir de la clínica.
+
+## ¿Cómo saber si soy candidato ideal?
+
+Sois buenos candidatos para organizar turismo dental si podéis facilitar vuestra historia clínica, contar con días suficientes en Madrid y comprometeros con las revisiones que correspondan. También ayuda traer radiografías previas si las tenéis, aunque no siempre sustituyen las pruebas actuales.
+
+Antes de viajar, es recomendable informar de enfermedades cardiacas, diabetes, alergias, embarazo, tabaquismo, bruxismo y medicación habitual. Los anticoagulantes o antiagregantes, por ejemplo, no deben suspenderse por cuenta propia. El odontólogo valorará cada situación y coordinará lo necesario con vuestro médico si hiciera falta.
+
+No es buena idea aceptar a distancia tratamientos estéticos irreversibles sin exploración presencial. Las carillas no deben colocarse con encías inflamadas, caries activas o una mala mordida sin resolver. Las encías sanas suelen tener un aspecto rosa coral y no sangran con facilidad. Si primero hay que tratar una infección o realizar una [limpieza dental profunda](/tratamientos/limpieza-dental-profunda-arguelles-madrid-espana/), esa fase no es un retraso: es cuidar la base antes de construir encima.
+
+También conviene frenar ante la promesa de “todo en un día” si el caso incluye injertos, cirugía extensa, elevación de seno o rehabilitaciones complejas. A veces es viable colocar una restauración provisional en la misma jornada; otras veces, el hueso y los tejidos piden tiempo. ¿Qué pasa si se acelera una boca que necesita curar? Aumenta el riesgo de tomar decisiones poco conservadoras.
+
+## El proceso paso a paso en Debod
+
+El primer paso puede comenzar antes del viaje con una conversación en inglés y el envío de información clínica disponible. Sirve para orientar la visita, no para emitir un diagnóstico definitivo sin exploraros.
+
+En Madrid realizamos la valoración presencial. Se revisan dientes, encías, mordida y antecedentes; se solicitan radiografías o TAC 3D si son necesarios. La tecnología digital ayuda a mostraros lo que vemos y a comparar alternativas, pero no sustituye la exploración ni convierte cualquier tratamiento en adecuado.
+
+Después recibís una propuesta por fases: qué conviene tratar primero, qué alternativas conservadoras existen, cuánto tiempo requiere cada etapa y qué revisiones tendréis. En rehabilitaciones, coronas o prótesis, Debod Dental Lab, el laboratorio propio digital de la clínica, permite coordinar diseño y ajuste con el equipo clínico. El objetivo estético no es conseguir dientes cuadrados ni una sonrisa de anuncio. Deben respetarse la textura, la forma natural y vuestra función al masticar.
+
+Si se realiza cirugía, las instrucciones de alta deben ser claras y comprensibles: medicación pautada, higiene, alimentación, actividad física, señales de alarma y forma de contacto. En procedimientos implantológicos, la [cirugía guiada de implantes](/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/) puede emplearse cuando está indicada para trasladar la planificación al procedimiento, pero cada cirugía sigue necesitando valoración clínica y seguimiento.
+
+El último paso se prepara antes de que volváis a casa. Pedid un informe con diagnóstico, procedimientos, radiografías, medicación, materiales o marca de implante si aplica, instrucciones y contacto de la clínica. La ley española reconoce el derecho a recibir información y a obtener copia de la historia clínica. Podéis consultar la [Ley 41/2002](https://boe.es/buscar/act.php?id=BOE-A-2002-22188&p=20210605&tn=0) para conocer este marco de autonomía del paciente.
+
+## Preguntas que siempre nos hacen antes de pedir cita
+
+### ¿Es normal que tenga dolor o hinchazón después de una cirugía dental?
+
+Tras una cirugía menor puede haber dolor, inflamación y algo de sangrado inicial. La evolución esperable debe explicarse antes de empezar. Contactad con la clínica si el sangrado no cede con presión, la hinchazón aumenta, aparece fiebre, supuración, mal olor, dolor creciente después de haber mejorado o una alteración sensitiva persistente.
+
+La dificultad para respirar o tragar requiere atención urgente. En Madrid, el 112 es el servicio gratuito de emergencias, operativo en toda la Unión Europea. No esperéis a un control telemático si aparece una señal de alarma.
+
+### ¿Cuánto tarda un implante dental si viajo desde otro país?
+
+No hay una respuesta honesta sin valorar hueso, encías, salud general y zona a tratar. Algunos tratamientos se organizan en fases cortas; otros requieren meses de curación entre la colocación del implante y la prótesis definitiva. Los implantes tienen buenos resultados cuando se indican y mantienen bien, pero no son permanentes ni están libres de complicaciones.
+
+Una revisión de estudios publicada en PubMed relaciona antecedentes de periodontitis, tabaco, diabetes y alcohol con mayor riesgo de inflamación alrededor del implante. La prevención pasa por una higiene diaria cuidadosa y revisiones profesionales programadas. El viaje termina; el mantenimiento, no.
+
+### ¿Duele el tratamiento o necesitaré antibióticos?
+
+La anestesia local permite realizar muchos procedimientos sin dolor durante la intervención. Después puede haber molestias que se controlan con la pauta individual indicada por el profesional. Cada persona y cada cirugía son diferentes.
+
+Los antibióticos no deben añadirse de rutina como un extra de un paquete dental. Un ensayo clínico multicéntrico no encontró una reducción significativa de fracasos de implantes ni de infecciones postoperatorias al administrar amoxicilina preoperatoria a todos los pacientes frente a placebo. La indicación debe individualizarse según el diagnóstico y los antecedentes médicos. Podéis revisar el [estudio clínico](https://pubmed.ncbi.nlm.nih.gov/35075765/) si queréis profundizar.
+
+### ¿Qué pasa si tengo una complicación cuando ya he vuelto?
+
+Antes de iniciar un tratamiento complejo, acordad quién os atenderá localmente y qué información necesitará. La teleodontología puede ayudar a revisar una evolución, resolver dudas sencillas o decidir si debéis acudir presencialmente. No sustituye una exploración si hay dolor intenso, infección, movilidad de una prótesis o problemas de cicatrización.
+
+Pedir documentación completa facilita ese seguimiento. Para implantes, solicitad marca, modelo y lote cuando corresponda; para prótesis, el material y las indicaciones de cuidado. Es una medida práctica, no una desconfianza.
+
+### ¿Cuánto dura el resultado de carillas, coronas o implantes?
+
+Depende de la salud de la boca, la mordida, el bruxismo, la higiene, el material y las revisiones. Nadie puede garantizar una duración idéntica para todas las personas. Las [coronas dentales](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) y las carillas requieren controles, igual que un coche necesita mantenimiento aunque funcione perfectamente al salir del taller.
+
+Si buscáis estética, el plan debe respetar primero la salud de las encías y de los dientes. Una sonrisa natural suele ser más duradera y más fácil de mantener que una transformación excesiva.
+
+### ¿Tengo garantía si soy paciente internacional?
+
+Pedid por escrito qué cubre la clínica, durante cuánto tiempo, qué exclusiones existen y cómo se gestiona una incidencia desde vuestro país. La garantía no elimina los riesgos biológicos ni sustituye las revisiones. Debe estar explicada con el mismo detalle que el presupuesto y el consentimiento informado.
+
+## ¿Por qué elegir Debod Dental Clinic en Argüelles?
+
+Elegir una clínica para turismo dental debería permitir que entendáis cada decisión. Debod Dental Clinic está en C. de Ferraz, 24, Argüelles, 28008 Madrid, España, cerca del Templo de Debod y de Ventura Rodríguez, en la línea 3 de Metro. También podéis llegar desde Plaza de España o Argüelles.
+
+El equipo trabaja con planificación digital y con Debod Dental Lab, su laboratorio propio digital, cuando el tratamiento lo requiere. Esto facilita coordinar pruebas, diseño y ajustes sin presentar la tecnología como un atajo clínico. Los tratamientos se valoran con especialistas colegiados y se proponen alternativas antes de decidir.
+
+Atendemos a pacientes internacionales en inglés y reservamos tiempo para explicar el plan, las fases y los cuidados posteriores. Si estáis pensando en venir a Madrid, podéis [pedir cita](/contacto/) para una primera visita diagnóstica incluida. Traed vuestras preguntas. Una decisión dental bien tomada empieza justo ahí.`
+},
+  {
+  slug: 'periodontitis-avanzada-tiene-cura-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: '¿La periodontitis avanzada tiene cura?',
+  publishDate: '2026-09-16',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: '¿La periodontitis avanzada tiene cura? — Debod Dental Clinic Argüelles',
+  metaDescription: 'Descubre si la periodontitis avanzada tiene cura, cómo se trata y cuándo acudir al dentista en Argüelles, Madrid.',
+  excerpt: 'Te explicamos qué se puede recuperar, cómo se controla la periodontitis avanzada y qué esperar del tratamiento y las revisiones.',
+  heroImageUrl: '/Images/blog/webp/encias-retraidas.webp',
+  faqs: [
+    {
+      question: '¿La periodontitis avanzada tiene cura?',
+      answer: 'No siempre puede recuperarse todo el hueso y la encía perdidos, pero sí puede tratarse y estabilizarse: sin inflamación activa, sangrado ni bolsas profundas no controladas. Requiere mantenimiento profesional continuado.'
+    },
+    {
+      question: '¿Duele el tratamiento de la periodontitis avanzada?',
+      answer: 'La instrumentación bajo la encía se realiza habitualmente con anestesia local cuando hace falta, por lo que no debería doler durante el procedimiento. Después puede haber sensibilidad o molestias transitorias.'
+    },
+    {
+      question: '¿Cuánto cuesta tratar una periodontitis avanzada?',
+      answer: 'Depende de los dientes afectados, la profundidad de las bolsas, las pruebas necesarias y de si se necesita cirugía o regeneración. El presupuesto se confirma tras una valoración diagnóstica individual.'
+    },
+    {
+      question: '¿Cuánto dura el tratamiento de la periodontitis avanzada?',
+      answer: 'La primera fase puede completarse en varias citas y se reevalúa habitualmente tras unas semanas. La estabilización necesita revisiones periódicas de por vida, a menudo cada 3 a 6 meses al inicio.'
+    },
+    {
+      question: '¿Es urgente una periodontitis avanzada?',
+      answer: 'Conviene valorarla pronto aunque no duela. Es urgente si aparece supuración, hinchazón, fiebre, dolor intenso, un absceso o movilidad dental que avanza rápidamente.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué es la periodontitis avanzada? — La respuesta directa
+
+La periodontitis avanzada es una enfermedad de las encías en la que la inflamación causada por bacterias acumuladas bajo la encía va destruyendo el hueso y los tejidos que sujetan los dientes. **No tiene una cura definitiva que devuelva siempre todo lo perdido**, pero puede tratarse hasta quedar estable y permitir conservar muchos dientes durante años.
+
+En Debod Dental Clinic en Argüelles, Madrid, la prioridad es saber exactamente en qué punto está cada caso antes de hablar de soluciones. No basta con mirar las encías o hacer una limpieza convencional: hay que medir, estudiar radiografías y valorar el soporte de cada diente.
+
+La palabra “avanzada” asusta. Es lógico. Aun así, no significa automáticamente que haya que quitar todos los dientes ni que no haya nada que hacer. La pregunta útil es otra: ¿qué dientes se pueden mantener de forma predecible y qué tratamiento necesitan?
+
+## ¿Por qué importa esto para tu salud dental?
+
+Los dientes no están pegados al hueso como una baldosa al suelo. Se sostienen gracias a un conjunto de encía, ligamento y hueso. Cuando la periodontitis progresa, ese soporte se va perdiendo poco a poco, como si el terreno bajo una valla se erosionara.
+
+Puede causar sangrado al cepillarte, mal aliento persistente, encías retraídas, separación entre dientes, movilidad o dificultad al masticar. A veces hay supuración. Otras veces, ninguna molestia clara. **La periodontitis puede avanzar sin dolor**, y por eso esperar a que duela no es una buena estrategia.
+
+El diagnóstico se realiza con un sondaje periodontal: se mide alrededor de cada diente la profundidad de las bolsas entre diente y encía, si sangran y cuánto soporte se ha perdido. También se revisan la movilidad, las zonas entre raíces y las radiografías. Una “limpieza” no diagnostica una periodontitis avanzada.
+
+Fumar o vapear nicotina, una diabetes mal controlada, una higiene insuficiente, el cálculo acumulado, algunos antecedentes familiares y no acudir a mantenimiento pueden aumentar el riesgo. No se trata de culpabilizar a nadie. Se trata de identificar aquello que se puede cambiar para que el tratamiento tenga opciones reales de funcionar.
+
+## ¿Por qué no se habla de curación completa?
+
+Cuando una inflamación periodontal ha destruido hueso, el organismo no siempre lo reconstruye por sí solo. Tras eliminar la infección y controlar la inflamación, la encía puede dejar de sangrar y las bolsas pueden reducirse de forma notable. Eso ya cambia mucho el pronóstico.
+
+En ciertos defectos óseos profundos y con una forma favorable, existen técnicas regenerativas que pueden recuperar parte del soporte perdido. Se usan materiales y procedimientos específicos para guiar la cicatrización. **No equivalen a reconstruir por completo todo el hueso perdido** ni sirven igual para todos los dientes.
+
+La evidencia científica indica que estas técnicas pueden aportar ganancia adicional de inserción en defectos seleccionados, aunque el resultado depende de la anatomía, la higiene, el tabaco, la respuesta biológica y el mantenimiento posterior. No hay una solución universal. Hay un plan adaptado a la situación que vemos en boca.
+
+Y hay un detalle que suele pasar desapercibido: estabilizar la enfermedad no es el final del tratamiento. Es el momento en que empieza el trabajo de conservar el resultado.
+
+## ¿Cómo se trata una periodontitis avanzada?
+
+El tratamiento suele ser escalonado. Primero se enseña cómo limpiar bien las zonas que cada boca necesita, incluidos los espacios entre dientes. Un cepillo interdental puede ser más eficaz que el hilo cuando existe espacio suficiente, pero debe elegirse el tamaño adecuado.
+
+Después se retira profesionalmente el biofilm bacteriano y el cálculo por encima y por debajo de la encía. A este tratamiento se le llama instrumentación periodontal; mucha gente lo conoce como [raspado y alisado radicular](/tratamientos/raspado-y-alisado-radicular-arguelles-madrid-espana/). No es una limpieza estética ni una sesión rápida de mantenimiento.
+
+Tras unas semanas se hace una reevaluación. Se revisa qué bolsas han mejorado, cuáles sangran y si quedan zonas profundas. La mayor parte de la mejora suele observarse durante los primeros uno o dos meses, aunque puede continuar durante varios meses. Si persisten áreas concretas con infección o bolsas profundas, puede ser necesario volver a instrumentar o plantear cirugía periodontal.
+
+Los antibióticos no se indican de rutina. Se reservan para situaciones concretas tras valorar beneficios, alergias, interacciones y el problema de resistencia bacteriana. Tomarlos por cuenta propia no arregla la causa y puede complicar el manejo.
+
+¿Qué pasa si un diente no tiene un pronóstico mantenible? A veces la opción más sensata es extraerlo, preservar el hueso disponible y estudiar después cómo reponerlo. Un [implante dental](/tratamientos/implantes-dentales-arguelles-madrid-espana/) puede ser una alternativa en algunos casos, pero no “cura” la periodontitis: los implantes también pueden sufrir inflamación alrededor si se mantienen placa, tabaco o controles insuficientes.
+
+## Preguntas frecuentes
+
+### ¿Es normal que la periodontitis avanzada no duela?
+
+Sí, puede ocurrir. La inflamación periodontal suele ser silenciosa durante mucho tiempo. Sangrado, mal aliento, dientes que parecen más largos o espacios nuevos son pistas frecuentes. Si los dientes se mueven, no conviene esperar a ver si mejora solo.
+
+### ¿Duele el tratamiento de la periodontitis avanzada?
+
+La instrumentación de zonas profundas puede hacerse con anestesia local para que el procedimiento sea tolerable. Después es posible notar sensibilidad al frío, encías algo molestas o una sensación de espacio entre dientes. Suele ser transitorio, pero cada persona responde de manera distinta.
+
+### ¿Cuánto cuesta tratar una periodontitis avanzada?
+
+No hay un precio honesto sin diagnóstico. Depende del número de dientes afectados, la profundidad de las bolsas, las radiografías, si hay que tratar por fases y de la necesidad o no de cirugía regenerativa. Tras la primera valoración diagnóstica se puede explicar el plan y el presupuesto de forma clara, sin sorpresas.
+
+### ¿Cuánto tarda en mejorar la periodontitis avanzada?
+
+La inflamación y el sangrado pueden mejorar después de la primera fase de tratamiento, pero la respuesta se evalúa con calma. La reevaluación suele hacerse tras varias semanas. La duración total depende del punto de partida y de si quedan bolsas profundas que necesiten otro abordaje.
+
+### ¿La periodontitis avanzada tiene cura o vuelve siempre?
+
+Puede quedar controlada y estable durante mucho tiempo. La susceptibilidad a padecerla no desaparece, por lo que las revisiones y la limpieza diaria siguen siendo necesarias. Pensad en ella como una enfermedad que se mantiene a raya, no como una mancha que se borra una vez y no vuelve.
+
+### ¿Es urgente si me sangran las encías?
+
+El sangrado no debe normalizarse. No siempre supone una urgencia hospitalaria, pero sí es motivo para pedir cita y hacer una revisión. Si hay pus, hinchazón, fiebre, dolor fuerte o movilidad que aparece rápido, la valoración debe ser prioritaria.
+
+### ¿Merece la pena intentar conservar dientes con poco hueso?
+
+En muchos casos, sí. Cada diente se estudia de manera individual según su soporte, movilidad, raíces, caries, fracturas, higiene posible y respuesta al tratamiento. Mantener un diente con mal pronóstico a cualquier precio tampoco es buena odontología. La decisión debe ser razonada y explicada.
+
+## ¿Qué debes saber antes de tu primera visita?
+
+- Lleva radiografías, informes previos y una lista actualizada de medicación si los tienes.
+- Comenta si fumas, vapeas nicotina o tienes diabetes, aunque esté controlada.
+- No suspendas medicación prescrita por tu médico sin indicación profesional.
+- Cepíllate como lo haces habitualmente; ver la situación real ayuda a orientar las recomendaciones.
+
+En la consulta se valoran encías, dientes, mordida y soporte óseo. Si hacen falta pruebas de imagen, se indicarán según el caso. La primera visita diagnóstica está incluida en Debod Dental Clinic, en C. de Ferraz, 24, Argüelles, 28008 Madrid. El objetivo no es darte un diagnóstico precipitado, sino explicarte qué está ocurriendo y qué alternativas existen.
+
+Una buena higiene en casa no sustituye la instrumentación periodontal cuando ya hay cálculo bajo la encía. Tampoco una limpieza superficial sustituye un plan periodontal. Son cosas distintas, como barrer una habitación y limpiar una tubería obstruida.
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Pide atención sin demorarlo si notas un absceso, pus en la encía, hinchazón de la cara, fiebre, dolor intenso, dificultad para abrir la boca o para tragar. También si un diente empieza a moverse de forma rápida o si la mordida cambia de repente.
+
+La movilidad dental no siempre significa que el diente esté perdido, pero requiere revisión. Cuanto antes se sepa si el problema es inflamatorio, traumático, infeccioso o una combinación, mejor se puede actuar.
+
+Si no hay dolor pero sí sangrado frecuente, mal aliento persistente, recesión de encías o separación progresiva entre dientes, no lo dejéis para la próxima limpieza anual. Coger una cita a tiempo puede evitar que la situación avance.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+En Debod Dental Clinic trabajamos con una visión de odontología honesta: explicar lo que se puede tratar, lo que no conviene prometer y las alternativas disponibles. La periodontitis avanzada necesita decisiones cuidadas, no soluciones rápidas.
+
+La planificación puede apoyarse en escáner intraoral y TAC 3D cuando el caso lo requiere, especialmente si se estudian procedimientos quirúrgicos o la reposición de dientes ausentes. Nuestro laboratorio propio, Debod Dental Lab, permite coordinar de cerca la planificación de rehabilitaciones cuando son necesarias.
+
+Si un diente no puede conservarse, se estudia cómo devolver función y estética sin precipitarse. En casos indicados, la [cirugía guiada de implantes](/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/) puede formar parte de esa planificación. Antes, la enfermedad periodontal debe estar controlada.
+
+Estamos cerca de Ventura Rodríguez, Plaza de España y Argüelles. Puedes [pedir cita](/contacto/) para una valoración diagnóstica y conocer un plan realista para tu caso. La meta es clara: reducir la inflamación, conservar lo que sea mantenible y ayudarte a protegerlo a largo plazo.
+
+Para profundizar en las recomendaciones clínicas sobre tratamiento periodontal, puedes consultar la [guía S3 de la Federación Europea de Periodoncia](https://onlinelibrary.wiley.com/doi/full/10.1111/jcpe.13290) y la [revisión sobre resultados tras instrumentación subgingival](https://pubmed.ncbi.nlm.nih.gov/38706227/).`
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -1975,6 +2224,241 @@ Every Invisalign case at Debod Dental Clinic starts with digital planning — an
 The first diagnostic visit is included, with no obligation attached. If your crowding turns out to need a combined approach — perhaps starting with limited fixed appliances before finishing in aligners — we will explain exactly why, and what the alternative would mean for your results. We also offer financing up to 60 months with 0% interest for the first 12, so treatment length does not have to be a barrier to starting properly.
 
 If you have been wondering whether your own crowding is treatable with Invisalign, the only reliable way to know is a proper look at your teeth in 3D. [Book an appointment](/en/contact/) with us in Argüelles, Madrid, and we will tell you honestly what we see — and what we would do about it.`,
+},
+  'turismo-dental-seguro-madrid': {
+  title: 'Is Dental Tourism Safe in Madrid?',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Is Dental Tourism Safe in Madrid? — Debod Dental Clinic Argüelles',
+  metaDescription: 'Learn how to choose safe dental tourism in Madrid, plan treatment abroad and arrange reliable follow-up care.',
+  excerpt: 'Dental tourism in Madrid can be safe when the clinic, treatment plan and follow-up are right for you. Here is what to check before travelling.',
+  faqs: [
+    {
+      question: 'Is dental tourism in Madrid safe?',
+      answer: 'It can be safe when you choose an authorised clinic, receive a face-to-face diagnosis, understand the written treatment plan and arrange follow-up care before travelling.'
+    },
+    {
+      question: 'Does dental implant treatment hurt?',
+      answer: 'Treatment is performed with appropriate local anaesthetic. Mild discomfort, swelling and minor bleeding can be expected after surgery, but worsening pain, fever or persistent bleeding require prompt contact with the clinic.'
+    },
+    {
+      question: 'How long should I stay in Madrid for dental treatment?',
+      answer: 'It depends on the procedure and your healing needs. A check-up or simple restoration may need little time, while implants, bone grafting or complex rehabilitation require planned review appointments and a clear long-term follow-up plan.'
+    },
+    {
+      question: 'What happens if I have a problem after returning home?',
+      answer: 'Before treatment, ask who will manage complications, how remote reviews work and which documents you will receive. For urgent symptoms, seek local in-person dental or medical care rather than relying only on remote advice.'
+    }
+  ],
+  bodyMarkdown: `## What does dental tourism in Madrid include at Debod Dental Clinic?
+
+Dental tourism means receiving planned dental care while visiting another country. At **Debod Dental Clinic**, international patients are welcomed in English and receive a diagnosis before any definitive treatment is proposed.
+
+Safety is not determined by Madrid, a low headline price or how quickly a treatment is advertised. It comes from a suitable diagnosis, clear choices, qualified professionals and a realistic plan for care after you go home. For some patients, that may mean treating a small problem during one visit. For others, the honest answer is to phase treatment or wait.
+
+A dental journey should feel more like planning a trip with a map than boarding a train without knowing the destination. Before travelling, you should know what has been found, which options exist and what happens at each stage. There is one detail many people overlook until it matters: what if you need help after your flight home? We will come back to that.
+
+## How much does dental tourism in Madrid cost? — Honest prices
+
+There is no safe fixed price for dental tourism because the treatment itself may range from an examination and cleaning to implant surgery or a full-mouth rehabilitation. **Your actual fee should be confirmed after the included first diagnostic visit**, with the appropriate examination and, where justified, an intraoral scan or 3D CT scan.
+
+Ask for a written plan that states the diagnosis, recommended treatment, alternatives, materials, expected appointments and the total foreseeable cost. A quote that only names “implants in one day” or a number of veneers is not enough to tell you whether it suits your mouth. Healthy gums, existing fillings, decay, bite forces and bone volume can all change the sensible plan.
+
+Debod Dental Clinic offers financing for up to 60 months, with 0% interest for the first 12 months and no deposit, subject to the agreed terms. Financing can make phased care easier to organise, but it should never encourage treatment that has not been properly indicated.
+
+If you live in the EU, EEA or Switzerland, planned dental treatment is commonly paid for first and any reimbursement depends on the rules of your home country. Check this before travelling with your insurer and the relevant [National Contact Point for cross-border healthcare](https://www.sanidad.gob.es/servCiudadanos/internacional/asistenciaTransfronterizaUE/home.htm).
+
+## How do I know if I am an ideal candidate?
+
+You may be a good candidate for dental care in Madrid if you can share an accurate medical history, have enough time for the appointments advised and can commit to follow-up care at home. This is especially relevant for [dental implants](/en/treatments/dental-implants-arguelles-madrid/), gum treatment and extensive restorative work.
+
+A responsible clinic will ask about conditions such as diabetes, heart disease, smoking, teeth grinding, allergies, pregnancy and medicines including anticoagulants or antiplatelet drugs. Do not stop prescribed medication yourself. The dentist treating you, and sometimes your doctor, should advise on any changes.
+
+It may not be a good idea to book irreversible cosmetic work during a short visit if you have active decay, bleeding gums or an untreated bite problem. Veneers are not placed ethically over unhealthy foundations. Gums should be healthy, with a coral-pink appearance rather than inflammation and bleeding, before aesthetics are considered. Natural teeth are not meant to look square or uniformly white like an advert; good dentistry respects texture, shape and the person’s face.
+
+What happens if a clinic promises a complete transformation before examining you in person? Treat that as a reason to pause. Photographs and old X-rays can help prepare, but they do not replace a clinical examination. This is particularly true where surgery, infection or bite changes may be involved.
+
+For implants, gum disease history, smoking and diabetes can affect long-term risk. A review of studies found peri-implant mucositis, a reversible inflammation around an implant, and peri-implantitis, inflammation involving bone loss, are not rare over time. That does not mean an implant will fail, but it does show why maintenance is part of the treatment rather than an optional extra. [Read the review on PubMed](https://pubmed.ncbi.nlm.nih.gov/40489307/).
+
+## The step-by-step process at Debod
+
+Your first step is an included diagnostic visit at Debod Dental Clinic in Argüelles. The team listens to your concerns, reviews your health history and examines your teeth, gums and bite. You can discuss whether your priority is comfort, chewing, appearance, timing or a combination.
+
+If treatment is appropriate, planning may include digital intraoral scans and, where clinically indicated, a 3D CT scan. These images are not decoration. They help the clinician assess the area being treated and explain the plan in a way you can see.
+
+For implant cases, [guided implant surgery](/en/treatments/guided-implant-surgery-arguelles-madrid/) may be considered when appropriate. A surgical guide is planned from digital information to help transfer the approved plan to the mouth. It supports precision, but it does not replace clinical judgement or make every case suitable for immediate treatment.
+
+Restorations are coordinated with **Debod Dental Lab**, the clinic’s in-house digital laboratory. This can support communication between the clinical and laboratory teams when planning crowns, bridges or other restorations. The right material and shape still depend on your bite, gum health and the tooth being restored.
+
+Before you leave, ask for a clear discharge record. It should include the diagnosis, treatment carried out, radiographs where applicable, medication and aftercare instructions. For implant treatment, request the implant brand, model and relevant documentation. Spain recognises patients’ rights to informed consent and to obtain a copy of their clinical record under [Law 41/2002](https://boe.es/buscar/act.php?id=BOE-A-2002-22188&p=20210605&tn=0).
+
+The next part of the plan is often the most valuable: follow-up. A video or telephone review can be useful for checking in after minor surgery, but it is not a replacement for an in-person assessment if something is not right. A clinical study found no meaningful difference in early outcomes after minor dentoalveolar surgery between telephone and face-to-face review, yet warning signs still require examination. [See the study on PubMed](https://pubmed.ncbi.nlm.nih.gov/35329133/).
+
+## Questions patients always ask before booking
+
+### Is dental tourism in Madrid safe?
+
+It can be, provided the clinic is authorised, the treating professional is properly registered, the treatment is suitable for you and follow-up has been planned. You can check a clinic in the [Community of Madrid healthcare register](https://www.comunidad.madrid/salud/registro-centros-servicios-establecimientos-sanitarios) and verify dentists through the [Official College of Dentists and Stomatologists of the First Region](https://coem.org.es/ventanilla-unica/).
+
+### Does dental treatment hurt?
+
+During treatment, local anaesthetic is used as appropriate. After minor surgery, some pain, swelling and light bleeding are normal. Pain that gets worse after initially improving, increasing swelling, fever, pus, a bad smell, persistent bleeding, trouble swallowing or breathing, ongoing numbness, or a loose implant or restoration need prompt attention. In a life-threatening or breathing emergency in Madrid, call **112**.
+
+### How long does it take?
+
+A check-up, cleaning or a simple repair may be completed quickly. Implants, grafts, sinus procedures, orthodontics and full rehabilitation have different healing and review timelines. Immediate implant treatment has shown good short-term results in selected cases in research, but it is not a personal guarantee and is not right for every patient. [Read the systematic review](https://pubmed.ncbi.nlm.nih.gov/35200256/).
+
+Do not arrange flights solely around a marketing timetable. Allow time for any planned reviews and avoid making an important journey immediately after extensive treatment unless your clinician has advised that it is appropriate.
+
+### Will the result last?
+
+No dental treatment is permanent without care. Natural teeth, restorations and implants all need daily cleaning and professional reviews. With implants, regular maintenance helps control bacterial biofilm, the sticky layer that builds up on teeth and restorations. In one clinical trial, structured maintenance every three months prevented peri-implant inflammation over one year. [Read the trial on PubMed](https://pubmed.ncbi.nlm.nih.gov/29178700/).
+
+### Is there a guarantee?
+
+Ask what the clinic’s written policy covers, for how long, and what is excluded. A guarantee is not a substitute for a diagnosis, good oral hygiene or regular maintenance. It should also state how concerns will be handled if you are already back in your home country.
+
+### Are antibiotics always needed for implant treatment?
+
+No. Antibiotics are prescribed when the dentist judges they are indicated for your situation; they are not a routine add-on to make a package sound safer. A large placebo-controlled trial did not find a significant reduction in implant failure or post-operative infections from pre-operative amoxicillin in the patients studied. [Read the trial on PubMed](https://pubmed.ncbi.nlm.nih.gov/35075765/).
+
+## Why choose Debod Dental Clinic in Argüelles?
+
+Debod Dental Clinic is located at C. de Ferraz, 24, Argüelles, 28008 Madrid, España, close to Ventura Rodríguez station on Line 3, with Plaza de España and Argüelles also nearby. The clinic combines a patient-focused approach with digital planning and the support of Debod Dental Lab.
+
+Patients considering care from abroad can expect a clear discussion of what is realistic, including when a conservative option is preferable. The first diagnostic visit is included, giving you a chance to understand the condition of your teeth and gums before deciding. You can also explore [all treatments](/en/treatments/) if your needs change after the assessment.
+
+For international dental care, the best question is not merely “Is it cheaper?” but “Do I understand the diagnosis, the alternatives and my follow-up plan?” If the answer is yes, you are in a far stronger position to decide calmly. To discuss your situation and arrange an assessment, [book an appointment](/en/contact/) with Debod Dental Clinic.`
+},
+  'periodontitis-avanzada-tiene-cura-madrid': {
+  title: 'Can Advanced Periodontitis Be Cured?',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Can Advanced Periodontitis Be Cured? — Debod Dental Clinic Argüelles',
+  metaDescription: 'Can advanced periodontitis be cured? Learn how it can be stabilised, what treatment involves and when to seek dental care in Madrid.',
+  excerpt: 'Advanced periodontitis cannot always restore lost bone, but it can often be stabilised to protect your teeth for the long term.',
+  faqs: [
+    {
+      question: 'Can advanced periodontitis be cured?',
+      answer: 'Advanced periodontitis does not have a permanent cure that always restores all lost gum and bone support. It can often be treated and stabilised, with inflammation controlled, bleeding reduced and teeth maintained for many years through ongoing care.'
+    },
+    {
+      question: 'Does advanced periodontitis treatment hurt?',
+      answer: 'Treatment is planned to keep you comfortable. Deep cleaning below the gums is usually carried out with local anaesthetic when needed, so you should not feel sharp pain. Some tenderness or sensitivity afterwards can happen and is usually temporary.'
+    },
+    {
+      question: 'How much does treatment for advanced periodontitis cost?',
+      answer: 'The cost depends on the severity of the disease, the number of teeth involved, whether surgery or regeneration is suitable, and the maintenance needed afterwards. A full periodontal assessment is needed before an accurate treatment plan and estimate can be provided.'
+    },
+    {
+      question: 'How long does advanced periodontitis treatment take?',
+      answer: 'Initial treatment and reassessment commonly take several months. The greatest improvement after cleaning beneath the gums is often seen during the first one to two months, although healing may continue for up to five or six months. Maintenance care is lifelong.'
+    },
+    {
+      question: 'Is advanced periodontitis urgent?',
+      answer: 'It should be assessed promptly, even when it is painless, because it can progress silently. Seek urgent dental care if you have swelling, pus, fever, severe pain, a rapidly loosening tooth or difficulty swallowing or breathing.'
+    }
+  ],
+  bodyMarkdown: `## What is advanced periodontitis? — The direct answer
+
+Advanced periodontitis is a serious form of gum disease in which inflammation caused by bacteria below the gum line damages the bone and fibres that hold teeth in place. It cannot always be “cured” in the sense of growing back every millimetre of lost bone, but it can often be **treated and stabilised** so that bleeding, infection and further damage are controlled.
+
+At Debod Dental Clinic in Argüelles, Madrid, we assess periodontitis carefully before recommending treatment. The aim is honest and practical: protect the teeth that can be maintained, manage the infection, and create a plan you can realistically follow for the long term.
+
+Many people ask, “Is it normal that my gums bleed but do not hurt?” Yes, bleeding gums are common in periodontal disease, and advanced disease may progress with very little pain. That is precisely why waiting for a toothache can be misleading. Think of it more like a slow leak behind a wall: the damage can continue before it becomes obvious from the outside.
+
+## Why does this matter for your dental health?
+
+Your gums and jawbone are the foundation around your teeth. When periodontitis advances, that foundation gradually becomes lower and weaker. Teeth may start to look longer as the gums recede, spaces can appear between them, and biting may feel different. Some people notice persistent bad breath, pus around a tooth, or a tooth that has become mobile.
+
+The disease is linked to bacterial biofilm, the sticky layer that forms around teeth. Below the gums, that film can harden into calculus, sometimes called tartar. Brushing alone cannot remove deposits already under the gum line. Smoking or vaping nicotine, diabetes that is not well controlled, inconsistent cleaning between teeth, family history and missed maintenance appointments can all increase risk.
+
+What happens if you leave advanced periodontitis untreated? More supporting bone may be lost, and teeth that were once maintainable may become difficult or impossible to save. The encouraging part is that treatment can change that direction. The first goal is not cosmetic perfection; it is a calm, healthy mouth with gums that do not bleed and teeth that can function comfortably.
+
+## How is advanced periodontitis diagnosed?
+
+A diagnosis cannot be made from a quick look or from being told that you “need a cleaning”. We measure the gums around every tooth at six points using a fine periodontal probe. This records the depth of the space between tooth and gum, known as a periodontal pocket, and whether it bleeds.
+
+We also assess how much attachment and bone support has been lost, whether teeth move, and whether disease has reached the area between roots of multi-rooted teeth. Dental X-rays help us see the bone level. In selected situations, 3D imaging may be useful for planning a specific tooth, surgery or future rehabilitation.
+
+Healthy gums should generally be a coral-pink colour rather than puffy, red or prone to bleeding. Yet appearance alone is not enough. Someone can have gums that look reasonably calm at the front and still have active disease in deeper areas. That assessment is the open question worth answering before any treatment is chosen.
+
+## What does treatment for advanced periodontitis involve?
+
+Treatment is usually carried out in stages. First comes tailored advice on brushing and cleaning between the teeth. Interdental brushes are often more effective than floss where there is enough space, but the right size and method matters. Using the wrong brush can feel uncomfortable and lead people to give up, so it should be chosen individually.
+
+The next stage is professional removal of bacterial biofilm and calculus above and below the gums. This is often called [deep dental cleaning](/en/treatments/deep-dental-cleaning-arguelles-madrid/) or scaling and root planing. “Root planing” is traditional language for carefully cleaning root surfaces beneath the gums. Local anaesthetic can be used where necessary.
+
+After healing, we reassess. Are there still deep pockets? Do they bleed? Has inflammation settled? European periodontal guidance defines successful control as having no pockets over 4 mm that bleed on probing and no deep pockets of 6 mm or more. This does not mean every mouth follows an identical timetable. The strongest early response is often seen within one to two months, while further improvement may continue for several months.
+
+Some sites remain active despite excellent initial care. In those selected areas, further cleaning or periodontal surgery may be appropriate. Surgery can give access to a difficult deep area; in certain bone defects, regenerative techniques using membranes, enamel matrix derivatives or grafting material may recover part of the lost support. Research shows a meaningful average additional attachment gain in suitable defects, but it is not a promise to rebuild everything that has been lost. The exact anatomy makes a real difference. [European Federation of Periodontology guidance](https://onlinelibrary.wiley.com/doi/full/10.1111/jcpe.13290) sets out this step-by-step approach.
+
+## Can lost bone from periodontitis grow back?
+
+Sometimes, partly. Regenerative periodontal treatment can be worthwhile when there is a deep bone defect with favourable shape and enough healthy tissue around it. It is not appropriate for every tooth or every pattern of bone loss.
+
+A large review of clinical trials found that regenerative approaches produced, on average, greater gain in attachment than flap surgery alone. That average was **1.34 mm**, and outcomes varied between patients and defects. This is helpful evidence, but it is not a guarantee of complete regeneration or a reason to skip the basics of plaque control and maintenance. You can read the [systematic review here](https://pubmed.ncbi.nlm.nih.gov/31860134/).
+
+Here is the part patients sometimes do not expect: the procedure itself is only one chapter. If plaque returns around the gums, nicotine use continues, diabetes remains poorly controlled, or review visits are missed, the disease can reactivate. Periodontitis is better understood as a condition that needs long-term control, much like keeping a garden maintained after removing weeds.
+
+## What if a tooth cannot be saved?
+
+A tooth may have a poor prognosis if it has very little remaining bone support, a fracture, infection that cannot be controlled, or damage that makes comfortable function unrealistic. Extraction may then be the kinder and safer choice. This is never something to decide from an X-ray alone; symptoms, tooth position, bite, hygiene access and your overall plan all matter.
+
+If extraction is needed, we discuss how to preserve the area and whether replacement is suitable. [Dental implants](/en/treatments/dental-implants-arguelles-madrid/) can be an option for some patients, but an implant does not cure periodontitis. Implants can also develop inflammatory disease around them, called peri-implantitis, especially where plaque control is poor or gum disease remains unstable.
+
+That is why the priority is always stabilising periodontal health first. A replacement tooth should sit in a mouth that is ready to look after it.
+
+## Questions patients often ask
+
+### Is it normal that my gums bleed when I brush?
+
+No, regular bleeding is not something to ignore. It may be caused by gingivitis, the earlier form of gum inflammation, or by periodontitis. Brushing more gently may reduce trauma, but it will not remove infection below the gums. Arrange an assessment if bleeding lasts more than a few days or keeps returning.
+
+### Does advanced periodontitis treatment hurt?
+
+Deep cleaning is commonly performed with local anaesthetic when needed, so you should not feel sharp pain during treatment. Afterwards, gums can feel tender and teeth may be temporarily more sensitive to cold. If you are anxious, tell the dental team before the appointment so treatment can be planned at a comfortable pace.
+
+### How much does advanced periodontitis treatment cost?
+
+Costs depend on how many teeth are affected, the depth and pattern of bone loss, whether surgery is indicated and the maintenance programme afterwards. An accurate estimate needs a full periodontal examination and X-rays, rather than a generic price. Your first diagnostic visit at Debod Dental Clinic is included, allowing us to explain the findings and options clearly.
+
+### How long does treatment for advanced periodontitis last?
+
+The active phase often takes several appointments over weeks or months, followed by reassessment. The condition itself requires lifelong maintenance, often every three to six months initially, tailored to your risk and response. This ongoing care is what helps keep treatment results stable.
+
+### Is advanced periodontitis urgent?
+
+It deserves prompt assessment because it can advance without pain. Seek urgent care if you have facial swelling, pus, fever, intense pain, a tooth that suddenly becomes much looser, or difficulty swallowing or breathing. These signs may indicate an acute infection.
+
+### Is it worth treating periodontitis if my teeth already move?
+
+Often, yes. Mobility does not automatically mean a tooth must be removed. Once inflammation is controlled, some teeth feel firmer or function more comfortably. Whether a particular tooth is maintainable needs an individual examination, including bone support, bite forces and the ability to keep the area clean.
+
+## What should you know before your first visit?
+
+Bring any recent dental X-rays, a list of medicines and information about health conditions such as diabetes. If you smoke or vape nicotine, being open about it helps us plan responsibly. Four useful steps before your appointment are:
+
+- Brush twice daily with fluoride toothpaste, but do not scrub bleeding gums aggressively.
+- Keep cleaning between your teeth each day using the method you already tolerate.
+- Note any swelling, bad taste, bleeding, pain or change in tooth position.
+- Do not start antibiotics left over from another illness without professional advice.
+
+We will not diagnose advanced periodontitis from symptoms alone. A proper assessment looks at the whole picture, including the areas you cannot see in a mirror. If you have been avoiding the dentist because you are worried about being judged, please do not. Gum disease is common, and there is a sensible next step from wherever you are starting.
+
+## When is it urgent to see a dentist?
+
+Contact a dentist promptly if you develop swelling of the gum or face, pus, fever, severe pain, a bad taste with increasing swelling, or a tooth that becomes rapidly loose. Difficulty breathing, swallowing, or swelling spreading towards the eye or neck needs emergency medical attention.
+
+Less dramatic signs still merit an appointment soon: bleeding gums, ongoing bad breath, receding gums, teeth moving apart, discomfort when biting or a change in the way your teeth meet. Does it hurt? Sometimes. Does it always hurt? No. That is why a painless mouth is not proof that the gums are healthy.
+
+For routine prevention and early assessment, a [dental examination and cleaning](/en/treatments/dental-exams-and-cleanings-arguelles-madrid/) can identify concerns before they become more difficult to manage.
+
+## Why choose Debod Dental Clinic?
+
+At Debod Dental Clinic, C. de Ferraz, 24, Argüelles, 28008 Madrid, we focus on clear diagnosis and minimally invasive treatment wherever possible. Periodontal care starts with careful measurements and imaging where indicated, then a treatment plan based on what your gums and teeth actually need.
+
+Our in-house digital laboratory, Debod Dental Lab, supports planning and restorative work when teeth need protection or replacement after periodontal treatment. Intraoral scanning and 3D imaging can be used when clinically appropriate, helping us plan with precision rather than guesswork.
+
+Your **first diagnostic visit is included**. We will explain what we find, what can realistically be stabilised and what each option involves before you decide. You can contact Debod Dental Clinic on +34 914 47 62 25 or [book an appointment](/en/contact/). We are open Monday to Friday, 9:00–20:00, close to Ventura Rodríguez metro station in Madrid.`
 },
   // ← Agent appends new EN overlays here
 }

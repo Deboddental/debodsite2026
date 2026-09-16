@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'periodontitis-avanzada-tiene-cura-madrid': { es_cat: 'salud-dental', en: 'can-advanced-periodontitis-be-cured', en_cat: 'dental-health' },
+  'turismo-dental-seguro-madrid': { es_cat: 'salud-dental', en: 'is-dental-tourism-safe-in-madrid', en_cat: 'dental-health' },
   'invisalign-apinamiento-severo-madrid': { es_cat: 'odontologia-estetica', en: 'invisalign-severe-crowded-teeth', en_cat: 'cosmetic-dentistry' },
   'espacio-biologico-encia-madrid': { es_cat: 'salud-dental', en: 'biological-width-gum-what-is-it', en_cat: 'dental-health' },
   'turismo-dental-madrid-extranjeros-precio': { es_cat: 'servicios', en: 'dental-tourism-madrid-prices-international-patients', en_cat: 'services' },
