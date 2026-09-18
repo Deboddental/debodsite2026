@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'casos-antes-despues-ortodoncia-invisible-arguelles-madrid': { es_cat: 'salud-dental', en: 'invisible-orthodontics-before-after-arguelles', en_cat: 'dental-health' },
+  'carillas-dentales-quitar-sin-danar-diente-madrid': { es_cat: 'odontologia-estetica', en: 'can-dental-veneers-be-removed-without-damaging-teeth', en_cat: 'cosmetic-dentistry' },
   'periodontitis-avanzada-tiene-cura-madrid': { es_cat: 'salud-dental', en: 'can-advanced-periodontitis-be-cured', en_cat: 'dental-health' },
   'turismo-dental-seguro-madrid': { es_cat: 'salud-dental', en: 'is-dental-tourism-safe-in-madrid', en_cat: 'dental-health' },
   'invisalign-apinamiento-severo-madrid': { es_cat: 'odontologia-estetica', en: 'invisalign-severe-crowded-teeth', en_cat: 'cosmetic-dentistry' },

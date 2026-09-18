@@ -1266,6 +1266,241 @@ Estamos cerca de Ventura Rodríguez, Plaza de España y Argüelles. Puedes [pedi
 
 Para profundizar en las recomendaciones clínicas sobre tratamiento periodontal, puedes consultar la [guía S3 de la Federación Europea de Periodoncia](https://onlinelibrary.wiley.com/doi/full/10.1111/jcpe.13290) y la [revisión sobre resultados tras instrumentación subgingival](https://pubmed.ncbi.nlm.nih.gov/38706227/).`
 },
+  {
+  slug: 'carillas-dentales-quitar-sin-danar-diente-madrid',
+  category: 'odontologia-estetica',
+  categoryLabel: 'Odontología Estética',
+  title: '¿Se pueden quitar las carillas sin dañar el diente?',
+  publishDate: '2026-09-18',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Quitar carillas dentales sin dañar el diente | Debod',
+  metaDescription: '¿Se pueden quitar las carillas dentales sin dañar el diente? Te explicamos cuándo es posible y qué valorar en Madrid.',
+  excerpt: 'Descubre si una carilla se puede retirar, qué ocurre con el esmalte y cuándo conviene repararla o sustituirla.',
+  heroImageUrl: '/Images/blog/webp/carillas-vs-coronas.webp',
+  faqs: [
+    {
+      question: '¿Se pueden quitar las carillas dentales sin dañar el diente?',
+      answer: 'Pueden retirarse de forma controlada, pero el diente no siempre queda como antes. Si al colocar la carilla se eliminó esmalte, esa parte no se regenera y normalmente será necesario proteger el diente con una nueva restauración.'
+    },
+    {
+      question: '¿Duele quitar una carilla dental?',
+      answer: 'Habitualmente no duele porque se realiza con anestesia local cuando hace falta. Puede aparecer sensibilidad temporal al frío o al tacto, sobre todo si el diente tenía poco esmalte o dentina expuesta.'
+    },
+    {
+      question: '¿Cuánto cuesta retirar una carilla dental?',
+      answer: 'El coste depende del material, del número de carillas, de la técnica de retirada, del estado del diente y de si habrá que repararlo o colocar una nueva. Se confirma tras una valoración clínica.'
+    },
+    {
+      question: '¿Cuánto dura una carilla dental?',
+      answer: 'La duración varía según el material, la calidad de la adhesión, el cuidado, la mordida y hábitos como el bruxismo. Preservar el esmalte mejora la adhesión y reduce complicaciones.'
+    },
+    {
+      question: '¿Es urgente revisar una carilla rota o despegada?',
+      answer: 'Conviene pedir cita pronto, especialmente si hay dolor espontáneo, sensibilidad intensa, sangrado persistente, mal olor o sabor, movilidad, un borde áspero o una caries visible cerca de la carilla.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué es retirar una carilla dental? — La respuesta directa
+
+Retirar una carilla dental consiste en eliminar de forma controlada una fina lámina de composite o cerámica adherida a la parte visible del diente. **Sí puede hacerse de manera conservadora**, pero no significa siempre que el diente vaya a quedar exactamente como antes.
+
+En Debod Dental Clinic en Argüelles, Madrid, primero valoramos cuánto esmalte se conservó al colocar la carilla, el estado de la encía y de la mordida, y el motivo de la retirada. Una carilla de composite suele ser más sencilla de reparar o eliminar; una de porcelana se desgasta por capas o, en casos indicados, puede retirarse con láser.
+
+La parte que muchas personas descubren tarde es esta: una carilla puede salir, pero si se talló el diente para colocarla, ese esmalte no vuelve a crecer. Ahí cambia por completo el plan.
+
+## ¿Por qué importa esto para tu salud dental?
+
+El esmalte es la capa externa y dura del diente. Piensa en él como el barniz protector de una mesa de madera: si se conserva, la superficie responde mejor; si se elimina en exceso, queda más vulnerable y hay que protegerla.
+
+Cuando una carilla se ha colocado sin tallado o con una preparación muy mínima, puede haber margen para retirarla conservando casi intacta la estructura dental. No obstante, incluso en esos casos hay que trabajar con precisión. Distinguir el composite del esmalte o separar una cerámica adherida no es cuestión de tirar de ella.
+
+**Nunca se debe intentar despegar una carilla en casa.** Forzarla puede fracturar el diente, arrancar esmalte o causar una lesión en la encía. Si una carilla se mueve, se ha roto o se ha descementado, hay que revisarla.
+
+La evidencia clínica apoya ser conservadores. En una cohorte con seguimiento de 12 años, las carillas cuya preparación se limitó al esmalte no presentaron fallos por descementado ni microfiltración en esa serie. Cuando se expone mucha dentina, la capa interna bajo el esmalte, el pronóstico adhesivo empeora. Puedes consultar los datos del [estudio de seguimiento a 12 años](https://pubmed.ncbi.nlm.nih.gov/23057051/) y de otro [estudio clínico sobre carillas de porcelana](https://pubmed.ncbi.nlm.nih.gov/25279393/).
+
+No todas las carillas necesitan retirarse. A veces basta con pulir un borde, reparar un pequeño desconchado, recementar una pieza íntegra o corregir una filtración. La decisión depende de lo que encontremos en la exploración.
+
+## ¿Qué pasa si el diente fue tallado antes de poner la carilla?
+
+Si se eliminó esmalte para crear espacio, retirar la carilla y dejar el diente sin protección puede hacerlo parecer más pequeño, presentar sensibilidad o no tener una estética adecuada. En ese escenario, hablar de tratamiento reversible no sería preciso.
+
+La opción puede ser una nueva carilla de preparación mínima, una restauración de composite o, cuando el diente necesita una cobertura mayor, una de las [coronas dentales](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/). No se elige por moda ni por una fotografía: se decide según la cantidad de tejido sano que conserva cada diente.
+
+Antes de plantear una sustitución también revisamos caries, inflamación de encías y mordida. No sería responsable colocar carillas sobre encías inflamadas, con caries activas o cuando una mala mordida está dañando los dientes. La encía sana suele verse rosa coral, sin sangrado habitual al cepillarse.
+
+Y una idea que merece atención: una sonrisa bonita no tiene por qué parecer artificial. Los dientes tienen textura, pequeñas variaciones y formas propias; no deberían quedar cuadrados ni con un blanco uniforme de anuncio.
+
+## ¿Cómo se retiran las carillas sin dañar el diente?
+
+En las carillas de composite, el profesional elimina el material poco a poco y pule la superficie. El reto es respetar al máximo el esmalte que queda debajo. Si la carilla es de cerámica, como porcelana o disilicato de litio, no se arranca: se secciona o desgasta cuidadosamente hasta poder retirarla.
+
+Existe también el despegado asistido por láser Er:YAG, que actúa principalmente sobre el cemento que une carilla y diente. En un estudio de laboratorio se retiraron 24 carillas sin daño detectable en la estructura dental, con un tiempo medio de 113 segundos; es un resultado prometedor, aunque realizado fuera de la boca y no una garantía idéntica para todos los casos. Un estudio clínico posterior observó retirada de carillas de disilicato de litio sin signos de ablación del esmalte, con más tiempo en las piezas más gruesas o menos translúcidas. Puedes leer el [estudio experimental con láser Er:YAG](https://pubmed.ncbi.nlm.nih.gov/22127785/) y el [estudio clínico comparativo](https://pubmed.ncbi.nlm.nih.gov/38494964/).
+
+El método apropiado se decide tras valorar el material, el espesor, el cemento, el esmalte disponible y la posición del diente. No hay una técnica única que sirva para todas las sonrisas.
+
+## Preguntas frecuentes
+
+### ¿Es normal que una carilla tenga sensibilidad al frío?
+
+Puede ocurrir una sensibilidad breve después de una reparación o retirada, sobre todo si hay dentina expuesta. No es normal ignorar dolor intenso, dolor espontáneo o una molestia que aumenta. Puede indicar filtración, caries bajo el borde, inflamación del nervio o un problema de mordida.
+
+### ¿Duele quitar una carilla dental?
+
+El procedimiento se planifica para que sea cómodo. Se puede usar anestesia local si el diente está sensible o el trabajo lo requiere. Tras la retirada puede haber una sensación temporal al frío, pero el dolor persistente debe revisarse.
+
+### ¿Cuánto tarda retirar y sustituir una carilla?
+
+Depende del número de dientes, el material, si la carilla está fracturada y si hay que tratar antes encía, caries o mordida. Una reparación localizada puede requerir menos tiempo que una sustitución estética completa. La planificación digital permite anticipar pasos, pero el calendario real se confirma después de explorarte.
+
+### ¿Cuánto cuesta retirar una carilla dental?
+
+No hay un precio único y dar una cifra sin ver el caso sería poco honesto. Depende de si es composite o cerámica, de la dificultad de retirada, del número de piezas y de si necesita reparación, nueva carilla o corona. Se entrega un presupuesto claro tras la valoración.
+
+### ¿Merece la pena sustituir una carilla antigua?
+
+Merece la pena si existe fractura, cambio de color, margen visible, mala adaptación, filtración, caries, inflamación de encías o una insatisfacción estética razonable. Si está estable y sana, quizá solo necesite control o pulido. La revisión determina qué opción conserva más diente.
+
+### ¿Qué pasa si una carilla se ha despegado?
+
+Guárdala en una caja limpia y pide cita. No la pegues con adhesivos domésticos ni mastiques con ese diente. Si la carilla y el diente están íntegros, en algunos casos se puede recementar; si hay daño, se estudian alternativas.
+
+## ¿Qué debes saber antes de tu primera visita?
+
+- Lleva, si los tienes, informes, radiografías o fotografías previas.
+- Explica cuándo se colocaron las carillas y qué material te indicaron.
+- Cuenta si rechinas los dientes, aprietas al dormir o notas cambios de mordida.
+- Señala si has tenido sangrado de encías, sensibilidad, mal olor o dolor.
+
+La primera visita diagnóstica está incluida en Debod Dental Clinic. Revisaremos dientes, encías y mordida; cuando procede, usamos fotografías, radiografías, escáner intraoral y TAC 3D para planificar con información real. Antes de iniciar una nueva estética, conviene preguntar qué preparación necesita el diente, cuánto esmalte se conservará, qué material se propone y cuál sería el plan si esa restauración falla.
+
+El laboratorio propio Debod Dental Lab permite coordinar de cerca el diseño y la fabricación de restauraciones. La meta no es cambiar una sonrisa a toda costa, sino conservar tejido sano y conseguir un resultado proporcionado a cada rostro.
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Pide revisión cuanto antes si aparece dolor espontáneo, inflamación de cara o encía, fiebre, sangrado persistente, movilidad, una fractura grande, mal olor o sabor continuo, o si ves una zona oscura junto al borde de la carilla.
+
+Una carilla rota sin dolor también conviene revisarla pronto. El borde puede acumular placa y facilitar caries o irritación gingival. Si la encía sangra al cepillarte, una [limpieza dental](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) o un tratamiento periodontal puede ser el primer paso antes de pensar en estética.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+En Debod Dental Clinic trabajamos desde la odontología honesta: diagnóstico claro, alternativas explicadas y ningún diagnóstico definitivo sin exploración. Para las carillas de porcelana y otras restauraciones estéticas, valoramos la encía, la mordida, el esmalte disponible y el motivo real de la consulta antes de recomendar retirar, reparar o sustituir.
+
+La planificación digital con escáner intraoral y, cuando está indicado, TAC 3D ayuda a tomar decisiones más precisas. Debod Dental Lab, nuestro laboratorio propio, permite seguir de cerca el proceso de diseño y acabado para buscar una apariencia natural.
+
+Estamos en C. de Ferraz, 24, Argüelles, 28008 Madrid, España, cerca de Ventura Rodríguez (L3). Puedes [pedir cita](/contacto/) para una primera visita diagnóstica incluida y recibir una valoración adaptada a tu caso.`
+},
+  {
+  slug: 'casos-antes-despues-ortodoncia-invisible-arguelles-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: 'Antes y después de ortodoncia invisible en Argüelles',
+  publishDate: '2026-09-18',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-victor-guerrero',
+  metaTitle: 'Antes y después ortodoncia invisible — Debod Dental Clinic Argüelles',
+  metaDescription: 'Qué muestran de verdad los casos antes y después de ortodoncia invisible en Argüelles y cómo valorar un tratamiento con criterio.',
+  excerpt: 'Aprende a interpretar un antes y después de alineadores, qué movimientos son previsibles y por qué el estudio previo marca la diferencia.',
+  heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
+  faqs: [
+    {
+      question: '¿Es normal que el resultado final no sea idéntico a la simulación 3D?',
+      answer: 'Sí. La simulación orienta el plan, pero algunos movimientos dentales responden de forma distinta y pueden requerir refinamientos antes de terminar.'
+    },
+    {
+      question: '¿Cuánto tarda una ortodoncia invisible?',
+      answer: 'Depende del diagnóstico, de los movimientos necesarios y del uso diario de los alineadores. La duración se confirma tras el estudio clínico y la planificación.'
+    },
+    {
+      question: '¿Duele la ortodoncia invisible?',
+      answer: 'Puede sentirse presión o sensibilidad al iniciar una férula nueva. Suele ser temporal; un dolor intenso o persistente debe revisarlo el ortodoncista.'
+    },
+    {
+      question: '¿Qué pasa si no uso los alineadores las horas indicadas?',
+      answer: 'Los dientes pueden no seguir el movimiento previsto, las férulas pueden dejar de ajustar y el tratamiento puede alargarse o precisar más refinamientos.'
+    },
+    {
+      question: '¿Merece la pena ver fotos antes y después?',
+      answer: 'Sí, si se interpretan con prudencia. Sirven para entender objetivos estéticos y funcionales, pero no predicen el resultado de otro paciente.'
+    }
+  ],
+  bodyMarkdown: `## La perspectiva del equipo de Debod sobre casos antes y después de ortodoncia invisible en Argüelles
+
+En Debod Dental Clinic, en Argüelles, entendemos perfectamente que queráis ver casos antes y después de ortodoncia invisible antes de empezar. Es lógico. Una imagen ayuda a imaginar un cambio que, de otro modo, parece abstracto: dientes que se solapan, espacios que incomodan al sonreír o una mordida que no termina de encajar.
+
+Ahora bien, una foto no es un diagnóstico. Es la última página de una historia clínica que normalmente no vemos: cómo estaban las encías, qué tipo de mordida había, cuánto usó la persona sus férulas, si necesitó elásticos, pequeños relieves de composite o una fase extra de ajuste. **El resultado de otra persona no permite predecir el vuestro.**
+
+La ortodoncia invisible mueve los dientes con alineadores transparentes y removibles que se cambian de forma secuencial. Cada férula plantea un pequeño desplazamiento. Pensad en ello como corregir la trayectoria de un tren con cambios muy medidos, no como empujar todos los vagones de golpe. Por eso el estudio previo importa tanto como el propio tratamiento.
+
+Los alineadores pueden ser una buena alternativa para apiñamientos, diastemas —espacios entre dientes—, mordidas cruzadas, sobremordidas y algunos casos de resalte aumentado. No todos los problemas se resuelven igual de bien con la misma técnica. En una primera visita diagnóstica incluida valoramos dientes, encías, mordida y hueso antes de hablar de un plan concreto.
+
+Hay una pregunta que recibimos a menudo: ¿merece la pena decidirse solo porque una simulación enseña una sonrisa perfecta? La respuesta breve es no. La simulación es útil para planificar y conversar sobre objetivos, pero todavía falta una parte que no sale en la pantalla: la respuesta biológica de cada boca.
+
+## Lo que la mayoría de clínicas no te cuenta sobre casos antes y después de ortodoncia invisible en Argüelles
+
+Las imágenes antes y después pueden ser didácticas, pero rara vez explican todo lo que condicionó el resultado. Un incisivo que gira, un diente que debe subir ligeramente o una muela que necesita desplazarse hacia atrás no responden con la misma precisión. La planificación digital no sustituye a la revisión clínica.
+
+Un estudio prospectivo sobre distalización, el movimiento hacia atrás de las muelas, observó que la cantidad conseguida no coincidía por completo con la prevista. También se detectaron diferencias en la rotación de molares, por lo que los autores señalan la conveniencia de prever refinamientos en muchos casos. Podéis consultar el estudio de [D’Antò et al.](https://pubmed.ncbi.nlm.nih.gov/36833638/).
+
+¿Qué significa refinamiento? No es que el tratamiento haya fracasado. Son nuevas férulas diseñadas para afinar movimientos que no se han expresado tal como indicaba el plan inicial. Igual que una prenda hecha a medida puede necesitar un pequeño arreglo final, la ortodoncia requiere comprobaciones reales, no solo digitales.
+
+Las rotaciones de dientes redondeados y algunos movimientos angulares también pueden ser menos predecibles. Un estudio prospectivo encontró diferencias entre el movimiento programado y el obtenido, y observó variaciones relacionadas con el ritmo de cambio de alineadores. [La investigación de Lombardo y colaboradores](https://pubmed.ncbi.nlm.nih.gov/36642743/) ayuda a entender por qué no conviene cambiar de férula por cuenta propia.
+
+¿Es normal que un alineador nuevo apriete? Sí, una sensación moderada de presión al colocarlo puede indicar que está activo. ¿Duele el tratamiento? Puede haber sensibilidad los primeros días de cada cambio, pero no hay que normalizar dolor intenso, una férula que no asienta o una inflamación de encías. En esos casos, toca revisar.
+
+También hay límites que una fotografía no revela. Los alineadores no modifican por sí solos una discrepancia ósea severa en un adulto. Cuando el problema está en la relación entre maxilar y mandíbula, puede ser necesaria una valoración ortodóncico-quirúrgica. Una revisión sistemática concluyó que la evidencia es más sólida en maloclusiones leves o moderadas de pacientes que ya no están creciendo. [Podéis leer la revisión aquí](https://pubmed.ncbi.nlm.nih.gov/30264270/).
+
+## Nuestra experiencia clínica
+
+No publicamos historias clínicas ni presentamos resultados hipotéticos como si fueran pacientes reales. Cada boca merece privacidad y una explicación honesta. Para mostrar cómo se interpreta un antes y después, estos son ejemplos didácticos, no casos tratados ni testimonios de Debod Dental Clinic.
+
+Un ejemplo hipotético: una persona de 40 años con apiñamiento leve en los incisivos inferiores quiere “alinear los dientes de delante”. Antes de empezar, se revisan encías, caries y mordida. Si todo está estable, el plan puede incluir alineadores y pequeñas cantidades de reducción interproximal, un pulido mínimo entre algunos dientes para ganar espacio. El antes y después correcto no solo enseñaría incisivos más rectos: comprobaría que la mordida sigue funcionando.
+
+Otro ejemplo hipotético: una paciente adulta con un espacio visible entre los incisivos superiores. Cerrar el hueco puede parecer sencillo en una imagen, aunque la causa importa. Puede relacionarse con la posición dental, con un hábito, con la forma de los dientes o con una alteración de la mordida. El objetivo no debería ser “borrar” el espacio a cualquier precio, sino cerrarlo con estabilidad y sin perjudicar las encías.
+
+Un tercer supuesto: alguien que llevó ortodoncia en la adolescencia y nota recaída años después. En estos casos, los [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) pueden ser una opción si el diagnóstico lo permite. La pregunta no es solo cómo dejar los dientes rectos otra vez; es qué retención necesitará después para reducir el riesgo de que vuelvan a moverse.
+
+La fase de retención es parte del tratamiento. Puede consistir en una férula nocturna, un retenedor fijo o ambos, según la situación. Terminar de usar alineadores no significa que los dientes queden “soldados” a su nueva posición. La estabilidad se cuida.
+
+## Preguntas frecuentes sobre casos antes y después de ortodoncia invisible en Argüelles
+
+### ¿Cómo sé si necesito ortodoncia invisible o brackets?
+
+No se decide por una foto ni por la estética del aparato. Hay que estudiar el tipo de movimiento, la posición de las raíces, la mordida, el estado periodontal y la colaboración prevista. En movimientos complejos, los brackets o un enfoque híbrido pueden dar más control. La elección debe responder al caso, no a una moda.
+
+### ¿Qué pasa si se despega un attachment?
+
+Los attachments son pequeños puntos de composite del color del diente. Ayudan a que el alineador agarre y dirija ciertos movimientos. Si uno se desprende, no intentéis repararlo en casa ni avancéis sin indicación: contactad con la clínica para valorar si necesita reponerse.
+
+### ¿Cuánto tarda en verse un cambio?
+
+Algunas personas perciben pequeños cambios al cabo de semanas; otras necesitan más tiempo. Ver una diferencia pronto no indica que el tratamiento esté terminado. Corregir la posición visible sin comprobar la mordida sería como alisar una alfombra sin mirar si hay algo debajo.
+
+### ¿Es normal que las encías sangren con alineadores?
+
+No debería asumirse como algo propio del tratamiento. El sangrado suele relacionarse con inflamación por placa acumulada y requiere revisión de higiene y encías. Los alineadores se retiran para comer y para cepillarse, pero esa ventaja solo funciona si se aprovecha bien. Una [limpieza dental](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) puede formar parte de la preparación si la valoración lo indica.
+
+### ¿Merece la pena la ortodoncia invisible si tengo una corona o un implante?
+
+Puede ser posible, aunque hay que planificarlo con más detalle. Un implante no se mueve con ortodoncia, y una corona necesita evaluarse junto con la posición de la raíz y la mordida. Si hay rehabilitaciones previas, se estudia el orden adecuado de los tratamientos para no comprometer el resultado.
+
+### ¿Qué ocurre si pierdo una férula?
+
+No paséis directamente a la siguiente. Conservad la férula anterior y llamad para recibir instrucciones. Avanzar cuando el alineador no ajusta puede hacer que los dientes se desvíen del plan.
+
+## ¿Qué tecnología usamos en Debod para ortodoncia invisible en Argüelles?
+
+La tecnología útil no consiste en enseñar una animación llamativa. Sirve para medir mejor, planificar con más información y revisar si lo que ocurre en boca se corresponde con el objetivo. En Debod Dental Clinic utilizamos escáner intraoral para obtener un registro digital de los dientes sin las impresiones tradicionales que a muchas personas les resultan incómodas.
+
+Ese escaneado permite analizar el espacio disponible, la posición de cada diente y la evolución entre revisiones. Cuando la indicación clínica lo justifica, las radiografías y el TAC 3D aportan información que una fotografía o un escáner superficial no muestran: raíces, hueso y estructuras anatómicas. No se realizan por rutina, sino cuando ayudan a tomar una decisión segura.
+
+La planificación digital se revisa junto con la exploración clínica. Buscamos una sonrisa proporcionada, con textura y forma natural; no dientes excesivamente cuadrados ni una estética idéntica para todo el mundo. La salud de las encías, la función y la estabilidad van antes que una imagen rápida.
+
+Debod Dental Lab, nuestro laboratorio propio digital, facilita la coordinación cuando el caso requiere dispositivos de retención u otros elementos realizados a medida. Aun así, ningún laboratorio ni programa puede sustituir la colaboración del paciente. **Usar los alineadores el tiempo pautado, habitualmente 20–22 horas al día, condiciona el resultado.**
+
+Si estáis comparando casos antes y después en Madrid, pedid que os expliquen el diagnóstico, las alternativas, el número estimado de férulas, los posibles refinamientos y el plan de retención. También conviene confirmar qué hacer ante una urgencia, una férula perdida o un attachment desprendido. El Consejo General de Dentistas recomienda evitar tratamientos sin diagnóstico y seguimiento de un dentista colegiado. [Aquí podéis consultar su campaña informativa](https://consejodentistas.es/el-consejo-general-de-dentistas-y-la-fde-lanzan-una-campana-educativa-en-redes-sobre-los-tratamientos-de-ortodoncia-con-alineadores/).
+
+En Argüelles, a pocos minutos de Ventura Rodríguez, Plaza de España y Argüelles, podéis [pedir cita](/contacto/) para una primera visita diagnóstica incluida. Veremos si la ortodoncia invisible encaja con vuestro caso y qué resultado es razonable esperar antes de empezar.`
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -2459,6 +2694,219 @@ At Debod Dental Clinic, C. de Ferraz, 24, Argüelles, 28008 Madrid, we focus on 
 Our in-house digital laboratory, Debod Dental Lab, supports planning and restorative work when teeth need protection or replacement after periodontal treatment. Intraoral scanning and 3D imaging can be used when clinically appropriate, helping us plan with precision rather than guesswork.
 
 Your **first diagnostic visit is included**. We will explain what we find, what can realistically be stabilised and what each option involves before you decide. You can contact Debod Dental Clinic on +34 914 47 62 25 or [book an appointment](/en/contact/). We are open Monday to Friday, 9:00–20:00, close to Ventura Rodríguez metro station in Madrid.`
+},
+  'carillas-dentales-quitar-sin-danar-diente-madrid': {
+  title: 'Can Dental Veneers Be Removed Without Damage?',
+  categoryLabel: 'Cosmetic Dentistry',
+  metaTitle: 'Can Dental Veneers Be Removed? — Debod Dental Clinic Argüelles',
+  metaDescription: 'Can dental veneers be removed without damaging teeth? Learn what happens with porcelain and composite veneers in Madrid.',
+  excerpt: 'Veneers can often be removed carefully, but whether the tooth is unchanged depends on how much enamel was prepared at the start.',
+  faqs: [
+    {
+      question: 'Can dental veneers be removed without damaging the tooth?',
+      answer: 'They can be removed conservatively, but the tooth may not return to its original state. If enamel was removed before fitting the veneer, that loss is permanent and a new restoration is usually needed.'
+    },
+    {
+      question: 'Does veneer removal hurt?',
+      answer: 'Veneer removal is usually carried out with local anaesthetic where needed, so you should not feel pain during treatment. Some temporary sensitivity afterwards is possible, especially if dentine is exposed.'
+    },
+    {
+      question: 'How much does it cost to remove dental veneers?',
+      answer: 'The cost depends on the veneer material, how many teeth are involved, whether replacement veneers are required and the condition of the teeth underneath. A personalised estimate is confirmed after assessment.'
+    },
+    {
+      question: 'How long do dental veneers last?',
+      answer: 'Veneers can last many years, though their lifespan varies with the material, bite, oral hygiene and whether the veneer is bonded mainly to enamel. They may eventually need repair or replacement.'
+    },
+    {
+      question: 'Is it urgent to see a dentist if a veneer comes loose or breaks?',
+      answer: 'Book a prompt review if a veneer is loose, chipped or broken. Seek urgent advice for spontaneous pain, swelling, persistent bleeding, a bad taste or smell, or a sharp edge that is injuring your mouth.'
+    }
+  ],
+  bodyMarkdown: `## What are removable dental veneers? — The direct answer
+
+Dental veneers can sometimes be removed carefully, but they do not always leave the tooth exactly as it was before treatment. The deciding factor is how much natural enamel was altered when the veneer was fitted. At Debod Dental Clinic in Argüelles, Madrid, we assess the original preparation, the veneer material and the health of the tooth before recommending removal, repair or replacement.
+
+A veneer is a thin shell bonded to the visible front surface of a tooth to change its colour, shape or small imperfections. Composite veneers are built from tooth-coloured resin. Porcelain and lithium disilicate veneers are laboratory-made ceramic shells. Both can be treated conservatively, yet neither should ever be pulled off at home.
+
+The word “reversible” can be misleading. A no-prep or very minimally prepared veneer may be removed with little change to the tooth. If the dentist reduced enamel to create space for a conventional veneer, however, that enamel does not grow back. The tooth will normally need a new veneer, a composite restoration or, in selected cases, another suitable restoration after removal.
+
+## Why does this matter for your dental health?
+
+The outer layer of a tooth, enamel, is like its protective coat. It is the strongest tissue in the body, but once it has been removed, it cannot regenerate. Keeping as much healthy enamel as possible helps a restoration bond securely and protects the long-term outlook for the tooth.
+
+Research supports this approach. In a 12-year cohort study, veneers prepared within enamel had no reported debonding or marginal leakage failures in that series, while exposing more dentine was associated with more complications in other clinical research. Dentine is the softer layer beneath enamel; it is more sensitive and generally less predictable for bonding. You can read the published evidence in this [12-year veneer cohort study](https://pubmed.ncbi.nlm.nih.gov/23057051/) and this [clinical veneer survival study](https://pubmed.ncbi.nlm.nih.gov/25279393/).
+
+This is why a veneer should not be treated as a simple cosmetic cover. Before considering [porcelain veneers](/en/treatments/porcelain-veneers-arguelles-madrid/), the gums should be healthy, coral pink rather than inflamed, and active decay must be treated. A bite that is placing excessive force on the front teeth may also need attention first. Attractive dentistry should still look like you: natural texture, gentle variations in shape and a result that sits comfortably in your smile, rather than square teeth that look manufactured.
+
+There is another detail patients often discover only when they want a change years later: the removal technique matters as much as the original treatment. It is worth understanding that before making a decision.
+
+## How are veneers removed?
+
+Composite veneers can often be polished away or repaired in small areas. The clinician removes the resin gradually, layer by layer, while trying to preserve the enamel below. It is not always possible to distinguish composite from enamel perfectly at a microscopic level, so a small amount of surface alteration or residual material may remain.
+
+Ceramic veneers are strongly bonded and should not be levered off. The conventional approach is to carefully reduce and section the ceramic with dental instruments, then remove the remaining material in a controlled way. If the tooth was prepared for the original veneer, removal without a replacement can leave it smaller, sensitive or visually uneven.
+
+Some clinics may use Er:YAG laser-assisted debonding for suitable ceramic cases. The laser is intended to act mainly on the bonding cement, helping release the veneer rather than grinding through it. Laboratory evidence and a recent clinical study are encouraging, but this does not guarantee the same outcome for every veneer or every tooth. Thickness, translucency, cement and the original preparation all affect the plan. See the [laboratory laser-removal study](https://pubmed.ncbi.nlm.nih.gov/22127785/) and the [recent clinical study of Er:YAG removal](https://pubmed.ncbi.nlm.nih.gov/38494964/).
+
+## What happens after a veneer is removed?
+
+Sometimes a veneer only needs a small repair, polishing or recementing if both the tooth and veneer are intact. In other cases, a new veneer is the safest and most aesthetic option. If there is decay around the edge, gum inflammation or a crack in the tooth, those issues come first.
+
+At Debod Dental Clinic, the assessment may include photographs, an intraoral scan and X-rays when appropriate. A 3D scan may be useful in selected situations, although it is not necessary for every veneer review. Planning with Debod Dental Lab, our in-house digital laboratory, helps us assess shade, shape and the amount of tooth structure available before a replacement is made.
+
+What happens if you simply leave a prepared tooth without a veneer? It depends on the preparation. A tooth with little or no enamel removal may be suitable for careful polishing and monitoring. A conventionally prepared tooth usually needs protection. This is one reason an individual diagnostic visit matters more than a general promise online.
+
+## Frequently asked questions
+
+### Can dental veneers be removed without damaging the tooth?
+
+They can be removed with a conservative technique, but “without damage” depends mainly on what happened when they were placed. If the veneer was bonded with no preparation or only minimal enamel preparation, the tooth may need little alteration after removal. If enamel was reduced, the tooth will not be restored to its original form simply by taking the veneer away.
+
+### Does veneer removal hurt?
+
+The procedure is usually performed with local anaesthetic when needed, so it should not be painful. Is it normal for the tooth to feel sensitive afterwards? Mild short-term sensitivity can happen, particularly when less enamel remains or dentine is exposed. Ongoing pain, pain that starts on its own or sensitivity that worsens needs a review.
+
+### How much does it cost to remove dental veneers?
+
+The price depends on the material, the number of veneers, the removal technique, the condition beneath them and whether they require replacement. It is sensible to ask for a written plan covering possible repair, removal, temporary restoration and final replacement. At Debod Dental Clinic, the first diagnostic visit is included and the treatment estimate is confirmed after assessment.
+
+### How long do dental veneers last?
+
+Veneers can last many years, although no restoration lasts forever. Their longevity is affected by the material, the bite, tooth grinding, oral hygiene, gum health and the amount of enamel available for bonding. Does it make sense to replace a veneer before it fails? Sometimes, if the margins are visible, the shade has changed or there are early signs of leakage; the answer depends on examination rather than appearance alone.
+
+### Is it urgent to see a dentist if a veneer comes loose or breaks?
+
+A loose or broken veneer should be reviewed promptly, even if it does not hurt. Keep the veneer if you can find it, store it safely and avoid chewing on that tooth. Do not attempt to glue it back. Pain, swelling, persistent gum bleeding, a bad taste, a bad smell or a sharp edge causing injury are reasons to seek dental advice sooner.
+
+### Can a veneer be repaired instead of replaced?
+
+Often, yes. Small chips in composite can frequently be repaired. Minor ceramic defects may sometimes be polished or repaired with composite, while an intact veneer that has come loose may occasionally be recemented. A repair is only appropriate when the underlying tooth, gums and bite are healthy.
+
+## What should you know before your first visit?
+
+- Bring any information you have about your current veneers, including when they were fitted and the material if known.
+- Tell the dentist about sensitivity, grinding, jaw discomfort, bleeding gums or changes in your bite.
+- Ask whether the original preparation is within enamel, reaches dentine or is unknown.
+- Request a clear plan for repair, removal, replacement and maintenance before treatment begins.
+
+A careful consultation should also look beyond the front surface of the teeth. Healthy gums and a stable bite are part of a good cosmetic result. If tooth alignment is the cause of uneven edges or crowding, [clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/) may be worth discussing before altering healthy teeth. If a tooth needs more coverage than a veneer can safely provide, a [dental crown](/en/treatments/dental-crowns-arguelles-madrid/) may be considered instead.
+
+## When is it urgent to see a dentist?
+
+Contact a dentist promptly if you have swelling in the face or gums, fever, severe or spontaneous tooth pain, persistent bleeding, pus, a loose veneer that could be swallowed, or a broken edge cutting your lip or tongue. These signs can point to infection, decay beneath the veneer or trauma that needs timely care.
+
+Do not wait for a cosmetic appointment if pain is keeping you awake or swelling is spreading. Equally, do not try to remove a veneer yourself with tools, adhesive or force. A veneer and tooth are bonded together; pulling can chip enamel, fracture the tooth or injure the gum.
+
+## Why choose Debod Dental Clinic?
+
+Debod Dental Clinic is located at C. de Ferraz, 24, Argüelles, 28008 Madrid, España, a short walk from Ventura Rodríguez station. We take an honest-dentistry approach: a clear diagnosis, a plan based on the condition of your own teeth and no assumption that replacement is always the answer.
+
+Our in-house Debod Dental Lab and digital planning support detailed evaluation of veneer repairs and replacements. The first diagnostic visit is included, and you can [book an appointment](/en/contact/) to discuss a loose, damaged or unwanted veneer. We will explain what can realistically be preserved, what needs treatment first and which option best respects your natural tooth structure.`
+},
+  'casos-antes-despues-ortodoncia-invisible-arguelles-madrid': {
+  title: 'Invisible Orthodontics Before and After in Argüelles',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Invisible Orthodontics Before and After — Debod Dental Clinic Argüelles',
+  metaDescription: 'Learn what invisible orthodontics before-and-after cases can realistically show in Argüelles, Madrid.',
+  excerpt: 'Before-and-after images can be helpful, but a proper orthodontic diagnosis explains what is achievable in your own smile.',
+  faqs: [
+    {
+      question: 'Are invisible orthodontics before-and-after results guaranteed?',
+      answer: 'No. A digital simulation is a treatment-planning tool, not a guarantee. Tooth movement varies between people, and some cases need refinements to reach the planned result.'
+    },
+    {
+      question: 'How long does invisible orthodontic treatment take?',
+      answer: 'It depends on the bite, the movements required, daily wear and whether refinements are needed. A clinical assessment is needed before giving a realistic timeframe.'
+    },
+    {
+      question: 'Does invisible orthodontics hurt?',
+      answer: 'It can cause temporary pressure or tenderness when a new aligner is fitted, particularly during the first days. This is usually manageable, but persistent pain should be assessed.'
+    },
+    {
+      question: 'What happens if I do not wear my aligners for long enough?',
+      answer: 'Teeth may not track the planned movement, the aligner may stop fitting properly, and treatment may take longer or require additional aligners.'
+    },
+    {
+      question: 'Is a retainer necessary after invisible orthodontics?',
+      answer: 'Yes. Teeth can move after active treatment, so retainers are normally needed to help maintain the result. The suitable retention plan depends on the individual case.'
+    }
+  ],
+  bodyMarkdown: `## The Debod team’s perspective on invisible orthodontics before-and-after cases
+
+At Debod Dental Clinic in Argüelles, Madrid, we understand why before-and-after photographs are often the first thing people look for when considering invisible orthodontics. They can make a crowded smile, a gap or an uneven bite feel easier to picture. Yet a photograph should start a conversation, not replace a diagnosis.
+
+Clear aligners are removable, transparent trays that move teeth in carefully planned stages. For the right patient, they can improve crowding, spaces, certain crossbites, deep bites and increased overjet. But two smiles that look similar in a photograph may need very different treatment. The roots, gum health, bite, jaw relationship and previous orthodontic history all matter.
+
+**The most useful before-and-after result is one that explains the starting point, not just the final smile.** Was there crowding because the teeth were too large for the dental arch? Was there a relapse after braces years ago? Was the front-tooth appearance linked to a bite problem? These details change the plan.
+
+People often ask, “Is it normal that my own simulation does not look exactly like an online before-and-after image?” Yes. It is normal. Digital planning helps us visualise a route, rather like a satnav suggests a journey, but traffic, roadworks and the conditions of the road still affect how that journey unfolds. In orthodontics, biological response and aligner fit affect the route.
+
+A first diagnostic visit allows the team to assess whether clear aligners are appropriate and discuss realistic objectives. For some people, [Invisalign clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/) are an excellent option. For others, a hybrid approach or fixed braces may offer more predictable control for a particular movement. That honest distinction matters.
+
+## What most clinics do not tell you about invisible orthodontics before-and-after cases
+
+A polished before-and-after image can hide the parts of treatment that make the result stable and healthy. Attachments, for example, are small tooth-coloured composite shapes placed on selected teeth. They give the aligner something to hold, helping it apply the intended force. Interproximal reduction, sometimes called IPR, is the careful removal of a tiny amount of enamel between selected teeth to create space when clinically appropriate.
+
+Neither is a failure. They are often part of sound planning.
+
+The same applies to refinements: additional aligners prescribed after the first series when a tooth has not reached the planned position or the bite needs fine-tuning. Studies show that certain movements, such as rotations, vertical movements and complex root control, do not always occur exactly as predicted by the software. Research on upper-molar distalisation found that the achieved movement was lower than the planned movement, which is why refinements may need to be anticipated in suitable cases. [D’Antò et al., 2023](https://pubmed.ncbi.nlm.nih.gov/36833638/)
+
+**A simulation is a proposal, not a promise.** This is particularly relevant when closing complex spaces, correcting rotated teeth, moving teeth vertically or treating a more involved bite. A prospective study of lateral-incisor extrusion found that the average achieved movement was below that prescribed in the plan. [Groody et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37610383/)
+
+What happens if an aligner does not fit fully? Do not simply move on to the next tray. Contact the clinic. Continuing without checking can mean that the teeth stop following the planned sequence. Consistent wear is also part of the treatment: aligners are commonly worn around 20 to 22 hours a day, removed for meals and drinks other than water, then replaced after cleaning the teeth and trays.
+
+“Does invisible orthodontics hurt?” is another fair question. Pressure or short-lived tenderness can happen when a new aligner is started. A randomised clinical trial found lower pain levels with aligners than with fixed appliances in the initial period, but comfort is personal and should never be used to dismiss persistent pain. [Clinical trial, 2024](https://pubmed.ncbi.nlm.nih.gov/38760747/)
+
+## Our clinical experience
+
+We do not present illustrative examples as evidence that the same result can be reproduced for every person. Each mouth has its own biology, habits and starting position. The following are hypothetical educational scenarios, not real patient cases.
+
+A hypothetical 40-year-old patient may arrive with mild lower-front crowding after orthodontic relapse in adulthood. Following examination of gum health, tooth decay and bite contacts, aligners may be considered if the movements are suitable. The visible before-and-after change could be a more even front smile, but the clinical goal would also include contacts that allow the teeth to meet comfortably and a retention plan afterwards.
+
+A hypothetical patient in their late twenties may be concerned about a small gap between the upper front teeth. The gap may look simple, but the assessment must check why it exists: tooth proportions, tongue habits, gum condition and the bite can all play a part. Clear aligners might be appropriate, sometimes with attachments or other planning measures. The open question is stability: without retention and management of the cause where possible, a gap can reopen.
+
+A hypothetical patient who wants [porcelain veneers](/en/treatments/porcelain-veneers-arguelles-madrid/) for uneven front teeth may first benefit from orthodontic assessment. Moving teeth into a more favourable position can sometimes reduce the amount of tooth alteration needed for cosmetic work. Healthy gums, no active decay and a stable bite should come first; attractive teeth should retain natural texture and character, rather than looking uniformly square or artificial.
+
+How do I know if I need invisible orthodontics rather than another cosmetic treatment? A full assessment is the answer. The visible concern may be a tooth position, a bite issue, tooth shape, gum health or a combination. Good treatment starts by identifying the cause.
+
+## Questions patients often ask about invisible orthodontics before-and-after cases
+
+### Are before-and-after photographs enough to choose a clinic?
+
+No. They may show a visual change, but they cannot show whether the starting diagnosis was comparable to yours, whether the gums were healthy, how the bite was managed, how long treatment took or what retention was used. Ask for a diagnosis and clear explanation of the proposed plan.
+
+### How long does invisible orthodontics take?
+
+There is no responsible single answer without an examination. Mild alignment can take less time than a complex bite correction, but treatment duration also depends on aligner wear, how each tooth responds and whether refinements are needed. The plan should include a discussion of the expected active phase and the retention stage.
+
+### Is it normal that I need attachments or enamel reduction?
+
+It can be. Attachments help certain teeth move more predictably. IPR is only considered where appropriate and should be explained before it is carried out. Both are planned tools, not automatic requirements for every case.
+
+### What happens if I lose an aligner?
+
+Contact the clinic promptly. Depending on the stage and how long you have worn it, you may be advised to use the previous aligner, a replacement or another option. Do not guess, especially if the next tray feels tight or does not fit.
+
+### Is invisible orthodontics worth it for a previous orthodontic relapse?
+
+It may be, particularly when the relapse is mild to moderate and the treatment objectives are suitable for aligners. The assessment needs to establish why the teeth moved and how to retain the result afterwards. A retainer is not an optional extra; it is part of protecting the work done.
+
+### Can aligners fix every bite problem?
+
+No. Clear aligners have well-supported use in many mild-to-moderate cases, especially in non-growing patients, but some complex movements or skeletal jaw discrepancies may need another approach or orthodontic-surgical assessment. [Papadimitriou et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30264270/)
+
+## What technology do we use at Debod for invisible orthodontics?
+
+At Debod Dental Clinic, planning begins with clinical information rather than a sales image. An **intraoral scanner** creates a detailed digital model of the teeth without traditional impression material. Clinical photographs, bite assessment and radiographs when justified help complete the picture.
+
+A cone-beam CT scan, often called a 3D scan, is used when clinically indicated rather than routinely for every orthodontic patient. It can provide three-dimensional information that is useful in selected situations, while avoiding unnecessary imaging. The team considers the benefit of each diagnostic record for the individual plan.
+
+Digital planning lets us assess tooth positions, expected movement stages and the practical details that an online before-and-after image cannot show. It also helps make conversations clearer: what we aim to change, where the limits are, and what may require adaptation as treatment progresses.
+
+Debod Dental Lab, our in-house digital laboratory, supports the clinic’s digital workflow. This can be particularly useful when planning retainers and other custom-made elements after active orthodontic treatment. The end point is not simply a straighter photograph. It is a result that has been assessed for comfort, function and a sensible plan for keeping it.
+
+If you are considering invisible orthodontics in Argüelles or elsewhere in Madrid, bring your questions to a diagnostic visit. Ask what your before-and-after result is intended to improve, what alternatives exist, whether refinements may be needed and how retention will work. You can [book an appointment](/en/contact/) to discuss your individual situation with the Debod Dental Clinic team.`
 },
   // ← Agent appends new EN overlays here
 }
