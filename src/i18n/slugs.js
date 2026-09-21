@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'escaner-intraoral-3d-clinica-dental-madrid-ventajas': { es_cat: 'salud-dental', en: '3d-intraoral-scanner-dental-clinic-madrid-benefits', en_cat: 'dental-health' },
+  'opiniones-pacientes-debod-dental-clinic-arguelles-madrid': { es_cat: 'salud-dental', en: 'patient-reviews-debod-dental-clinic-arguelles', en_cat: 'dental-health' },
   'casos-antes-despues-ortodoncia-invisible-arguelles-madrid': { es_cat: 'salud-dental', en: 'invisible-orthodontics-before-after-arguelles', en_cat: 'dental-health' },
   'carillas-dentales-quitar-sin-danar-diente-madrid': { es_cat: 'odontologia-estetica', en: 'can-dental-veneers-be-removed-without-damaging-teeth', en_cat: 'cosmetic-dentistry' },
   'periodontitis-avanzada-tiene-cura-madrid': { es_cat: 'salud-dental', en: 'can-advanced-periodontitis-be-cured', en_cat: 'dental-health' },

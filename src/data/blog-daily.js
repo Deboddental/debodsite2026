@@ -1501,6 +1501,202 @@ Si estáis comparando casos antes y después en Madrid, pedid que os expliquen e
 
 En Argüelles, a pocos minutos de Ventura Rodríguez, Plaza de España y Argüelles, podéis [pedir cita](/contacto/) para una primera visita diagnóstica incluida. Veremos si la ortodoncia invisible encaja con vuestro caso y qué resultado es razonable esperar antes de empezar.`
 },
+  {
+  slug: 'opiniones-pacientes-debod-dental-clinic-arguelles-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: 'Opiniones de Debod Dental Clinic en Argüelles',
+  publishDate: '2026-09-21',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Opiniones Debod Dental Clinic — Argüelles Madrid',
+  metaDescription: 'Opiniones sobre Debod Dental Clinic en Argüelles: cómo valorar una clínica dental, un diagnóstico y un presupuesto con criterio.',
+  excerpt: 'Te contamos cómo leer opiniones dentales con criterio y qué preguntas hacer antes de elegir clínica en Argüelles, Madrid.',
+  heroImageUrl: '/Images/blog/webp/diagnostico-dental.webp',
+  faqs: [
+    {
+      question: '¿Es normal que una clínica dental tenga opiniones muy positivas?',
+      answer: 'Puede ocurrir, pero una puntuación alta no sustituye la valoración clínica. Conviene leer el contenido de las reseñas, comprobar si explican el trato y la claridad del proceso, y pedir una exploración personalizada antes de aceptar un tratamiento.'
+    },
+    {
+      question: '¿Qué pasa si dos dentistas me proponen tratamientos distintos?',
+      answer: 'No significa automáticamente que uno esté equivocado. Pide que te expliquen el diagnóstico, las pruebas que apoyan cada propuesta, las alternativas conservadoras y el pronóstico. En tratamientos extensos, una segunda opinión independiente puede ayudarte a decidir.'
+    },
+    {
+      question: '¿Merece la pena pedir un presupuesto desglosado?',
+      answer: 'Sí. Debe permitir entender qué incluye cada fase, las pruebas diagnósticas, el tratamiento, las revisiones y el mantenimiento posterior. Así puedes comparar propuestas de forma justa y resolver dudas antes de empezar.'
+    },
+    {
+      question: '¿Cuánto tarda una primera valoración dental?',
+      answer: 'Depende de la situación y de si son necesarias pruebas complementarias. Lo razonable es que haya tiempo para escuchar el motivo de consulta, explorar, revisar imágenes si proceden y explicar las opciones sin decidir con prisas.'
+    },
+    {
+      question: '¿Duele una revisión dental?',
+      answer: 'La exploración habitual no debería doler. Si existe dolor, inflamación o mucha sensibilidad, el equipo debe adaptar la exploración y explicarte qué prueba necesita realizar y por qué.'
+    }
+  ],
+  bodyMarkdown: `## La perspectiva del equipo de Debod sobre opiniones de pacientes de Debod Dental Clinic en Argüelles
+
+Cuando alguien busca opiniones de pacientes de Debod Dental Clinic en Argüelles, normalmente no está buscando solo estrellas. Está intentando responder a una pregunta bastante humana: “¿Puedo confiar mi boca a este equipo?”. En Debod Dental Clinic creemos que una opinión puede orientar, pero no debe sustituir una conversación clínica tranquila ni un diagnóstico hecho para ti.
+
+Una reseña habla de una experiencia concreta: cómo se sintió una persona, si entendió el presupuesto, si fue atendida con cercanía o si el tratamiento encajó con lo que esperaba. Todo eso importa. **No obstante, ninguna reseña puede diagnosticar tu caso.** Dos personas con un dolor parecido pueden necesitar soluciones muy distintas.
+
+En Argüelles y en el resto de Madrid vemos a menudo pacientes que llegan después de comparar clínicas en internet. Es lógico. La salud dental implica tiempo, dinero y, en ocasiones, bastante nerviosismo. Nuestro criterio es sencillo: las opiniones son un punto de partida; la información clara durante la visita es lo que permite decidir.
+
+Hay un detalle que suele pasar desapercibido al leer reseñas. Una experiencia satisfactoria no siempre depende de que el tratamiento sea rápido, sino de que esté bien indicado. Ese matiz cambia por completo la manera de valorar una clínica.
+
+## Lo que la mayoría de clínicas no te cuenta sobre opiniones de pacientes de Debod Dental Clinic en Argüelles
+
+Las valoraciones online pueden contar cosas útiles: si hay puntualidad, si el trato fue respetuoso, si el equipo explicó bien las alternativas o si la clínica atendió una urgencia con cuidado. Son señales de servicio. Pero no sirven para medir por sí solas la dificultad de un caso, la salud previa de una boca ni el pronóstico de un tratamiento.
+
+Una puntuación pública es una fotografía de un momento y puede variar entre plataformas. Por eso recomendamos no convertirla en una promesa clínica. **La mejor opinión para tu caso es un plan que puedas entender.** Debe explicar qué se ha encontrado, qué pruebas son necesarias, qué opciones existen y qué mantenimiento necesitarás después.
+
+¿Es normal que dos presupuestos sean diferentes? Sí. A veces uno incluye radiografías o una prueba tridimensional; otras veces cambia el material, el número de revisiones, la complejidad del procedimiento o la necesidad de tratar antes encías, caries o mordida. Comparar solo la cifra final es como comparar dos viajes sin saber si ambos incluyen equipaje, alojamiento y vuelta.
+
+También conviene mirar qué se dice, no únicamente la nota. Una reseña que agradece que le explicaran por qué era posible conservar un diente puede ser más informativa que una frase genérica. En situaciones complejas, preguntar por alternativas conservadoras es sensato. Un diente ausente puede rehabilitarse con [implantes dentales](/tratamientos/implantes-dentales-arguelles-madrid-espana/), puentes u otras soluciones, pero antes hay que valorar si ese diente aún tiene opciones razonables de conservarse.
+
+¿Merece la pena pedir una segunda opinión? En tratamientos amplios, extracciones múltiples o rehabilitaciones completas, puede ser una decisión prudente. No es una falta de confianza. Es una manera responsable de comprender el diagnóstico y elegir con calma.
+
+## Nuestra experiencia clínica
+
+No publicamos casos ni testimonios inventados para respaldar una opinión. La confidencialidad de cada paciente está por delante de cualquier contenido. En lugar de presentar resultados como si fueran universales, estas son situaciones **hipotéticas, no reales**, que ayudan a entender por qué una reseña nunca cuenta toda la historia.
+
+Imaginemos a una persona de 40 años que busca una clínica porque le molesta una muela al morder. Una opinión puede decir que fue atendida rápido, y eso puede ser valioso. Aun así, el paso clínico correcto sería explorar, hacer pruebas de sensibilidad cuando proceda y revisar una radiografía antes de decidir si el diente necesita una restauración, una endodoncia o una extracción. Un ensayo clínico encontró resultados similares entre tratamientos de endodoncia en una o varias citas en dientes seleccionados; la elección depende del diagnóstico y de la complejidad, no de una promesa de rapidez. [Consulta el estudio](https://pubmed.ncbi.nlm.nih.gov/26687126/).
+
+Pensemos ahora en una paciente que quiere mejorar el color y la forma de sus dientes. Puede haber leído una reseña excelente sobre estética dental, pero primero habría que revisar caries, encías y mordida. **Las carillas no deben colocarse sobre encías inflamadas, caries activas o una mala mordida sin abordar.** El objetivo tampoco debería ser una sonrisa de dientes cuadrados y uniformes, sino una que conserve textura, proporciones y naturalidad. Si las condiciones son adecuadas, se pueden valorar [carillas de porcelana](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) dentro de un plan personalizado.
+
+Una tercera situación hipotética: una persona que ha perdido un diente y quiere “poner un implante cuanto antes”. Aquí la reseña puede hablar de comodidad o atención, pero el diagnóstico necesita comprobar hueso, encías, hábitos como el tabaco o el bruxismo y antecedentes médicos. Un implante requiere revisiones y cuidados; no queda fuera del riesgo de inflamación alrededor de él. Cuando está indicado, la [cirugía guiada de implantes](/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/) puede formar parte de una planificación precisa, pero no sustituye la valoración individual.
+
+El hilo común de estos ejemplos es claro: una buena experiencia empieza antes del tratamiento. Empieza cuando el paciente entiende qué se va a hacer, qué alternativas tiene y qué puede esperar de forma realista.
+
+## Preguntas frecuentes sobre opiniones de pacientes de Debod Dental Clinic en Argüelles
+
+### ¿Cómo sé si necesito fiarme de una opinión dental?
+
+Úsala como orientación, no como veredicto. Busca comentarios que hablen de explicación, escucha, transparencia y seguimiento. Después, confirma si esa forma de trabajar se refleja en tu visita. Puedes pedir que te detallen el diagnóstico y llevarte por escrito el plan propuesto.
+
+### ¿Qué pasa si tengo dolor y necesito una respuesta rápida?
+
+El dolor dental merece atención, pero rapidez no debe significar precipitación. ¿Duele el diente al frío, al calor o al morder? ¿Hay hinchazón, fiebre o una fístula? Son datos que ayudan, aunque no bastan para diagnosticar. La exploración y las pruebas indicadas permiten decidir el tratamiento más adecuado.
+
+### ¿Es normal que sangren las encías aunque no me duelan?
+
+No conviene normalizarlo. El sangrado puede relacionarse con inflamación de encías y requiere revisión. La higiene diaria y el tratamiento profesional cuando se necesita son la base. El seguimiento también cuenta: una revisión sobre mantenimiento periodontal asocia la progresión con higiene insuficiente, tabaco y falta de controles. [Lee la revisión clínica](https://pubmed.ncbi.nlm.nih.gov/31098328/).
+
+### ¿Cuánto tarda un tratamiento dental?
+
+Depende del problema, del estado de la boca y de la respuesta de los tejidos. Una limpieza puede ser una cita; una rehabilitación o una ortodoncia necesita fases y controles. Si te proponen [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/), pregunta por el tiempo estimado, los retenedores posteriores y qué ocurrirá si los movimientos no evolucionan como se esperaba.
+
+### ¿Merece la pena tratar una muela si luego quizá necesita corona?
+
+Cada caso requiere valoración. Si un diente puede conservarse con buen pronóstico, se estudia esa opción. Tras una endodoncia o una pérdida amplia de estructura, una [corona dental](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) puede estar indicada para protegerlo, pero no todos los dientes necesitan lo mismo.
+
+### ¿Qué debo preguntar antes de aceptar un tratamiento?
+
+Pide el diagnóstico, las pruebas realizadas, las alternativas, los riesgos, el mantenimiento y un presupuesto escrito desglosado. Informa también de medicación, alergias, embarazo, diabetes, tabaquismo o bruxismo. Si algo no entiendes, merece una explicación en lenguaje sencillo.
+
+## ¿Qué tecnología usamos en Debod para opiniones de pacientes de Debod Dental Clinic en Argüelles?
+
+Las opiniones ayudan a conocer la experiencia de otras personas, pero la tecnología diagnóstica ayuda a conocer tu boca. En Debod Dental Clinic utilizamos escáner intraoral para registrar los dientes sin las impresiones tradicionales cuando está indicado. Permite planificar y enseñar con más claridad determinados tratamientos.
+
+El TAC 3D, también llamado tomografía de haz cónico, ofrece una imagen tridimensional de zonas concretas cuando hace falta valorar hueso, raíces, dientes retenidos o planificar cirugía. **No se realiza por rutina en todos los pacientes.** Se indica cuando aporta información que una radiografía convencional no ofrece.
+
+Contamos también con Debod Dental Lab, nuestro laboratorio propio digital. Esto facilita la coordinación entre el equipo clínico y el trabajo protésico en tratamientos como coronas, rehabilitaciones o restauraciones estéticas. La herramienta no decide por sí sola: la decisión siempre parte de una exploración, de tus necesidades y de un plan razonado.
+
+Si estás valorando opiniones de pacientes de Debod Dental Clinic en Argüelles, te animamos a utilizarlas como una primera referencia y a completar la información en consulta. La primera visita diagnóstica está incluida y es el espacio adecuado para revisar tu caso, resolver dudas y conocer las opciones sin comprometerte a un tratamiento. Puedes [pedir cita](/contacto/) en C. de Ferraz, 24, Argüelles, 28008 Madrid, España, cerca de Ventura Rodríguez.`,
+},
+  {
+  slug: 'escaner-intraoral-3d-clinica-dental-madrid-ventajas',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: 'Escáner intraoral 3D en Madrid: ventajas reales',
+  publishDate: '2026-09-21',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Escáner intraoral 3D en Madrid — Debod Dental Clinic Argüelles',
+  metaDescription: 'Conoce las ventajas y límites del escáner intraoral 3D en clínica dental Madrid: comodidad, planificación y precisión.',
+  excerpt: 'Te explicamos qué registra un escáner intraoral 3D, cuándo ayuda de verdad y qué preguntas hacer antes de un tratamiento dental.',
+  heroImageUrl: '/Images/blog/webp/diagnostico-dental.webp',
+  faqs: [
+    {
+      question: '¿Duele el escáner intraoral 3D?',
+      answer: 'No. Es una cámara pequeña que recorre dientes y encías sin radiación ni cubetas con pasta. Puede requerir unos minutos de mantener la boca abierta.'
+    },
+    {
+      question: '¿Sustituye el escáner intraoral a una radiografía?',
+      answer: 'No. El escáner muestra la superficie de dientes, encías y mordida. Si hace falta valorar hueso, raíces o zonas no visibles, el dentista puede indicar radiografías o TAC 3D.'
+    },
+    {
+      question: '¿Cuánto tarda un escaneado intraoral?',
+      answer: 'Depende de la zona y de la colaboración del paciente, pero el registro suele hacerse durante la consulta. Si falta alguna zona, puede revisarse y completarse al momento.'
+    },
+    {
+      question: '¿Sirve el escáner para implantes de toda la boca?',
+      answer: 'Puede formar parte del proceso, pero los casos extensos o con varios implantes requieren un protocolo individualizado de comprobación. A veces se combina con otras técnicas.'
+    }
+  ],
+  bodyMarkdown: `## La perspectiva del equipo de Debod sobre el escáner intraoral 3D en clínica dental Madrid
+
+En Debod Dental Clinic, en Argüelles, entendemos el escáner intraoral 3D como una herramienta para ver mejor y decidir con más información. No es un tratamiento por sí mismo ni una promesa automática de un resultado perfecto. Es una cámara óptica que registra dientes, encías y mordida para crear un modelo digital tridimensional de la boca.
+
+Pensad en él como una maqueta digital muy detallada. En vez de trabajar sólo con una impresión física, podemos observar el registro en pantalla, ampliar zonas concretas y comprobar si falta información antes de enviar el caso a diseño. Esto resulta útil en coronas, carillas, férulas de descarga, retenedores, alineadores y algunas restauraciones sobre implantes.
+
+**El escaneado no utiliza radiación.** Aun así, no sustituye una radiografía ni un TAC 3D cuando necesitamos estudiar raíces, hueso, inflamación o la posición de un implante. Cada prueba responde a una pregunta distinta. Una fotografía no sustituye a una radiografía de una muñeca; aquí ocurre algo parecido.
+
+¿Es normal que alguien pregunte si esta tecnología le evitará todas las citas? Sí. Puede simplificar fases y evitar repetir una impresión si detectamos una zona incompleta en el momento, pero una buena odontología sigue necesitando exploración, diagnóstico, diseño, pruebas y revisión de la mordida. Hay una diferencia que conviene aclarar: digitalizar no significa acelerar a cualquier precio.
+
+## Lo que la mayoría de clínicas no te cuenta sobre el escáner intraoral 3D en clínica dental Madrid
+
+La calidad del archivo no depende únicamente de que el escáner sea moderno. Depende de que la encía esté sana, haya buena visibilidad y podamos controlar saliva, sangrado y movimiento. Cuando el margen de una corona queda muy por debajo de la encía, por ejemplo, obtener un registro fiel puede ser más exigente.
+
+En estética ocurre igual. Antes de plantear unas [carillas de porcelana](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/), las encías deben estar sanas, sin sangrado ni inflamación, y las caries activas deben tratarse. También revisamos la mordida. Una sonrisa no debería acabar con dientes cuadrados o excesivamente blancos, de aspecto artificial; buscamos proporción, textura y una forma que encaje con cada cara.
+
+La evidencia apoya ventajas concretas, no eslóganes. En un ensayo clínico con coronas de disilicato de litio, el ajuste marginal inicial fue menor con escáner intraoral que con impresión convencional, aunque a los seis y doce meses ambas técnicas mostraron resultados clínicos similares. Podéis consultar el [estudio clínico publicado en PubMed](https://pubmed.ncbi.nlm.nih.gov/30796587/). Otro ensayo de coronas posteriores también encontró medidas de ajuste favorables al flujo digital, dentro de una indicación concreta: restauraciones unitarias. [Aquí está el estudio](https://pubmed.ncbi.nlm.nih.gov/36484666/).
+
+La parte menos visible es la que cambia el criterio clínico. En una corona aislada, el flujo digital puede ser muy predecible. En una rehabilitación larga, una arcada sin dientes o varios implantes inclinados, no conviene dar por hecho que el escáner, por ser digital, será siempre la opción más exacta. Puede hacer falta combinar técnicas o usar un protocolo adicional de verificación. Esa prudencia es parte de la odontología honesta.
+
+## Nuestra experiencia clínica
+
+En la práctica diaria, el escáner intraoral ayuda especialmente cuando el paciente ha tenido malas experiencias con cubetas y siliconas. Una situación hipotética, no un caso real: un paciente de 40 años con reflejo nauseoso necesita una corona posterior. El registro digital puede resultar más llevadero porque no hay material de impresión ocupando la boca durante varios minutos.
+
+Otra situación hipotética: una persona detecta desgaste dental y aprieta los dientes al dormir. El modelo 3D permite comparar superficies, planificar una férula y disponer de una referencia para controles posteriores. No diagnostica el bruxismo por sí solo, pero aporta información ordenada junto con la exploración y la conversación clínica.
+
+También puede ayudar en tratamientos de implantes. Imaginemos a una paciente que necesita reponer una pieza ausente. Tras valorar el caso, el registro digital puede incorporarse a la planificación de una restauración y a la comunicación con el laboratorio. Si se indica implante, el estudio puede requerir TAC 3D y otros registros; el escáner no reemplaza esa evaluación. En tratamientos de [implantes dentales](/tratamientos/implantes-dentales-arguelles-madrid-espana/) o de [cirugía guiada de implantes](/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/), la planificación depende de la anatomía real de cada paciente.
+
+Una revisión de estudios en implantes observó que el escáner reducía el tiempo de impresión en arcadas completas, aunque la exactitud disponible era heterogénea y debía interpretarse con cautela. Ese matiz importa: ganar tiempo no justifica saltarse comprobaciones de ajuste, oclusión e higiene. [La revisión está disponible en PubMed](https://pubmed.ncbi.nlm.nih.gov/38055096/).
+
+## Preguntas frecuentes sobre el escáner intraoral 3D en clínica dental Madrid
+
+### ¿Duele el escáner intraoral?
+
+No debería doler. La punta del escáner se mueve cerca de dientes y encías mientras toma imágenes sucesivas. Algunas personas notan cansancio si deben mantener la boca abierta, pero no hay pinchazos ni radiación durante el escaneado.
+
+### ¿Qué pasa si tengo arcadas con las impresiones tradicionales?
+
+Es una de las razones por las que el registro digital puede ser una buena alternativa. Una revisión de estudios sobre experiencia del paciente halló mejores valoraciones del escáner para sabor, olor, náuseas y comodidad. No demostró una diferencia clara en ansiedad para todas las personas. [Puedes ver la revisión aquí](https://pubmed.ncbi.nlm.nih.gov/34089258/).
+
+### ¿Cuánto tarda el escáner intraoral 3D?
+
+El tiempo cambia según el área que haya que registrar, la cantidad de saliva, la apertura bucal y el objetivo del tratamiento. La ventaja práctica es que podemos revisar la imagen inmediatamente y repetir sólo la zona necesaria si falta detalle.
+
+### ¿Merece la pena para una corona dental?
+
+Puede merecerla si el caso lo permite. Facilita un flujo de trabajo digital para diseñar y fabricar la restauración, pero la calidad final también depende de la preparación del diente, del estado de la encía, del material, del laboratorio y de los ajustes clínicos. El escáner es una pieza del proceso, no todo el proceso.
+
+### ¿Cómo sé si necesito una radiografía o TAC 3D?
+
+Lo decide el equipo tras exploraros. Para una restauración sencilla puede no ser necesario un TAC. Para implantes, cirugía o dudas sobre hueso y raíces, la imagen radiológica puede aportar datos que el escáner superficial no muestra. La primera visita diagnóstica es el momento adecuado para explicarlo con claridad.
+
+## ¿Qué tecnología usamos en Debod para el escáner intraoral 3D?
+
+El escáner intraoral forma parte de una planificación digital que se adapta a cada indicación. Registramos dientes, encías y mordida, revisamos el archivo en consulta y, cuando procede, lo incorporamos al diseño de restauraciones, férulas o tratamientos de alineadores.
+
+Para casos que requieren estudiar estructuras internas, la valoración puede incluir **TAC 3D cuando esté indicado**. No se solicita por rutina ni por estética tecnológica: se utiliza si cambia la seguridad o la precisión de la decisión clínica.
+
+Nuestro laboratorio propio, Debod Dental Lab, permite una comunicación directa entre clínica y laboratorio durante el diseño digital. Esto ayuda a revisar forma, contactos y función antes de terminar una corona o rehabilitación. Aun así, el ajuste final se comprueba siempre en boca; la pantalla orienta, pero no sustituye a la revisión clínica.
+
+En Madrid hay muchas opciones tecnológicas. La pregunta útil no es sólo si una clínica tiene escáner, sino para qué lo empleará en vuestro caso, qué información adicional necesita y cómo verificará el resultado. En Debod Dental Clinic os lo explicamos antes de empezar, con un plan y un presupuesto desglosado tras la valoración. Podéis [coger cita](/contacto/) en C. de Ferraz, 24, Argüelles, 28008 Madrid, España, o llamar al +34 914 47 62 25.`
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -2907,6 +3103,214 @@ Digital planning lets us assess tooth positions, expected movement stages and th
 Debod Dental Lab, our in-house digital laboratory, supports the clinic’s digital workflow. This can be particularly useful when planning retainers and other custom-made elements after active orthodontic treatment. The end point is not simply a straighter photograph. It is a result that has been assessed for comfort, function and a sensible plan for keeping it.
 
 If you are considering invisible orthodontics in Argüelles or elsewhere in Madrid, bring your questions to a diagnostic visit. Ask what your before-and-after result is intended to improve, what alternatives exist, whether refinements may be needed and how retention will work. You can [book an appointment](/en/contact/) to discuss your individual situation with the Debod Dental Clinic team.`
+},
+  'opiniones-pacientes-debod-dental-clinic-arguelles-madrid': {
+  title: 'Patient Reviews: Debod Dental Clinic Argüelles',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Patient Reviews — Debod Dental Clinic Argüelles',
+  metaDescription: 'How to read patient reviews of Debod Dental Clinic in Argüelles and choose dental care with clear, informed expectations.',
+  excerpt: 'Patient reviews can be helpful. Learn what they can tell you, what they cannot, and which questions to ask before dental treatment in Madrid.',
+  faqs: [
+    {
+      question: 'Are patient reviews a reliable way to choose a dentist?',
+      answer: 'They can help you understand patients’ experiences of communication, comfort and organisation, but they cannot replace a clinical assessment or prove that a treatment is right for your individual needs.'
+    },
+    {
+      question: 'What should I ask at my first dental appointment?',
+      answer: 'Ask for a clear diagnosis, the alternatives available, the expected maintenance, possible risks, a written treatment plan and a transparent estimate after the appropriate examination.'
+    },
+    {
+      question: 'Is it normal to need scans or X-rays before treatment?',
+      answer: 'Often, yes. Images and scans may be needed to assess the tooth, bone, bite or surrounding tissues before deciding whether to restore, treat or replace a tooth.'
+    },
+    {
+      question: 'What happens if I am advised to have an extraction or several implants?',
+      answer: 'Ask whether the teeth can be preserved, what the alternatives are, why the recommendation has been made and whether an independent second opinion would be useful before starting extensive treatment.'
+    },
+    {
+      question: 'Does dental treatment hurt?',
+      answer: 'Modern local anaesthetic is designed to keep treatment comfortable. Sensitivity afterwards depends on the procedure and your situation, so your dentist should explain what to expect and how to manage it.'
+    }
+  ],
+  bodyMarkdown: `## The Debod team’s perspective on patient reviews at Debod Dental Clinic Argüelles
+
+When people search for patient reviews of **Debod Dental Clinic** in Argüelles, they are usually looking for more than a star rating. They want to know whether they will be listened to, whether a recommendation will make sense, and whether the final plan will be explained without pressure.
+
+That is a sensible place to start. At Debod Dental Clinic, in C. de Ferraz, 24, Argüelles, Madrid, we believe a review should help a person prepare for a conversation, not make a clinical decision in their place. Dentistry is personal. Two people may both report tooth pain, for example, yet one may need a small filling while the other needs treatment inside the tooth, known as root canal treatment, or a different solution altogether.
+
+A positive review may reflect kindness, punctuality, a calm environment or clear explanations. Those things matter. They are part of respectful care. Still, a review cannot show the full examination, the condition of the gums, the way someone bites, their medical history, or whether the tooth can realistically be saved. That part belongs in the diagnostic appointment.
+
+**A good dental decision is based on evidence from your own mouth, not on someone else’s treatment plan.** This is why we encourage patients to ask questions and take the time they need before accepting a recommendation. The first diagnostic visit is included, so you can understand what has been found before deciding how to proceed.
+
+Is it normal to feel uncertain after reading very different opinions online? Absolutely. The useful question is not simply “Which clinic has the most reviews?” It is: “Will this team explain why this option suits me, what the alternatives are, and what happens if I wait?” The answer often becomes clear in the consultation itself.
+
+## What most clinics do not tell you about patient reviews at Debod Dental Clinic Argüelles
+
+A review is a snapshot. Dental care is a process.
+
+Someone may write about how comfortable they felt during an urgent visit. Another person may be pleased with the appearance of a new crown. Both accounts can be genuine and helpful, but neither reveals whether the treatment is indicated for you. A crown is a protective covering made to restore a damaged tooth; it is not automatically the best answer for every broken or worn tooth. Sometimes a conservative restoration is possible. Sometimes the tooth needs more support. Sometimes the issue is not the tooth alone but the bite.
+
+This is especially relevant when a treatment sounds straightforward online. What happens if a missing tooth is replaced with an implant without checking gum health, bone volume, grinding habits or smoking? The implant may be technically possible, yet long-term care still depends on those factors and on regular maintenance. An implant is not a maintenance-free replacement. If you are exploring [dental implants](/en/treatments/dental-implants-arguelles-madrid/), ask what the plan includes after the restoration is fitted, as well as what happens during treatment.
+
+Online ratings also cannot measure whether the person reviewing a clinic had the same clinical challenge as you. A person seeking whitening, someone with bleeding gums and someone considering full-mouth rehabilitation need very different assessments. Whitening can improve the shade of natural teeth, but it does not treat decay, gum disease or the colour of existing fillings and crowns. Healthy gums come first.
+
+The same applies to cosmetic work. Veneers should never be used to cover active decay, inflamed gums or an untreated bite problem. Healthy gums are generally firm and coral pink, although natural pigmentation varies. Attractive dentistry should look like the person’s own smile at its best: natural shapes, gentle texture and character. Not identical square teeth that look detached from the face.
+
+**Reviews are most useful when they encourage you to ask better questions.** Before accepting an extensive plan in Madrid, ask for a written breakdown, the clinical reason for each stage, reasonable alternatives and the expected review schedule. If several extractions or multiple implants are proposed, an independent second opinion can be a sensible choice.
+
+There is another detail patients may not see in a public comment: diagnosis takes time. Pain on biting, a pimple on the gum, swelling, or pain that lingers after hot or cold drinks can point towards inflammation or infection around a tooth. A dentist may need an examination, vitality tests and an X-ray before deciding whether the tooth can be restored, treated with root canal therapy or removed. Choosing a solution because it promises to be fastest is not always the kindest choice for the tooth.
+
+## Our clinical experience
+
+Rather than presenting individual testimonials or claiming results that cannot be verified here, these are **hypothetical educational examples**, based on common situations dentists assess. They are not real patient cases and are not a prediction of anyone’s outcome.
+
+A hypothetical 40-year-old patient attends after reading reviews about urgent dental appointments in Argüelles. They have sharp pain when biting on a back tooth. The patient assumes an extraction is inevitable because the tooth has already had a large filling. In a proper assessment, the clinician would check the tooth, gums, bite and relevant imaging. A crack, decay, an inflamed nerve or a high point in the bite can feel similar at first. The outcome depends on whether the tooth is restorable. The lesson is simple: pain has a cause, and the treatment follows the cause.
+
+A second hypothetical patient, aged 32, is considering veneers after seeing smile photographs online. Their gums bleed while brushing and their front teeth overlap. The ethical sequence would be to address gum inflammation, investigate any decay and assess the bite before discussing cosmetic changes. In some situations, [clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/) may be considered to improve tooth position before cosmetic finishing. In others, small changes may be enough. How long does it take? That cannot be answered responsibly without an examination and a treatment plan.
+
+A third hypothetical patient, aged 58, has a missing molar and is interested in an implant. The consultation would explore whether nearby teeth are healthy, how much bone is available, whether there is gum disease, and whether the person grinds their teeth at night. A bridge or removable option may also be discussed. If an implant is suitable, careful planning can be considered, including [guided implant surgery](/en/treatments/guided-implant-surgery-arguelles-madrid/) where clinically appropriate. The aim is not to sell a single route; it is to select a route that can be maintained.
+
+These examples close an open question that often sits behind online searches: “Do I need the same treatment as the reviewer?” Usually, no. You need a plan built around your diagnosis, priorities and health.
+
+## Frequently asked questions about patient reviews at Debod Dental Clinic Argüelles
+
+### Are patient reviews a reliable way to choose a dentist?
+
+They are one useful source of information. Reviews can describe how people felt about communication, accessibility, the atmosphere and the practical side of attending. They cannot confirm the quality or suitability of a clinical recommendation for another person. Look for clarity, consistency and whether the clinic welcomes questions rather than relying on ratings alone.
+
+### What should I ask at my first dental appointment?
+
+Ask what has been found, what may be causing it, and what the options are. You can also ask what happens if you delay treatment, how the treatment is maintained, whether images are needed, and whether there is a more conservative alternative. You should receive information in language you understand before giving consent.
+
+### Is it normal to need scans or X-rays before treatment?
+
+Yes, when they are clinically indicated. An X-ray or 3D scan can reveal information that cannot be seen by looking alone, such as bone levels, roots, infection or the position of important structures. The type of image should match the question being investigated. It should not be treated as a routine extra without explanation.
+
+### What happens if I am advised to have an extraction or several implants?
+
+Ask whether each tooth is restorable, what its prognosis is, and which alternatives exist. A second opinion is particularly reasonable before irreversible or extensive treatment. The Community of Madrid’s health register provides information about authorised health centres and patients’ rights to understandable information and clinical records: [Community of Madrid health-centre register](https://www.comunidad.madrid/salud/registro-centros-servicios-establecimientos-sanitarios).
+
+### Does dental treatment hurt?
+
+People often ask, “Does the treatment hurt?” Local anaesthetic is used to keep procedures comfortable. You may notice pressure, vibration or sounds, depending on the procedure. Afterwards, some tenderness can occur, and the dental team should explain expected recovery and when to contact the clinic. Severe swelling, fever, increasing pain or difficulty swallowing needs prompt professional advice.
+
+### Is it worth choosing treatment based on the cheapest quote?
+
+Price matters, and a written estimate helps you compare plans fairly. Yet the cheapest quote may not describe the same diagnosis, materials, planning, reviews or maintenance. Ask what is included and what could alter the plan after examination. A transparent conversation is more valuable than a headline figure.
+
+## What technology do we use at Debod for patient reviews and treatment planning?
+
+At Debod Dental Clinic, technology is used to make the conversation clearer, not to make promises. **An intraoral scanner** creates a detailed digital model of the teeth without traditional impression material in many situations. It can help patients see crowding, wear, broken teeth or the space created by a missing tooth.
+
+Where the clinical question requires it, 3D imaging, often called a CBCT or dental CT scan, can show bone, roots and nearby anatomical structures in three dimensions. This may be useful when planning implant treatment, assessing complex infections or considering surgical procedures. It is not needed for every patient; the clinician should explain why it is being recommended.
+
+Debod Dental Lab, our in-house digital laboratory, supports planning and communication for restorations such as crowns and other prosthetic work. A close laboratory-clinic workflow can help the team assess shape, fit and appearance in context. It does not replace careful preparation of the tooth, healthy gums or a stable bite.
+
+If you are comparing patient reviews in Madrid, bring your questions to the first visit. Tell us what you have read, what worries you and what outcome you hope for. We will assess your situation and explain the available options in plain language. You can [book an appointment](/en/contact/) with Debod Dental Clinic in Argüelles, near Ventura Rodríguez, Plaza de España and Argüelles stations.
+
+The most reassuring review is not one that promises a perfect result. It is one that reflects a process of listening, diagnosing carefully, discussing alternatives and supporting patients through each stage of their care.`
+},
+  'escaner-intraoral-3d-clinica-dental-madrid-ventajas': {
+  title: '3D Intraoral Scanner Benefits in Madrid',
+  categoryLabel: 'Dental Health',
+  metaTitle: '3D Intraoral Scanner Benefits — Debod Dental Clinic Argüelles',
+  metaDescription: 'Discover how a 3D intraoral scanner improves comfort and treatment planning at a dental clinic in Madrid.',
+  excerpt: 'A 3D intraoral scan creates a detailed digital model of your teeth without traditional impression materials. Here is when it helps—and when other tests are still needed.',
+  faqs: [
+    {
+      question: 'Does a 3D intraoral scan hurt?',
+      answer: 'No. The scanner is a small optical camera passed around the teeth and gums. It does not use radiation or injections, although keeping the mouth open may feel slightly tiring for some people.'
+    },
+    {
+      question: 'Is an intraoral scan better than a traditional dental impression?',
+      answer: 'For many single crowns, veneers, aligners and short bridges, digital scanning can be more comfortable and can provide highly accurate records. The best method still depends on the treatment, visibility, saliva control and the area being restored.'
+    },
+    {
+      question: 'Does an intraoral scanner replace X-rays or a CBCT scan?',
+      answer: 'No. An intraoral scanner records the surface of teeth, gums and bite. X-rays or a 3D CBCT scan may still be needed to assess bone, roots, decay or implant planning.'
+    },
+    {
+      question: 'How long does a 3D intraoral scan take?',
+      answer: 'The scan itself often takes only a few minutes, but the appointment length depends on preparation, the number of teeth involved and whether clinical photographs, X-rays or treatment planning are also required.'
+    },
+    {
+      question: 'Can an intraoral scan be used for dental implants?',
+      answer: 'Yes, it can support planning and the creation of implant crowns. For several implants or a full arch, the clinical team may use extra verification steps or combine digital and conventional techniques to check the fit.'
+    }
+  ],
+  bodyMarkdown: `## The Debod team’s perspective on 3D intraoral scanners
+
+At Debod Dental Clinic in Argüelles, Madrid, a 3D intraoral scanner is part of how we make diagnosis and treatment planning clearer for patients. It is a compact optical camera that records the visible surfaces of teeth, gums and the way the bite meets, then builds a three-dimensional digital model on screen.
+
+For many people, that is a welcome change from impression trays filled with material. No strong taste, less sensation of bulk in the mouth, and no waiting for material to set. But honest dentistry means being precise about what the technology does. **A scan is a detailed record, not a diagnosis or a treatment by itself.**
+
+It does not remove decay, stop gum disease, correct bruxism or replace a missing tooth. It helps the dentist see, plan and communicate. Think of it like a very accurate map: useful for choosing the route, but it does not drive the car.
+
+Is it normal to wonder whether it involves radiation? No radiation is used by the scanner. Where we need information about roots, bone or hidden decay, we may still recommend an X-ray or a 3D CBCT scan. The first diagnostic visit is the right moment to decide which records are genuinely needed for your case.
+
+The image appears as we work. You can see areas that are difficult to judge in a mirror, and we can explain why a crown, retainer, aligner or implant restoration may be recommended. That immediate conversation is often the part patients value most. Yet there is one detail about scanning that advertisements rarely explain.
+
+## What most clinics do not tell you about 3D intraoral scanners
+
+A digital scan is not automatically the best answer for every mouth or every treatment. Its accuracy depends on the conditions at the time of scanning: saliva, movement, bleeding gums, access, the operator’s technique and the extent of the work all matter.
+
+If a restoration edge sits well below the gum line, for example, the scanner cannot reliably record what it cannot see. The gum may need to be gently managed first so that the edge can be captured. If gums are inflamed, they often bleed more easily and the record becomes less predictable. This is one reason we do not rush cosmetic work where there is active decay, gum inflammation or an unstable bite. Healthy gums should be calm and coral pink before treatment is planned.
+
+For a single crown, evidence from randomised clinical studies has found more favourable marginal fit with intraoral scanning than with conventional impressions in the studied settings. One study reported median marginal gaps of 60 micrometres with digital scanning and 78 micrometres with conventional impressions; at six and twelve months, both methods had similar short-term clinical marginal integrity. Another trial of posterior crowns also found a better average marginal fit with the digital workflow. These are encouraging findings, not a promise that every crown or every full-mouth rehabilitation will behave identically. You can read the published studies [here](https://pubmed.ncbi.nlm.nih.gov/30796587/) and [here](https://pubmed.ncbi.nlm.nih.gov/36484666/).
+
+What happens if a scan is incomplete? We simply rescan that area before any work is made. The software lets the clinician check the digital model straight away rather than discovering a missing detail after an impression has left the surgery.
+
+For longer rehabilitations, full arches without teeth or multiple angled implants, the workflow may need additional checks. Digital scanning, photogrammetry and conventional verification can be combined. The sensible choice is the one that gives the team confidence in the fit, not the one with the most impressive label.
+
+## Our clinical experience
+
+At Debod Dental Clinic, we use digital records as part of a careful assessment rather than as a shortcut. The scan can support planning for [dental crowns](/en/treatments/dental-crowns-arguelles-madrid/), retainers, bite guards and [clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/). It also makes it easier to compare models over time where that is useful.
+
+Here is a hypothetical example, not a real patient case: a 40-year-old with a heavily filled back tooth may need a crown after examination and appropriate imaging. A scan can capture the tooth and opposing bite digitally, helping the clinician and laboratory design a restoration that respects the available space. The crown still requires preparation where appropriate, material selection, fitting, bite adjustment and review. **The scan does not make those clinical stages unnecessary.**
+
+Another hypothetical example: someone who experiences a strong gag reflex may find an intraoral scan more manageable than conventional impression material. A review of patient-reported studies found that digital scanning was generally preferred for comfort, taste, smell and gagging-related factors, although anxiety and perceived appointment time did not show such a consistent difference. The research is available [here](https://pubmed.ncbi.nlm.nih.gov/34089258/).
+
+A third hypothetical example concerns an implant crown. After clinical planning, a scan can help transfer the shape of nearby teeth and gums to the design process. For complex implant treatment, we may also need a 3D CBCT scan and specific fit-verification protocols. Patients considering [dental implants](/en/treatments/dental-implants-arguelles-madrid/) should ask how the final fit and bite will be checked, particularly when several implants are involved.
+
+For full-arch implant impressions, a clinical review found that intraoral scanning reduced impression time on average, while evidence on accuracy remained varied between studies. That distinction matters. Faster is pleasant, but a precise, verified restoration is the aim.
+
+## Questions patients ask about 3D intraoral scanning
+
+### Does a 3D intraoral scan hurt?
+
+No. The scanner tip moves around the mouth without needles, drilling or radiation. It may feel unusual at first, and holding your mouth open can be tiring during a longer record, but it should not be painful.
+
+### How long does a 3D intraoral scan take?
+
+The scan itself is usually brief, though the whole appointment can take longer if we need photographs, X-rays, gum assessment or a detailed treatment discussion. How long does it take for a crown or aligner afterwards? That depends on the clinical plan, the laboratory work and any preparatory treatment needed.
+
+### Is it normal to need X-rays as well as a scan?
+
+Yes. The scanner records surfaces. X-rays and CBCT scans, when clinically indicated, show structures below those surfaces, such as roots and bone. One does not replace the other.
+
+### Is a digital scan always more accurate?
+
+Not always. It can be highly accurate for many indications, particularly individual restorations, but a deep gum-line edge, uncontrolled bleeding, a long span or multiple implants can make any scan more demanding. The clinician should select and verify the method for the individual case.
+
+### Is it worth having an intraoral scan for veneers?
+
+It can be very useful for planning [porcelain veneers](/en/treatments/porcelain-veneers-arguelles-madrid/), discussing tooth shape and communicating with the laboratory. It does not justify placing veneers over active decay, inflamed gums or a bite problem that should be addressed first. Natural texture and proportion matter; the goal is not teeth that look square or artificially uniform.
+
+### What happens if I have sensitive teeth or a gag reflex?
+
+Tell us before the appointment. Scanning is often easier to tolerate than impression trays for people with a gag reflex, and we can adapt pauses and positioning. Sensitivity needs its own assessment; the scanner itself does not treat the cause.
+
+## What technology do we use at Debod for 3D intraoral scanning?
+
+Our digital workflow begins with the intraoral scanner when it is appropriate for the treatment. It produces a 3D model of the teeth, gums and bite that can be reviewed with the patient during the appointment.
+
+Where bone, roots or implant position need assessment, we use 3D CBCT planning when indicated. That extra information is particularly relevant for implant treatment and more complex rehabilitation. The decision is clinical, not automatic: imaging should answer a real question.
+
+Debod Dental Lab, our in-house digital laboratory, can work from the digital records for suitable restorations and appliances. Keeping the clinical and laboratory teams closely connected helps us check design details, tooth shape and function before the final fitting. It does not remove the need for clinical try-ins, bite checks, hygiene advice or follow-up.
+
+If you are looking for a dental clinic in Madrid that uses digital scanning, ask a simple question: what will this scan help us decide in my case? A clear answer should cover the purpose of the record, whether other imaging is needed, who will design the restoration and how its fit will be verified.
+
+We offer an included first diagnostic visit at Debod Dental Clinic, C. de Ferraz, 24, Argüelles, 28008 Madrid, España. You can contact us on +34 914 47 62 25 or [book an appointment](/en/contact/). We are close to Ventura Rodríguez on Line 3, with Plaza de España and Argüelles also nearby.`
 },
   // ← Agent appends new EN overlays here
 }
