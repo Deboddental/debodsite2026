@@ -1697,6 +1697,227 @@ Nuestro laboratorio propio, Debod Dental Lab, permite una comunicación directa 
 
 En Madrid hay muchas opciones tecnológicas. La pregunta útil no es sólo si una clínica tiene escáner, sino para qué lo empleará en vuestro caso, qué información adicional necesita y cómo verificará el resultado. En Debod Dental Clinic os lo explicamos antes de empezar, con un plan y un presupuesto desglosado tras la valoración. Podéis [coger cita](/contacto/) en C. de Ferraz, 24, Argüelles, 28008 Madrid, España, o llamar al +34 914 47 62 25.`
 },
+  {
+  slug: 'comer-implante-dental-recien-colocado-madrid',
+  category: 'servicios',
+  categoryLabel: 'Servicios',
+  title: '¿Puedo comer con un implante dental recién colocado?',
+  publishDate: '2026-09-23',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Comer con implante dental recién colocado — Debod Dental Clinic Argüelles',
+  metaDescription: '¿Puedo comer con un implante dental recién colocado? Te explicamos qué tomar, qué evitar y cuándo consultar en Madrid.',
+  excerpt: 'Descubre qué puedes comer tras colocar un implante dental, cuándo volver a masticar y qué señales requieren llamar a tu dentista.',
+  heroImageUrl: '/Images/blog/webp/implante-dental.webp',
+  faqs: [
+    {
+      question: '¿Puedo comer con un implante dental recién colocado?',
+      answer: 'Sí, pero durante los primeros días conviene elegir alimentos fríos o templados y blandos, y no masticar sobre la zona tratada salvo indicación expresa de tu cirujano.'
+    },
+    {
+      question: '¿Duele comer después de poner un implante dental?',
+      answer: 'Puede haber sensibilidad e inflamación al pasar la anestesia. Comer despacio, con alimentos blandos y por el lado contrario suele resultar más cómodo.'
+    },
+    {
+      question: '¿Cuánto cuesta un implante dental?',
+      answer: 'El coste depende de la situación de cada boca, del hueso disponible, de si hace falta injerto y del tipo de prótesis. Se confirma tras una valoración clínica y pruebas diagnósticas.'
+    },
+    {
+      question: '¿Cuánto dura la dieta blanda tras un implante dental?',
+      answer: 'Las primeras 48 horas suelen requerir dieta líquida o triturada fría o templada. Después se introducen alimentos blandos según la evolución y las instrucciones personalizadas de la clínica.'
+    },
+    {
+      question: '¿Es urgente si sangra o se mueve el implante?',
+      answer: 'Un leve manchado inicial puede ocurrir, pero el sangrado persistente, la movilidad del implante o de la corona, la fiebre, el pus o un dolor que aumenta requieren contactar con la clínica cuanto antes.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué es comer con un implante dental recién colocado? — La respuesta directa
+
+Sí, normalmente puedes comer después de colocar un implante dental, pero **no debes masticar sobre el implante recién intervenido** salvo que tu cirujano te haya indicado expresamente otra pauta. Durante las primeras 48 horas se aconsejan alimentos líquidos, triturados, fríos o templados; después, comida blanda y masticación por el lado contrario.
+
+En Debod Dental Clinic en Argüelles, Madrid, explicamos esta pauta de forma individual porque no todos los implantes ni todas las cirugías son iguales. Un implante es una pieza de titanio que se coloca dentro del hueso para sustituir la raíz del diente perdido. Tras la intervención necesita un periodo de unión con ese hueso, llamado osteointegración.
+
+Piensa en ello como una pared recién reparada. Aunque parezca estable desde fuera, necesita tiempo antes de colgar peso sobre ella. La comida dura, pegajosa o crujiente puede transmitir fuerza a la zona, irritar la herida o hacer que la recuperación sea más incómoda. Y hay un detalle que suele generar dudas: llevar un diente provisional no siempre significa que puedas usarlo para morder desde el primer día.
+
+## ¿Por qué importa esto para tu salud dental?
+
+La alimentación tras la cirugía no busca que pases hambre ni que vivas a base de purés durante semanas. Busca proteger el coágulo de sangre que cierra la herida, evitar que se abran los puntos y reducir la presión sobre el implante mientras el hueso cicatriza.
+
+Las primeras horas también coinciden con el efecto de la anestesia. Si comes algo muy caliente o duro sin notar bien la zona, puedes morderte la mejilla, la lengua o lesionarte sin darte cuenta. Por eso se suele recomendar esperar a recuperar sensibilidad y escoger opciones suaves.
+
+Durante las primeras 48 horas, yogur, purés, crema templada, huevo revuelto, pescado muy tierno o batidos tomados con vaso suelen ser buenas opciones. Si tu profesional te ha indicado no usar pajita, respétalo: la succión puede alterar la herida en determinadas intervenciones. El Hospital Clínico San Carlos recoge pautas de dieta líquida o túrmix fría o templada las primeras 48 horas tras cirugía bucal, junto con cuidados locales y una higiene posterior cuidadosa. [Puedes consultar sus recomendaciones postoperatorias](https://www.comunidad.madrid/hospital/clinicosancarlos/sites/clinicosancarlos/files/inline-files/RecomendacionespostoperatoriasCirugia%20Bucal-%20post.pdf).
+
+Después se suele avanzar a arroz bien cocido, pasta, verduras blandas, tortilla, legumbres trituradas o carne muy desmenuzada. La velocidad del cambio depende de la inflamación, de si se han colocado puntos, de la calidad del hueso y de si ha sido necesario hacer un injerto. **La pauta escrita de tu cirujano está por encima de cualquier consejo general**.
+
+¿Qué pasa si pruebas unas patatas fritas, pan duro o frutos secos demasiado pronto? Puede que no ocurra nada evidente, pero aumentas el riesgo de dolor, sangrado, acumulación de restos bajo la encía o presión innecesaria sobre la zona. No merece la pena acelerar unos días lo que se está cuidando para muchos años.
+
+También conviene evitar tabaco y alcohol, especialmente en las primeras 48 horas y según la indicación clínica. El tabaco afecta a la cicatrización y se asocia a más complicaciones en implantología. La higiene deficiente, el bruxismo, una diabetes mal controlada o una infección activa pueden modificar el plan de recuperación.
+
+## Preguntas frecuentes
+
+### ¿Puedo comer el mismo día que me ponen un implante dental?
+
+Sí, cuando haya pasado la anestesia y siguiendo una dieta suave. Elige alimentos fríos o templados, de textura blanda, y mastica lejos de la zona intervenida. Evita bebidas o comidas muy calientes durante las primeras horas porque pueden favorecer el sangrado y porque quizá aún no notes bien la boca.
+
+Si se ha realizado una cirugía más extensa, una extracción previa, un injerto de hueso o varios implantes, las instrucciones pueden ser más restrictivas. La recuperación no se mide solo por el número de implantes; importa también cómo estaba la zona antes de la intervención.
+
+### ¿Duele comer después de poner un implante dental?
+
+Es normal que haya molestias al desaparecer la anestesia, sensibilidad al abrir mucho la boca o incomodidad al masticar. No deberías forzarte a comer alimentos que exijan mordida. Tomar la medicación pautada, aplicar frío externo si se te ha indicado y escoger una dieta blanda suele hacer estos días más llevaderos.
+
+¿Es normal que la inflamación sea mayor al segundo o tercer día? Puede ocurrir tras cirugía oral. Lo esperable es que luego vaya bajando. Si el dolor empeora en vez de mejorar, hay fiebre, mal olor, pus o una inflamación que progresa, toca contactar con la clínica.
+
+### ¿Cuánto tarda en integrarse un implante dental?
+
+La osteointegración puede durar varios meses. Es el proceso por el que el hueso se adapta y se une a la superficie del implante. No hay un plazo idéntico para todas las personas: cambia según la zona de la boca, la calidad ósea, la estabilidad conseguida en cirugía, la necesidad de injertos y la salud general.
+
+Eso no significa que vayas a estar meses tomando purés. La dieta avanza antes, de manera progresiva y con prudencia. La autorización para masticar con normalidad sobre esa zona debe darla el profesional que conoce tu caso y ha revisado la evolución.
+
+### ¿Qué pasa si tengo una corona provisional sobre el implante?
+
+Una corona provisional puede colocarse el mismo día por estética o comodidad, sobre todo en dientes visibles. Aun así, hay dos situaciones diferentes. En algunos casos se diseña fuera de contacto al cerrar la boca, de modo que **no está pensada para morder**. En otros casos seleccionados puede recibir carga, pero requiere estabilidad suficiente, una mordida controlada y revisiones estrechas.
+
+La carga inmediata no es una autorización general para comer bocadillos, frutos secos o carne fibrosa desde el primer día. La investigación clínica muestra que puede funcionar en pacientes y situaciones bien seleccionados, pero la selección y el control de la carga marcan la diferencia. Un ensayo clínico sobre implantes posteriores comunicó buenos resultados a 36 meses con protocolos de carga inmediata funcional y no funcional en pacientes seleccionados. [Consulta el estudio en PubMed](https://pubmed.ncbi.nlm.nih.gov/31062517/).
+
+### ¿Cuánto cuesta un implante dental?
+
+El precio depende del diagnóstico. No es igual reponer un diente en una zona con hueso suficiente que tratar una pérdida dental con infección previa, falta de hueso, bruxismo o necesidad de una prótesis provisional. También cambia según el número de piezas, el material de la corona y el plan de mantenimiento.
+
+Antes de decidir, conviene hacer una valoración con exploración y pruebas adecuadas. En tratamientos de [implantes dentales](/tratamientos/implantes-dentales-arguelles-madrid-espana/), la planificación permite explicar qué necesita cada caso y qué pasos se prevén antes de iniciar el tratamiento.
+
+### ¿Es urgente si sangra la zona del implante?
+
+Un pequeño sangrado o manchado inicial puede ser compatible con la cirugía reciente. Morder una gasa limpia siguiendo la pauta indicada suele ayudar. Si el sangrado es abundante, no cede, reaparece de forma repetida o se acompaña de dolor fuerte, llama a tu clínica.
+
+También es urgente consultar si notas movilidad del implante o de la corona, supuración, mal sabor persistente, fiebre superior a 38 °C, inflamación creciente o dificultad para respirar. Esta última situación requiere atención urgente. Los consentimientos hospitalarios de cirugía implantológica incluyen entre los posibles riesgos el sangrado, la infección, la apertura de la herida y la falta de integración del implante. [Puedes revisar un documento informativo del Hospital Universitario de La Princesa](https://www.comunidad.madrid/hospital/laprincesa/file/2110/download?token=56syYPHi).
+
+## ¿Qué debes saber antes de tu primera visita?
+
+- Lleva información sobre tus enfermedades, medicación habitual, alergias y hábitos como fumar o apretar los dientes.
+- Explica si has tenido infecciones, extracciones recientes o problemas de encías.
+- Pregunta si tu provisional estará en contacto al morder o fuera de oclusión.
+- Pide por escrito las pautas de comida, higiene, medicación y el teléfono de revisión.
+
+La primera visita diagnóstica sirve para resolver preguntas concretas, no para aplicar una receta igual para todos. ¿Cómo sé si necesito un injerto o si puedo llevar carga inmediata? Se valora con exploración, estudio de la encía, análisis de la mordida y pruebas como el escáner intraoral o el TAC 3D cuando está indicado.
+
+En Debod Dental Clinic usamos planificación digital para estudiar la posición del implante antes de la cirugía. Cuando procede, la [cirugía guiada de implantes](/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/) ayuda a trasladar esa planificación a la intervención. Aun así, ninguna tecnología sustituye las revisiones ni convierte una dieta protegida en algo opcional.
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Contacta con un dentista si el dolor aumenta claramente tras haber empezado a mejorar, si no puedes controlar un sangrado con las medidas indicadas o si notas que el implante se mueve. Una corona provisional suelta también merece revisión: no intentes pegarla ni forzarla en casa.
+
+La fiebre, el pus, un olor intenso que no desaparece, la inflamación que sigue creciendo después de varios días o la dificultad para tragar deben revisarse sin demora. Si hay dificultad respiratoria, busca atención de urgencia.
+
+No esperes a la siguiente revisión si algo no te cuadra. Es preferible hacer una consulta breve y confirmar que la cicatrización va bien. La mayor parte de las dudas se resuelven con una revisión y con un ajuste de las pautas, pero conviene detectarlas pronto.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+En Debod Dental Clinic, en C. de Ferraz, 24, Argüelles, 28008 Madrid, abordamos los implantes desde el diagnóstico y no desde una solución prefabricada. La primera visita diagnóstica está incluida y permite revisar hueso, encías, mordida y expectativas antes de decidir el plan.
+
+La planificación digital con escáner intraoral y TAC 3D cuando procede ayuda a estudiar cada caso. Nuestro laboratorio propio, Debod Dental Lab, participa en el diseño de las restauraciones para buscar ajuste, función y una estética natural. Un diente nuevo debe encajar con tu sonrisa y con tu forma de morder, no parecer un elemento ajeno.
+
+Si acabas de recibir un implante o estás valorando el tratamiento, puedes [pedir cita](/contacto/) para recibir indicaciones adaptadas a tu situación. Atendemos de lunes a viernes, de 9:00 a 20:00, cerca de Ventura Rodríguez, Plaza de España y Argüelles.`
+},
+  {
+  slug: 'dentista-arguelles-escaner-intraoral-3d-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: 'Dentista en Argüelles con escáner intraoral 3D',
+  publishDate: '2026-09-23',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Dentista en Argüelles con escáner intraoral 3D — Debod Dental Clinic Argüelles',
+  metaDescription: 'Descubre cómo trabaja un dentista en Argüelles con escáner intraoral 3D para planificar tratamientos con más comodidad.',
+  excerpt: 'Te explicamos qué ve un escáner intraoral 3D, cuándo ayuda de verdad y por qué no sustituye una exploración dental completa.',
+  heroImageUrl: '/Images/blog/webp/diagnostico-dental.webp',
+  faqs: [
+    {
+      question: '¿Duele el escáner intraoral 3D?',
+      answer: 'No. Es una cámara óptica que recorre los dientes y la encía visible sin emitir radiación ni utilizar las cubetas con pasta de las impresiones convencionales.'
+    },
+    {
+      question: '¿Cuánto tarda un escáner intraoral?',
+      answer: 'Depende de la zona que haya que registrar y de la situación de la boca. En estudios sobre coronas, el escaneo digital redujo el tiempo frente a la impresión convencional, aunque cada caso requiere su propio protocolo.'
+    },
+    {
+      question: '¿El escáner intraoral detecta todas las caries?',
+      answer: 'No por sí solo. Ayuda a registrar la superficie dental, pero las caries entre dientes, problemas de raíz o lesiones en el hueso pueden requerir exploración clínica y radiografías u otras pruebas indicadas.'
+    },
+    {
+      question: '¿Qué pasa si tengo implantes y necesito un escaneo?',
+      answer: 'Puede utilizarse un registro específico sobre el implante y combinarse, cuando procede, con un TAC 3D para planificar. La técnica elegida depende del número de implantes, los tejidos y la complejidad del caso.'
+    }
+  ],
+  bodyMarkdown: `## La perspectiva del equipo de Debod sobre dentista en Argüelles con escáner intraoral 3D
+
+En Debod Dental Clinic, en Argüelles, entendemos el escáner intraoral 3D como una herramienta para mirar mejor, explicar mejor y planificar con más información. No es un reclamo tecnológico ni una promesa automática de que cualquier tratamiento vaya a ser sencillo. Es una cámara pequeña que registra dientes, encía visible y mordida para construir un modelo digital en tres dimensiones.
+
+Para muchas personas, el cambio se nota desde el primer momento. Menos sensación de náusea que con las cubetas de pasta, posibilidad de ver la boca en pantalla y un registro que puede compartirse con el laboratorio. Parece algo menor. No lo es cuando hay que decidir una corona, una férula o un tratamiento estético que debe respetar la forma natural de cada sonrisa.
+
+¿Duele el escáner intraoral? No. No emite radiación y no invade el diente. El profesional seca razonablemente las superficies, recorre ambas arcadas con la cámara y registra cómo encajan los dientes. Aun así, **no sustituye una exploración clínica completa**. Esa diferencia cambia muchas decisiones.
+
+En Madrid hay clínicas que anuncian esta tecnología. La pregunta útil no es solo si tienen un escáner, sino qué problema concreto resuelve en vuestro caso. Un buen diagnóstico no depende de una única pantalla: une lo que vemos en boca, los síntomas, la mordida, las radiografías cuando están indicadas y, si hace falta, un TAC 3D.
+
+Hay algo que suele sorprender a quien busca un dentista en Argüelles con escáner intraoral 3D: el archivo digital puede ser muy preciso y, aun así, no ser válido para todos los tratamientos. Lo explicamos un poco más abajo.
+
+## Lo que la mayoría de clínicas no te cuenta sobre el escáner intraoral 3D
+
+El escáner captura superficies. Dicho de forma sencilla, funciona como una cámara que va montando un puzle digital de la parte visible de dientes y encías. Es útil para estudiar desgaste, preparar [coronas dentales](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/), diseñar férulas, planificar restauraciones cortas o trabajar con alineadores.
+
+No “ve” todo lo que hay debajo. Una caries entre dos dientes, una infección alrededor de una raíz o la cantidad de hueso disponible para un implante no se diagnostican únicamente con el escáner. Según el motivo de consulta, se necesitan pruebas complementarias. Si se está valorando un implante, el TAC 3D permite estudiar el hueso y las estructuras anatómicas; el escaneo puede después combinarse con esa información para una planificación más detallada.
+
+¿Es normal que el dentista pida radiografías si ya ha hecho un escáner? Sí. Cada prueba responde a una pregunta distinta. Sería como usar un mapa de calles y una vista aérea: ambos orientan, pero ninguno reemplaza al otro.
+
+La calidad del registro también depende de circunstancias muy concretas. Sangrado de encías, saliva, un margen de una corona que queda muy profundo o una arcada completa sin dientes pueden dificultar el trabajo. En rehabilitaciones completas sobre implantes, la literatura científica señala resultados clínicamente aceptables, pero con evidencia aún heterogénea y necesidad de más estudios en pacientes reales. En esos casos puede convenir una impresión convencional, un flujo híbrido o técnicas complementarias.
+
+Los estudios clínicos disponibles sí muestran una ventaja clara para la comodidad en determinados tratamientos. En coronas unitarias y puentes cortos, trabajos como los de [Gjelvold y colaboradores](https://pubmed.ncbi.nlm.nih.gov/26618259/) y [Haddadi y colaboradores](https://pubmed.ncbi.nlm.nih.gov/29145527/) encontraron menor tiempo de registro y menor incomodidad percibida con el flujo digital frente a las impresiones convencionales. Eso no significa que la misma solución sirva para toda boca.
+
+Aquí está el detalle que conviene no pasar por alto: una imagen bonita en pantalla no equivale a un diagnóstico definitivo. La valoración tiene que responder primero a por qué se ha perdido estructura dental, por qué se mueve un diente o por qué una encía sangra.
+
+## Nuestra experiencia clínica
+
+En el equipo de Debod Dental Clinic vemos que el escáner intraoral ayuda especialmente cuando el paciente necesita comprender una propuesta de tratamiento. Poder observar un desgaste, un borde roto o una mordida que carga demasiado un diente hace la conversación más clara. A partir de ahí se estudian las opciones, sus límites y los pasos necesarios.
+
+Pensemos en un ejemplo didáctico, no en un caso real: una persona de 40 años acude porque se le ha fracturado una esquina de una muela y teme necesitar una extracción. El escaneo puede registrar la forma de la pieza y su relación con los dientes vecinos. La exploración y las pruebas de imagen determinarán si es posible reconstruir, colocar una corona o si el problema requiere otro abordaje. El valor está en decidir con datos, no en colocar un tratamiento por rutina.
+
+Otro ejemplo hipotético: una paciente quiere mejorar el aspecto de los dientes delanteros. El modelo digital permite estudiar proporciones y explicar posibles cambios. Pero antes se revisan encías, caries y mordida. **No se deben colocar carillas con encías inflamadas, caries activas o una mala mordida sin abordar**. Tampoco buscamos dientes cuadrados ni una sonrisa de anuncio: textura, proporción y pequeñas particularidades hacen que el resultado se vea natural.
+
+En tratamientos de ortodoncia, el registro digital puede servir para documentar la posición inicial y trabajar con [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/). Un estudio con 180 pacientes recogió preferencia por el escaneo frente a las impresiones convencionales, con eficiencia comparable según el equipo empleado, como describe [Burzynski y colaboradores](https://pubmed.ncbi.nlm.nih.gov/29602345/). La conveniencia de la ortodoncia, sin embargo, depende del diagnóstico de mordida y de los objetivos clínicos.
+
+¿Cuánto tarda todo el proceso? El escaneo suele ocupar pocos minutos, pero no conviene confundir el tiempo de cámara con el tiempo de diagnóstico. Revisar el archivo, evaluar la boca, solicitar imágenes si hacen falta y diseñar un plan puede requerir más de una cita. Preferimos explicarlo así. Claro y sin atajos.
+
+## Preguntas frecuentes sobre dentista en Argüelles con escáner intraoral 3D
+
+### ¿Merece la pena pedir un escáner intraoral para una corona?
+
+Puede merecer la pena si permite registrar bien el diente preparado y la mordida, y facilita el trabajo con el laboratorio. No es una obligación en todos los casos. Cuando los márgenes son profundos o hay humedad difícil de controlar, el profesional valora la técnica que ofrezca un registro más fiable.
+
+### ¿Qué pasa si sangran mis encías durante el escaneo?
+
+El sangrado puede afectar a la visibilidad de la zona y, por tanto, a la calidad del registro. Primero hay que identificar su causa. Una higiene profesional o un tratamiento periodontal puede ser el paso previo antes de planificar estética o prótesis. Podéis consultar nuestras opciones de [limpieza dental](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) tras la valoración.
+
+### ¿Cómo sé si necesito TAC 3D además del escáner?
+
+No todo paciente lo necesita. Se indica cuando aporta información que no ofrecen otras pruebas, por ejemplo para valorar hueso y anatomía antes de ciertos implantes o cirugías. Si se plantea una [cirugía guiada de implantes](/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/), el TAC y el escaneo pueden utilizarse juntos dentro de la planificación.
+
+### ¿El escáner sirve para vigilar el bruxismo?
+
+Puede ayudar a comparar el desgaste dental a lo largo del tiempo si se realizan registros sucesivos. No diagnostica el bruxismo por sí mismo. Se valora junto con síntomas como dolor muscular, fracturas, sensibilidad, hábitos y exploración de la mordida.
+
+### ¿Puedo hacerme el escaneo si tengo arcadas sin dientes?
+
+Se puede estudiar, pero los casos de rehabilitación completa requieren una planificación especialmente cuidadosa. Los tejidos blandos móviles y la extensión de la arcada pueden reducir la precisión. El equipo puede recomendar un enfoque digital, convencional o mixto según el caso.
+
+## ¿Qué tecnología usamos en Debod para dentista en Argüelles con escáner intraoral 3D?
+
+En Debod Dental Clinic utilizamos escáner intraoral para obtener modelos digitales de la boca y ayudar a planificar tratamientos cuando está indicado. Estos registros pueden integrarse en un flujo digital con Debod Dental Lab, nuestro laboratorio propio, para coordinar diseño y fabricación de restauraciones, férulas o provisionales.
+
+Cuando el tratamiento lo exige, el estudio se completa con TAC 3D. Esto es habitual al valorar implantes, porque permite analizar el volumen óseo y planificar con más seguridad. El escáner aporta la parte visible y la mordida; el TAC muestra estructuras que el escáner no alcanza. Juntos pueden ser útiles, pero solo tras decidir que cada prueba está justificada.
+
+Antes de iniciar un tratamiento, explicamos qué información aporta cada registro, qué pasos incluye el presupuesto y qué alternativas existen si la impresión digital no ofrece la fiabilidad necesaria. Es odontología honesta: no convertir una tecnología en respuesta automática.
+
+Si buscas un dentista en Argüelles con escáner intraoral 3D, la primera visita diagnóstica incluida en nuestra clínica sirve para revisar tu caso y resolver dudas con calma. Estamos en C. de Ferraz, 24, Argüelles, 28008 Madrid, España, cerca de Ventura Rodríguez. Puedes [coger cita](/contacto/) de lunes a viernes, de 9:00 a 20:00, o contactar con Debod Dental Clinic en el +34 914 47 62 25.`
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -3311,6 +3532,251 @@ Debod Dental Lab, our in-house digital laboratory, can work from the digital rec
 If you are looking for a dental clinic in Madrid that uses digital scanning, ask a simple question: what will this scan help us decide in my case? A clear answer should cover the purpose of the record, whether other imaging is needed, who will design the restoration and how its fit will be verified.
 
 We offer an included first diagnostic visit at Debod Dental Clinic, C. de Ferraz, 24, Argüelles, 28008 Madrid, España. You can contact us on +34 914 47 62 25 or [book an appointment](/en/contact/). We are close to Ventura Rodríguez on Line 3, with Plaza de España and Argüelles also nearby.`
+},
+  'comer-implante-dental-recien-colocado-madrid': {
+  title: 'Can I Eat After a Dental Implant?',
+  categoryLabel: 'Services',
+  metaTitle: 'Can I Eat After a Dental Implant? — Debod Dental Clinic Argüelles',
+  metaDescription: 'Can you eat after a dental implant? Learn what to eat, what to avoid and when to call your dentist in Argüelles, Madrid.',
+  excerpt: 'You can usually eat after implant surgery, but protect the area. Here is what to eat, what to avoid and when to seek advice.',
+  faqs: [
+    {
+      question: 'Can I eat with a newly placed dental implant?',
+      answer: 'Yes, but you should normally avoid chewing on the implant site. For the first 48 hours, choose cool or lukewarm liquids and blended foods, then move to soft foods as directed by your dentist.'
+    },
+    {
+      question: 'Does eating after dental implant surgery hurt?',
+      answer: 'Some tenderness is normal once the anaesthetic wears off. Soft, cool foods are usually more comfortable. Contact your dental team if pain worsens after initially improving.'
+    },
+    {
+      question: 'How long do I need to eat soft foods after an implant?',
+      answer: 'It depends on the implant position, bone quality, any grafting, your bite and whether you have a temporary tooth. Your implant dentist will give you a personalised timeframe, often beginning with 48 hours of liquids or blended foods followed by a soft diet.'
+    },
+    {
+      question: 'How much does a dental implant cost in Madrid?',
+      answer: 'The cost depends on your individual treatment plan, including whether you need scans, bone grafting, a temporary tooth or a final crown. A proper quote should follow a clinical assessment and 3D planning.'
+    },
+    {
+      question: 'Is it urgent if my dental implant feels loose?',
+      answer: 'Yes. Do not chew on it and contact your dentist promptly. Movement of the implant or temporary crown needs professional assessment, particularly during healing.'
+    },
+    {
+      question: 'What happens if I chew hard food after implant surgery?',
+      answer: 'Hard, crunchy or sticky foods can irritate the surgical area, disturb stitches or place unwanted force on an implant while it is healing. Follow the instructions given for your own procedure.'
+    }
+  ],
+  bodyMarkdown: `## What can you eat after a newly placed dental implant? — The direct answer
+
+Yes, you can usually eat after a dental implant has been placed, but you should normally **avoid chewing on the implant area** while it heals. During the first 48 hours, cool or lukewarm liquids and blended foods are commonly advised; after that, soft foods are often suitable if your dentist has not given different instructions.
+
+At Debod Dental Clinic in Argüelles, Madrid, we explain this before and after surgery because the right diet is part of protecting the treatment. An implant is not just a replacement tooth. It is a small titanium post placed in the jawbone, and the bone needs time to attach securely around it.
+
+The detail that catches many people out is this: having a temporary tooth on the day of surgery does not automatically mean that tooth is ready for normal biting. We will come back to why that distinction matters.
+
+## Why does this matter for your dental health?
+
+A dental implant needs to heal through a process called osseointegration. In plain language, the jawbone gradually grows into close contact with the implant so it can support a crown or bridge safely. Think of it like allowing cement to set before putting weight on a new shelf.
+
+In the early days, hard pressure can irritate the wound, disturb the blood clot or stitches, and make swelling or bleeding more likely. Repeated force may also create tiny movements at the implant while the bone is trying to heal around it. This does not mean that every accidental bite causes failure. It does mean the safest approach is to protect the area exactly as instructed.
+
+Healing plans vary. The upper and lower jaw can behave differently, and bone quality, gum health, an extraction at the same appointment, bone grafting, smoking, teeth grinding and medical conditions such as poorly controlled diabetes can all affect the plan. That is why online advice is useful for general guidance but cannot replace your own post-operative instructions.
+
+A careful implant assessment also looks at the way your teeth meet. If you clench or grind, the forces are more like repeatedly pressing down on a fragile box than gently closing a door. The final [dental implant treatment](/en/treatments/dental-implants-arguelles-madrid/) plan should account for that before any tooth is asked to do too much work.
+
+## What should you eat in the first days after implant surgery?
+
+For the first 48 hours, follow the diet your clinician has given you. A common approach is a cool or lukewarm liquid or blended diet. Suitable choices may include yoghurt, smooth purées, lukewarm soup, scrambled egg, soft pasta and very tender fish. Eat slowly, use the opposite side of your mouth where possible, and avoid chewing directly over the surgical area.
+
+Do not eat or drink anything very hot while you are still numb. You may not notice a burn, and heat can also make bleeding feel more noticeable in the immediate post-operative period. Alcohol and smoking should be avoided as instructed by your clinician; both can interfere with healing.
+
+Foods best left aside for now include:
+
+- Nuts, crisps, crusty bread and seeds
+- Tough meat, raw crunchy vegetables and hard sweets
+- Chewing gum, caramel and other sticky foods
+- Anything you would need to bite firmly with the implant site
+
+Guidance from Madrid's Hospital Clínico San Carlos advises a cold or lukewarm liquid/blended diet for 48 hours after oral surgery, as well as avoiding rinsing for the first 24 hours. Their written advice is a useful general reference, though your surgeon's specific instructions take priority. [Read the Hospital Clínico San Carlos post-operative guidance](https://www.comunidad.madrid/hospital/clinicosancarlos/sites/clinicosancarlos/files/inline-files/RecomendacionespostoperatoriasCirugia%20Bucal-%20post.pdf).
+
+## What if I have a temporary tooth fitted on the same day?
+
+A temporary crown or bridge may sometimes be fitted on the same day as implant placement. This can improve appearance and comfort, particularly in a visible area. It is often called immediate loading, but the phrase can be misleading.
+
+A temporary tooth may be designed to sit **out of bite**. In that case, it should not touch the opposing teeth when you close, so it is not intended for biting food. In selected cases, a temporary restoration may be planned to take controlled biting forces. That decision depends on the implant's initial stability, the bite, the number and position of implants, bone conditions and regular clinical review.
+
+So, what happens if a temporary tooth looks finished? It may still be a protective provisional rather than permission to eat an apple. Ask your dentist directly: “Is my temporary tooth in contact when I bite, and may I chew with it?” That one question removes a great deal of uncertainty.
+
+Research supports a cautious, individual approach. A randomised study of selected patients found good results with both functional and non-functional immediate loading in posterior implants, but the authors also noted that these protocols require appropriate case selection. [Read the study on immediate loading protocols](https://pubmed.ncbi.nlm.nih.gov/31062517/). A wider review of randomised trials found slightly lower survival with immediate rather than conventional loading, even though several other clinical measures were similar. [Read the systematic review](https://pubmed.ncbi.nlm.nih.gov/31421892/).
+
+## Questions people often ask
+
+### Is it normal for eating to feel awkward after a dental implant?
+
+Yes. Your mouth may feel tender, swollen or simply unfamiliar after surgery, especially when the anaesthetic has worn off. Choose small mouthfuls and soft food, and chew away from the treated side. If the discomfort is increasing rather than settling, contact your dental team.
+
+### Does eating after dental implant surgery hurt?
+
+It can be uncomfortable, but soft foods should not require forceful chewing. Take pain relief only as prescribed or advised for you. Severe pain, pain that gets worse after improving, or pain with fever, pus or a bad taste needs prompt assessment.
+
+### How long does it take before I can eat normally after an implant?
+
+There is no single number that fits everyone. The first 48 hours commonly involve liquids or blended foods, followed by a soft diet for a period set by your clinician. Full chewing on the implant is only appropriate when your implant dentist confirms that your healing and restoration plan allow it.
+
+The hidden reason for this patience is that the gum can look calmer before the bone has completed its work. Feeling better is welcome, but it is not by itself a green light for crunchy food.
+
+### What can I eat if I have had bone grafting with my implant?
+
+Treat the area even more gently and follow the written instructions you receive. Bone grafting can alter the healing timetable, so avoid assuming that a friend's implant recovery applies to you. Your review appointments are the right place to confirm when diet changes are safe.
+
+### How much does a dental implant cost in Madrid?
+
+The cost depends on your clinical needs. Some people need only an implant and crown; others need an extraction, gum treatment, a bone graft, a temporary restoration or more complex planning. A reliable quote should follow an examination, imaging and discussion of the options, rather than a generic online figure.
+
+At Debod Dental Clinic, the first diagnostic visit is included. The treatment plan can then be based on what your mouth actually needs, with no guesswork about whether supporting treatment is required.
+
+### Is it urgent if my implant or temporary crown feels loose?
+
+Yes. Stop chewing on that side and contact your dentist promptly. A loose temporary crown and a loose implant are different problems, but neither should be ignored. Do not try to glue, tighten or adjust anything yourself.
+
+### Does immediate implant placement mean I can chew straight away?
+
+Not necessarily. Placing an implant immediately after an extraction is about the timing of surgery, while immediate loading refers to fitting and using a restoration early. They are separate decisions. A review of comparative studies found similar survival figures for immediate and delayed implant placement in the situations studied, but that does not authorise immediate chewing in every case. [Read the review of immediate versus delayed placement](https://pubmed.ncbi.nlm.nih.gov/37754338/).
+
+## What should you know before your first visit?
+
+If you are considering an implant, bring a clear account of your health, medication and dental history. Mention smoking or vaping, diabetes, gum bleeding, previous implant problems and whether you grind your teeth at night. These details help shape a safer plan.
+
+- Ask whether the proposed tooth will be temporary, final, in bite or out of bite.
+- Ask how long you should follow liquids and soft foods in your own case.
+- Ask what pain, swelling and bleeding are expected, and which symptoms require a call.
+- Ask whether you need 3D imaging, gum treatment or a night guard before restoration.
+
+A trustworthy plan is not rushed. At Debod Dental Clinic, digital assessment can include an intraoral scan and 3D CBCT scan where clinically indicated. If guided placement is appropriate, [guided implant surgery](/en/treatments/guided-implant-surgery-arguelles-madrid/) can help transfer that planning accurately to treatment. The right technique depends on the case, not on a one-size-fits-all promise.
+
+## When is it urgent to see a dentist?
+
+Some swelling and mild bleeding after surgery can be expected, particularly in the first days. Contact your clinic or surgeon promptly if bleeding does not settle with the instructions you were given, swelling is getting worse, pain increases after it had started to improve, or you notice pus, a bad smell or a persistent unpleasant taste.
+
+Fever above 38°C, movement of the implant or restoration, difficulty opening your mouth that is worsening, or numbness that concerns you should also be assessed. Difficulty breathing or swallowing is an emergency: seek urgent medical help immediately.
+
+Hospital information for implant patients in Madrid lists risks including inflammation, bleeding, infection, wound opening and failure of the implant to integrate with bone. These are not expected outcomes, but knowing the warning signs lets you act early. [See the Hospital Universitario de La Princesa consent information](https://www.comunidad.madrid/hospital/laprincesa/file/2110/download?token=56syYPHi).
+
+## Why choose Debod Dental Clinic?
+
+Dental implant care should feel clear and calm, especially when you are deciding what is safe to eat after surgery. Debod Dental Clinic is at C. de Ferraz, 24, Argüelles, 28008 Madrid, España, close to Ventura Rodríguez Metro station.
+
+Treatment planning is supported by digital scans and, when indicated, 3D imaging. Debod Dental Lab, the clinic's in-house digital laboratory, can support the design of temporary and final restorations so that appearance, bite and function are considered together. A crown should feel like part of your mouth, not like a hard object that gets in the way; see how [dental crowns](/en/treatments/dental-crowns-arguelles-madrid/) fit into the final stage of implant treatment.
+
+The first diagnostic visit is included. Before committing to treatment, you can ask about healing, diet, provisional teeth, timing and the full plan. To arrange a visit, [contact Debod Dental Clinic](/en/contact/) or call +34 914 47 62 25. The clinic is open Monday to Friday, 9:00–20:00.
+
+The short answer remains reassuring: you can eat after implant surgery, but your food choices and chewing habits need to protect the area. Once your clinician confirms that healing is progressing well, you can return to normal function with confidence.`
+},
+  'dentista-arguelles-escaner-intraoral-3d-madrid': {
+  title: 'Dentist in Argüelles with a 3D Intraoral Scanner',
+  categoryLabel: 'Dental Health',
+  metaTitle: '3D Intraoral Scanner Dentist — Debod Dental Clinic Argüelles',
+  metaDescription: 'Looking for a dentist in Argüelles with a 3D intraoral scanner? Learn how digital scans support comfortable, precise dental care.',
+  excerpt: 'A 3D intraoral scan can make dental planning more comfortable and easier to understand. Here is what it can—and cannot—tell us.',
+  faqs: [
+    {
+      question: 'Does a 3D intraoral scan hurt?',
+      answer: 'No. The scanner is a small optical camera that moves around the teeth and visible gums. It does not use radiation and usually feels much more comfortable than conventional impression materials.'
+    },
+    {
+      question: 'How long does an intraoral scan take?',
+      answer: 'The scanning itself often takes only a few minutes, although the full appointment depends on whether photographs, X-rays, bite records or further planning are needed.'
+    },
+    {
+      question: 'Can an intraoral scanner detect cavities?',
+      answer: 'Not on its own. A scan shows the visible surfaces of teeth and gums, but hidden decay between teeth, root problems and bone changes may require a clinical examination and suitable X-rays or a CBCT scan.'
+    },
+    {
+      question: 'Is an intraoral scan useful for dental implants?',
+      answer: 'Yes, it can be useful for recording the teeth, gums and implant positions. For implant surgery, the clinician may combine it with a CBCT scan to plan treatment, depending on the case.'
+    },
+    {
+      question: 'Is a digital scan always better than a conventional impression?',
+      answer: 'Not always. Digital scanning is very helpful in many cases, but some full-arch, deep-margin or complex cases may need a conventional, hybrid or other specialised recording technique.'
+    }
+  ],
+  bodyMarkdown: `## The Debod team’s perspective on finding a dentist in Argüelles with a 3D intraoral scanner
+
+At Debod Dental Clinic in Argüelles, Madrid, we see the intraoral scanner as a useful diagnostic and communication tool, not a shortcut or a promise. It creates a three-dimensional digital model of the visible teeth, gums and bite using an optical camera. No radiation. No trays filled with impression paste. For many people, that alone makes a dental appointment feel more manageable.
+
+A scan lets us show you what we are seeing. A worn edge, a tooth that has moved, the space available for a crown, or how your upper and lower teeth meet. It is rather like looking at a detailed map before choosing a route. The map helps, but it does not replace the person reading it properly.
+
+If you are looking for a dentist in Argüelles with a 3D intraoral scanner, ask a simple question: **what problem will the scan help solve in my particular case?** A good answer should be clear and specific. It might support planning for a crown, an aligner treatment, a protective night guard, a veneer or implant work. It should not be presented as a magic test that sees everything.
+
+That distinction matters. A scan can be very comfortable, very informative and very accurate when used well. Yet it is only one part of a proper assessment. We still examine your mouth, discuss symptoms and use other tests when they are clinically indicated. The next section explains why this is more relevant than it may sound.
+
+## What most clinics do not tell you about 3D intraoral scans
+
+An intraoral scanner captures what the camera can see: tooth surfaces, visible gum tissue and the way the teeth come together. It builds these images into a digital 3D model. **It does not diagnose every dental problem by itself.**
+
+What happens if a cavity is hiding between two teeth? Or if there is an infection around a root, or a change in the jawbone? These may not be visible on an intraoral scan. Depending on your symptoms and examination, suitable X-rays or a cone beam CT scan, often called CBCT, may be needed. CBCT is a three-dimensional X-ray that can be useful for selected implant and surgical cases.
+
+The quality of a digital scan also depends on the clinical situation. Saliva, bleeding gums, deep edges below the gum line, mobile tissues and long, complex restorations can make accurate recording harder. In these cases, an experienced clinician may choose a conventional impression, a combined technique or another digital method. That is not a failure of technology. It is choosing the right tool for the job.
+
+Research supports the comfort benefits in suitable restorative cases. In a randomised clinical study, patients reported considerably less discomfort with a digital impression than with a conventional one, while the total clinical time was also shorter in the digital group. [Gjelvold and colleagues’ study](https://pubmed.ncbi.nlm.nih.gov/26618259/) is a helpful example, although no single study can decide what is right for every mouth.
+
+**Is it normal to prefer scanning if you have a strong gag reflex?** Yes. Many patients do, because there is no bulky impression tray or setting material. Still, tell us before we begin. Small adjustments in position and pace can make a real difference.
+
+## Our clinical experience
+
+We do not use anonymous case stories as proof of outcomes. Every person’s teeth, gums, bite and treatment goals are different, and it would not be honest to imply that one result can be copied exactly.
+
+Instead, here are three hypothetical examples that show how a 3D intraoral scanner may fit into everyday care.
+
+A hypothetical patient in their forties has an old filling and a cracked-looking back tooth. The scan can help record the tooth shape and bite when planning a [dental crown](/en/treatments/dental-crowns-arguelles-madrid/). Before any restoration is designed, the dentist checks the tooth clinically and may take X-rays to assess areas the scan cannot show. The aim is not to make a tooth look artificially perfect; it is to restore function while keeping the appearance natural.
+
+A hypothetical patient notices that their front teeth have shifted over the years. A digital model can document the starting position and help explain options such as [Invisalign clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/). **How long does treatment take?** That depends on the movement required, the bite, wear time and biological response. A digital simulation is useful for discussion, not a contractual guarantee of a final result.
+
+A hypothetical patient is considering an implant after losing a tooth. The scan can record the mouth digitally, while a CBCT scan may be indicated to assess available bone and nearby anatomy. When appropriate, these records can contribute to planning [guided implant surgery](/en/treatments/guided-implant-surgery-arguelles-madrid/). The treatment plan is confirmed only after a full assessment.
+
+These examples have a common thread: scanning makes information easier to capture, share and review. It cannot make inflamed gums healthy, remove active decay or correct an unstable bite on its own. Those conditions need attention first.
+
+## Questions patients often ask about a dentist in Argüelles with a 3D intraoral scanner
+
+### Does the 3D intraoral scan hurt?
+
+No. The scanner is passed around the teeth and gums without needles or radiation. It may feel unfamiliar at first, especially near the back teeth, but it should not be painful. If you feel uncomfortable, say so. We can pause.
+
+### How long does a digital dental scan take?
+
+The scan itself commonly takes a few minutes. The appointment may take longer because a meaningful assessment can include an examination, discussion, photographs, bite checks and, where needed, diagnostic imaging. **The scan is quick; careful planning should not feel rushed.**
+
+### Is a 3D scan enough before veneers?
+
+Not by itself. Before considering porcelain veneers, gums should be healthy, with a coral-pink appearance rather than redness or bleeding, and active decay should be treated. Bite problems may need addressing first as well. Veneers should respect the individual character of the teeth, including subtle texture and natural shapes, rather than creating a uniform square, advertising-style look.
+
+### Is it normal that the scan shows my teeth more clearly than a mirror?
+
+Yes. A large 3D model can make small details easier to see and discuss. That is one reason patients often find it useful. It can help you understand the proposed care, but it does not replace the dentist’s diagnosis or examination.
+
+### Is a scan useful for a night guard or teeth grinding?
+
+It can be. A digital record may help create a fitted protective appliance and monitor visible wear over time. **What happens if teeth grinding is left untreated?** Teeth may continue to wear or chip, though the right approach depends on the cause, symptoms, jaw function and tooth condition.
+
+### Is it worth choosing a clinic because it has a scanner?
+
+A scanner is worth having when it is used thoughtfully for your needs. The more useful question is whether the clinic explains its findings clearly, offers appropriate alternatives and plans treatment around your oral health rather than selling a device.
+
+## What technology do we use at Debod for 3D intraoral scanning?
+
+At Debod Dental Clinic, our digital workflow can include an intraoral scanner to create a 3D record of the mouth. When clinically relevant, we combine that information with other diagnostic records, such as photographs, X-rays and TAC 3D imaging. Each test has a different role.
+
+For restorations and prosthetic planning, our in-house Debod Dental Lab supports a digital workflow between the clinical team and laboratory. This can make communication around shape, fit and shade more direct. It does not remove the need for careful checks in the mouth, adjustments where necessary and follow-up.
+
+A well-planned digital process often follows a straightforward sequence:
+
+- We listen to what concerns you and examine your teeth, gums and bite.
+- We take a scan when it will add useful information or improve comfort.
+- We request further imaging only when it is justified by the clinical question.
+- We explain the findings, options, likely limitations and next steps in plain language.
+
+**Does the scanner replace a first visit?** No. It can be part of the first diagnostic appointment, but the conversation and clinical examination remain at the centre of it. If you are weighing up a crown, aligners, a night guard or implant treatment in Madrid, we invite you to book an included first diagnostic visit through our [contact page](/en/contact/). We will assess your case properly and tell you whether a digital scan is likely to help.
+
+Debod Dental Clinic is at C. de Ferraz, 24, Argüelles, 28008 Madrid, España, close to Ventura Rodríguez station on Line 3. We welcome patients who prefer care in English, too. The right technology should make dentistry clearer and more comfortable—not more confusing.`
 },
   // ← Agent appends new EN overlays here
 }
