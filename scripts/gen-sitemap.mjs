@@ -3,13 +3,13 @@
 // alternates). Each URL carries reciprocal <xhtml:link> alternates for ES↔EN
 // page pairs, with trailing slashes matching the canonicals. Run after `vite build`.
 
+import { SITE_ORIGIN as BASE } from '../src/utils/site.js'
 import { writeFileSync } from 'fs'
 import { resolve } from 'path'
+import { getHreflangPair } from '../src/utils/locale.js'
 import { getAllRoutes } from './routes.mjs'
-import { pagePairs, blogSlugEn } from '../src/i18n/slugs.js'
+import { blogSlugEn } from '../src/i18n/slugs.js'
 import { blogPosts } from '../src/data/blog.js'
-
-const BASE = 'https://deboddentalclinic.com'
 
 // <lastmod>: real per-post dates for blog routes (ES + EN); a single site date
 // for everything else. Bump SITE_LASTMOD when static pages get a content pass.
@@ -22,30 +22,14 @@ for (const p of blogPosts) {
   if (m) lastmodByRoute[`/en/blog/${m.en_cat}/${m.en}/`] = d
 }
 
-const esToEn = {}
-const enToEs = {}
-for (const [es, en] of pagePairs()) { esToEn[es] = en; enToEs[en] = es }
-
-const isEn = (r) => r === '/en/' || r.startsWith('/en/')
-
-// Strict reciprocal pair, or null (e.g. EN-only curated landings).
-function pairFor(route) {
-  if (isEn(route)) {
-    const es = enToEs[route]
-    return es && esToEn[es] === route ? { es, en: route } : null
-  }
-  const en = esToEn[route]
-  return en && enToEs[en] === route ? { es: route, en } : null
-}
-
 // Exclude /lp/* (Google Ads landings): they are noindex and must not be in the sitemap.
 const routes = [...new Set(getAllRoutes())].filter((r) => !r.startsWith('/lp/'))
 const body = routes.map((route) => {
-  const alt = pairFor(route)
-  const links = alt
-    ? `\n    <xhtml:link rel="alternate" hreflang="es" href="${BASE}${alt.es}"/>` +
-      `\n    <xhtml:link rel="alternate" hreflang="en" href="${BASE}${alt.en}"/>` +
-      `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE}${alt.es}"/>`
+  const { es, en } = getHreflangPair(route)
+  const links = es && en
+    ? `\n    <xhtml:link rel="alternate" hreflang="es" href="${BASE}${es}"/>` +
+      `\n    <xhtml:link rel="alternate" hreflang="en" href="${BASE}${en}"/>` +
+      `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE}${es}"/>`
     : ''
   const lastmod = `\n    <lastmod>${lastmodByRoute[route] || SITE_LASTMOD}</lastmod>`
   return `  <url>\n    <loc>${BASE}${route}</loc>${lastmod}${links}\n  </url>`

@@ -2,7 +2,7 @@
 
 > Clínica dental boutique de referencia en el barrio de Argüelles (Madrid, España), especializada en Rehabilitación Oral, Implantología Digital y Estética Dental. Dirigida por los Dres. Víctor Guerrero y César Rodríguez. Filosofía de "odontología honesta": diagnósticos claros, presupuestos sin sorpresas y tratamientos mínimamente invasivos. Atiende a pacientes internacionales en inglés (turismo dental). Premio WhiteSmile 2023.
 
-**Referencia completa** (todas las especialidades, tratamientos, equipo y blog en un solo archivo): https://deboddentalclinic.com/llms-full.txt
+**Referencia completa** (todas las especialidades, tratamientos, equipo y blog en un solo archivo): https://www.deboddentalclinic.com/llms-full.txt
 
 ## When to use this site (for agents)
 
@@ -34,41 +34,41 @@ This site is NOT for: pricing quotes (clinic quotes per case after a diagnostic 
 
 ## Tratamientos (agrupados por especialidad)
 
-- [Todos los tratamientos](https://deboddentalclinic.com/tratamientos/): Dentista General, Odontología Estética, Implantología Dental, Endodoncia, Odontopediatría, Ortodoncia, Periodoncia y Cirugía Oral.
-- [Implantes Dentales](https://deboddentalclinic.com/tratamientos/implantes-dentales-arguelles-madrid-espana/)
-- [Invisalign® / Ortodoncia invisible](https://deboddentalclinic.com/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/)
-- [Carillas de Porcelana](https://deboddentalclinic.com/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/)
-- [Coronas Dentales](https://deboddentalclinic.com/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/)
+- [Todos los tratamientos](https://www.deboddentalclinic.com/tratamientos/): Dentista General, Odontología Estética, Implantología Dental, Endodoncia, Odontopediatría, Ortodoncia, Periodoncia y Cirugía Oral.
+- [Implantes Dentales](https://www.deboddentalclinic.com/tratamientos/implantes-dentales-arguelles-madrid-espana/)
+- [Invisalign® / Ortodoncia invisible](https://www.deboddentalclinic.com/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/)
+- [Carillas de Porcelana](https://www.deboddentalclinic.com/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/)
+- [Coronas Dentales](https://www.deboddentalclinic.com/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/)
 
 ## Páginas clave
 
-- [Inicio](https://deboddentalclinic.com/)
-- [Sobre Nosotros](https://deboddentalclinic.com/nosotros/) (alias: https://deboddentalclinic.com/about/)
-- [Equipo](https://deboddentalclinic.com/equipo/)
-- [Reseñas de pacientes](https://deboddentalclinic.com/resenas/)
-- [Financiación](https://deboddentalclinic.com/financiacion/)
-- [Blog / Consejos de salud dental](https://deboddentalclinic.com/blog/)
-- [Ubicación y cómo llegar](https://deboddentalclinic.com/ubicaciones/)
-- [Contacto y cita](https://deboddentalclinic.com/contacto/) (alias: https://deboddentalclinic.com/contact/)
-- [Política de privacidad](https://deboddentalclinic.com/politica-de-privacidad/) (alias: https://deboddentalclinic.com/privacy-policy/)
+- [Inicio](https://www.deboddentalclinic.com/)
+- [Sobre Nosotros](https://www.deboddentalclinic.com/nosotros/) (alias: https://www.deboddentalclinic.com/about/)
+- [Equipo](https://www.deboddentalclinic.com/equipo/)
+- [Reseñas de pacientes](https://www.deboddentalclinic.com/resenas/)
+- [Financiación](https://www.deboddentalclinic.com/financiacion/)
+- [Blog / Consejos de salud dental](https://www.deboddentalclinic.com/blog/)
+- [Ubicación y cómo llegar](https://www.deboddentalclinic.com/ubicaciones/)
+- [Contacto y cita](https://www.deboddentalclinic.com/contacto/) (alias: https://www.deboddentalclinic.com/contact/)
+- [Política de privacidad](https://www.deboddentalclinic.com/politica-de-privacidad/) (alias: https://www.deboddentalclinic.com/privacy-policy/)
 
 ## English pages (English-speaking patients & dental tourism)
 
 The site is fully bilingual (ES/EN). Key English-language pages for international patients:
 
-- [Home (EN)](https://deboddentalclinic.com/en/)
-- [English-Speaking Dentist in Madrid](https://deboddentalclinic.com/en/english-speaking-dentist-madrid/)
-- [Dental Tourism in Madrid — hub](https://deboddentalclinic.com/en/dental-tourism-madrid/): why travel to Madrid, process, and treatment landings.
-- [Dental Implants in Madrid](https://deboddentalclinic.com/en/dental-implants-madrid/)
-- [All-on-4 in Madrid](https://deboddentalclinic.com/en/all-on-4-madrid/)
-- [All-on-6 in Madrid](https://deboddentalclinic.com/en/all-on-6-madrid/)
-- [Cosmetic Dentistry in Madrid](https://deboddentalclinic.com/en/cosmetic-dentistry-madrid/)
-- [Porcelain Veneers in Madrid](https://deboddentalclinic.com/en/porcelain-veneers-madrid/)
-- [Treatments (EN)](https://deboddentalclinic.com/en/treatments/)
-- [Blog (EN)](https://deboddentalclinic.com/en/blog/)
-- [About (EN)](https://deboddentalclinic.com/en/about/)
-- [Contact (EN)](https://deboddentalclinic.com/en/contact/)
-- [Privacy (EN)](https://deboddentalclinic.com/en/privacy-policy/)
+- [Home (EN)](https://www.deboddentalclinic.com/en/)
+- [English-Speaking Dentist in Madrid](https://www.deboddentalclinic.com/en/english-speaking-dentist-madrid/)
+- [Dental Tourism in Madrid — hub](https://www.deboddentalclinic.com/en/dental-tourism-madrid/): why travel to Madrid, process, and treatment landings.
+- [Dental Implants in Madrid](https://www.deboddentalclinic.com/en/dental-implants-madrid/)
+- [All-on-4 in Madrid](https://www.deboddentalclinic.com/en/all-on-4-madrid/)
+- [All-on-6 in Madrid](https://www.deboddentalclinic.com/en/all-on-6-madrid/)
+- [Cosmetic Dentistry in Madrid](https://www.deboddentalclinic.com/en/cosmetic-dentistry-madrid/)
+- [Porcelain Veneers in Madrid](https://www.deboddentalclinic.com/en/porcelain-veneers-madrid/)
+- [Treatments (EN)](https://www.deboddentalclinic.com/en/treatments/)
+- [Blog (EN)](https://www.deboddentalclinic.com/en/blog/)
+- [About (EN)](https://www.deboddentalclinic.com/en/about/)
+- [Contact (EN)](https://www.deboddentalclinic.com/en/contact/)
+- [Privacy (EN)](https://www.deboddentalclinic.com/en/privacy-policy/)
 
 ## Preguntas frecuentes
 
@@ -76,4 +76,4 @@ The site is fully bilingual (ES/EN). Key English-language pages for internationa
 - ¿La primera visita tiene coste? La primera visita diagnóstica está incluida.
 - ¿Hay financiación? Sí, hasta 60 meses con 0% de interés hasta 12 meses, sin entrada.
 - ¿Tienen laboratorio propio? Sí, el Debod Dental Lab in-house.
-- ¿Cómo pido cita? Por teléfono al +34 914 47 62 25 o en la página de contacto (https://deboddentalclinic.com/contacto/).
+- ¿Cómo pido cita? Por teléfono al +34 914 47 62 25 o en la página de contacto (https://www.deboddentalclinic.com/contacto/).

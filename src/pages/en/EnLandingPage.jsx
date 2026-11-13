@@ -1,3 +1,4 @@
+import { SITE_ORIGIN as BASE_URL } from '../../utils/site.js'
 import { useLocation, Navigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { getEnLanding } from '../../data/enLandings'
@@ -8,8 +9,6 @@ import CtaBand from '../../components/ui/CtaBand'
 import FAQ from '../../components/FAQ'
 import JsonLd from '../../components/ui/JsonLd'
 import { enLandingSchema } from '../../data/seo'
-
-const BASE_URL = 'https://deboddentalclinic.com'
 
 export default function EnLandingPage() {
   const { pathname } = useLocation()

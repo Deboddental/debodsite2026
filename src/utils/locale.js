@@ -11,9 +11,9 @@
 // - getHreflangPair(pathname)  → strict reciprocal {es,en} for hreflang/canonical
 //                                (emits the alternate ONLY when it points back)
 
-import { pagePairs } from '../i18n/slugs'
-import { enLandings } from '../data/enLandings'
-import { tourismLandings } from '../data/dentalTourism'
+import { pagePairs } from '../i18n/slugs.js'
+import { enLandings } from '../data/enLandings.js'
+import { tourismLandings } from '../data/dentalTourism.js'
 
 export const EN_HOME = '/en/'
 export const ES_HOME = '/'

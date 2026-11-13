@@ -5,13 +5,13 @@
 // Debod with accurate detail. The short llms.txt (public/, hand-maintained)
 // stays the index; this is the deep version. Runs after `vite build`.
 
+import { SITE_ORIGIN as BASE } from '../src/utils/site.js'
 import { writeFileSync } from 'fs'
 import { resolve } from 'path'
 import { treatments } from '../src/data/treatments.js'
 import { teamMembers } from '../src/data/team.js'
 import { blogPosts } from '../src/data/blog.js'
 
-const BASE = 'https://deboddentalclinic.com'
 const clean = (s) => (s || '').replace(/\s+/g, ' ').trim()
 const bioSnippet = (md) => {
   const s = clean((md || '').replace(/[#*_`>[\]()]/g, ''))

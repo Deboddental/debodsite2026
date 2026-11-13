@@ -2,6 +2,12 @@
   "buildCommand": "npm run build:prerender && (node scripts/indexnow-ping.mjs || true)",
   "trailingSlash": true,
   "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "deboddentalclinic.com" }],
+      "destination": "https://www.deboddentalclinic.com/:path*",
+      "permanent": true
+    },
     { "source": "/about/", "destination": "/nosotros/", "permanent": true },
     { "source": "/about", "destination": "/nosotros/", "permanent": true },
     { "source": "/privacy/", "destination": "/politica-de-privacidad/", "permanent": true },

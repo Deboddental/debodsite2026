@@ -13,7 +13,7 @@
 // Also adds `Vary: Accept` to everything so CDN caches don't mix HTML and
 // markdown variants (audit: "Vary header missing Accept").
 
-const BASE = 'https://deboddentalclinic.com'
+import { SITE_ORIGIN as BASE } from './src/utils/site.js'
 
 // Route → markdown body served when Accept: text/markdown.
 // Keep concise: agents want the facts + links to the deep files.

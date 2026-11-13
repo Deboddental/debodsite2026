@@ -1,3 +1,4 @@
+import { SITE_ORIGIN as BASE_URL } from '../utils/site.js'
 import { Helmet } from 'react-helmet-async'
 import { Scan, Radio, FlaskConical, Layers, Sparkles, ShieldCheck } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
@@ -6,8 +7,6 @@ import CtaBand from '../components/ui/CtaBand'
 import JsonLd from '../components/ui/JsonLd'
 import { breadcrumbSchema } from '../data/seo'
 import { useLocale } from '../hooks/useLocale'
-
-const BASE_URL = 'https://deboddentalclinic.com'
 
 const tech = [
   {

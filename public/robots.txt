@@ -4,7 +4,7 @@ Allow: /
 # indexing and use as AI answer input; the site opts in to AI visibility.
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
-# LLM-friendly site summary + key URLs (ES & EN): https://deboddentalclinic.com/llms.txt
+# LLM-friendly site summary + key URLs (ES & EN): https://www.deboddentalclinic.com/llms.txt
 
 # AI crawlers — explicitly allowed (this site is prerendered for them)
 User-agent: GPTBot
@@ -32,4 +32,4 @@ Allow: /
 User-agent: Google-CloudVertexBot
 Allow: /
 
-Sitemap: https://deboddentalclinic.com/sitemap.xml
+Sitemap: https://www.deboddentalclinic.com/sitemap.xml

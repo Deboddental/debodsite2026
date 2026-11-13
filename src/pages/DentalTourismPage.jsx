@@ -1,3 +1,4 @@
+import { SITE_ORIGIN as BASE_URL } from '../utils/site.js'
 import { useLocation, Navigate, Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import {
@@ -18,7 +19,6 @@ import {
   objections, steps, madridExperience, spotlights,
 } from '../data/dentalTourism'
 
-const BASE_URL = 'https://deboddentalclinic.com'
 const HUB_PATH = '/en/dental-tourism-madrid/'
 const CALL_TEL = '+34914476225'
 const CONTACT_PATH = '/en/contact/'

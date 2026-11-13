@@ -10,9 +10,11 @@
 import { readFileSync } from 'fs'
 import { resolve } from 'path'
 
-const HOST = 'deboddentalclinic.com'
+import { SITE_ORIGIN } from '../src/utils/site.js'
+
+const HOST = new URL(SITE_ORIGIN).hostname
 const KEY = '51f7975319b1830d3839b9ec89e8311b'
-const KEY_LOCATION = `https://${HOST}/${KEY}.txt`
+const KEY_LOCATION = `${SITE_ORIGIN}/${KEY}.txt`
 
 const xml = readFileSync(resolve('dist/sitemap.xml'), 'utf-8')
 const urlList = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1])

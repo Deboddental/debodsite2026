@@ -1,3 +1,4 @@
+import { SITE_ORIGIN as BASE_URL } from '../utils/site.js'
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import { Phone, Calendar, Clock, AlertTriangle, Activity, Zap, Droplet, Smile } from 'lucide-react'
@@ -9,7 +10,6 @@ import JsonLd from '../components/ui/JsonLd'
 import { useLocale } from '../hooks/useLocale'
 import { enPathFor } from '../i18n/slugs'
 
-const BASE_URL = 'https://deboddentalclinic.com'
 const PHONE = '+34914476225'
 
 // Copy is intentionally non-absolute (YMYL): we describe when to seek care and

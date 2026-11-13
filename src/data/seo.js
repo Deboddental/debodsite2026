@@ -1,11 +1,11 @@
 // ── SEO / JSON-LD Factory Functions ─────────────────────────
 
+import { SITE_ORIGIN as BASE_URL } from '../utils/site.js'
 import { teamMembers } from './team.js'
 import { tf } from '../utils/tf'
 import { t } from '../i18n/ui'
 import { treatmentSlugEn, barrioSlugEn, blogSlugEn } from '../i18n/slugs'
 
-const BASE_URL = 'https://deboddentalclinic.com'
 const langTag = (locale) => (locale === 'en' ? 'en' : 'es-ES')
 const CLINIC_ID = `${BASE_URL}/#clinic`
 // Canonical, locale-independent identifier for a team member: the entity is the

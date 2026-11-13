@@ -1,26 +1,28 @@
-import { useLocation } from 'react-router-dom'
+import { useLocation, useMatches } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
-import { getHreflangPair, getLocale, ES_HOME } from '../utils/locale'
+import { getHreflangPair } from '../utils/locale'
+import { SITE_ORIGIN } from '../utils/site.js'
 
-const BASE_URL = 'https://deboddentalclinic.com'
-
-// Single source of canonical + reciprocal hreflang for EVERY page. Rendered once
-// in RootLayout — pages must NOT emit their own canonical/hreflang/og:url.
-// x-default points at the Spanish version (the site's primary locale).
+// RootLayout owns canonical, alternate and og:url tags for public pages.
 export default function Hreflang() {
   const { pathname } = useLocation()
-  const { es, en } = getHreflangPair(pathname)
-  const selfPath = getLocale(pathname) === 'en' ? en : es
-  const self = `${BASE_URL}${selfPath || pathname}`
-  const xDefault = `${BASE_URL}${es || ES_HOME}`
+  const matches = useMatches()
+
+  if (matches.some(({ handle }) => handle?.notFound)) return null
+
+  const path = pathname.endsWith('/') ? pathname : `${pathname}/`
+  const self = `${SITE_ORIGIN}${path}`
+  const { es, en } = getHreflangPair(path)
 
   return (
     <Helmet>
-      <link rel="canonical" href={self} />
-      <meta property="og:url" content={self} />
-      {es && <link rel="alternate" hrefLang="es" href={`${BASE_URL}${es}`} />}
-      {en && <link rel="alternate" hrefLang="en" href={`${BASE_URL}${en}`} />}
-      <link rel="alternate" hrefLang="x-default" href={xDefault} />
+      <link rel="canonical" href={self} data-page-url="" />
+      <meta property="og:url" content={self} data-page-url="" />
+      {es && en && [
+        <link key="es" rel="alternate" hrefLang="es" href={`${SITE_ORIGIN}${es}`} data-page-url="" />,
+        <link key="en" rel="alternate" hrefLang="en" href={`${SITE_ORIGIN}${en}`} data-page-url="" />,
+        <link key="x-default" rel="alternate" hrefLang="x-default" href={`${SITE_ORIGIN}${es}`} data-page-url="" />,
+      ]}
     </Helmet>
   )
 }

@@ -1,3 +1,4 @@
+import { SITE_ORIGIN as BASE_URL } from '../utils/site.js'
 import { Helmet } from 'react-helmet-async'
 import PageHero from '../components/ui/PageHero'
 import Breadcrumb from '../components/ui/Breadcrumb'
@@ -7,8 +8,6 @@ import JsonLd from '../components/ui/JsonLd'
 import { breadcrumbSchema } from '../data/seo'
 import { useLocale } from '../hooks/useLocale'
 import { enPathFor } from '../i18n/slugs'
-
-const BASE_URL = 'https://deboddentalclinic.com'
 
 export default function AntesDespues() {
   const locale = useLocale()

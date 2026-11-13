@@ -120,7 +120,7 @@ export const router = createBrowserRouter(
       <Route path="equipo/:doctorSlug/" element={<DoctorProfile />} />
 
       {/* 404 */}
-      <Route path="*" element={<NotFound />} />
+      <Route path="*" element={<NotFound />} handle={{ notFound: true }} />
     </Route>
     </>
   )

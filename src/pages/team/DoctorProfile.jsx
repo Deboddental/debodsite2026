@@ -1,3 +1,4 @@
+import { SITE_ORIGIN } from '../../utils/site.js'
 import { useParams, Navigate, Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { MessageCircle, Award } from 'lucide-react'
@@ -42,7 +43,7 @@ export default function DoctorProfile() {
         <meta property="og:title" content={`${doctor.name} — ${title}`} />
         <meta property="og:description" content={metaDescription} />
         <meta property="og:type" content="profile" />
-        {doctor.photoUrl && <meta property="og:image" content={doctor.photoUrl.startsWith('http') ? doctor.photoUrl : `https://deboddentalclinic.com${doctor.photoUrl}`} />}
+        {doctor.photoUrl && <meta property="og:image" content={doctor.photoUrl.startsWith('http') ? doctor.photoUrl : `${SITE_ORIGIN}${doctor.photoUrl}`} />}
       </Helmet>
 
       <JsonLd schema={doctorProfileSchema(doctor, locale)} />

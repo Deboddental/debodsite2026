@@ -1,3 +1,4 @@
+import { SITE_ORIGIN } from '../../utils/site.js'
 import { useLocation, Navigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { MapPin } from 'lucide-react'
@@ -37,7 +38,7 @@ export default function BarrioPage() {
         <meta property="og:title" content={metaTitle} />
         <meta property="og:description" content={metaDescription} />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://deboddentalclinic.com/og-image.jpg" />
+        <meta property="og:image" content={`${SITE_ORIGIN}/og-image.jpg`} />
       </Helmet>
 
       <JsonLd schema={barrioPageSchema(barrio, locale)} />
