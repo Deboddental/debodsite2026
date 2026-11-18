@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'cuanto-cuesta-ortodoncia-invisible-arguelles-madrid': { es_cat: 'salud-dental', en: 'invisible-orthodontics-cost-arguelles-madrid', en_cat: 'dental-health' },
+  'rehabilitacion-completa-implantes-protesis-digital-madrid': { es_cat: 'servicios', en: 'full-mouth-implant-rehabilitation-digital-prosthesis-madrid', en_cat: 'services' },
   'dentista-arguelles-escaner-intraoral-3d-madrid': { es_cat: 'salud-dental', en: 'dentist-in-arguelles-with-3d-intraoral-scanner', en_cat: 'dental-health' },
   'comer-implante-dental-recien-colocado-madrid': { es_cat: 'servicios', en: 'eating-after-dental-implant-placement', en_cat: 'services' },
   'escaner-intraoral-3d-clinica-dental-madrid-ventajas': { es_cat: 'salud-dental', en: '3d-intraoral-scanner-dental-clinic-madrid-benefits', en_cat: 'dental-health' },

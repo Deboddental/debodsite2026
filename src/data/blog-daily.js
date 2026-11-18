@@ -1918,6 +1918,221 @@ Antes de iniciar un tratamiento, explicamos qué información aporta cada regist
 
 Si buscas un dentista en Argüelles con escáner intraoral 3D, la primera visita diagnóstica incluida en nuestra clínica sirve para revisar tu caso y resolver dudas con calma. Estamos en C. de Ferraz, 24, Argüelles, 28008 Madrid, España, cerca de Ventura Rodríguez. Puedes [coger cita](/contacto/) de lunes a viernes, de 9:00 a 20:00, o contactar con Debod Dental Clinic en el +34 914 47 62 25.`
 },
+  {
+  slug: 'rehabilitacion-completa-implantes-protesis-digital-madrid',
+  category: 'servicios',
+  categoryLabel: 'Servicios',
+  title: 'Rehabilitación completa con implantes en Madrid',
+  publishDate: '2026-11-18',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Rehabilitación completa con implantes — Debod Dental Clinic Argüelles',
+  metaDescription: 'Guía sobre rehabilitación completa con implantes y prótesis digital en Madrid: estudio, carga inmediata, mantenimiento y decisiones.',
+  excerpt: 'Te contamos cómo se planifica una rehabilitación completa con implantes, qué puede hacerse en el mismo día y qué preguntas conviene hacer.',
+  heroImageUrl: '/Images/blog/webp/implante-dental.webp',
+  faqs: [
+    {
+      question: '¿Duele una rehabilitación completa con implantes?',
+      answer: 'La cirugía se realiza con anestesia local y el postoperatorio se pauta de forma personalizada. Es habitual notar inflamación o molestias durante unos días, pero la intensidad depende de la cirugía, del estado previo y de si se necesita regeneración ósea.'
+    },
+    {
+      question: '¿Cuánto tarda una rehabilitación completa con implantes?',
+      answer: 'Depende de la salud de las encías, el hueso disponible, la estabilidad de los implantes y el tipo de prótesis. Algunos casos pueden llevar una prótesis fija provisional el mismo día; la definitiva necesita un proceso de seguimiento y ajuste.'
+    },
+    {
+      question: '¿Se pueden poner dientes fijos el mismo día?',
+      answer: 'A veces sí, si la planificación, la estabilidad de los implantes y la mordida lo permiten. No es una opción automática ni significa recibir la prótesis definitiva ese mismo día.'
+    },
+    {
+      question: '¿Qué pasa si tengo periodontitis antes de poner implantes?',
+      answer: 'Hay que diagnosticarla y controlarla antes. La periodontitis previa puede elevar el riesgo de inflamación alrededor de los implantes, por lo que el plan debe incluir higiene y revisiones periódicas.'
+    },
+    {
+      question: '¿Merece la pena una prótesis atornillada?',
+      answer: 'En muchas rehabilitaciones completas permite retirar la prótesis en consulta para revisarla, limpiarla y repararla cuando hace falta. La elección final depende del diseño, el acceso, la estética y la situación clínica.'
+    }
+  ],
+  bodyMarkdown: `## La perspectiva del equipo de Debod sobre rehabilitación completa con implantes y prótesis digital en Madrid
+
+En Debod Dental Clinic, en Argüelles, entendemos una rehabilitación completa con implantes como mucho más que “poner dientes fijos”. Es recuperar la capacidad de masticar, hablar con comodidad y sonreír sin que la prótesis condicione el día a día. Pero también es un tratamiento que exige diagnóstico, planificación y seguimiento. No se decide mirando solo una radiografía rápida.
+
+Cuando faltan todos los dientes de una arcada, o los que quedan tienen un pronóstico muy desfavorable, los implantes pueden servir de apoyo para una prótesis fija. La prótesis sustituye dientes y parte de la encía perdida cuando hace falta. Es parecido a reconstruir una casa: antes de elegir los acabados, hay que comprobar los cimientos, las instalaciones y la distribución.
+
+**No todos los dientes dañados se deben extraer.** Cada pieza se valora de forma individual: caries, movilidad, infección, hueso de soporte, posibilidad real de restaurarla y cómo encaja en la mordida. A veces hay dientes que se pueden conservar; otras, mantenerlos solo alarga un problema que ya no tiene una solución predecible.
+
+¿Es normal que alguien llegue a consulta pensando que necesita quitarse toda la dentadura? Sí. También es normal que la respuesta sea distinta de lo que esperaba. El primer paso no es prometer una solución rápida, sino estudiar el caso y explicar las alternativas con claridad.
+
+En Madrid vemos pacientes que llevan años comiendo de un lado, evitando ciertos alimentos o usando prótesis removibles que se mueven. La rehabilitación implantosoportada puede cambiar esa situación, aunque conviene entender qué incluye de verdad el proceso. Más adelante aclaramos la diferencia entre una carga inmediata y una prótesis definitiva: son cosas distintas.
+
+## Lo que la mayoría de clínicas no te cuenta sobre rehabilitación completa con implantes
+
+La palabra “digital” no convierte por sí sola un tratamiento en mejor. La tecnología ayuda a tomar decisiones y a trasladar el plan a la boca con mayor control, pero necesita criterio clínico detrás. Un escáner no sustituye la exploración de encías, el estudio de la mordida ni una conversación honesta sobre hábitos como fumar, apretar los dientes o acudir poco a revisiones.
+
+El estudio suele incluir fotografías, registros de mordida, valoración periodontal y radiografías. En muchos casos se utiliza un TAC 3D, también llamado CBCT: una prueba radiológica que permite revisar el volumen óseo y localizar estructuras anatómicas antes de colocar los implantes. Con esos datos se decide cuántos implantes hacen falta, dónde situarlos y si es necesario regenerar hueso.
+
+Habitualmente se emplean entre cuatro y seis implantes por arcada, pero **el número no se elige por una oferta ni por una fórmula fija**. Depende de la calidad y cantidad de hueso, la posición de los implantes, el diseño de la prótesis y la mordida. Si falta hueso o tejido blando, puede ser recomendable hacer regeneración, cambiar el diseño o planificar el tratamiento en fases.
+
+¿Qué pasa si se ofrece una prótesis fija el mismo día? Puede ser una opción válida cuando los implantes logran buena estabilidad y el caso lo permite. Esa prótesis suele ser provisional. Permite no salir sin dientes, pero necesita una dieta indicada, controles y ajustes mientras los implantes se integran con el hueso. La prótesis definitiva llega después, cuando la evolución clínica confirma que es el momento adecuado.
+
+También conviene hablar del mantenimiento. Los implantes no tienen caries, pero los tejidos que los rodean sí pueden inflamarse e infectarse. Sangrado, supuración, mal olor, aflojamiento, movilidad o una fractura no deben esperar. La evidencia disponible muestra supervivencias altas de implantes y prótesis completas, pero también complicaciones biológicas y técnicas que requieren seguimiento y reparación. Puedes consultar un [estudio retrospectivo de cinco años](https://pubmed.ncbi.nlm.nih.gov/31562417/) sobre este aspecto.
+
+Una prótesis atornillada suele facilitar que el profesional pueda retirarla para revisarla y limpiarla. Eso no elimina la necesidad de higiene en casa. Cepillos interproximales, seda específica o irrigador pueden formar parte de la rutina, según el diseño de cada prótesis. La facilidad para limpiar no es un detalle menor: condiciona la salud del tratamiento a largo plazo.
+
+## Nuestra experiencia clínica
+
+Para explicar cómo se razona un plan, estos son ejemplos **hipotéticos**, no casos reales de Debod Dental Clinic.
+
+Imaginemos a una persona de 40 años con varios dientes fracturados, caries extensas y piezas que aún se pueden restaurar. El estudio puede concluir que no hace falta una rehabilitación completa: quizá convenga conservar dientes estratégicos y tratar solo las zonas irrecuperables. La solución más conservadora no siempre es la más vistosa en una foto, pero puede ser la más sensata.
+
+Pensemos en un paciente hipotético de 68 años con una prótesis removible inferior inestable y pérdida ósea moderada. Tras el TAC 3D, el plan podría contemplar implantes y una prótesis fija provisional si se consigue la estabilidad necesaria. Si no se consigue, la seguridad manda: se puede optar por una fase de cicatrización antes de cargar los implantes.
+
+En un tercer supuesto, una persona con desgaste dental severo y pérdida de altura facial puede necesitar recuperar la mordida de manera progresiva. No se trata solo de hacer dientes más largos. Hay que comprobar cómo habla, cómo mastica y cómo toleran músculos y articulación esa nueva posición. Ese es el punto que suele pasar desapercibido: una boca completa funciona como un sistema, no como piezas independientes.
+
+¿Merece la pena la planificación digital? Puede aportar precisión y comunicación entre clínica y laboratorio. Los estudios comparativos describen menor tiempo de impresión y buena satisfacción en determinados flujos digitales, aunque el ajuste depende del sistema y de la técnica utilizada. En rehabilitaciones de arcada completa, registrar exactamente la posición de cada implante sigue siendo exigente; en algunos casos se recurre a métodos complementarios como la fotogrametría. Puedes leer un [estudio prospectivo sobre precisión de registros](https://pubmed.ncbi.nlm.nih.gov/35667889/).
+
+## Preguntas frecuentes sobre rehabilitación completa con implantes y prótesis digital en Madrid
+
+### ¿Cómo sé si necesito una rehabilitación completa?
+
+No basta con que falten varias piezas. Puede plantearse cuando no quedan dientes en una arcada o cuando los dientes presentes tienen un pronóstico muy malo por periodontitis, caries avanzadas, fracturas o desgaste severo. La primera visita diagnóstica incluida permite valorar si conviene una rehabilitación completa, una rehabilitación parcial o conservar piezas.
+
+### ¿Duele el tratamiento con implantes?
+
+Durante la cirugía se emplea anestesia local. Después puede haber inflamación, sensibilidad y molestias, sobre todo si se han realizado extracciones o regeneración ósea. El equipo pauta medicación e indicaciones adaptadas al caso. Si el dolor aumenta en vez de mejorar, hay que contactar con la clínica.
+
+### ¿Cuánto tarda una prótesis definitiva?
+
+No hay un plazo universal. Depende de la cicatrización, la estabilidad de los implantes, el estado de las encías y los ajustes de la mordida. Una rehabilitación bien planteada tiene tiempos biológicos que no conviene acelerar por calendario.
+
+### ¿Qué material se utiliza en una prótesis completa?
+
+Puede emplearse zirconia, cerámica sobre estructura o combinaciones de titanio y composite. Cada material ofrece ventajas y límites en resistencia, reparación, estética y espacio disponible. La elección se confirma tras revisar el caso, no antes.
+
+### ¿Qué pasa si aprieto los dientes por la noche?
+
+El bruxismo puede aumentar la carga sobre implantes y prótesis. Se estudia durante la planificación para diseñar la mordida y, si procede, indicar una férula de descarga. Ignorarlo puede favorecer aflojamientos o fracturas.
+
+## ¿Qué tecnología usamos en Debod para rehabilitación completa con implantes y prótesis digital?
+
+En Debod Dental Clinic combinamos exploración clínica con planificación digital. El escáner intraoral evita muchas impresiones convencionales y permite registrar dientes, encías y mordida con comodidad. El TAC 3D ayuda a estudiar hueso y anatomía antes de decidir la posición de los implantes.
+
+Cuando el caso está indicado, la planificación virtual permite preparar una guía quirúrgica para trasladar el plan a la cirugía. Puedes conocer mejor la [cirugía guiada de implantes](/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/) y cuándo puede estar indicada.
+
+Nuestro laboratorio propio, Debod Dental Lab, participa en el diseño digital de provisionales y prótesis. Esta coordinación facilita revisar forma, color, función y accesibilidad para la higiene antes de finalizar el trabajo. No buscamos dientes cuadrados ni una sonrisa de anuncio: buscamos proporción, textura y una apariencia natural que encaje con cada rostro.
+
+La rehabilitación completa también puede combinarse con otros tratamientos, como [coronas dentales](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) cuando hay piezas conservables. El presupuesto depende del diagnóstico, del número de implantes, la necesidad de injertos, el tipo de prótesis y el plan de mantenimiento; se confirma tras la valoración y las pruebas necesarias.
+
+Si estás buscando una segunda opinión en Argüelles o Madrid, puedes [pedir cita](/contacto/) para una primera visita diagnóstica. Revisaremos qué dientes se pueden conservar, qué opciones existen y qué camino tiene más sentido para tu boca. El objetivo no es prometer dientes para toda la vida. Es diseñar una rehabilitación que puedas usar, limpiar y mantener con tranquilidad.`
+},
+  {
+  slug: 'cuanto-cuesta-ortodoncia-invisible-arguelles-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: 'Ortodoncia invisible en Argüelles: precio',
+  publishDate: '2026-11-18',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-victor-guerrero',
+  metaTitle: 'Ortodoncia invisible: precio | Debod Dental Clinic Argüelles',
+  metaDescription: 'Descubre cuánto cuesta una ortodoncia invisible en Argüelles, Madrid, qué incluye el presupuesto y cómo comparar opciones.',
+  excerpt: 'Te contamos qué determina el precio de la ortodoncia invisible en Argüelles y qué revisar antes de escoger tu tratamiento.',
+  heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
+  faqs: [
+    {
+      question: '¿Cuánto cuesta una ortodoncia invisible en Argüelles?',
+      answer: 'Depende de la complejidad, del número de arcadas, los refinamientos y de si el presupuesto incluye retenedores. En Madrid hay tarifas publicadas para tratamientos completos y modalidades más breves, pero el importe real debe confirmarse tras el diagnóstico.'
+    },
+    {
+      question: '¿Duele la ortodoncia invisible?',
+      answer: 'Puede aparecer presión o sensibilidad al comenzar cada juego de alineadores. Los estudios disponibles indican menor dolor inicial frente a los brackets en los primeros días, aunque cada persona lo vive de forma distinta.'
+    },
+    {
+      question: '¿Cuánto tarda una ortodoncia invisible?',
+      answer: 'No existe una duración única. Depende de los movimientos dentales previstos, de la respuesta biológica y de usar los alineadores el tiempo pautado. El plan digital permite estimarlo tras la valoración.'
+    },
+    {
+      question: '¿El precio incluye los retenedores?',
+      answer: 'No siempre. Conviene solicitarlo por escrito antes de empezar, junto con la marca, revisiones, refinamientos, reposición por pérdida y condiciones de financiación.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué incluye la ortodoncia invisible en Debod Dental Clinic?
+
+La ortodoncia invisible en Debod Dental Clinic es un tratamiento planificado para alinear los dientes y mejorar la mordida con férulas transparentes removibles, llamadas alineadores. No se trata de comprar una férula: se estudia cómo se relacionan dientes, encías, hueso y mordida antes de decidir si es la opción adecuada.
+
+En Argüelles, Madrid, el objetivo no es que los dientes parezcan rectos solo en una fotografía. Buscamos una sonrisa armónica y una mordida que funcione bien. El Dr. Víctor Guerrero, especialista en Ortodoncia y Ortopedia Dentofacial, valora cada caso antes de proponer [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) o una alternativa.
+
+La primera visita diagnóstica está incluida. Ahí empieza la pregunta que de verdad cambia el presupuesto: no “¿cuánto cuesta una férula?”, sino “¿qué movimientos necesita mi boca y qué seguimiento requieren?”.
+
+## ¿Cuánto cuesta una ortodoncia invisible en Madrid? — Precios honestos
+
+Dar un precio único para toda ortodoncia invisible sería poco honesto. En Argüelles existe una tarifa local publicada de **3.899 € para un tratamiento completo** con Invisalign o Spark, aunque cada clínica define de forma distinta qué incorpora ese importe. Como referencia madrileña, las tarifas publicadas de Sanitas para 2026 sitúan diferentes modalidades de Invisalign entre 2.400 € y 5.150 €, con conceptos como planificación, refinamientos o retención que pueden figurar aparte.
+
+La distancia entre una modalidad corta y un caso completo no es un detalle. Depende del número de alineadores, de si se tratan una o dos arcadas, de los movimientos necesarios, de la mordida y de si hacen falta refinamientos. Un refinamiento es una nueva fase de alineadores para afinar el resultado si los dientes no han respondido exactamente como se había previsto.
+
+Por eso, antes de comparar dos cifras, pedid que ambos presupuestos indiquen lo mismo:
+
+- Marca y modalidad del tratamiento.
+- Una o dos arcadas.
+- Estudio, radiografías y revisiones.
+- Refinamientos, retenedores y reposición por pérdida.
+
+**El precio real se confirma tras la primera visita diagnóstica**, con exploración, escáner intraoral y las pruebas que estén indicadas, como radiografías o TAC 3D. Debod Dental Clinic ofrece financiación de hasta 60 meses, sin entrada, y 0 % de interés durante los primeros 12 meses.
+
+¿Qué pasa si un presupuesto parece mucho más bajo? Puede ser una buena oferta, o puede dejar fuera elementos que aparecerán después. Conviene pedirlo por escrito y comparar el recorrido completo, no solo la cifra de salida. Las tarifas consultadas pueden revisarse en [Bonadent](https://bonadental.es/alineadores-invisibles-en-madrid/) y en el [tarifario dental de Sanitas](https://www.sanitassalud.com/cg/tarifas-dental-premium.pdf).
+
+## ¿Cómo saber si soy candidato ideal?
+
+Los alineadores transparentes pueden tratar apiñamiento, espacios entre dientes, dientes girados y determinados problemas de sobremordida o resalte. Son discretos, se retiran para comer y permiten cepillarse sin obstáculos. Eso no significa que sean intercambiables con los brackets en todos los casos.
+
+Una persona suele ser buena candidata si tiene encías sanas, no presenta caries activas, puede usar los alineadores el tiempo indicado y acepta acudir a sus revisiones. La colaboración diaria cuenta tanto como el plan: llevarlos unas horas menos cada día puede retrasar o desviar el movimiento previsto. Como seguir una ruta con el GPS apagado a ratos.
+
+No es buena idea empezar si hay inflamación de encías o caries sin tratar. Primero se estabiliza la salud bucal, con una [limpieza dental](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) o el tratamiento periodontal que proceda. Tampoco todos los problemas de mordida complejos se resuelven solo con férulas. Algunas discrepancias óseas, extracciones complejas o movimientos dentales difíciles pueden necesitar ortodoncia fija o un enfoque combinado.
+
+¿Cómo sé si necesito ortodoncia invisible y no brackets? Tras estudiar la mordida, no únicamente la posición de los dientes de delante. Una revisión de estudios publicada en 2026 señala que los refinamientos son frecuentes en casos complejos y que algunos tratamientos precisan pasar a aparatología fija. No es un fracaso: es información útil para elegir bien desde el principio. Podéis consultar la revisión en [PubMed](https://pubmed.ncbi.nlm.nih.gov/42516363/).
+
+## El proceso paso a paso en Debod
+
+El proceso comienza con una conversación y una exploración clínica. Se revisan dientes, encías, caries, hábitos y cómo encajan ambas arcadas. Después se toman fotografías, un escáner intraoral y las radiografías o pruebas 3D que correspondan. El escáner sustituye las pastas de impresión por un modelo digital detallado de la boca.
+
+Con esa información se prepara una planificación digital. Se estiman los movimientos necesarios y se decide si hacen falta pequeños relieves de composite sobre algunos dientes, llamados attachments. Funcionan como puntos de apoyo para que el alineador pueda empujar con precisión. En algunos casos se realiza reducción interproximal, un pulido muy controlado entre dientes para crear el espacio necesario.
+
+El siguiente paso es revisar el plan antes de fabricar los alineadores. Debod Dental Clinic cuenta con Debod Dental Lab, su laboratorio propio digital, que facilita la coordinación entre diagnóstico, planificación y restauraciones cuando un caso lo necesita. Si existen piezas con coronas o falta algún diente, se contempla desde el inicio para que la ortodoncia no vaya por un lado y la rehabilitación por otro. Podéis conocer las opciones de [coronas dentales](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) si forman parte de vuestro caso.
+
+Una vez entregados los alineadores, se cambian según la pauta clínica y se realizan controles. ¿Cuánto tarda? Puede ser una corrección breve o un tratamiento de más recorrido; la duración solo se estima con rigor después del estudio. Al terminar, llega una fase que no conviene saltarse: la retención. Los retenedores mantienen los dientes en su nueva posición a largo plazo.
+
+## Preguntas que siempre nos hacen antes de pedir cita
+
+### ¿Duele el tratamiento con ortodoncia invisible?
+
+Es normal notar presión o sensibilidad al estrenar un nuevo juego de alineadores, sobre todo durante los primeros días. No debería ser un dolor incapacitante. Dos ensayos clínicos aleatorizados recientes observaron menos dolor inicial con Invisalign que con brackets durante las primeras horas y los días 1 a 3, aunque la experiencia varía entre personas. Podéis consultar los estudios en [PubMed](https://pubmed.ncbi.nlm.nih.gov/38760747/) y [PubMed](https://pubmed.ncbi.nlm.nih.gov/39936711/).
+
+### ¿Cuánto tarda una ortodoncia invisible?
+
+Depende de la complejidad, de la respuesta de los dientes y de la constancia al llevar las férulas. La simulación digital orienta, pero no es una promesa cerrada. Los movimientos biológicos no funcionan como pulsar un botón. Durante la valoración se explica el tiempo estimado y qué factores podrían modificarlo.
+
+### ¿Es normal que tenga que usar elásticos o attachments?
+
+Sí, en bastantes casos. Los attachments son pequeños relieves de composite del color del diente que ayudan a dirigir fuerzas. Los elásticos pueden colaborar en la corrección de la mordida. No significan que el tratamiento vaya mal; forman parte del diseño cuando están indicados.
+
+### ¿Qué pasa si pierdo un alineador?
+
+Contactad con la clínica sin esperar al siguiente control. Según el momento del tratamiento, puede indicarse volver al alineador anterior, avanzar al siguiente o solicitar una reposición. Esta política debe figurar en el presupuesto para evitar sorpresas.
+
+### ¿Merece la pena pagar más por un tratamiento completo?
+
+Merece la pena entender qué se está comparando. Un caso que necesita corregir mordida, crear espacio y estabilizar el resultado no debería plantearse como si fuera un pequeño retoque estético. Priorizad un diagnóstico presencial, revisiones y un plan de retención claro frente a una cifra llamativa.
+
+### ¿Cuánto dura el resultado?
+
+Los dientes tienen memoria y pueden moverse toda la vida. Los retenedores, usados según la pauta indicada, son la forma de mantener el resultado. La duración no depende solo del tipo de alineador, sino de esa retención y de los controles posteriores.
+
+## ¿Por qué elegir Debod Dental Clinic en Argüelles?
+
+Elegir ortodoncia invisible es elegir quién estudia vuestro caso y os acompaña durante el tratamiento. En Debod Dental Clinic trabajamos desde C. de Ferraz, 24, Argüelles, 28008 Madrid, a pocos metros del Templo de Debod y cerca de Ventura Rodríguez, Plaza de España y Argüelles.
+
+El tratamiento se apoya en planificación digital, escáner intraoral y pruebas 3D cuando están indicadas. Contamos con Debod Dental Lab, laboratorio propio digital, para coordinar con precisión los casos que requieren rehabilitación dental. La atención está dirigida por especialistas colegiados y la primera visita diagnóstica está incluida.
+
+La odontología honesta también consiste en decir “esto no es lo mejor para ti” cuando el diagnóstico lo muestra. Si queréis saber qué modalidad, duración y presupuesto encajan con vuestra mordida, podéis [pedir cita](/contacto/) para una valoración personalizada.`
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -3777,6 +3992,224 @@ A well-planned digital process often follows a straightforward sequence:
 **Does the scanner replace a first visit?** No. It can be part of the first diagnostic appointment, but the conversation and clinical examination remain at the centre of it. If you are weighing up a crown, aligners, a night guard or implant treatment in Madrid, we invite you to book an included first diagnostic visit through our [contact page](/en/contact/). We will assess your case properly and tell you whether a digital scan is likely to help.
 
 Debod Dental Clinic is at C. de Ferraz, 24, Argüelles, 28008 Madrid, España, close to Ventura Rodríguez station on Line 3. We welcome patients who prefer care in English, too. The right technology should make dentistry clearer and more comfortable—not more confusing.`
+},
+  'rehabilitacion-completa-implantes-protesis-digital-madrid': {
+  title: 'Full-Mouth Implant Rehabilitation in Madrid',
+  categoryLabel: 'Services',
+  metaTitle: 'Full-Mouth Implant Rehabilitation — Debod Dental Clinic Argüelles',
+  metaDescription: 'Learn how full-mouth implant rehabilitation and digital prostheses are planned in Madrid at Debod Dental Clinic.',
+  excerpt: 'Considering fixed teeth on implants? Learn what a full-mouth rehabilitation involves, when immediate loading is suitable, and why maintenance matters.',
+  faqs: [
+    {
+      question: 'Is it normal to need all teeth removed before full-mouth implants?',
+      answer: 'No. Each tooth should be assessed individually. Teeth with a predictable long-term prognosis may be worth preserving, while teeth affected by severe decay, infection, fracture or advanced gum disease may need replacement.'
+    },
+    {
+      question: 'Does full-mouth implant treatment hurt?',
+      answer: 'Treatment is planned with appropriate local anaesthesia, and your clinical team will explain pain relief and recovery measures beforehand. Some swelling and discomfort can occur afterwards, but this varies between patients and procedures.'
+    },
+    {
+      question: 'How long does a full-mouth implant rehabilitation take?',
+      answer: 'It depends on bone volume, gum health, whether extractions or grafting are needed, and whether immediate loading is clinically appropriate. A provisional fixed prosthesis may sometimes be possible early on, while the final prosthesis is placed after healing and review.'
+    },
+    {
+      question: 'What happens if I do not maintain my implant prosthesis?',
+      answer: 'Plaque can build up around implants and contribute to inflammation, bone loss and peri-implantitis. Regular home cleaning and professional reviews help detect problems such as bleeding, loosening or fractures early.'
+    },
+    {
+      question: 'Is a fixed implant prosthesis worth it?',
+      answer: 'For suitable patients, it can provide stable chewing, speech and appearance compared with a loose removable denture. Whether it is worthwhile depends on your oral health, bone, bite, expectations, ability to attend reviews and the written treatment plan.'
+    }
+  ],
+  bodyMarkdown: `## The Debod team’s perspective on full-mouth implant rehabilitation and digital prostheses in Madrid
+
+At Debod Dental Clinic in Argüelles, Madrid, we see full-mouth implant rehabilitation as much more than replacing missing teeth. It is a carefully planned restoration of chewing, speech, facial support and confidence. A fixed prosthesis supported by implants can replace all the teeth in one jaw, or both jaws, when teeth are already missing or cannot be predictably saved.
+
+The first question is never “How many implants do I need?” It is: **which teeth can genuinely be kept?** A tooth with a good prognosis should not be extracted simply to make a treatment plan appear simpler. Severe decay, advanced gum disease, repeated infection, major fractures and extensive wear can make a full rehabilitation appropriate, but every mouth deserves an individual assessment.
+
+Some people arrive because their removable denture moves while they eat. Others have spent years avoiding certain foods, covering their mouth when speaking, or coping with failing teeth one by one. The treatment can be life-changing for the right person, but it should never be sold as a one-size-fits-all solution. The diagnostic appointment is where we find out what is realistic.
+
+A complete implant rehabilitation may use four to six implants per jaw, depending on bone, bite, smile line and the design of the future prosthesis. The aim is not simply to place implants. It is to create a restoration that feels secure, is hygienic to maintain and can be reviewed or repaired sensibly over time.
+
+## What most clinics do not tell you about full-mouth implant rehabilitation
+
+“Fixed teeth in a day” is a phrase that can sound reassuring, yet it needs careful explanation. Immediate loading means placing a temporary fixed prosthesis soon after implant placement in selected cases. **It does not mean that every patient leaves with their final teeth on the same day.**
+
+For immediate loading to be considered, the implants need good initial stability and the treatment must work from both a surgical and prosthetic point of view. Bone quality, bite forces, infection, gum condition and the ability to distribute chewing pressure all matter. If the conditions are not right, allowing the implants to heal first may be the safer choice.
+
+What happens if bone volume is limited? Sometimes a bone graft or regeneration procedure is advised. In other situations, changing implant positions or prosthesis design can avoid a more extensive procedure. There is no virtue in promising the fastest route if it compromises the long-term result.
+
+The word “digital” can also create unrealistic expectations. Digital planning is valuable because it helps the clinical team and laboratory communicate with precision. It does not remove the need for professional judgement. Full-arch records are technically demanding: the bite must be captured accurately, implant positions must be verified, and the framework must fit passively. Think of it like fitting several lock pins into a single door frame. A tiny error at one point can become noticeable across the whole arch.
+
+Studies suggest digital workflows can reduce impression time and improve patient satisfaction, while clinical verification remains necessary for the fit of implant-supported restorations. For complete arches, technologies such as photogrammetry may improve implant-position recording in appropriate workflows. The evidence is encouraging, but it also supports a measured message: **digital dentistry is a tool for better planning, not a shortcut around careful treatment.** [Clinical research on digital complete-arch workflows](https://pubmed.ncbi.nlm.nih.gov/39904473/) and [a prospective study comparing recording methods](https://pubmed.ncbi.nlm.nih.gov/35667889/) describe this evolving area.
+
+Another detail often missed is maintenance. Implant treatment has high reported survival rates, but survival alone is not the same as a trouble-free result. Biological complications, including inflammation around implants, and technical issues such as chipping, wear or screw loosening can occur. A five-year retrospective study of fixed complete-arch restorations reported high implant and prosthesis survival, while also recording biological and technical complications during follow-up. [Read the published study](https://pubmed.ncbi.nlm.nih.gov/31562417/).
+
+That is why a successful result should be judged by comfort, stable tissues, accessible hygiene, a balanced bite and the ability to maintain the prosthesis over time. Not only by a photograph taken on fitting day.
+
+## Our clinical experience
+
+Every full-mouth plan begins with a conversation about the person behind the teeth. What can they eat now? Do they wake with jaw tension? Are they embarrassed by a denture moving? Have they had gum treatment before? Those answers help shape the investigation, but they do not replace it.
+
+Here are three hypothetical examples to show why plans differ. They are educational examples, not patient cases or promises of outcomes.
+
+A hypothetical 40-year-old with extensive decay and repeated infections may still have a few teeth worth retaining. After examining the gums, bite and scans, the plan could involve treating salvageable teeth and replacing only those with a poor prognosis. Full-mouth implants would not automatically be the correct answer.
+
+A hypothetical 62-year-old who has worn an unstable upper denture for years may have enough bone for a fixed implant-supported solution. If implant stability and bite planning are favourable, a temporary fixed prosthesis might be considered. The final material and timing would only be confirmed after surgery, healing and verification appointments.
+
+A hypothetical 70-year-old with long-standing gum disease, bone loss and a history of grinding may need staged treatment. Stabilising gum health, managing bite forces and considering whether bone regeneration is needed could be more appropriate than rushing straight to a fixed full arch.
+
+How do I know if I need this treatment? Difficulty chewing, repeated tooth breakage, loose teeth, poorly fitting dentures or recurrent infections are reasons to arrange an assessment. They are not a diagnosis on their own. At Debod Dental Clinic, the first diagnostic visit is included, so you can understand the condition of each tooth before deciding on a direction.
+
+For patients who need individual replacements rather than a complete arch, our information on [dental implants](/en/treatments/dental-implants-arguelles-madrid/) explains the principles in more detail. In suitable cases, [guided implant surgery](/en/treatments/guided-implant-surgery-arguelles-madrid/) may be part of the planning process.
+
+## Frequently asked questions about full-mouth implant rehabilitation and digital prostheses
+
+### Is it normal to need all teeth removed before full-mouth implants?
+
+No. Each tooth should be examined for its individual prognosis. Keeping healthy or predictably treatable teeth may be the most conservative choice. If a tooth has severe structural damage, uncontrolled infection or advanced loss of support, replacement may be discussed as part of a wider plan.
+
+### Does the procedure hurt?
+
+Local anaesthesia is used for treatment, and the clinical team will explain the recovery plan before proceeding. Is it normal to have some swelling, tenderness or bruising afterwards? It can be, particularly after extractions or more extensive surgery. The intensity and duration vary, so individual advice matters.
+
+### How long does full-mouth implant rehabilitation take?
+
+There is no single timetable. Some patients may receive a temporary fixed prosthesis early in treatment, while others need healing time or preparatory treatment first. Bone grafting, gum condition, implant stability and the complexity of the bite all affect the sequence. The definitive prosthesis is planned only when the foundation is ready.
+
+### What happens if I smoke or grind my teeth?
+
+Smoking, uncontrolled diabetes, previous periodontitis, insufficient cleaning and bruxism can increase risks around implants and prostheses. This does not always rule treatment out, but it changes the discussion. A night guard, smoking support, closer reviews or a different design may be advised.
+
+### Is a screw-retained prosthesis better than a cemented one?
+
+A screw-retained prosthesis is often preferred because it can be removed for professional maintenance or repair when needed. The right design depends on implant position, aesthetics and access. Your treatment plan should explain how the prosthesis will be maintained, not only how it will look.
+
+### Is it worth having a digital prosthesis?
+
+Digital records can help with planning, communication and repeatability. They are especially useful when combined with a skilled clinical and laboratory workflow. Whether it is worth it for you depends on the quality of the diagnosis, the proposed materials, your bite and how the finished prosthesis will be checked and maintained.
+
+## What technology do we use at Debod for full-mouth implant rehabilitation and digital prostheses?
+
+Planning begins with information, not assumptions. At Debod Dental Clinic, this may include an intraoral scanner to create a detailed digital model of the mouth, photographs, bite records and a **3D CBCT scan** when implant planning requires a clear view of bone volume and nearby anatomical structures.
+
+The CBCT scan is a three-dimensional X-ray. It helps the team assess available bone, the position of the maxillary sinuses in the upper jaw and other structures that need to be respected during planning. It is not performed casually; it is used when it adds relevant diagnostic value.
+
+Digital planning can bring those records together before surgery. Implant positions, provisional teeth and the bite can be assessed virtually, and a surgical guide may be used in suitable cases to transfer that plan with greater control. The plan is then checked against the reality of the mouth during treatment. Technology supports clinical judgement; it does not replace it.
+
+Our in-house Debod Dental Lab supports the digital workflow from provisional planning through to the final restoration. The laboratory and clinical team can communicate directly about shape, shade, tooth proportions and the small details that keep a smile natural. A full-mouth prosthesis should not look square, uniform or like an advert. It should suit the face and preserve a believable texture and character.
+
+The final prosthesis may be designed in materials such as zirconia, ceramic layered over a framework, or titanium-composite systems. Each has advantages and limitations relating to appearance, strength, repairability, space and bite forces. The appropriate material is confirmed after the clinical assessment rather than selected from a menu.
+
+If you are considering treatment in Madrid, ask for a written plan that explains the prognosis of each tooth, implant number and position, whether grafting may be needed, the temporary and definitive prosthesis, the loading protocol and the maintenance schedule. It is also reasonable to ask how fit is verified and what happens if there is inflammation, a loose screw or a fracture later.
+
+You can explore [all our treatments](/en/treatments/) or [book a diagnostic appointment](/en/contact/) at Debod Dental Clinic, C. de Ferraz, 24, Argüelles, 28008 Madrid, España. We are close to Ventura Rodríguez Metro station, with Plaza de España and Argüelles also nearby. A careful diagnosis comes first. Then a plan that makes sense for your mouth and your life.`
+},
+  'cuanto-cuesta-ortodoncia-invisible-arguelles-madrid': {
+  title: 'Invisible Orthodontics Cost in Argüelles, Madrid',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Invisible Orthodontics Cost — Debod Dental Clinic Argüelles',
+  metaDescription: 'Learn what invisible orthodontics can cost in Argüelles, Madrid, what affects the quote and what to ask before choosing treatment.',
+  excerpt: 'Considering clear aligners in Argüelles? See what shapes the price, what should be included and how to compare plans with confidence.',
+  faqs: [
+    {
+      question: 'How much does invisible orthodontics cost in Madrid?',
+      answer: 'Published Madrid prices vary by the complexity and type of treatment. A clear written quote should confirm the brand, both arches, planned reviews, refinements and retainers after an in-person assessment.'
+    },
+    {
+      question: 'Does invisible orthodontics hurt?',
+      answer: 'It can cause pressure or temporary tenderness, especially when starting a new set of aligners. Research suggests initial discomfort may be lower than with fixed braces, but every patient responds differently.'
+    },
+    {
+      question: 'How long does treatment with clear aligners take?',
+      answer: 'It depends on the movements required, how consistently the aligners are worn and whether refinements are needed. Your orthodontist can give a personalised estimate after examination and digital planning.'
+    },
+    {
+      question: 'Are retainers included after invisible orthodontics?',
+      answer: 'Do not assume they are. Retainers are needed long term to help maintain the result, so ask whether they are included in the written treatment plan and what future replacement options cost.'
+    }
+  ],
+  bodyMarkdown: `## What does invisible orthodontics include at Debod Dental Clinic?
+
+At **Debod Dental Clinic** in Argüelles, invisible orthodontics is not simply a box of transparent aligners. It is a planned orthodontic treatment led by Dr. Víctor Guerrero, with an assessment of your teeth, gums and bite before deciding whether aligners are the right route for you.
+
+The treatment normally includes diagnosis, digital planning, a sequence of removable aligners and review appointments. Some cases also need small tooth-coloured attachments, fine enamel reshaping between teeth, known as interproximal reduction, or elastic bands. Each has a purpose: making the planned movement more predictable, rather than just making teeth look straighter in photographs.
+
+For patients asking how much invisible orthodontics costs in Argüelles, Madrid, the most honest answer is that it depends on the work needed to achieve a healthy bite as well as a pleasing smile. The detail that can change the quote is often not obvious at first glance. We will come back to exactly what to check before comparing prices.
+
+## How much does invisible orthodontics cost in Madrid? — Honest prices
+
+A published local reference in Argüelles lists **€3,899 for a complete clear-aligner treatment**, although that is another clinic’s advertised package, not a quote from Debod Dental Clinic. Across Madrid, Sanitas’ 2026 published fees list Invisalign Express at €2,400 for both arches, Lite at €4,100, Moderate at €4,400 and Comprehensive at €5,150, with planning, refinements and retainers shown separately in some cases.
+
+These figures are useful as a guide, not as a diagnosis or promise. A shorter treatment for mild crowding is different from correcting rotations, spacing, a deep bite or a marked overjet. The number of aligners, whether one or both arches are treated, the need for refinements and the retention plan can all affect the final cost.
+
+At Debod Dental Clinic, the **first diagnostic visit is included**. The actual plan and fee are confirmed after the clinical examination and digital records, using an intraoral scan and, where indicated, 3D imaging or X-rays. This avoids the common problem of seeing an attractive headline price and later finding that scans, refinements or retainers were not included.
+
+Financing is available for up to 60 months, with 0% interest for the first 12 months and no deposit, subject to the agreed terms. Before making a decision, ask for the proposal in writing. It should state the aligner system, the arches being treated, review appointments, potential refinements, lost-aligner policy and retainers. That small checklist can make two apparently similar quotes much easier to compare.
+
+## How do I know whether I am an ideal candidate?
+
+Clear aligners can work well for adults and teenagers who want a discreet, removable option and can wear them as instructed. They may be used for crowded teeth, gaps, rotated teeth, certain bite problems and relapses after previous braces.
+
+The removable part is both their attraction and their responsibility. Aligners need to be worn for the time prescribed, generally taken out for eating and drinking anything except water, then cleaned before being put back in. Think of them like a carefully calibrated route on a map: skipping too many stages makes it harder to reach the intended destination.
+
+**How do I know if I need clear aligners rather than braces?** The answer comes from the diagnosis, not from the material you would prefer to wear. Some complex skeletal discrepancies, difficult vertical or root movements, cases requiring extractions, or situations where wear compliance is unlikely may be better treated with fixed braces or a combined approach.
+
+Active decay, gum disease or poor oral hygiene should be addressed first. Moving teeth through unhealthy gums is not sensible dentistry. The gums should be stable before orthodontics begins, and any decay needs treatment. If you are also considering cosmetic changes later, healthy teeth and a stable bite come before veneers or whitening.
+
+There is another point worth knowing. A recent review found that refinements were common in complex clear-aligner cases, and some patients moved to fixed appliances. That does not mean aligners are ineffective; it means a responsible plan should discuss what is predictable, what may need adjustment and what alternatives exist. Research is useful, but it never replaces an individual assessment.
+
+## The step-by-step process at Debod
+
+Your first visit starts with a conversation. What would you like to change? Is it crowding, spaces, a tooth that has shifted, difficulty biting, or confidence when you smile? Dr. Guerrero then examines the teeth, gums and bite rather than judging the smile from the front alone.
+
+Digital records follow. These may include photographs, an intraoral scan, X-rays and 3D imaging when clinically indicated. The scan creates a detailed digital model of your mouth without traditional impression material. It helps plan each movement and shows why an apparently simple case may need more careful control.
+
+The proposed plan explains the expected sequence, attachments if needed, any enamel reshaping and whether elastics are likely. At this stage you receive a clear estimate and can ask what happens if an aligner does not fit as expected. No one should feel pressured to accept treatment on the day.
+
+Once treatment begins, you change aligners according to the schedule set for you and attend reviews so progress can be checked. **Does invisible orthodontics hurt?** Pressure is common when starting a new aligner, and tenderness can occur for a few days. Randomised studies have found lower pain in the first days with Invisalign than fixed braces in some groups, but discomfort differs from person to person.
+
+When active tooth movement ends, retention begins. Retainers help keep teeth in their new position over the long term. This is not an optional afterthought; teeth can drift throughout life. It is also the part many headline prices leave unclear, so ask about it before committing.
+
+Debod Dental Lab, our in-house digital laboratory, supports the clinic’s digital workflow where appropriate. It allows the clinical and laboratory teams to coordinate closely on planned work. Yet the technology is there to support professional judgement, not replace it.
+
+## Questions patients always ask before booking
+
+### Does invisible orthodontics hurt?
+
+Most people describe pressure rather than sharp pain, particularly with a new aligner. It usually settles as you adapt. If an aligner is causing persistent pain, rubbing or does not sit properly, contact the clinic rather than trying to force it.
+
+### How long does invisible orthodontics take?
+
+There is no reliable one-size-fits-all number. Mild corrections may take less time than complex bite changes, but the estimate depends on the planned movements, review findings and whether aligners are worn consistently. A digital simulation is a planning tool, not a guarantee of an exact finish date.
+
+### Is it normal that my speech changes at first?
+
+Yes, a slight lisp can happen during the first days because your tongue is adapting to the aligners. Reading aloud and wearing them as directed usually helps the adaptation. If the change persists, mention it at your review.
+
+### What happens if I lose an aligner?
+
+Contact your orthodontic team promptly. Depending on the stage and fit, you may be advised to use the previous aligner, move to the next one or arrange a replacement. Keep your last set safely; it can be useful if this happens.
+
+### Will the result last?
+
+Teeth naturally have a tendency to move, even after orthodontics. Retainers and regular follow-up are the practical way to protect the result. Ask which type of retainer is recommended, how often to wear it and how replacements are handled.
+
+### Is clear-aligner treatment guaranteed?
+
+Orthodontics cannot ethically promise an identical outcome for every mouth. A clinician can explain the planned objectives, likely limitations and alternatives after examining you. Careful follow-up and your cooperation with wearing the aligners both matter.
+
+## Why choose Debod Dental Clinic in Argüelles?
+
+Choosing orthodontics is about more than finding the lowest initial number. At Debod Dental Clinic, patients receive a diagnostic-first approach from Dr. Víctor Guerrero, an orthodontics and dentofacial orthopaedics specialist with more than 15 years of experience in invisible orthodontics.
+
+The clinic combines intraoral scanning, digital planning and the support of **Debod Dental Lab**, our in-house digital laboratory. This helps create a coordinated plan while keeping clinical decisions centred on your health, bite and real-life goals.
+
+You will find us at C. de Ferraz, 24, Argüelles, 28008 Madrid, España, a short walk from Ventura Rodríguez metro station on Line 3. The first diagnostic visit is included, so you can understand whether invisible orthodontics is appropriate before deciding.
+
+If your bite needs a different approach, we will say so. If aligners are suitable, you will receive a plan designed around your case, not a generic package. You can also explore our [Invisalign clear aligner treatment](/en/treatments/invisalign-clear-aligners-arguelles-madrid/), compare options such as [dental crowns](/en/treatments/dental-crowns-arguelles-madrid/) where restorative work is needed, or [book an appointment](/en/contact/) to discuss your smile in person.
+
+The best question is not only “Is the price good?” It is “What am I paying for, what is included, and is this plan right for my teeth and bite?” That is the conversation we invite you to have before starting treatment in Madrid.`
 },
   // ← Agent appends new EN overlays here
 }
