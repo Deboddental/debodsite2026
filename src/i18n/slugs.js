@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'financiacion-invisalign-madrid-mensualidades': { es_cat: 'odontologia-estetica', en: 'invisalign-finance-madrid-monthly-payments', en_cat: 'cosmetic-dentistry' },
+  'microtornillos-ortodoncia-madrid': { es_cat: 'salud-dental', en: 'when-are-orthodontic-mini-screws-advisable', en_cat: 'dental-health' },
   'cuanto-cuesta-ortodoncia-invisible-arguelles-madrid': { es_cat: 'salud-dental', en: 'invisible-orthodontics-cost-arguelles-madrid', en_cat: 'dental-health' },
   'rehabilitacion-completa-implantes-protesis-digital-madrid': { es_cat: 'servicios', en: 'full-mouth-implant-rehabilitation-digital-prosthesis-madrid', en_cat: 'services' },
   'dentista-arguelles-escaner-intraoral-3d-madrid': { es_cat: 'salud-dental', en: 'dentist-in-arguelles-with-3d-intraoral-scanner', en_cat: 'dental-health' },

@@ -2133,6 +2133,251 @@ El tratamiento se apoya en planificación digital, escáner intraoral y pruebas 
 
 La odontología honesta también consiste en decir “esto no es lo mejor para ti” cuando el diagnóstico lo muestra. Si queréis saber qué modalidad, duración y presupuesto encajan con vuestra mordida, podéis [pedir cita](/contacto/) para una valoración personalizada.`
 },
+  {
+  slug: 'microtornillos-ortodoncia-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: '¿Cuándo usar microtornillos en ortodoncia?',
+  publishDate: '2026-11-20',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-victor-guerrero',
+  metaTitle: 'Microtornillos en ortodoncia — Debod Dental Clinic Argüelles',
+  metaDescription: 'Descubre cuándo conviene usar microtornillos en ortodoncia, cómo se colocan y qué cuidados requieren en Madrid.',
+  excerpt: 'Te explicamos cuándo los microtornillos pueden ayudar en ortodoncia, qué se nota al colocarlos y cuándo conviene valorarlos.',
+  heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
+  faqs: [
+    {
+      question: '¿Duele poner un microtornillo de ortodoncia?',
+      answer: 'Se coloca con anestesia local, por lo que durante el procedimiento no debería doler. Después puede haber presión o molestia breve; si aumenta tras 48–72 horas, hay inflamación o supuración, conviene revisarlo.'
+    },
+    {
+      question: '¿Cuánto cuesta un microtornillo de ortodoncia?',
+      answer: 'El coste depende del número de microtornillos, su ubicación, las pruebas necesarias y la mecánica de ortodoncia. Debe confirmarse tras una valoración clínica y la planificación del caso.'
+    },
+    {
+      question: '¿Cuánto dura un microtornillo en la boca?',
+      answer: 'Permanece el tiempo necesario para realizar el movimiento previsto, que puede ser de varios meses. Cuando ha cumplido su función, se retira habitualmente en consulta.'
+    },
+    {
+      question: '¿Es urgente revisar un microtornillo que se mueve?',
+      answer: 'Sí, es recomendable contactar con el ortodoncista pronto. La movilidad puede indicar que ha perdido estabilidad y quizá sea necesario ajustarlo, retirarlo o recolocarlo.'
+    },
+    {
+      question: '¿Los microtornillos sustituyen a los brackets o alineadores?',
+      answer: 'No. Son un apoyo temporal de titanio que complementa los brackets o los alineadores para controlar determinados movimientos dentales.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué es un microtornillo en ortodoncia? — La respuesta directa
+
+Los microtornillos en ortodoncia son pequeños dispositivos temporales de titanio que se colocan en el hueso para crear un punto de apoyo estable. Permiten mover ciertos dientes sin que otros se desplacen de forma no deseada. En Debod Dental Clinic en Argüelles, Madrid, se valoran cuando el objetivo del tratamiento necesita ese control extra.
+
+También se conocen como dispositivos de anclaje temporal o TAD, por sus siglas en inglés. No sustituyen a los brackets ni a los [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/): trabajan con ellos. Pensad en un punto fijo al que sujetar una cuerda para mover un mueble; la cuerda hace el trabajo, pero necesita un buen apoyo para que el resto no se mueva.
+
+La pregunta útil no es si los microtornillos son “mejores” para todo el mundo. Es qué movimiento concreto aportan en vuestra mordida y si existen alternativas razonables. Ahí está la diferencia entre indicarlos por rutina y usarlos con sentido clínico.
+
+## ¿Por qué importa esto para tu salud dental?
+
+En ortodoncia, mover un diente implica aplicar fuerzas. Si queremos llevar hacia atrás los incisivos, subir un molar o corregir una asimetría, otros dientes pueden tender a moverse en sentido contrario. Ese efecto se llama pérdida de anclaje. Un microtornillo puede ayudar a limitarlo al apoyarse en el hueso en lugar de utilizar únicamente otros dientes.
+
+Se usan con cierta frecuencia para retraer incisivos después de extracciones, intruir molares en una mordida abierta o desplazar molares hacia atrás en algunos casos de Clase II o Clase III. También pueden facilitar el manejo de dientes incluidos, planos de mordida inclinados y asimetrías. Cada una de estas situaciones requiere estudio; dos sonrisas aparentemente parecidas pueden necesitar mecánicas distintas.
+
+La evidencia apunta a un mejor control del anclaje en algunos tratamientos. En un ensayo clínico multicéntrico durante el cierre de espacios tras extracciones, los pacientes tratados con TAD tuvieron menor avance no deseado de los primeros molares que con anclaje convencional. Aun así, algunos microtornillos se perdieron durante el estudio: ayudan a controlar, pero **no son una garantía de inmovilidad absoluta**. Puedes consultar el [ensayo clínico publicado en 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6769265/).
+
+¿Es normal que haya opciones distintas para conseguir el mismo movimiento? Sí. Elásticos, aparatos convencionales, botones de Nance o aparatos extraorales pueden ser alternativas en determinados casos. Un ensayo con adolescentes no encontró diferencias clínicamente relevantes entre varios métodos para reforzar el anclaje máximo, por lo que la elección depende de anatomía, objetivo, tolerancia y colaboración del paciente, no de una moda. [Aquí puedes leer ese estudio](https://pubmed.ncbi.nlm.nih.gov/24974994/).
+
+## ¿Cuándo conviene usar microtornillos en ortodoncia?
+
+Conviene plantearlos cuando el ortodoncista necesita una fuerza muy dirigida y no quiere que los dientes vecinos hagan de “contrapeso”. No se deciden mirando solo una radiografía. Se revisan la mordida, el hueso disponible, las raíces, las encías y la higiene oral.
+
+Pueden ser especialmente útiles en estas situaciones:
+
+- Retracción de incisivos tras extracciones cuando se necesita conservar la posición de los molares.
+- Intrusión de molares para tratar una mordida abierta anterior o preparar después una rehabilitación dental.
+- Distalización, es decir, llevar molares hacia atrás, en algunas maloclusiones.
+- Corrección de asimetrías, dientes incluidos o inclinaciones del plano de mordida.
+
+¿Qué pasa si se colocan sin tener en cuenta la zona y las raíces? Aumenta el riesgo de complicaciones o de que el microtornillo pierda estabilidad. Una revisión sistemática observó diferencias de fracaso según la ubicación y un mayor riesgo cuando existe contacto con raíces. Por eso, cuando el caso lo requiere, la planificación con radiografías y TAC 3D permite decidir la posición con más seguridad. [La revisión está disponible aquí](https://pubmed.ncbi.nlm.nih.gov/30246217/).
+
+No suelen ser la primera opción con gingivitis, periodontitis activa, infección local o higiene insuficiente. Primero hay que controlar caries y enfermedad de encías. Un tratamiento de ortodoncia no mejora una encía inflamada por sí solo; sería como pintar una pared con humedad sin reparar antes la fuga.
+
+## ¿Cómo se colocan y qué se nota después?
+
+Tras estudiar el caso, el profesional anestesia la zona y coloca el microtornillo de forma transitoria. Después conecta el elemento que aplicará la fuerza: una cadena, un elástico o una estructura del aparato. El protocolo cambia según el lugar y el movimiento que se busca; algunos se cargan pronto y otros requieren una pauta concreta.
+
+¿Duele el microtornillo? Durante la colocación no debería doler porque se usa anestesia local. Al pasar el efecto, es frecuente notar presión, una sensibilidad localizada o roce durante unos días. La molestia intensa o creciente no debe normalizarse. Tampoco una úlcera que no mejora, hinchazón marcada, pus o movilidad.
+
+¿Cuánto tarda en hacer efecto? El microtornillo no “endereza” por sí solo: permite aplicar una mecánica controlada durante el tiempo que requiera el movimiento. Puede mantenerse varios meses y se retira cuando ya ha cumplido su misión. Normalmente se desenrosca en consulta de forma sencilla.
+
+Hay otro detalle que cambia el pronóstico: la inflamación. En un ensayo con adultos, la estabilidad de los microtornillos fue menor cuando había inflamación alrededor de la zona. El tamaño y el emplazamiento también influyeron. No es un detalle menor; cepillarse bien alrededor del tornillo forma parte del tratamiento. [Puedes consultar el estudio](https://pubmed.ncbi.nlm.nih.gov/36127718/).
+
+## Preguntas frecuentes
+
+### ¿Duele poner un microtornillo de ortodoncia?
+
+La colocación se realiza con anestesia local. Lo habitual es no sentir dolor durante el procedimiento y sí una molestia o presión breve después. Si el dolor aumenta pasadas 48–72 horas, si aparece inflamación, supuración o fiebre, hay que contactar con la clínica.
+
+### ¿Cuánto cuesta un microtornillo de ortodoncia?
+
+Depende del número de microtornillos, la zona, las pruebas diagnósticas y la mecánica que necesite el caso. No es responsable dar una cifra sin explorar la boca y estudiar la mordida. En la primera visita diagnóstica se puede explicar qué incluye la planificación y qué alternativas existen.
+
+### ¿Cuánto dura un microtornillo en la boca?
+
+Permanece mientras sea necesario para realizar el movimiento previsto. A veces son meses; no existe una duración idéntica para todos. Cuando ya no aporta apoyo, se retira en consulta.
+
+### ¿Es urgente si el microtornillo se mueve?
+
+Conviene revisarlo pronto. Un microtornillo móvil puede haber perdido estabilidad y dejar de cumplir su función. No intentéis apretarlo, moverlo ni limpiarlo de forma agresiva; el ortodoncista decidirá si se ajusta, se retira o se recoloca.
+
+### ¿Qué pasa si el microtornillo roza la mejilla o la lengua?
+
+Un roce puede producir una pequeña úlcera. Avisad para que se valore la zona y se ajuste la protección si hace falta. Mientras tanto, mantened una higiene suave y no manipuléis el aparato. El objetivo es que sea tolerable, no aguantar molestias innecesarias.
+
+### ¿Merece la pena usar microtornillos si llevo alineadores transparentes?
+
+Puede merecer la pena cuando los alineadores por sí solos no ofrecen el anclaje necesario para el movimiento planificado. En otros casos no hacen falta. La decisión se toma con el estudio de la mordida, el escáner intraoral y, si está indicado, pruebas de imagen.
+
+## ¿Qué debes saber antes de tu primera visita?
+
+- Anota qué te preocupa: dientes adelantados, mordida abierta, asimetría o dificultad para masticar.
+- Indica si has tenido sangrado de encías, movilidad dental, infecciones o tratamientos previos.
+- Lleva radiografías o informes recientes si los tienes, aunque puede ser necesario repetir las pruebas.
+- Pregunta qué movimiento concreto resolvería el microtornillo y qué alternativa se plantea si no se utiliza.
+
+Antes de aceptar el tratamiento, pedid una explicación clara sobre cuántos microtornillos podrían necesitarse, dónde se colocarían, cómo se controlará la higiene y qué ocurriría si alguno pierde estabilidad. La planificación digital con escáner intraoral y, cuando procede, TAC 3D permite analizar el caso antes de actuar. El seguimiento presencial también cuenta: la AEMPS recomienda que el diagnóstico, la prescripción y el control de la ortodoncia los realice un profesional cualificado, no un tratamiento autogestionado a distancia. [Consulta su nota informativa](https://www.aemps.gob.es/informa/notasInformativas/productosSanitarios/2022/PS-25-2022-ortodoncia.pdf).
+
+## ¿Cuándo es urgente ver a un dentista?
+
+No hace falta esperar a la siguiente revisión si aparece dolor que aumenta después de los primeros días, inflamación visible, pus, fiebre, sangrado persistente o movilidad del microtornillo. También conviene pedir cita si el aparato roza continuamente y provoca una lesión que no mejora.
+
+Las encías sanas deben estar firmes y con un tono rosa coral, no inflamadas ni sangrantes. Si ya había sangrado antes de empezar ortodoncia, hay que revisarlo. Puede requerirse una [limpieza dental profunda](/tratamientos/limpieza-dental-profunda-arguelles-madrid-espana/) u otro tratamiento periodontal antes de colocar un microtornillo.
+
+En Madrid, podéis comprobar que el centro sanitario esté autorizado por la Comunidad de Madrid y que el profesional esté colegiado en el [directorio del COEM](https://coem.org.es/registro-de-colegiados-y-sociedades/directorio-de-colegiados/). Es una comprobación sencilla y razonable antes de iniciar cualquier tratamiento.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+En Debod Dental Clinic, en C. de Ferraz, 24, Argüelles, 28008 Madrid, el tratamiento se plantea desde una valoración diagnóstica individual. La primera visita diagnóstica está incluida. No se trata de poner un microtornillo porque exista esa posibilidad, sino de comprobar si aporta una ventaja real a vuestra ortodoncia.
+
+La clínica cuenta con planificación digital mediante escáner intraoral y pruebas de imagen cuando están indicadas. El equipo también dispone de Debod Dental Lab, su laboratorio propio, útil para coordinar la planificación y los trabajos que puedan acompañar a tratamientos de rehabilitación o estética dental.
+
+Si quieres saber cómo sé si necesito microtornillos, puedes [pedir cita](/contacto/) para valorar tu mordida, tus encías y las alternativas disponibles. Debod Dental Clinic atiende de lunes a viernes, de 9:00 a 20:00, y está cerca de Ventura Rodríguez, Plaza de España y Argüelles.`
+},
+  {
+  slug: 'financiacion-invisalign-madrid-mensualidades',
+  category: 'odontologia-estetica',
+  categoryLabel: 'Odontología Estética',
+  title: 'Financiación Invisalign en Madrid: mensualidades',
+  publishDate: '2026-11-20',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-victor-guerrero',
+  metaTitle: 'Financiación Invisalign en Madrid — Debod Dental Clinic Argüelles',
+  metaDescription: 'Conoce la financiación de Invisalign en Madrid, qué incluyen las mensualidades y qué revisar antes de decidir tu tratamiento.',
+  excerpt: 'Te contamos cómo valorar las mensualidades de Invisalign en Madrid, qué debe incluir un presupuesto y qué preguntar antes de firmar.',
+  heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
+  faqs: [
+    {
+      question: '¿Se puede financiar Invisalign sin entrada?',
+      answer: 'En Debod Dental Clinic ofrecemos financiación sin entrada, sujeta a aprobación, con plazos de hasta 60 meses y 0% de interés durante los primeros 12 meses. Antes de firmar, revisa el importe total, la TAE y las condiciones del crédito.'
+    },
+    {
+      question: '¿Qué incluye normalmente el presupuesto de Invisalign?',
+      answer: 'Debe detallar el estudio, escáner, alineadores, revisiones, posibles refinamientos, retenedores y cualquier prueba diagnóstica necesaria. Cada caso necesita un presupuesto escrito personalizado.'
+    },
+    {
+      question: '¿Duele Invisalign?',
+      answer: 'Puede haber presión o molestias temporales al cambiar de alineador. Un ensayo clínico observó menos dolor inicial con alineadores que con brackets en casos leves o moderados, aunque cada persona lo vive de forma distinta.'
+    },
+    {
+      question: '¿Cuánto tiempo hay que llevar los alineadores al día?',
+      answer: 'Habitualmente se recomienda llevarlos unas 22 horas diarias, retirándolos para comer y para la higiene. El tiempo exacto y las pautas las marca el ortodoncista según tu plan.'
+    },
+    {
+      question: '¿Los resultados de Invisalign duran para siempre?',
+      answer: 'Los dientes pueden moverse con el tiempo. Tras terminar el tratamiento se indican retenedores fijos, removibles o ambos, según el caso, para conservar la posición conseguida.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué incluye la financiación de Invisalign en Debod Dental Clinic?
+
+En Debod Dental Clinic, en Argüelles, la financiación de Invisalign se plantea después de estudiar tu mordida, tu salud dental y el tipo de movimiento que necesitan tus dientes. No se trata solo de dividir una cifra entre meses: el presupuesto debe explicar qué tratamiento se propone, qué servicios incluye y cuál es el coste total antes de elegir la cuota.
+
+La primera visita diagnóstica está incluida. A partir de ahí, el equipo puede valorar si los [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) son adecuados para ti mediante exploración clínica, escáner intraoral y, cuando proceda, pruebas radiológicas. **La financiación disponible puede llegar hasta 60 meses, con 0% de interés durante los primeros 12 meses y sin entrada**, siempre sujeta a las condiciones de aprobación aplicables.
+
+Los alineadores transparentes mueven los dientes de forma secuencial con férulas removibles hechas a medida. Son discretos y permiten quitárselos para comer y cepillarse, pero no son una compra estándar. Dos bocas con dientes aparentemente parecidos pueden necesitar planes muy diferentes. Ese matiz es el que determina tanto el tratamiento como sus mensualidades.
+
+Hay una pregunta que conviene resolver antes de mirar cualquier anuncio de “X euros al mes”: ¿qué está incluido realmente en esa cuota? Más abajo verás cómo comprobarlo sin dejar cabos sueltos.
+
+## ¿Cuánto cuesta la financiación de Invisalign en Madrid? — Precios honestos
+
+No sería honesto dar una cifra cerrada sin verte. En Madrid, los importes publicados por distintas clínicas para tratamientos con alineadores muestran rangos amplios, porque influyen la complejidad, el número de férulas, los refinamientos y la retención final. Una mensualidad baja puede corresponder a un plazo más largo, a una entrada previa o a servicios que se cobran aparte.
+
+En Debod Dental Clinic, el precio real se confirma tras la primera visita diagnóstica incluida y la planificación digital con escáner intraoral; si el caso lo requiere, también con TAC 3D. Así sabemos si hay apiñamiento, espacios, mordida cruzada, sobremordida u otros factores que cambien el plan. **La cuota mensual nunca debería ocultar el total que acabarás pagando.**
+
+Antes de aceptar una financiación, pide por escrito el presupuesto desglosado. Debe quedar claro si contempla el estudio, las pruebas necesarias, los ataches —pequeños relieves del color del diente que ayudan a moverlo—, la reducción interproximal o IPR, las revisiones, los refinamientos, los retenedores y la reposición en caso de pérdida. No todos los presupuestos incluyen lo mismo.
+
+La reducción interproximal consiste en crear un espacio mínimo entre algunos dientes para que encajen mejor. No es “limar por limar”; se indica solo cuando el diagnóstico lo justifica. Del mismo modo, algunos casos requieren elásticos o fases adicionales. Si no aparece explicado, pregunta.
+
+Cuando compares opciones, revisa la **TAE**, no solo el interés anunciado ni el importe mensual. La TAE ayuda a comparar el coste del crédito al incorporar, cuando corresponda, intereses y comisiones. El Banco de España explica que, en créditos al consumo, debes recibir información precontractual y dispones de un derecho de desistimiento de 14 días naturales en las condiciones previstas por la ley. Puedes consultarlo en la [guía del Banco de España sobre préstamos al consumo](https://clientebancario.bde.es/pcb/es/blog/que-tramites-debes-cumplir-cuando-solicitas-un-prestamo-al-consumo.html).
+
+¿Merece la pena financiar? Puede ser una forma cómoda de repartir el coste si conoces el total, el plazo y las condiciones. La decisión sensata llega cuando la cuota encaja en tu presupuesto sin que el precio final te pille por sorpresa.
+
+## ¿Cómo saber si soy candidato ideal?
+
+Un candidato para Invisalign no se define por querer unos dientes más rectos. Se define por tener un diagnóstico que permita planificar el movimiento de forma predecible y por poder seguir las pautas de uso. Los alineadores se retiran para comer —salvo para beber agua— y se vuelven a colocar después de lavarse los dientes. Llevarlos menos horas de las indicadas puede alargar el tratamiento o impedir que cada férula ajuste bien.
+
+Suele ser una opción a valorar cuando hay apiñamiento, separación entre dientes o alteraciones de mordida que puedan corregirse con alineadores. La simulación digital ayuda a visualizar el plan, pero no es una promesa matemática del resultado final. Un estudio prospectivo encontró que ciertos movimientos, como algunas rotaciones, son menos predecibles y pueden requerir ataches, elásticos, IPR o refinamientos. Puedes leer el estudio en el [American Journal of Orthodontics and Dentofacial Orthopedics](https://pubmed.ncbi.nlm.nih.gov/32620479/).
+
+No es buena idea empezar directamente si hay caries activas, encías inflamadas o pérdida de soporte dental sin tratar. Primero hay que estabilizar la salud bucal. Retener alineadores sobre dientes sin limpiar favorece la acumulación de placa, la gingivitis y el riesgo de caries. Una [limpieza dental](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) o un tratamiento periodontal previo pueden formar parte del camino, no ser un obstáculo.
+
+También hay casos en los que los brackets ofrecen más control, especialmente ante movimientos complejos, determinadas rotaciones, extrusiones, cierres de espacios o planes quirúrgicos. **La mejor ortodoncia no es la más invisible, sino la indicada para tu boca.** El ortodoncista debe explicarte por qué recomienda una opción y qué alternativa existe.
+
+¿Es normal que el plan incluya refinamientos? Sí, puede ocurrir. Son alineadores adicionales para ajustar posiciones que no han respondido exactamente como se esperaba. No indican necesariamente que algo haya ido mal; la biología no funciona como una impresora. Este es otro punto que debe quedar reflejado en tu presupuesto antes de financiarlo.
+
+## El proceso paso a paso en Debod
+
+El proceso comienza con una conversación tranquila en la clínica de C. de Ferraz, 24. Se revisan tus objetivos, tu historial y la mordida. A veces lo que parece una cuestión estética esconde desgaste, bruxismo o una relación entre los dientes que conviene corregir antes de pensar en la foto final.
+
+- Se realiza la exploración y el estudio diagnóstico con escáner intraoral y las pruebas necesarias.
+- Se diseña un plan digital personalizado y se explica qué movimientos son previsibles y cuáles pueden necesitar apoyo.
+- Se entrega el presupuesto desglosado y se revisan las opciones de pago y financiación.
+- Si decides avanzar, se fabrican y entregan los alineadores, con revisiones pautadas.
+
+Debod Dental Lab, el laboratorio propio digital de la clínica, permite trabajar de forma coordinada con la planificación clínica. Esa coordinación es útil cuando se preparan elementos de retención o se necesita ajustar el trabajo final a la situación real de tu boca. La tecnología no sustituye al diagnóstico: lo hace más visible y más fácil de explicar.
+
+Durante el tratamiento, cada juego de férulas se cambia según la pauta indicada. Es habitual notar presión los primeros días de una férula nueva. ¿Duele el tratamiento? Un ensayo clínico aleatorizado en casos leves y moderados observó menos dolor con alineadores que con brackets durante las primeras horas y días, aunque la experiencia varía de una persona a otra. Aquí tienes el [estudio clínico publicado](https://pubmed.ncbi.nlm.nih.gov/38760747/).
+
+El detalle que muchas personas descubren tarde es la retención. Al terminar, los dientes necesitan retenedores para mantener su posición. Es como colocar un libro recién ordenado en una estantería: si no tiene apoyo, puede desplazarse. Saber cómo será esa fase antes de firmar te permite comparar propuestas de verdad.
+
+## Preguntas que siempre nos hacen antes de pedir cita
+
+### ¿Duele Invisalign?
+
+La sensación más habitual es presión al estrenar alineador y cierta sensibilidad al morder. Suele ser temporal. Si aparece dolor intenso, una férula que no ajusta o una herida persistente, hay que contactar con la clínica para revisarlo. No conviene forzar el alineador ni intentar modificarlo en casa.
+
+### ¿Cuánto tarda un tratamiento con Invisalign?
+
+Depende de la complejidad, de cómo responden los dientes y de la constancia de uso. Los alineadores deben llevarse el tiempo que indique el ortodoncista, habitualmente cerca de 22 horas al día. Una cohorte observacional de pacientes mostró distintos niveles de adherencia; no sirve para predecir tu caso, pero sí recuerda que la constancia pesa mucho en el calendario. Puedes consultar sus datos en este [estudio sobre cumplimiento](https://pubmed.ncbi.nlm.nih.gov/34300269/).
+
+### ¿Qué pasa si pierdo un alineador?
+
+Llama a la clínica. Según el punto del tratamiento, se puede recomendar usar el juego anterior, pasar al siguiente o pedir una reposición. La respuesta correcta depende de cómo encajen tus dientes y de la pauta clínica. No elijas por tu cuenta porque podrías desajustar la secuencia.
+
+### ¿Los alineadores dañan las raíces de los dientes?
+
+La reabsorción radicular, una reducción de la longitud de la raíz, es un posible riesgo de cualquier tratamiento ortodóncico. No se puede prometer que Invisalign la elimine. Un metaanálisis con CBCT encontró una reducción media tras tratamiento con alineadores y señala a los incisivos superiores entre las piezas más afectadas. El seguimiento clínico permite valorar riesgos individuales; consulta el [metaanálisis publicado](https://pubmed.ncbi.nlm.nih.gov/38692962/).
+
+### ¿Tiene garantía el resultado?
+
+La ortodoncia es un tratamiento sanitario, no un producto con un resultado idéntico garantizado para todas las personas. Lo que sí debe quedar claro es el plan, qué incluye, cómo se gestionan los refinamientos y qué retención necesitarás. Conserva el presupuesto y pregunta por estas condiciones antes de formalizar la financiación.
+
+## ¿Por qué elegir Debod Dental Clinic en Argüelles?
+
+Elegir dónde tratarse con Invisalign en Madrid no debería depender solo de una cifra mensual. En Debod Dental Clinic encontrarás una primera visita diagnóstica incluida, planificación digital con escáner intraoral y, si está indicado, TAC 3D. El objetivo es que entiendas el diagnóstico antes de decidir cómo pagarlo.
+
+El tratamiento de ortodoncia se aborda con profesionales especializados y un plan individualizado. Debod Dental Lab, el laboratorio propio de la clínica, aporta coordinación digital en los trabajos que lo requieren. **La propuesta debe ser clara: qué se trata, cómo se hará, cuánto cuesta en total y qué ocurre al terminar.**
+
+La clínica está en C. de Ferraz, 24, Argüelles, 28008 Madrid, España, cerca del metro Ventura Rodríguez (L3), y también de Plaza de España y Argüelles. El horario es de lunes a viernes, de 9:00 a 20:00. Puedes pedir una valoración desde la página de [contacto](/contacto/) o llamar al +34 914 47 62 25.
+
+Si estás comparando mensualidades, trae tus dudas y cualquier presupuesto que ya tengas. Revisaremos contigo el tratamiento propuesto, no solo la cuota. Ahí es donde una decisión de financiación puede convertirse en una decisión tranquila y bien informada.`
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -4210,6 +4455,242 @@ You will find us at C. de Ferraz, 24, Argüelles, 28008 Madrid, España, a short
 If your bite needs a different approach, we will say so. If aligners are suitable, you will receive a plan designed around your case, not a generic package. You can also explore our [Invisalign clear aligner treatment](/en/treatments/invisalign-clear-aligners-arguelles-madrid/), compare options such as [dental crowns](/en/treatments/dental-crowns-arguelles-madrid/) where restorative work is needed, or [book an appointment](/en/contact/) to discuss your smile in person.
 
 The best question is not only “Is the price good?” It is “What am I paying for, what is included, and is this plan right for my teeth and bite?” That is the conversation we invite you to have before starting treatment in Madrid.`
+},
+  'microtornillos-ortodoncia-madrid': {
+  title: 'When Are Orthodontic Mini-Screws Advisable?',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'Orthodontic Mini-Screws — Debod Dental Clinic Argüelles',
+  metaDescription: 'Learn when orthodontic mini-screws may help control tooth movement, their risks, comfort and suitability in Madrid.',
+  excerpt: 'Orthodontic mini-screws can provide stable support for complex tooth movements. Find out when they may be advisable and what treatment involves.',
+  faqs: [
+    {
+      question: 'Do orthodontic mini-screws hurt?',
+      answer: 'They are placed with local anaesthetic, so placement should not be painful. Mild pressure or soreness for a short time afterwards can occur, and persistent or worsening pain should be checked by your orthodontist.'
+    },
+    {
+      question: 'How much do orthodontic mini-screws cost?',
+      answer: 'The cost depends on the number of mini-screws needed, their position, the orthodontic plan and whether imaging is required. A personalised estimate should be confirmed after an in-person assessment.'
+    },
+    {
+      question: 'How long do orthodontic mini-screws stay in place?',
+      answer: 'They remain in place only while they are needed for the planned tooth movement. This may be several months or longer, depending on the case. They are normally removed in the clinic once their job is complete.'
+    },
+    {
+      question: 'Is it urgent to see an orthodontist if a mini-screw feels loose?',
+      answer: 'It is not usually an emergency, but you should contact your orthodontic team promptly. A loose mini-screw may need review, removal or replacement so that treatment can continue safely.'
+    },
+    {
+      question: 'Are mini-screws always better than braces or elastics?',
+      answer: 'No. Mini-screws do not replace braces or clear aligners; they provide temporary support for selected movements. The best option depends on your bite, bone, gum health, treatment goal and preferences.'
+    }
+  ],
+  bodyMarkdown: `## What are orthodontic mini-screws? — The direct answer
+
+Orthodontic mini-screws are small temporary titanium screws placed in the jawbone to give an orthodontist a stable point of support while moving teeth. At Debod Dental Clinic in Argüelles, Madrid, they may be considered when braces or clear aligners need extra support to make a specific movement more controlled.
+
+They are also called temporary anchorage devices, or TADs. Think of them as a small, temporary anchor point: instead of one tooth pulling against another tooth, the orthodontic force can work from the bone. They do not replace braces or [clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/); they work alongside them when the treatment plan calls for it.
+
+A mini-screw is placed under local anaesthetic and is removed once it has completed its role. The interesting question is not whether mini-screws are “better” for everyone. It is what precise movement they could make more predictable in your own mouth.
+
+## Why does this matter for your dental health?
+
+Orthodontic treatment is about more than straight-looking front teeth. Teeth need to meet in a way that supports comfortable chewing, cleaning and long-term stability. If a tooth is moved without enough support, other teeth can drift in an unwanted direction. That is called loss of anchorage.
+
+Mini-screws can help reduce that unwanted movement in selected cases. For example, after tooth extractions, the aim may be to move the front teeth backwards while keeping the back teeth as still as reasonably possible. In a multicentre clinical trial, patients treated with temporary anchorage devices had less forward movement of the first molar during upper space closure than those using conventional anchorage. That means improved control, not a guarantee that no movement will happen at all. [Read the clinical trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC6769265/).
+
+They can also be useful for moving back molars, correcting an uneven bite, helping bring down an impacted tooth, or intruding a molar. Intrusion means gently moving a tooth slightly further into the bone. This may help manage an anterior open bite, where the front teeth do not meet when the back teeth are together.
+
+The detail that often surprises patients is this: the mini-screw itself is not the treatment goal. It is simply a way of making the planned movement possible with less reliance on other teeth or, in some cases, on wearing elastics perfectly every day.
+
+## When are orthodontic mini-screws advisable?
+
+Mini-screws may be advisable when a planned movement requires maximum anchorage. That can include retracting front teeth after extractions, where the orthodontist wants to avoid the molars moving forwards too much.
+
+They may also be considered for:
+
+- Moving molars backwards in certain Class II or Class III bite patterns.
+- Intruding back teeth to help correct an open bite or prepare space for future restorative work.
+- Correcting asymmetry, a tilted bite plane or selected impacted teeth.
+- Reducing dependence on removable appliances or elastics for a particular movement.
+
+**They are not routinely necessary for every orthodontic case.** A study in adolescents found no clinically meaningful difference between mini-screws, a Nance button and headgear for maximum anchorage in that study population. The right choice depends on the desired movement, age, bone anatomy, gum health, tolerance of alternatives and personal preferences. [Read the study](https://pubmed.ncbi.nlm.nih.gov/24974994/).
+
+How do I know if I need orthodontic mini-screws? An examination is the only reliable way to tell. Your orthodontist should explain the movement being planned, what support is needed, alternatives that may work and why a mini-screw may or may not suit you.
+
+## What happens during mini-screw treatment?
+
+Before placement, the orthodontist assesses your teeth, bite, gums, roots and available bone. X-rays are usually needed and, for some cases, three-dimensional imaging may be appropriate to plan the position carefully.
+
+The gum is numbed, then the mini-screw is inserted into a selected area of bone. A small elastic chain, spring or other orthodontic attachment connects it to the teeth or appliance. Depending on the planned mechanics and position, it may be used soon after placement or after a short period.
+
+**Good hygiene is part of the treatment, not an optional extra.** Inflammation around a mini-screw can reduce its chance of staying stable. Research on mandibular distalisation found lower success where inflammation was present. [Read the study](https://pubmed.ncbi.nlm.nih.gov/36127718/).
+
+Once the planned movement is complete, the screw is normally unscrewed in the dental clinic. The small opening generally heals naturally. The exact timing varies, which is why regular orthodontic reviews matter.
+
+## Questions patients often ask
+
+### Is it normal for an orthodontic mini-screw to feel strange at first?
+
+Yes. A new mini-screw can feel unfamiliar, especially if your cheek or tongue notices its head. Mild tenderness or pressure may occur shortly after placement. A protective wax or adjustment can sometimes help if it rubs.
+
+Pain that becomes stronger after 48 to 72 hours, marked swelling, discharge, fever or a screw that feels loose needs prompt review. Do not try to tighten, remove or adjust it yourself.
+
+### Does having an orthodontic mini-screw hurt?
+
+Placement is carried out with local anaesthetic, so you should not feel sharp pain during the procedure. You may notice pressure. Afterwards, many people report short-lived soreness rather than severe pain, but experiences differ.
+
+A mini-screw should not be presented as painless for every person. Your orthodontist can discuss sensible pain relief, if suitable for you, and what level of discomfort is expected.
+
+### How long do orthodontic mini-screws take to work?
+
+The screw is usually quick to place, but its working time depends on the tooth movement it supports. It may stay in place for months and occasionally longer. Orthodontic treatment moves teeth gradually because the surrounding bone needs time to adapt.
+
+Can it make treatment shorter? Sometimes it can simplify a difficult movement, but evidence on total treatment time is not consistent enough to promise a faster result. The aim is controlled biomechanics, not rushing teeth.
+
+### What happens if an orthodontic mini-screw becomes loose?
+
+A loose mini-screw may no longer provide reliable support. Contact your orthodontic clinic so it can be assessed. It may be removed, allowed to heal, or replaced in a different suitable position if the treatment plan still requires it.
+
+Failure does not mean the whole orthodontic treatment has failed. A systematic review found that success varies according to the placement area, with root contact associated with a greater risk of failure. This is one reason careful planning and follow-up matter. [Read the systematic review](https://pubmed.ncbi.nlm.nih.gov/30246217/).
+
+### How much do orthodontic mini-screws cost in Madrid?
+
+There is no honest single price because the cost depends on how many are needed, where they are placed, the imaging required and the overall orthodontic plan. Ask for a clear written estimate after assessment, including whether replacement would be charged separately if a screw loses stability.
+
+At Debod Dental Clinic, a first diagnostic visit is included. A personalised plan should only be confirmed once the orthodontist has assessed your bite, gum health and imaging.
+
+### Are mini-screws suitable with Invisalign or other clear aligners?
+
+They can be used alongside clear aligners in selected cases, but suitability is individual. The aligner plan, attachments, bite and proposed movement all need to work together. The same principle applies to fixed braces: a mini-screw is an additional support tool, not a shortcut.
+
+## What should you know before your first visit?
+
+- Bring details of previous orthodontic treatment, dental X-rays or relevant medical information if you have them.
+- Tell the dentist about bleeding gums, loose teeth, jaw pain, medicines and any history of gum treatment.
+- Ask which exact tooth movement the mini-screw would support and what alternatives are reasonable.
+- Ask about the number and position of screws, cleaning instructions, reviews and what happens if one needs replacement.
+
+Healthy gums come first. Active gum disease, untreated decay, local infection or poor plaque control may mean placement should wait. This is not a setback; it is the sensible order of care.
+
+During your consultation, the orthodontic team can assess whether fixed braces or [Invisalign clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/) are suitable, and whether skeletal anchorage could add value. No online photograph or generic answer can replace that examination.
+
+## When is it urgent to see a dentist?
+
+Seek prompt advice if you have increasing pain after the first few days, swelling, pus, bleeding that does not settle, fever, difficulty swallowing, or a mini-screw that is loose and causing injury. Contact your orthodontic team rather than attempting to alter the appliance.
+
+A sharp edge rubbing the cheek is usually less urgent but still worth reporting promptly, especially if it is causing an ulcer. Good cleaning around the mini-screw with a soft toothbrush and an interdental brush, where advised, helps reduce irritation.
+
+Orthodontic care should be diagnosed, prescribed and monitored in person by a qualified professional. The Spanish Agency of Medicines and Medical Devices advises against self-managed or online-only orthodontic treatment without professional supervision. [Read the AEMPS guidance](https://www.aemps.gob.es/informa/notasInformativas/productosSanitarios/2022/PS-25-2022-ortodoncia.pdf).
+
+## Why choose Debod Dental Clinic?
+
+Debod Dental Clinic is in Argüelles, Madrid, near the Temple of Debod and Ventura Rodríguez metro station. We take an honest dentistry approach: the recommendation should match your clinical needs, not a one-size-fits-all trend.
+
+For orthodontic assessment, planning may include an intraoral scan and, when clinically justified, 3D imaging. These records help assess roots, bone and the bite before deciding whether mini-screws are appropriate.
+
+**Debod Dental Lab is our in-house digital laboratory**, supporting coordinated planning when orthodontics needs to work alongside restorative care. If your case also involves damaged teeth or existing restorations, this can help the team consider the wider picture, including options such as [dental crowns](/en/treatments/dental-crowns-arguelles-madrid/).
+
+Your first diagnostic visit is included. To discuss orthodontic mini-screws, braces or aligners in a calm, personalised consultation, [book an appointment](/en/contact/) with Debod Dental Clinic.`
+},
+  'financiacion-invisalign-madrid-mensualidades': {
+  title: 'Invisalign Finance in Madrid: Monthly Payments',
+  categoryLabel: 'Cosmetic Dentistry',
+  metaTitle: 'Invisalign Finance in Madrid — Debod Dental Clinic Argüelles',
+  metaDescription: 'Explore Invisalign finance and monthly payments in Madrid. Get a clear written treatment plan at Debod Dental Clinic, Argüelles.',
+  excerpt: 'Considering Invisalign monthly payments in Madrid? Learn what a transparent quote should include, how finance works, and what to ask before committing.',
+  faqs: [
+    {
+      question: 'Does Invisalign hurt?',
+      answer: 'New aligners can cause pressure or mild tenderness, particularly for the first few days. A randomised clinical trial found that Invisalign patients reported less pain than fixed-braces patients in the early stages, although individual experiences vary.'
+    },
+    {
+      question: 'How long does Invisalign treatment take?',
+      answer: 'Treatment time depends on the bite, the movements required and how consistently aligners are worn. Your orthodontist can estimate a timeline after an examination and digital treatment plan, but refinement stages may be needed.'
+    },
+    {
+      question: 'What happens if I do not wear my aligners enough?',
+      answer: 'The teeth may not track as planned, which can extend treatment or require additional aligners. Aligners should generally be worn for around 22 hours a day, following the personalised instructions from your orthodontist.'
+    },
+    {
+      question: 'Is there a guarantee with Invisalign?',
+      answer: 'No ethical orthodontist can guarantee an exact clinical result or a fixed treatment length before assessment. Ask for written confirmation of what your plan includes, such as reviews, refinements and retainers.'
+    }
+  ],
+  bodyMarkdown: `## What does Invisalign treatment at Debod Dental Clinic include?
+
+At **Debod Dental Clinic in Argüelles, Madrid**, Invisalign treatment begins with an orthodontic assessment rather than a monthly-payment sales pitch. We assess your teeth, gums, bite and treatment goals, then explain whether clear aligners are suitable and what your written plan covers.
+
+Invisalign uses a sequence of clear, removable aligners to guide teeth gradually. The plan may include digital scans, attachments, small tooth-shape adjustments where clinically appropriate, elastics, reviews, refinements and retainers. The exact combination depends on the person in the chair. That detail matters more than a headline instalment.
+
+Many people start by asking, “Is it normal that one clinic advertises a much lower monthly figure than another?” It can be. But the answer may be hidden in what is excluded, how long the finance runs for, or whether retainers are separate. We will come back to the checklist that makes comparisons fair.
+
+## How much does Invisalign cost in Madrid? — Honest prices
+
+There is no single honest Invisalign price for every patient in Madrid. The total reflects the complexity of the bite, the number of aligners and review stages likely to be needed, whether other dental care is required first, and what the proposal includes after active tooth movement.
+
+Published advertising from Madrid clinics shows very different examples, from lower monthly instalments for selected cases to overall treatment figures in the several-thousand-euro range. These are commercial examples, not an official price list or a like-for-like comparison. A Lite case and a comprehensive case are not the same treatment, even if both are called Invisalign.
+
+At Debod Dental Clinic, the real cost is confirmed after the **included first diagnostic visit** and the necessary digital assessment, which may involve an intraoral scan and, where indicated, 3D imaging. Ask for the cash price, the financed total and a written breakdown before agreeing to anything.
+
+Finance is available for up to **60 months**, with 0% interest for the first 12 months and no deposit, subject to the terms and approval that apply to your agreement. The monthly amount is only one part of the decision. Check the total amount payable, the APR/TAE, any opening fee, linked insurance and the conditions for early repayment. The Bank of Spain explains what to review when comparing consumer loans and your right to withdraw from a credit agreement within 14 calendar days: [guidance on consumer loans](https://clientebancario.bde.es/pcb/es/blog/que-tramites-debes-cumplir-cuando-solicitas-un-prestamo-al-consumo.html).
+
+“Does Invisalign finance make sense?” It may, if the repayment plan fits your household budget and you understand the full cost. It is not a reason to begin treatment that has not been properly diagnosed.
+
+## How do I know if I am an ideal candidate?
+
+Clear aligners can be a good option for adults and teenagers with crowding, gaps, crossbite, deep bite or other bite concerns. They are discreet and removable, which makes brushing and flossing easier than with fixed appliances. But removable also means responsibility: they need to be worn as instructed, commonly close to 22 hours daily.
+
+A suitable candidate has healthy gums and teeth, realistic expectations and the routine to remove aligners for meals, clean their teeth and put the aligners back in straight away. Wearing aligners over unclean teeth can raise the risk of decay, early enamel damage and gum inflammation.
+
+It may not be the right time to start if there is untreated decay, active gum disease, poor oral hygiene or uncertainty about wearing time. Some complex rotations, tooth movements, bite corrections or surgical cases may be more predictable with fixed braces, or with a combined approach. [Invisalign clear aligners](/en/treatments/invisalign-clear-aligners-madrid/) are a treatment tool, not a shortcut.
+
+A digital simulation is useful for planning and discussion, but it is not a guarantee of an identical final result. Research has found that the accuracy of planned tooth movements varies, especially with more difficult movements such as rotations and certain root movements. Attachments, elastics, small enamel adjustments and refinement aligners can help; they are not evidence that something has gone wrong. Here is the point many patients only discover later: the initial animation is a plan, while orthodontics is a biological process.
+
+## The step-by-step process at Debod
+
+The process should feel clear, not mysterious.
+
+1. **Diagnostic visit:** we discuss your priorities, examine the mouth and assess whether the gums, teeth and bite are ready for orthodontics.
+
+2. **Digital planning:** an intraoral scan replaces traditional impression material for many cases. Photographs and 3D imaging are used when clinically indicated to plan safely.
+
+3. **Written proposal:** you receive a personalised treatment and finance explanation. Before signing, ask whether it includes aligners, attachments, any interproximal reduction, reviews, refinements, retainers and replacement aligners if one is lost.
+
+4. **Active treatment and retention:** you change aligners according to your prescribed schedule and attend reviews. Once teeth are aligned, retainers help hold them there for the long term.
+
+Debod Dental Lab, our in-house digital laboratory, supports the clinic workflow where laboratory work is relevant. For any tooth requiring restoration during or after orthodontics, planning should protect the bite and natural tooth structure. If a tooth needs a restoration, [dental crowns](/en/treatments/dental-crowns-arguelles-madrid/) may be considered only after a proper clinical assessment.
+
+How long does Invisalign take? Mild cases may need less time than complex bite corrections, but a precise timeline belongs in your individual plan. Tooth response, aligner wear and the need for refinements can change it. Think of it like a route planner: it gives a sensible journey, but roadworks can require a detour.
+
+## Questions we are always asked before booking an appointment
+
+### Does Invisalign hurt?
+
+New aligners commonly cause pressure or tenderness for a few days, especially when changing to the next set. This is usually different from severe pain. A randomised clinical trial found less early pain with Invisalign than with fixed braces, though every person responds differently: [clinical trial on pain and quality of life](https://pubmed.ncbi.nlm.nih.gov/38760747/). Contact your orthodontist if pain is severe, persistent or linked to a damaged aligner.
+
+### What happens if I do not wear my aligners enough?
+
+Teeth may not move in step with the aligners, and treatment can take longer or require additional stages. In an observational study, full adherence was defined as at least 22 hours daily, and adherence varied considerably between patients: [study of aligner adherence](https://pubmed.ncbi.nlm.nih.gov/34300269/). The practical message is simple: aligners work when they are worn.
+
+### How long will the result last?
+
+Teeth can move throughout life, whether treatment was with aligners or braces. Retainers are therefore part of treatment, not an optional afterthought. Your clinician will advise on fixed and/or removable retainers and how to look after them. This is the earlier checklist answer: compare retainers carefully, because a low monthly payment can conceal a separate final cost.
+
+### Is there a guarantee with Invisalign?
+
+No responsible clinic can guarantee an exact result, a fixed duration or that no refinement will ever be needed. Ask what the written plan includes and what happens if treatment needs to change. Clear information is more reassuring than a promise that cannot be kept.
+
+### Does Invisalign damage the roots of teeth?
+
+Root shortening is a known risk with orthodontic treatment, not something Invisalign can be said to eliminate. A recent review using 3D imaging found a small average reduction in root length after aligner treatment, with upper incisors most affected: [systematic review and meta-analysis](https://pubmed.ncbi.nlm.nih.gov/38692962/). Individual risk needs professional assessment and monitoring.
+
+## Why choose Debod Dental Clinic in Argüelles?
+
+Choosing an Invisalign provider in Madrid is about more than finding the smallest monthly number. At Debod Dental Clinic, treatment is planned around your oral health, bite and daily life, with a **first diagnostic visit included** before a final recommendation is made.
+
+Our Argüelles clinic is on C. de Ferraz, 24, close to Ventura Rodríguez, Plaza de España and Argüelles. Digital planning, intraoral scanning and access to Debod Dental Lab help keep communication between planning and treatment close. You are also assessed by an orthodontic specialist, Dr. Víctor Guerrero, whose clinical focus includes Invisalign and dentofacial orthopaedics.
+
+If you are comparing finance options, bring the other quotation to your visit. We can help you understand the treatment scope rather than simply compare instalments. Book an assessment through [our contact page](/en/contact/) and ask every question you need to ask. That is how a monthly payment becomes a well-understood treatment decision.`
 },
   // ← Agent appends new EN overlays here
 }
