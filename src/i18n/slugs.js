@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'financiacion-implantes-dentales-madrid-sin-intereses': { es_cat: 'servicios', en: 'interest-free-dental-implant-finance-madrid', en_cat: 'services' },
+  'carillas-dentales-sin-tallar-dientes-madrid': { es_cat: 'odontologia-estetica', en: 'no-prep-dental-veneers-without-shaving-teeth', en_cat: 'cosmetic-dentistry' },
   'financiacion-invisalign-madrid-mensualidades': { es_cat: 'odontologia-estetica', en: 'invisalign-finance-madrid-monthly-payments', en_cat: 'cosmetic-dentistry' },
   'microtornillos-ortodoncia-madrid': { es_cat: 'salud-dental', en: 'when-are-orthodontic-mini-screws-advisable', en_cat: 'dental-health' },
   'cuanto-cuesta-ortodoncia-invisible-arguelles-madrid': { es_cat: 'salud-dental', en: 'invisible-orthodontics-cost-arguelles-madrid', en_cat: 'dental-health' },

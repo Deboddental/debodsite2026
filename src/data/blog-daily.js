@@ -2378,6 +2378,250 @@ La clínica está en C. de Ferraz, 24, Argüelles, 28008 Madrid, España, cerca 
 
 Si estás comparando mensualidades, trae tus dudas y cualquier presupuesto que ya tengas. Revisaremos contigo el tratamiento propuesto, no solo la cuota. Ahí es donde una decisión de financiación puede convertirse en una decisión tranquila y bien informada.`
 },
+  {
+  slug: 'carillas-dentales-sin-tallar-dientes-madrid',
+  category: 'odontologia-estetica',
+  categoryLabel: 'Odontología Estética',
+  title: 'Carillas sin tallar dientes: ¿son posibles?',
+  publishDate: '2026-11-23',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Carillas sin tallar dientes — Debod Dental Clinic Argüelles',
+  metaDescription: '¿Se pueden poner carillas dentales sin tallar los dientes? Conoce cuándo son una opción y sus límites en Madrid.',
+  excerpt: 'Te contamos cuándo unas carillas sin tallado pueden encajar, qué límites tienen y qué revisar antes de decidirte.',
+  heroImageUrl: '/Images/blog/webp/carillas-vs-coronas.webp',
+  faqs: [
+    {
+      question: '¿Se pueden poner carillas dentales sin tallar los dientes?',
+      answer: 'Sí, en casos seleccionados. Las carillas no-prep son láminas muy finas que se adhieren al esmalte sin reducir de forma intencionada la cara visible del diente, aunque puede hacer falta un ajuste mínimo en alguna zona.'
+    },
+    {
+      question: '¿Duele ponerse carillas sin tallado?',
+      answer: 'Habitualmente el proceso es cómodo porque se conserva el esmalte y puede no requerir anestesia. La necesidad de anestesia depende de si hay que realizar algún ajuste, tratar caries o abordar otro problema previo.'
+    },
+    {
+      question: '¿Cuánto cuestan las carillas sin tallar?',
+      answer: 'El coste depende del número de dientes, el material, el diseño, el estado de la boca y si antes hace falta tratar encías, caries o la mordida. Debe confirmarse tras una valoración diagnóstica.'
+    },
+    {
+      question: '¿Cuánto duran las carillas sin tallado?',
+      answer: 'No hay una duración idéntica para todas las personas. Estudios con pacientes seleccionados han observado buenos resultados a medio plazo, pero influyen la higiene, la mordida, el bruxismo, el material y las revisiones.'
+    },
+    {
+      question: '¿Es urgente ponerse carillas si tengo un diente pequeño o un hueco?',
+      answer: 'No suele ser urgente. Conviene revisar primero la salud de encías, la presencia de caries y la mordida para elegir entre carillas, composite, blanqueamiento u ortodoncia.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué es una carilla dental sin tallado? — La respuesta directa
+
+Sí, las carillas dentales se pueden colocar sin tallar los dientes, pero **no son adecuadas para todas las bocas**. Una carilla sin tallado, también llamada no-prep, es una lámina muy fina de cerámica o composite que se adhiere sobre el esmalte para modificar ligeramente el color, la forma o el volumen del diente.
+
+En Debod Dental Clinic en Argüelles, Madrid, este tipo de tratamiento se plantea solo después de estudiar el diente, las encías y la mordida. Que no se retire esmalte de forma intencionada no quiere decir que sea una solución universal ni completamente reversible: sigue siendo una restauración que necesitará control y, con el paso de los años, puede requerir reparación o sustitución.
+
+La idea suena muy atractiva. Conservar al máximo el diente propio lo es. La pregunta que cambia todo es otra: ¿hay espacio para añadir material sin que el diente termine demasiado ancho o artificial? Ahí está la diferencia entre una indicación sensata y una decisión estética precipitada.
+
+## ¿Por qué importa esto para tu salud dental?
+
+El esmalte es la capa externa dura del diente. Cuando está sano, ofrece una superficie muy predecible para adherir una carilla. Preservarlo suele favorecer la unión y evita retirar tejido que no vuelve a crecer.
+
+La evidencia clínica apoya esta prudencia. Un estudio con seguimiento de hasta doce años observó un riesgo de fracaso claramente mayor cuando la adhesión afectaba a dentina, la capa situada bajo el esmalte, frente a los casos adheridos sobre esmalte. No significa que toda preparación dental vaya a fallar; significa que **conservar esmalte sano suele ser una ventaja clínica**. Puedes consultar el estudio [aquí](https://pubmed.ncbi.nlm.nih.gov/23342345/).
+
+Ahora bien, añadir una lámina incluso muy fina aumenta volumen. Si un incisivo ya está hacia fuera, si hay apiñamiento o si el cambio de color que se busca es muy intenso, una carilla sin tallado puede dejar un perfil abultado. Como poner una funda nueva sobre una puerta que ya roza el marco: por muy fina que sea, puede impedir que encaje bien.
+
+¿Es normal que alguien quiera evitar cualquier tallado? Claro. Lo responsable es no convertir ese deseo en una promesa. A veces la opción más conservadora es blanquear, alinear antes los dientes con [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/), hacer una reconstrucción directa de composite o planificar una preparación mínima que permanezca en esmalte.
+
+Las carillas no-prep suelen encajar mejor cuando falta volumen: dientes pequeños, incisivos en clavija, diastemas —los huecos entre dientes—, ligeras irregularidades de forma o desgaste limitado. También pueden ser útiles para cambios discretos de color cuando la base dental lo permite.
+
+No suelen ser la primera elección si hay caries activas, encías inflamadas, higiene deficiente, mordida inestable o bruxismo sin controlar. Las encías deben estar sanas, con aspecto rosa coral, antes de empezar un tratamiento estético. Una carilla no arregla una encía que sangra ni protege un diente con caries.
+
+## ¿Qué pasa durante el estudio de unas carillas sin tallado?
+
+El tratamiento no debería empezar eligiendo un blanco de catálogo. Primero hay que saber si la boca puede recibir las carillas y qué resultado cabe físicamente. La valoración incluye exploración de encías y caries, fotografías, escáner intraoral y análisis de la mordida.
+
+Con esos datos se prepara un diseño diagnóstico o mock-up: una prueba que permite ver y comprobar el volumen, la forma y cómo contactan los dientes al cerrar. Es una fase muy útil. Lo que en una fotografía puede parecer perfecto puede molestar al hablar, alterar la mordida o dificultar el cepillado.
+
+En Debod Dental Clinic, el trabajo digital y el apoyo de Debod Dental Lab permiten planificar el caso antes de cementar las restauraciones definitivas. Si el diseño revela que los dientes quedarían demasiado gruesos, no se debe forzar una carilla no-prep solo por mantener la etiqueta de “sin tallado”.
+
+Ese es el open loop que conviene cerrar antes de decidir: una carilla bonita no tiene por qué parecer un diente de anuncio. Los dientes naturales conservan textura, pequeñas variaciones y una forma proporcionada a la cara. Buscar dientes cuadrados, opacos o excesivamente iguales suele alejarse de un resultado natural.
+
+## Materiales y duración: qué se sabe de verdad
+
+Las carillas ultrafinas pueden fabricarse en cerámica, como porcelana feldespática o disilicato de litio, y también en composite. La cerámica mantiene bien el color y el brillo; el composite suele permitir reparaciones más sencillas, aunque puede perder pulido o teñirse con más facilidad con el tiempo.
+
+¿Merece la pena? Depende de la indicación, no solo del material. En una cohorte retrospectiva de carillas cerámicas no-prep revisadas entre 36 y 60 meses se comunicó una supervivencia del 97,4% y un éxito del 91,0%. Hubo fracturas, pequeños desconchados y cambios de color marginal en algunos casos. Son datos de pacientes seleccionados y equipos expertos, no una garantía individual. Puedes revisar la publicación [aquí](https://pubmed.ncbi.nlm.nih.gov/34059296/).
+
+Un estudio prospectivo de 60 carillas ultrafinas de disilicato de litio informó de éxito del 100% al año. Es un resultado alentador, pero un año no permite predecir cómo estará cada carilla dentro de diez años. La investigación está disponible [aquí](https://pmc.ncbi.nlm.nih.gov/articles/PMC11379410/).
+
+Para carillas indirectas de composite no-prep, una serie prospectiva describió una supervivencia del 91,3% a siete años, con despegados, fracturas y más cambios de brillo, rugosidad o tinción marginal con el paso del tiempo. Consulta el trabajo [aquí](https://pmc.ncbi.nlm.nih.gov/articles/PMC10158390/).
+
+¿Cuánto tarda el tratamiento? Depende de si la boca está sana y de la complejidad del diseño. La fase de diagnóstico, prueba y fabricación lleva tiempo porque evita decisiones irreversibles a toda prisa. Si hay que corregir encías, caries, bruxismo o mordida, ese problema va antes.
+
+## Preguntas frecuentes
+
+### ¿Duele ponerse carillas sin tallado?
+
+En muchos casos resulta cómodo porque se conserva el esmalte y puede no ser necesaria anestesia. Si hace falta ajustar una zona, tratar una caries o corregir sensibilidad previa, la experiencia cambia. La valoración permite explicarte qué se hará exactamente antes de empezar.
+
+### ¿Cuánto cuesta una carilla sin tallar?
+
+No existe un precio responsable sin estudiar el caso. Varía según el número de dientes, el material, el diseño, la necesidad de pruebas previas y los tratamientos que haya que realizar antes. El presupuesto debe explicar qué incluye, las revisiones previstas y qué ocurre si en el futuro hace falta reparar o sustituir una carilla.
+
+### ¿Cuánto dura una carilla dental sin tallado?
+
+Puede mantenerse durante años si está bien indicada y cuidada, pero no tiene una fecha de caducidad exacta. La higiene, el tabaco, los hábitos de morder objetos, la mordida y el bruxismo influyen mucho. Una revisión clínica amplia de carillas de porcelana, no solo no-prep, estimó una supervivencia acumulada a diez años del 95,5%; cada situación es distinta. Puedes ver la revisión [aquí](https://pmc.ncbi.nlm.nih.gov/articles/PMC7961608/).
+
+### ¿Es urgente ponerme carillas si tengo un hueco entre los dientes?
+
+No suele ser urgente. Un diastema puede tener solución con carillas, composite u ortodoncia, según el tamaño del hueco y cómo cierran los dientes. Primero hay que descartar enfermedad de encías y valorar la mordida. A veces mover ligeramente los dientes evita añadir volumen innecesario.
+
+### ¿Qué pasa si tengo bruxismo y quiero carillas?
+
+Apretar o rechinar puede aumentar el riesgo de desconchados, fracturas o despegados. Antes de decidir, hay que evaluar el bruxismo y, si procede, plantear una férula nocturna y medidas para controlar el hábito. No es una prohibición automática, pero sí un factor que cambia el plan.
+
+### ¿Puedo ponerme carillas sin tallado con las encías inflamadas?
+
+No. Las encías inflamadas o que sangran requieren tratamiento previo. Colocar carillas en ese contexto puede empeorar la estética del margen, dificultar la higiene y ocultar un problema de salud que necesita atención. Una [limpieza dental](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) o un tratamiento periodontal puede ser el primer paso.
+
+### ¿Es lo mismo una carilla que una corona?
+
+No. La carilla cubre principalmente la parte visible del diente y busca conservar estructura dental cuando está indicada. La corona rodea todo el diente y se utiliza en circunstancias diferentes, por ejemplo cuando hay una pérdida amplia de estructura. Si te proponen un tallado extenso para una corona llamándolo carilla, pide que te expliquen el motivo y las alternativas. Puedes conocer más sobre [coronas dentales](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/).
+
+## ¿Qué debes saber antes de tu primera visita?
+
+- Lleva anotado qué cambio buscas: color, huecos, forma, desgaste o asimetría.
+- Explica si aprietas los dientes, roncas, tienes sensibilidad o notas chasquidos al masticar.
+- Pregunta qué alternativas existen antes de colocar carillas y qué cantidad de esmalte se modificaría.
+- Solicita por escrito el material, el plan de prueba, el mantenimiento y los posibles costes de reparación o sustitución.
+
+En Madrid, puedes comprobar la colegiación del profesional en el [directorio del COEM](https://coem.org.es/registro-de-colegiados-y-sociedades/directorio-de-colegiados/). También tienes derecho a pedir información clara, presupuesto, consentimiento y copia de tu historia clínica. La primera visita diagnóstica incluida sirve para resolver estas preguntas sin decidir con prisa.
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Las carillas son un tratamiento estético y normalmente pueden esperar. Lo urgente es el problema que pueda estar debajo: dolor intenso, hinchazón de cara o encía, fiebre, traumatismo dental, sangrado que no cede, un diente fracturado con molestia o una úlcera que no mejora en dos semanas.
+
+También pide revisión pronto si una carilla existente se despega, se rompe, corta la lengua o cambia de forma que ya no puedes morder bien. No intentes pegarla en casa. Guardarla y acudir a consulta permite valorar si se puede reparar o recementar con seguridad.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+En Debod Dental Clinic, en C. de Ferraz, 24, Argüelles, 28008 Madrid, el enfoque parte de conservar tejido dental siempre que sea posible y de decirte cuando una carilla sin tallado no es la mejor opción. La estética no puede ir por delante de las encías, las caries o una mordida que necesita atención.
+
+La planificación digital con escáner intraoral, el diseño previo y el trabajo de Debod Dental Lab ayudan a comprobar forma, volumen y función antes del cementado. Las [carillas de porcelana](/tratamientos/carillas-de-porcelana-arguelles-madrid-espana/) pueden ser una buena alternativa cuando están bien indicadas; la primera visita diagnóstica incluida permite valorar si lo son en tu caso.
+
+Puedes coger cita por teléfono en el +34 914 47 62 25, escribir a info@deboddentalclinic.com o usar la página de [contacto](/contacto/). Estamos cerca de Ventura Rodríguez, Plaza de España y Argüelles, con horario de lunes a viernes, de 9:00 a 20:00.`
+},
+  {
+  slug: 'financiacion-implantes-dentales-madrid-sin-intereses',
+  category: 'servicios',
+  categoryLabel: 'Servicios',
+  title: 'Financiación de implantes dentales en Madrid sin intereses',
+  publishDate: '2026-11-23',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Financiación implantes dentales sin intereses — Debod Dental Clinic Argüelles',
+  metaDescription: 'Conoce la financiación para implantes dentales en Madrid sin intereses: qué revisar, plazos y cómo elegir con seguridad.',
+  excerpt: 'Te explicamos cómo financiar implantes dentales en Madrid, qué debe incluir el presupuesto y qué revisar antes de aceptar una cuota.',
+  heroImageUrl: '/Images/blog/webp/implante-dental.webp',
+  faqs: [
+    {
+      question: '¿La financiación de implantes dentales sin intereses tiene siempre TAE 0%?',
+      answer: 'No necesariamente. Para que el coste financiero sea realmente cero, hay que revisar la TAE, las comisiones, los seguros vinculados y el importe total adeudado antes de firmar.'
+    },
+    {
+      question: '¿Puedo financiar un implante dental sin entrada?',
+      answer: 'En Debod Dental Clinic ofrecemos financiación sin entrada, sujeta a las condiciones de aprobación aplicables. Durante la primera visita diagnóstica se explica el plan y las opciones disponibles.'
+    },
+    {
+      question: '¿Cuánto tarda un tratamiento con implantes dentales?',
+      answer: 'Depende de la salud de las encías, el hueso disponible, la zona a tratar y el tipo de prótesis. Algunos casos permiten protocolos más rápidos, pero otros necesitan tiempo de cicatrización para lograr estabilidad.'
+    },
+    {
+      question: '¿Duele ponerse un implante dental?',
+      answer: 'La intervención se realiza con anestesia local. Es habitual tener molestias e inflamación transitorias después, que se controlan siguiendo las indicaciones del odontólogo.'
+    },
+    {
+      question: '¿Qué incluye el presupuesto de un implante dental?',
+      answer: 'Debe indicar con claridad las pruebas diagnósticas, cirugía, implante, pilar, corona o prótesis, posibles injertos, revisiones y mantenimiento. Si algún concepto no está incluido, conviene pedirlo por escrito.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué incluye la financiación para implantes dentales en Debod Dental Clinic?
+
+En Debod Dental Clinic, en Argüelles, la financiación de implantes dentales se plantea después de estudiar qué tratamiento necesitáis de verdad. No se trata de repartir una cifra en cuotas y ya está: primero hay que saber si el diente puede conservarse, si las encías están estables y qué prótesis dará una función duradera.
+
+Un implante dental es una pieza de titanio que sustituye la raíz ausente y, tras integrarse en el hueso, sostiene una corona, un puente o una prótesis. La planificación puede incluir exploración, radiografías y pruebas digitales para diseñar el tratamiento con seguridad. La **primera visita diagnóstica está incluida** y sirve para resolver dudas antes de tomar ninguna decisión.
+
+La financiación disponible es de hasta 60 meses, sin entrada y con **0% de interés durante los primeros 12 meses**. Las condiciones concretas, la aprobación y el coste total se confirman antes de firmar. Hay un detalle que muchas personas descubren demasiado tarde: “sin intereses” no siempre significa que no haya ningún otro gasto. Vamos a verlo con claridad.
+
+## ¿Cuánto cuesta la financiación para implantes dentales en Madrid? — Precios honestos
+
+No existe un precio único y honesto para financiar implantes dentales en Madrid. Un caso puede requerir un solo implante y una corona; otro, un puente, regeneración de hueso o una rehabilitación completa. Dar una cifra cerrada sin ver la boca sería como presupuestar la reforma de una casa sin entrar en ella.
+
+El precio real se confirma tras la exploración y, cuando está indicado, con **TAC 3D y escáner intraoral**. Estas pruebas permiten valorar el hueso disponible, la posición de estructuras anatómicas y el diseño de la prótesis antes de empezar. También ayudan a decidir si conviene una solución sobre implantes, un puente sobre dientes propios o conservar un diente con pronóstico razonable.
+
+Al comparar financiación, no os quedéis solo con la cuota mensual. Pedid siempre por escrito:
+
+- El presupuesto desglosado de cirugía, implante, pilar y corona o prótesis.
+- Si se contemplan injertos, sedación, pruebas, revisiones y reparaciones.
+- El TIN, la TAE, las comisiones, el seguro si lo hubiera y el total a devolver.
+- Qué ocurre en caso de impago o de cancelación anticipada.
+
+El Banco de España explica por qué la TAE permite comparar mejor el coste efectivo de una financiación, ya que puede recoger intereses, comisiones y otros gastos. Podéis consultarlo en su [guía sobre financiación](https://clientebancario.bde.es/pcb/es/blog/La_financiacion_1a121490865c461.html?blog=/webcb/Blog/PrestamoPersonal). La pregunta útil no es solo “¿cuánto pago al mes?”, sino “¿qué tratamiento estoy pagando y cuánto terminaré pagando en total?”.
+
+## ¿Cómo saber si soy candidato ideal?
+
+Sois candidatos a valorar [implantes dentales](/tratamientos/implantes-dentales-arguelles-madrid-espana/) si os falta uno o varios dientes, una prótesis se mueve al comer o un diente ya no puede restaurarse de forma previsible. También puede ser una alternativa cuando faltan muchas piezas y se busca más estabilidad que con una prótesis removible convencional.
+
+Antes de colocar un implante hay que revisar las encías. La periodontitis es una enfermedad inflamatoria que afecta al tejido que sujeta los dientes y puede dañar el hueso. Tenerla activa no impide automáticamente cualquier tratamiento futuro, pero sí obliga a controlarla primero. La evidencia disponible relaciona el antecedente de periodontitis con más riesgo de periimplantitis y pérdida ósea alrededor del implante a largo plazo, como recoge esta [revisión de cohortes prospectivas](https://pubmed.ncbi.nlm.nih.gov/39466662/).
+
+¿Es normal que os digan que primero necesitáis una limpieza o tratar las encías? Sí. Es una buena señal. Poner un implante sobre una base inflamada sería parecido a colocar un mueble nuevo sobre un suelo que todavía se mueve. También conviene valorar el tabaquismo, la higiene diaria, el control de enfermedades generales y la cantidad de hueso disponible.
+
+No es buena idea decidir un tratamiento solo porque encaja una cuota. Tampoco porque alguien prometa un “implante en un día” sin estudiar el caso. La carga inmediata, es decir, colocar una prótesis provisional muy pronto, puede ser adecuada en situaciones seleccionadas, pero no es un derecho automático de cada paciente. Un ensayo clínico con dientes anteriores ausentes mostró buenos resultados a cinco años bajo condiciones concretas, no una fórmula universal para todas las bocas. Podéis leer el estudio [aquí](https://pubmed.ncbi.nlm.nih.gov/33807569/).
+
+## El proceso paso a paso en Debod
+
+El primer paso es una conversación clínica tranquila. Se revisan vuestra salud oral, antecedentes, medicación, hábitos y expectativas. Después se explora la boca para decidir si el diente se puede salvar o si la extracción y el implante son la alternativa más razonable.
+
+Si el implante está indicado, se realiza la planificación digital con escáner intraoral y, cuando hace falta, TAC 3D. Esto permite anticipar la posición del implante y diseñar la futura corona pensando en cómo vais a masticar, hablar y sonreír. No se coloca primero “algo en el hueso” para improvisar la prótesis después.
+
+La fase quirúrgica consiste en colocar el implante en el hueso bajo anestesia local. Tras ello puede ser necesario un periodo de integración, llamado osteointegración: el hueso se adapta y se une a la superficie del implante. ¿Cuánto tarda? Varía según la zona, la estabilidad inicial, el hueso y el tratamiento previsto. Si falta hueso, puede hacer falta regeneración o una elevación de seno antes o durante el proceso.
+
+La última fase es la prótesis: corona, puente o arcada completa. En Debod Dental Clinic contamos con **Debod Dental Lab**, nuestro laboratorio propio digital, para coordinar el diseño protésico con la planificación clínica. El objetivo no es lograr dientes cuadrados ni una sonrisa de anuncio. Buscamos proporción, textura y una forma que encaje con vuestra cara y vuestra mordida.
+
+Cuando la situación lo permite, la [cirugía guiada de implantes](/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/) puede ayudar a trasladar al procedimiento una planificación digital precisa. No sustituye el criterio clínico ni elimina todos los riesgos; es una herramienta dentro de un plan bien estudiado. Y todavía queda una parte que determina el resultado a largo plazo: el mantenimiento.
+
+## Preguntas que siempre nos hacen antes de pedir cita
+
+### ¿Duele el implante dental?
+
+Durante la cirugía se utiliza anestesia local, por lo que no deberíais sentir dolor durante el procedimiento. Después es frecuente notar inflamación, sensibilidad o molestias temporales. Cada caso requiere indicaciones personalizadas, especialmente si se ha hecho una extracción, un injerto o un tratamiento más amplio.
+
+### ¿Cuánto tarda todo el tratamiento?
+
+Depende de la cicatrización, el hueso, las encías y el tipo de prótesis. Hay tratamientos con fases más cortas y otros que necesitan varios meses. Acelerar sin indicación puede comprometer el resultado. En la visita se explica un calendario realista, no uno diseñado para vender deprisa.
+
+### ¿Qué pasa si no tengo hueso suficiente?
+
+No siempre significa que no podáis llevar implantes. Puede valorarse regeneración ósea, elevación de seno, implantes cortos u otras alternativas, según la anatomía. En algunos casos, un puente o una prótesis removible bien diseñada puede ser una opción más sensata. El TAC 3D permite responder con datos, no con suposiciones.
+
+### ¿Merece la pena financiar un implante dental?
+
+Puede merecer la pena si el plan está bien indicado, entendéis el coste total y la cuota encaja de forma cómoda en vuestra economía. No debe convertirse en una razón para aceptar un tratamiento que no necesitáis. Comparad calidad del diagnóstico, experiencia del profesional, trazabilidad del implante y mantenimiento; no solo la mensualidad.
+
+### ¿Cuánto dura un implante dental?
+
+Un implante puede mantenerse durante muchos años, pero no tiene una garantía automática de por vida. Requiere cepillado dos veces al día, higiene interdental específica y revisiones periódicas. La mucositis periimplantaria es inflamación de los tejidos alrededor del implante; si progresa, puede aparecer periimplantitis, con pérdida de hueso. Detectarla pronto cambia mucho el pronóstico.
+
+### ¿Hay garantía en los implantes?
+
+Las condiciones de garantía dependen del tratamiento, los materiales, el mantenimiento y las circunstancias clínicas. Deben explicarse por escrito antes de empezar. Conviene preguntar qué cubre exactamente, durante cuánto tiempo y qué revisiones son necesarias para conservar esa cobertura.
+
+## ¿Por qué elegir Debod Dental Clinic en Argüelles?
+
+Elegir una clínica para un implante no va de encontrar el eslogan más llamativo. Va de recibir un diagnóstico claro, conocer alternativas y tener un presupuesto que no esconda decisiones pendientes. En Debod Dental Clinic trabajamos desde una odontología honesta: si un diente puede conservarse con una opción razonable, se valora antes de extraerlo.
+
+La clínica está en **C. de Ferraz, 24, Argüelles, 28008 Madrid, España**, a pocos metros del Templo de Debod y cerca de Ventura Rodríguez, Plaza de España y Argüelles. Atendemos de lunes a viernes, de 9:00 a 20:00, y podéis contactar en el +34 914 47 62 25 o en info@deboddentalclinic.com.
+
+La combinación de planificación digital, profesionales especializados y Debod Dental Lab permite coordinar cada etapa del tratamiento. Pero el valor real está en poder preguntar, entender y decidir sin prisas. Si queréis saber cómo sé si necesito un implante, si podéis financiarlo o qué alternativa encaja con vuestra boca, podéis [pedir cita](/contacto/) para vuestra primera visita diagnóstica incluida.`
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -4691,6 +4935,234 @@ Choosing an Invisalign provider in Madrid is about more than finding the smalles
 Our Argüelles clinic is on C. de Ferraz, 24, close to Ventura Rodríguez, Plaza de España and Argüelles. Digital planning, intraoral scanning and access to Debod Dental Lab help keep communication between planning and treatment close. You are also assessed by an orthodontic specialist, Dr. Víctor Guerrero, whose clinical focus includes Invisalign and dentofacial orthopaedics.
 
 If you are comparing finance options, bring the other quotation to your visit. We can help you understand the treatment scope rather than simply compare instalments. Book an assessment through [our contact page](/en/contact/) and ask every question you need to ask. That is how a monthly payment becomes a well-understood treatment decision.`
+},
+  'carillas-dentales-sin-tallar-dientes-madrid': {
+  title: 'Can Dental Veneers Be Fitted Without Shaving Teeth?',
+  categoryLabel: 'Cosmetic Dentistry',
+  metaTitle: 'No-Prep Dental Veneers — Debod Dental Clinic Argüelles',
+  metaDescription: 'Can dental veneers be fitted without shaving teeth? Learn when no-prep veneers may be suitable and what to ask before treatment.',
+  excerpt: 'No-prep veneers can preserve healthy enamel, but they are not right for every smile. Here is how suitability is assessed.',
+  faqs: [
+    {
+      question: 'Can dental veneers be fitted without shaving teeth?',
+      answer: 'Yes, in carefully selected cases. No-prep veneers are ultra-thin ceramic or composite shells bonded to the front of teeth with no intentional reduction of the visible tooth surface. A tiny adjustment may still be needed in prominent areas or along an edge.'
+    },
+    {
+      question: 'Do no-prep veneers hurt?',
+      answer: 'They are usually comfortable because little or no tooth reduction is involved. If any minor adjustment is needed, your dentist will explain whether local anaesthetic is appropriate.'
+    },
+    {
+      question: 'How much do no-prep veneers cost?',
+      answer: 'The cost depends on the number of teeth, the material, the bite, the design and whether other treatment is needed first. A personalised estimate should follow a clinical assessment and digital planning.'
+    },
+    {
+      question: 'How long do no-prep veneers last?',
+      answer: 'Longevity varies with the material, bite, oral hygiene and maintenance. Published studies report encouraging results in selected patients, but veneers are restorations that need reviews, maintenance and eventual replacement rather than permanent, reversible changes.'
+    },
+    {
+      question: 'Are no-prep veneers urgent?',
+      answer: 'No. Veneers are usually elective cosmetic treatment. It is better to treat active decay, gum inflammation, unstable bite problems or uncontrolled tooth grinding before considering them.'
+    },
+    {
+      question: 'What happens if no-prep veneers make my teeth look bulky?',
+      answer: 'If adding material would make the teeth look over-contoured, no-prep veneers may not be the best option. Whitening, orthodontics, direct composite bonding or carefully planned minimal preparation may produce a more natural result.'
+    }
+  ],
+  bodyMarkdown: `## What are no-prep dental veneers? — The direct answer
+
+No-prep dental veneers are very thin shells, usually made from ceramic or composite, bonded to the front surface of a tooth **without intentionally shaving down the visible enamel**. They can be an excellent conservative option when a tooth needs a little more volume, but they are not suitable for every smile.
+
+At Debod Dental Clinic in Argüelles, Madrid, suitability is assessed before any cosmetic treatment begins. The aim is not simply to make teeth look whiter or straighter in photographs; it is to create a result that works with your gums, bite and natural facial expression.
+
+The phrase “no-prep” can be misleading. It does not mean that every tooth can receive a veneer without any adjustment. Sometimes a very small polish of a prominent edge is needed so the final tooth does not look thick. That distinction matters, and it is where good planning begins.
+
+## Why does this matter for your dental health?
+
+Healthy enamel is the hard outer layer of your tooth. Think of it as the original protective coat: once a large amount has been removed, it does not grow back. Keeping as much sound enamel as possible can help provide a more predictable bonding surface for a veneer.
+
+Published clinical research supports this cautious approach. A study following no-prep ceramic veneers for 36 to 60 months reported a 97.4% survival rate, while a broader clinical review of porcelain veneers estimated 95.5% cumulative survival at ten years. These figures describe selected patients treated in clinical settings; **they are not a promise of the result for an individual person**. [Clinical evidence on no-prep ceramic veneers](https://pubmed.ncbi.nlm.nih.gov/34059296/) and [the wider porcelain veneer review](https://pmc.ncbi.nlm.nih.gov/articles/PMC7961608/) provide useful context.
+
+A veneer that is technically thin can still be the wrong choice if it adds bulk in the wrong place. Teeth may then look too prominent, gums may be harder to clean, or the bite can be affected. The most conservative treatment is not always insisting on no-prep. Sometimes it is whitening first, orthodontic alignment, direct composite bonding, or a minimal planned preparation that remains in enamel.
+
+There is another question worth asking before looking at shade charts: what is the condition of the gums? Veneers should not be placed over inflamed gums, active decay or untreated bite problems. Healthy gums are generally firm and coral pink, not swollen or bleeding. Cosmetic work placed over disease is like painting a wall while there is still damp behind it.
+
+## When can veneers be fitted without shaving teeth?
+
+No-prep veneers may be considered when the tooth needs material added rather than reduced. Common examples include a small gap between front teeth, naturally small or peg-shaped incisors, mild shape irregularities, limited wear, or modest colour improvement.
+
+They are less likely to be appropriate when teeth already project forwards, are significantly crowded or rotated, or have a very dark underlying colour. Adding a veneer in these situations can create an artificial, bulky appearance. Teeth should not become square or look like identical advertising props. Natural texture, proportion and character are part of a convincing smile.
+
+A stable bite matters too. If someone clenches or grinds their teeth, the thin edge of a veneer may be exposed to high forces. This does not automatically rule treatment out, but the cause needs assessment and a night guard may be advised. The unanswered question is often not “Can I have veneers?” but “What has to be stable first so that veneers have a fair chance?”
+
+## How is a no-prep veneer planned?
+
+A responsible veneer plan begins with an examination of teeth, gums and bite. At Debod Dental Clinic, digital photographs and an intraoral scan can help show the planned changes before anything is bonded. A diagnostic mock-up is a temporary preview of the proposed shape, allowing appearance and function to be checked.
+
+The material is chosen for the specific case. Ultra-thin feldspathic ceramic and lithium disilicate can offer excellent aesthetics. Composite can be easier to repair, although longer-term research has found more surface roughness, loss of shine and marginal staining than may occur with ceramic. A seven-year study of indirect no-prep composite veneers reported 91.3% survival, with debonding and fracture among the recorded complications. [Read the composite veneer study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10158390/).
+
+If the mock-up looks too thick, that is useful information, not a failure. It gives the patient and clinician time to reconsider the plan before permanent treatment. In some cases, [clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/) can first bring teeth into a position where a more conservative cosmetic finish becomes possible.
+
+## Questions people often ask
+
+### Is it normal for no-prep veneers to need a small adjustment?
+
+Yes. “No-prep” usually means no intentional reduction of the front surface of the tooth, not an absolute guarantee that nothing will be touched. A tiny adjustment to a raised area or edge may be needed to avoid excess thickness. You should be told clearly, in writing, whether any enamel will be modified and where.
+
+### Do no-prep veneers hurt?
+
+The procedure is often comfortable because little or no drilling is involved. If a minor adjustment is planned, your dentist can discuss whether local anaesthetic would make you more comfortable. Sensitivity is generally less of a concern when enamel is preserved, but every mouth is different.
+
+### How much do no-prep veneers cost in Madrid?
+
+The cost depends on the number of teeth, material, complexity of the bite, planning and any treatment needed beforehand. There is no honest fixed figure that applies to every smile. A personalised estimate should be confirmed after an assessment, scan and discussion of alternatives.
+
+### How long do no-prep veneers last?
+
+They can last many years when the case selection, bonding, bite and aftercare are appropriate. They are not reversible decorations, though. A veneer remains a restoration that may need polishing, repair or replacement over time. Avoid biting hard objects with front teeth, maintain interdental cleaning and attend reviews.
+
+### Are no-prep veneers urgent?
+
+No. Veneers are usually elective cosmetic treatment. If you have toothache, swelling, active decay, bleeding gums or a broken tooth, those concerns should be assessed first. A beautiful result starts with a healthy foundation.
+
+### What happens if I have dark teeth or crowded teeth?
+
+A veneer may not mask a very dark tooth without looking opaque or bulky. Whitening, orthodontics or another restorative option may be better. When crowding is the issue, moving teeth first can avoid adding unnecessary thickness. In selected cases, [porcelain veneers](/en/treatments/porcelain-veneers-arguelles-madrid/) with minimal preparation may be discussed after a full assessment.
+
+## What should you know before your first visit?
+
+- Ask what the diagnosis is, not only what treatment is proposed.
+- Request an explanation of alternatives without veneers, including whitening or orthodontics.
+- Ask exactly how much enamel, if any, would be adjusted.
+- Discuss the material, mock-up, aftercare, repair options and likely replacement needs.
+
+Bring any previous dental records if you have them, and mention tooth grinding, jaw discomfort or past orthodontic treatment. A good consultation should leave you clearer, not pressured. You can also verify that a dentist is registered through the [COEM professional directory](https://coem.org.es/registro-de-colegiados-y-sociedades/directorio-de-colegiados/).
+
+## When is it urgent to see a dentist?
+
+Veneers themselves are not urgent, but some symptoms should not wait. Contact a dentist promptly if you have facial swelling, severe or persistent tooth pain, fever with dental symptoms, trauma to a tooth, uncontrolled bleeding, a loose restoration, or an ulcer that does not heal.
+
+Bleeding or swollen gums also deserve an appointment before any cosmetic decision. A [dental examination and cleaning](/en/treatments/dental-exams-and-cleanings-arguelles-madrid/) may be the appropriate first step if gum health or plaque build-up is affecting the smile.
+
+## Why choose Debod Dental Clinic?
+
+Debod Dental Clinic is located at C. de Ferraz, 24, Argüelles, 28008 Madrid, close to Ventura Rodríguez metro station. The clinic’s approach is based on clear diagnosis, conservative planning and treatments that respect natural tooth structure where possible.
+
+Digital intraoral scanning and diagnostic planning help patients understand the proposed changes before veneers are made. Work can be coordinated with the in-house Debod Dental Lab, supporting close communication between clinical planning and the final restoration. **The first diagnostic visit is included**, so the suitability of no-prep veneers can be assessed before any decision is made.
+
+To discuss your smile, gum health and bite in person, you can [book an appointment](/en/contact/). The right answer may be no-prep veneers, a different treatment, or simply no treatment yet. That is still a useful answer.` 
+},
+  'financiacion-implantes-dentales-madrid-sin-intereses': {
+  title: 'Interest-Free Dental Implant Finance Madrid',
+  categoryLabel: 'Services',
+  metaTitle: 'Interest-Free Implant Finance — Debod Dental Clinic Argüelles',
+  metaDescription: 'Explore interest-free dental implant finance in Madrid, with transparent planning, included diagnosis and up to 60 monthly payments.',
+  excerpt: 'Considering dental implants in Madrid? Understand interest-free finance, what your plan should include, and the questions to ask before signing.',
+  faqs: [
+    {
+      question: 'Can I finance dental implants with no interest?',
+      answer: 'At Debod Dental Clinic, financing is available for up to 60 months, with 0% interest for the first 12 months and no deposit. Eligibility and the final finance agreement are confirmed individually.'
+    },
+    {
+      question: 'What does interest-free financing really mean?',
+      answer: 'Ask to see the TIN, APR, any opening fee, insurance, total amount payable, monthly instalment and term in writing. A 0% TIN does not automatically mean there are no other charges.'
+    },
+    {
+      question: 'Does dental implant finance include the crown?',
+      answer: 'It depends on the treatment plan. Your written estimate should clearly state whether it includes the implant, abutment, crown or prosthesis, scans, grafting, reviews and any other planned care.'
+    },
+    {
+      question: 'How long does implant treatment take?',
+      answer: 'Timing depends on healing, bone volume, gum health and the type of restoration required. Some selected cases may be suitable for immediate loading, but it is not appropriate for everyone.'
+    },
+    {
+      question: 'Do dental implants hurt?',
+      answer: 'The procedure is planned with local anaesthetic. Mild discomfort and swelling afterwards can occur and are usually temporary. The clinician will explain the expected recovery for your individual case.'
+    }
+  ],
+  bodyMarkdown: `## What does dental implant finance include at Debod Dental Clinic?
+
+At Debod Dental Clinic in Argüelles, Madrid, dental implant finance is designed to let you consider treatment with a clear payment plan rather than making a rushed decision based on one large upfront cost. The first diagnostic appointment is included, so the team can examine the tooth, gums and bite before confirming whether an implant is suitable.
+
+An implant is not simply a replacement tooth. It is a titanium fixture placed in the jawbone, followed by the visible restoration: often a crown, bridge or full prosthesis. That distinction matters when comparing finance offers. A low monthly payment may look appealing, but it only makes sense if you know exactly what treatment it covers.
+
+There is a detail many people discover too late: the quote should separate each stage of care. We will come back to the practical questions that help you compare plans properly.
+
+## How much does dental implant treatment cost in Madrid? — Honest prices
+
+The cost of dental implant treatment in Madrid varies considerably because no two mouths are alike. A straightforward single-tooth replacement is different from a case needing gum treatment, bone regeneration, a sinus lift, several implants or a full-arch prosthesis. For that reason, it would not be honest to give one fixed price without an examination.
+
+At Debod Dental Clinic, the exact estimate is confirmed after the included first diagnostic visit and, where needed, digital planning with an intraoral scan and a **3D CT scan**. This allows the clinician to assess bone volume, nearby anatomical structures and the final tooth position before treatment is planned.
+
+Financing is available for up to **60 months**, with 0% interest for the first 12 months and no deposit. Before accepting any finance agreement, ask for the written European consumer-credit information and check the TIN, APR, monthly instalment, term, total amount payable, possible fees, insurance and what happens if a payment is missed. “Interest-free” should be read carefully: a 0% nominal interest rate does not by itself rule out other charges.
+
+The written treatment estimate should also make clear whether it includes:
+
+- the surgical implant and the connector that joins it to the restoration;
+- the final crown, bridge or removable prosthesis;
+- scans, grafting, sedation where indicated and follow-up visits;
+- maintenance appointments and the likely cost of future repairs.
+
+**What happens if a quote leaves out the crown or grafting?** The initial figure can be misleading. Asking these questions early is not awkward; it is sensible healthcare.
+
+## How do I know if I am an ideal candidate?
+
+A good candidate has a missing tooth, or teeth, and wants to explore a fixed or more stable replacement after a clinical assessment. Healthy and stable gums, effective daily cleaning and enough bone in the intended area all support predictable planning. If bone is limited, there may still be options, but these need proper assessment rather than assumptions.
+
+Gum health comes first. Active gum disease can affect the tissues around implants and, over time, contribute to inflammation and bone loss around them. People with a history of periodontitis, poor plaque control or smoking may have a higher risk of complications, so these factors should be discussed openly. Treating and stabilising gum disease before implant surgery is often the right order.
+
+An implant is not always the best answer. A tooth with a reasonable prognosis may be worth preserving. In some situations, a bridge supported by natural teeth or a conventional removable denture may be a valid alternative. The aim is not to sell the most elaborate option; it is to choose a solution that fits your oral health, expectations and budget.
+
+**Is it normal to need a scan before deciding?** Yes. An X-ray and, frequently, 3D imaging help determine whether implant placement is appropriate and whether procedures such as bone regeneration could be needed. It is like checking the foundations before planning an extension to a house.
+
+## The step-by-step process at Debod
+
+The process begins with the included diagnostic visit. The team reviews your medical and dental history, examines your gums and remaining teeth, and discusses what you would like to improve. Digital scans and 3D imaging are used when clinically appropriate to create a plan that is specific to you.
+
+If decay, infection or gum disease is present, this is addressed first. Where a tooth cannot be saved, extraction may be planned before or alongside the implant pathway. If you have been considering [dental implants in Argüelles](/en/treatments/dental-implants-arguelles-madrid/), this assessment is the point where the options become clearer.
+
+The implant placement itself is a surgical procedure, normally carried out under local anaesthetic. Guided planning may be appropriate in selected cases; you can read more about [guided implant surgery](/en/treatments/guided-implant-surgery-arguelles-madrid/). The implant then needs time to integrate with the bone. This is called osseointegration: the bone gradually bonds with the implant, rather like a fixing becoming secure within a wall.
+
+**How long does it take before the final tooth is fitted?** It depends on healing, implant stability, the position of the tooth and whether grafting was required. Immediate teeth can be suitable in carefully selected cases, but should never be presented as a universal shortcut. A temporary tooth may sometimes be used while healing takes place.
+
+Once the implant is ready, the final restoration is designed and made with the support of Debod Dental Lab, the clinic’s in-house digital laboratory. The objective is a tooth that functions comfortably and sits naturally within your smile, not one that looks unnaturally uniform. For a single missing tooth, this frequently means a carefully planned [dental crown](/en/treatments/dental-crowns-arguelles-madrid/).
+
+Before treatment begins, you receive a personalised plan and written estimate. That is the moment to review the clinical sequence and finance terms together, with no surprises.
+
+## Questions we are always asked before booking an appointment
+
+### Does implant treatment hurt?
+
+Implant surgery is carried out with local anaesthetic, so you should not feel pain during the procedure. Afterwards, tenderness, swelling or bruising can happen and are usually temporary. Your clinician will explain the recovery expected for your case and how to manage it safely.
+
+### How long does dental implant treatment take?
+
+There is no honest one-size-fits-all timetable. Healing can take months, particularly after grafting or when the implant needs time to integrate before the final restoration. Some carefully assessed cases follow a faster pathway, but speed should not override stability and safety.
+
+### Will the result last?
+
+Implants can be a long-term solution, but they are not maintenance-free. Daily brushing, cleaning between teeth, regular reviews and professional cleaning are all part of protecting the gums and bone around an implant. Smoking, untreated gum disease and missed maintenance can increase the likelihood of complications.
+
+### Is there a guarantee on a dental implant?
+
+Terms differ between treatments, components and clinical circumstances, so this should be discussed before you commit. Ask for the written details of what is covered, for how long, what maintenance is expected and what exclusions apply. A guarantee should never replace careful planning or ongoing care.
+
+### Is it worth choosing interest-free finance?
+
+It can be helpful if spreading the cost makes a clinically suitable treatment manageable. Compare the total amount payable, not only the monthly figure, and do not choose a treatment solely because its instalment looks lower. The best decision joins a realistic budget with a treatment plan that protects your oral health.
+
+### What happens if I need bone grafting?
+
+A graft may be recommended when there is not enough bone in the planned area for stable implant placement. It can change the length and cost of treatment, which is why 3D planning before a final quotation is so useful. The clinician will explain whether it is needed and whether alternatives exist.
+
+## Why choose Debod Dental Clinic in Argüelles?
+
+Debod Dental Clinic offers a calm, transparent route for patients considering dental implants in Madrid. The practice is located at C. de Ferraz, 24, Argüelles, 28008 Madrid, close to Ventura Rodríguez on Line 3 and also accessible from Plaza de España and Argüelles.
+
+Treatment planning combines digital intraoral scanning and 3D imaging where appropriate, with the work of **Debod Dental Lab**, the clinic’s in-house digital laboratory. This keeps the surgical and restorative stages connected from the first plan to the final tooth. Implant treatment is led by Dr César Rodríguez, whose clinical focus includes prosthodontics and oral rehabilitation.
+
+The included first diagnostic visit is a chance to ask every question: whether an implant is right for you, what alternatives you have, what the written estimate includes and how financing would work in your circumstances. You can [book an appointment](/en/contact/) or contact Debod Dental Clinic on +34 914 47 62 25, Monday to Friday, 9:00–20:00.
+
+A missing tooth deserves a considered decision. With a clear diagnosis, transparent finance terms and a plan built around your mouth rather than a sales promise, you can move forward with more confidence.`
 },
   // ← Agent appends new EN overlays here
 }
