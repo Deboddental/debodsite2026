@@ -2622,6 +2622,235 @@ La clínica está en **C. de Ferraz, 24, Argüelles, 28008 Madrid, España**, a 
 
 La combinación de planificación digital, profesionales especializados y Debod Dental Lab permite coordinar cada etapa del tratamiento. Pero el valor real está en poder preguntar, entender y decidir sin prisas. Si queréis saber cómo sé si necesito un implante, si podéis financiarlo o qué alternativa encaja con vuestra boca, podéis [pedir cita](/contacto/) para vuestra primera visita diagnóstica incluida.`
 },
+  {
+  slug: 'corona-dental-despegada-que-hacer-madrid',
+  category: 'odontologia-estetica',
+  categoryLabel: 'Odontología Estética',
+  title: 'Corona dental despegada: qué hacer',
+  publishDate: '2026-11-25',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Corona dental despegada — Debod Dental Clinic Argüelles',
+  metaDescription: '¿Se te ha despegado una corona dental? Aprende qué hacer, qué evitar y cuándo acudir al dentista en Madrid.',
+  excerpt: 'Te explicamos cómo conservar una corona dental despegada, cuándo puede recementarse y qué señales requieren atención urgente.',
+  heroImageUrl: '/Images/blog/webp/corona-zirconio.webp',
+  faqs: [
+    {
+      question: '¿Duele que se despegue una corona dental?',
+      answer: 'No siempre. Puede aparecer sensibilidad al frío, al aire o al morder si queda parte del diente expuesta, pero una corona despegada también puede no doler.'
+    },
+    {
+      question: '¿Cuánto cuesta volver a pegar una corona dental?',
+      answer: 'Depende de si la corona y el diente están en buen estado, de si hay caries o fracturas y del material. Tras revisar la zona y, si procede, hacer una radiografía, se confirma el tratamiento y presupuesto.'
+    },
+    {
+      question: '¿Cuánto dura una corona dental recementada?',
+      answer: 'Depende del ajuste de la corona, la salud del diente, el material, el cemento empleado y la mordida. Si hay bruxismo, puede ser necesario proteger el tratamiento con una férula.'
+    },
+    {
+      question: '¿Es urgente una corona dental despegada?',
+      answer: 'Habitualmente no es una urgencia hospitalaria, pero conviene pedir cita en 24 a 72 horas. Busca atención dental el mismo día si hay dolor intenso, inflamación progresiva, fiebre, sangrado persistente o dificultad para tragar o respirar.'
+    },
+    {
+      question: '¿Puedo pegarme una corona dental en casa?',
+      answer: 'No es recomendable usar superglue ni pegamentos domésticos. Pueden irritar los tejidos, impedir que la corona ajuste bien y dificultar el tratamiento posterior.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué es una corona dental despegada? — La respuesta directa
+
+Una corona dental despegada es una funda que deja de estar unida al diente o al implante que protegía. **Guárdala y pide cita pronto**: en muchos casos puede revisarse y recementarse, pero hay que comprobar por qué se ha soltado antes de volver a colocarla.
+
+En Debod Dental Clinic en Argüelles, Madrid, valoramos tanto la corona como el diente que queda debajo. Una corona que se cae no significa automáticamente que hayas perdido el diente. Puede ser un problema de cemento, pero también una señal de caries, una fisura, una fractura o una mordida que carga demasiado esa zona.
+
+Si la corona sigue medio sujeta y notas que se mueve, no tires de ella. Solo retírala si está completamente suelta y existe riesgo de tragarla. El objetivo inmediato es sencillo: conservar la pieza y evitar que el diente expuesto se fracture o se vuelva muy sensible.
+
+## ¿Por qué importa esto para tu salud dental?
+
+La corona funciona como una carcasa protectora. Debajo suele haber un diente previamente tallado, a veces reconstruido o tratado con endodoncia. Cuando se despega, esa estructura queda más vulnerable a los cambios de temperatura, a la presión al masticar y a las bacterias.
+
+¿Es normal que una corona se caiga sin dolor? Sí, puede ocurrir. El cemento puede degradarse con el tiempo y no provocar molestias al principio. Aun así, no conviene dejarlo pasar: una pequeña filtración puede permitir que aparezca caries bajo el borde de la corona. Es como una gotera detrás de un mueble; desde fuera quizá no se vea, pero necesita revisión antes de que afecte a más superficie.
+
+Los estudios clínicos muestran que el recementado es una actuación frecuente cuando una corona pierde retención, por lo que desprenderse no implica necesariamente sustituirla. La decisión depende de que la corona esté íntegra, ajuste correctamente y el diente conserve estructura sana. Puedes consultar datos de seguimiento clínico sobre reintervenciones en coronas en [este estudio publicado en PubMed](https://pubmed.ncbi.nlm.nih.gov/19100674/).
+
+También hay que revisar la mordida. Apretar o rechinar los dientes, lo que llamamos bruxismo, puede someter la corona a una fuerza repetida, como doblar una tarjeta muchas veces por el mismo sitio. En coronas cerámicas, el bruxismo se ha asociado a mayor riesgo de fracaso a largo plazo, según [esta investigación clínica](https://pubmed.ncbi.nlm.nih.gov/22259801/). Y aquí aparece una pregunta que solemos escuchar: ¿qué pasa si sigo comiendo por ese lado? Puede romperse el diente preparado, desplazarse ligeramente o fracturarse la propia corona.
+
+## Qué hacer en casa si se te ha caído una corona
+
+Lo primero, calma. Si tienes la corona contigo, hay margen para actuar bien.
+
+- Enjuágala suavemente con agua y guárdala en un recipiente limpio.
+- Cepilla con delicadeza el diente expuesto y la encía, sin dejar de limpiar la zona.
+- Evita alimentos pegajosos, duros, muy fríos o muy calientes, y mastica por el lado contrario.
+- Pide una cita odontológica lo antes posible, idealmente en 24 a 72 horas.
+
+No uses pegamento doméstico, superglue ni adhesivos no indicados para uso dental. Tampoco intentes forzar la corona en casa. Una colocación aparentemente correcta puede quedar mal asentada y alterar la mordida. Ese pequeño desnivel puede hacer que choques antes con esa muela y aumentar el riesgo de fractura.
+
+Puede dar apuro ir con la corona en un pañuelo o en una cajita pequeña, pero tráela. A veces es reutilizable. Antes de decidirlo, hay que eliminar los restos de cemento, comprobar que no tenga grietas, revisar el borde y confirmar que ajusta en su posición exacta.
+
+## Preguntas frecuentes
+
+### ¿Duele el recementado de una corona dental?
+
+El recementado suele ser un procedimiento cómodo si el diente está sano y no hay sensibilidad marcada. Se retira el cemento antiguo, se limpia la corona y el diente, se comprueba el ajuste y se fija con el material adecuado. Si hay caries, inflamación o afectación del nervio, el tratamiento puede ser distinto y se explicará antes de empezar.
+
+### ¿Cuánto cuesta arreglar una corona dental despegada?
+
+No hay una cifra única y responsable sin revisar la zona. **El coste depende de la causa**: no es lo mismo limpiar y recementar una corona que tratar caries, reconstruir el diente, realizar una endodoncia o fabricar una corona nueva. En la primera visita diagnóstica se puede valorar el caso y explicar las opciones antes de tomar decisiones.
+
+### ¿Cuánto tarda en arreglarse una corona que se ha caído?
+
+Si la corona está en buen estado y el diente no presenta problemas, el recementado puede resolverse en una cita. Si hay que tratar caries, reconstruir parte del diente o realizar una nueva corona, el tiempo cambia. ¿Cuánto tarda una corona nueva? Depende de la planificación y del trabajo de laboratorio, porque se busca que ajuste y encaje con la mordida de forma precisa.
+
+### ¿Es urgente ver a un dentista si se me ha despegado una corona?
+
+Conviene tratarlo como una cita prioritaria, aunque normalmente no es una urgencia hospitalaria. Pide cita en los próximos días incluso si no duele. Si aparecen dolor intenso que no mejora, hinchazón de cara o cuello, fiebre, traumatismo importante, sangrado persistente o dificultad para respirar o tragar, busca atención dental urgente el mismo día. Ante dificultad respiratoria o para deglutir, llama al 112.
+
+### ¿Puedo dormir con la corona suelta?
+
+No es recomendable. Si está completamente desprendida, guárdala fuera de la boca para evitar tragarla accidentalmente. Si permanece parcialmente unida, no la manipules ni intentes arrancarla: contacta con tu dentista para que valore cómo retirarla con seguridad.
+
+### ¿Merece la pena recementar una corona antigua?
+
+Puede merecer la pena cuando la corona está intacta, ajusta bien y el diente de debajo está sano. Si existe caries extensa, una fractura, una filtración relevante o la corona ya no adapta correctamente, puede ser más prudente hacer una nueva. La técnica adhesiva y el material influyen en la evolución, pero el diagnóstico de la causa es lo que marca el camino, como refleja [esta cohorte prospectiva multicéntrica](https://pubmed.ncbi.nlm.nih.gov/33972099/).
+
+## ¿Qué debes saber antes de tu primera visita?
+
+- Lleva la corona, aunque parezca rota o muy antigua.
+- Explica cuándo se soltó y si hubo dolor, mal sabor, sensibilidad o un golpe previo.
+- Evita comer por esa zona hasta que se revise.
+- Si utilizas férula de descarga, llévala también a la cita.
+
+La valoración no consiste solo en “pegarla”. Se revisan encía, caries, fracturas, contactos de mordida y el ajuste de la corona. En ocasiones hace falta una radiografía periapical, una radiografía pequeña que permite ver la raíz y el hueso alrededor del diente. Si es necesario planificar una rehabilitación más amplia, el escáner intraoral y el TAC 3D ayudan a estudiar las estructuras con detalle.
+
+Cuando una corona no puede conservarse, puede plantearse una nueva [corona dental](/tratamientos/tratamientos-coronas-dentales-en-arguelles-madrid/) con un diseño adaptado a tu sonrisa y a tu mordida. No buscamos dientes cuadrados o de aspecto artificial; buscamos que funcionen bien y mantengan una forma y textura naturales.
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Una corona despegada sin dolor debe revisarse pronto, pero hay situaciones que no deben esperar. Busca atención el mismo día si notas:
+
+- Dolor fuerte al morder o dolor continuo que no se controla.
+- Hinchazón que aumenta en encía, cara o cuello, o fiebre.
+- Sangrado que no cede o un traumatismo dental relevante.
+- Dificultad para tragar, respirar o abrir la boca con normalidad.
+
+La inflamación, el mal sabor persistente, el borde roto o la movilidad del diente pueden indicar que no es solo un problema de cemento. ¿Cómo sé si necesito una endodoncia? No se puede confirmar solo por los síntomas: se valora con exploración, pruebas del diente y radiografía. Si el nervio está afectado, primero se trata el interior del diente y después se decide cómo rehabilitarlo.
+
+En casos en los que el diente no sea recuperable, se estudian alternativas como los [implantes dentales](/tratamientos/implantes-dentales-arguelles-madrid-espana/), siempre tras una valoración individual. No todos los dientes con corona desprendida necesitan llegar a ese punto.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+En Debod Dental Clinic, en C. de Ferraz, 24, Argüelles, 28008 Madrid, revisamos la causa antes de recomendar una solución. Es una forma de trabajar más honesta: si una corona puede conservarse con seguridad, se valora; si necesita sustituirse, explicamos por qué y qué opciones existen.
+
+Contamos con Debod Dental Lab, nuestro laboratorio propio digital, que facilita la comunicación entre clínica y laboratorio cuando hace falta reparar o fabricar una restauración. La planificación digital con escáner intraoral y, cuando está indicado, TAC 3D permite estudiar el caso con precisión antes de rehabilitarlo.
+
+La primera visita diagnóstica está incluida. Puedes [pedir cita](/contacto/) de lunes a viernes, de 9:00 a 20:00, llamando al +34 914 47 62 25 o escribiendo a info@deboddentalclinic.com. Estamos cerca de Ventura Rodríguez, Plaza de España y Argüelles.`
+},
+  {
+  slug: 'rehabilitacion-dental-completa-implantes-madrid',
+  category: 'servicios',
+  categoryLabel: 'Servicios',
+  title: 'Rehabilitación dental completa con implantes en Madrid',
+  publishDate: '2026-11-25',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: 'Rehabilitación dental completa — Debod Dental Clinic Argüelles',
+  metaDescription: 'Rehabilitación dental completa con implantes en Madrid: opciones, fases, límites y cuidados explicados con claridad.',
+  excerpt: 'Descubre cuándo se plantea una rehabilitación completa con implantes, qué alternativas existen y cómo se planifica de forma segura.',
+  heroImageUrl: '/Images/blog/webp/implante-dental.webp',
+  faqs: [
+    {
+      question: '¿Qué es una rehabilitación dental completa con implantes?',
+      answer: 'Es un tratamiento para sustituir todos los dientes perdidos de una arcada, o de ambas, mediante una prótesis apoyada en implantes dentales. Puede ser fija o removible según la anatomía, la salud oral y las necesidades de cada persona.'
+    },
+    {
+      question: '¿Duele una rehabilitación completa con implantes?',
+      answer: 'La cirugía se realiza con anestesia local y la pauta de medicación se adapta al caso. Es habitual notar inflamación o molestias los primeros días, pero el equipo debe explicar qué esperar y cómo actuar ante cualquier síntoma.'
+    },
+    {
+      question: '¿Cuánto tarda una rehabilitación dental completa?',
+      answer: 'Depende de la calidad ósea, de si hay infección o enfermedad de encías, de las extracciones necesarias y de si es aconsejable una carga inmediata. La prótesis definitiva suele colocarse tras la fase de cicatrización y ajuste.'
+    },
+    {
+      question: '¿Qué pasa si no tengo suficiente hueso para implantes?',
+      answer: 'No siempre implica que el tratamiento sea imposible. Tras estudiar el TAC 3D, el profesional puede valorar regeneración ósea, elevación de seno u otras alternativas. La indicación depende de cada anatomía.'
+    },
+    {
+      question: '¿Merece la pena una prótesis fija sobre implantes?',
+      answer: 'Puede mejorar la estabilidad al comer, hablar y sonreír frente a una prótesis removible inestable. Aun así, requiere higiene diaria, revisiones y mantenimiento; la opción adecuada se decide tras una valoración individual.'
+    }
+  ],
+  bodyMarkdown: `## La perspectiva del equipo de Debod sobre rehabilitación dental completa con implantes
+
+Una rehabilitación dental completa con implantes no consiste simplemente en “poner dientes”. Es recuperar la forma de masticar, hablar y sonreír cuando se han perdido todos los dientes de una arcada, o cuando los que quedan ya no se pueden conservar con seguridad. En Debod Dental Clinic, en Argüelles, Madrid, planteamos este tipo de tratamiento desde una idea sencilla: primero entender la situación de la boca; después, decidir qué solución tiene sentido.
+
+La pérdida de dientes rara vez aparece de golpe. A veces empieza con una muela que se extrae, una prótesis que cada vez baila más o unas encías que sangran desde hace años. Otras veces hay dientes muy desgastados, móviles o afectados por infecciones repetidas. La caries avanzada y la enfermedad periodontal —la infección que afecta a las encías y al hueso que sujeta los dientes— son causas frecuentes de pérdida dental acumulada.
+
+¿Es normal que una dentadura removible deje de sujetarse bien? Puede ocurrir porque el hueso y la encía cambian con el tiempo. No conviene resignarse ni intentar solucionarlo solo con adhesivos. Detrás puede haber una pérdida de apoyo que merece estudiarse.
+
+Una rehabilitación completa busca devolver función y estabilidad, pero no existe una receta idéntica para todo el mundo. Hay pacientes que pueden beneficiarse de una prótesis fija sobre implantes; otros, de una sobredentadura removible que se engancha a los implantes; y otros necesitan tratar primero encías, caries, infecciones o la mordida. La primera visita diagnóstica sirve precisamente para distinguir estas situaciones.
+
+## Lo que la mayoría de clínicas no te cuenta sobre rehabilitación dental completa con implantes
+
+La parte visible —los dientes nuevos— llega al final de un proceso. Lo que determina si el resultado puede mantenerse está debajo: el estado de las encías, el hueso disponible, la mordida, los hábitos de higiene y la capacidad de acudir a revisiones. Como una mesa: el tablero importa, pero de poco sirve si las patas no apoyan bien.
+
+**No todos los dientes que se conservan deben conservarse a cualquier precio.** Tampoco todos los dientes ausentes obligan a colocar implantes. Antes de tomar esa decisión hay que revisar si los dientes remanentes son tratables, si hay periodontitis activa y si la distribución de fuerzas al morder permitirá una prótesis estable.
+
+La carga inmediata es otro punto que suele generar confusión. Significa colocar una prótesis provisional fija el mismo día o en las siguientes 24 horas en casos seleccionados. No significa que el tratamiento esté terminado en un día ni que sea apropiado para todos. Para indicarla hacen falta condiciones concretas: buena estabilidad inicial de los implantes, control de la infección, hueso suficiente, un diseño protésico adecuado y colaboración con la dieta recomendada.
+
+¿Qué pasa si se fuerza una carga inmediata cuando no se dan esas condiciones? Puede aumentar el riesgo de problemas mecánicos o de que la integración del implante con el hueso no evolucione como se espera. La evidencia disponible muestra tasas de supervivencia altas tanto con carga inmediata como temprana en casos seleccionados, aunque también se han observado diferencias en pérdida ósea marginal y complicaciones mecánicas. Por eso el calendario se decide con criterio clínico, no por prisa.
+
+El tabaquismo, una diabetes mal controlada, antecedentes de periodontitis, el bruxismo o determinados medicamentos pueden cambiar el plan. Conviene declarar toda la medicación y antecedentes médicos. Nunca suspendáis un fármaco por vuestra cuenta antes de una cirugía dental.
+
+## Nuestra experiencia clínica
+
+En Debod Dental Clinic tratamos cada rehabilitación completa como un caso de planificación, no como un producto cerrado. El punto de partida es saber qué dientes pueden mantenerse, cómo está el hueso, qué tipo de prótesis llevaba la persona si ya utilizaba una y qué espera recuperar en su día a día.
+
+Un ejemplo didáctico, hipotético y no real: una persona de 68 años usa una prótesis removible superior que se mueve al comer. En la exploración se detecta inflamación de encías alrededor de varios dientes remanentes y pérdida de soporte óseo. Antes de hablar de implantes, el plan podría requerir controlar la enfermedad periodontal, retirar piezas con mal pronóstico y analizar el hueso con TAC 3D. Solo entonces se valora si encaja una prótesis fija o una alternativa removible sobre implantes.
+
+Otro ejemplo hipotético: un paciente de 52 años ha perdido dientes posteriores durante años y los anteriores están muy desgastados. Dice que “ya no encuentra dónde morder”. Aquí no bastaría con reponer huecos aislados. Se estudiaría la dimensión vertical, es decir, la altura a la que cierran ambas arcadas, y cómo repartir las fuerzas de mordida. Recuperar esa relación puede cambiar la comodidad, la fonética y la apariencia facial, pero exige pruebas y ajustes antes de fabricar la prótesis definitiva.
+
+Un tercer escenario hipotético: una paciente lleva una prótesis inferior inestable y evita ciertos alimentos. Puede que una sobredentadura sobre implantes resulte más adecuada que una prótesis fija, según el hueso disponible, la destreza para la higiene y sus expectativas. ¿Merece la pena una opción removible? En algunos casos, sí: puede aportar mucha más retención que una dentadura convencional y facilitar la limpieza.
+
+Estos ejemplos explican por qué un presupuesto serio debe separar las fases: diagnóstico, cirugía, implantes y pilares, prótesis provisional, prótesis definitiva, posibles injertos y mantenimiento. El coste depende del caso y se confirma después de la valoración y de las pruebas necesarias, no antes.
+
+## Preguntas frecuentes sobre rehabilitación dental completa con implantes
+
+### ¿Cómo sé si necesito una rehabilitación dental completa?
+
+Puede plantearse cuando faltan todos los dientes de una arcada, cuando quedan dientes móviles o con infecciones repetidas, cuando una prótesis removible no se sostiene o cuando la masticación ya está muy limitada. La valoración no se basa solo en cuántos dientes faltan: se revisan encías, hueso, mordida y salud general.
+
+### ¿Duele el tratamiento con implantes?
+
+Durante la intervención se emplea anestesia local. Después puede haber inflamación, sensibilidad y molestias durante unos días. El profesional debe pautar la medicación y explicar qué síntomas entran dentro de lo esperable. Dolor intenso que aumenta, supuración, fiebre, movilidad de la prótesis o sangrado persistente requieren contacto con la clínica.
+
+### ¿Cuánto tarda una rehabilitación dental completa?
+
+No hay un plazo universal. Algunas personas candidatas a carga inmediata pueden salir con una prótesis provisional fija el mismo día, mientras que otras necesitan esperar para que el implante se integre con el hueso o para realizar regeneración ósea. La prótesis definitiva se fabrica cuando los tejidos han cicatrizado y se puede ajustar con precisión.
+
+### ¿Qué pasa si aprieto o rechino los dientes?
+
+El bruxismo puede aumentar las cargas sobre implantes, tornillos y prótesis. No impide automáticamente el tratamiento, pero obliga a planificar la mordida y el diseño de la prótesis con atención. En determinados casos se indica una férula de descarga y revisiones más estrechas.
+
+### ¿Se pueden limpiar los implantes como dientes normales?
+
+Necesitan higiene diaria específica. Según el tipo de prótesis, se indican cepillos interproximales, hilo o superfloss, irrigación y revisiones periódicas. Los implantes no tienen caries, pero sí pueden desarrollar inflamación alrededor. Si hay sangrado, mal olor, supuración o molestias, hay que revisarlo pronto.
+
+### ¿Qué pasa si falta hueso?
+
+El TAC 3D permite medir el volumen óseo y valorar estructuras cercanas, como el seno maxilar o el nervio dentario. Según el caso, pueden estudiarse injertos, elevación de seno, implantes cortos o inclinados. No es adecuado prometer una técnica concreta sin haber visto esas imágenes.
+
+## ¿Qué tecnología usamos en Debod para rehabilitación dental completa con implantes?
+
+La planificación empieza con una exploración clínica detallada, fotografías y un escáner intraoral. Este escáner crea un modelo digital de la boca sin las pastas de impresión tradicionales y permite estudiar la mordida con más precisión.
+
+Cuando la situación lo requiere, utilizamos TAC 3D para valorar el hueso disponible y planificar la posición de los implantes respecto a estructuras anatómicas relevantes. En tratamientos indicados, esta información puede emplearse para diseñar una [cirugía guiada de implantes](/tratamientos/cirugia-guiada-de-implantes-dentales-arguelles-madrid/), una técnica que traslada la planificación digital al acto quirúrgico.
+
+El trabajo protésico se coordina con Debod Dental Lab, nuestro laboratorio propio digital. Esto ayuda a revisar formas, ajuste y funcionalidad durante las distintas fases. La meta no es conseguir dientes cuadrados o con un aspecto artificial, sino una sonrisa proporcionada a la cara, con textura y una forma que parezca propia.
+
+Los implantes requieren seguimiento para toda la vida. Las revisiones permiten detectar inflamación temprana, desgaste de la prótesis o aflojamientos antes de que se conviertan en un problema mayor. Si estás valorando una solución de este tipo en Madrid, puedes conocer nuestros [tratamientos de implantes dentales](/tratamientos/implantes-dentales-arguelles-madrid-espana/) y [pedir cita](/contacto/) para una primera visita diagnóstica incluida.
+
+Para profundizar, puedes consultar la [Encuesta de Salud Oral en España 2025](https://rcoe.es/articulo/214/encuesta-de-salud-oral-en-espaa-2025), un [ensayo clínico sobre carga inmediata](https://pubmed.ncbi.nlm.nih.gov/20862417/) y un [estudio aleatorizado a cinco años](https://pubmed.ncbi.nlm.nih.gov/42827082/).`,
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -5163,6 +5392,262 @@ Treatment planning combines digital intraoral scanning and 3D imaging where appr
 The included first diagnostic visit is a chance to ask every question: whether an implant is right for you, what alternatives you have, what the written estimate includes and how financing would work in your circumstances. You can [book an appointment](/en/contact/) or contact Debod Dental Clinic on +34 914 47 62 25, Monday to Friday, 9:00–20:00.
 
 A missing tooth deserves a considered decision. With a clear diagnosis, transparent finance terms and a plan built around your mouth rather than a sales promise, you can move forward with more confidence.`
+},
+  'corona-dental-despegada-que-hacer-madrid': {
+  title: 'What to Do If Your Dental Crown Comes Off',
+  categoryLabel: 'Cosmetic Dentistry',
+  metaTitle: 'Dental Crown Comes Off — Debod Dental Clinic Argüelles',
+  metaDescription: 'A dental crown has come off? Learn what to do, what to avoid and when to seek urgent care in Madrid.',
+  excerpt: 'A loose or detached crown is usually fixable. Keep it safe, avoid home glue and arrange a dental assessment promptly.',
+  faqs: [
+    {
+      question: 'What should I do if my dental crown comes off?',
+      answer: 'Keep the crown, rinse it gently with water, store it in a clean container and arrange a dental appointment as soon as possible. Do not use household glue or try to force it back into place.'
+    },
+    {
+      question: 'Does it hurt when a dental crown comes off?',
+      answer: 'Not always. Some people notice sensitivity to cold, air or biting pressure, while others have no pain. Pain, swelling or a bad taste can indicate a problem underneath the crown and should be assessed promptly.'
+    },
+    {
+      question: 'How much does it cost to fix a crown that has come off?',
+      answer: 'The cost depends on whether the crown can be re-cemented or whether the tooth, crown or both need treatment. Your dentist can confirm the appropriate option after examining the crown, tooth and X-rays if needed.'
+    },
+    {
+      question: 'How long does it take to re-cement a dental crown?',
+      answer: 'If the crown and tooth are healthy and fit correctly, re-cementing can often be completed in one appointment. If there is decay, a fracture or nerve involvement, treatment may take longer.'
+    },
+    {
+      question: 'Is a crown coming off an emergency?',
+      answer: 'It is usually not a hospital emergency, but it should be treated as a priority dental appointment, ideally within 24 to 72 hours. Seek same-day urgent care for severe pain, facial swelling, fever, persistent bleeding, or difficulty swallowing or breathing.'
+    }
+  ],
+  bodyMarkdown: `## What is a detached dental crown? — The direct answer
+
+A detached dental crown is a crown that has lost its grip on the tooth underneath and has become loose or come off completely. At Debod Dental Clinic in Argüelles, Madrid, we advise keeping the crown safe, avoiding household glue and arranging a dental assessment promptly — ideally within **24 to 72 hours**.
+
+A crown coming off does not automatically mean the tooth is lost or that you need a new crown. In many cases, the crown can be cleaned and re-cemented. The key is finding out why it loosened before putting it back. That small detail can make all the difference.
+
+A crown is like a fitted protective cap. It relies on the tooth beneath it, the way it fits and the cement holding it in place. When one part of that system changes, the crown may detach. It can feel alarming, particularly if it happens while eating, but there are sensible steps you can take today.
+
+## Why does this matter for your dental health?
+
+The tooth beneath a crown has usually been shaped to create room for the restoration. Without its protective cover, it may feel sensitive to cold air, drinks or pressure when chewing. It may also be more vulnerable to chipping, especially if you bite on something hard.
+
+The crown itself may still be perfectly usable. A retrospective study of crowned teeth needing further treatment found that re-cementing was the most common intervention, which is reassuring: loss of retention does not necessarily mean the tooth cannot be saved. You can read the study on [PubMed](https://pubmed.ncbi.nlm.nih.gov/19100674/).
+
+What happens if you leave a crown off for too long? Food and plaque can collect around the exposed tooth, decay may develop at the edge, and the tooth can move or fracture. Think of it as leaving a well-fitted cover off something delicate. It may be fine for a short time, but it is not a good arrangement to prolong.
+
+A detached crown can also be the first sign of an issue hidden underneath: decay at the crown edge, a crack in the tooth, a broken filling or excessive bite pressure. This is why simply sticking it back on at home is not a safe solution.
+
+## What should you do straight away?
+
+If the crown has come out completely, pick it up carefully and check that you have not swallowed it. Rinse it gently under water and place it in a clean, secure container. Bring it to your appointment.
+
+Do not force a crown off if it is still partly attached. If it is very loose and likely to be swallowed, avoid chewing on that side and call for advice. A dentist can remove it safely if necessary.
+
+- **Do not use superglue, craft glue or household adhesive.**
+- Brush the exposed tooth gently with a soft toothbrush.
+- Avoid sticky, hard, very hot and very cold foods on that side.
+- Arrange a priority dental appointment.
+
+Temporary over-the-counter dental cement may seem tempting. It can make it harder to assess the fit, trap debris, affect the bite and complicate proper treatment. A crown should be re-cemented only once the tooth and restoration have been checked.
+
+If you still have the crown, do not scrub its inside with a sharp object. It may contain fragile ceramic or a carefully shaped internal surface. Gentle rinsing is enough until your dentist sees it.
+
+## Why did my dental crown come off?
+
+Crowns can detach because the cement has gradually worn away or been washed out over time. This can happen even with good brushing. The mouth is a demanding environment: moisture, temperature changes and years of chewing all place stress on dental materials.
+
+Decay underneath or around the crown edge is another possible cause. Bacteria can enter where the crown meets the tooth, particularly if a gap develops. You may notice an unpleasant taste, bad breath localised to that area or food repeatedly getting trapped — but sometimes there are no obvious symptoms.
+
+A crown may also loosen if the tooth underneath fractures, if the crown itself chips, or if there is not enough healthy tooth structure to hold it securely. Teeth that have had root canal treatment can be more brittle, so any pain on biting or a sharp crack sensation needs assessment.
+
+Bruxism — clenching or grinding — places repeated force on crowns and teeth. In one long-term clinical study of all-ceramic crowns, bruxism was associated with a higher risk of failure. The material matters, but so do fit, bite forces and the health of the tooth supporting it. The research is available on [PubMed](https://pubmed.ncbi.nlm.nih.gov/22259801/).
+
+There is one question people often ask after the initial worry has passed: can the same crown really be used again? Sometimes, yes. The answer depends on what the examination reveals.
+
+## What will the dentist check?
+
+The dentist will inspect the crown for cracks, wear and signs that it no longer fits correctly. They will also examine the exposed tooth, the gum and the way your upper and lower teeth meet when you bite.
+
+An X-ray is often needed to check for decay under the crown, infection around the root or changes that cannot be seen from the outside. This is a small image that lets the dentist look beneath the surface rather than guessing.
+
+If the crown is intact, fits accurately and the tooth underneath is sound, the old cement can be removed and the crown may be re-cemented using the appropriate dental material. If there is decay, it must be removed first. If the tooth needs rebuilding, that is done before the crown is considered again.
+
+Sometimes the crown is not suitable to re-use. It may be fractured, poorly fitting, worn down or unable to seal the tooth properly. In that situation, a new [dental crown](/en/treatments/dental-crowns-arguelles-madrid/) may be the healthier choice.
+
+Modern crowns can be made from materials such as zirconia or lithium disilicate, selected according to the tooth position, bite and cosmetic needs. A recent clinical review found strong five-year survival outcomes for modern ceramic crown materials, although no material can compensate for a poor fit, untreated decay or damaging bite forces. See the [clinical review on PubMed](https://pubmed.ncbi.nlm.nih.gov/41489982/).
+
+## Questions people ask about a crown that has come off
+
+### Is it normal that my crown came off without pain?
+
+Yes, it can happen without pain. Cement may fail gradually, and the tooth underneath may not be inflamed. Still, no pain does not confirm that everything is healthy. Decay, leakage or a small crack can develop quietly beneath a crown, so a dental examination remains worthwhile.
+
+### Does it hurt to have a crown re-cemented?
+
+Re-cementing itself is usually straightforward and often does not hurt. The dentist cleans the crown and tooth, checks the fit and bite, then uses dental cement. If the tooth is sensitive, decayed or inflamed, you may need local anaesthetic or treatment first. The experience depends on the condition beneath the crown, not simply on the fact that it came off.
+
+### How much does it cost to fix a crown that has come off?
+
+There is no honest single price without an assessment. Re-cementing an intact crown is different from treating decay, rebuilding the tooth, carrying out root canal treatment or making a replacement crown. At your first diagnostic visit, the clinical team can explain the findings and provide a clear treatment plan before work begins.
+
+### How long does it take to fix a loose crown?
+
+If the crown fits well and there is no underlying problem, re-cementing can often be done in one visit. If decay is found, or if the tooth needs rebuilding or root canal treatment, the process takes longer. A replacement crown may also require digital impressions and laboratory work.
+
+At Debod Dental Clinic, digital planning can include an intraoral scan, which is a small camera used to create a detailed three-dimensional model of the teeth. It helps assess fit accurately and plan restorations carefully. For more complex cases, a 3D scan may be considered when clinically appropriate.
+
+### Is a detached crown urgent?
+
+A detached crown is normally a priority rather than a medical emergency. Try to arrange an appointment within 24 to 72 hours, even if you are comfortable. Do not wait weeks simply because there is no pain; the exposed tooth is more likely to become damaged or sensitive over time.
+
+### Can I eat after my crown comes off?
+
+You can eat soft foods, but chew on the opposite side where possible. Avoid caramel, chewing gum, nuts, crusty bread, ice and anything very hard or sticky. Very hot or cold food may trigger sensitivity. Continue cleaning the area gently: avoiding the tooth completely can allow plaque to build up.
+
+### Can I put my crown back on myself?
+
+No. Even if it seems to sit in the right place, it may not be fully seated or may alter your bite. A crown fitted slightly high can place too much pressure on the tooth and jaw. Household adhesives are not safe in the mouth and can make professional treatment more difficult.
+
+### Does a crown coming off mean I need an implant?
+
+Usually not. A detached crown is not the same as losing a tooth. The first aim is to preserve your natural tooth whenever that is possible. If a tooth has a fracture below the gum line or cannot be restored safely, replacement options may include a [dental implant](/en/treatments/dental-implants-arguelles-madrid/), but this is decided only after a full assessment.
+
+## What should you know before your first visit?
+
+Bring the crown in a clean container, even if you think it is broken. Small details of its shape and condition can help the dentist assess whether it can be re-used.
+
+- Tell us when the crown came off and whether it happened while eating.
+- Mention pain on biting, cold sensitivity, swelling, bleeding or a bad taste.
+- Bring any relevant information about previous root canal treatment or crowns.
+- Avoid using adhesive or temporary fixes before the appointment.
+
+A first assessment is the moment to ask practical questions: Is the crown still usable? Is there decay? Do I need a new crown? How can this be prevented from happening again? The answers should come from the condition of your tooth, not assumptions.
+
+When a replacement is needed, Debod Dental Lab, our in-house digital laboratory, helps the clinic coordinate restorative planning with close attention to fit and a natural appearance. A crown should blend with your smile and bite comfortably, rather than looking overly uniform or artificial.
+
+## When is it urgent to see a dentist?
+
+Seek same-day urgent dental care if you have **severe pain that is not controlled**, increasing swelling of the face or neck, fever, persistent bleeding, significant trauma or a crown that has been swallowed or inhaled.
+
+Difficulty swallowing or breathing, rapidly worsening facial swelling or feeling seriously unwell requires emergency help. In Madrid, call 112 in these situations. The Spanish General Dental Council also advises urgent assessment for serious dental infection and trauma; its guidance is available [here](https://consejodentistas.es/recomendaciones-de-buenas-practicas-para-la-atencion-de-urgencias/).
+
+For a crown that has come off without these warning signs, contact a dentist promptly rather than going to hospital. The sooner the tooth is protected and assessed, the more options may be available.
+
+## Why choose Debod Dental Clinic?
+
+At Debod Dental Clinic in Argüelles, close to the Temple of Debod, our approach is straightforward: examine the crown, examine the tooth underneath and explain what we find in plain English. A detached crown may be a simple re-cementing appointment, or it may uncover a problem that needs more care. We will not promise an outcome before seeing the clinical evidence.
+
+Your **first diagnostic visit is included**. If treatment is needed, we can discuss a clear plan, including whether your existing crown can be saved or whether a new restoration is the safer option.
+
+Our in-house Debod Dental Lab and digital workflow support careful planning for crowns and other restorative treatments. The clinic is at C. de Ferraz, 24, Argüelles, 28008 Madrid, España, near Ventura Rodríguez Metro station. To arrange an assessment, please [contact Debod Dental Clinic](/en/contact/) or call +34 914 47 62 25, Monday to Friday, 9:00–20:00.
+
+The most useful thing you can do now is simple: keep the crown, protect the exposed tooth and let a dentist check why it came off.`
+},
+  'rehabilitacion-dental-completa-implantes-madrid': {
+  title: 'Full-Mouth Dental Implants: Cases in Madrid',
+  categoryLabel: 'Services',
+  metaTitle: 'Full-Mouth Dental Implants — Debod Dental Clinic Argüelles',
+  metaDescription: 'Learn how full-mouth dental implant rehabilitation is planned in Madrid, including fixed teeth, timelines and clinical considerations.',
+  excerpt: 'Considering full-mouth dental implants in Madrid? Understand the assessment, treatment options, realistic timelines and lifelong care involved.',
+  faqs: [
+    {
+      question: 'Is it normal to need extractions before full-mouth implants?',
+      answer: 'It can be. Teeth affected by severe decay, infection or advanced gum disease may not be maintainable. The decision should only follow a full clinical and radiographic assessment.'
+    },
+    {
+      question: 'Does full-mouth implant treatment hurt?',
+      answer: 'Surgery is planned with anaesthesia, and postoperative discomfort varies between patients. Your clinician should explain pain control, swelling, diet and when to contact the practice before treatment begins.'
+    },
+    {
+      question: 'How long does full-mouth implant rehabilitation take?',
+      answer: 'It depends on bone quality, infection control, healing, the need for grafting and whether immediate loading is clinically suitable. A provisional fixed bridge may be possible in selected cases, but the final restoration is normally fitted after healing.'
+    },
+    {
+      question: 'What happens if an implant-supported bridge feels loose?',
+      answer: 'Contact your dental team promptly. A loose bridge or screw is often repairable, but delaying assessment can damage components or place excess force on the implants.'
+    },
+    {
+      question: 'Is a fixed full-mouth bridge always better than a removable denture?',
+      answer: 'Not always. A fixed bridge and an implant-retained removable overdenture each have advantages. The appropriate choice depends on anatomy, hygiene needs, function, medical history and personal preferences.'
+    }
+  ],
+  bodyMarkdown: `## The Debod team’s perspective on full-mouth dental implants
+
+At Debod Dental Clinic in Argüelles, Madrid, we see full-mouth dental implant rehabilitation as much more than replacing missing teeth. It is a carefully staged plan to help a person eat, speak and smile with greater comfort, while protecting the tissues that remain healthy. A fixed bridge can be life-changing for the right patient. It is not, however, a product that should be selected from a menu.
+
+Full-mouth rehabilitation may replace all teeth in one jaw, or in both jaws, with a bridge supported by dental implants. An implant is a small titanium fixture placed in the jawbone; after healing, bone attaches closely to its surface. This creates a stable base for a custom-made tooth replacement. Some people are better suited to a fixed bridge, while others benefit from an implant-retained removable overdenture.
+
+The first question is rarely “How many implants do I need?” It is “What can safely be kept?” Teeth with treatable problems should not be removed simply to make a treatment plan look simpler. Equally, repeatedly treating teeth with poor long-term prospects can become frustrating, expensive and uncomfortable. The assessment has to be honest.
+
+**Difficulty eating, loose dentures, recurring infections or mobile teeth** are all reasons to arrange a diagnostic visit. They do not automatically mean implants are the answer. Active gum disease, uncontrolled decay and bite problems need attention before a definitive rehabilitation can be designed.
+
+There is a detail many people only discover late in the process: the visible teeth are only the final layer. What sits underneath—the gums, bone, bite and implant positions—largely determines whether the result feels natural and remains maintainable. That is where careful planning begins.
+
+## What most clinics do not tell you about full-mouth dental implants
+
+A same-day fixed provisional bridge can be appropriate in selected situations, but it is not the same as completing treatment in a day. Immediate loading means placing a temporary fixed bridge shortly after implant surgery. The definitive bridge is usually made after healing, when the gums and bone have stabilised.
+
+For immediate loading to be considered, the implants need to achieve sufficient initial stability, infection must be controlled, the bone must allow safe positioning and the temporary bridge must be designed to limit excessive force. A patient also needs to follow the recommended soft diet. It is more like moving into a newly built home before the final finishing touches: you may be able to use it, but the structure still needs time to settle.
+
+Research supports high implant survival in carefully selected full-arch cases, while also showing that the details matter. A prospective clinical study of immediate provisional bridges on four implants reported high one-year implant and prosthesis survival. A five-year randomised study found similarly high survival for immediate and early loading in an upper jaw, but observed more mechanical complications and greater facial-side bone loss with immediate loading. These findings are useful, but they are not a promise for an individual patient. [Read the prospective clinical study](https://pubmed.ncbi.nlm.nih.gov/20862417/) and [the five-year randomised trial](https://pubmed.ncbi.nlm.nih.gov/42827082/).
+
+**A bridge that looks good on the day of surgery is not proof that it is the best biological choice.** Sometimes waiting is the safer, calmer route. This may apply where bone is softer, there is a higher risk of infection, healing may be slower or bite forces are difficult to control.
+
+What happens if there is not enough bone? Bone grafting or a sinus lift may be considered in some cases. In others, a different implant position, angled implants, shorter implants or a removable implant-retained option may be more suitable. There is no ethical one-size-fits-all answer. A 3D scan helps the clinician assess the available bone, nearby nerves and the maxillary sinus before making that decision.
+
+The mouth also needs to be healthy enough for the final restoration. Bleeding gums, untreated periodontal disease and smoking increase biological risk. Diabetes, blood-thinning medicines, antiresorptive medication and a history of severe gum disease all need to be discussed openly. Do not stop prescribed medication independently; your dentist and medical team can advise on the safe approach.
+
+A complete rehabilitation is not designed only for photographs. The teeth should support speech, chewing and facial proportions without looking overly square or artificial. Natural teeth have texture, subtle variation and individual character. A very white, uniform smile is not automatically a healthy or convincing one.
+
+## Our clinical experience
+
+The following examples are hypothetical educational scenarios, not real patient cases or testimonials. They show why full-mouth implant plans in Madrid need individual assessment rather than assumptions.
+
+A hypothetical 68-year-old patient has worn a loose upper denture for years and avoids apples, steak and eating out. During assessment, the clinical team finds that the remaining upper teeth have advanced gum disease and are not predictable long-term supports. A 3D scan shows usable bone in planned areas, but the back of the upper jaw needs particular attention because of the sinus cavities. The treatment discussion includes a fixed provisional bridge if implant stability allows it, as well as a staged option if it does not. The likely outcome is not merely “new teeth”; it is a plan with realistic healing periods, a provisional phase and regular maintenance.
+
+A hypothetical 51-year-old patient has several failing crowns, repeated root infections and a deeply worn bite caused by years of tooth grinding. They ask, “Is it normal that my face looks shorter when I bite?” It can be associated with loss of tooth height, but it requires examination. Rebuilding the bite without studying how the jaws meet may overload implants or the new bridge. The plan may involve removing only non-maintainable teeth, controlling infection and testing a provisional bite position before the final prosthesis is made. In some situations, individual [dental crowns](/en/treatments/dental-crowns-arguelles-madrid/) on retained teeth may form part of a more conservative solution.
+
+A hypothetical 74-year-old patient is missing most lower teeth and finds a conventional denture unstable. Their medical history, hand dexterity and ability to clean beneath a fixed bridge become central to the conversation. An implant-retained removable overdenture may be chosen instead of a fixed full-arch bridge because it can be easier for that person to clean and remove. Does a removable option mean a lesser result? Not necessarily. The best result is the one that fits the patient’s anatomy, health and daily life.
+
+These examples lead to the same practical point: **the final plan should be written and explained before treatment starts.** It should distinguish diagnosis, any extractions, surgery, implants, temporary teeth, definitive teeth, possible grafting and the maintenance that follows.
+
+## Questions patients often ask about full-mouth dental implants
+
+### Is it normal to feel nervous about having all teeth replaced?
+
+Yes. It is a major decision, particularly if you have lived with dental problems for a long time. A clear consultation should make room for your concerns: anaesthesia, recovery, appearance, cost stages, time away from work and what happens if the plan needs to change. The included diagnostic first visit at Debod Dental Clinic is intended to start that conversation, not rush it.
+
+### Does full-mouth implant surgery hurt?
+
+During surgery, anaesthesia is used so that treatment is manageable. Afterwards, swelling, tenderness and tiredness are common, although the degree varies. Your clinician should give personalised instructions on medication, food, oral hygiene and warning signs. Increasing pain, swelling, fever, pus or persistent bleeding should be assessed promptly.
+
+### How long does full-mouth implant treatment take?
+
+There is no responsible fixed answer. Some patients can receive a temporary fixed bridge within 24 hours where clinical conditions are favourable. Others need healing time, periodontal treatment, bone regeneration or a staged approach. The definitive bridge is usually made after the tissues have healed and the bite can be checked properly. Rushing this stage can compromise fit, cleaning access and appearance.
+
+### Is full-mouth implant rehabilitation worth it?
+
+For many patients, the ability to chew more confidently and avoid a moving denture can make it worthwhile. It also brings ongoing responsibility. Implant-supported teeth need daily cleaning and professional review. They can develop inflammation around the implants, known as mucositis or peri-implantitis, and bridges or screws can need repair. Long-term studies show encouraging survival, but they also reinforce the value of follow-up. [A long-term retrospective study](https://pubmed.ncbi.nlm.nih.gov/41598384/) illustrates both the potential durability of treatment and the need to interpret outcomes carefully.
+
+### What happens if I have gum disease?
+
+Gum disease needs to be stabilised before a definitive implant rehabilitation. Bleeding, deep pockets and infection are not cosmetic details. They indicate tissues that need care. A professional [deep dental cleaning](/en/treatments/deep-dental-cleaning-arguelles-madrid/) may be part of treatment where appropriate, followed by a personalised maintenance schedule.
+
+### How do I know whether I need a fixed bridge or a removable implant denture?
+
+A clinical examination, photographs, scan, bite assessment and discussion of your priorities are needed. A fixed bridge may feel closer to natural teeth, while a removable overdenture can offer excellent function and easier access for cleaning in selected cases. Neither option should be chosen without understanding the hygiene and maintenance required.
+
+## What technology do we use at Debod for full-mouth dental implants?
+
+Digital planning helps turn a complex treatment into a sequence that patients can understand. At Debod Dental Clinic, an intraoral scanner captures a detailed digital model of the mouth without traditional impression material. This helps the team study tooth position, gum contours and bite relationships.
+
+A **3D CBCT scan** is used when clinically indicated to assess bone volume and anatomical structures such as the lower jaw nerve and the maxillary sinuses. It allows implant positions to be planned in three dimensions, rather than relying on a two-dimensional image alone. For suitable cases, this information can support [guided implant surgery](/en/treatments/guided-implant-surgery-arguelles-madrid/), where a surgical guide helps transfer the plan to the mouth.
+
+The final teeth should also be planned as carefully as the implants. Debod Dental Lab, the clinic’s in-house digital laboratory, supports communication between clinical planning and prosthetic design. This is useful when evaluating tooth shape, lip support, speech and cleaning access before committing to the definitive bridge.
+
+If you are considering full-mouth dental implants in Argüelles or elsewhere in Madrid, bring any previous X-rays, treatment plans and medical information to your assessment. Ask what can be retained, why each tooth may need removal, whether immediate loading is genuinely suitable and how your long-term reviews will work. You can [request an appointment](/en/contact/) to discuss your situation with the team. The aim is not to promise a standard smile. It is to make a careful, understandable plan for your own mouth.`
 },
   // ← Agent appends new EN overlays here
 }

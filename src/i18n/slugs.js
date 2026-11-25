@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'rehabilitacion-dental-completa-implantes-madrid': { es_cat: 'servicios', en: 'full-mouth-dental-implants-madrid-clinical-cases', en_cat: 'services' },
+  'corona-dental-despegada-que-hacer-madrid': { es_cat: 'odontologia-estetica', en: 'what-to-do-if-dental-crown-comes-off', en_cat: 'cosmetic-dentistry' },
   'financiacion-implantes-dentales-madrid-sin-intereses': { es_cat: 'servicios', en: 'interest-free-dental-implant-finance-madrid', en_cat: 'services' },
   'carillas-dentales-sin-tallar-dientes-madrid': { es_cat: 'odontologia-estetica', en: 'no-prep-dental-veneers-without-shaving-teeth', en_cat: 'cosmetic-dentistry' },
   'financiacion-invisalign-madrid-mensualidades': { es_cat: 'odontologia-estetica', en: 'invisalign-finance-madrid-monthly-payments', en_cat: 'cosmetic-dentistry' },
