@@ -51,6 +51,8 @@ export const blogCategoryEn = {
 
 // Blog posts — ES slug → { es_cat, en (slug), en_cat }.
 export const blogSlugEn = {
+  'edad-llevar-hijo-ortodoncista-madrid': { es_cat: 'salud-dental', en: 'what-age-should-child-see-orthodontist', en_cat: 'dental-health' },
+  'primera-cita-ortodoncia-arguelles-madrid': { es_cat: 'salud-dental', en: 'first-orthodontic-appointment-arguelles-madrid', en_cat: 'dental-health' },
   'rehabilitacion-dental-completa-implantes-madrid': { es_cat: 'servicios', en: 'full-mouth-dental-implants-madrid-clinical-cases', en_cat: 'services' },
   'corona-dental-despegada-que-hacer-madrid': { es_cat: 'odontologia-estetica', en: 'what-to-do-if-dental-crown-comes-off', en_cat: 'cosmetic-dentistry' },
   'financiacion-implantes-dentales-madrid-sin-intereses': { es_cat: 'servicios', en: 'interest-free-dental-implant-finance-madrid', en_cat: 'services' },

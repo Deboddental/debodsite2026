@@ -2851,6 +2851,252 @@ Los implantes requieren seguimiento para toda la vida. Las revisiones permiten d
 
 Para profundizar, puedes consultar la [Encuesta de Salud Oral en España 2025](https://rcoe.es/articulo/214/encuesta-de-salud-oral-en-espaa-2025), un [ensayo clínico sobre carga inmediata](https://pubmed.ncbi.nlm.nih.gov/20862417/) y un [estudio aleatorizado a cinco años](https://pubmed.ncbi.nlm.nih.gov/42827082/).`,
 },
+  {
+  slug: 'primera-cita-ortodoncia-arguelles-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: 'Primera cita de ortodoncia en Argüelles, Madrid',
+  publishDate: '2026-11-27',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-victor-guerrero',
+  metaTitle: 'Primera cita de ortodoncia — Debod Dental Clinic Argüelles',
+  metaDescription: 'Descubre qué ocurre en tu primera cita de ortodoncia en Argüelles, Madrid, y cómo valorar opciones, tiempos y presupuesto.',
+  excerpt: 'Te contamos qué se revisa en una primera cita de ortodoncia, qué pruebas pueden hacer falta y cómo decidir con calma tu tratamiento en Madrid.',
+  heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
+  faqs: [
+    {
+      question: '¿Duele la primera cita de ortodoncia?',
+      answer: 'No. Es una cita de valoración: se revisan dientes, encías, mordida y hábitos. Si se realizan radiografías o un escáner intraoral, tampoco deberían causar dolor.'
+    },
+    {
+      question: '¿Cuánto dura la primera cita de ortodoncia?',
+      answer: 'Depende de los registros necesarios y de la complejidad del caso. La clínica podrá orientarte tras conocer tus antecedentes y explorar tu mordida.'
+    },
+    {
+      question: '¿Necesito radiografías para empezar ortodoncia?',
+      answer: 'No siempre. Deben justificarse de forma individual, revisando antes las imágenes disponibles y utilizando únicamente las pruebas que aporten información útil para el diagnóstico.'
+    },
+    {
+      question: '¿Puedo llevar alineadores invisibles si tengo caries?',
+      answer: 'Primero hay que tratar las caries y controlar cualquier inflamación de encías o enfermedad periodontal. Mover dientes sobre una boca con problemas activos no es un buen punto de partida.'
+    },
+    {
+      question: '¿La ortodoncia necesita retenedores al terminar?',
+      answer: 'Sí. La retención a largo plazo ayuda a reducir el riesgo de recaída, porque los dientes tienen tendencia a moverse con el tiempo.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué incluye la primera cita de ortodoncia en Debod Dental Clinic?
+
+La primera cita de ortodoncia en Debod Dental Clinic sirve para entender qué ocurre en vuestra boca antes de hablar de aparatos. Se revisan dientes, encías, mordida, articulación mandibular y hábitos, y se valora si necesitáis observación, un tratamiento infantil temprano o una ortodoncia completa.
+
+En Argüelles, muchas personas llegan pensando que solo tienen un diente torcido. A veces es así. Otras, ese diente es la parte visible de una mordida cruzada, una falta de espacio o una diferencia en el crecimiento de los maxilares. Como cuando una puerta no cierra bien: puede parecer un problema de la manilla, pero conviene mirar el marco entero.
+
+La valoración la realiza el Dr. Víctor Guerrero, especialista en Ortodoncia y Ortopedia Dentofacial. El objetivo no es colocar alineadores o brackets por inercia, sino explicar qué se ve, qué alternativas existen y qué puede pasar si se decide esperar. **La primera visita diagnóstica está incluida.**
+
+Hay una pregunta que suele aparecer pronto: ¿cómo sé si necesito ortodoncia si no me duele nada? Muchas maloclusiones no duelen. El apiñamiento, los espacios, una mordida profunda, abierta o cruzada, los incisivos adelantados o los dientes que no erupcionan como deberían pueden pasar desapercibidos durante años. Eso no significa que todo deba tratarse, pero sí que merece una exploración bien hecha.
+
+## ¿Cuánto cuesta la primera cita de ortodoncia en Madrid? — Precios honestos
+
+En Debod Dental Clinic, la **primera visita diagnóstica está incluida**. El coste de un tratamiento de ortodoncia no debe comunicarse como una cifra universal, porque cambia según la dificultad de la mordida, el tipo de aparato, la duración estimada, los registros necesarios y si antes hay que tratar caries, encías o piezas retenidas.
+
+Tras la exploración, el escáner intraoral y las pruebas que estén justificadas, recibiréis un presupuesto detallado. Si el caso requiere imágenes tridimensionales, como un TAC 3D, se indicará solo cuando esa información cambie el plan clínico. La normativa española exige justificar cada radiografía de forma individual y emplear la menor exposición razonable; no son pruebas automáticas para todos los pacientes. Podéis consultar el marco regulador en el [Real Decreto 601/2019](https://www.boe.es/eli/es/rd/2019/10/18/601).
+
+La clínica ofrece **financiación hasta 60 meses**, sin entrada y con 0% de interés durante los primeros 12 meses. Las condiciones y el importe final se confirman después de valorar el caso; así podéis comparar opciones con datos reales, no con promesas genéricas.
+
+¿Merece la pena pedir presupuesto si aún no tenéis claro si elegiríais brackets o [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/)? Sí, porque esa elección no debería hacerse solo por estética. En algunos movimientos dentales, la colaboración diaria con los alineadores y el tipo de mordida condicionan mucho el resultado.
+
+## ¿Cómo saber si soy candidato ideal?
+
+No hay un único perfil de candidato. La ortodoncia puede estar indicada en niños, adolescentes y adultos cuando existe una alteración de posición dental o mordida que conviene corregir, o cuando el paciente quiere mejorar la armonía de su sonrisa con expectativas razonables.
+
+Durante la primera cita se revisan antecedentes médicos, medicación, alergias, higiene, hábitos y salud de las encías. También se explora la cara, la mandíbula, los músculos, la articulación temporomandibular y la forma en que contactan los dientes. **Una mordida se diagnostica con información, no solo con una foto frontal.**
+
+Puede ser buen momento para consultar si hay dientes apiñados, espacios que incomodan, dificultades al morder, incisivos muy adelantados con golpes repetidos, dientes retenidos, erupción asimétrica o preocupación estética que afecta a la seguridad personal. En niños, también se valora el crecimiento y hábitos persistentes como chuparse el dedo, usar chupete durante demasiado tiempo o colocar la lengua entre los dientes.
+
+No es buena idea empezar a mover dientes si hay caries activas, encías inflamadas o enfermedad periodontal sin controlar. Primero se sanea la boca. Si hace falta, se puede realizar una [limpieza dental](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) o el tratamiento periodontal que corresponda antes de ortodoncia. Es parecido a reformar una casa: no se empieza por pintar si hay una humedad detrás de la pared.
+
+¿Qué pasa si la valoración muestra que no hace falta tratar ahora? Se explica. A veces la opción más sensata es vigilar la erupción, reforzar higiene, revisar un hábito o esperar a una fase concreta del crecimiento. La evidencia relaciona la maloclusión con calidad de vida oral y psicosocial, pero no permite afirmar que toda ortodoncia prevenga por sí sola caries, problemas de encías o trastornos mandibulares. Podéis revisar esta cuestión en una [revisión sistemática sobre ortodoncia y calidad de vida](https://pubmed.ncbi.nlm.nih.gov/32487303/).
+
+## El proceso paso a paso en Debod
+
+La cita comienza con conversación. Traed, si los tenéis, radiografías previas, informes dentales y una lista de medicación. Si hay embarazo o posibilidad de estarlo, conviene comunicarlo antes de valorar pruebas radiológicas.
+
+Después se realiza una exploración clínica. Se observa la relación entre dientes, labios, mandíbula y encías, junto con la higiene y posibles señales de desgaste o sobrecarga. Se toman fotografías y, cuando está indicado, un escáner intraoral. Este escáner crea un modelo digital de la boca sin las pastas de impresión tradicionales.
+
+El tercer paso consiste en estudiar los registros necesarios. Una panorámica puede ayudar a valorar raíces, erupción o dientes incluidos; una telerradiografía lateral puede ser útil si hay una discrepancia entre los huesos maxilares. El TAC 3D se reserva para situaciones donde la información tridimensional aporte una respuesta que no ofrecen otras pruebas, por ejemplo ante una inclusión compleja o una asimetría. **No todo paciente necesita las mismas radiografías.**
+
+Con esos datos se plantea un diagnóstico y se explican alternativas: observación, aparatología interceptiva, brackets metálicos o estéticos, ortodoncia lingual, alineadores o, en ciertos casos, microtornillos como apoyo para movimientos concretos. Si existe una discrepancia ósea marcada al terminar el crecimiento, puede requerirse coordinación con cirugía ortognática; no es lo habitual, pero debe explicarse con claridad si aparece en el diagnóstico.
+
+La planificación digital permite visualizar y organizar el tratamiento. Debod Dental Lab, el laboratorio propio de la clínica, participa en los procesos digitales cuando corresponde. ¿Cuánto tarda todo esto? Depende de si ya disponéis de registros válidos y de la complejidad diagnóstica. Lo que no conviene es correr: elegir tratamiento sin estudiar la mordida es como comprar gafas sin graduación.
+
+## Preguntas que siempre nos hacen antes de pedir cita
+
+### ¿Duele la primera cita de ortodoncia?
+
+No. La exploración, las fotografías y el escáner intraoral no deberían doler. Si hay una zona sensible, una caries o inflamación de encías, se detectará y se explicará cómo abordarla antes de pensar en mover dientes.
+
+### ¿Cuánto tarda una ortodoncia?
+
+No existe una duración idéntica para todos los casos. Depende del movimiento dental necesario, la respuesta biológica, el tipo de aparato, la higiene y la constancia con las revisiones. En alineadores, llevarlos el tiempo pautado cada día forma parte del tratamiento. El plazo estimado se ofrece después de estudiar los registros, no antes.
+
+### ¿Qué pasa si elijo alineadores y mi caso es complejo?
+
+Los alineadores pueden ser una opción válida en muchos casos, pero no son automáticamente la mejor alternativa para todos. Una revisión con metaanálisis encontró resultados oclusales globales menos favorables con alineadores frente a aparatos fijos en adultos; eso no los descarta, pero refuerza la necesidad de seleccionar bien el caso y planificarlo. Aquí podéis consultar la [revisión sobre alineadores y aparatos fijos](https://pubmed.ncbi.nlm.nih.gov/31758191/).
+
+### ¿El resultado dura para siempre?
+
+Los dientes pueden moverse a lo largo de la vida. Por eso, tras la ortodoncia se indican retenedores y revisiones de seguimiento. La retención no es un extra decorativo: es la forma de cuidar el trabajo realizado y reducir la posibilidad de recaída.
+
+### ¿Hay garantía de que no necesitaré extracciones o microtornillos?
+
+No se puede prometer eso sin diagnóstico. Algunas bocas tienen espacio suficiente y otras requieren crear espacio, modificar el anclaje o plantear alternativas. Si se contemplan extracciones o microtornillos, se explica el motivo, los beneficios, los límites y las opciones disponibles antes de tomar una decisión.
+
+## ¿Por qué elegir Debod Dental Clinic en Argüelles?
+
+Elegir una clínica para ortodoncia no consiste solo en escoger el aparato más discreto. Importa quién estudia vuestra mordida, cómo se toman las decisiones y quién realiza el seguimiento presencial durante el proceso.
+
+Debod Dental Clinic está en **C. de Ferraz, 24, Argüelles, 28008 Madrid**, a pocos metros del Templo de Debod y cerca de Ventura Rodríguez (L3), Plaza de España y Argüelles. La atención se apoya en planificación digital, escáner intraoral y, cuando está indicado, estudios con TAC 3D. Debod Dental Lab aporta una ventaja real de coordinación digital dentro de la clínica.
+
+El Dr. Víctor Guerrero cuenta con más de 15 años de experiencia en ortodoncia y ortopedia dentofacial, incluyendo ortodoncia invisible y anclaje esquelético con mini-tornillos. El equipo trabaja con un criterio sencillo: explicar el diagnóstico en un lenguaje entendible, plantear alternativas y no convertir una primera visita en una venta apresurada.
+
+La ortodoncia bien indicada busca una sonrisa natural y una mordida más equilibrada, no dientes cuadrados ni una estética de anuncio. Si queréis saber qué encaja en vuestro caso, podéis [pedir cita](/contacto/) para la primera valoración diagnóstica incluida. La clínica atiende de lunes a viernes, de 9:00 a 20:00, en el teléfono +34 914 47 62 25 o en info@deboddentalclinic.com.`
+},
+  {
+  slug: 'edad-llevar-hijo-ortodoncista-madrid',
+  category: 'salud-dental',
+  categoryLabel: 'Salud Dental',
+  title: '¿A qué edad llevar a mi hijo al ortodoncista?',
+  publishDate: '2026-11-27',
+  author: 'Equipo Debod Dental',
+  authorSlug: 'dr-cesar-rodriguez',
+  metaTitle: '¿A qué edad llevar a mi hijo al ortodoncista? — Debod Dental Clinic Argüelles',
+  metaDescription: 'Descubre a qué edad llevar a tu hijo al ortodoncista, qué señales observar y cuándo conviene pedir una valoración en Madrid.',
+  excerpt: 'Te contamos cuándo conviene revisar la mordida de tu hijo, qué señales no debes pasar por alto y cuándo basta con observar.',
+  heroImageUrl: '/Images/blog/webp/ortodoncia-invisible.webp',
+  faqs: [
+    {
+      question: '¿A qué edad debería llevar a mi hijo al ortodoncista?',
+      answer: 'Se recomienda una primera valoración antes de los 7 años, aunque no se aprecie ningún problema. No significa que necesite aparato: permite revisar el crecimiento, la mordida, el espacio y la salida de los dientes.'
+    },
+    {
+      question: '¿Duele la primera visita al ortodoncista infantil?',
+      answer: 'No. La revisión consiste en observar los dientes, la mordida y el crecimiento facial. Si hacen falta radiografías o un escaneado, se indica solo cuando aporte información para el diagnóstico.'
+    },
+    {
+      question: '¿Cuánto cuesta una valoración de ortodoncia infantil?',
+      answer: 'El coste de un posible tratamiento depende del diagnóstico, de la fase de crecimiento y del tipo de aparato. En Debod Dental Clinic la primera visita diagnóstica está incluida.'
+    },
+    {
+      question: '¿Cuánto dura un tratamiento de ortodoncia en niños?',
+      answer: 'Depende del problema y de cuándo se trate. Algunos tratamientos interceptivos duran meses; otros niños solo necesitan revisiones hasta que hayan salido más dientes permanentes. Una primera fase no siempre evita una segunda.'
+    },
+    {
+      question: '¿Es urgente llevar al niño al ortodoncista si tiene los dientes torcidos?',
+      answer: 'No siempre es urgente, pero conviene pedir valoración si hay mordida cruzada, dientes muy adelantados, desviación al cerrar, pérdida prematura de dientes temporales o dificultad para masticar.'
+    }
+  ],
+  bodyMarkdown: `## ¿Qué es una primera revisión de ortodoncia infantil? — La respuesta directa
+
+La primera revisión de ortodoncia infantil es una valoración de la mordida, el crecimiento de los huesos de la cara y la salida de los dientes. La recomendación habitual es hacerla **antes de los 7 años**, incluso aunque a simple vista todo parezca estar bien.
+
+En Debod Dental Clinic en Argüelles, Madrid, esta revisión no implica poner brackets. Muchas veces la mejor decisión es observar y revisar cada cierto tiempo. La ortodoncia infantil sirve para detectar a tiempo problemas concretos, no para tratar por rutina a todos los niños.
+
+A esa edad suelen convivir dientes de leche y permanentes. Es lo que llamamos dentición mixta. Como cuando se organiza una mudanza: todavía no está todo colocado, pero ya se puede ver si habrá espacio para cada cosa. Y ahí aparece una duda muy razonable: ¿cómo saber si conviene actuar ahora o esperar?
+
+## ¿Por qué importa esto para tu salud dental?
+
+Los dientes no crecen aislados. La posición de cada uno depende del espacio disponible, de cómo encajan las arcadas, del crecimiento de maxilar y mandíbula, de los hábitos y también de la herencia familiar.
+
+Una valoración temprana puede detectar una mordida cruzada, es decir, cuando algunos dientes superiores cierran por dentro de los inferiores. También permite revisar si faltan dientes, si hay dientes retenidos dentro del hueso o si un diente permanente está saliendo por un camino poco favorable.
+
+No todos los hallazgos necesitan tratamiento inmediato. De hecho, tratar demasiado pronto sin un objetivo claro puede alargar innecesariamente el proceso. La American Association of Orthodontists aconseja una primera consulta antes de los 7 años precisamente para decidir si conviene intervenir o vigilar el desarrollo ([AAO](https://aaoinfo.org/whats-trending/does-my-child-need-to-wait-to-see-an-orthodontist/)).
+
+La parte que a veces se pasa por alto es esta: una revisión también puede evitar preocupaciones. Si el crecimiento es correcto, podéis seguir con controles dentales normales y dejar que la boca haga su trabajo.
+
+## Señales que justifican una valoración antes de los 7 años
+
+Conviene pedir cita si observáis alguno de estos signos:
+
+- Mordida cruzada, mordida invertida o desviación de la mandíbula al cerrar.
+- Incisivos muy adelantados, apiñamiento marcado o dientes que parecen bloqueados.
+- Pérdida muy temprana o muy tardía de dientes de leche.
+- Hábito persistente de chuparse el dedo, uso continuado de chupete, dificultad al masticar o mordeduras frecuentes de mejilla o paladar.
+
+También merece una revisión un golpe en los dientes delanteros, la ausencia aparente de un diente permanente o una erupción que parece distinta a la de otros niños de la misma edad. No es cuestión de comparar sonrisas en el parque; se trata de comprobar qué está ocurriendo en esa boca concreta.
+
+Una caries o la pérdida prematura de un diente temporal pueden hacer que el espacio se cierre antes de tiempo. En algunos casos se indica un mantenedor de espacio; en otros, basta con controlarlo. Por eso no conviene sacar conclusiones solo mirando una foto.
+
+## Preguntas frecuentes
+
+### ¿Es normal que mi hijo tenga los dientes de leche separados?
+
+Sí, puede ser completamente normal. Los pequeños espacios entre dientes de leche suelen dejar sitio para dientes permanentes, que son más anchos. Lo que se valora no es solo si hay huecos, sino cómo evolucionan, qué dientes han salido y cómo encaja la mordida.
+
+### ¿Duele el ortodoncista infantil?
+
+La primera revisión no duele. Se realiza una exploración de la boca, de la forma de cerrar y del crecimiento facial. Cuando hace falta, se pueden tomar fotografías, registros o un escaneado intraoral, que crea un modelo digital de los dientes sin las pastas de impresión de antes.
+
+Las radiografías no son automáticas. Se solicitan de forma individualizada si ayudan a localizar dientes incluidos, ausentes o supernumerarios, que son dientes de más. La idea es obtener la información necesaria, no hacer pruebas porque sí.
+
+### ¿Cuánto tarda una primera valoración de ortodoncia?
+
+Depende de lo que haya que revisar, pero suele ser una consulta tranquila. Se recogen antecedentes médicos, hábitos, traumatismos y evolución dental; después se estudian la mordida y el espacio disponible.
+
+Al terminar, la familia debería salir con una explicación clara: cuál es el diagnóstico, si se recomienda observar o tratar, qué objetivo tendría hacerlo ahora y cuándo tocaría la siguiente revisión. Si no hay una razón concreta para intervenir, esperar también es una decisión clínica válida.
+
+### ¿Qué pasa si mi hijo tiene mordida cruzada?
+
+La mordida cruzada merece una valoración sin demorarlo. Puede ser dental, cuando afecta a la posición de uno o varios dientes, o estar relacionada con la anchura del maxilar o con la forma de cerrar.
+
+Algunos casos se corrigen durante el crecimiento con aparatos seleccionados para ese problema. Otros requieren seguimiento porque el momento adecuado depende de los dientes presentes y del patrón de crecimiento. No todos los niños con mordida cruzada reciben el mismo tratamiento.
+
+### ¿Merece la pena poner aparato antes de que salgan todos los dientes definitivos?
+
+Merece la pena cuando existe un objetivo medible: corregir una mordida cruzada, conservar espacio, controlar un hábito que está alterando la mordida o guiar la erupción de un diente con riesgo de salir mal.
+
+No hay evidencia para tratar precozmente a todos los niños por estética o por costumbre. En problemas como los incisivos muy adelantados, reducir el riesgo de traumatismo puede ser una consideración, aunque los estudios no justifican de forma universal hacer dos fases de tratamiento solo para prevenir golpes ([Koroluk, Tulloch y Phillips, 2003](https://pubmed.ncbi.nlm.nih.gov/12594415/); [Chen et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21967953/)).
+
+Una primera fase tampoco garantiza que no se necesite ortodoncia posterior. Puede resolver un problema específico y, años después, ser necesario alinear los dientes permanentes con brackets o [alineadores invisibles](/tratamientos/invisalign-alineadores-transparentes-arguelles-madrid-espana/) si el diagnóstico lo aconseja.
+
+### ¿Cuánto cuesta la ortodoncia para niños?
+
+No existe un precio honesto sin valorar el caso. El coste depende de si se necesita vigilancia, un mantenedor de espacio, un aparato puntual o una ortodoncia completa posterior. También influye la duración y el tipo de tratamiento.
+
+En la primera visita diagnóstica incluida de Debod Dental Clinic explicamos las alternativas y el presupuesto correspondiente antes de empezar. Si se propone tratamiento, conviene preguntar qué problema resuelve ahora, cuánto puede durar, si podría requerirse una segunda fase y qué ocurre si se espera.
+
+### ¿Es urgente llevar a mi hijo al ortodoncista?
+
+No toda irregularidad dental es urgente. Sí conviene pedir cita pronto si hay dolor, un traumatismo, dificultad para masticar, desviación clara al cerrar o un diente permanente que no aparece cuando debería.
+
+Los incisivos muy adelantados también merecen revisión, sobre todo si el niño practica deporte de contacto. Un protector bucal bien indicado y una valoración individual ayudan a tomar decisiones con calma, sin convertir cada detalle de la dentición en una urgencia.
+
+## ¿Qué debes saber antes de tu primera visita?
+
+- Anotad hábitos actuales o pasados: chupete, pulgar, respiración por la boca o rechinamiento.
+- Llevad información sobre golpes en los dientes, extracciones o pérdidas tempranas de dientes de leche.
+- Si tenéis radiografías previas, traedlas para evitar repetir pruebas innecesarias.
+- Preparad preguntas sobre el diagnóstico, las alternativas, la duración y la necesidad real de tratar ahora.
+
+La ortodoncia no sustituye el cuidado dental diario. Una buena higiene con pasta fluorada adaptada a la edad, menos picoteo azucarado y revisiones periódicas ayudan a que dientes y encías estén sanos antes de cualquier aparato. Si hay caries activas o inflamación de encías, se tratan primero. Una [limpieza dental](/tratamientos/examenes-dentales-y-limpiezas-dentales-arguelles-madrid/) y el control de la salud oral forman parte del camino.
+
+En Madrid, las Unidades de Salud Bucodental del SERMAS atienden a menores de 6 a 16 años para revisiones, flúor, selladores y otros cuidados preventivos. La ortodoncia está excluida de forma general, aunque conviene confirmar con el centro de salud qué prestaciones o derivaciones pueden corresponder en cada caso ([Comunidad de Madrid](https://dnfqencmde1ig.cloudfront.net/salud/atencion-salud-bucodental); [BOE](https://www.boe.es/buscar/pdf/2019/BOE-A-2019-4452-consolidado.pdf)).
+
+## ¿Cuándo es urgente ver a un dentista?
+
+Pide atención dental sin esperar si tu hijo tiene dolor intenso, hinchazón de cara o encía, fiebre asociada a un problema dental, sangrado que no cede tras un golpe o un diente que se ha movido, fracturado o salido de su sitio por un traumatismo.
+
+Tras un golpe en un diente permanente, el tiempo cuenta. Conservad el fragmento si se ha roto y contactad con un dentista cuanto antes. Si se ha caído un diente permanente completo, debe valorarse de urgencia; no ocurre lo mismo con un diente de leche. Ante la duda, llamad y explicad qué ha pasado.
+
+Una mordida alterada sin dolor rara vez requiere atención el mismo día, pero no debería dejarse durante años. Pedir valoración permite saber si hay que tratar, observar o programar una revisión.
+
+## ¿Por qué elegir Debod Dental Clinic?
+
+En Debod Dental Clinic, en C. de Ferraz, 24, Argüelles, 28008 Madrid, la primera visita diagnóstica está incluida. Estudiamos cada caso con una planificación ajustada a la etapa de crecimiento y explicamos de manera clara qué se ve, qué opciones existen y por qué puede ser razonable esperar.
+
+Cuando es necesario, usamos escáner intraoral y planificación digital para registrar la boca con precisión. Debod Dental Lab, nuestro laboratorio propio digital, facilita una comunicación directa en los tratamientos que requieren aparatos o restauraciones diseñadas para cada paciente.
+
+La filosofía es sencilla: tratar solo cuando aporta un beneficio real. Si tu hijo tiene 7 años o más, o reconoces alguna de las señales descritas, puedes [pedir cita](/contacto/) para una valoración en Argüelles. Estamos cerca de Ventura Rodríguez, Plaza de España y Argüelles, de lunes a viernes de 9:00 a 20:00.`
+},
   // ← Agent appends new ES posts here
 ]
 
@@ -5648,6 +5894,243 @@ A **3D CBCT scan** is used when clinically indicated to assess bone volume and a
 The final teeth should also be planned as carefully as the implants. Debod Dental Lab, the clinic’s in-house digital laboratory, supports communication between clinical planning and prosthetic design. This is useful when evaluating tooth shape, lip support, speech and cleaning access before committing to the definitive bridge.
 
 If you are considering full-mouth dental implants in Argüelles or elsewhere in Madrid, bring any previous X-rays, treatment plans and medical information to your assessment. Ask what can be retained, why each tooth may need removal, whether immediate loading is genuinely suitable and how your long-term reviews will work. You can [request an appointment](/en/contact/) to discuss your situation with the team. The aim is not to promise a standard smile. It is to make a careful, understandable plan for your own mouth.`
+},
+  'primera-cita-ortodoncia-arguelles-madrid': {
+  title: 'First Orthodontic Appointment in Argüelles',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'First Orthodontic Appointment — Debod Dental Clinic Argüelles',
+  metaDescription: 'Learn what happens at a first orthodontic appointment in Argüelles, Madrid, and how to choose the right treatment plan.',
+  excerpt: 'Thinking about braces or clear aligners? Find out what we assess at your first orthodontic appointment in Argüelles, Madrid.',
+  faqs: [
+    {
+      question: 'Does the first orthodontic appointment hurt?',
+      answer: 'No. The first visit is an assessment: we examine your bite, teeth, gums and jaw movement. If X-rays are needed, they are painless and only requested when clinically justified.'
+    },
+    {
+      question: 'How long does a first orthodontic appointment take?',
+      answer: 'It usually takes long enough to listen to your concerns, examine your mouth and review any necessary records. The exact timing depends on whether scans or photographs are required.'
+    },
+    {
+      question: 'Can I start orthodontic treatment if I have gum disease or cavities?',
+      answer: 'Not yet. Active decay and gum inflammation need treatment first, because teeth should only be moved in a healthy mouth.'
+    },
+    {
+      question: 'Are clear aligners suitable for everyone?',
+      answer: 'No. Clear aligners can be an excellent option for many cases, but fixed braces, growth guidance or another approach may be more predictable depending on the bite and the movements needed.'
+    },
+    {
+      question: 'Will I need retainers after orthodontic treatment?',
+      answer: 'Yes. Retainers help keep teeth in their new position after active treatment and are generally needed for long-term stability.'
+    }
+  ],
+  bodyMarkdown: `## What does a first orthodontic appointment at Debod Dental Clinic include?
+
+A first orthodontic appointment at **Debod Dental Clinic** is a careful assessment of your teeth, bite, gums and facial growth or jaw relationship. It is not a rushed sales conversation. We listen to what concerns you, explain what we can see and outline whether monitoring, early treatment or full orthodontic treatment may be appropriate.
+
+In Argüelles, Madrid, patients come to us for many different reasons: crowded teeth, gaps, a tooth that has not appeared, a bite that feels uneven, or simply because they avoid smiling in photos. The visible concern is not always the whole story. A small gap, for example, can be simple to manage—or it can be a sign that the bite needs closer attention.
+
+The first visit is included and gives you space to ask questions before committing to anything. You may bring previous X-rays, dental reports and a list of regular medication. If you are pregnant or think you could be, please tell the team before any X-ray is considered.
+
+## How much does a first orthodontic appointment cost in Madrid? — Honest pricing
+
+At Debod Dental Clinic, the **first diagnostic appointment is included**. The cost of orthodontic treatment itself varies considerably because every plan is different: the type of bite, complexity of tooth movement, treatment method, expected duration and whether other dental care is needed all affect the total.
+
+A trustworthy quote should not be guessed before examining your mouth. Following the assessment, clinical records and any individually justified imaging, you should receive a clear written treatment proposal explaining what is included. We can also discuss financing of up to 60 months, with 0% interest for the first 12 months and no upfront payment, subject to the clinic terms and the agreed plan.
+
+What happens if you are offered a fixed price before anyone has looked at your gums, roots or bite? Treat it with caution. Orthodontics is more like tailoring a suit than choosing a shelf-size garment: the starting point matters.
+
+## How do I know whether I am an ideal candidate?
+
+You may be a suitable candidate if you have crowding, spaces, a crossbite, open bite, deep bite, prominent front teeth or concerns about the way your teeth meet. Children may benefit from an assessment while they are growing, particularly if there is delayed or uneven eruption, repeated trauma to prominent incisors, persistent thumb sucking or a noticeable jaw imbalance.
+
+Adults can also have orthodontic treatment. Age alone is not a barrier. The key question is whether the teeth and supporting gums are healthy enough to move safely, and whether the plan suits your goals and daily routine.
+
+It may not be the right time to begin if there are **active cavities, gum inflammation or periodontal disease**. These conditions should be stabilised first. Orthodontics should never be used to cover up dental disease. A poor bite may also need fuller analysis before choosing clear aligners simply because they seem more discreet.
+
+At the appointment, we look for issues such as:
+
+- Teeth that are crowded, rotated, missing or trapped beneath the gum
+- A bite that is crossed, open, deep or noticeably forward
+- Gum bleeding, recession or poor plaque control
+- Jaw discomfort, restricted movement or habits affecting the bite
+
+Is it normal that a bite problem causes no pain? Yes. Many malocclusions have no obvious symptoms. That does not automatically mean treatment is necessary, but it is a good reason to have a proper assessment rather than relying on appearances alone. Research links malocclusion with oral-health-related quality of life, while expectations about preventing every future dental or jaw problem should remain realistic. [Read the systematic review](https://pubmed.ncbi.nlm.nih.gov/32487303/).
+
+## The step-by-step process at Debod
+
+The first stage is a conversation. We ask about your dental history, medical conditions, medication, allergies, previous trauma, habits and what you would like to change. This gives context to the examination. Teeth do not sit in isolation; they work with gums, bone, muscles and the jaw joints.
+
+Next, the orthodontic assessment looks at the face, smile, bite, teeth, gums and jaw movement. We may take photographs and create a digital model with an intraoral scanner. It is a little like making a precise map before planning a journey: without it, treatment decisions can become assumptions.
+
+X-rays are not automatic. Spanish regulations require each exposure to be individually justified, previous images reviewed where available and the minimum necessary imaging used. A panoramic X-ray may help assess eruption, roots or unerupted teeth. A side-view X-ray can help in selected cases involving jaw relationships. A 3D scan is reserved for situations where it would change the plan, such as complex tooth inclusion, asymmetry or surgical planning. [Spanish radiation-protection regulation](https://www.boe.es/eli/es/rd/2019/10/18/601) explains this individual approach.
+
+Once the records have been reviewed, we explain the diagnosis in plain English and discuss the choices. This could mean observation, interceptive treatment for a growing child, fixed braces, [clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/), skeletal anchorage with small orthodontic screws, or referral for combined orthodontic and jaw surgery in selected severe skeletal cases.
+
+The treatment plan should include expected timing, possible risks, retention and review visits. Here is the part many patients only discover later: finishing active treatment is not the finish line. Retainers are needed to reduce the chance of teeth shifting back.
+
+Where a custom appliance or restoration is relevant to a wider dental plan, our in-house **Debod Dental Lab** supports the digital workflow. For patients who need other care before orthodontics, we may first recommend treatment such as a [dental examination and cleaning](/en/treatments/dental-exams-and-cleanings-arguelles-madrid/) or restorative care. Healthy foundations first.
+
+## Questions we are always asked before booking
+
+### Does the first orthodontic appointment hurt?
+
+No. The assessment itself should not hurt. We examine the teeth, gums, bite and jaw movement, and a digital scan is generally comfortable. Some areas may be tender if you already have inflammation or a painful tooth, so please mention this at the start.
+
+### How long does it take to get a treatment plan?
+
+This depends on the records needed and the complexity of the case. Some cases are straightforward; others need a more detailed review of scans, tooth positions or growth patterns. It is better to take the time needed than to start moving teeth with unanswered questions.
+
+### Are clear aligners better than braces?
+
+Neither option is automatically better. Clear aligners can be very effective when the case and daily wear are suitable. Fixed braces may offer more predictable control for particular movements or complex bites. A review of adult cases found overall bite outcomes were less favourable with aligners than fixed appliances in some situations, which is why case selection and patient cooperation matter. [Read the review](https://pubmed.ncbi.nlm.nih.gov/31758191/).
+
+### How long do orthodontic results last?
+
+Results can last for many years, but teeth naturally have a tendency to move over time. **Long-term retainer use** is the usual way to protect the result. Retainers are not an optional afterthought; they are part of the plan.
+
+### Is orthodontic treatment guaranteed?
+
+No ethical clinician can guarantee an exact result or an exact finishing date before assessing the case. Biology, tooth movement, gum health, attendance and use of aligners or retainers all influence treatment. We do commit to explaining the expected outcome, limits, risks and alternatives clearly before you decide.
+
+### Is it worth booking if I am not sure I want treatment?
+
+Yes, if you want clarity. You may leave with reassurance that monitoring is enough, or with a practical explanation of the options. Sometimes the best treatment is simply to wait and review. That is still a useful answer.
+
+## Why choose Debod Dental Clinic in Argüelles?
+
+Debod Dental Clinic is located at **C. de Ferraz, 24, Argüelles, 28008 Madrid**, a short walk from the Temple of Debod and close to Ventura Rodríguez metro station on Line 3. Plaza de España and Argüelles stations are also nearby.
+
+Our orthodontic care is led by Dr. Víctor Guerrero, whose clinical focus includes orthodontics, dentofacial orthopaedics, clear aligners and skeletal anchorage. Every plan starts with a diagnosis, not a product. Digital intraoral scanning, carefully selected imaging and the support of Debod Dental Lab help us plan with accuracy while keeping the experience clear and comfortable.
+
+You will receive an explanation you can understand, time to weigh up the options and a written plan before moving forward. If you are ready to understand your bite, rather than merely hide it, [book an appointment](/en/contact/) with Debod Dental Clinic. We are open Monday to Friday, 9:00–20:00, and can also support international patients in English.`
+},
+  'edad-llevar-hijo-ortodoncista-madrid': {
+  title: 'What Age Should My Child See an Orthodontist?',
+  categoryLabel: 'Dental Health',
+  metaTitle: 'What Age Should My Child See an Orthodontist? — Debod Dental Clinic Argüelles',
+  metaDescription: 'Learn when your child should see an orthodontist, early warning signs and what happens at a first assessment in Madrid.',
+  excerpt: 'Most children should have an orthodontic assessment by age seven. It does not automatically mean braces; often, careful monitoring is the right plan.',
+  faqs: [
+    {
+      question: 'What age should my child first see an orthodontist?',
+      answer: 'A first orthodontic assessment is recommended by age seven, or sooner if you notice a bite, eruption or jaw-growth concern. This assessment does not mean your child will need braces straight away.'
+    },
+    {
+      question: 'Does orthodontic treatment hurt for children?',
+      answer: 'An orthodontic assessment should not hurt. If treatment is recommended later, children may feel temporary pressure after an appliance is fitted or adjusted, but this is usually manageable.'
+    },
+    {
+      question: 'How much does children’s orthodontic treatment cost?',
+      answer: 'The cost depends on the diagnosis, the type of treatment, its complexity and whether one or two treatment phases are needed. A personalised plan and estimate can only be confirmed after an assessment.'
+    },
+    {
+      question: 'How long does orthodontic treatment take for a child?',
+      answer: 'Timing varies. Some early treatments are short and targeted, while comprehensive orthodontic treatment is usually planned once enough permanent teeth have erupted. Your orthodontist can explain the likely timetable after assessing growth and tooth development.'
+    },
+    {
+      question: 'Is it urgent to see an orthodontist if my child has a crossbite?',
+      answer: 'A crossbite should be assessed promptly, particularly if the jaw shifts when your child bites together. Early assessment helps identify whether observation or treatment is appropriate.'
+    }
+  ],
+  bodyMarkdown: `## What age should my child see an orthodontist? — The direct answer
+
+Most children should have their first orthodontic assessment **by the age of seven**, even when their teeth appear fairly straight. At Debod Dental Clinic in Argüelles, Madrid, this appointment is about checking how the teeth, jaws and bite are developing; it does not automatically mean braces.
+
+By this age, children usually have a mixture of baby and adult teeth. That gives the orthodontist a useful window to assess whether permanent teeth have enough room, whether they are erupting in the expected direction and whether the upper and lower jaws are meeting comfortably. The American Association of Orthodontists also recommends an initial check by age seven. [Read its guidance here](https://aaoinfo.org/whats-trending/does-my-child-need-to-wait-to-see-an-orthodontist/).
+
+For many children, the right answer is simply to keep watching. That can be reassuring. A careful review now may prevent rushed decisions later, but early treatment is only worthwhile when there is a specific problem it can address.
+
+## Why does this matter for your child’s dental health?
+
+Teeth do not grow in isolation. They sit within the jaw, and the jaws are still growing throughout childhood. Think of it like checking whether there is enough room on a bookshelf before adding the next row of books. An orthodontic assessment looks ahead: not only at today’s teeth, but at the space and direction available for the adult teeth still to come.
+
+A child may benefit from an earlier review if there is a crossbite, a very prominent front tooth, crowding, a tooth that seems blocked, unusually large gaps or a jaw that moves to one side when closing. Early loss of baby teeth, late loss of them, thumb sucking or prolonged dummy use can also affect development.
+
+**Is it normal that my child’s front teeth look uneven while new teeth are coming through?** Often, yes. The first adult incisors can look large, spaced or slightly irregular compared with baby teeth. What matters is whether this is part of normal development or a sign that a tooth has no clear path to erupt. That distinction needs an individual examination.
+
+Untreated concerns can sometimes make cleaning harder, affect chewing or allow a bite discrepancy to become more established as growth continues. Still, treatment is not a race. Starting too early without a defined goal may mean more treatment than a child actually needs.
+
+## When should you book an orthodontic assessment sooner?
+
+Do not wait for age seven if you notice something that concerns you. A child should be assessed earlier where there is a visible change in the bite, a problem with eruption or a persistent habit affecting the mouth.
+
+Look out for:
+
+- A crossbite, underbite or a jaw that shifts sideways when closing.
+- Front teeth that protrude markedly, teeth that are crowded or blocked, or a permanent tooth that seems absent.
+- Biting the palate or cheek, difficulty chewing, or a bite that does not close comfortably.
+- Persistent thumb sucking or dummy use, especially when it is changing the position of the teeth.
+
+**What happens if a baby tooth falls out very early?** Sometimes the neighbouring teeth drift into that space, leaving less room for the adult tooth. In selected cases, an orthodontist may advise a space maintainer. In other cases, observation is perfectly appropriate. The details matter.
+
+A knock to the front teeth is another reason to arrange a dental review. Children with very prominent upper incisors may be more exposed to trauma, although this alone does not mean every child needs two phases of orthodontic treatment. Research has found that early treatment should be targeted to a clear clinical need, rather than used routinely for all children with protruding teeth. [One clinical trial is available here](https://pubmed.ncbi.nlm.nih.gov/12594415/) and [another here](https://pubmed.ncbi.nlm.nih.gov/21967953/).
+
+## What happens at a child’s first orthodontic visit?
+
+The first visit is usually calm and straightforward. The orthodontist reviews medical and dental history, asks about habits such as thumb sucking, examines the face, teeth and bite, and checks how the jaws move. Children are not expected to sit through treatment on that day.
+
+Photographs or an intraoral scan may be useful when a closer record is needed. An intraoral scan is a digital map of the teeth, rather like creating a precise 3D model without traditional impression material. X-rays are not automatic. They are prescribed only when they provide information that cannot be obtained from the examination alone, such as locating a tooth that has not erupted or checking for an extra or missing tooth.
+
+At Debod Dental Clinic, digital planning can help make these discussions clear for families. If treatment is indicated, the aim is to explain the diagnosis, what treatment is designed to change, what may happen if you wait, and whether a later phase is likely.
+
+## Questions parents often ask
+
+### Does orthodontic treatment hurt for children?
+
+The assessment itself should not hurt. If an appliance is needed, children may notice pressure or tenderness for a few days after it is fitted or adjusted. This is different from sharp pain. The exact experience depends on the appliance and the child, and the orthodontist can explain how to manage any initial discomfort.
+
+### How much does children’s orthodontic treatment cost?
+
+There is no honest one-price answer. The cost depends on the diagnosis, whether treatment is needed now or later, the appliance selected and the complexity of the case. A first diagnostic visit at Debod Dental Clinic is included, and any proposed plan should set out the expected treatment and costs clearly after assessment.
+
+Families in Madrid can also ask their local public dental service about routine children’s dental care. The Community of Madrid provides oral-health services for children and adolescents, although orthodontic treatment is generally excluded from the PADI scheme. [Check the Community of Madrid information](https://dnfqencmde1ig.cloudfront.net/salud/atencion-salud-bucodental).
+
+### How long does orthodontic treatment take for a child?
+
+It depends on the problem being treated. A targeted early intervention, such as correcting a specific crossbite or preserving space, may have a different timetable from later comprehensive treatment with braces or [clear aligners](/en/treatments/invisalign-clear-aligners-arguelles-madrid/). Some children need monitoring only. Others may need a first phase during growth and a second phase once more permanent teeth have erupted.
+
+This is the open question many parents understandably have: will early treatment avoid braces later? Sometimes it can simplify a later phase, but it does not guarantee that a second phase will not be needed. The decision should be based on the benefit for your child now, not a promise about a future result.
+
+### Is it urgent if my child has a crossbite?
+
+A crossbite should be checked promptly, especially if your child shifts their jaw sideways to make the teeth fit. It may be dental, skeletal or a combination of both. Early assessment helps determine whether treatment during growth could be useful or whether review is safer.
+
+### Does my child need braces if the teeth are crowded?
+
+Not always. Mild crowding can be monitored while more adult teeth erupt. More significant crowding may need a plan to manage space, which could involve observation, preserving space after early tooth loss, selective treatment or later comprehensive orthodontics. An orthodontist needs to assess the bite, jaw growth and developing teeth before advising.
+
+### Is it normal that my child still has baby teeth?
+
+It can be. Children lose baby teeth at different rates. A review is sensible if a baby tooth is lost much earlier or later than expected, an adult tooth is erupting in an unusual place, or one side is developing very differently from the other. The reason may be simple, but it is worth checking.
+
+### Can thumb sucking affect my child’s bite?
+
+Persistent thumb sucking can influence tooth position and the way the bite closes, particularly after the early childhood years. Supportive habit guidance and, where indicated, a suitable appliance can be considered. The priority is understanding why the habit continues and choosing an approach your child can manage comfortably.
+
+## What should you know before your first visit?
+
+You do not need to prepare perfectly. A few practical details make the consultation more useful:
+
+- Bring information about previous dental injuries, tooth extractions and relevant medical history.
+- Tell the orthodontist about thumb sucking, dummy use, mouth breathing or chewing difficulties.
+- Bring any previous dental X-rays if you have them; new images are only taken if clinically justified.
+- Encourage your child to ask questions. A good visit should feel understandable, not intimidating.
+
+Keep attending routine dental check-ups while orthodontic questions are being assessed. Healthy teeth and gums come first. Orthodontics does not replace [dental examinations and cleanings](/en/treatments/dental-exams-and-cleanings-arguelles-madrid/), fluoride toothpaste suited to the child’s age, sensible limits on frequent sugary snacks or a mouthguard for contact sports.
+
+## When is it urgent to see a dentist?
+
+Contact a dentist promptly if your child has facial swelling, significant tooth pain, bleeding after an injury that does not settle, a knocked-out permanent tooth, difficulty breathing or swallowing, or a dental infection. These are dental concerns that need timely care rather than waiting for an orthodontic appointment.
+
+For orthodontic concerns, arrange an earlier assessment if a crossbite is causing the jaw to shift, a permanent tooth appears trapped or missing, a front tooth is very prominent after trauma, or chewing is difficult. If in doubt, it is reasonable to ask. A short assessment can clarify whether the issue needs action now or simply sensible monitoring.
+
+## Why choose Debod Dental Clinic?
+
+At Debod Dental Clinic, C. de Ferraz, 24, Argüelles, 28008 Madrid, children’s orthodontic assessments are approached with honest, individual planning. The aim is not to place an appliance because a child has reached a particular birthday. It is to understand growth, eruption, bite and space, then recommend only what is appropriate.
+
+The clinic combines digital assessment with the support of its in-house Debod Dental Lab where relevant. This helps the team explain treatment planning clearly and consider options carefully. If your child is seven or older, or you have noticed one of the warning signs described here, you can [book an appointment](/en/contact/) for an included first diagnostic visit.
+
+Debod Dental Clinic is close to Ventura Rodríguez station on Line 3, with Plaza de España and Argüelles also nearby. The clinic is open Monday to Friday, 9:00–20:00. Call +34 914 47 62 25 or email info@deboddentalclinic.com to arrange your child’s assessment.`
 },
   // ← Agent appends new EN overlays here
 }
